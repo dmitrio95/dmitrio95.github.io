@@ -1,0 +1,37 @@
+<map id="mscore/inspector/offsetSelect.cpp" name="mscore/inspector/offsetSelect.cpp">
+<area shape="rect" id="node2" href="$offset_select_8h.html" title="offsetSelect.h" alt="" coords="555,80,658,107"/>
+<area shape="rect" id="node4" href="$types_8h.html" title="libmscore/types.h" alt="" coords="2075,991,2200,1017"/>
+<area shape="rect" id="node6" href="$icons_8h.html" title="icons.h" alt="" coords="2911,80,2975,107"/>
+<area shape="rect" id="node7" href="$musescore_8h.html" title="musescore.h" alt="" coords="1155,80,1253,107"/>
+<area shape="rect" id="node8" href="$globals_8h.html" title="globals.h" alt="" coords="1456,155,1531,181"/>
+<area shape="rect" id="node14" href="$updatechecker_8h.html" title="updatechecker.h" alt="" coords="903,155,1022,181"/>
+<area shape="rect" id="node15" href="$musescore_core_8h.html" title="libmscore/musescoreCore.h" alt="" coords="1046,155,1231,181"/>
+<area shape="rect" id="node16" href="$libmscore_2score_8h.html" title="Definition of Score class. " alt="" coords="1307,155,1432,181"/>
+<area shape="rect" id="node44" href="$newwizard_8h.html" title="newwizard.h" alt="" coords="2425,229,2519,256"/>
+<area shape="rect" id="node17" href="$input_8h.html" title="input.h" alt="" coords="2235,393,2296,420"/>
+<area shape="rect" id="node27" href="$property_8h.html" title="property.h" alt="" coords="1620,543,1700,569"/>
+<area shape="rect" id="node28" href="$libmscore_2instrument_8h.html" title="instrument.h" alt="" coords="1594,229,1689,256"/>
+<area shape="rect" id="node32" href="$select_8h.html" title="select.h" alt="" coords="1549,468,1617,495"/>
+<area shape="rect" id="node38" href="$synthesizerstate_8h.html" title="synthesizerstate.h" alt="" coords="1049,229,1178,256"/>
+<area shape="rect" id="node40" href="$mscoreview_8h.html" title="mscoreview.h" alt="" coords="2033,229,2135,256"/>
+<area shape="rect" id="node41" href="$spannermap_8h.html" title="spannermap.h" alt="" coords="1203,229,1307,256"/>
+<area shape="rect" id="node43" href="$layoutbreak_8h.html" title="layoutbreak.h" alt="" coords="2146,617,2246,644"/>
+<area shape="rect" id="node18" href="$mscore_8h.html" title="mscore.h" alt="" coords="2034,841,2110,868"/>
+<area shape="rect" id="node20" href="$durationtype_8h.html" title="durationtype.h" alt="" coords="2261,543,2365,569"/>
+<area shape="rect" id="node26" href="$beam_8h.html" title="beam.h" alt="" coords="2313,468,2378,495"/>
+<area shape="rect" id="node19" href="$style_8h.html" title="style.h" alt="" coords="2091,916,2152,943"/>
+<area shape="rect" id="node21" href="$libmscore_2fraction_8h.html" title="fraction.h" alt="" coords="2631,767,2707,793"/>
+<area shape="rect" id="node22" href="$note_8h.html" title="Definition of classes Note and NoteHead. " alt="" coords="2269,617,2328,644"/>
+<area shape="rect" id="node23" href="$element_8h.html" title="element.h" alt="" coords="2259,692,2338,719"/>
+<area shape="rect" id="node24" href="$pitchspelling_8h.html" title="pitchspelling.h" alt="" coords="1965,692,2070,719"/>
+<area shape="rect" id="node25" href="$key_8h.html" title="key.h" alt="" coords="2369,692,2423,719"/>
+<area shape="rect" id="node29" href="$stringdata_8h.html" title="stringdata.h" alt="" coords="1483,311,1573,338"/>
+<area shape="rect" id="node31" href="$interval_8h.html" title="interval.h" alt="" coords="2011,468,2085,495"/>
+<area shape="rect" id="node33" href="$notifier_8hpp.html" title="notifier.hpp" alt="" coords="1598,311,1685,338"/>
+<area shape="rect" id="node34" href="$event_8h.html" title="synthesizer/event.h" alt="" coords="1709,311,1845,338"/>
+<area shape="rect" id="node35" href="$clef_8h.html" title="Definition of classes Clef. " alt="" coords="1881,617,1935,644"/>
+<area shape="rect" id="node30" href="$xml_8h.html" title="xml.h" alt="" coords="1723,393,1778,420"/>
+<area shape="rect" id="node48" href="$timesig_8h.html" title="libmscore/timesig.h" alt="" coords="2650,311,2785,338"/>
+<area shape="rect" id="node49" href="$sig_8h.html" title="sig.h" alt="" coords="2695,543,2745,569"/>
+<area shape="rect" id="node50" href="$groups_8h.html" title="groups.h" alt="" coords="2504,393,2576,420"/>
+</map>

@@ -1,0 +1,9 @@
+<map id="FluidS::Voice" name="FluidS::Voice">
+<area shape="rect" id="node2" href="$class_fluid_s_1_1_channel.html" title="FluidS::Channel" alt="" coords="196,5,311,32"/>
+<area shape="rect" id="node3" href="$struct_fluid_s_1_1_phase.html" title="FluidS::Phase" alt="" coords="201,56,305,83"/>
+<area shape="rect" id="node4" href="$struct_fluid_s_1_1fluid__env__data__t.html" title="FluidS::fluid_env_data_t" alt="" coords="172,111,335,137"/>
+<area shape="rect" id="node5" href="$struct_fluid_s_1_1_mod.html" title="FluidS::Mod" alt="" coords="207,161,299,188"/>
+<area shape="rect" id="node6" href="$class_fluid_s_1_1_sample.html" title="FluidS::Sample" alt="" coords="198,212,309,239"/>
+<area shape="rect" id="node7" href="$class_fluid_s_1_1_s_font.html" title="FluidS::SFont" alt="" coords="5,212,108,239"/>
+<area shape="rect" id="node8" href="$class_fluid_s_1_1_generator.html" title="SoundFont generator structure. " alt="" coords="191,263,315,289"/>
+</map>

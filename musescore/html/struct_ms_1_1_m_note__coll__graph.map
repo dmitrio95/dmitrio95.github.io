@@ -1,0 +1,5 @@
+<map id="Ms::MNote" name="Ms::MNote">
+<area shape="rect" id="node2" href="$class_ms_1_1_event.html" title="Ms::Event" alt="" coords="31,157,114,184"/>
+<area shape="rect" id="node3" href="$class_ms_1_1_play_event.html" title="Ms::PlayEvent" alt="" coords="19,81,127,108"/>
+<area shape="rect" id="node4" href="$class_ms_1_1_midi_core_event.html" title="Ms::MidiCoreEvent" alt="" coords="5,5,140,32"/>
+</map>

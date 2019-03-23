@@ -1,0 +1,8 @@
+<map id="Ms::SlurTieSegment" name="Ms::SlurTieSegment">
+<area shape="rect" id="node2" href="$class_ms_1_1_spanner_segment.html" title="parent: System " alt="" coords="31,323,179,349"/>
+<area shape="rect" id="node3" href="$class_ms_1_1_element.html" title="Base class of score layout elements. " alt="" coords="39,247,135,273"/>
+<area shape="rect" id="node4" href="$class_ms_1_1_score_element.html" title="Ms::ScoreElement" alt="" coords="22,171,153,197"/>
+<area shape="rect" id="node5" href="$class_ms_1_1_linked_elements.html" title="Ms::LinkedElements" alt="" coords="17,81,158,108"/>
+<area shape="rect" id="node7" href="$class_ms_1_1_shape.html" title="Ms::Shape" alt="" coords="207,323,293,349"/>
+<area shape="rect" id="node9" href="$struct_ms_1_1_u_p.html" title="Ms::UP" alt="" coords="317,323,383,349"/>
+</map>

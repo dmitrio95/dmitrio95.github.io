@@ -1,0 +1,7 @@
+<map id="Ms::MusicXmlSpannerDesc" name="Ms::MusicXmlSpannerDesc">
+<area shape="rect" id="node2" href="$class_ms_1_1_s_line.html" title="virtual base class for Hairpin, Trill and TextLine " alt="" coords="57,399,139,425"/>
+<area shape="rect" id="node3" href="$class_ms_1_1_spanner.html" title="Virtual base class for slurs, ties, lines etc. " alt="" coords="50,323,146,349"/>
+<area shape="rect" id="node4" href="$class_ms_1_1_element.html" title="Base class of score layout elements. " alt="" coords="50,247,146,273"/>
+<area shape="rect" id="node5" href="$class_ms_1_1_score_element.html" title="Ms::ScoreElement" alt="" coords="33,171,163,197"/>
+<area shape="rect" id="node6" href="$class_ms_1_1_linked_elements.html" title="Ms::LinkedElements" alt="" coords="27,81,169,108"/>
+</map>

@@ -1,0 +1,37 @@
+<map id="mscore/plugin/api/elements.cpp" name="mscore/plugin/api/elements.cpp">
+<area shape="rect" id="node2" href="$elements_8h.html" title="elements.h" alt="" coords="462,80,549,107"/>
+<area shape="rect" id="node4" href="$property_8h.html" title="libmscore/property.h" alt="" coords="151,379,291,405"/>
+<area shape="rect" id="node3" href="$mscore_2plugin_2api_2score_element_8h.html" title="scoreelement.h" alt="" coords="258,229,369,256"/>
+<area shape="rect" id="node5" href="$element_8h.html" title="libmscore/element.h" alt="" coords="539,677,677,704"/>
+<area shape="rect" id="node15" href="$chord_8h.html" title="Definition of classes Chord, HelpLine and NoteList. " alt="" coords="637,155,763,181"/>
+<area shape="rect" id="node22" href="$note_8h.html" title="Definition of classes Note and NoteHead. " alt="" coords="1076,453,1135,480"/>
+<area shape="rect" id="node27" href="$lyrics_8h.html" title="libmscore/lyrics.h" alt="" coords="58,155,182,181"/>
+<area shape="rect" id="node32" href="$measure_8h.html" title="Definition of class Measure. " alt="" coords="531,453,674,480"/>
+<area shape="rect" id="node36" href="$segment_8h.html" title="segment.h" alt="" coords="197,603,280,629"/>
+<area shape="rect" id="node37" href="$notedot_8h.html" title="libmscore/notedot.h" alt="" coords="367,379,503,405"/>
+<area shape="rect" id="node38" href="$accidental_8h.html" title="Definition of class Accidental. " alt="" coords="1433,603,1585,629"/>
+<area shape="rect" id="node6" href="$spatium_8h.html" title="spatium.h" alt="" coords="569,752,647,779"/>
+<area shape="rect" id="node7" href="$libmscore_2fraction_8h.html" title="fraction.h" alt="" coords="690,752,766,779"/>
+<area shape="rect" id="node13" href="$libmscore_2score_element_8h.html" title="scoreElement.h" alt="" coords="233,827,346,853"/>
+<area shape="rect" id="node14" href="$shape_8h.html" title="shape.h" alt="" coords="814,752,882,779"/>
+<area shape="rect" id="node9" href="$mscore_8h.html" title="mscore.h" alt="" coords="602,827,678,853"/>
+<area shape="rect" id="node10" href="$style_8h.html" title="style.h" alt="" coords="259,901,320,928"/>
+<area shape="rect" id="node11" href="$chordlist_8h.html" title="chordlist.h" alt="" coords="241,976,324,1003"/>
+<area shape="rect" id="node12" href="$types_8h.html" title="types.h" alt="" coords="349,976,414,1003"/>
+<area shape="rect" id="node17" href="$chordrest_8h.html" title="chordrest.h" alt="" coords="801,229,887,256"/>
+<area shape="rect" id="node18" href="$symbol_8h.html" title="symbol.h" alt="" coords="1237,528,1312,555"/>
+<area shape="rect" id="node20" href="$duration_8h.html" title="duration.h" alt="" coords="853,304,931,331"/>
+<area shape="rect" id="node26" href="$beam_8h.html" title="beam.h" alt="" coords="763,304,829,331"/>
+<area shape="rect" id="node19" href="$bsymbol_8h.html" title="bsymbol.h" alt="" coords="1140,603,1223,629"/>
+<area shape="rect" id="node21" href="$durationtype_8h.html" title="durationtype.h" alt="" coords="840,379,944,405"/>
+<area shape="rect" id="node23" href="$noteevent_8h.html" title="noteevent.h" alt="" coords="1123,528,1213,555"/>
+<area shape="rect" id="node24" href="$pitchspelling_8h.html" title="pitchspelling.h" alt="" coords="891,677,997,704"/>
+<area shape="rect" id="node25" href="$key_8h.html" title="key.h" alt="" coords="1043,528,1098,555"/>
+<area shape="rect" id="node28" href="$line_8h.html" title="line.h" alt="" coords="43,528,96,555"/>
+<area shape="rect" id="node30" href="$text_8h.html" title="text.h" alt="" coords="106,229,161,256"/>
+<area shape="rect" id="node29" href="$spanner_8h.html" title="spanner.h" alt="" coords="94,603,173,629"/>
+<area shape="rect" id="node31" href="$textbase_8h.html" title="textbase.h" alt="" coords="97,304,180,331"/>
+<area shape="rect" id="node33" href="$measurebase_8h.html" title="Definition of MeasureBase class. " alt="" coords="553,528,663,555"/>
+<area shape="rect" id="node35" href="$segmentlist_8h.html" title="segmentlist.h" alt="" coords="429,528,529,555"/>
+<area shape="rect" id="node34" href="$layoutbreak_8h.html" title="layoutbreak.h" alt="" coords="558,603,658,629"/>
+</map>

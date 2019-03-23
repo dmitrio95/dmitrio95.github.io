@@ -1,0 +1,7 @@
+<map id="Ms::ElementPattern" name="Ms::ElementPattern">
+<area shape="rect" id="node2" href="$class_ms_1_1_fraction.html" title="Ms::Fraction" alt="" coords="5,323,100,349"/>
+<area shape="rect" id="node3" href="$class_ms_1_1_system.html" title="One row of measures for all instruments; a complete piece of the timeline. " alt="" coords="125,323,218,349"/>
+<area shape="rect" id="node4" href="$class_ms_1_1_element.html" title="Base class of score layout elements. " alt="" coords="123,247,219,273"/>
+<area shape="rect" id="node5" href="$class_ms_1_1_score_element.html" title="Ms::ScoreElement" alt="" coords="106,171,237,197"/>
+<area shape="rect" id="node6" href="$class_ms_1_1_linked_elements.html" title="Ms::LinkedElements" alt="" coords="101,81,242,108"/>
+</map>

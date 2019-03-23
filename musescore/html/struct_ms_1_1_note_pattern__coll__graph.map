@@ -1,0 +1,7 @@
+<map id="Ms::NotePattern" name="Ms::NotePattern">
+<area shape="rect" id="node2" href="$class_ms_1_1_t_duration.html" title="Ms::TDuration" alt="" coords="5,323,111,349"/>
+<area shape="rect" id="node3" href="$class_ms_1_1_system.html" title="One row of measures for all instruments; a complete piece of the timeline. " alt="" coords="135,323,229,349"/>
+<area shape="rect" id="node4" href="$class_ms_1_1_element.html" title="Base class of score layout elements. " alt="" coords="134,247,230,273"/>
+<area shape="rect" id="node5" href="$class_ms_1_1_score_element.html" title="Ms::ScoreElement" alt="" coords="117,171,247,197"/>
+<area shape="rect" id="node6" href="$class_ms_1_1_linked_elements.html" title="Ms::LinkedElements" alt="" coords="111,81,253,108"/>
+</map>

@@ -1,0 +1,12 @@
+<map id="libmscore/vibrato.h" name="libmscore/vibrato.h">
+<area shape="rect" id="node2" href="$element_8cpp.html" title="Implementation of Element, ElementList. " alt="" coords="5,87,159,114"/>
+<area shape="rect" id="node3" href="$rendermidi_8cpp.html" title="render score into event list " alt="" coords="183,87,349,114"/>
+<area shape="rect" id="node4" href="$vibrato_8cpp.html" title="libmscore/vibrato.cpp" alt="" coords="374,87,521,114"/>
+<area shape="rect" id="node5" href="$importgtp_8h.html" title="mscore/importgtp.h" alt="" coords="545,87,680,114"/>
+<area shape="rect" id="node9" href="$importgtp_8cpp.html" title="mscore/importgtp.cpp" alt="" coords="724,169,872,196"/>
+<area shape="rect" id="node10" href="$inspector_vibrato_8cpp.html" title="mscore/inspector/inspector\lVibrato.cpp" alt="" coords="755,80,934,121"/>
+<area shape="rect" id="node11" href="$menus_8cpp.html" title="mscore/menus.cpp" alt="" coords="958,87,1091,114"/>
+<area shape="rect" id="node6" href="$importgtp-gp4_8cpp.html" title="mscore/importgtp&#45;gp4.cpp" alt="" coords="131,169,305,196"/>
+<area shape="rect" id="node7" href="$importgtp-gp5_8cpp.html" title="mscore/importgtp&#45;gp5.cpp" alt="" coords="329,169,502,196"/>
+<area shape="rect" id="node8" href="$importgtp-gp6_8cpp.html" title="mscore/importgtp&#45;gp6.cpp" alt="" coords="526,169,699,196"/>
+</map>

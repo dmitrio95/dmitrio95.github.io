@@ -1,0 +1,11 @@
+<map id="Ms::LayoutContext" name="Ms::LayoutContext">
+<area shape="rect" id="node2" href="$class_ms_1_1_page.html" title="Ms::Page" alt="" coords="416,358,495,385"/>
+<area shape="rect" id="node3" href="$class_ms_1_1_element.html" title="Base class of score layout elements. " alt="" coords="314,260,410,287"/>
+<area shape="rect" id="node7" href="$class_ms_1_1_measure_base.html" title="Virtual base class for Measure, HBox and VBox. " alt="" coords="263,358,391,385"/>
+<area shape="rect" id="node13" href="$class_ms_1_1_system.html" title="One row of measures for all instruments; a complete piece of the timeline. " alt="" coords="519,358,613,385"/>
+<area shape="rect" id="node4" href="$class_ms_1_1_score_element.html" title="Ms::ScoreElement" alt="" coords="297,171,427,197"/>
+<area shape="rect" id="node9" href="$class_ms_1_1_score.html" title="Ms::Score" alt="" coords="63,260,146,287"/>
+<area shape="rect" id="node5" href="$class_ms_1_1_linked_elements.html" title="Ms::LinkedElements" alt="" coords="291,81,433,108"/>
+<area shape="rect" id="node8" href="$class_ms_1_1_fraction.html" title="Ms::Fraction" alt="" coords="183,260,277,287"/>
+<area shape="rect" id="node11" href="$class_ms_1_1_synthesizer_state.html" title="Ms::SynthesizerState" alt="" coords="28,171,176,197"/>
+</map>

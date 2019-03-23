@@ -1,0 +1,8 @@
+<map id="Graphical Class Hierarchy" name="Graphical Class Hierarchy">
+<area shape="rect" id="node2" href="$class_ms_1_1_change_text.html" title="Ms::ChangeText" alt="" coords="169,56,288,83"/>
+<area shape="rect" id="node5" href="$class_ms_1_1_split_join_text.html" title="Ms::SplitJoinText" alt="" coords="167,107,291,133"/>
+<area shape="rect" id="node3" href="$class_ms_1_1_insert_text.html" title="Ms::InsertText" alt="" coords="347,5,453,32"/>
+<area shape="rect" id="node4" href="$class_ms_1_1_remove_text.html" title="Ms::RemoveText" alt="" coords="339,56,461,83"/>
+<area shape="rect" id="node6" href="$class_ms_1_1_join_text.html" title="Ms::JoinText" alt="" coords="351,107,449,133"/>
+<area shape="rect" id="node7" href="$class_ms_1_1_split_text.html" title="Ms::SplitText" alt="" coords="350,157,450,184"/>
+</map>

@@ -1,0 +1,7 @@
+<map id="FluidS::Preset" name="FluidS::Preset">
+<area shape="rect" id="node2" href="$class_fluid_s_1_1_zone.html" title="FluidS::Zone" alt="" coords="97,184,193,211"/>
+<area shape="rect" id="node3" href="$class_fluid_s_1_1_instrument.html" title="FluidS::Instrument" alt="" coords="5,273,135,300"/>
+<area shape="rect" id="node4" href="$class_fluid_s_1_1_generator.html" title="SoundFont generator structure. " alt="" coords="45,95,169,121"/>
+<area shape="rect" id="node5" href="$class_fluid_s_1_1_sample.html" title="FluidS::Sample" alt="" coords="193,95,304,121"/>
+<area shape="rect" id="node6" href="$class_fluid_s_1_1_s_font.html" title="FluidS::SFont" alt="" coords="259,5,361,32"/>
+</map>

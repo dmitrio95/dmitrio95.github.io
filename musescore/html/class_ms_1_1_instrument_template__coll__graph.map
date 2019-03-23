@@ -1,0 +1,8 @@
+<map id="Ms::InstrumentTemplate" name="Ms::InstrumentTemplate">
+<area shape="rect" id="node2" href="$class_ms_1_1_staff_type.html" title="Ms::StaffType" alt="" coords="208,5,313,32"/>
+<area shape="rect" id="node3" href="$struct_ms_1_1_interval.html" title="Ms::Interval" alt="" coords="215,56,306,83"/>
+<area shape="rect" id="node4" href="$class_ms_1_1_drumset.html" title="Ms::Drumset" alt="" coords="211,107,310,133"/>
+<area shape="rect" id="node5" href="$class_ms_1_1_string_data.html" title="Ms::StringData" alt="" coords="205,157,316,184"/>
+<area shape="rect" id="node6" href="$struct_ms_1_1_clef_type_list.html" title="Ms::ClefTypeList" alt="" coords="199,208,322,235"/>
+<area shape="rect" id="node7" href="$class_ms_1_1_staff_name_list.html" title="Ms::StaffNameList" alt="" coords="195,265,327,292"/>
+</map>

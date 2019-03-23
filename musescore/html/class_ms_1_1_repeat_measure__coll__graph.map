@@ -1,0 +1,11 @@
+<map id="Ms::RepeatMeasure" name="Ms::RepeatMeasure">
+<area shape="rect" id="node2" href="$class_ms_1_1_rest.html" title="This class implements a rest. " alt="" coords="251,488,327,515"/>
+<area shape="rect" id="node3" href="$class_ms_1_1_chord_rest.html" title="Ms::ChordRest" alt="" coords="233,412,344,439"/>
+<area shape="rect" id="node4" href="$class_ms_1_1_duration_element.html" title="Virtual base class for Chord, Rest and Tuplet. " alt="" coords="5,323,151,349"/>
+<area shape="rect" id="node5" href="$class_ms_1_1_element.html" title="Base class of score layout elements. " alt="" coords="169,247,265,273"/>
+<area shape="rect" id="node10" href="$class_ms_1_1_beam.html" title="Ms::Beam" alt="" coords="175,323,258,349"/>
+<area shape="rect" id="node11" href="$class_ms_1_1_tab_duration_symbol.html" title="Ms::TabDurationSymbol" alt="" coords="282,323,445,349"/>
+<area shape="rect" id="node6" href="$class_ms_1_1_score_element.html" title="Ms::ScoreElement" alt="" coords="151,171,282,197"/>
+<area shape="rect" id="node7" href="$class_ms_1_1_linked_elements.html" title="Ms::LinkedElements" alt="" coords="146,81,287,108"/>
+<area shape="rect" id="node9" href="$class_ms_1_1_t_duration.html" title="Ms::TDuration" alt="" coords="469,323,575,349"/>
+</map>

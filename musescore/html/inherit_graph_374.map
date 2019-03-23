@@ -1,0 +1,9 @@
+<map id="Graphical Class Hierarchy" name="Graphical Class Hierarchy">
+<area shape="rect" id="node1" href="$class_ms_1_1_script_entry.html" title="Ms::ScriptEntry" alt="" coords="5,107,119,133"/>
+<area shape="rect" id="node2" href="$class_ms_1_1_command_script_entry.html" title="Ms::CommandScriptEntry" alt="" coords="167,5,340,32"/>
+<area shape="rect" id="node3" href="$class_ms_1_1_init_script_entry.html" title="Ms::InitScriptEntry" alt="" coords="188,56,319,83"/>
+<area shape="rect" id="node4" href="$class_ms_1_1_inspector_script_entry.html" title="Ms::InspectorScriptEntry" alt="" coords="170,107,337,133"/>
+<area shape="rect" id="node5" href="$class_ms_1_1_palette_element_script_entry.html" title="Ms::PaletteElementScript\lEntry" alt="" coords="168,158,339,199"/>
+<area shape="rect" id="node6" href="$class_ms_1_1_test_script_entry.html" title="Ms::TestScriptEntry" alt="" coords="184,224,323,251"/>
+<area shape="rect" id="node7" href="$class_ms_1_1_score_test_script_entry.html" title="Ms::ScoreTestScriptEntry" alt="" coords="388,224,561,251"/>
+</map>

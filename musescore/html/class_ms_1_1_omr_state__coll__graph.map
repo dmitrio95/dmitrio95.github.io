@@ -1,0 +1,8 @@
+<map id="Ms::OmrState" name="Ms::OmrState">
+<area shape="rect" id="node2" href="$class_ms_1_1_fraction.html" title="Ms::Fraction" alt="" coords="5,336,100,363"/>
+<area shape="rect" id="node3" href="$class_ms_1_1_master_score.html" title="Ms::MasterScore" alt="" coords="125,336,247,363"/>
+<area shape="rect" id="node4" href="$class_ms_1_1_score.html" title="Ms::Score" alt="" coords="145,260,227,287"/>
+<area shape="rect" id="node6" href="$class_ms_1_1_score_element.html" title="Ms::ScoreElement" alt="" coords="121,171,251,197"/>
+<area shape="rect" id="node7" href="$class_ms_1_1_linked_elements.html" title="Ms::LinkedElements" alt="" coords="105,81,246,108"/>
+<area shape="rect" id="node9" href="$class_ms_1_1_synthesizer_state.html" title="Ms::SynthesizerState" alt="" coords="289,171,437,197"/>
+</map>

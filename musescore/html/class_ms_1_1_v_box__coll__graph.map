@@ -1,0 +1,8 @@
+<map id="Ms::VBox" name="Ms::VBox">
+<area shape="rect" id="node2" href="$class_ms_1_1_box.html" title="virtual base class for frames &quot;boxes&quot; " alt="" coords="141,412,212,439"/>
+<area shape="rect" id="node3" href="$class_ms_1_1_measure_base.html" title="Virtual base class for Measure, HBox and VBox. " alt="" coords="113,336,241,363"/>
+<area shape="rect" id="node4" href="$class_ms_1_1_element.html" title="Base class of score layout elements. " alt="" coords="39,247,135,273"/>
+<area shape="rect" id="node5" href="$class_ms_1_1_score_element.html" title="Ms::ScoreElement" alt="" coords="22,171,153,197"/>
+<area shape="rect" id="node6" href="$class_ms_1_1_linked_elements.html" title="Ms::LinkedElements" alt="" coords="17,81,158,108"/>
+<area shape="rect" id="node8" href="$class_ms_1_1_fraction.html" title="Ms::Fraction" alt="" coords="160,247,255,273"/>
+</map>

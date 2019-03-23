@@ -1,0 +1,13 @@
+<map id="mscore/paletteBoxButton.h" name="mscore/paletteBoxButton.h">
+<area shape="rect" id="node2" href="$palettebox_8h.html" title="mscore/palettebox.h" alt="" coords="601,80,741,107"/>
+<area shape="rect" id="node5" href="$palette_8cpp.html" title="mscore/palette.cpp" alt="" coords="5,155,139,181"/>
+<area shape="rect" id="node12" href="$palette_box_button_8cpp.html" title="mscore/paletteBoxButton.cpp" alt="" coords="765,80,960,107"/>
+<area shape="rect" id="node3" href="$menus_8cpp.html" title="mscore/menus.cpp" alt="" coords="163,155,296,181"/>
+<area shape="rect" id="node4" href="$musescore_8cpp.html" title="mscore/musescore.cpp" alt="" coords="321,155,479,181"/>
+<area shape="rect" id="node6" href="$palettebox_8cpp.html" title="mscore/palettebox.cpp" alt="" coords="504,155,659,181"/>
+<area shape="rect" id="node7" href="$prefsdialog_8cpp.html" title="mscore/prefsdialog.cpp" alt="" coords="683,155,840,181"/>
+<area shape="rect" id="node8" href="$scriptentry_8cpp.html" title="mscore/script/scriptentry.cpp" alt="" coords="865,155,1055,181"/>
+<area shape="rect" id="node9" href="$selectionwindow_8cpp.html" title="mscore/selectionwindow.cpp" alt="" coords="1079,155,1270,181"/>
+<area shape="rect" id="node10" href="$workspace_8cpp.html" title="mscore/workspace.cpp" alt="" coords="1295,155,1452,181"/>
+<area shape="rect" id="node11" href="$workspacedialog_8cpp.html" title="mscore/workspacedialog.cpp" alt="" coords="1477,155,1667,181"/>
+</map>

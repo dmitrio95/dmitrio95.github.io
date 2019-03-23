@@ -1,0 +1,7 @@
+<map id="Ms::Tuplet2" name="Ms::Tuplet2">
+<area shape="rect" id="node2" href="$class_ms_1_1_tuplet.html" title="Example of 1/8 triplet: _baseLen = 1/8 _actualNotes = 3 _normalNotes = 2 (3 notes played in the time ..." alt="" coords="45,399,129,425"/>
+<area shape="rect" id="node3" href="$class_ms_1_1_duration_element.html" title="Virtual base class for Chord, Rest and Tuplet. " alt="" coords="15,323,160,349"/>
+<area shape="rect" id="node4" href="$class_ms_1_1_element.html" title="Base class of score layout elements. " alt="" coords="39,247,135,273"/>
+<area shape="rect" id="node5" href="$class_ms_1_1_score_element.html" title="Ms::ScoreElement" alt="" coords="22,171,153,197"/>
+<area shape="rect" id="node6" href="$class_ms_1_1_linked_elements.html" title="Ms::LinkedElements" alt="" coords="17,81,158,108"/>
+</map>

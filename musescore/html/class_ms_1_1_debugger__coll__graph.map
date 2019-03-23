@@ -1,0 +1,8 @@
+<map id="Ms::Debugger" name="Ms::Debugger">
+<area shape="rect" id="node2" href="$class_ms_1_1_abstract_dialog.html" title="Ms::AbstractDialog" alt="" coords="5,260,140,287"/>
+<area shape="rect" id="node5" href="$class_ms_1_1_score.html" title="Ms::Score" alt="" coords="318,260,401,287"/>
+<area shape="rect" id="node7" href="$class_ms_1_1_score_element.html" title="Ms::ScoreElement" alt="" coords="445,171,575,197"/>
+<area shape="rect" id="node12" href="$class_ms_1_1_element.html" title="Base class of score layout elements. " alt="" coords="437,260,533,287"/>
+<area shape="rect" id="node8" href="$class_ms_1_1_linked_elements.html" title="Ms::LinkedElements" alt="" coords="461,81,602,108"/>
+<area shape="rect" id="node10" href="$class_ms_1_1_synthesizer_state.html" title="Ms::SynthesizerState" alt="" coords="272,171,420,197"/>
+</map>

@@ -1,0 +1,10 @@
+<map id="Ms::HairpinSegment" name="Ms::HairpinSegment">
+<area shape="rect" id="node2" href="$class_ms_1_1_text_line_base_segment.html" title="Ms::TextLineBaseSegment" alt="" coords="77,503,257,529"/>
+<area shape="rect" id="node3" href="$class_ms_1_1_line_segment.html" title="Virtual base class for segmented lines segments (OttavaSegment, HairpinSegment, TrillSegment...) " alt="" coords="33,399,157,425"/>
+<area shape="rect" id="node4" href="$class_ms_1_1_spanner_segment.html" title="parent: System " alt="" coords="5,323,153,349"/>
+<area shape="rect" id="node5" href="$class_ms_1_1_element.html" title="Base class of score layout elements. " alt="" coords="77,247,173,273"/>
+<area shape="rect" id="node10" href="$class_ms_1_1_text_base.html" title="Ms::TextBase" alt="" coords="178,323,282,349"/>
+<area shape="rect" id="node6" href="$class_ms_1_1_score_element.html" title="Ms::ScoreElement" alt="" coords="59,171,190,197"/>
+<area shape="rect" id="node7" href="$class_ms_1_1_linked_elements.html" title="Ms::LinkedElements" alt="" coords="54,81,195,108"/>
+<area shape="rect" id="node9" href="$class_ms_1_1_text.html" title="Ms::Text" alt="" coords="183,399,258,425"/>
+</map>

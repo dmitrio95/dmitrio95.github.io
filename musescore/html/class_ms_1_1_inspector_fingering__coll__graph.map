@@ -1,0 +1,8 @@
+<map id="Ms::InspectorFingering" name="Ms::InspectorFingering">
+<area shape="rect" id="node2" href="$class_ms_1_1_inspector_staff_text.html" title="Ms::InspectorStaffText" alt="" coords="159,412,315,439"/>
+<area shape="rect" id="node3" href="$class_ms_1_1_inspector_text_base.html" title="Ms::InspectorTextBase" alt="" coords="157,336,316,363"/>
+<area shape="rect" id="node4" href="$class_ms_1_1_inspector_element_base.html" title="Ms::InspectorElementBase" alt="" coords="147,260,327,287"/>
+<area shape="rect" id="node5" href="$class_ms_1_1_inspector_base.html" title="Ms::InspectorBase" alt="" coords="69,171,201,197"/>
+<area shape="rect" id="node7" href="$class_ms_1_1_inspector.html" title="Ms::Inspector" alt="" coords="103,81,205,108"/>
+<area shape="rect" id="node9" href="$class_ms_1_1_ui_inspector_element.html" title="Ms::UiInspectorElement" alt="" coords="226,171,389,197"/>
+</map>

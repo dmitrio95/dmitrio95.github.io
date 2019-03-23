@@ -1,0 +1,6 @@
+<map id="Ms::MTrack" name="Ms::MTrack">
+<area shape="rect" id="node2" href="$class_ms_1_1_midi_track.html" title="Ms::MidiTrack" alt="" coords="5,247,111,273"/>
+<area shape="rect" id="node3" href="$class_ms_1_1_staff.html" title="Global staff data not directly related to drawing. " alt="" coords="135,247,211,273"/>
+<area shape="rect" id="node4" href="$class_ms_1_1_score_element.html" title="Ms::ScoreElement" alt="" coords="107,171,238,197"/>
+<area shape="rect" id="node5" href="$class_ms_1_1_linked_elements.html" title="Ms::LinkedElements" alt="" coords="102,81,243,108"/>
+</map>

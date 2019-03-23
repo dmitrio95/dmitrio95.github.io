@@ -1,0 +1,12 @@
+<map id="Ms::PartListItem" name="Ms::PartListItem">
+<area shape="rect" id="node3" href="$class_ms_1_1_instrument_template.html" title="Ms::InstrumentTemplate" alt="" coords="724,157,888,184"/>
+<area shape="rect" id="node4" href="$class_ms_1_1_staff_type.html" title="Ms::StaffType" alt="" coords="460,5,565,32"/>
+<area shape="rect" id="node5" href="$struct_ms_1_1_interval.html" title="Ms::Interval" alt="" coords="467,56,558,83"/>
+<area shape="rect" id="node6" href="$class_ms_1_1_drumset.html" title="Ms::Drumset" alt="" coords="463,107,562,133"/>
+<area shape="rect" id="node7" href="$class_ms_1_1_string_data.html" title="Ms::StringData" alt="" coords="457,157,568,184"/>
+<area shape="rect" id="node8" href="$struct_ms_1_1_clef_type_list.html" title="Ms::ClefTypeList" alt="" coords="451,208,574,235"/>
+<area shape="rect" id="node9" href="$class_ms_1_1_staff_name_list.html" title="Ms::StaffNameList" alt="" coords="447,260,579,287"/>
+<area shape="rect" id="node11" href="$class_ms_1_1_part.html" title="Ms::Part" alt="" coords="770,257,842,284"/>
+<area shape="rect" id="node12" href="$class_ms_1_1_score_element.html" title="Ms::ScoreElement" alt="" coords="447,311,578,337"/>
+<area shape="rect" id="node13" href="$class_ms_1_1_linked_elements.html" title="Ms::LinkedElements" alt="" coords="219,311,360,337"/>
+</map>

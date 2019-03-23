@@ -1,0 +1,14 @@
+<map id="Ms::TracksModel::Column" name="Ms::TracksModel::Column">
+<area shape="rect" id="node2" href="$struct_ms_1_1_midi_operations_1_1_opers.html" title="Ms::MidiOperations\l::Opers" alt="" coords="431,345,565,386"/>
+<area shape="rect" id="node3" href="$class_ms_1_1_midi_operations_1_1_track_op.html" title="Ms::MidiOperations\l::TrackOp\&lt; std::string \&gt;" alt="" coords="45,10,207,51"/>
+<area shape="rect" id="node4" href="$class_ms_1_1_midi_operations_1_1_track_op.html" title="Ms::MidiOperations\l::TrackOp\&lt; QString \&gt;" alt="" coords="52,75,200,117"/>
+<area shape="rect" id="node5" href="$class_ms_1_1_midi_operations_1_1_op.html" title="Ms::MidiOperations\l::Op\&lt; TimeSigNumerator \&gt;" alt="" coords="36,141,216,182"/>
+<area shape="rect" id="node6" href="$class_ms_1_1_midi_operations_1_1_track_op.html" title="Ms::MidiOperations\l::TrackOp\&lt; VoiceCount \&gt;" alt="" coords="40,206,212,247"/>
+<area shape="rect" id="node7" href="$class_ms_1_1_midi_operations_1_1_op.html" title="Ms::MidiOperations\l::Op\&lt; bool \&gt;" alt="" coords="59,271,193,313"/>
+<area shape="rect" id="node8" href="$class_ms_1_1_midi_operations_1_1_track_op.html" title="Ms::MidiOperations\l::TrackOp\&lt; std::vector\l\&lt; const Ms::InstrumentTemplate *\&gt; \&gt;" alt="" coords="5,337,247,393"/>
+<area shape="rect" id="node9" href="$class_ms_1_1_midi_operations_1_1_op.html" title="Ms::MidiOperations\l::Op\&lt; TimeSigDenominator \&gt;" alt="" coords="29,418,223,459"/>
+<area shape="rect" id="node10" href="$class_ms_1_1_midi_operations_1_1_track_op.html" title="Ms::MidiOperations\l::TrackOp\&lt; bool \&gt;" alt="" coords="59,571,193,613"/>
+<area shape="rect" id="node11" href="$class_ms_1_1_midi_operations_1_1_track_op.html" title="Ms::MidiOperations\l::TrackOp\&lt; QuantValue \&gt;" alt="" coords="40,637,212,678"/>
+<area shape="rect" id="node12" href="$class_ms_1_1_midi_operations_1_1_track_op.html" title="Ms::MidiOperations\l::TrackOp\&lt; int \&gt;" alt="" coords="59,717,193,758"/>
+<area shape="rect" id="node13" href="$class_ms_1_1_midi_operations_1_1_track_op.html" title="Ms::MidiOperations\l::TrackOp\&lt; Swing \&gt;" alt="" coords="56,782,196,823"/>
+</map>

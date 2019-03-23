@@ -1,0 +1,7 @@
+<map id="Ms::LyricsLineSegment" name="Ms::LyricsLineSegment">
+<area shape="rect" id="node2" href="$class_ms_1_1_line_segment.html" title="Virtual base class for segmented lines segments (OttavaSegment, HairpinSegment, TrillSegment...) " alt="" coords="25,399,149,425"/>
+<area shape="rect" id="node3" href="$class_ms_1_1_spanner_segment.html" title="parent: System " alt="" coords="13,323,161,349"/>
+<area shape="rect" id="node4" href="$class_ms_1_1_element.html" title="Base class of score layout elements. " alt="" coords="39,247,135,273"/>
+<area shape="rect" id="node5" href="$class_ms_1_1_score_element.html" title="Ms::ScoreElement" alt="" coords="22,171,153,197"/>
+<area shape="rect" id="node6" href="$class_ms_1_1_linked_elements.html" title="Ms::LinkedElements" alt="" coords="17,81,158,108"/>
+</map>

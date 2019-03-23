@@ -1,0 +1,5 @@
+<map id="Ms::PluginAPI::Part" name="Ms::PluginAPI::Part">
+<area shape="rect" id="node2" href="$class_ms_1_1_plugin_a_p_i_1_1_score_element.html" title="Base class for most of object wrappers exposed to QML. " alt="" coords="5,260,201,287"/>
+<area shape="rect" id="node4" href="$class_ms_1_1_score_element.html" title="Ms::ScoreElement" alt="" coords="122,171,253,197"/>
+<area shape="rect" id="node5" href="$class_ms_1_1_linked_elements.html" title="Ms::LinkedElements" alt="" coords="117,81,258,108"/>
+</map>

@@ -1,0 +1,8 @@
+<map id="Ms::SpannerWriter" name="Ms::SpannerWriter">
+<area shape="rect" id="node2" href="$class_ms_1_1_connector_info_writer.html" title="Helper class for writing connecting elements. " alt="" coords="107,381,272,408"/>
+<area shape="rect" id="node3" href="$class_ms_1_1_connector_info.html" title="Stores a general information on various connecting elements (currently only spanners) including their..." alt="" coords="5,291,136,317"/>
+<area shape="rect" id="node4" href="$class_ms_1_1_location.html" title="Ms::Location" alt="" coords="22,171,119,197"/>
+<area shape="rect" id="node5" href="$class_ms_1_1_element.html" title="Base class of score layout elements. " alt="" coords="221,291,317,317"/>
+<area shape="rect" id="node6" href="$class_ms_1_1_score_element.html" title="Ms::ScoreElement" alt="" coords="204,171,335,197"/>
+<area shape="rect" id="node7" href="$class_ms_1_1_linked_elements.html" title="Ms::LinkedElements" alt="" coords="199,81,340,108"/>
+</map>

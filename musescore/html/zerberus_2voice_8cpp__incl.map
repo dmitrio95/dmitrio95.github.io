@@ -1,0 +1,15 @@
+<map id="zerberus/voice.cpp" name="zerberus/voice.cpp">
+<area shape="rect" id="node3" href="$zerberus_2voice_8h.html" title="voice.h" alt="" coords="163,155,227,181"/>
+<area shape="rect" id="node7" href="$zerberus_2instrument_8h.html" title="instrument.h" alt="" coords="91,80,186,107"/>
+<area shape="rect" id="node10" href="$channel_8h.html" title="channel.h" alt="" coords="354,80,433,107"/>
+<area shape="rect" id="node11" href="$zerberus_8h.html" title="zerberus.h" alt="" coords="457,80,540,107"/>
+<area shape="rect" id="node20" href="$zone_8h.html" title="zone.h" alt="" coords="564,80,625,107"/>
+<area shape="rect" id="node21" href="$sample_8h.html" title="sample.h" alt="" coords="649,80,724,107"/>
+<area shape="rect" id="node22" href="$msynthesizer_8h.html" title="synthesizer/msynthesizer.h" alt="" coords="1039,80,1222,107"/>
+<area shape="rect" id="node6" href="$filter_8h.html" title="filter.h" alt="" coords="203,229,261,256"/>
+<area shape="rect" id="node15" href="$synthesizer_8h.html" title="synthesizer/synthesizer.h" alt="" coords="872,155,1043,181"/>
+<area shape="rect" id="node17" href="$event_8h.html" title="synthesizer/event.h" alt="" coords="712,155,848,181"/>
+<area shape="rect" id="node19" href="$midipatch_8h.html" title="synthesizer/midipatch.h" alt="" coords="251,155,411,181"/>
+<area shape="rect" id="node16" href="$synthesizerstate_8h.html" title="libmscore/synthesizerstate.h" alt="" coords="939,229,1128,256"/>
+<area shape="rect" id="node23" href="$effect_8h.html" title="effects/effect.h" alt="" coords="1203,155,1314,181"/>
+</map>

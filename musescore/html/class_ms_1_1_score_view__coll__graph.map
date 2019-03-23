@@ -1,0 +1,7 @@
+<map id="Ms::ScoreView" name="Ms::ScoreView">
+<area shape="rect" id="node3" href="$class_ms_1_1_muse_score_view.html" title="Ms::MuseScoreView" alt="" coords="103,349,245,376"/>
+<area shape="rect" id="node4" href="$class_ms_1_1_score.html" title="Ms::Score" alt="" coords="133,260,215,287"/>
+<area shape="rect" id="node6" href="$class_ms_1_1_score_element.html" title="Ms::ScoreElement" alt="" coords="109,171,239,197"/>
+<area shape="rect" id="node7" href="$class_ms_1_1_linked_elements.html" title="Ms::LinkedElements" alt="" coords="93,81,234,108"/>
+<area shape="rect" id="node9" href="$class_ms_1_1_synthesizer_state.html" title="Ms::SynthesizerState" alt="" coords="277,171,425,197"/>
+</map>
