@@ -29,5 +29,5 @@ var searchData=
   ['trill',['TRILL',['../namespace_ms.html#a16b11be27a8e9362dd122c4d879e01aea75d742104fa3d365f14e412c437116ac',1,'Ms']]],
   ['trill_5fsegment',['TRILL_SEGMENT',['../namespace_ms.html#a16b11be27a8e9362dd122c4d879e01aeadb1a8d9c549ce258820cbcaa71cd1706',1,'Ms']]],
   ['tuplet',['TUPLET',['../namespace_ms.html#a16b11be27a8e9362dd122c4d879e01aea2093141a5c5aef1db750b8c51067d543',1,'Ms::TUPLET()'],['../namespace_ms.html#aa46ffb71b1b0cd634b2054fa59ec5f90a2093141a5c5aef1db750b8c51067d543',1,'Ms::TUPLET()']]],
-  ['type',['Type',['../class_ms_1_1_note_head.html#ac2c13fb451406ca2dc4d0e787d211136',1,'Ms::NoteHead::Type()'],['../class_ms_1_1_layout_break.html#a1d1cfd8ffb84e947f82999c682b666a7',1,'Ms::LayoutBreak::Type()'],['../class_ms_1_1_plugin_a_p_i_1_1_score_element.html#ac765329451135abec74c45e1897abf26',1,'Ms::PluginAPI::ScoreElement::type()']]]
+  ['type',['type',['../class_ms_1_1_plugin_a_p_i_1_1_score_element.html#ac765329451135abec74c45e1897abf26',1,'Ms::PluginAPI::ScoreElement::type()'],['../class_ms_1_1_note_head.html#ac2c13fb451406ca2dc4d0e787d211136',1,'Ms::NoteHead::Type()'],['../class_ms_1_1_layout_break.html#a1d1cfd8ffb84e947f82999c682b666a7',1,'Ms::LayoutBreak::Type()']]]
 ];
