@@ -1,10 +1,10 @@
 var searchData=
 [
-  ['measure',['measure',['../class_ms_1_1_plugin_a_p_i_1_1_cursor.html#ab3969e5e929a97466fbc4ea2c8693f5a',1,'Ms::PluginAPI::Cursor']]],
-  ['menupath',['menuPath',['../class_ms_1_1_plugin_a_p_i_1_1_plugin_a_p_i.html#afb6a06fc30328be2f07f33be372b3319',1,'Ms::PluginAPI::PluginAPI']]],
-  ['mscoredpi',['mscoreDPI',['../class_ms_1_1_plugin_a_p_i_1_1_plugin_a_p_i.html#a4d38d5b8c9e329c019883bcac9d474c3',1,'Ms::PluginAPI::PluginAPI']]],
-  ['mscoremajorversion',['mscoreMajorVersion',['../class_ms_1_1_plugin_a_p_i_1_1_plugin_a_p_i.html#a1800f322b90292e92307956e899dcfc4',1,'Ms::PluginAPI::PluginAPI']]],
-  ['mscoreminorversion',['mscoreMinorVersion',['../class_ms_1_1_plugin_a_p_i_1_1_plugin_a_p_i.html#afeb98a404015a0454625a6c095fe7da9',1,'Ms::PluginAPI::PluginAPI']]],
-  ['mscoreupdateversion',['mscoreUpdateVersion',['../class_ms_1_1_plugin_a_p_i_1_1_plugin_a_p_i.html#add65ef1e3c5bb7097c7e8d027266ce7d',1,'Ms::PluginAPI::PluginAPI']]],
-  ['mscoreversion',['mscoreVersion',['../class_ms_1_1_plugin_a_p_i_1_1_plugin_a_p_i.html#aa864ecc3f37e9c9524372f5f28dec7f4',1,'Ms::PluginAPI::PluginAPI']]]
+  ['lastmeasure',['lastMeasure',['../class_ms_1_1_plugin_a_p_i_1_1_score.html#ab232998b4a92f7de92426908acf2d493',1,'Ms::PluginAPI::Score']]],
+  ['lastmeasuremm',['lastMeasureMM',['../class_ms_1_1_plugin_a_p_i_1_1_score.html#a151a6cb31c56c894301ec6b4864b7000',1,'Ms::PluginAPI::Score']]],
+  ['lastsegment',['lastSegment',['../class_ms_1_1_plugin_a_p_i_1_1_measure.html#aead042cf36f384906716d0c9af12d0e0',1,'Ms::PluginAPI::Measure::lastSegment()'],['../class_ms_1_1_plugin_a_p_i_1_1_score.html#a663cc974a37e0c9404b4cc9fb1d429f6',1,'Ms::PluginAPI::Score::lastSegment()']]],
+  ['layoutbreak',['LayoutBreak',['../class_ms_1_1_plugin_a_p_i_1_1_plugin_a_p_i.html#a7bb4ebc37a7c80e5d7409f34b5b9246b',1,'Ms::PluginAPI::PluginAPI']]],
+  ['lyriccount',['lyricCount',['../class_ms_1_1_plugin_a_p_i_1_1_score.html#a2bc8da42cbf20a2d39cdb606be9e416e',1,'Ms::PluginAPI::Score']]],
+  ['lyricist',['lyricist',['../class_ms_1_1_plugin_a_p_i_1_1_score.html#a8fa708acffe790a9dd1b3c802a2b48f0',1,'Ms::PluginAPI::Score']]],
+  ['lyrics',['Lyrics',['../class_ms_1_1_plugin_a_p_i_1_1_plugin_a_p_i.html#a0b485105fb6408ad27077abaed00f9f2',1,'Ms::PluginAPI::PluginAPI']]]
 ];

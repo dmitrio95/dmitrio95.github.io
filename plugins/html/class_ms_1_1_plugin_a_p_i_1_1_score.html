@@ -23,7 +23,7 @@
   <td id="projectlogo"><img alt="Logo" src="musescore_logo_full.png"/></td>
   <td id="projectalign" style="padding-left: 0.5em;">
    <div id="projectname">MuseScore Plugins
-   &#160;<span id="projectnumber">3.1</span>
+   &#160;<span id="projectnumber">3.2</span>
    </div>
    <div id="projectbrief">Plugins API for MuseScore</div>
   </td>
@@ -109,7 +109,7 @@ Q_INVOKABLE void&#160;</td><td class="memItemRight" valign="bottom"><a class="el
 <tr class="separator:a64012576ca644ffcddde78a87054267f"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a1bc8f4a235affffb0031fbe9aada3b8c"><td class="memItemLeft" align="right" valign="top"><a id="a1bc8f4a235affffb0031fbe9aada3b8c"></a>
 Q_INVOKABLE <a class="el" href="class_ms_1_1_plugin_a_p_i_1_1_cursor.html">Ms::PluginAPI::Cursor</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ms_1_1_plugin_a_p_i_1_1_score.html#a1bc8f4a235affffb0031fbe9aada3b8c">newCursor</a> ()</td></tr>
-<tr class="memdesc:a1bc8f4a235affffb0031fbe9aada3b8c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Creates and returns a cursor to be used to navigate the score. <br /></td></tr>
+<tr class="memdesc:a1bc8f4a235affffb0031fbe9aada3b8c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Creates and returns a cursor to be used to navigate in the score. <br /></td></tr>
 <tr class="separator:a1bc8f4a235affffb0031fbe9aada3b8c"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a03aceb38db5c91b792131df566c402e0"><td class="memItemLeft" align="right" valign="top"><a id="a03aceb38db5c91b792131df566c402e0"></a>
 Q_INVOKABLE <a class="el" href="class_ms_1_1_plugin_a_p_i_1_1_segment.html">Ms::PluginAPI::Segment</a> *&#160;</td><td class="memItemRight" valign="bottom"><b>firstSegment</b> ()</td></tr>
@@ -126,47 +126,85 @@ Q_INVOKABLE QString&#160;</td><td class="memItemRight" valign="bottom"><b>extrac
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="properties"></a>
 Properties</h2></td></tr>
+<tr class="memitem:a5f329ba72e9ec0ba5dcc837e2fed1c17"><td class="memItemLeft" align="right" valign="top">QString&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ms_1_1_plugin_a_p_i_1_1_score.html#a5f329ba72e9ec0ba5dcc837e2fed1c17">composer</a></td></tr>
+<tr class="memdesc:a5f329ba72e9ec0ba5dcc837e2fed1c17"><td class="mdescLeft">&#160;</td><td class="mdescRight">Composer of the score, as taken from the score properties (read only).  <a href="#a5f329ba72e9ec0ba5dcc837e2fed1c17">More...</a><br /></td></tr>
+<tr class="separator:a5f329ba72e9ec0ba5dcc837e2fed1c17"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac6e4b2a3cf932b33832d4e4e4e7cd0de"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ms_1_1_plugin_a_p_i_1_1_score.html#ac6e4b2a3cf932b33832d4e4e4e7cd0de">duration</a></td></tr>
+<tr class="memdesc:ac6e4b2a3cf932b33832d4e4e4e7cd0de"><td class="mdescLeft">&#160;</td><td class="mdescRight">Duration of score in seconds (read only).  <a href="#ac6e4b2a3cf932b33832d4e4e4e7cd0de">More...</a><br /></td></tr>
+<tr class="separator:ac6e4b2a3cf932b33832d4e4e4e7cd0de"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a5f1d61829e4b9314767d9bbca61e9032"><td class="memItemLeft" align="right" valign="top"><a id="a5f1d61829e4b9314767d9bbca61e9032"></a>
 QQmlListProperty&lt; <a class="el" href="class_ms_1_1_plugin_a_p_i_1_1_excerpt.html">Ms::PluginAPI::Excerpt</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ms_1_1_plugin_a_p_i_1_1_score.html#a5f1d61829e4b9314767d9bbca61e9032">excerpts</a></td></tr>
-<tr class="memdesc:a5f1d61829e4b9314767d9bbca61e9032"><td class="mdescLeft">&#160;</td><td class="mdescRight">The list of the excerpts (linked parts) <br /></td></tr>
+<tr class="memdesc:a5f1d61829e4b9314767d9bbca61e9032"><td class="mdescLeft">&#160;</td><td class="mdescRight">List of the excerpts (linked parts) (read only) <br /></td></tr>
 <tr class="separator:a5f1d61829e4b9314767d9bbca61e9032"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ab0cdb2d0e801d7d4e461466dec844c3b"><td class="memItemLeft" align="right" valign="top"><a id="ab0cdb2d0e801d7d4e461466dec844c3b"></a>
 <a class="el" href="class_ms_1_1_plugin_a_p_i_1_1_measure.html">Ms::PluginAPI::Measure</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ms_1_1_plugin_a_p_i_1_1_score.html#ab0cdb2d0e801d7d4e461466dec844c3b">firstMeasure</a></td></tr>
-<tr class="memdesc:ab0cdb2d0e801d7d4e461466dec844c3b"><td class="mdescLeft">&#160;</td><td class="mdescRight">The first measure of the score. <br /></td></tr>
+<tr class="memdesc:ab0cdb2d0e801d7d4e461466dec844c3b"><td class="mdescLeft">&#160;</td><td class="mdescRight">First measure of the score (read only) <br /></td></tr>
 <tr class="separator:ab0cdb2d0e801d7d4e461466dec844c3b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a001350d680d668341fdcfb9d4ade579e"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_ms_1_1_plugin_a_p_i_1_1_measure.html">Ms::PluginAPI::Measure</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ms_1_1_plugin_a_p_i_1_1_score.html#a001350d680d668341fdcfb9d4ade579e">firstMeasureMM</a></td></tr>
+<tr class="memdesc:a001350d680d668341fdcfb9d4ade579e"><td class="mdescLeft">&#160;</td><td class="mdescRight">First multimeasure rest measure of the score (read only).  <a href="#a001350d680d668341fdcfb9d4ade579e">More...</a><br /></td></tr>
+<tr class="separator:a001350d680d668341fdcfb9d4ade579e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:acb5f572451e3137e0ee879a8cb848f79"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ms_1_1_plugin_a_p_i_1_1_score.html#acb5f572451e3137e0ee879a8cb848f79">harmonyCount</a></td></tr>
+<tr class="memdesc:acb5f572451e3137e0ee879a8cb848f79"><td class="mdescLeft">&#160;</td><td class="mdescRight">Number of harmony items (chord symbols) in the score (read only).  <a href="#acb5f572451e3137e0ee879a8cb848f79">More...</a><br /></td></tr>
+<tr class="separator:acb5f572451e3137e0ee879a8cb848f79"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a2aa7517fa56f8551e0a9552f6634b9e6"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ms_1_1_plugin_a_p_i_1_1_score.html#a2aa7517fa56f8551e0a9552f6634b9e6">hasHarmonies</a></td></tr>
+<tr class="memdesc:a2aa7517fa56f8551e0a9552f6634b9e6"><td class="mdescLeft">&#160;</td><td class="mdescRight">Whether score has harmonies (chord symbols) (read only).  <a href="#a2aa7517fa56f8551e0a9552f6634b9e6">More...</a><br /></td></tr>
+<tr class="separator:a2aa7517fa56f8551e0a9552f6634b9e6"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aff1da8286793da740affad2b2910a42b"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ms_1_1_plugin_a_p_i_1_1_score.html#aff1da8286793da740affad2b2910a42b">hasLyrics</a></td></tr>
+<tr class="memdesc:aff1da8286793da740affad2b2910a42b"><td class="mdescLeft">&#160;</td><td class="mdescRight">Whether score has lyrics (read only).  <a href="#aff1da8286793da740affad2b2910a42b">More...</a><br /></td></tr>
+<tr class="separator:aff1da8286793da740affad2b2910a42b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af1b41945f84fde71b7a46b0ef3069c0d"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ms_1_1_plugin_a_p_i_1_1_score.html#af1b41945f84fde71b7a46b0ef3069c0d">keysig</a></td></tr>
+<tr class="memdesc:af1b41945f84fde71b7a46b0ef3069c0d"><td class="mdescLeft">&#160;</td><td class="mdescRight">Key signature at the start of the score, in number of accidentals, negative for flats, postitive for sharps (read only).  <a href="#af1b41945f84fde71b7a46b0ef3069c0d">More...</a><br /></td></tr>
+<tr class="separator:af1b41945f84fde71b7a46b0ef3069c0d"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ab232998b4a92f7de92426908acf2d493"><td class="memItemLeft" align="right" valign="top"><a id="ab232998b4a92f7de92426908acf2d493"></a>
 <a class="el" href="class_ms_1_1_plugin_a_p_i_1_1_measure.html">Ms::PluginAPI::Measure</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ms_1_1_plugin_a_p_i_1_1_score.html#ab232998b4a92f7de92426908acf2d493">lastMeasure</a></td></tr>
-<tr class="memdesc:ab232998b4a92f7de92426908acf2d493"><td class="mdescLeft">&#160;</td><td class="mdescRight">The last measure of the score. <br /></td></tr>
+<tr class="memdesc:ab232998b4a92f7de92426908acf2d493"><td class="mdescLeft">&#160;</td><td class="mdescRight">Last measure of the score (read only) <br /></td></tr>
 <tr class="separator:ab232998b4a92f7de92426908acf2d493"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a151a6cb31c56c894301ec6b4864b7000"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_ms_1_1_plugin_a_p_i_1_1_measure.html">Ms::PluginAPI::Measure</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ms_1_1_plugin_a_p_i_1_1_score.html#a151a6cb31c56c894301ec6b4864b7000">lastMeasureMM</a></td></tr>
+<tr class="memdesc:a151a6cb31c56c894301ec6b4864b7000"><td class="mdescLeft">&#160;</td><td class="mdescRight">Last multimeasure rest measure of the score (read only).  <a href="#a151a6cb31c56c894301ec6b4864b7000">More...</a><br /></td></tr>
+<tr class="separator:a151a6cb31c56c894301ec6b4864b7000"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a663cc974a37e0c9404b4cc9fb1d429f6"><td class="memItemLeft" align="right" valign="top"><a id="a663cc974a37e0c9404b4cc9fb1d429f6"></a>
 <a class="el" href="class_ms_1_1_plugin_a_p_i_1_1_segment.html">Ms::PluginAPI::Segment</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ms_1_1_plugin_a_p_i_1_1_score.html#a663cc974a37e0c9404b4cc9fb1d429f6">lastSegment</a></td></tr>
-<tr class="memdesc:a663cc974a37e0c9404b4cc9fb1d429f6"><td class="mdescLeft">&#160;</td><td class="mdescRight">The last score segment. <br /></td></tr>
+<tr class="memdesc:a663cc974a37e0c9404b4cc9fb1d429f6"><td class="mdescLeft">&#160;</td><td class="mdescRight">Last score segment (read only) <br /></td></tr>
 <tr class="separator:a663cc974a37e0c9404b4cc9fb1d429f6"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a2bc8da42cbf20a2d39cdb606be9e416e"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ms_1_1_plugin_a_p_i_1_1_score.html#a2bc8da42cbf20a2d39cdb606be9e416e">lyricCount</a></td></tr>
+<tr class="memdesc:a2bc8da42cbf20a2d39cdb606be9e416e"><td class="mdescLeft">&#160;</td><td class="mdescRight">Number of lyrics items (syllables) in the score (read only).  <a href="#a2bc8da42cbf20a2d39cdb606be9e416e">More...</a><br /></td></tr>
+<tr class="separator:a2bc8da42cbf20a2d39cdb606be9e416e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a1306cc8fa089e48c0be927c19abc30ee"><td class="memItemLeft" align="right" valign="top">QString&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ms_1_1_plugin_a_p_i_1_1_score.html#a1306cc8fa089e48c0be927c19abc30ee">scoreName</a></td></tr>
+<tr class="memdesc:a1306cc8fa089e48c0be927c19abc30ee"><td class="mdescLeft">&#160;</td><td class="mdescRight">Name of the score, without path leading to it and extension.  <a href="#a1306cc8fa089e48c0be927c19abc30ee">More...</a><br /></td></tr>
+<tr class="separator:a1306cc8fa089e48c0be927c19abc30ee"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a86db3068831ab1f05fe9c588c0987b76"><td class="memItemLeft" align="right" valign="top"><a id="a86db3068831ab1f05fe9c588c0987b76"></a>
 int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ms_1_1_plugin_a_p_i_1_1_score.html#a86db3068831ab1f05fe9c588c0987b76">nmeasures</a></td></tr>
-<tr class="memdesc:a86db3068831ab1f05fe9c588c0987b76"><td class="mdescLeft">&#160;</td><td class="mdescRight">Number of measures. <br /></td></tr>
+<tr class="memdesc:a86db3068831ab1f05fe9c588c0987b76"><td class="mdescLeft">&#160;</td><td class="mdescRight">Number of measures (read only) <br /></td></tr>
 <tr class="separator:a86db3068831ab1f05fe9c588c0987b76"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a3327ddfaad600eca652cb54a5f23fea4"><td class="memItemLeft" align="right" valign="top"><a id="a3327ddfaad600eca652cb54a5f23fea4"></a>
 int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ms_1_1_plugin_a_p_i_1_1_score.html#a3327ddfaad600eca652cb54a5f23fea4">npages</a></td></tr>
-<tr class="memdesc:a3327ddfaad600eca652cb54a5f23fea4"><td class="mdescLeft">&#160;</td><td class="mdescRight">Number of pages. <br /></td></tr>
+<tr class="memdesc:a3327ddfaad600eca652cb54a5f23fea4"><td class="mdescLeft">&#160;</td><td class="mdescRight">Number of pages (read only) <br /></td></tr>
 <tr class="separator:a3327ddfaad600eca652cb54a5f23fea4"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ac2b4c6d71d393428a57cde2fd562aa7b"><td class="memItemLeft" align="right" valign="top"><a id="ac2b4c6d71d393428a57cde2fd562aa7b"></a>
 int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ms_1_1_plugin_a_p_i_1_1_score.html#ac2b4c6d71d393428a57cde2fd562aa7b">nstaves</a></td></tr>
-<tr class="memdesc:ac2b4c6d71d393428a57cde2fd562aa7b"><td class="mdescLeft">&#160;</td><td class="mdescRight">Number of staves. <br /></td></tr>
+<tr class="memdesc:ac2b4c6d71d393428a57cde2fd562aa7b"><td class="mdescLeft">&#160;</td><td class="mdescRight">Number of staves (read only) <br /></td></tr>
 <tr class="separator:ac2b4c6d71d393428a57cde2fd562aa7b"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a69ecc84bd4257af0981fbfb3d6e425dd"><td class="memItemLeft" align="right" valign="top"><a id="a69ecc84bd4257af0981fbfb3d6e425dd"></a>
 int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ms_1_1_plugin_a_p_i_1_1_score.html#a69ecc84bd4257af0981fbfb3d6e425dd">ntracks</a></td></tr>
-<tr class="memdesc:a69ecc84bd4257af0981fbfb3d6e425dd"><td class="mdescLeft">&#160;</td><td class="mdescRight">Number of tracks. <br /></td></tr>
+<tr class="memdesc:a69ecc84bd4257af0981fbfb3d6e425dd"><td class="mdescLeft">&#160;</td><td class="mdescRight">Number of tracks (<a class="el" href="class_ms_1_1_plugin_a_p_i_1_1_score.html#ac2b4c6d71d393428a57cde2fd562aa7b" title="Number of staves (read only) ">nstaves</a> * 4) (read only) <br /></td></tr>
 <tr class="separator:a69ecc84bd4257af0981fbfb3d6e425dd"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:abb2af6f29c22c5ab14fbb60aa9ea2f13"><td class="memItemLeft" align="right" valign="top"><a id="abb2af6f29c22c5ab14fbb60aa9ea2f13"></a>
 QQmlListProperty&lt; <a class="el" href="class_ms_1_1_plugin_a_p_i_1_1_part.html">Ms::PluginAPI::Part</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ms_1_1_plugin_a_p_i_1_1_score.html#abb2af6f29c22c5ab14fbb60aa9ea2f13">parts</a></td></tr>
 <tr class="memdesc:abb2af6f29c22c5ab14fbb60aa9ea2f13"><td class="mdescLeft">&#160;</td><td class="mdescRight">The list of parts. <br /></td></tr>
 <tr class="separator:abb2af6f29c22c5ab14fbb60aa9ea2f13"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a8fa708acffe790a9dd1b3c802a2b48f0"><td class="memItemLeft" align="right" valign="top">QString&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ms_1_1_plugin_a_p_i_1_1_score.html#a8fa708acffe790a9dd1b3c802a2b48f0">lyricist</a></td></tr>
+<tr class="memdesc:a8fa708acffe790a9dd1b3c802a2b48f0"><td class="mdescLeft">&#160;</td><td class="mdescRight">Lyricist of score, as taken from the score properties.  <a href="#a8fa708acffe790a9dd1b3c802a2b48f0">More...</a><br /></td></tr>
+<tr class="separator:a8fa708acffe790a9dd1b3c802a2b48f0"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa93d37c468bf6aea9c9823eb74bd1a48"><td class="memItemLeft" align="right" valign="top">QString&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ms_1_1_plugin_a_p_i_1_1_score.html#aa93d37c468bf6aea9c9823eb74bd1a48">title</a></td></tr>
+<tr class="memdesc:aa93d37c468bf6aea9c9823eb74bd1a48"><td class="mdescLeft">&#160;</td><td class="mdescRight">Title of score, as taken from the score properties' workTitle (read only).  <a href="#aa93d37c468bf6aea9c9823eb74bd1a48">More...</a><br /></td></tr>
+<tr class="separator:aa93d37c468bf6aea9c9823eb74bd1a48"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:afdb356521f63e6478c2b53249e4f3f7f"><td class="memItemLeft" align="right" valign="top"><a id="afdb356521f63e6478c2b53249e4f3f7f"></a>
-QString&#160;</td><td class="memItemRight" valign="bottom"><b>mscoreVersion</b></td></tr>
+QString&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ms_1_1_plugin_a_p_i_1_1_score.html#afdb356521f63e6478c2b53249e4f3f7f">mscoreVersion</a></td></tr>
+<tr class="memdesc:afdb356521f63e6478c2b53249e4f3f7f"><td class="mdescLeft">&#160;</td><td class="mdescRight">MuseScore version the score has been last saved with (includes autosave) (read only) <br /></td></tr>
 <tr class="separator:afdb356521f63e6478c2b53249e4f3f7f"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ace92009a565cc34962b0b2b69f937224"><td class="memItemLeft" align="right" valign="top"><a id="ace92009a565cc34962b0b2b69f937224"></a>
-QString&#160;</td><td class="memItemRight" valign="bottom"><b>mscoreRevision</b></td></tr>
+QString&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ms_1_1_plugin_a_p_i_1_1_score.html#ace92009a565cc34962b0b2b69f937224">mscoreRevision</a></td></tr>
+<tr class="memdesc:ace92009a565cc34962b0b2b69f937224"><td class="mdescLeft">&#160;</td><td class="mdescRight">MuseScore revision the score has been last saved with (includes autosave) (read only) <br /></td></tr>
 <tr class="separator:ace92009a565cc34962b0b2b69f937224"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="inherit_header properties_class_ms_1_1_plugin_a_p_i_1_1_score_element"><td colspan="2" onclick="javascript:toggleInherit('properties_class_ms_1_1_plugin_a_p_i_1_1_score_element')"><img src="closed.png" alt="-"/>&#160;Properties inherited from <a class="el" href="class_ms_1_1_plugin_a_p_i_1_1_score_element.html">ScoreElement</a></td></tr>
 <tr class="memitem:ac765329451135abec74c45e1897abf26 inherit properties_class_ms_1_1_plugin_a_p_i_1_1_score_element"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ms_1_1_plugin_a_p_i_1_1_score_element.html#ac765329451135abec74c45e1897abf26">type</a></td></tr>
@@ -280,6 +318,319 @@ QString&#160;</td><td class="memItemRight" valign="bottom"><b>mscoreRevision</b>
 
 <p>For "dock" type plugins: to be used before score modifications to make them undoable. </p>
 <p>Starts an undoable command. Must be accompanied by a corresponding <a class="el" href="class_ms_1_1_plugin_a_p_i_1_1_score.html#a9970862e902ca3c0747c5aedf95b8407" title="For &quot;dock&quot; type plugins: to be used after score modifications to make them undoable. ">endCmd()</a> call. Should be used at least once by "dock" type plugins in case they modify the score. </p>
+
+</div>
+</div>
+<h2 class="groupheader">Property Documentation</h2>
+<a id="a5f329ba72e9ec0ba5dcc837e2fed1c17"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a5f329ba72e9ec0ba5dcc837e2fed1c17">&#9670;&nbsp;</a></span>composer</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">QString composer</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">read</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Composer of the score, as taken from the score properties (read only). </p>
+<p><br />
+ </p><dl class="section since"><dt>Since</dt><dd>MuseScore 3.2 </dd></dl>
+
+</div>
+</div>
+<a id="ac6e4b2a3cf932b33832d4e4e4e7cd0de"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ac6e4b2a3cf932b33832d4e4e4e7cd0de">&#9670;&nbsp;</a></span>duration</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">int duration</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">read</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Duration of score in seconds (read only). </p>
+<p><br />
+ </p><dl class="section since"><dt>Since</dt><dd>MuseScore 3.2 </dd></dl>
+
+</div>
+</div>
+<a id="a001350d680d668341fdcfb9d4ade579e"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a001350d680d668341fdcfb9d4ade579e">&#9670;&nbsp;</a></span>firstMeasureMM</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="class_ms_1_1_plugin_a_p_i_1_1_measure.html">Measure</a> * firstMeasureMM</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">read</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>First multimeasure rest measure of the score (read only). </p>
+<p><br />
+ </p><dl class="section since"><dt>Since</dt><dd>MuseScore 3.2 </dd></dl>
+
+</div>
+</div>
+<a id="acb5f572451e3137e0ee879a8cb848f79"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#acb5f572451e3137e0ee879a8cb848f79">&#9670;&nbsp;</a></span>harmonyCount</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">int harmonyCount</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">read</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Number of harmony items (chord symbols) in the score (read only). </p>
+<p><br />
+ </p><dl class="section since"><dt>Since</dt><dd>MuseScore 3.2 </dd></dl>
+
+</div>
+</div>
+<a id="a2aa7517fa56f8551e0a9552f6634b9e6"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a2aa7517fa56f8551e0a9552f6634b9e6">&#9670;&nbsp;</a></span>hasHarmonies</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool hasHarmonies</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">read</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Whether score has harmonies (chord symbols) (read only). </p>
+<p><br />
+ </p><dl class="section since"><dt>Since</dt><dd>MuseScore 3.2 </dd></dl>
+
+</div>
+</div>
+<a id="aff1da8286793da740affad2b2910a42b"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aff1da8286793da740affad2b2910a42b">&#9670;&nbsp;</a></span>hasLyrics</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool hasLyrics</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">read</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Whether score has lyrics (read only). </p>
+<p><br />
+ </p><dl class="section since"><dt>Since</dt><dd>MuseScore 3.2 </dd></dl>
+
+</div>
+</div>
+<a id="af1b41945f84fde71b7a46b0ef3069c0d"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#af1b41945f84fde71b7a46b0ef3069c0d">&#9670;&nbsp;</a></span>keysig</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">int keysig</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">read</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Key signature at the start of the score, in number of accidentals, negative for flats, postitive for sharps (read only). </p>
+<p><br />
+ </p><dl class="section since"><dt>Since</dt><dd>MuseScore 3.2 </dd></dl>
+
+</div>
+</div>
+<a id="a151a6cb31c56c894301ec6b4864b7000"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a151a6cb31c56c894301ec6b4864b7000">&#9670;&nbsp;</a></span>lastMeasureMM</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="class_ms_1_1_plugin_a_p_i_1_1_measure.html">Measure</a> * lastMeasureMM</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">read</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Last multimeasure rest measure of the score (read only). </p>
+<p><br />
+ </p><dl class="section since"><dt>Since</dt><dd>MuseScore 3.2 </dd></dl>
+
+</div>
+</div>
+<a id="a2bc8da42cbf20a2d39cdb606be9e416e"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a2bc8da42cbf20a2d39cdb606be9e416e">&#9670;&nbsp;</a></span>lyricCount</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">int lyricCount</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">read</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Number of lyrics items (syllables) in the score (read only). </p>
+<p><br />
+ </p><dl class="section since"><dt>Since</dt><dd>MuseScore 3.2 </dd></dl>
+
+</div>
+</div>
+<a id="a8fa708acffe790a9dd1b3c802a2b48f0"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a8fa708acffe790a9dd1b3c802a2b48f0">&#9670;&nbsp;</a></span>lyricist</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">QString lyricist</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">read</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Lyricist of score, as taken from the score properties. </p>
+<p><br />
+ </p><dl class="section since"><dt>Since</dt><dd>MuseScore 3.2 </dd></dl>
+
+</div>
+</div>
+<a id="a1306cc8fa089e48c0be927c19abc30ee"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a1306cc8fa089e48c0be927c19abc30ee">&#9670;&nbsp;</a></span>scoreName</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">QString scoreName</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">read</span><span class="mlabel">write</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Name of the score, without path leading to it and extension. </p>
+<p><br />
+ </p><dl class="section since"><dt>Since</dt><dd>MuseScore 3.2 </dd></dl>
+
+</div>
+</div>
+<a id="aa93d37c468bf6aea9c9823eb74bd1a48"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aa93d37c468bf6aea9c9823eb74bd1a48">&#9670;&nbsp;</a></span>title</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">QString title</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">read</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Title of score, as taken from the score properties' workTitle (read only). </p>
+<p><br />
+ </p><dl class="section since"><dt>Since</dt><dd>MuseScore 3.2 </dd></dl>
 
 </div>
 </div>

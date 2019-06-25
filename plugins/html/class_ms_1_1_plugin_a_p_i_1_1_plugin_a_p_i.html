@@ -23,7 +23,7 @@
   <td id="projectlogo"><img alt="Logo" src="musescore_logo_full.png"/></td>
   <td id="projectalign" style="padding-left: 0.5em;">
    <div id="projectname">MuseScore Plugins
-   &#160;<span id="projectnumber">3.1</span>
+   &#160;<span id="projectnumber">3.2</span>
    </div>
    <div id="projectbrief">Plugins API for MuseScore</div>
   </td>
@@ -158,14 +158,14 @@ QString&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="c
 <tr class="separator:a867c710287b9ea1a0ab27c30886fb5c3"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a5fac96ae051a9f09f99b423019783fdc"><td class="memItemLeft" align="right" valign="top"><a id="a5fac96ae051a9f09f99b423019783fdc"></a>
 QString&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ms_1_1_plugin_a_p_i_1_1_plugin_a_p_i.html#a5fac96ae051a9f09f99b423019783fdc">pluginType</a></td></tr>
-<tr class="memdesc:a5fac96ae051a9f09f99b423019783fdc"><td class="mdescLeft">&#160;</td><td class="mdescRight">type may be dialog, dock, or not defined <br /></td></tr>
+<tr class="memdesc:a5fac96ae051a9f09f99b423019783fdc"><td class="mdescLeft">&#160;</td><td class="mdescRight">Type may be dialog, dock, or not defined. <br /></td></tr>
 <tr class="separator:a5fac96ae051a9f09f99b423019783fdc"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a8b8992cd6edd00adf65252b962db3156"><td class="memItemLeft" align="right" valign="top">QString&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ms_1_1_plugin_a_p_i_1_1_plugin_a_p_i.html#a8b8992cd6edd00adf65252b962db3156">dockArea</a></td></tr>
 <tr class="memdesc:a8b8992cd6edd00adf65252b962db3156"><td class="mdescLeft">&#160;</td><td class="mdescRight">Where to dock on main screen.  <a href="#a8b8992cd6edd00adf65252b962db3156">More...</a><br /></td></tr>
 <tr class="separator:a8b8992cd6edd00adf65252b962db3156"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a1e7fbe5c604cc0e143f744e0b0988222"><td class="memItemLeft" align="right" valign="top"><a id="a1e7fbe5c604cc0e143f744e0b0988222"></a>
 bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ms_1_1_plugin_a_p_i_1_1_plugin_a_p_i.html#a1e7fbe5c604cc0e143f744e0b0988222">requiresScore</a></td></tr>
-<tr class="memdesc:a1e7fbe5c604cc0e143f744e0b0988222"><td class="mdescLeft">&#160;</td><td class="mdescRight">Whether the plugin requires an existing score to run. <br /></td></tr>
+<tr class="memdesc:a1e7fbe5c604cc0e143f744e0b0988222"><td class="mdescLeft">&#160;</td><td class="mdescRight">Whether the plugin requires an existing score to run, default is <code>true</code> <br /></td></tr>
 <tr class="separator:a1e7fbe5c604cc0e143f744e0b0988222"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a27647bf7f2735c5b9e749a3a97700453"><td class="memItemLeft" align="right" valign="top"><a id="a27647bf7f2735c5b9e749a3a97700453"></a>
 int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ms_1_1_plugin_a_p_i_1_1_plugin_a_p_i.html#a27647bf7f2735c5b9e749a3a97700453">division</a></td></tr>
@@ -193,8 +193,11 @@ qreal&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="cla
 <tr class="separator:a4d38d5b8c9e329c019883bcac9d474c3"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ad2e45485dcc2ae3a54703c7b5e35aa63"><td class="memItemLeft" align="right" valign="top"><a id="ad2e45485dcc2ae3a54703c7b5e35aa63"></a>
 <a class="el" href="class_ms_1_1_plugin_a_p_i_1_1_score.html">Ms::PluginAPI::Score</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ms_1_1_plugin_a_p_i_1_1_plugin_a_p_i.html#ad2e45485dcc2ae3a54703c7b5e35aa63">curScore</a></td></tr>
-<tr class="memdesc:ad2e45485dcc2ae3a54703c7b5e35aa63"><td class="mdescLeft">&#160;</td><td class="mdescRight">current score, if any (read only) <br /></td></tr>
+<tr class="memdesc:ad2e45485dcc2ae3a54703c7b5e35aa63"><td class="mdescLeft">&#160;</td><td class="mdescRight">Current score, if any (read only) <br /></td></tr>
 <tr class="separator:ad2e45485dcc2ae3a54703c7b5e35aa63"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a47865b59955f589d183f2f8c5e98f89b"><td class="memItemLeft" align="right" valign="top">QQmlListProperty&lt; <a class="el" href="class_ms_1_1_plugin_a_p_i_1_1_score.html">Ms::PluginAPI::Score</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ms_1_1_plugin_a_p_i_1_1_plugin_a_p_i.html#a47865b59955f589d183f2f8c5e98f89b">scores</a></td></tr>
+<tr class="memdesc:a47865b59955f589d183f2f8c5e98f89b"><td class="mdescLeft">&#160;</td><td class="mdescRight">List of currently open scores (read only).  <a href="#a47865b59955f589d183f2f8c5e98f89b">More...</a><br /></td></tr>
+<tr class="separator:a47865b59955f589d183f2f8c5e98f89b"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a5fcfe46c56901e9f3998a72a458e66dc"><td class="memItemLeft" align="right" valign="top"><a id="a5fcfe46c56901e9f3998a72a458e66dc"></a>
 <a class="el" href="class_ms_1_1_plugin_a_p_i_1_1_enum.html">Ms::PluginAPI::Enum</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ms_1_1_plugin_a_p_i_1_1_plugin_a_p_i.html#a5fcfe46c56901e9f3998a72a458e66dc">Element</a></td></tr>
 <tr class="memdesc:a5fcfe46c56901e9f3998a72a458e66dc"><td class="mdescLeft">&#160;</td><td class="mdescRight">Contains <a class="el" href="namespace_ms.html#a16b11be27a8e9362dd122c4d879e01ae">Ms::ElementType</a> enumeration values. <br /></td></tr>
@@ -491,7 +494,7 @@ changes" dialog on closing a score that is either imported or was created with a
 </div><div class="memdoc">
 
 <p>Contains <a class="el" href="namespace_ms.html#aa75b88cb58606dc5b17affc6436eb263">Ms::GlissandoStyle</a> enumeration values. </p>
-<dl class="section note"><dt>Note</dt><dd>In MuseScore 2.X this enumeration was available as MScoreCHROMATIC, <a class="el" href="namespace_ms.html#aa75b88cb58606dc5b17affc6436eb263a382b34fcd85458c84c406cedf030f23c">MScore.WHITE_KEYS</a>, <a class="el" href="namespace_ms.html#aa75b88cb58606dc5b17affc6436eb263af377200b70d9b2113f770a642493cd21">MScore.BLACK_KEYS</a>, <a class="el" href="namespace_ms.html#aa75b88cb58606dc5b17affc6436eb263af3fb4b2c999493d3d65c2377e47c0fee">MScore.DIATONIC</a>. </dd></dl>
+<dl class="section note"><dt>Note</dt><dd>In MuseScore 2.X this enumeration was available as <a class="el" href="namespace_ms.html#aa75b88cb58606dc5b17affc6436eb263ad791767a8f56d109401330faf122f63d">MScore.CHROMATIC</a>, <a class="el" href="namespace_ms.html#aa75b88cb58606dc5b17affc6436eb263a382b34fcd85458c84c406cedf030f23c">MScore.WHITE_KEYS</a>, <a class="el" href="namespace_ms.html#aa75b88cb58606dc5b17affc6436eb263af377200b70d9b2113f770a642493cd21">MScore.BLACK_KEYS</a>, <a class="el" href="namespace_ms.html#aa75b88cb58606dc5b17affc6436eb263af3fb4b2c999493d3d65c2377e47c0fee">MScore.DIATONIC</a>. </dd></dl>
 
 </div>
 </div>
@@ -617,6 +620,32 @@ changes" dialog on closing a score that is either imported or was created with a
 
 <p>Contains <a class="el" href="namespace_ms.html#a78ae2875d3a179065c4033152d3eeb53">Ms::Placement</a> enumeration values. </p>
 <dl class="section note"><dt>Note</dt><dd>In MuseScore 2.X this enumeration was available as <a class="el" href="namespace_ms.html#a78ae2875d3a179065c4033152d3eeb53ac2d92b81beeac9bfc89fb870c1a20767">Element.ABOVE</a> and <a class="el" href="namespace_ms.html#a78ae2875d3a179065c4033152d3eeb53aa25949e21299b84cc33c4b00c740f08f">Element.BELOW</a>. </dd></dl>
+
+</div>
+</div>
+<a id="a47865b59955f589d183f2f8c5e98f89b"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a47865b59955f589d183f2f8c5e98f89b">&#9670;&nbsp;</a></span>scores</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">QQmlListProperty&lt; <a class="el" href="class_ms_1_1_plugin_a_p_i_1_1_score.html">Score</a> &gt; scores</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">read</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>List of currently open scores (read only). </p>
+<p><br />
+ </p><dl class="section since"><dt>Since</dt><dd>MuseScore 3.2 </dd></dl>
 
 </div>
 </div>

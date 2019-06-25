@@ -2,6 +2,7 @@ var searchData=
 [
   ['lasso',['LASSO',['../namespace_ms.html#a16b11be27a8e9362dd122c4d879e01aea557e208074023b45441fc1604d6bf81d',1,'Ms']]],
   ['lastmeasure',['lastMeasure',['../class_ms_1_1_plugin_a_p_i_1_1_score.html#ab232998b4a92f7de92426908acf2d493',1,'Ms::PluginAPI::Score']]],
+  ['lastmeasuremm',['lastMeasureMM',['../class_ms_1_1_plugin_a_p_i_1_1_score.html#a151a6cb31c56c894301ec6b4864b7000',1,'Ms::PluginAPI::Score']]],
   ['lastsegment',['lastSegment',['../class_ms_1_1_plugin_a_p_i_1_1_measure.html#aead042cf36f384906716d0c9af12d0e0',1,'Ms::PluginAPI::Measure::lastSegment()'],['../class_ms_1_1_plugin_a_p_i_1_1_score.html#a663cc974a37e0c9404b4cc9fb1d429f6',1,'Ms::PluginAPI::Score::lastSegment()']]],
   ['layout_5fbreak',['LAYOUT_BREAK',['../namespace_ms.html#a16b11be27a8e9362dd122c4d879e01aeaab1f8525dbc7787c4aa6c0ff8e9f7f81',1,'Ms']]],
   ['layoutbreak',['LayoutBreak',['../class_ms_1_1_layout_break.html',1,'LayoutBreak'],['../class_ms_1_1_plugin_a_p_i_1_1_plugin_a_p_i.html#a7bb4ebc37a7c80e5d7409f34b5b9246b',1,'Ms::PluginAPI::PluginAPI::LayoutBreak()']]],
@@ -15,6 +16,8 @@ var searchData=
   ['lower_5fone_5ftridecimal_5fquartertone',['LOWER_ONE_TRIDECIMAL_QUARTERTONE',['../namespace_ms.html#afefcf6e1958b07c3c8d7c832a8fdf2dfa363ac3e9140ff876b7e241fef994a2ce',1,'Ms']]],
   ['lower_5fone_5fundecimal_5fquartertone',['LOWER_ONE_UNDECIMAL_QUARTERTONE',['../namespace_ms.html#afefcf6e1958b07c3c8d7c832a8fdf2dfa3a03546162da37a28577ef2e7d608e2e',1,'Ms']]],
   ['lower_5ftwo_5fseptimal_5fcommas',['LOWER_TWO_SEPTIMAL_COMMAS',['../namespace_ms.html#afefcf6e1958b07c3c8d7c832a8fdf2dfa543442f37b98d28144fb2edd1292172b',1,'Ms']]],
+  ['lyriccount',['lyricCount',['../class_ms_1_1_plugin_a_p_i_1_1_score.html#a2bc8da42cbf20a2d39cdb606be9e416e',1,'Ms::PluginAPI::Score']]],
+  ['lyricist',['lyricist',['../class_ms_1_1_plugin_a_p_i_1_1_score.html#a8fa708acffe790a9dd1b3c802a2b48f0',1,'Ms::PluginAPI::Score']]],
   ['lyrics',['Lyrics',['../class_ms_1_1_lyrics.html',1,'Lyrics'],['../class_ms_1_1_plugin_a_p_i_1_1_plugin_a_p_i.html#a0b485105fb6408ad27077abaed00f9f2',1,'Ms::PluginAPI::PluginAPI::Lyrics()'],['../namespace_ms.html#a16b11be27a8e9362dd122c4d879e01aea3cc1dc9c08cf02f04fa8bda18b489c70',1,'Ms::LYRICS()']]],
   ['lyrics_5feven',['LYRICS_EVEN',['../namespace_ms.html#aa46ffb71b1b0cd634b2054fa59ec5f90aaf46a1cf718ad6ad9097552dcaeb1b7b',1,'Ms']]],
   ['lyrics_5fodd',['LYRICS_ODD',['../namespace_ms.html#aa46ffb71b1b0cd634b2054fa59ec5f90a4827903b2c8eb89e3f18075b455304ec',1,'Ms']]],

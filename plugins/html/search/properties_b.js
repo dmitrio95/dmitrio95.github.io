@@ -1,14 +1,11 @@
 var searchData=
 [
-  ['name',['name',['../class_ms_1_1_plugin_a_p_i_1_1_score_element.html#abc29e461e01cc0c712944f8f47f91331',1,'Ms::PluginAPI::ScoreElement']]],
-  ['next',['next',['../class_ms_1_1_plugin_a_p_i_1_1_segment.html#ad3b0e1eaecefc9982292511b00ae1728',1,'Ms::PluginAPI::Segment']]],
-  ['nextinmeasure',['nextInMeasure',['../class_ms_1_1_plugin_a_p_i_1_1_segment.html#aaf42b2697f9c8c62c5b4191c21c574e1',1,'Ms::PluginAPI::Segment']]],
-  ['nmeasures',['nmeasures',['../class_ms_1_1_plugin_a_p_i_1_1_score.html#a86db3068831ab1f05fe9c588c0987b76',1,'Ms::PluginAPI::Score']]],
-  ['noteheadgroup',['NoteHeadGroup',['../class_ms_1_1_plugin_a_p_i_1_1_plugin_a_p_i.html#a5d4f68d094f1e781e8b9a4b47dc595de',1,'Ms::PluginAPI::PluginAPI']]],
-  ['noteheadtype',['NoteHeadType',['../class_ms_1_1_plugin_a_p_i_1_1_plugin_a_p_i.html#a4d6cbc451e545a8e2ab7b6bd7da00fd2',1,'Ms::PluginAPI::PluginAPI']]],
-  ['notevaluetype',['NoteValueType',['../class_ms_1_1_plugin_a_p_i_1_1_plugin_a_p_i.html#ab5d7e7b87c502d7cc1938a2ca80edf77',1,'Ms::PluginAPI::PluginAPI']]],
-  ['npages',['npages',['../class_ms_1_1_plugin_a_p_i_1_1_score.html#a3327ddfaad600eca652cb54a5f23fea4',1,'Ms::PluginAPI::Score']]],
-  ['nstaves',['nstaves',['../class_ms_1_1_plugin_a_p_i_1_1_score.html#ac2b4c6d71d393428a57cde2fd562aa7b',1,'Ms::PluginAPI::Score']]],
-  ['ntracks',['ntracks',['../class_ms_1_1_plugin_a_p_i_1_1_score.html#a69ecc84bd4257af0981fbfb3d6e425dd',1,'Ms::PluginAPI::Score']]],
-  ['numerator',['numerator',['../class_ms_1_1_plugin_a_p_i_1_1_fraction_wrapper.html#afda10a8365f279d4d95a406787507bde',1,'Ms::PluginAPI::FractionWrapper']]]
+  ['measure',['measure',['../class_ms_1_1_plugin_a_p_i_1_1_cursor.html#ab3969e5e929a97466fbc4ea2c8693f5a',1,'Ms::PluginAPI::Cursor']]],
+  ['menupath',['menuPath',['../class_ms_1_1_plugin_a_p_i_1_1_plugin_a_p_i.html#afb6a06fc30328be2f07f33be372b3319',1,'Ms::PluginAPI::PluginAPI']]],
+  ['mscoredpi',['mscoreDPI',['../class_ms_1_1_plugin_a_p_i_1_1_plugin_a_p_i.html#a4d38d5b8c9e329c019883bcac9d474c3',1,'Ms::PluginAPI::PluginAPI']]],
+  ['mscoremajorversion',['mscoreMajorVersion',['../class_ms_1_1_plugin_a_p_i_1_1_plugin_a_p_i.html#a1800f322b90292e92307956e899dcfc4',1,'Ms::PluginAPI::PluginAPI']]],
+  ['mscoreminorversion',['mscoreMinorVersion',['../class_ms_1_1_plugin_a_p_i_1_1_plugin_a_p_i.html#afeb98a404015a0454625a6c095fe7da9',1,'Ms::PluginAPI::PluginAPI']]],
+  ['mscorerevision',['mscoreRevision',['../class_ms_1_1_plugin_a_p_i_1_1_score.html#ace92009a565cc34962b0b2b69f937224',1,'Ms::PluginAPI::Score']]],
+  ['mscoreupdateversion',['mscoreUpdateVersion',['../class_ms_1_1_plugin_a_p_i_1_1_plugin_a_p_i.html#add65ef1e3c5bb7097c7e8d027266ce7d',1,'Ms::PluginAPI::PluginAPI']]],
+  ['mscoreversion',['mscoreVersion',['../class_ms_1_1_plugin_a_p_i_1_1_plugin_a_p_i.html#aa864ecc3f37e9c9524372f5f28dec7f4',1,'Ms::PluginAPI::PluginAPI::mscoreVersion()'],['../class_ms_1_1_plugin_a_p_i_1_1_score.html#afdb356521f63e6478c2b53249e4f3f7f',1,'Ms::PluginAPI::Score::mscoreVersion()']]]
 ];

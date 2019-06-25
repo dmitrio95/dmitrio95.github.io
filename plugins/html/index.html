@@ -23,7 +23,7 @@
   <td id="projectlogo"><img alt="Logo" src="musescore_logo_full.png"/></td>
   <td id="projectalign" style="padding-left: 0.5em;">
    <div id="projectname">MuseScore Plugins
-   &#160;<span id="projectnumber">3.1</span>
+   &#160;<span id="projectnumber">3.2</span>
    </div>
    <div id="projectbrief">Plugins API for MuseScore</div>
   </td>
@@ -78,8 +78,8 @@ $(function() {
 <p>Here is an example of a simple plugin which prints "Hello World" to the debugging console: </p><div class="fragment"><div class="line">import MuseScore 3.0</div><div class="line"></div><div class="line">MuseScore {</div><div class="line">    menuPath: &quot;Plugins.pluginName&quot;</div><div class="line">    description: &quot;Description goes here&quot;</div><div class="line">    version: &quot;1.0&quot;</div><div class="line">    onRun: {</div><div class="line">        console.log(&quot;Hello World!&quot;);</div><div class="line">        Qt.quit();</div><div class="line">    }</div><div class="line">}</div></div><!-- fragment --><p>Here is what happens here.</p>
 <ul>
 <li><code>import MuseScore 3.0</code> is necessary to use MuseScore API in QML code.</li>
-<li>The <code>MuseScore { ... }</code> statement delares an object of <code>MuseScore</code> type (<a class="el" href="class_ms_1_1_plugin_a_p_i_1_1_plugin_a_p_i.html">Ms::PluginAPI::PluginAPI</a> is exposed to QML as <code>MuseScore</code>). This should be the root object of any QML plugin for MuseScore.</li>
-<li>Statements like <code>menuPath: "Plugins.pluginName"</code> assign properties to that object, see <a class="el" href="class_ms_1_1_plugin_a_p_i_1_1_plugin_a_p_i.html">the class reference</a> for the meaning of those properties. Apart those properties listed in that page, you can assign any other properties and/or declare other QML objects too.</li>
+<li>The <code>MuseScore { ... }</code> statement declares an object of <code>MuseScore</code> type (<a class="el" href="class_ms_1_1_plugin_a_p_i_1_1_plugin_a_p_i.html">Ms::PluginAPI::PluginAPI</a> is exposed to QML as <code>MuseScore</code>). This should be the root object of any QML plugin for MuseScore.</li>
+<li>Statements like <code>menuPath: "Plugins.pluginName"</code> assign properties to that object, see <a class="el" href="class_ms_1_1_plugin_a_p_i_1_1_plugin_a_p_i.html">the class reference</a> for the meaning of those properties. Apart from the properties listed in that page, you can assign any other properties and/or declare other QML objects too.</li>
 <li><code>onRun()</code> is the function that is invoked when the plugin is executed (via a menu entry or via a shortcut). This is the entry point of your plugin.</li>
 <li><a href="https://doc.qt.io/qt-5/qml-qtqml-qt.html#quit-method"><code>Qt.quit()</code></a> statement requests termination of the plugin's execution.</li>
 </ul>

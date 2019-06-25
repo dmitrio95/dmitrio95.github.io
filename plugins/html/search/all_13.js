@@ -1,8 +1,12 @@
 var searchData=
 [
+  ['scale',['scale',['../class_ms_1_1_plugin_a_p_i_1_1_score_view.html#ab444a26d6da18356d192d4e5c82d6a44',1,'Ms::PluginAPI::ScoreView']]],
   ['score',['Score',['../class_ms_1_1_plugin_a_p_i_1_1_score.html',1,'Score'],['../class_ms_1_1_plugin_a_p_i_1_1_cursor.html#aaf37c254fcf324828650a5de2c25c624',1,'Ms::PluginAPI::Cursor::score()'],['../namespace_ms.html#a16b11be27a8e9362dd122c4d879e01aeac9b2281fa6fd403855443e6555aa16a9',1,'Ms::SCORE()']]],
   ['score_5fstart',['SCORE_START',['../class_ms_1_1_plugin_a_p_i_1_1_cursor.html#a44441ecb09579acd4a2a27bd8c96b704ad20b9998b3ada793cc2e0dc7c61986e5',1,'Ms::PluginAPI::Cursor']]],
   ['scoreelement',['ScoreElement',['../class_ms_1_1_plugin_a_p_i_1_1_score_element.html',1,'Ms::PluginAPI']]],
+  ['scorename',['scoreName',['../class_ms_1_1_plugin_a_p_i_1_1_score.html#a1306cc8fa089e48c0be927c19abc30ee',1,'Ms::PluginAPI::Score']]],
+  ['scores',['scores',['../class_ms_1_1_plugin_a_p_i_1_1_plugin_a_p_i.html#a47865b59955f589d183f2f8c5e98f89b',1,'Ms::PluginAPI::PluginAPI']]],
+  ['scoreview',['ScoreView',['../class_ms_1_1_plugin_a_p_i_1_1_score_view.html',1,'Ms::PluginAPI']]],
   ['section',['SECTION',['../class_ms_1_1_layout_break.html#a1d1cfd8ffb84e947f82999c682b666a7acb7227be6a36b93e485b62e3acddae51',1,'Ms::LayoutBreak']]],
   ['segment',['Segment',['../class_ms_1_1_plugin_a_p_i_1_1_segment.html',1,'Segment'],['../class_ms_1_1_plugin_a_p_i_1_1_cursor.html#a32df483ac348ab9b0f726c4565a22865',1,'Ms::PluginAPI::Cursor::segment()'],['../class_ms_1_1_plugin_a_p_i_1_1_plugin_a_p_i.html#ae811f56cc22bf5a200ebfae828050c58',1,'Ms::PluginAPI::PluginAPI::Segment()'],['../namespace_ms.html#a16b11be27a8e9362dd122c4d879e01aea49f1f9beb48e7b006a35b2377403bea8',1,'Ms::SEGMENT()']]],
   ['segmenttype',['segmentType',['../class_ms_1_1_plugin_a_p_i_1_1_segment.html#a337e196a5cd5639413c13f33f3b55c65',1,'Ms::PluginAPI::Segment::segmentType()'],['../namespace_ms.html#a45f8c604b4008a278fe9bde5156489ee',1,'Ms::SegmentType()']]],
@@ -48,6 +52,7 @@ var searchData=
   ['startrepeatbarline',['StartRepeatBarLine',['../namespace_ms.html#a45f8c604b4008a278fe9bde5156489eea74b58efcee9d2b1868643982f5152c70',1,'Ms']]],
   ['stem',['STEM',['../namespace_ms.html#a16b11be27a8e9362dd122c4d879e01aea2295e0750a84297532f2a8197bb76b5e',1,'Ms']]],
   ['stem_5fslash',['STEM_SLASH',['../namespace_ms.html#a16b11be27a8e9362dd122c4d879e01aea8407f5e0edf097483903c1061ff4da91',1,'Ms']]],
+  ['sticking',['STICKING',['../namespace_ms.html#a16b11be27a8e9362dd122c4d879e01aeafec1fffeb63a24b31b41a5e941132ca9',1,'Ms::STICKING()'],['../namespace_ms.html#aa46ffb71b1b0cd634b2054fa59ec5f90afec1fffeb63a24b31b41a5e941132ca9',1,'Ms::STICKING()']]],
   ['str',['str',['../class_ms_1_1_plugin_a_p_i_1_1_fraction_wrapper.html#a288b834f8b483958be715bc77558bf46',1,'Ms::PluginAPI::FractionWrapper']]],
   ['straight',['STRAIGHT',['../namespace_ms.html#a80ae4ac7d0dfa9de7aecce4f0ddee69ca8c5e50fab3748e9c53a6863b3dce1401',1,'Ms']]],
   ['string_5fnumber',['STRING_NUMBER',['../namespace_ms.html#aa46ffb71b1b0cd634b2054fa59ec5f90af97f280fc46a662f2c66053ea3221d26',1,'Ms']]],

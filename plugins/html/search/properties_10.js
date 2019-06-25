@@ -1,14 +1,12 @@
 var searchData=
 [
-  ['tempo',['tempo',['../class_ms_1_1_plugin_a_p_i_1_1_cursor.html#a1f76939ad14e456ef73266a4c65dd693',1,'Ms::PluginAPI::Cursor']]],
-  ['tick',['tick',['../class_ms_1_1_plugin_a_p_i_1_1_cursor.html#ad4e0bbc0cc0ffb91120206fb4de60261',1,'Ms::PluginAPI::Cursor']]],
-  ['ticks',['ticks',['../class_ms_1_1_plugin_a_p_i_1_1_fraction_wrapper.html#a8d0065299615176169ceac2c65f38365',1,'Ms::PluginAPI::FractionWrapper']]],
-  ['tid',['Tid',['../class_ms_1_1_plugin_a_p_i_1_1_plugin_a_p_i.html#a08c40a3baac4c548cfc0e7e21d2c5a65',1,'Ms::PluginAPI::PluginAPI']]],
-  ['time',['time',['../class_ms_1_1_plugin_a_p_i_1_1_cursor.html#ab2d5aa7fce1a14d8bddfb2c333ea9679',1,'Ms::PluginAPI::Cursor']]],
-  ['title',['title',['../class_ms_1_1_plugin_a_p_i_1_1_excerpt.html#aa93d37c468bf6aea9c9823eb74bd1a48',1,'Ms::PluginAPI::Excerpt']]],
-  ['tpc',['tpc',['../class_ms_1_1_plugin_a_p_i_1_1_note.html#a1221408187603cfe2d55a2774570ed4b',1,'Ms::PluginAPI::Note']]],
-  ['tpc1',['tpc1',['../class_ms_1_1_plugin_a_p_i_1_1_note.html#acb96e4cc7e05870cb410355770206ebd',1,'Ms::PluginAPI::Note']]],
-  ['tpc2',['tpc2',['../class_ms_1_1_plugin_a_p_i_1_1_note.html#aaed673e5ff21c6bdfd11bb20c6401bb7',1,'Ms::PluginAPI::Note']]],
-  ['track',['track',['../class_ms_1_1_plugin_a_p_i_1_1_cursor.html#addcde177bac7b0d7c1250ce907df0b70',1,'Ms::PluginAPI::Cursor']]],
-  ['type',['type',['../class_ms_1_1_plugin_a_p_i_1_1_score_element.html#ac765329451135abec74c45e1897abf26',1,'Ms::PluginAPI::ScoreElement']]]
+  ['scale',['scale',['../class_ms_1_1_plugin_a_p_i_1_1_score_view.html#ab444a26d6da18356d192d4e5c82d6a44',1,'Ms::PluginAPI::ScoreView']]],
+  ['score',['score',['../class_ms_1_1_plugin_a_p_i_1_1_cursor.html#aaf37c254fcf324828650a5de2c25c624',1,'Ms::PluginAPI::Cursor']]],
+  ['scorename',['scoreName',['../class_ms_1_1_plugin_a_p_i_1_1_score.html#a1306cc8fa089e48c0be927c19abc30ee',1,'Ms::PluginAPI::Score']]],
+  ['scores',['scores',['../class_ms_1_1_plugin_a_p_i_1_1_plugin_a_p_i.html#a47865b59955f589d183f2f8c5e98f89b',1,'Ms::PluginAPI::PluginAPI']]],
+  ['segment',['segment',['../class_ms_1_1_plugin_a_p_i_1_1_cursor.html#a32df483ac348ab9b0f726c4565a22865',1,'Ms::PluginAPI::Cursor::segment()'],['../class_ms_1_1_plugin_a_p_i_1_1_plugin_a_p_i.html#ae811f56cc22bf5a200ebfae828050c58',1,'Ms::PluginAPI::PluginAPI::Segment()']]],
+  ['segmenttype',['segmentType',['../class_ms_1_1_plugin_a_p_i_1_1_segment.html#a337e196a5cd5639413c13f33f3b55c65',1,'Ms::PluginAPI::Segment']]],
+  ['source',['source',['../class_ms_1_1_plugin_a_p_i_1_1_file_i_o.html#abd9014a22b25db02c88cee98da0c20e2',1,'Ms::PluginAPI::FileIO']]],
+  ['staffidx',['staffIdx',['../class_ms_1_1_plugin_a_p_i_1_1_cursor.html#aee268d42c7c97eef8cab06b361fe230a',1,'Ms::PluginAPI::Cursor']]],
+  ['str',['str',['../class_ms_1_1_plugin_a_p_i_1_1_fraction_wrapper.html#a288b834f8b483958be715bc77558bf46',1,'Ms::PluginAPI::FractionWrapper']]]
 ];

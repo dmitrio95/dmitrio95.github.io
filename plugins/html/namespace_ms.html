@@ -23,7 +23,7 @@
   <td id="projectlogo"><img alt="Logo" src="musescore_logo_full.png"/></td>
   <td id="projectalign" style="padding-left: 0.5em;">
    <div id="projectname">MuseScore Plugins
-   &#160;<span id="projectnumber">3.1</span>
+   &#160;<span id="projectnumber">3.2</span>
    </div>
    <div id="projectbrief">Plugins API for MuseScore</div>
   </td>
@@ -229,6 +229,7 @@ Enumerations</h2></td></tr>
 <a class="el" href="namespace_ms.html#a16b11be27a8e9362dd122c4d879e01aea75633a8231fdde71c053ec1a9d491cb5">OSSIA</a>, 
 <br />
 &#160;&#160;<a class="el" href="namespace_ms.html#a16b11be27a8e9362dd122c4d879e01aeae6b9a64e158128f87d67b61968097232">BAGPIPE_EMBELLISHMENT</a>, 
+<a class="el" href="namespace_ms.html#a16b11be27a8e9362dd122c4d879e01aeafec1fffeb63a24b31b41a5e941132ca9">STICKING</a>, 
 <a class="el" href="namespace_ms.html#a16b11be27a8e9362dd122c4d879e01aea9184e33aca4bfeb18acc6350a526aed4">MAXTYPE</a>
 <br />
  }</td></tr>
@@ -361,8 +362,8 @@ Enumerations</h2></td></tr>
 <br />
 &#160;&#160;<a class="el" href="namespace_ms.html#a45f8c604b4008a278fe9bde5156489eea744c4c5d2986906841d0f6e0e4906985">Ambitus</a> = 0x8, 
 <a class="el" href="namespace_ms.html#a45f8c604b4008a278fe9bde5156489eea61c31f6ee53d26bc359f0a77fd8dc2fb">TimeSig</a> = 0x10, 
-<a class="el" href="namespace_ms.html#a45f8c604b4008a278fe9bde5156489eea4fb26ab17477cfbc62b748034c0de041">Clef</a> = 0x20, 
-<a class="el" href="namespace_ms.html#a45f8c604b4008a278fe9bde5156489eea74b58efcee9d2b1868643982f5152c70">StartRepeatBarLine</a> = 0x40, 
+<a class="el" href="namespace_ms.html#a45f8c604b4008a278fe9bde5156489eea74b58efcee9d2b1868643982f5152c70">StartRepeatBarLine</a> = 0x20, 
+<a class="el" href="namespace_ms.html#a45f8c604b4008a278fe9bde5156489eea4fb26ab17477cfbc62b748034c0de041">Clef</a> = 0x40, 
 <br />
 &#160;&#160;<a class="el" href="namespace_ms.html#a45f8c604b4008a278fe9bde5156489eeaa82364cc325a1dcba2361dbc4531c0ac">BarLine</a> = 0x80, 
 <a class="el" href="namespace_ms.html#a45f8c604b4008a278fe9bde5156489eea382f1d7e8d99f3ee29d872432b560c16">Breath</a> = 0x100, 
@@ -428,14 +429,16 @@ Enumerations</h2></td></tr>
 <a class="el" href="namespace_ms.html#aa46ffb71b1b0cd634b2054fa59ec5f90a126ad83a6c76b6a5f45c0dd3ee780082">FOOTER</a>, 
 <br />
 &#160;&#160;<a class="el" href="namespace_ms.html#aa46ffb71b1b0cd634b2054fa59ec5f90adff611def40f842cc2fc5c5b48e0d7f4">INSTRUMENT_CHANGE</a>, 
+<a class="el" href="namespace_ms.html#aa46ffb71b1b0cd634b2054fa59ec5f90afec1fffeb63a24b31b41a5e941132ca9">STICKING</a>, 
 <a class="el" href="namespace_ms.html#aa46ffb71b1b0cd634b2054fa59ec5f90a9f693771ca12c43759045cdf4295e9f5">USER1</a>, 
 <a class="el" href="namespace_ms.html#aa46ffb71b1b0cd634b2054fa59ec5f90a009ab43667ea90b50b741d89cbf76f1b">USER2</a>, 
-<a class="el" href="namespace_ms.html#aa46ffb71b1b0cd634b2054fa59ec5f90ac5b111077f75f96c354597ce99437fa8">USER3</a>, 
 <br />
-&#160;&#160;<a class="el" href="namespace_ms.html#aa46ffb71b1b0cd634b2054fa59ec5f90addfba1f666f3f4fbfb597e0d42bff4bd">USER4</a>, 
+&#160;&#160;<a class="el" href="namespace_ms.html#aa46ffb71b1b0cd634b2054fa59ec5f90ac5b111077f75f96c354597ce99437fa8">USER3</a>, 
+<a class="el" href="namespace_ms.html#aa46ffb71b1b0cd634b2054fa59ec5f90addfba1f666f3f4fbfb597e0d42bff4bd">USER4</a>, 
 <a class="el" href="namespace_ms.html#aa46ffb71b1b0cd634b2054fa59ec5f90a69754ab7990c71b7725a42a41c0922d7">USER5</a>, 
 <a class="el" href="namespace_ms.html#aa46ffb71b1b0cd634b2054fa59ec5f90ac12b152e68b6937084505a135f2dd0fb">USER6</a>, 
-<a class="el" href="namespace_ms.html#aa46ffb71b1b0cd634b2054fa59ec5f90a4bca7133620e5740f8fc9bbf3acb7297">TEXT_STYLES</a>
+<br />
+&#160;&#160;<a class="el" href="namespace_ms.html#aa46ffb71b1b0cd634b2054fa59ec5f90a4bca7133620e5740f8fc9bbf3acb7297">TEXT_STYLES</a>
 <br />
  }<tr class="memdesc:aa46ffb71b1b0cd634b2054fa59ec5f90"><td class="mdescLeft">&#160;</td><td class="mdescRight">Enumerates the list of built-in text substyles.  <a href="namespace_ms.html#aa46ffb71b1b0cd634b2054fa59ec5f90">More...</a><br /></td></tr>
 </td></tr>
@@ -568,6 +571,7 @@ Enumerations</h2></td></tr>
 <br />
 &#160;&#160;<b>BROKEN</b> = 0x10, 
 <b>END</b> = 0x20, 
+<b>END_START_REPEAT</b> = 0x40, 
 <b>DOTTED</b> = 0x80
 <br />
  }</td></tr>
@@ -956,6 +960,7 @@ const int&#160;</td><td class="memItemRight" valign="bottom"><b>STAFF_GROUP_MAX<
 <tr><td class="fieldname"><a id="a16b11be27a8e9362dd122c4d879e01aeadd912956b69fb3e570820021206968a3"></a>ICON&#160;</td><td class="fielddoc"></td></tr>
 <tr><td class="fieldname"><a id="a16b11be27a8e9362dd122c4d879e01aea75633a8231fdde71c053ec1a9d491cb5"></a>OSSIA&#160;</td><td class="fielddoc"></td></tr>
 <tr><td class="fieldname"><a id="a16b11be27a8e9362dd122c4d879e01aeae6b9a64e158128f87d67b61968097232"></a>BAGPIPE_EMBELLISHMENT&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a16b11be27a8e9362dd122c4d879e01aeafec1fffeb63a24b31b41a5e941132ca9"></a>STICKING&#160;</td><td class="fielddoc"></td></tr>
 <tr><td class="fieldname"><a id="a16b11be27a8e9362dd122c4d879e01aea9184e33aca4bfeb18acc6350a526aed4"></a>MAXTYPE&#160;</td><td class="fielddoc"></td></tr>
 </table>
 
@@ -1095,8 +1100,8 @@ const int&#160;</td><td class="memItemRight" valign="bottom"><b>STAFF_GROUP_MAX<
 <tr><td class="fieldname"><a id="a45f8c604b4008a278fe9bde5156489eeac9bacf3e6728a92c9bf826c740ae5436"></a>KeySig&#160;</td><td class="fielddoc"></td></tr>
 <tr><td class="fieldname"><a id="a45f8c604b4008a278fe9bde5156489eea744c4c5d2986906841d0f6e0e4906985"></a>Ambitus&#160;</td><td class="fielddoc"></td></tr>
 <tr><td class="fieldname"><a id="a45f8c604b4008a278fe9bde5156489eea61c31f6ee53d26bc359f0a77fd8dc2fb"></a>TimeSig&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="a45f8c604b4008a278fe9bde5156489eea4fb26ab17477cfbc62b748034c0de041"></a>Clef&#160;</td><td class="fielddoc"></td></tr>
 <tr><td class="fieldname"><a id="a45f8c604b4008a278fe9bde5156489eea74b58efcee9d2b1868643982f5152c70"></a>StartRepeatBarLine&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a45f8c604b4008a278fe9bde5156489eea4fb26ab17477cfbc62b748034c0de041"></a>Clef&#160;</td><td class="fielddoc"></td></tr>
 <tr><td class="fieldname"><a id="a45f8c604b4008a278fe9bde5156489eeaa82364cc325a1dcba2361dbc4531c0ac"></a>BarLine&#160;</td><td class="fielddoc"></td></tr>
 <tr><td class="fieldname"><a id="a45f8c604b4008a278fe9bde5156489eea382f1d7e8d99f3ee29d872432b560c16"></a>Breath&#160;</td><td class="fielddoc"></td></tr>
 <tr><td class="fieldname"><a id="a45f8c604b4008a278fe9bde5156489eea7884fad7b22d960efd4e9d84e61e7fe0"></a>ChordRest&#160;</td><td class="fielddoc"></td></tr>
@@ -1174,6 +1179,7 @@ const int&#160;</td><td class="memItemRight" valign="bottom"><b>STAFF_GROUP_MAX<
 <tr><td class="fieldname"><a id="aa46ffb71b1b0cd634b2054fa59ec5f90a7ad4905b4543ab4a1637dd23c50e36ce"></a>HEADER&#160;</td><td class="fielddoc"></td></tr>
 <tr><td class="fieldname"><a id="aa46ffb71b1b0cd634b2054fa59ec5f90a126ad83a6c76b6a5f45c0dd3ee780082"></a>FOOTER&#160;</td><td class="fielddoc"></td></tr>
 <tr><td class="fieldname"><a id="aa46ffb71b1b0cd634b2054fa59ec5f90adff611def40f842cc2fc5c5b48e0d7f4"></a>INSTRUMENT_CHANGE&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="aa46ffb71b1b0cd634b2054fa59ec5f90afec1fffeb63a24b31b41a5e941132ca9"></a>STICKING&#160;</td><td class="fielddoc"></td></tr>
 <tr><td class="fieldname"><a id="aa46ffb71b1b0cd634b2054fa59ec5f90a9f693771ca12c43759045cdf4295e9f5"></a>USER1&#160;</td><td class="fielddoc"></td></tr>
 <tr><td class="fieldname"><a id="aa46ffb71b1b0cd634b2054fa59ec5f90a009ab43667ea90b50b741d89cbf76f1b"></a>USER2&#160;</td><td class="fielddoc"></td></tr>
 <tr><td class="fieldname"><a id="aa46ffb71b1b0cd634b2054fa59ec5f90ac5b111077f75f96c354597ce99437fa8"></a>USER3&#160;</td><td class="fielddoc"></td></tr>

@@ -23,6 +23,7 @@ var searchData=
   ['double_5fsharp_5ftwo_5farrows_5fdown',['DOUBLE_SHARP_TWO_ARROWS_DOWN',['../namespace_ms.html#afefcf6e1958b07c3c8d7c832a8fdf2dfac9a0d8543b668cfaa4c8f26947638886',1,'Ms']]],
   ['double_5fsharp_5ftwo_5farrows_5fup',['DOUBLE_SHARP_TWO_ARROWS_UP',['../namespace_ms.html#afefcf6e1958b07c3c8d7c832a8fdf2dfa572e54e500af67d193bc6888245fc1cc',1,'Ms']]],
   ['down',['DOWN',['../namespace_ms.html#a224b9163917ac32fc95a60d8c1eec3aaac4e0e4e3118472beeb2ae75827450f1f',1,'Ms']]],
+  ['duration',['duration',['../class_ms_1_1_plugin_a_p_i_1_1_score.html#ac6e4b2a3cf932b33832d4e4e4e7cd0de',1,'Ms::PluginAPI::Score']]],
   ['dynamic',['DYNAMIC',['../namespace_ms.html#a16b11be27a8e9362dd122c4d879e01aea0fcc90da4811c877ba9f9c12f7d60bc9',1,'Ms']]],
   ['dynamics',['DYNAMICS',['../namespace_ms.html#aa46ffb71b1b0cd634b2054fa59ec5f90a3573b2d8bce8526e7ccfc667cf4c7f47',1,'Ms']]]
 ];

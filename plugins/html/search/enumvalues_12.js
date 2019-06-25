@@ -41,6 +41,7 @@ var searchData=
   ['startrepeatbarline',['StartRepeatBarLine',['../namespace_ms.html#a45f8c604b4008a278fe9bde5156489eea74b58efcee9d2b1868643982f5152c70',1,'Ms']]],
   ['stem',['STEM',['../namespace_ms.html#a16b11be27a8e9362dd122c4d879e01aea2295e0750a84297532f2a8197bb76b5e',1,'Ms']]],
   ['stem_5fslash',['STEM_SLASH',['../namespace_ms.html#a16b11be27a8e9362dd122c4d879e01aea8407f5e0edf097483903c1061ff4da91',1,'Ms']]],
+  ['sticking',['STICKING',['../namespace_ms.html#a16b11be27a8e9362dd122c4d879e01aeafec1fffeb63a24b31b41a5e941132ca9',1,'Ms::STICKING()'],['../namespace_ms.html#aa46ffb71b1b0cd634b2054fa59ec5f90afec1fffeb63a24b31b41a5e941132ca9',1,'Ms::STICKING()']]],
   ['straight',['STRAIGHT',['../namespace_ms.html#a80ae4ac7d0dfa9de7aecce4f0ddee69ca8c5e50fab3748e9c53a6863b3dce1401',1,'Ms']]],
   ['string_5fnumber',['STRING_NUMBER',['../namespace_ms.html#aa46ffb71b1b0cd634b2054fa59ec5f90af97f280fc46a662f2c66053ea3221d26',1,'Ms']]],
   ['subtitle',['SUBTITLE',['../namespace_ms.html#aa46ffb71b1b0cd634b2054fa59ec5f90a4755a6fd5219c602faa261bb02e0aa82',1,'Ms']]],

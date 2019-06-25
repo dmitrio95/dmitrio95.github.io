@@ -11,7 +11,7 @@ var searchData=
   ['textline_5fsegment',['TEXTLINE_SEGMENT',['../namespace_ms.html#a16b11be27a8e9362dd122c4d879e01aea2b95853a23c3e7ea299374ea7dcc9a77',1,'Ms']]],
   ['tie',['TIE',['../namespace_ms.html#a16b11be27a8e9362dd122c4d879e01aea8eb6c56ba51924a4cf185ec29e22be22',1,'Ms']]],
   ['tie_5fsegment',['TIE_SEGMENT',['../namespace_ms.html#a16b11be27a8e9362dd122c4d879e01aea141d482ba54ffebf46888e52db8db725',1,'Ms']]],
-  ['timesig',['TimeSig',['../namespace_ms.html#a45f8c604b4008a278fe9bde5156489eea61c31f6ee53d26bc359f0a77fd8dc2fb',1,'Ms::TimeSig()'],['../namespace_ms.html#a16b11be27a8e9362dd122c4d879e01aea97f558f697083d49aabc6a2527a67850',1,'Ms::TIMESIG()']]],
+  ['timesig',['TIMESIG',['../namespace_ms.html#a16b11be27a8e9362dd122c4d879e01aea97f558f697083d49aabc6a2527a67850',1,'Ms::TIMESIG()'],['../namespace_ms.html#a45f8c604b4008a278fe9bde5156489eea61c31f6ee53d26bc359f0a77fd8dc2fb',1,'Ms::TimeSig()']]],
   ['timesigannounce',['TimeSigAnnounce',['../namespace_ms.html#a45f8c604b4008a278fe9bde5156489eeab07e8e49e262461be0bb4dfad9196e2c',1,'Ms']]],
   ['title',['TITLE',['../namespace_ms.html#aa46ffb71b1b0cd634b2054fa59ec5f90a6f9dccd85b2e0786c8d522045365eb48',1,'Ms']]],
   ['translator',['TRANSLATOR',['../namespace_ms.html#aa46ffb71b1b0cd634b2054fa59ec5f90a3768bb7469d139872eb51ea119ae5b88',1,'Ms']]],
