@@ -23,9 +23,9 @@
   <td id="projectlogo"><img alt="Logo" src="musescore_logo_full.png"/></td>
   <td id="projectalign" style="padding-left: 0.5em;">
    <div id="projectname">MuseScore
-   &#160;<span id="projectnumber">3.1</span>
+   &#160;<span id="projectnumber">3.2</span>
    </div>
-   <div id="projectbrief">Music compisition and notation</div>
+   <div id="projectbrief">Music composition and notation</div>
   </td>
  </tr>
  </tbody>
@@ -63,6 +63,8 @@ $(function() {
 <div class="header">
   <div class="summary">
 <a href="#pub-methods">Public Member Functions</a> &#124;
+<a href="#pri-types">Private Types</a> &#124;
+<a href="#pri-attribs">Private Attributes</a> &#124;
 <a href="class_audio_file-members.html">List of all members</a>  </div>
   <div class="headertitle">
 <div class="title">AudioFile Class Reference</div>  </div>
@@ -105,7 +107,58 @@ Public Member Functions</h2></td></tr>
 <tr class="separator:ad1fee8e92daa2114b4f05a71d2bc9e7f"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a9bb62166be09491a5b53e92b8f5e7aeb"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_audio_file.html#a9bb62166be09491a5b53e92b8f5e7aeb">loopMode</a> (int v=0)</td></tr>
 <tr class="separator:a9bb62166be09491a5b53e92b8f5e7aeb"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pri-types"></a>
+Private Types</h2></td></tr>
+<tr class="memitem:a0c980369ca14b85d127ccbf9a13d75c5"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_audio_file.html#a0c980369ca14b85d127ccbf9a13d75c5">FormatType</a> { <a class="el" href="class_audio_file.html#a0c980369ca14b85d127ccbf9a13d75c5a1df6b927bdff8ee141129ca2051748bc">s16p</a>, 
+<a class="el" href="class_audio_file.html#a0c980369ca14b85d127ccbf9a13d75c5a7b07d3df8cf19c0c579b216db35585ba">fltp</a>
+ }</td></tr>
+<tr class="separator:a0c980369ca14b85d127ccbf9a13d75c5"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pri-attribs"></a>
+Private Attributes</h2></td></tr>
+<tr class="memitem:a047e784a184acd70dd661c3f3782e700"><td class="memItemLeft" align="right" valign="top">SF_INFO&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_audio_file.html#a047e784a184acd70dd661c3f3782e700">info</a></td></tr>
+<tr class="separator:a047e784a184acd70dd661c3f3782e700"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aadbeff10b84e32622ad9911e93ac69ea"><td class="memItemLeft" align="right" valign="top">SNDFILE *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_audio_file.html#aadbeff10b84e32622ad9911e93ac69ea">sf</a></td></tr>
+<tr class="separator:aadbeff10b84e32622ad9911e93ac69ea"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:acae27c1fa1fe0aaeba33096ea7e4de93"><td class="memItemLeft" align="right" valign="top">SF_INSTRUMENT&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_audio_file.html#acae27c1fa1fe0aaeba33096ea7e4de93">inst</a></td></tr>
+<tr class="separator:acae27c1fa1fe0aaeba33096ea7e4de93"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a8be6105ee6ad0988158097b8780131d1"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_audio_file.html#a8be6105ee6ad0988158097b8780131d1">hasInstrument</a></td></tr>
+<tr class="separator:a8be6105ee6ad0988158097b8780131d1"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a7280726c6d63bf6e5e221a15fe0f45ce"><td class="memItemLeft" align="right" valign="top">QByteArray&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_audio_file.html#a7280726c6d63bf6e5e221a15fe0f45ce">buf</a></td></tr>
+<tr class="separator:a7280726c6d63bf6e5e221a15fe0f45ce"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa6a834364cf7411a10a59a1da47f184c"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_audio_file.html#aa6a834364cf7411a10a59a1da47f184c">idx</a></td></tr>
+<tr class="separator:aa6a834364cf7411a10a59a1da47f184c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a6c57027b9617a88ec6066b5b1ce1d030"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_audio_file.html#a0c980369ca14b85d127ccbf9a13d75c5">FormatType</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_audio_file.html#a6c57027b9617a88ec6066b5b1ce1d030">_type</a></td></tr>
+<tr class="separator:a6c57027b9617a88ec6066b5b1ce1d030"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
+<h2 class="groupheader">Member Enumeration Documentation</h2>
+<a id="a0c980369ca14b85d127ccbf9a13d75c5"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a0c980369ca14b85d127ccbf9a13d75c5">&#9670;&nbsp;</a></span>FormatType</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">enum <a class="el" href="class_audio_file.html#a0c980369ca14b85d127ccbf9a13d75c5">AudioFile::FormatType</a></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<table class="fieldtable">
+<tr><th colspan="2">Enumerator</th></tr><tr><td class="fieldname"><a id="a0c980369ca14b85d127ccbf9a13d75c5a1df6b927bdff8ee141129ca2051748bc"></a>s16p&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a0c980369ca14b85d127ccbf9a13d75c5a7b07d3df8cf19c0c579b216db35585ba"></a>fltp&#160;</td><td class="fielddoc"></td></tr>
+</table>
+
+</div>
+</div>
 <h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
 <a id="a3e31e753035e560800d3888e4476f3d3"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a3e31e753035e560800d3888e4476f3d3">&#9670;&nbsp;</a></span>AudioFile()</h2>
@@ -496,6 +549,161 @@ Public Member Functions</h2></td></tr>
           <td></td><td></td>
         </tr>
       </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<h2 class="groupheader">Member Data Documentation</h2>
+<a id="a6c57027b9617a88ec6066b5b1ce1d030"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a6c57027b9617a88ec6066b5b1ce1d030">&#9670;&nbsp;</a></span>_type</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="class_audio_file.html#a0c980369ca14b85d127ccbf9a13d75c5">FormatType</a> AudioFile::_type</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a7280726c6d63bf6e5e221a15fe0f45ce"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a7280726c6d63bf6e5e221a15fe0f45ce">&#9670;&nbsp;</a></span>buf</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">QByteArray AudioFile::buf</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a8be6105ee6ad0988158097b8780131d1"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a8be6105ee6ad0988158097b8780131d1">&#9670;&nbsp;</a></span>hasInstrument</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool AudioFile::hasInstrument</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="aa6a834364cf7411a10a59a1da47f184c"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aa6a834364cf7411a10a59a1da47f184c">&#9670;&nbsp;</a></span>idx</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">int AudioFile::idx</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a047e784a184acd70dd661c3f3782e700"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a047e784a184acd70dd661c3f3782e700">&#9670;&nbsp;</a></span>info</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">SF_INFO AudioFile::info</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="acae27c1fa1fe0aaeba33096ea7e4de93"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#acae27c1fa1fe0aaeba33096ea7e4de93">&#9670;&nbsp;</a></span>inst</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">SF_INSTRUMENT AudioFile::inst</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="aadbeff10b84e32622ad9911e93ac69ea"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aadbeff10b84e32622ad9911e93ac69ea">&#9670;&nbsp;</a></span>sf</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">SNDFILE* AudioFile::sf</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
 </div><div class="memdoc">
 
 </div>

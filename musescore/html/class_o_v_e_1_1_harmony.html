@@ -23,9 +23,9 @@
   <td id="projectlogo"><img alt="Logo" src="musescore_logo_full.png"/></td>
   <td id="projectalign" style="padding-left: 0.5em;">
    <div id="projectname">MuseScore
-   &#160;<span id="projectnumber">3.1</span>
+   &#160;<span id="projectnumber">3.2</span>
    </div>
-   <div id="projectbrief">Music compisition and notation</div>
+   <div id="projectbrief">Music composition and notation</div>
   </td>
  </tr>
  </tbody>
@@ -67,6 +67,7 @@ $(function() {
 <div class="header">
   <div class="summary">
 <a href="#pub-methods">Public Member Functions</a> &#124;
+<a href="#pri-attribs">Private Attributes</a> &#124;
 <a href="class_o_v_e_1_1_harmony-members.html">List of all members</a>  </div>
   <div class="headertitle">
 <div class="title">OVE::Harmony Class Reference</div>  </div>
@@ -91,11 +92,12 @@ Collaboration diagram for OVE::Harmony:</div>
 <div class="dyncontent">
 <div class="center"><img src="class_o_v_e_1_1_harmony__coll__graph.png" border="0" usemap="#_o_v_e_1_1_harmony_coll__map" alt="Collaboration graph"/></div>
 <map name="_o_v_e_1_1_harmony_coll__map" id="_o_v_e_1_1_harmony_coll__map">
-<area shape="rect" id="node2" href="class_o_v_e_1_1_music_data.html" title="OVE::MusicData" alt="" coords="165,80,286,107"/>
-<area shape="rect" id="node3" href="class_o_v_e_1_1_tick_element.html" title="OVE::TickElement" alt="" coords="5,5,136,32"/>
-<area shape="rect" id="node4" href="class_o_v_e_1_1_pair_element.html" title="OVE::PairElement" alt="" coords="161,5,290,32"/>
-<area shape="rect" id="node5" href="class_o_v_e_1_1_offset_element.html" title="OVE::OffsetElement" alt="" coords="314,5,457,32"/>
-<area shape="rect" id="node6" href="class_o_v_e_1_1_length_element.html" title="OVE::LengthElement" alt="" coords="310,80,455,107"/>
+<area shape="rect" id="node2" href="class_o_v_e_1_1_music_data.html" title="OVE::MusicData" alt="" coords="165,185,286,212"/>
+<area shape="rect" id="node3" href="class_o_v_e_1_1_tick_element.html" title="OVE::TickElement" alt="" coords="5,109,136,136"/>
+<area shape="rect" id="node4" href="class_o_v_e_1_1_pair_element.html" title="OVE::PairElement" alt="" coords="161,109,290,136"/>
+<area shape="rect" id="node5" href="class_o_v_e_1_1_measure_pos.html" title="OVE::MeasurePos" alt="" coords="160,5,291,32"/>
+<area shape="rect" id="node6" href="class_o_v_e_1_1_offset_element.html" title="OVE::OffsetElement" alt="" coords="314,109,457,136"/>
+<area shape="rect" id="node7" href="class_o_v_e_1_1_length_element.html" title="OVE::LengthElement" alt="" coords="310,185,455,212"/>
 </map>
 <center><span class="legend">[<a href="graph_legend.html">legend</a>]</span></center></div>
 <table class="memberdecls">
@@ -194,6 +196,23 @@ Public Member Functions</h2></td></tr>
 <tr class="separator:ae0d16286bc38391a7baf50d4073cd216 inherit pub_methods_class_o_v_e_1_1_length_element"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a414f40ab988dbc5a4cfcbf8732bbc3df inherit pub_methods_class_o_v_e_1_1_length_element"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_o_v_e_1_1_length_element.html#a414f40ab988dbc5a4cfcbf8732bbc3df">getLength</a> () const</td></tr>
 <tr class="separator:a414f40ab988dbc5a4cfcbf8732bbc3df inherit pub_methods_class_o_v_e_1_1_length_element"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pri-attribs"></a>
+Private Attributes</h2></td></tr>
+<tr class="memitem:ad43ec556004002b3c38ff829d3765b67"><td class="memItemLeft" align="right" valign="top">QString&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_o_v_e_1_1_harmony.html#ad43ec556004002b3c38ff829d3765b67">harmonyType_</a></td></tr>
+<tr class="separator:ad43ec556004002b3c38ff829d3765b67"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa380f6c7e6f1a56d0c117f6d269ca89d"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_o_v_e_1_1_harmony.html#aa380f6c7e6f1a56d0c117f6d269ca89d">root_</a></td></tr>
+<tr class="separator:aa380f6c7e6f1a56d0c117f6d269ca89d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a919b56c41677184e9b8725e82d63299b"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_o_v_e_1_1_harmony.html#a919b56c41677184e9b8725e82d63299b">bass_</a></td></tr>
+<tr class="separator:a919b56c41677184e9b8725e82d63299b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab364de9ef2b02d9e68e71f0e6b5bf474"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_o_v_e_1_1_harmony.html#ab364de9ef2b02d9e68e71f0e6b5bf474">alterRoot_</a></td></tr>
+<tr class="separator:ab364de9ef2b02d9e68e71f0e6b5bf474"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a63f154b6b6fc56564020f109437d3f5a"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_o_v_e_1_1_harmony.html#a63f154b6b6fc56564020f109437d3f5a">alterBass_</a></td></tr>
+<tr class="separator:a63f154b6b6fc56564020f109437d3f5a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae768beecc76a464de9f7bf0f4cd5e384"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_o_v_e_1_1_harmony.html#ae768beecc76a464de9f7bf0f4cd5e384">bassOnBottom_</a></td></tr>
+<tr class="separator:ae768beecc76a464de9f7bf0f4cd5e384"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a0bed7ceeb86e4bf6d7fc80cd277ef379"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_o_v_e_1_1_harmony.html#a0bed7ceeb86e4bf6d7fc80cd277ef379">angle_</a></td></tr>
+<tr class="separator:a0bed7ceeb86e4bf6d7fc80cd277ef379"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="inherited"></a>
 Additional Inherited Members</h2></td></tr>
@@ -500,6 +519,161 @@ Additional Inherited Members</h2></td></tr>
           <td></td>
         </tr>
       </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<h2 class="groupheader">Member Data Documentation</h2>
+<a id="a63f154b6b6fc56564020f109437d3f5a"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a63f154b6b6fc56564020f109437d3f5a">&#9670;&nbsp;</a></span>alterBass_</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">int OVE::Harmony::alterBass_</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="ab364de9ef2b02d9e68e71f0e6b5bf474"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ab364de9ef2b02d9e68e71f0e6b5bf474">&#9670;&nbsp;</a></span>alterRoot_</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">int OVE::Harmony::alterRoot_</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a0bed7ceeb86e4bf6d7fc80cd277ef379"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a0bed7ceeb86e4bf6d7fc80cd277ef379">&#9670;&nbsp;</a></span>angle_</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">int OVE::Harmony::angle_</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a919b56c41677184e9b8725e82d63299b"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a919b56c41677184e9b8725e82d63299b">&#9670;&nbsp;</a></span>bass_</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">int OVE::Harmony::bass_</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="ae768beecc76a464de9f7bf0f4cd5e384"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ae768beecc76a464de9f7bf0f4cd5e384">&#9670;&nbsp;</a></span>bassOnBottom_</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool OVE::Harmony::bassOnBottom_</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="ad43ec556004002b3c38ff829d3765b67"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ad43ec556004002b3c38ff829d3765b67">&#9670;&nbsp;</a></span>harmonyType_</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">QString OVE::Harmony::harmonyType_</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="aa380f6c7e6f1a56d0c117f6d269ca89d"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aa380f6c7e6f1a56d0c117f6d269ca89d">&#9670;&nbsp;</a></span>root_</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">int OVE::Harmony::root_</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
 </div><div class="memdoc">
 
 </div>

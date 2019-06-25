@@ -23,9 +23,9 @@
   <td id="projectlogo"><img alt="Logo" src="musescore_logo_full.png"/></td>
   <td id="projectalign" style="padding-left: 0.5em;">
    <div id="projectname">MuseScore
-   &#160;<span id="projectnumber">3.1</span>
+   &#160;<span id="projectnumber">3.2</span>
    </div>
-   <div id="projectbrief">Music compisition and notation</div>
+   <div id="projectbrief">Music composition and notation</div>
   </td>
  </tr>
  </tbody>
@@ -67,6 +67,7 @@ $(function() {
 <div class="header">
   <div class="summary">
 <a href="#pub-methods">Public Member Functions</a> &#124;
+<a href="#pri-attribs">Private Attributes</a> &#124;
 <a href="class_ms_1_1_omr_staff-members.html">List of all members</a>  </div>
   <div class="headertitle">
 <div class="title">Ms::OmrStaff Class Reference</div>  </div>
@@ -86,6 +87,9 @@ Collaboration diagram for Ms::OmrStaff:</div>
 <div class="dyncontent">
 <div class="center"><img src="class_ms_1_1_omr_staff__coll__graph.png" border="0" usemap="#_ms_1_1_omr_staff_coll__map" alt="Collaboration graph"/></div>
 <map name="_ms_1_1_omr_staff_coll__map" id="_ms_1_1_omr_staff_coll__map">
+<area shape="rect" id="node3" href="class_ms_1_1_omr_key_sig.html" title="Ms::OmrKeySig" alt="" coords="15,132,129,159"/>
+<area shape="rect" id="node5" href="class_ms_1_1_omr_pattern.html" title="Ms::OmrPattern" alt="" coords="113,81,228,108"/>
+<area shape="rect" id="node4" href="class_ms_1_1_omr_clef.html" title="Ms::OmrClef" alt="" coords="133,183,230,209"/>
 </map>
 <center><span class="legend">[<a href="graph_legend.html">legend</a>]</span></center></div>
 <table class="memberdecls">
@@ -109,6 +113,15 @@ Public Member Functions</h2></td></tr>
 <tr class="separator:a9b59e05bbfaf119875c152879e9c80b6"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a3e7dc4210c3942c6f7dd87f01c510809"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ms_1_1_omr_staff.html#a3e7dc4210c3942c6f7dd87f01c510809">setKeySig</a> (const <a class="el" href="class_ms_1_1_omr_key_sig.html">OmrKeySig</a> &amp;s)</td></tr>
 <tr class="separator:a3e7dc4210c3942c6f7dd87f01c510809"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pri-attribs"></a>
+Private Attributes</h2></td></tr>
+<tr class="memitem:aa551b4bbab1e1f6b1e16481b277f9d81"><td class="memItemLeft" align="right" valign="top">QList&lt; <a class="el" href="class_ms_1_1_omr_note.html">OmrNote</a> * &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ms_1_1_omr_staff.html#aa551b4bbab1e1f6b1e16481b277f9d81">_notes</a></td></tr>
+<tr class="separator:aa551b4bbab1e1f6b1e16481b277f9d81"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a0c98a07ff65cc871c8750825f7003806"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_ms_1_1_omr_clef.html">OmrClef</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ms_1_1_omr_staff.html#a0c98a07ff65cc871c8750825f7003806">_clef</a></td></tr>
+<tr class="separator:a0c98a07ff65cc871c8750825f7003806"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aed8991fbee834a5ed4ecb5dabf06dc80"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_ms_1_1_omr_key_sig.html">OmrKeySig</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ms_1_1_omr_staff.html#aed8991fbee834a5ed4ecb5dabf06dc80">_keySig</a></td></tr>
+<tr class="separator:aed8991fbee834a5ed4ecb5dabf06dc80"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
 <a id="ae420856bd4934633f7b457424dadb8c6"></a>
@@ -357,6 +370,73 @@ Public Member Functions</h2></td></tr>
   </td>
   <td class="mlabels-right">
 <span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<h2 class="groupheader">Member Data Documentation</h2>
+<a id="a0c98a07ff65cc871c8750825f7003806"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a0c98a07ff65cc871c8750825f7003806">&#9670;&nbsp;</a></span>_clef</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="class_ms_1_1_omr_clef.html">OmrClef</a> Ms::OmrStaff::_clef</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="aed8991fbee834a5ed4ecb5dabf06dc80"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aed8991fbee834a5ed4ecb5dabf06dc80">&#9670;&nbsp;</a></span>_keySig</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="class_ms_1_1_omr_key_sig.html">OmrKeySig</a> Ms::OmrStaff::_keySig</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="aa551b4bbab1e1f6b1e16481b277f9d81"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aa551b4bbab1e1f6b1e16481b277f9d81">&#9670;&nbsp;</a></span>_notes</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">QList&lt;<a class="el" href="class_ms_1_1_omr_note.html">OmrNote</a>*&gt; Ms::OmrStaff::_notes</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
   </tr>
 </table>
 </div><div class="memdoc">

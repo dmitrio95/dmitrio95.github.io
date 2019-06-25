@@ -23,9 +23,9 @@
   <td id="projectlogo"><img alt="Logo" src="musescore_logo_full.png"/></td>
   <td id="projectalign" style="padding-left: 0.5em;">
    <div id="projectname">MuseScore
-   &#160;<span id="projectnumber">3.1</span>
+   &#160;<span id="projectnumber">3.2</span>
    </div>
-   <div id="projectbrief">Music compisition and notation</div>
+   <div id="projectbrief">Music composition and notation</div>
   </td>
  </tr>
  </tbody>
@@ -67,6 +67,8 @@ $(function() {
 <div class="header">
   <div class="summary">
 <a href="#pub-methods">Public Member Functions</a> &#124;
+<a href="#pri-attribs">Private Attributes</a> &#124;
+<a href="#friends">Friends</a> &#124;
 <a href="class_ms_1_1_listener-members.html">List of all members</a>  </div>
   <div class="headertitle">
 <div class="title">Ms::Listener&lt; Data &gt; Class Template Reference<span class="mlabels"><span class="mlabel">abstract</span></span></div>  </div>
@@ -83,8 +85,12 @@ Public Member Functions</h2></td></tr>
 <tr class="separator:ae00cc588e083ac2af9e191b88d910c3b"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ae1b80168bd04dd8f627fe6bcf8ce5860"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ms_1_1_listener.html#ae1b80168bd04dd8f627fe6bcf8ce5860">Listener</a> (const <a class="el" href="class_ms_1_1_listener.html">Listener</a>&lt; Data &gt; &amp;)</td></tr>
 <tr class="separator:ae1b80168bd04dd8f627fe6bcf8ce5860"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a055013096ac5f7bf48c38b9495b694cf"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ms_1_1_listener.html#a055013096ac5f7bf48c38b9495b694cf">Listener</a> (<a class="el" href="class_ms_1_1_listener.html">Listener</a>&lt; Data &gt; &amp;&amp;)</td></tr>
+<tr class="separator:a055013096ac5f7bf48c38b9495b694cf"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a099a52a70938915e238eeecebb8e06af"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_ms_1_1_listener.html">Listener</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ms_1_1_listener.html#a099a52a70938915e238eeecebb8e06af">operator=</a> (const <a class="el" href="class_ms_1_1_listener.html">Listener</a>&lt; Data &gt; &amp;)</td></tr>
 <tr class="separator:a099a52a70938915e238eeecebb8e06af"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa3bfed53b0219bb4645967c1f40a8b66"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_ms_1_1_listener.html">Listener</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ms_1_1_listener.html#aa3bfed53b0219bb4645967c1f40a8b66">operator=</a> (<a class="el" href="class_ms_1_1_listener.html">Listener</a> &amp;&amp;)</td></tr>
+<tr class="separator:aa3bfed53b0219bb4645967c1f40a8b66"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a434530e00cfc637bcc0e88a7cccac633"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ms_1_1_listener.html#a434530e00cfc637bcc0e88a7cccac633">~Listener</a> ()</td></tr>
 <tr class="separator:a434530e00cfc637bcc0e88a7cccac633"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a571f3641f1abb1bff8d78797e808f6f0"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ms_1_1_listener.html#a571f3641f1abb1bff8d78797e808f6f0">setNotifier</a> (<a class="el" href="class_ms_1_1_notifier.html">Notifier</a>&lt; Data &gt; *n)</td></tr>
@@ -97,10 +103,21 @@ Public Member Functions</h2></td></tr>
 <tr class="separator:a324335090b5c131f947b3216c7be8815"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a7ab88dccecf04ff7c8784d6a4df428b6"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ms_1_1_listener.html#a7ab88dccecf04ff7c8784d6a4df428b6">receive</a> (Data d)=0</td></tr>
 <tr class="separator:a7ab88dccecf04ff7c8784d6a4df428b6"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pri-attribs"></a>
+Private Attributes</h2></td></tr>
+<tr class="memitem:a6b5121aa9df32e47479ba0ca6285724d"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_ms_1_1_notifier.html">Notifier</a>&lt; Data &gt; *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ms_1_1_listener.html#a6b5121aa9df32e47479ba0ca6285724d">_notifier</a> = nullptr</td></tr>
+<tr class="separator:a6b5121aa9df32e47479ba0ca6285724d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="friends"></a>
+Friends</h2></td></tr>
+<tr class="memitem:ac9bb898865096537df79e154335e88f8"><td class="memTemplParams" colspan="2">template&lt;typename T &gt; </td></tr>
+<tr class="memitem:ac9bb898865096537df79e154335e88f8"><td class="memTemplItemLeft" align="right" valign="top">void&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="class_ms_1_1_listener.html#ac9bb898865096537df79e154335e88f8">swap</a> (<a class="el" href="class_ms_1_1_listener.html">Listener</a>&lt; T &gt; &amp;l1, <a class="el" href="class_ms_1_1_listener.html">Listener</a>&lt; T &gt; &amp;l2)</td></tr>
+<tr class="separator:ac9bb898865096537df79e154335e88f8"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
 <a id="ae2865170ba86773ff61d115e2805dc19"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ae2865170ba86773ff61d115e2805dc19">&#9670;&nbsp;</a></span>Listener() <span class="overload">[1/3]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#ae2865170ba86773ff61d115e2805dc19">&#9670;&nbsp;</a></span>Listener() <span class="overload">[1/4]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -127,7 +144,7 @@ template&lt;typename Data&gt; </div>
 </div>
 </div>
 <a id="ae00cc588e083ac2af9e191b88d910c3b"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ae00cc588e083ac2af9e191b88d910c3b">&#9670;&nbsp;</a></span>Listener() <span class="overload">[2/3]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#ae00cc588e083ac2af9e191b88d910c3b">&#9670;&nbsp;</a></span>Listener() <span class="overload">[2/4]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -155,7 +172,7 @@ template&lt;typename Data&gt; </div>
 </div>
 </div>
 <a id="ae1b80168bd04dd8f627fe6bcf8ce5860"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ae1b80168bd04dd8f627fe6bcf8ce5860">&#9670;&nbsp;</a></span>Listener() <span class="overload">[3/3]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#ae1b80168bd04dd8f627fe6bcf8ce5860">&#9670;&nbsp;</a></span>Listener() <span class="overload">[3/4]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -178,6 +195,26 @@ template&lt;typename Data&gt; </div>
 <span class="mlabels"><span class="mlabel">inline</span></span>  </td>
   </tr>
 </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a055013096ac5f7bf48c38b9495b694cf"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a055013096ac5f7bf48c38b9495b694cf">&#9670;&nbsp;</a></span>Listener() <span class="overload">[4/4]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;typename Data&gt; </div>
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="class_ms_1_1_listener.html">Ms::Listener</a>&lt; Data &gt;::<a class="el" href="class_ms_1_1_listener.html">Listener</a> </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="class_ms_1_1_listener.html">Listener</a>&lt; Data &gt; &amp;&amp;&#160;</td>
+          <td class="paramname"><em>other</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
 </div><div class="memdoc">
 
 </div>
@@ -285,7 +322,7 @@ template&lt;typename Data&gt; </div>
 </div>
 </div>
 <a id="a099a52a70938915e238eeecebb8e06af"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a099a52a70938915e238eeecebb8e06af">&#9670;&nbsp;</a></span>operator=()</h2>
+<h2 class="memtitle"><span class="permalink"><a href="#a099a52a70938915e238eeecebb8e06af">&#9670;&nbsp;</a></span>operator=() <span class="overload">[1/2]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -308,6 +345,26 @@ template&lt;typename Data&gt; </div>
 <span class="mlabels"><span class="mlabel">inline</span></span>  </td>
   </tr>
 </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="aa3bfed53b0219bb4645967c1f40a8b66"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aa3bfed53b0219bb4645967c1f40a8b66">&#9670;&nbsp;</a></span>operator=() <span class="overload">[2/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;typename Data&gt; </div>
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="class_ms_1_1_listener.html">Listener</a>&lt; Data &gt; &amp; <a class="el" href="class_ms_1_1_listener.html">Ms::Listener</a>&lt; Data &gt;::operator= </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="class_ms_1_1_listener.html">Listener</a>&lt; Data &gt; &amp;&amp;&#160;</td>
+          <td class="paramname"><em>other</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
 </div><div class="memdoc">
 
 </div>
@@ -338,6 +395,8 @@ template&lt;typename Data&gt; </div>
 </table>
 </div><div class="memdoc">
 
+<p>Implemented in <a class="el" href="class_ms_1_1_channel_listener.html#a5ee877a5e7d59342a31288faed83d799">Ms::ChannelListener</a>.</p>
+
 </div>
 </div>
 <a id="a571f3641f1abb1bff8d78797e808f6f0"></a>
@@ -356,6 +415,72 @@ template&lt;typename Data&gt; </div>
           <td></td>
         </tr>
       </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<h2 class="groupheader">Friends And Related Function Documentation</h2>
+<a id="ac9bb898865096537df79e154335e88f8"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ac9bb898865096537df79e154335e88f8">&#9670;&nbsp;</a></span>swap</h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;typename Data&gt; </div>
+<div class="memtemplate">
+template&lt;typename T &gt; </div>
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void swap </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="class_ms_1_1_listener.html">Listener</a>&lt; T &gt; &amp;&#160;</td>
+          <td class="paramname"><em>l1</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="class_ms_1_1_listener.html">Listener</a>&lt; T &gt; &amp;&#160;</td>
+          <td class="paramname"><em>l2</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">friend</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<h2 class="groupheader">Member Data Documentation</h2>
+<a id="a6b5121aa9df32e47479ba0ca6285724d"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a6b5121aa9df32e47479ba0ca6285724d">&#9670;&nbsp;</a></span>_notifier</h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;typename Data&gt; </div>
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="class_ms_1_1_notifier.html">Notifier</a>&lt;Data&gt;* <a class="el" href="class_ms_1_1_listener.html">Ms::Listener</a>&lt; Data &gt;::_notifier = nullptr</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
 </div><div class="memdoc">
 
 </div>

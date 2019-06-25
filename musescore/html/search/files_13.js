@@ -18,6 +18,7 @@ var searchData=
   ['textcursor_2eh',['textcursor.h',['../textcursor_8h.html',1,'']]],
   ['textedit_2ecpp',['textedit.cpp',['../textedit_8cpp.html',1,'']]],
   ['textedit_2eh',['textedit.h',['../textedit_8h.html',1,'']]],
+  ['textedit_5fundostack_2ecpp',['textedit_undostack.cpp',['../textedit__undostack_8cpp.html',1,'']]],
   ['textframe_2ecpp',['textframe.cpp',['../textframe_8cpp.html',1,'']]],
   ['textframe_2eh',['textframe.h',['../textframe_8h.html',1,'']]],
   ['textline_2ecpp',['textline.cpp',['../textline_8cpp.html',1,'']]],

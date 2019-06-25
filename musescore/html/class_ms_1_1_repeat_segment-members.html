@@ -23,9 +23,9 @@
   <td id="projectlogo"><img alt="Logo" src="musescore_logo_full.png"/></td>
   <td id="projectalign" style="padding-left: 0.5em;">
    <div id="projectname">MuseScore
-   &#160;<span id="projectnumber">3.1</span>
+   &#160;<span id="projectnumber">3.2</span>
    </div>
-   <div id="projectbrief">Music compisition and notation</div>
+   <div id="projectbrief">Music composition and notation</div>
   </td>
  </tr>
  </tbody>
@@ -74,15 +74,18 @@ $(function() {
 <table class="directory">
   <tr class="even"><td class="entry"><a class="el" href="class_ms_1_1_repeat_segment.html#a998a2fe99430c9cd3d62172d98f064b4">addMeasure</a>(Measure *const)</td><td class="entry"><a class="el" href="class_ms_1_1_repeat_segment.html">Ms::RepeatSegment</a></td><td class="entry"></td></tr>
   <tr><td class="entry"><a class="el" href="class_ms_1_1_repeat_segment.html#a0133a492e83698566e9ed0e7adfe66d8">containsMeasure</a>(Measure const *const) const</td><td class="entry"><a class="el" href="class_ms_1_1_repeat_segment.html">Ms::RepeatSegment</a></td><td class="entry"></td></tr>
+  <tr class="even"><td class="entry"><a class="el" href="class_ms_1_1_repeat_segment.html#ad8d3dca624e67746288d03848b114634">firstMeasure</a>() const</td><td class="entry"><a class="el" href="class_ms_1_1_repeat_segment.html">Ms::RepeatSegment</a></td><td class="entry"><span class="mlabel">inline</span></td></tr>
+  <tr><td class="entry"><a class="el" href="class_ms_1_1_repeat_segment.html#a07dc249955e0335283f0e7eebcb5793d">lastMeasure</a>() const</td><td class="entry"><a class="el" href="class_ms_1_1_repeat_segment.html">Ms::RepeatSegment</a></td><td class="entry"><span class="mlabel">inline</span></td></tr>
   <tr class="even"><td class="entry"><a class="el" href="class_ms_1_1_repeat_segment.html#ab3b35496c325d4039eed412758790c37">len</a>() const</td><td class="entry"><a class="el" href="class_ms_1_1_repeat_segment.html">Ms::RepeatSegment</a></td><td class="entry"></td></tr>
-  <tr><td class="entry"><a class="el" href="class_ms_1_1_repeat_segment.html#aa55fd226e6008bf93eb4ebd39947dffb">playbackCount</a>(Measure *const) const</td><td class="entry"><a class="el" href="class_ms_1_1_repeat_segment.html">Ms::RepeatSegment</a></td><td class="entry"></td></tr>
-  <tr class="even"><td class="entry"><a class="el" href="class_ms_1_1_repeat_segment.html#a8affaef58a4d29202db804d9084e41ee">RepeatList</a> class</td><td class="entry"><a class="el" href="class_ms_1_1_repeat_segment.html">Ms::RepeatSegment</a></td><td class="entry"><span class="mlabel">friend</span></td></tr>
-  <tr><td class="entry"><a class="el" href="class_ms_1_1_repeat_segment.html#a8ccd451819fafd30d14000a7951da3cb">RepeatSegment</a>()</td><td class="entry"><a class="el" href="class_ms_1_1_repeat_segment.html">Ms::RepeatSegment</a></td><td class="entry"></td></tr>
-  <tr class="even"><td class="entry"><a class="el" href="class_ms_1_1_repeat_segment.html#aa2ec7a35585d474a697c9a62fa404eff">RepeatSegment</a>(RepeatSegment *const, Measure *const fromMeasure, Measure *const untilMeasure)</td><td class="entry"><a class="el" href="class_ms_1_1_repeat_segment.html">Ms::RepeatSegment</a></td><td class="entry"></td></tr>
-  <tr><td class="entry"><a class="el" href="class_ms_1_1_repeat_segment.html#abe0d339ede48c79c40418c6b6cc189a1">tick</a></td><td class="entry"><a class="el" href="class_ms_1_1_repeat_segment.html">Ms::RepeatSegment</a></td><td class="entry"></td></tr>
-  <tr class="even"><td class="entry"><a class="el" href="class_ms_1_1_repeat_segment.html#a349be9a48c72b3fef91ee898805dc735">timeOffset</a></td><td class="entry"><a class="el" href="class_ms_1_1_repeat_segment.html">Ms::RepeatSegment</a></td><td class="entry"></td></tr>
-  <tr><td class="entry"><a class="el" href="class_ms_1_1_repeat_segment.html#a5373793f0d793ea1d9b1dd65f38b1b79">utick</a></td><td class="entry"><a class="el" href="class_ms_1_1_repeat_segment.html">Ms::RepeatSegment</a></td><td class="entry"></td></tr>
-  <tr class="even"><td class="entry"><a class="el" href="class_ms_1_1_repeat_segment.html#ae12ac25bd66b8034acaef2d81682079b">utime</a></td><td class="entry"><a class="el" href="class_ms_1_1_repeat_segment.html">Ms::RepeatSegment</a></td><td class="entry"></td></tr>
+  <tr><td class="entry"><a class="el" href="class_ms_1_1_repeat_segment.html#a9342e4ce4938256c4875ee51b7b2b42e">measureList</a></td><td class="entry"><a class="el" href="class_ms_1_1_repeat_segment.html">Ms::RepeatSegment</a></td><td class="entry"><span class="mlabel">private</span></td></tr>
+  <tr class="even"><td class="entry"><a class="el" href="class_ms_1_1_repeat_segment.html#aa55fd226e6008bf93eb4ebd39947dffb">playbackCount</a>(Measure *const) const</td><td class="entry"><a class="el" href="class_ms_1_1_repeat_segment.html">Ms::RepeatSegment</a></td><td class="entry"></td></tr>
+  <tr><td class="entry"><a class="el" href="class_ms_1_1_repeat_segment.html#a8affaef58a4d29202db804d9084e41ee">RepeatList</a> class</td><td class="entry"><a class="el" href="class_ms_1_1_repeat_segment.html">Ms::RepeatSegment</a></td><td class="entry"><span class="mlabel">friend</span></td></tr>
+  <tr class="even"><td class="entry"><a class="el" href="class_ms_1_1_repeat_segment.html#a8ccd451819fafd30d14000a7951da3cb">RepeatSegment</a>()</td><td class="entry"><a class="el" href="class_ms_1_1_repeat_segment.html">Ms::RepeatSegment</a></td><td class="entry"></td></tr>
+  <tr><td class="entry"><a class="el" href="class_ms_1_1_repeat_segment.html#aa2ec7a35585d474a697c9a62fa404eff">RepeatSegment</a>(RepeatSegment *const, Measure *const fromMeasure, Measure *const untilMeasure)</td><td class="entry"><a class="el" href="class_ms_1_1_repeat_segment.html">Ms::RepeatSegment</a></td><td class="entry"></td></tr>
+  <tr class="even"><td class="entry"><a class="el" href="class_ms_1_1_repeat_segment.html#abe0d339ede48c79c40418c6b6cc189a1">tick</a></td><td class="entry"><a class="el" href="class_ms_1_1_repeat_segment.html">Ms::RepeatSegment</a></td><td class="entry"></td></tr>
+  <tr><td class="entry"><a class="el" href="class_ms_1_1_repeat_segment.html#a349be9a48c72b3fef91ee898805dc735">timeOffset</a></td><td class="entry"><a class="el" href="class_ms_1_1_repeat_segment.html">Ms::RepeatSegment</a></td><td class="entry"></td></tr>
+  <tr class="even"><td class="entry"><a class="el" href="class_ms_1_1_repeat_segment.html#a5373793f0d793ea1d9b1dd65f38b1b79">utick</a></td><td class="entry"><a class="el" href="class_ms_1_1_repeat_segment.html">Ms::RepeatSegment</a></td><td class="entry"></td></tr>
+  <tr><td class="entry"><a class="el" href="class_ms_1_1_repeat_segment.html#ae12ac25bd66b8034acaef2d81682079b">utime</a></td><td class="entry"><a class="el" href="class_ms_1_1_repeat_segment.html">Ms::RepeatSegment</a></td><td class="entry"></td></tr>
 </table></div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>

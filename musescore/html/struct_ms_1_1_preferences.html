@@ -23,9 +23,9 @@
   <td id="projectlogo"><img alt="Logo" src="musescore_logo_full.png"/></td>
   <td id="projectalign" style="padding-left: 0.5em;">
    <div id="projectname">MuseScore
-   &#160;<span id="projectnumber">3.1</span>
+   &#160;<span id="projectnumber">3.2</span>
    </div>
-   <div id="projectbrief">Music compisition and notation</div>
+   <div id="projectbrief">Music composition and notation</div>
   </td>
  </tr>
  </tbody>
@@ -68,6 +68,8 @@ $(function() {
   <div class="summary">
 <a href="#pub-types">Public Types</a> &#124;
 <a href="#pub-methods">Public Member Functions</a> &#124;
+<a href="#pri-methods">Private Member Functions</a> &#124;
+<a href="#pri-attribs">Private Attributes</a> &#124;
 <a href="struct_ms_1_1_preferences-members.html">List of all members</a>  </div>
   <div class="headertitle">
 <div class="title">Ms::Preferences Class Reference</div>  </div>
@@ -130,7 +132,7 @@ Public Member Functions</h2></td></tr>
 <tr class="separator:ac5ae0015201212fa5b4f0cf6d9819bd9"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aa0b3bf52c41e9aa46707c7a4bae14621"><td class="memItemLeft" align="right" valign="top"><a class="el" href="struct_ms_1_1_midi_remote.html">MidiRemote</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_ms_1_1_preferences.html#aa0b3bf52c41e9aa46707c7a4bae14621">midiRemote</a> (int recordId) const</td></tr>
 <tr class="separator:aa0b3bf52c41e9aa46707c7a4bae14621"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a1d925da23e8d45a30dd19d6e80307dbc"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_ms_1_1_preferences.html#a1d925da23e8d45a30dd19d6e80307dbc">updateMidiRemote</a> (int recordId, <a class="el" href="namespace_ms.html#a27b2b4f19796dc224511829646756a7b">MidiRemoteType</a> type, int data)</td></tr>
+<tr class="memitem:a1d925da23e8d45a30dd19d6e80307dbc"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_ms_1_1_preferences.html#a1d925da23e8d45a30dd19d6e80307dbc">updateMidiRemote</a> (int recordId, <a class="el" href="namespace_ms.html#a27b2b4f19796dc224511829646756a7b">MidiRemoteType</a> <a class="el" href="struct_ms_1_1_preferences.html#af793426d69e4626e4e8d42597db693c2">type</a>, int data)</td></tr>
 <tr class="separator:a1d925da23e8d45a30dd19d6e80307dbc"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a61aac29881850521d0ba9dbb53dac34c"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_ms_1_1_preferences.html#a61aac29881850521d0ba9dbb53dac34c">clearMidiRemote</a> (int recordId)</td></tr>
 <tr class="separator:a61aac29881850521d0ba9dbb53dac34c"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -144,6 +146,48 @@ Public Member Functions</h2></td></tr>
 <tr class="separator:a45a588862d2ace9acbf584dfa71a4b7d"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a30cd66691ced12b99507c09297de4e77"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_ms_1_1_preferences.html#a30cd66691ced12b99507c09297de4e77">updateLocalPreferences</a> ()</td></tr>
 <tr class="separator:a30cd66691ced12b99507c09297de4e77"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pri-methods"></a>
+Private Member Functions</h2></td></tr>
+<tr class="memitem:a04b7fb4ecfbaea5db5fc6cb37f750a8e"><td class="memItemLeft" align="right" valign="top">QSettings *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_ms_1_1_preferences.html#a04b7fb4ecfbaea5db5fc6cb37f750a8e">settings</a> () const</td></tr>
+<tr class="separator:a04b7fb4ecfbaea5db5fc6cb37f750a8e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a8d4816b3e41d64fa709b044cae9f0992"><td class="memItemLeft" align="right" valign="top">QVariant&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_ms_1_1_preferences.html#a8d4816b3e41d64fa709b044cae9f0992">get</a> (const QString key) const</td></tr>
+<tr class="separator:a8d4816b3e41d64fa709b044cae9f0992"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a5f89afc64b53a019c4a42ac72700cea1"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_ms_1_1_preferences.html#a5f89afc64b53a019c4a42ac72700cea1">has</a> (const QString key) const</td></tr>
+<tr class="separator:a5f89afc64b53a019c4a42ac72700cea1"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a4562b9b2612712fede84cbce23189d44"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_ms_1_1_preferences.html#a4562b9b2612712fede84cbce23189d44">set</a> (const QString key, QVariant value, bool temporary=false)</td></tr>
+<tr class="separator:a4562b9b2612712fede84cbce23189d44"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a917cc05d41c84f3a327bed811c1ff151"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_ms_1_1_preferences.html#a917cc05d41c84f3a327bed811c1ff151">remove</a> (const QString key)</td></tr>
+<tr class="separator:a917cc05d41c84f3a327bed811c1ff151"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a8bf9c79a0505f4a5f9882bd46a13eca6"><td class="memItemLeft" align="right" valign="top">QVariant&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_ms_1_1_preferences.html#a8bf9c79a0505f4a5f9882bd46a13eca6">preference</a> (const QString key) const</td></tr>
+<tr class="separator:a8bf9c79a0505f4a5f9882bd46a13eca6"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af793426d69e4626e4e8d42597db693c2"><td class="memItemLeft" align="right" valign="top">QMetaType::Type&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_ms_1_1_preferences.html#af793426d69e4626e4e8d42597db693c2">type</a> (const QString key) const</td></tr>
+<tr class="separator:af793426d69e4626e4e8d42597db693c2"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa10bec53378b22a2fb3d7cb34388d4e9"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_ms_1_1_preferences.html#aa10bec53378b22a2fb3d7cb34388d4e9">checkIfKeyExists</a> (const QString key) const</td></tr>
+<tr class="separator:aa10bec53378b22a2fb3d7cb34388d4e9"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a2ead1e21341c36f444fadf70e553f4fe"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_ms_1_1_preferences.html#a2ead1e21341c36f444fadf70e553f4fe">checkType</a> (const QString key, QMetaType::Type t) const</td></tr>
+<tr class="separator:a2ead1e21341c36f444fadf70e553f4fe"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a233a12773ec5ae67aa5a4ae1307be63b"><td class="memItemLeft" align="right" valign="top">QMap&lt; QString, QVariant &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_ms_1_1_preferences.html#a233a12773ec5ae67aa5a4ae1307be63b">getDefaultLocalPreferences</a> ()</td></tr>
+<tr class="separator:a233a12773ec5ae67aa5a4ae1307be63b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pri-attribs"></a>
+Private Attributes</h2></td></tr>
+<tr class="memitem:a5a395e4b952356d4d5b5f84a3ec5e903"><td class="memItemLeft" align="right" valign="top"><a class="el" href="struct_ms_1_1_preferences.html#a33c650b94400670f306f6579bde09bbb">prefs_map_t</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_ms_1_1_preferences.html#a5a395e4b952356d4d5b5f84a3ec5e903">_allPreferences</a></td></tr>
+<tr class="separator:a5a395e4b952356d4d5b5f84a3ec5e903"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aeae7df8d3a1266de40eb917fdfdc132a"><td class="memItemLeft" align="right" valign="top">QHash&lt; QString, QVariant &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_ms_1_1_preferences.html#aeae7df8d3a1266de40eb917fdfdc132a">_inMemorySettings</a></td></tr>
+<tr class="separator:aeae7df8d3a1266de40eb917fdfdc132a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac0cf47e85726d7430d228fa3dea3f41e"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_ms_1_1_preferences.html#ac0cf47e85726d7430d228fa3dea3f41e">_storeInMemoryOnly</a> = false</td></tr>
+<tr class="separator:ac0cf47e85726d7430d228fa3dea3f41e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa34cef7602079aad15fe978e1bcf13c6"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_ms_1_1_preferences.html#aa34cef7602079aad15fe978e1bcf13c6">_returnDefaultValues</a> = false</td></tr>
+<tr class="separator:aa34cef7602079aad15fe978e1bcf13c6"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a7b6a9bb2a05d2a497aac5925a4f77291"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_ms_1_1_preferences.html#a7b6a9bb2a05d2a497aac5925a4f77291">_initialized</a> = false</td></tr>
+<tr class="separator:a7b6a9bb2a05d2a497aac5925a4f77291"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aad9f910b159f0e3c610e940603f4896f"><td class="memItemLeft" align="right" valign="top">QSettings *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_ms_1_1_preferences.html#aad9f910b159f0e3c610e940603f4896f">_settings</a></td></tr>
+<tr class="separator:aad9f910b159f0e3c610e940603f4896f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a07216afdba21e2faaaf2274a01f3d227"><td class="memItemLeft" align="right" valign="top">QMap&lt; QString, QVariant &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_ms_1_1_preferences.html#a07216afdba21e2faaaf2274a01f3d227">localPreferences</a></td></tr>
+<tr class="separator:a07216afdba21e2faaaf2274a01f3d227"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a445af5398cdff5407752d9b4fe284bc7"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_ms_1_1_preferences.html#a445af5398cdff5407752d9b4fe284bc7">useLocalPrefs</a> = false</td></tr>
+<tr class="separator:a445af5398cdff5407752d9b4fe284bc7"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <h2 class="groupheader">Member Typedef Documentation</h2>
 <a id="a33c650b94400670f306f6579bde09bbb"></a>
@@ -221,6 +265,68 @@ Public Member Functions</h2></td></tr>
 
 </div>
 </div>
+<a id="aa10bec53378b22a2fb3d7cb34388d4e9"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aa10bec53378b22a2fb3d7cb34388d4e9">&#9670;&nbsp;</a></span>checkIfKeyExists()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool Ms::Preferences::checkIfKeyExists </td>
+          <td>(</td>
+          <td class="paramtype">const QString&#160;</td>
+          <td class="paramname"><em>key</em></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a2ead1e21341c36f444fadf70e553f4fe"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a2ead1e21341c36f444fadf70e553f4fe">&#9670;&nbsp;</a></span>checkType()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool Ms::Preferences::checkType </td>
+          <td>(</td>
+          <td class="paramtype">const QString&#160;</td>
+          <td class="paramname"><em>key</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">QMetaType::Type&#160;</td>
+          <td class="paramname"><em>t</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
 <a id="a61aac29881850521d0ba9dbb53dac34c"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a61aac29881850521d0ba9dbb53dac34c">&#9670;&nbsp;</a></span>clearMidiRemote()</h2>
 
@@ -257,6 +363,32 @@ Public Member Functions</h2></td></tr>
 
 </div>
 </div>
+<a id="a8d4816b3e41d64fa709b044cae9f0992"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a8d4816b3e41d64fa709b044cae9f0992">&#9670;&nbsp;</a></span>get()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">QVariant Ms::Preferences::get </td>
+          <td>(</td>
+          <td class="paramtype">const QString&#160;</td>
+          <td class="paramname"><em>key</em></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
 <a id="a39e1e4d3d337de7dcafb14fd8c75c4a2"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a39e1e4d3d337de7dcafb14fd8c75c4a2">&#9670;&nbsp;</a></span>getBool()</h2>
 
@@ -289,6 +421,31 @@ Public Member Functions</h2></td></tr>
           <td> const</td>
         </tr>
       </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a233a12773ec5ae67aa5a4ae1307be63b"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a233a12773ec5ae67aa5a4ae1307be63b">&#9670;&nbsp;</a></span>getDefaultLocalPreferences()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">QMap&lt; QString, QVariant &gt; Ms::Preferences::getDefaultLocalPreferences </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
 </div><div class="memdoc">
 
 </div>
@@ -432,6 +589,32 @@ Public Member Functions</h2></td></tr>
 
 </div>
 </div>
+<a id="a5f89afc64b53a019c4a42ac72700cea1"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a5f89afc64b53a019c4a42ac72700cea1">&#9670;&nbsp;</a></span>has()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool Ms::Preferences::has </td>
+          <td>(</td>
+          <td class="paramtype">const QString&#160;</td>
+          <td class="paramname"><em>key</em></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
 <a id="a675be06e8f5ad82519e3b328ec5abdc7"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a675be06e8f5ad82519e3b328ec5abdc7">&#9670;&nbsp;</a></span>init()</h2>
 
@@ -519,6 +702,58 @@ Public Member Functions</h2></td></tr>
 
 </div>
 </div>
+<a id="a8bf9c79a0505f4a5f9882bd46a13eca6"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a8bf9c79a0505f4a5f9882bd46a13eca6">&#9670;&nbsp;</a></span>preference()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">QVariant Ms::Preferences::preference </td>
+          <td>(</td>
+          <td class="paramtype">const QString&#160;</td>
+          <td class="paramname"><em>key</em></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a917cc05d41c84f3a327bed811c1ff151"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a917cc05d41c84f3a327bed811c1ff151">&#9670;&nbsp;</a></span>remove()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void Ms::Preferences::remove </td>
+          <td>(</td>
+          <td class="paramtype">const QString&#160;</td>
+          <td class="paramname"><em>key</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
 <a id="a996b7ad6f78eec645669cea254a3e7f1"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a996b7ad6f78eec645669cea254a3e7f1">&#9670;&nbsp;</a></span>save()</h2>
 
@@ -549,6 +784,48 @@ Public Member Functions</h2></td></tr>
           <td> const</td>
         </tr>
       </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a4562b9b2612712fede84cbce23189d44"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a4562b9b2612712fede84cbce23189d44">&#9670;&nbsp;</a></span>set()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void Ms::Preferences::set </td>
+          <td>(</td>
+          <td class="paramtype">const QString&#160;</td>
+          <td class="paramname"><em>key</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">QVariant&#160;</td>
+          <td class="paramname"><em>value</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">bool&#160;</td>
+          <td class="paramname"><em>temporary</em> = <code>false</code>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
 </div><div class="memdoc">
 
 </div>
@@ -701,6 +978,31 @@ template&lt;typename T &gt; </div>
 
 </div>
 </div>
+<a id="a04b7fb4ecfbaea5db5fc6cb37f750a8e"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a04b7fb4ecfbaea5db5fc6cb37f750a8e">&#9670;&nbsp;</a></span>settings()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">QSettings * Ms::Preferences::settings </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
 <a id="ac234a60c69cb8ac1c76ad89a90194f6e"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#ac234a60c69cb8ac1c76ad89a90194f6e">&#9670;&nbsp;</a></span>setToDefaultValue()</h2>
 
@@ -739,6 +1041,32 @@ template&lt;typename T &gt; </div>
   </td>
   <td class="mlabels-right">
 <span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="af793426d69e4626e4e8d42597db693c2"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#af793426d69e4626e4e8d42597db693c2">&#9670;&nbsp;</a></span>type()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">QMetaType::Type Ms::Preferences::type </td>
+          <td>(</td>
+          <td class="paramtype">const QString&#160;</td>
+          <td class="paramname"><em>key</em></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
   </tr>
 </table>
 </div><div class="memdoc">
@@ -800,6 +1128,183 @@ template&lt;typename T &gt; </div>
           <td></td><td></td>
         </tr>
       </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<h2 class="groupheader">Member Data Documentation</h2>
+<a id="a5a395e4b952356d4d5b5f84a3ec5e903"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a5a395e4b952356d4d5b5f84a3ec5e903">&#9670;&nbsp;</a></span>_allPreferences</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="struct_ms_1_1_preferences.html#a33c650b94400670f306f6579bde09bbb">prefs_map_t</a> Ms::Preferences::_allPreferences</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a7b6a9bb2a05d2a497aac5925a4f77291"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a7b6a9bb2a05d2a497aac5925a4f77291">&#9670;&nbsp;</a></span>_initialized</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool Ms::Preferences::_initialized = false</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="aeae7df8d3a1266de40eb917fdfdc132a"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aeae7df8d3a1266de40eb917fdfdc132a">&#9670;&nbsp;</a></span>_inMemorySettings</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">QHash&lt;QString, QVariant&gt; Ms::Preferences::_inMemorySettings</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="aa34cef7602079aad15fe978e1bcf13c6"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aa34cef7602079aad15fe978e1bcf13c6">&#9670;&nbsp;</a></span>_returnDefaultValues</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool Ms::Preferences::_returnDefaultValues = false</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="aad9f910b159f0e3c610e940603f4896f"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aad9f910b159f0e3c610e940603f4896f">&#9670;&nbsp;</a></span>_settings</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">QSettings* Ms::Preferences::_settings</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="ac0cf47e85726d7430d228fa3dea3f41e"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ac0cf47e85726d7430d228fa3dea3f41e">&#9670;&nbsp;</a></span>_storeInMemoryOnly</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool Ms::Preferences::_storeInMemoryOnly = false</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a07216afdba21e2faaaf2274a01f3d227"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a07216afdba21e2faaaf2274a01f3d227">&#9670;&nbsp;</a></span>localPreferences</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">QMap&lt;QString, QVariant&gt; Ms::Preferences::localPreferences</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a445af5398cdff5407752d9b4fe284bc7"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a445af5398cdff5407752d9b4fe284bc7">&#9670;&nbsp;</a></span>useLocalPrefs</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool Ms::Preferences::useLocalPrefs = false</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
 </div><div class="memdoc">
 
 </div>

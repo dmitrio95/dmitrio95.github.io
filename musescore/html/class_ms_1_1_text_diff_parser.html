@@ -23,9 +23,9 @@
   <td id="projectlogo"><img alt="Logo" src="musescore_logo_full.png"/></td>
   <td id="projectalign" style="padding-left: 0.5em;">
    <div id="projectname">MuseScore
-   &#160;<span id="projectnumber">3.1</span>
+   &#160;<span id="projectnumber">3.2</span>
    </div>
-   <div id="projectbrief">Music compisition and notation</div>
+   <div id="projectbrief">Music composition and notation</div>
   </td>
  </tr>
  </tbody>
@@ -67,18 +67,89 @@ $(function() {
 <div class="header">
   <div class="summary">
 <a href="#pub-methods">Public Member Functions</a> &#124;
+<a href="#pri-methods">Private Member Functions</a> &#124;
+<a href="#pri-attribs">Private Attributes</a> &#124;
 <a href="class_ms_1_1_text_diff_parser-members.html">List of all members</a>  </div>
   <div class="headertitle">
 <div class="title">Ms::TextDiffParser Class Reference</div>  </div>
 </div><!--header-->
 <div class="contents">
+<div class="dynheader">
+Collaboration diagram for Ms::TextDiffParser:</div>
+<div class="dyncontent">
+<div class="center"><img src="class_ms_1_1_text_diff_parser__coll__graph.png" border="0" usemap="#_ms_1_1_text_diff_parser_coll__map" alt="Collaboration graph"/></div>
+<map name="_ms_1_1_text_diff_parser_coll__map" id="_ms_1_1_text_diff_parser_coll__map">
+<area shape="rect" id="node2" href="class_ms_1_1_score_element.html" title="Ms::ScoreElement" alt="" coords="464,247,595,273"/>
+<area shape="rect" id="node3" href="class_ms_1_1_score.html" title="Ms::Score" alt="" coords="1849,447,1931,473"/>
+<area shape="rect" id="node20" href="class_ms_1_1_element.html" title="Base class of score layout elements. " alt="" coords="825,855,921,881"/>
+<area shape="rect" id="node5" href="class_ms_1_1_excerpt.html" title="Ms::Excerpt" alt="" coords="2595,271,2688,297"/>
+<area shape="rect" id="node6" href="class_ms_1_1_master_score.html" title="Ms::MasterScore" alt="" coords="2373,515,2496,541"/>
+<area shape="rect" id="node10" href="class_ms_1_1_repeat_list.html" title="Ms::RepeatList" alt="" coords="2131,728,2242,755"/>
+<area shape="rect" id="node31" href="class_ms_1_1_input_state.html" title="Ms::InputState" alt="" coords="2133,1037,2241,1064"/>
+<area shape="rect" id="node39" href="class_ms_1_1_selection.html" title="Ms::Selection" alt="" coords="2135,576,2238,603"/>
+<area shape="rect" id="node44" href="class_ms_1_1_selection_filter.html" title="Ms::SelectionFilter" alt="" coords="2121,348,2252,375"/>
+<area shape="rect" id="node7" href="class_ms_1_1_omr.html" title="Ms::Omr" alt="" coords="2150,677,2223,704"/>
+<area shape="rect" id="node8" href="class_ms_1_1_cmd_state.html" title="Ms::CmdState" alt="" coords="1325,788,1432,815"/>
+<area shape="rect" id="node9" href="class_ms_1_1_fraction.html" title="Ms::Fraction" alt="" coords="825,741,920,768"/>
+<area shape="rect" id="node28" href="class_ms_1_1_measure_base.html" title="Virtual base class for Measure, HBox and VBox. " alt="" coords="1141,639,1269,665"/>
+<area shape="rect" id="node32" href="class_ms_1_1_segment.html" title="Ms::Segment" alt="" coords="1155,903,1255,929"/>
+<area shape="rect" id="node36" href="class_ms_1_1_spanner.html" title="Virtual base class for slurs, ties, lines etc. " alt="" coords="1157,1037,1253,1064"/>
+<area shape="rect" id="node12" href="class_ms_1_1_revisions.html" title="Ms::Revisions" alt="" coords="2133,961,2240,988"/>
+<area shape="rect" id="node13" href="class_ms_1_1_revision.html" title="Ms::Revision" alt="" coords="1841,987,1939,1013"/>
+<area shape="rect" id="node14" href="class_ms_1_1_tempo_map.html" title="Ms::TempoMap" alt="" coords="2130,195,2243,221"/>
+<area shape="rect" id="node16" href="class_ms_1_1_movements.html" title="Ms::Movements" alt="" coords="1832,63,1948,89"/>
+<area shape="rect" id="node18" href="class_ms_1_1_text.html" title="Ms::Text" alt="" coords="1512,73,1587,100"/>
+<area shape="rect" id="node19" href="class_ms_1_1_text_base.html" title="Ms::TextBase" alt="" coords="1153,116,1257,143"/>
+<area shape="rect" id="node21" href="class_ms_1_1_spatium.html" title="Ms::Spatium" alt="" coords="481,855,577,881"/>
+<area shape="rect" id="node22" href="class_ms_1_1_m_style.html" title="Ms::MStyle" alt="" coords="1505,143,1594,169"/>
+<area shape="rect" id="node23" href="class_ms_1_1_chord_list.html" title="Ms::ChordList" alt="" coords="1153,167,1257,193"/>
+<area shape="rect" id="node25" href="class_ms_1_1_time_sig_map.html" title="Ms::TimeSigMap" alt="" coords="2126,627,2247,653"/>
+<area shape="rect" id="node27" href="class_ms_1_1_measure_base_list.html" title="Ms::MeasureBaseList" alt="" coords="1475,548,1624,575"/>
+<area shape="rect" id="node29" href="class_ms_1_1_element_list.html" title="Ms::ElementList" alt="" coords="814,612,931,639"/>
+<area shape="rect" id="node33" href="class_ms_1_1_t_duration.html" title="Ms::TDuration" alt="" coords="1837,1139,1943,1165"/>
+<area shape="rect" id="node34" href="class_ms_1_1_slur.html" title="Ms::Slur" alt="" coords="1855,1088,1925,1115"/>
+<area shape="rect" id="node35" href="class_ms_1_1_slur_tie.html" title="Ms::SlurTie" alt="" coords="1505,1088,1594,1115"/>
+<area shape="rect" id="node37" href="class_ms_1_1_synthesizer_state.html" title="Ms::SynthesizerState" alt="" coords="1475,345,1623,372"/>
+<area shape="rect" id="node40" href="class_ms_1_1_spanner_map.html" title="Ms::SpannerMap" alt="" coords="1489,396,1610,423"/>
+<area shape="rect" id="node42" href="class_ms_1_1_update_state.html" title="Ms::UpdateState" alt="" coords="1489,447,1610,473"/>
+<area shape="rect" id="node43" href="class_ms_1_1_audio.html" title="Ms::Audio" alt="" coords="1509,599,1590,625"/>
+<area shape="rect" id="node45" href="class_ms_1_1_score_font.html" title="Ms::ScoreFont" alt="" coords="1495,649,1603,676"/>
+<area shape="rect" id="node46" href="class_ms_1_1_linked_elements.html" title="Ms::LinkedElements" alt="" coords="219,247,360,273"/>
+</map>
+<center><span class="legend">[<a href="graph_legend.html">legend</a>]</span></center></div>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
-<tr class="memitem:a5ca330642bef728a711b662bae1a703b"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ms_1_1_text_diff_parser.html#a5ca330642bef728a711b662bae1a703b">TextDiffParser</a> (int iScore)</td></tr>
+<tr class="memitem:a5ca330642bef728a711b662bae1a703b"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ms_1_1_text_diff_parser.html#a5ca330642bef728a711b662bae1a703b">TextDiffParser</a> (int <a class="el" href="class_ms_1_1_text_diff_parser.html#a284733535786d1fe3324bbb266a4add5">iScore</a>)</td></tr>
 <tr class="separator:a5ca330642bef728a711b662bae1a703b"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a381d062278521c5103368fb35344cd0c"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ms_1_1_text_diff_parser.html#a381d062278521c5103368fb35344cd0c">makeDiffs</a> (const QString &amp;mscx, const std::vector&lt; std::pair&lt; const <a class="el" href="class_ms_1_1_score_element.html">ScoreElement</a> *, QString &gt;&gt; &amp;elements, const std::vector&lt; <a class="el" href="struct_ms_1_1_text_diff.html">TextDiff</a> &gt; &amp;textDiffs, std::vector&lt; <a class="el" href="struct_ms_1_1_base_diff.html">BaseDiff</a> *&gt; &amp;diffs)</td></tr>
 <tr class="separator:a381d062278521c5103368fb35344cd0c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pri-methods"></a>
+Private Member Functions</h2></td></tr>
+<tr class="memitem:a5972cd86ce9ba744c225373533406123"><td class="memItemLeft" align="right" valign="top"><a class="el" href="struct_ms_1_1_base_diff.html">BaseDiff</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ms_1_1_text_diff_parser.html#a5972cd86ce9ba744c225373533406123">handleToken</a> (const QXmlStreamReader &amp;r, const <a class="el" href="class_ms_1_1_score_element.html">ScoreElement</a> *newElement, bool saveDiff)</td></tr>
+<tr class="separator:a5972cd86ce9ba744c225373533406123"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a400fcc8ec2569fce53646e11d15e7a11"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ms_1_1_text_diff_parser.html#a400fcc8ec2569fce53646e11d15e7a11">insideDiffTag</a> () const</td></tr>
+<tr class="separator:a400fcc8ec2569fce53646e11d15e7a11"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pri-attribs"></a>
+Private Attributes</h2></td></tr>
+<tr class="memitem:a284733535786d1fe3324bbb266a4add5"><td class="memItemLeft" align="right" valign="top">const int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ms_1_1_text_diff_parser.html#a284733535786d1fe3324bbb266a4add5">iScore</a></td></tr>
+<tr class="separator:a284733535786d1fe3324bbb266a4add5"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa63dec9790c523649435acdf867b88c0"><td class="memItemLeft" align="right" valign="top">const int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ms_1_1_text_diff_parser.html#aa63dec9790c523649435acdf867b88c0">iOtherScore</a></td></tr>
+<tr class="separator:aa63dec9790c523649435acdf867b88c0"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad132a69c250a23c98d565c9e97597860"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ms_1_1_text_diff_parser.html#ad132a69c250a23c98d565c9e97597860">tagLevel</a> = 0</td></tr>
+<tr class="separator:ad132a69c250a23c98d565c9e97597860"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a554b95cc30869b91a944224421a835c1"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ms_1_1_text_diff_parser.html#a554b95cc30869b91a944224421a835c1">currentDiffTagLevel</a> = 0</td></tr>
+<tr class="separator:a554b95cc30869b91a944224421a835c1"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a00fbf40035b3e985fc42e62ccf09e99f"><td class="memItemLeft" align="right" valign="top">std::vector&lt; const <a class="el" href="class_ms_1_1_score_element.html">ScoreElement</a> * &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ms_1_1_text_diff_parser.html#a00fbf40035b3e985fc42e62ccf09e99f">contextsStack</a></td></tr>
+<tr class="separator:a00fbf40035b3e985fc42e62ccf09e99f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a1e240836cbe7f5c384a1dbaa1649ff8d"><td class="memItemLeft" align="right" valign="top">std::vector&lt; bool &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ms_1_1_text_diff_parser.html#a1e240836cbe7f5c384a1dbaa1649ff8d">tagIsElement</a></td></tr>
+<tr class="separator:a1e240836cbe7f5c384a1dbaa1649ff8d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a20c6c3d37b78927685ab88d40950f6c7"><td class="memItemLeft" align="right" valign="top">const <a class="el" href="class_ms_1_1_score_element.html">ScoreElement</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ms_1_1_text_diff_parser.html#a20c6c3d37b78927685ab88d40950f6c7">lastElementEnded</a> = nullptr</td></tr>
+<tr class="separator:a20c6c3d37b78927685ab88d40950f6c7"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:afd2313132014ae71684d66de29e80521"><td class="memItemLeft" align="right" valign="top">QString&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ms_1_1_text_diff_parser.html#afd2313132014ae71684d66de29e80521">markupContext</a></td></tr>
+<tr class="separator:afd2313132014ae71684d66de29e80521"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
 <a id="a5ca330642bef728a711b662bae1a703b"></a>
@@ -100,6 +171,73 @@ Public Member Functions</h2></td></tr>
 </div>
 </div>
 <h2 class="groupheader">Member Function Documentation</h2>
+<a id="a5972cd86ce9ba744c225373533406123"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a5972cd86ce9ba744c225373533406123">&#9670;&nbsp;</a></span>handleToken()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="struct_ms_1_1_base_diff.html">BaseDiff</a> * Ms::TextDiffParser::handleToken </td>
+          <td>(</td>
+          <td class="paramtype">const QXmlStreamReader &amp;&#160;</td>
+          <td class="paramname"><em>r</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="class_ms_1_1_score_element.html">ScoreElement</a> *&#160;</td>
+          <td class="paramname"><em>newElement</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">bool&#160;</td>
+          <td class="paramname"><em>saveDiff</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a400fcc8ec2569fce53646e11d15e7a11"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a400fcc8ec2569fce53646e11d15e7a11">&#9670;&nbsp;</a></span>insideDiffTag()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool Ms::TextDiffParser::insideDiffTag </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
 <a id="a381d062278521c5103368fb35344cd0c"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a381d062278521c5103368fb35344cd0c">&#9670;&nbsp;</a></span>makeDiffs()</h2>
 
@@ -136,6 +274,183 @@ Public Member Functions</h2></td></tr>
           <td></td><td></td>
         </tr>
       </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<h2 class="groupheader">Member Data Documentation</h2>
+<a id="a00fbf40035b3e985fc42e62ccf09e99f"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a00fbf40035b3e985fc42e62ccf09e99f">&#9670;&nbsp;</a></span>contextsStack</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">std::vector&lt;const <a class="el" href="class_ms_1_1_score_element.html">ScoreElement</a>*&gt; Ms::TextDiffParser::contextsStack</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a554b95cc30869b91a944224421a835c1"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a554b95cc30869b91a944224421a835c1">&#9670;&nbsp;</a></span>currentDiffTagLevel</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">int Ms::TextDiffParser::currentDiffTagLevel = 0</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="aa63dec9790c523649435acdf867b88c0"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aa63dec9790c523649435acdf867b88c0">&#9670;&nbsp;</a></span>iOtherScore</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">const int Ms::TextDiffParser::iOtherScore</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a284733535786d1fe3324bbb266a4add5"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a284733535786d1fe3324bbb266a4add5">&#9670;&nbsp;</a></span>iScore</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">const int Ms::TextDiffParser::iScore</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a20c6c3d37b78927685ab88d40950f6c7"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a20c6c3d37b78927685ab88d40950f6c7">&#9670;&nbsp;</a></span>lastElementEnded</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">const <a class="el" href="class_ms_1_1_score_element.html">ScoreElement</a>* Ms::TextDiffParser::lastElementEnded = nullptr</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="afd2313132014ae71684d66de29e80521"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#afd2313132014ae71684d66de29e80521">&#9670;&nbsp;</a></span>markupContext</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">QString Ms::TextDiffParser::markupContext</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a1e240836cbe7f5c384a1dbaa1649ff8d"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a1e240836cbe7f5c384a1dbaa1649ff8d">&#9670;&nbsp;</a></span>tagIsElement</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">std::vector&lt;bool&gt; Ms::TextDiffParser::tagIsElement</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="ad132a69c250a23c98d565c9e97597860"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ad132a69c250a23c98d565c9e97597860">&#9670;&nbsp;</a></span>tagLevel</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">int Ms::TextDiffParser::tagLevel = 0</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
 </div><div class="memdoc">
 
 </div>

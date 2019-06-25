@@ -1,7 +1,7 @@
 <map id="midi/midifile.h" name="midi/midifile.h">
-<area shape="rect" id="node2" href="$midifile_8cpp.html" title="midi/midifile.cpp" alt="" coords="89,87,205,114"/>
-<area shape="rect" id="node3" href="$bb_8h.html" title="mscore/bb.h" alt="" coords="229,87,324,114"/>
-<area shape="rect" id="node5" href="$exportmidi_8h.html" title="mscore/exportmidi.h" alt="" coords="400,87,540,114"/>
+<area shape="rect" id="node2" href="$midifile_8cpp.html" title="midi/midifile.cpp" alt="" coords="43,87,159,114"/>
+<area shape="rect" id="node3" href="$bb_8h.html" title="mscore/bb.h" alt="" coords="183,87,277,114"/>
+<area shape="rect" id="node5" href="$exportmidi_8h.html" title="mscore/exportmidi.h" alt="" coords="353,87,493,114"/>
 <area shape="rect" id="node6" href="$exportmidi_8cpp.html" title="mscore/exportmidi.cpp" alt="" coords="138,177,293,203"/>
 <area shape="rect" id="node8" href="$importmidi_8cpp.html" title="mscore/importmidi/importmidi.cpp" alt="" coords="1105,177,1323,203"/>
 <area shape="rect" id="node9" href="$importmidi__operations_8h.html" title="mscore/importmidi/importmidi\l_operations.h" alt="" coords="2343,80,2536,121"/>
@@ -10,7 +10,7 @@
 <area shape="rect" id="node15" href="$importmidi__inner_8cpp.html" title="mscore/importmidi/importmidi\l_inner.cpp" alt="" coords="887,169,1080,211"/>
 <area shape="rect" id="node19" href="$importmidi__lyrics_8cpp.html" title="mscore/importmidi/importmidi\l_lyrics.cpp" alt="" coords="4625,169,4819,211"/>
 <area shape="rect" id="node25" href="$importmidi__simplify_8cpp.html" title="mscore/importmidi/importmidi\l_simplify.cpp" alt="" coords="4843,169,5036,211"/>
-<area shape="rect" id="node32" href="$importmidi__instrument_8h.html" title="mscore/importmidi/importmidi\l_instrument.h" alt="" coords="1224,80,1417,121"/>
+<area shape="rect" id="node32" href="$importmidi__instrument_8h.html" title="mscore/importmidi/importmidi\l_instrument.h" alt="" coords="1196,80,1389,121"/>
 <area shape="rect" id="node33" href="$mididriver_8cpp.html" title="mscore/mididriver.cpp" alt="" coords="2663,87,2813,114"/>
 <area shape="rect" id="node4" href="$bb_8cpp.html" title="mscore/bb.cpp" alt="" coords="5,177,113,203"/>
 <area shape="rect" id="node7" href="$file_8cpp.html" title="mscore/file.cpp" alt="" coords="317,177,428,203"/>

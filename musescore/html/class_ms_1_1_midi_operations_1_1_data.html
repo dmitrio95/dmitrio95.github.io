@@ -23,9 +23,9 @@
   <td id="projectlogo"><img alt="Logo" src="musescore_logo_full.png"/></td>
   <td id="projectalign" style="padding-left: 0.5em;">
    <div id="projectname">MuseScore
-   &#160;<span id="projectnumber">3.1</span>
+   &#160;<span id="projectnumber">3.2</span>
    </div>
-   <div id="projectbrief">Music compisition and notation</div>
+   <div id="projectbrief">Music composition and notation</div>
   </td>
  </tr>
  </tbody>
@@ -67,6 +67,7 @@ $(function() {
 <div class="header">
   <div class="summary">
 <a href="#pub-methods">Public Member Functions</a> &#124;
+<a href="#pri-attribs">Private Attributes</a> &#124;
 <a href="#friends">Friends</a> &#124;
 <a href="class_ms_1_1_midi_operations_1_1_data-members.html">List of all members</a>  </div>
   <div class="headertitle">
@@ -98,6 +99,17 @@ Public Member Functions</h2></td></tr>
 <tr class="separator:a8852d57dce69271b3c1fb2f1a6b1554c"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ac99c67c107ed5d3f74b7800c2ce386be"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ms_1_1_midi_operations_1_1_data.html#ac99c67c107ed5d3f74b7800c2ce386be">setOperationsFile</a> (const QString &amp;fileName)</td></tr>
 <tr class="separator:ac99c67c107ed5d3f74b7800c2ce386be"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pri-attribs"></a>
+Private Attributes</h2></td></tr>
+<tr class="memitem:a4ad11ae8ee2244ee9d835e9a09b7a74a"><td class="memItemLeft" align="right" valign="top">QString&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ms_1_1_midi_operations_1_1_data.html#a4ad11ae8ee2244ee9d835e9a09b7a74a">_currentMidiFile</a></td></tr>
+<tr class="separator:a4ad11ae8ee2244ee9d835e9a09b7a74a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af4ed383f048bb1f2e0da0dfc58f83585"><td class="memItemLeft" align="right" valign="top">QString&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ms_1_1_midi_operations_1_1_data.html#af4ed383f048bb1f2e0da0dfc58f83585">_midiOperationsFile</a></td></tr>
+<tr class="separator:af4ed383f048bb1f2e0da0dfc58f83585"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa951f8dc16cf35fea49da8ba587f4e6c"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ms_1_1_midi_operations_1_1_data.html#aa951f8dc16cf35fea49da8ba587f4e6c">_currentTrack</a> = -1</td></tr>
+<tr class="separator:aa951f8dc16cf35fea49da8ba587f4e6c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a22953374e92e06d57ccf3ff5e65b1c81"><td class="memItemLeft" align="right" valign="top">std::map&lt; QString, <a class="el" href="struct_ms_1_1_midi_operations_1_1_file_data.html">FileData</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ms_1_1_midi_operations_1_1_data.html#a22953374e92e06d57ccf3ff5e65b1c81">_data</a></td></tr>
+<tr class="separator:a22953374e92e06d57ccf3ff5e65b1c81"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="friends"></a>
 Friends</h2></td></tr>
@@ -332,6 +344,95 @@ Friends</h2></td></tr>
   </td>
   <td class="mlabels-right">
 <span class="mlabels"><span class="mlabel">friend</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<h2 class="groupheader">Member Data Documentation</h2>
+<a id="a4ad11ae8ee2244ee9d835e9a09b7a74a"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a4ad11ae8ee2244ee9d835e9a09b7a74a">&#9670;&nbsp;</a></span>_currentMidiFile</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">QString Ms::MidiOperations::Data::_currentMidiFile</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="aa951f8dc16cf35fea49da8ba587f4e6c"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aa951f8dc16cf35fea49da8ba587f4e6c">&#9670;&nbsp;</a></span>_currentTrack</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">int Ms::MidiOperations::Data::_currentTrack = -1</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a22953374e92e06d57ccf3ff5e65b1c81"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a22953374e92e06d57ccf3ff5e65b1c81">&#9670;&nbsp;</a></span>_data</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">std::map&lt;QString, <a class="el" href="struct_ms_1_1_midi_operations_1_1_file_data.html">FileData</a>&gt; Ms::MidiOperations::Data::_data</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="af4ed383f048bb1f2e0da0dfc58f83585"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#af4ed383f048bb1f2e0da0dfc58f83585">&#9670;&nbsp;</a></span>_midiOperationsFile</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">QString Ms::MidiOperations::Data::_midiOperationsFile</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
   </tr>
 </table>
 </div><div class="memdoc">

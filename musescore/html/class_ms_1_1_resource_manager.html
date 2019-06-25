@@ -23,9 +23,9 @@
   <td id="projectlogo"><img alt="Logo" src="musescore_logo_full.png"/></td>
   <td id="projectalign" style="padding-left: 0.5em;">
    <div id="projectname">MuseScore
-   &#160;<span id="projectnumber">3.1</span>
+   &#160;<span id="projectnumber">3.2</span>
    </div>
-   <div id="projectbrief">Music compisition and notation</div>
+   <div id="projectbrief">Music composition and notation</div>
   </td>
  </tr>
  </tbody>
@@ -68,6 +68,9 @@ $(function() {
   <div class="summary">
 <a href="#pub-methods">Public Member Functions</a> &#124;
 <a href="#pub-static-methods">Static Public Member Functions</a> &#124;
+<a href="#pri-slots">Private Slots</a> &#124;
+<a href="#pri-methods">Private Member Functions</a> &#124;
+<a href="#pri-attribs">Private Attributes</a> &#124;
 <a href="class_ms_1_1_resource_manager-members.html">List of all members</a>  </div>
   <div class="headertitle">
 <div class="title">Ms::ResourceManager Class Reference</div>  </div>
@@ -103,6 +106,37 @@ Public Member Functions</h2></td></tr>
 Static Public Member Functions</h2></td></tr>
 <tr class="memitem:a8e32108f88dff1dff7afb01d47b7d5cb"><td class="memItemLeft" align="right" valign="top">static QString&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ms_1_1_resource_manager.html#a8e32108f88dff1dff7afb01d47b7d5cb">baseAddr</a> ()</td></tr>
 <tr class="separator:a8e32108f88dff1dff7afb01d47b7d5cb"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pri-slots"></a>
+Private Slots</h2></td></tr>
+<tr class="memitem:a3c5a3bda6dff059e213d64dffe6c169b"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ms_1_1_resource_manager.html#a3c5a3bda6dff059e213d64dffe6c169b">downloadLanguage</a> ()</td></tr>
+<tr class="separator:a3c5a3bda6dff059e213d64dffe6c169b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:afdac027a59939da151f5799f190b3547"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ms_1_1_resource_manager.html#afdac027a59939da151f5799f190b3547">downloadExtension</a> ()</td></tr>
+<tr class="separator:afdac027a59939da151f5799f190b3547"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:acf3e58cda2092456400d36464b29689f"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ms_1_1_resource_manager.html#acf3e58cda2092456400d36464b29689f">uninstallExtension</a> ()</td></tr>
+<tr class="separator:acf3e58cda2092456400d36464b29689f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pri-methods"></a>
+Private Member Functions</h2></td></tr>
+<tr class="memitem:a16bfc5e5efe7c2b67513f147bf691c07"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ms_1_1_resource_manager.html#a16bfc5e5efe7c2b67513f147bf691c07">hideEvent</a> (QHideEvent *)</td></tr>
+<tr class="separator:a16bfc5e5efe7c2b67513f147bf691c07"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:afd8447adbac6a3e792e7f683a7e45b3e"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ms_1_1_resource_manager.html#afd8447adbac6a3e792e7f683a7e45b3e">displayLanguages</a> ()</td></tr>
+<tr class="separator:afd8447adbac6a3e792e7f683a7e45b3e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ada3485e1d0d29a67928d67200e3399b1"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ms_1_1_resource_manager.html#ada3485e1d0d29a67928d67200e3399b1">displayExtensions</a> ()</td></tr>
+<tr class="separator:ada3485e1d0d29a67928d67200e3399b1"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a83a75c07089e60a9c2c17adbe9e594ec"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ms_1_1_resource_manager.html#a83a75c07089e60a9c2c17adbe9e594ec">verifyFile</a> (QString path, QString hash)</td></tr>
+<tr class="separator:a83a75c07089e60a9c2c17adbe9e594ec"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a38e5e8c83cd0cb88963778f6678337aa"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ms_1_1_resource_manager.html#a38e5e8c83cd0cb88963778f6678337aa">verifyLanguageFile</a> (QString filename, QString hash)</td></tr>
+<tr class="separator:a38e5e8c83cd0cb88963778f6678337aa"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pri-attribs"></a>
+Private Attributes</h2></td></tr>
+<tr class="memitem:aa79239a3496d8e230dc1ce10e8695bcf"><td class="memItemLeft" align="right" valign="top">QByteArray&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ms_1_1_resource_manager.html#aa79239a3496d8e230dc1ce10e8695bcf">txt</a></td></tr>
+<tr class="separator:aa79239a3496d8e230dc1ce10e8695bcf"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a27481314facbf376e92d8118628b250a"><td class="memItemLeft" align="right" valign="top">QMap&lt; QPushButton *, QString &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ms_1_1_resource_manager.html#a27481314facbf376e92d8118628b250a">languageButtonMap</a></td></tr>
+<tr class="separator:a27481314facbf376e92d8118628b250a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af4291f8d9987666fa08c2bf1997cad3f"><td class="memItemLeft" align="right" valign="top">QMap&lt; QPushButton *, QString &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ms_1_1_resource_manager.html#af4291f8d9987666fa08c2bf1997cad3f">languageButtonHashMap</a></td></tr>
+<tr class="separator:af4291f8d9987666fa08c2bf1997cad3f"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
 <a id="a3167f46a2878db3cb878d44ac8cfeff4"></a>
@@ -157,6 +191,132 @@ Static Public Member Functions</h2></td></tr>
 
 </div>
 </div>
+<a id="ada3485e1d0d29a67928d67200e3399b1"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ada3485e1d0d29a67928d67200e3399b1">&#9670;&nbsp;</a></span>displayExtensions()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void Ms::ResourceManager::displayExtensions </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="afd8447adbac6a3e792e7f683a7e45b3e"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#afd8447adbac6a3e792e7f683a7e45b3e">&#9670;&nbsp;</a></span>displayLanguages()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void Ms::ResourceManager::displayLanguages </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="afdac027a59939da151f5799f190b3547"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#afdac027a59939da151f5799f190b3547">&#9670;&nbsp;</a></span>downloadExtension</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void Ms::ResourceManager::downloadExtension </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span><span class="mlabel">slot</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a3c5a3bda6dff059e213d64dffe6c169b"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a3c5a3bda6dff059e213d64dffe6c169b">&#9670;&nbsp;</a></span>downloadLanguage</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void Ms::ResourceManager::downloadLanguage </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span><span class="mlabel">slot</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a16bfc5e5efe7c2b67513f147bf691c07"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a16bfc5e5efe7c2b67513f147bf691c07">&#9670;&nbsp;</a></span>hideEvent()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void Ms::ResourceManager::hideEvent </td>
+          <td>(</td>
+          <td class="paramtype">QHideEvent *&#160;</td>
+          <td class="paramname"><em>event</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span><span class="mlabel">virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
 <a id="a252bd701058b9cdae7a8c0083d7d2d32"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a252bd701058b9cdae7a8c0083d7d2d32">&#9670;&nbsp;</a></span>selectExtensionsTab()</h2>
 
@@ -187,6 +347,170 @@ Static Public Member Functions</h2></td></tr>
           <td></td>
         </tr>
       </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="acf3e58cda2092456400d36464b29689f"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#acf3e58cda2092456400d36464b29689f">&#9670;&nbsp;</a></span>uninstallExtension</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void Ms::ResourceManager::uninstallExtension </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span><span class="mlabel">slot</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a83a75c07089e60a9c2c17adbe9e594ec"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a83a75c07089e60a9c2c17adbe9e594ec">&#9670;&nbsp;</a></span>verifyFile()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool Ms::ResourceManager::verifyFile </td>
+          <td>(</td>
+          <td class="paramtype">QString&#160;</td>
+          <td class="paramname"><em>path</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">QString&#160;</td>
+          <td class="paramname"><em>hash</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a38e5e8c83cd0cb88963778f6678337aa"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a38e5e8c83cd0cb88963778f6678337aa">&#9670;&nbsp;</a></span>verifyLanguageFile()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool Ms::ResourceManager::verifyLanguageFile </td>
+          <td>(</td>
+          <td class="paramtype">QString&#160;</td>
+          <td class="paramname"><em>filename</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">QString&#160;</td>
+          <td class="paramname"><em>hash</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<h2 class="groupheader">Member Data Documentation</h2>
+<a id="af4291f8d9987666fa08c2bf1997cad3f"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#af4291f8d9987666fa08c2bf1997cad3f">&#9670;&nbsp;</a></span>languageButtonHashMap</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">QMap&lt;QPushButton *, QString&gt; Ms::ResourceManager::languageButtonHashMap</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a27481314facbf376e92d8118628b250a"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a27481314facbf376e92d8118628b250a">&#9670;&nbsp;</a></span>languageButtonMap</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">QMap&lt;QPushButton *, QString&gt; Ms::ResourceManager::languageButtonMap</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="aa79239a3496d8e230dc1ce10e8695bcf"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aa79239a3496d8e230dc1ce10e8695bcf">&#9670;&nbsp;</a></span>txt</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">QByteArray Ms::ResourceManager::txt</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
 </div><div class="memdoc">
 
 </div>

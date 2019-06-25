@@ -23,9 +23,9 @@
   <td id="projectlogo"><img alt="Logo" src="musescore_logo_full.png"/></td>
   <td id="projectalign" style="padding-left: 0.5em;">
    <div id="projectname">MuseScore
-   &#160;<span id="projectnumber">3.1</span>
+   &#160;<span id="projectnumber">3.2</span>
    </div>
-   <div id="projectbrief">Music compisition and notation</div>
+   <div id="projectbrief">Music composition and notation</div>
   </td>
  </tr>
  </tbody>
@@ -68,6 +68,7 @@ $(function() {
   <div class="summary">
 <a href="#nested-classes">Classes</a> &#124;
 <a href="#pub-methods">Public Member Functions</a> &#124;
+<a href="#pri-attribs">Private Attributes</a> &#124;
 <a href="class_o_v_e_1_1_time_signature-members.html">List of all members</a>  </div>
   <div class="headertitle">
 <div class="title">OVE::TimeSignature Class Reference</div>  </div>
@@ -91,13 +92,19 @@ Collaboration diagram for OVE::TimeSignature:</div>
 <div class="dyncontent">
 <div class="center"><img src="class_o_v_e_1_1_time_signature__coll__graph.png" border="0" usemap="#_o_v_e_1_1_time_signature_coll__map" alt="Collaboration graph"/></div>
 <map name="_o_v_e_1_1_time_signature_coll__map" id="_o_v_e_1_1_time_signature_coll__map">
-<area shape="rect" id="node2" href="class_o_v_e_1_1_music_data.html" title="OVE::MusicData" alt="" coords="165,80,286,107"/>
-<area shape="rect" id="node3" href="class_o_v_e_1_1_tick_element.html" title="OVE::TickElement" alt="" coords="5,5,136,32"/>
-<area shape="rect" id="node4" href="class_o_v_e_1_1_pair_element.html" title="OVE::PairElement" alt="" coords="161,5,290,32"/>
-<area shape="rect" id="node5" href="class_o_v_e_1_1_offset_element.html" title="OVE::OffsetElement" alt="" coords="314,5,457,32"/>
+<area shape="rect" id="node2" href="class_o_v_e_1_1_music_data.html" title="OVE::MusicData" alt="" coords="165,185,286,212"/>
+<area shape="rect" id="node3" href="class_o_v_e_1_1_tick_element.html" title="OVE::TickElement" alt="" coords="5,109,136,136"/>
+<area shape="rect" id="node4" href="class_o_v_e_1_1_pair_element.html" title="OVE::PairElement" alt="" coords="161,109,290,136"/>
+<area shape="rect" id="node5" href="class_o_v_e_1_1_measure_pos.html" title="OVE::MeasurePos" alt="" coords="160,5,291,32"/>
+<area shape="rect" id="node6" href="class_o_v_e_1_1_offset_element.html" title="OVE::OffsetElement" alt="" coords="314,109,457,136"/>
 </map>
 <center><span class="legend">[<a href="graph_legend.html">legend</a>]</span></center></div>
 <table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="nested-classes"></a>
+Classes</h2></td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_o_v_e_1_1_time_signature_1_1_beat_node.html">BeatNode</a></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
 <tr class="memitem:a4dfb6dee2860ff0e6a3f550adfa1e815"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_o_v_e_1_1_time_signature.html#a4dfb6dee2860ff0e6a3f550adfa1e815">TimeSignature</a> ()</td></tr>
@@ -214,6 +221,51 @@ Public Member Functions</h2></td></tr>
 <tr class="separator:a50e595469b8496e639988112f558a364 inherit pub_methods_class_o_v_e_1_1_offset_element"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a2f36812acf81ed5e5fecac65ed76daf5 inherit pub_methods_class_o_v_e_1_1_offset_element"><td class="memItemLeft" align="right" valign="top">virtual int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_o_v_e_1_1_offset_element.html#a2f36812acf81ed5e5fecac65ed76daf5">getYOffset</a> () const</td></tr>
 <tr class="separator:a2f36812acf81ed5e5fecac65ed76daf5 inherit pub_methods_class_o_v_e_1_1_offset_element"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pri-attribs"></a>
+Private Attributes</h2></td></tr>
+<tr class="memitem:a76b9a52e3cf2a18b725f8b3800452d72"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_o_v_e_1_1_time_signature.html#a76b9a52e3cf2a18b725f8b3800452d72">numerator_</a></td></tr>
+<tr class="separator:a76b9a52e3cf2a18b725f8b3800452d72"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a6650f1a201c1e245587a525201d3fe28"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_o_v_e_1_1_time_signature.html#a6650f1a201c1e245587a525201d3fe28">denominator_</a></td></tr>
+<tr class="separator:a6650f1a201c1e245587a525201d3fe28"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad245e38fae69ac00bf20e54c3d312c38"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_o_v_e_1_1_time_signature.html#ad245e38fae69ac00bf20e54c3d312c38">isSymbol_</a></td></tr>
+<tr class="separator:ad245e38fae69ac00bf20e54c3d312c38"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac01d7deb69860c7b8d141b68be3b8c03"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_o_v_e_1_1_time_signature.html#ac01d7deb69860c7b8d141b68be3b8c03">beatLength_</a></td></tr>
+<tr class="separator:ac01d7deb69860c7b8d141b68be3b8c03"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a0ccfa23577ccc878975ec5b6e7bd929b"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_o_v_e_1_1_time_signature.html#a0ccfa23577ccc878975ec5b6e7bd929b">barLength_</a></td></tr>
+<tr class="separator:a0ccfa23577ccc878975ec5b6e7bd929b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a4a2857465fba2762b4beeafd5b14196b"><td class="memItemLeft" align="right" valign="top">QList&lt; <a class="el" href="struct_o_v_e_1_1_time_signature_1_1_beat_node.html">BeatNode</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_o_v_e_1_1_time_signature.html#a4a2857465fba2762b4beeafd5b14196b">beats_</a></td></tr>
+<tr class="separator:a4a2857465fba2762b4beeafd5b14196b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a5cec16de0d960d54804c9c71d93c02eb"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_o_v_e_1_1_time_signature.html#a5cec16de0d960d54804c9c71d93c02eb">barLengthUnits_</a></td></tr>
+<tr class="separator:a5cec16de0d960d54804c9c71d93c02eb"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a3aca2c553522edf9eedc7716d2acb3da"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_o_v_e_1_1_time_signature.html#a3aca2c553522edf9eedc7716d2acb3da">replaceFont_</a></td></tr>
+<tr class="separator:a3aca2c553522edf9eedc7716d2acb3da"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a03f275f9b354c66012fa1300ed9c3789"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_o_v_e_1_1_time_signature.html#a03f275f9b354c66012fa1300ed9c3789">showBeatGroup_</a></td></tr>
+<tr class="separator:a03f275f9b354c66012fa1300ed9c3789"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a80a550eb508c03cc3e879774dc7e4363"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_o_v_e_1_1_time_signature.html#a80a550eb508c03cc3e879774dc7e4363">groupNumerator1_</a></td></tr>
+<tr class="separator:a80a550eb508c03cc3e879774dc7e4363"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a5f6a2bbdebc1e1bcad2380f1e1d09134"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_o_v_e_1_1_time_signature.html#a5f6a2bbdebc1e1bcad2380f1e1d09134">groupNumerator2_</a></td></tr>
+<tr class="separator:a5f6a2bbdebc1e1bcad2380f1e1d09134"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a66aee2e8dd89561e19f5d0eca00dc384"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_o_v_e_1_1_time_signature.html#a66aee2e8dd89561e19f5d0eca00dc384">groupNumerator3_</a></td></tr>
+<tr class="separator:a66aee2e8dd89561e19f5d0eca00dc384"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a90d68914b3b5b6dd763d2ce0971698d4"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_o_v_e_1_1_time_signature.html#a90d68914b3b5b6dd763d2ce0971698d4">groupDenominator1_</a></td></tr>
+<tr class="separator:a90d68914b3b5b6dd763d2ce0971698d4"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a1f3e9a449747e37eaa65037e1969670d"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_o_v_e_1_1_time_signature.html#a1f3e9a449747e37eaa65037e1969670d">groupDenominator2_</a></td></tr>
+<tr class="separator:a1f3e9a449747e37eaa65037e1969670d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a02851a05a4c3d7d8b7074399d23843a7"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_o_v_e_1_1_time_signature.html#a02851a05a4c3d7d8b7074399d23843a7">groupDenominator3_</a></td></tr>
+<tr class="separator:a02851a05a4c3d7d8b7074399d23843a7"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a4402de22d3496003c622bc6f9db4bfb1"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_o_v_e_1_1_time_signature.html#a4402de22d3496003c622bc6f9db4bfb1">beamGroup1_</a></td></tr>
+<tr class="separator:a4402de22d3496003c622bc6f9db4bfb1"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a1c920cb3ae549f302ad730b373a8cf26"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_o_v_e_1_1_time_signature.html#a1c920cb3ae549f302ad730b373a8cf26">beamGroup2_</a></td></tr>
+<tr class="separator:a1c920cb3ae549f302ad730b373a8cf26"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a38413e69d7d498366479fdaca29f8302"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_o_v_e_1_1_time_signature.html#a38413e69d7d498366479fdaca29f8302">beamGroup3_</a></td></tr>
+<tr class="separator:a38413e69d7d498366479fdaca29f8302"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad302c82b0137fa993e06f7c5eac590ca"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_o_v_e_1_1_time_signature.html#ad302c82b0137fa993e06f7c5eac590ca">beamGroup4_</a></td></tr>
+<tr class="separator:ad302c82b0137fa993e06f7c5eac590ca"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a90943fbf880e77368c27075358b263c1"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_o_v_e_1_1_time_signature.html#a90943fbf880e77368c27075358b263c1">beamCount16th_</a></td></tr>
+<tr class="separator:a90943fbf880e77368c27075358b263c1"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a8a6f5a613f7d0071751e5fa522df52bc"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_o_v_e_1_1_time_signature.html#a8a6f5a613f7d0071751e5fa522df52bc">beamCount32th_</a></td></tr>
+<tr class="separator:a8a6f5a613f7d0071751e5fa522df52bc"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="inherited"></a>
 Additional Inherited Members</h2></td></tr>
@@ -804,6 +856,469 @@ Additional Inherited Members</h2></td></tr>
           <td></td>
         </tr>
       </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<h2 class="groupheader">Member Data Documentation</h2>
+<a id="a0ccfa23577ccc878975ec5b6e7bd929b"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a0ccfa23577ccc878975ec5b6e7bd929b">&#9670;&nbsp;</a></span>barLength_</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">int OVE::TimeSignature::barLength_</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a5cec16de0d960d54804c9c71d93c02eb"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a5cec16de0d960d54804c9c71d93c02eb">&#9670;&nbsp;</a></span>barLengthUnits_</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">int OVE::TimeSignature::barLengthUnits_</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a90943fbf880e77368c27075358b263c1"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a90943fbf880e77368c27075358b263c1">&#9670;&nbsp;</a></span>beamCount16th_</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">int OVE::TimeSignature::beamCount16th_</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a8a6f5a613f7d0071751e5fa522df52bc"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a8a6f5a613f7d0071751e5fa522df52bc">&#9670;&nbsp;</a></span>beamCount32th_</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">int OVE::TimeSignature::beamCount32th_</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a4402de22d3496003c622bc6f9db4bfb1"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a4402de22d3496003c622bc6f9db4bfb1">&#9670;&nbsp;</a></span>beamGroup1_</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">int OVE::TimeSignature::beamGroup1_</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a1c920cb3ae549f302ad730b373a8cf26"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a1c920cb3ae549f302ad730b373a8cf26">&#9670;&nbsp;</a></span>beamGroup2_</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">int OVE::TimeSignature::beamGroup2_</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a38413e69d7d498366479fdaca29f8302"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a38413e69d7d498366479fdaca29f8302">&#9670;&nbsp;</a></span>beamGroup3_</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">int OVE::TimeSignature::beamGroup3_</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="ad302c82b0137fa993e06f7c5eac590ca"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ad302c82b0137fa993e06f7c5eac590ca">&#9670;&nbsp;</a></span>beamGroup4_</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">int OVE::TimeSignature::beamGroup4_</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="ac01d7deb69860c7b8d141b68be3b8c03"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ac01d7deb69860c7b8d141b68be3b8c03">&#9670;&nbsp;</a></span>beatLength_</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">int OVE::TimeSignature::beatLength_</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a4a2857465fba2762b4beeafd5b14196b"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a4a2857465fba2762b4beeafd5b14196b">&#9670;&nbsp;</a></span>beats_</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">QList&lt;<a class="el" href="struct_o_v_e_1_1_time_signature_1_1_beat_node.html">BeatNode</a>&gt; OVE::TimeSignature::beats_</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a6650f1a201c1e245587a525201d3fe28"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a6650f1a201c1e245587a525201d3fe28">&#9670;&nbsp;</a></span>denominator_</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">int OVE::TimeSignature::denominator_</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a90d68914b3b5b6dd763d2ce0971698d4"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a90d68914b3b5b6dd763d2ce0971698d4">&#9670;&nbsp;</a></span>groupDenominator1_</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">int OVE::TimeSignature::groupDenominator1_</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a1f3e9a449747e37eaa65037e1969670d"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a1f3e9a449747e37eaa65037e1969670d">&#9670;&nbsp;</a></span>groupDenominator2_</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">int OVE::TimeSignature::groupDenominator2_</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a02851a05a4c3d7d8b7074399d23843a7"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a02851a05a4c3d7d8b7074399d23843a7">&#9670;&nbsp;</a></span>groupDenominator3_</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">int OVE::TimeSignature::groupDenominator3_</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a80a550eb508c03cc3e879774dc7e4363"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a80a550eb508c03cc3e879774dc7e4363">&#9670;&nbsp;</a></span>groupNumerator1_</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">int OVE::TimeSignature::groupNumerator1_</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a5f6a2bbdebc1e1bcad2380f1e1d09134"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a5f6a2bbdebc1e1bcad2380f1e1d09134">&#9670;&nbsp;</a></span>groupNumerator2_</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">int OVE::TimeSignature::groupNumerator2_</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a66aee2e8dd89561e19f5d0eca00dc384"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a66aee2e8dd89561e19f5d0eca00dc384">&#9670;&nbsp;</a></span>groupNumerator3_</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">int OVE::TimeSignature::groupNumerator3_</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="ad245e38fae69ac00bf20e54c3d312c38"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ad245e38fae69ac00bf20e54c3d312c38">&#9670;&nbsp;</a></span>isSymbol_</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool OVE::TimeSignature::isSymbol_</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a76b9a52e3cf2a18b725f8b3800452d72"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a76b9a52e3cf2a18b725f8b3800452d72">&#9670;&nbsp;</a></span>numerator_</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">int OVE::TimeSignature::numerator_</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a3aca2c553522edf9eedc7716d2acb3da"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a3aca2c553522edf9eedc7716d2acb3da">&#9670;&nbsp;</a></span>replaceFont_</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool OVE::TimeSignature::replaceFont_</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a03f275f9b354c66012fa1300ed9c3789"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a03f275f9b354c66012fa1300ed9c3789">&#9670;&nbsp;</a></span>showBeatGroup_</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool OVE::TimeSignature::showBeatGroup_</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
 </div><div class="memdoc">
 
 </div>

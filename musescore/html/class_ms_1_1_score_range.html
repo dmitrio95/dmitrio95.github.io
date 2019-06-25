@@ -23,9 +23,9 @@
   <td id="projectlogo"><img alt="Logo" src="musescore_logo_full.png"/></td>
   <td id="projectalign" style="padding-left: 0.5em;">
    <div id="projectname">MuseScore
-   &#160;<span id="projectnumber">3.1</span>
+   &#160;<span id="projectnumber">3.2</span>
    </div>
-   <div id="projectbrief">Music compisition and notation</div>
+   <div id="projectbrief">Music composition and notation</div>
   </td>
  </tr>
  </tbody>
@@ -68,6 +68,7 @@ $(function() {
   <div class="summary">
 <a href="#pub-methods">Public Member Functions</a> &#124;
 <a href="#pro-attribs">Protected Attributes</a> &#124;
+<a href="#pri-attribs">Private Attributes</a> &#124;
 <a href="#friends">Friends</a> &#124;
 <a href="class_ms_1_1_score_range-members.html">List of all members</a>  </div>
   <div class="headertitle">
@@ -76,6 +77,49 @@ $(function() {
 <div class="contents">
 
 <p><code>#include &lt;<a class="el" href="range_8h_source.html">range.h</a>&gt;</code></p>
+<div class="dynheader">
+Collaboration diagram for Ms::ScoreRange:</div>
+<div class="dyncontent">
+<div class="center"><img src="class_ms_1_1_score_range__coll__graph.png" border="0" usemap="#_ms_1_1_score_range_coll__map" alt="Collaboration graph"/></div>
+<map name="_ms_1_1_score_range_coll__map" id="_ms_1_1_score_range_coll__map">
+<area shape="rect" id="node2" href="class_ms_1_1_segment.html" title="Ms::Segment" alt="" coords="427,387,527,413"/>
+<area shape="rect" id="node32" href="class_ms_1_1_input_state.html" title="Ms::InputState" alt="" coords="756,653,864,680"/>
+<area shape="rect" id="node39" href="class_ms_1_1_selection.html" title="Ms::Selection" alt="" coords="1402,591,1505,617"/>
+<area shape="rect" id="node3" href="class_ms_1_1_element.html" title="Base class of score layout elements. " alt="" coords="1596,283,1692,309"/>
+<area shape="rect" id="node21" href="class_ms_1_1_text_base.html" title="Ms::TextBase" alt="" coords="1848,224,1952,251"/>
+<area shape="rect" id="node29" href="class_ms_1_1_measure_base.html" title="Virtual base class for Measure, HBox and VBox. " alt="" coords="1836,419,1964,445"/>
+<area shape="rect" id="node36" href="class_ms_1_1_spanner.html" title="Virtual base class for slurs, ties, lines etc. " alt="" coords="1852,277,1948,304"/>
+<area shape="rect" id="node4" href="class_ms_1_1_score_element.html" title="Ms::ScoreElement" alt="" coords="1388,413,1519,440"/>
+<area shape="rect" id="node5" href="class_ms_1_1_score.html" title="Ms::Score" alt="" coords="1098,796,1181,823"/>
+<area shape="rect" id="node7" href="class_ms_1_1_excerpt.html" title="Ms::Excerpt" alt="" coords="2860,639,2953,665"/>
+<area shape="rect" id="node8" href="class_ms_1_1_master_score.html" title="Ms::MasterScore" alt="" coords="2639,940,2761,967"/>
+<area shape="rect" id="node12" href="class_ms_1_1_repeat_list.html" title="Ms::RepeatList" alt="" coords="1398,1029,1509,1056"/>
+<area shape="rect" id="node44" href="class_ms_1_1_selection_filter.html" title="Ms::SelectionFilter" alt="" coords="1388,840,1519,867"/>
+<area shape="rect" id="node9" href="class_ms_1_1_omr.html" title="Ms::Omr" alt="" coords="2413,1193,2487,1220"/>
+<area shape="rect" id="node10" href="class_ms_1_1_cmd_state.html" title="Ms::CmdState" alt="" coords="597,7,704,33"/>
+<area shape="rect" id="node11" href="class_ms_1_1_fraction.html" title="Ms::Fraction" alt="" coords="60,424,155,451"/>
+<area shape="rect" id="node14" href="class_ms_1_1_revisions.html" title="Ms::Revisions" alt="" coords="2397,1244,2503,1271"/>
+<area shape="rect" id="node15" href="class_ms_1_1_revision.html" title="Ms::Revision" alt="" coords="2125,1244,2224,1271"/>
+<area shape="rect" id="node16" href="class_ms_1_1_tempo_map.html" title="Ms::TempoMap" alt="" coords="2393,605,2507,632"/>
+<area shape="rect" id="node18" href="class_ms_1_1_movements.html" title="Ms::Movements" alt="" coords="2392,828,2508,855"/>
+<area shape="rect" id="node20" href="class_ms_1_1_text.html" title="Ms::Text" alt="" coords="2137,648,2212,675"/>
+<area shape="rect" id="node22" href="class_ms_1_1_spatium.html" title="Ms::Spatium" alt="" coords="59,171,155,197"/>
+<area shape="rect" id="node23" href="class_ms_1_1_m_style.html" title="Ms::MStyle" alt="" coords="765,1063,855,1089"/>
+<area shape="rect" id="node24" href="class_ms_1_1_chord_list.html" title="Ms::ChordList" alt="" coords="425,1063,529,1089"/>
+<area shape="rect" id="node26" href="class_ms_1_1_time_sig_map.html" title="Ms::TimeSigMap" alt="" coords="2389,1016,2511,1043"/>
+<area shape="rect" id="node28" href="class_ms_1_1_measure_base_list.html" title="Ms::MeasureBaseList" alt="" coords="2100,749,2249,776"/>
+<area shape="rect" id="node30" href="class_ms_1_1_element_list.html" title="Ms::ElementList" alt="" coords="1585,451,1703,477"/>
+<area shape="rect" id="node33" href="class_ms_1_1_t_duration.html" title="Ms::TDuration" alt="" coords="424,653,529,680"/>
+<area shape="rect" id="node34" href="class_ms_1_1_slur.html" title="Ms::Slur" alt="" coords="2415,467,2485,493"/>
+<area shape="rect" id="node35" href="class_ms_1_1_slur_tie.html" title="Ms::SlurTie" alt="" coords="2130,385,2219,412"/>
+<area shape="rect" id="node37" href="class_ms_1_1_synthesizer_state.html" title="Ms::SynthesizerState" alt="" coords="736,737,884,764"/>
+<area shape="rect" id="node40" href="class_ms_1_1_spanner_map.html" title="Ms::SpannerMap" alt="" coords="749,839,871,865"/>
+<area shape="rect" id="node42" href="class_ms_1_1_update_state.html" title="Ms::UpdateState" alt="" coords="749,788,871,815"/>
+<area shape="rect" id="node43" href="class_ms_1_1_audio.html" title="Ms::Audio" alt="" coords="769,889,851,916"/>
+<area shape="rect" id="node45" href="class_ms_1_1_score_font.html" title="Ms::ScoreFont" alt="" coords="756,991,864,1017"/>
+<area shape="rect" id="node46" href="class_ms_1_1_linked_elements.html" title="Ms::LinkedElements" alt="" coords="1069,424,1210,451"/>
+</map>
+<center><span class="legend">[<a href="graph_legend.html">legend</a>]</span></center></div>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
@@ -104,6 +148,15 @@ Protected Attributes</h2></td></tr>
 <tr class="separator:a8aba6375c5e8369af688d10f8bcfaca2"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:abba60d5a6cb5498d93db234d08ebfc64"><td class="memItemLeft" align="right" valign="top">QList&lt; <a class="el" href="struct_ms_1_1_annotation.html">Annotation</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ms_1_1_score_range.html#abba60d5a6cb5498d93db234d08ebfc64">annotations</a></td></tr>
 <tr class="separator:abba60d5a6cb5498d93db234d08ebfc64"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pri-attribs"></a>
+Private Attributes</h2></td></tr>
+<tr class="memitem:a2d2ec792810c66f7aa5c7d43a6684214"><td class="memItemLeft" align="right" valign="top">QList&lt; <a class="el" href="class_ms_1_1_track_list.html">TrackList</a> * &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ms_1_1_score_range.html#a2d2ec792810c66f7aa5c7d43a6684214">tracks</a></td></tr>
+<tr class="separator:a2d2ec792810c66f7aa5c7d43a6684214"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa5a85e256580528dd4414623063d3fc2"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_ms_1_1_segment.html">Segment</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ms_1_1_score_range.html#aa5a85e256580528dd4414623063d3fc2">_first</a></td></tr>
+<tr class="separator:aa5a85e256580528dd4414623063d3fc2"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab1b0c51dd4eaa266213ca511a1166859"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_ms_1_1_segment.html">Segment</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ms_1_1_score_range.html#ab1b0c51dd4eaa266213ca511a1166859">_last</a></td></tr>
+<tr class="separator:ab1b0c51dd4eaa266213ca511a1166859"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="friends"></a>
 Friends</h2></td></tr>
@@ -343,6 +396,50 @@ Friends</h2></td></tr>
 </div>
 </div>
 <h2 class="groupheader">Member Data Documentation</h2>
+<a id="aa5a85e256580528dd4414623063d3fc2"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aa5a85e256580528dd4414623063d3fc2">&#9670;&nbsp;</a></span>_first</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="class_ms_1_1_segment.html">Segment</a>* Ms::ScoreRange::_first</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="ab1b0c51dd4eaa266213ca511a1166859"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ab1b0c51dd4eaa266213ca511a1166859">&#9670;&nbsp;</a></span>_last</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="class_ms_1_1_segment.html">Segment</a>* Ms::ScoreRange::_last</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
 <a id="abba60d5a6cb5498d93db234d08ebfc64"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#abba60d5a6cb5498d93db234d08ebfc64">&#9670;&nbsp;</a></span>annotations</h2>
 
@@ -381,6 +478,28 @@ Friends</h2></td></tr>
   </td>
   <td class="mlabels-right">
 <span class="mlabels"><span class="mlabel">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a2d2ec792810c66f7aa5c7d43a6684214"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a2d2ec792810c66f7aa5c7d43a6684214">&#9670;&nbsp;</a></span>tracks</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">QList&lt;<a class="el" href="class_ms_1_1_track_list.html">TrackList</a>*&gt; Ms::ScoreRange::tracks</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
   </tr>
 </table>
 </div><div class="memdoc">

@@ -23,9 +23,9 @@
   <td id="projectlogo"><img alt="Logo" src="musescore_logo_full.png"/></td>
   <td id="projectalign" style="padding-left: 0.5em;">
    <div id="projectname">MuseScore
-   &#160;<span id="projectnumber">3.1</span>
+   &#160;<span id="projectnumber">3.2</span>
    </div>
-   <div id="projectbrief">Music compisition and notation</div>
+   <div id="projectbrief">Music composition and notation</div>
   </td>
  </tr>
  </tbody>
@@ -68,6 +68,10 @@ $(function() {
   <div class="summary">
 <a href="#pub-methods">Public Member Functions</a> &#124;
 <a href="#pub-static-methods">Static Public Member Functions</a> &#124;
+<a href="#pri-methods">Private Member Functions</a> &#124;
+<a href="#pri-static-methods">Static Private Member Functions</a> &#124;
+<a href="#pri-attribs">Private Attributes</a> &#124;
+<a href="#pri-static-attribs">Static Private Attributes</a> &#124;
 <a href="#friends">Friends</a> &#124;
 <a href="class_ms_1_1_staff_type-members.html">List of all members</a>  </div>
   <div class="headertitle">
@@ -76,6 +80,14 @@ $(function() {
 <div class="contents">
 
 <p><code>#include &lt;<a class="el" href="stafftype_8h_source.html">stafftype.h</a>&gt;</code></p>
+<div class="dynheader">
+Collaboration diagram for Ms::StaffType:</div>
+<div class="dyncontent">
+<div class="center"><img src="class_ms_1_1_staff_type__coll__graph.png" border="0" usemap="#_ms_1_1_staff_type_coll__map" alt="Collaboration graph"/></div>
+<map name="_ms_1_1_staff_type_coll__map" id="_ms_1_1_staff_type_coll__map">
+<area shape="rect" id="node2" href="class_ms_1_1_spatium.html" title="Ms::Spatium" alt="" coords="10,5,106,32"/>
+</map>
+<center><span class="legend">[<a href="graph_legend.html">legend</a>]</span></center></div>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
@@ -314,6 +326,126 @@ Static Public Member Functions</h2></td></tr>
 <tr class="separator:a0f5e12d55d7555a38f70eea1aec5a66a"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aeb034e6a5294ae28d075862c319777ed"><td class="memItemLeft" align="right" valign="top">static <a class="el" href="namespace_ms.html#a5b4a3c13732b31f8b6e8a7f8948754b9">NoteHeadScheme</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ms_1_1_staff_type.html#aeb034e6a5294ae28d075862c319777ed">name2scheme</a> (QString <a class="el" href="class_ms_1_1_staff_type.html#ae367d18f45a59216ee787dbe0a1c62a7">name</a>)</td></tr>
 <tr class="separator:aeb034e6a5294ae28d075862c319777ed"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pri-methods"></a>
+Private Member Functions</h2></td></tr>
+<tr class="memitem:a985cca1be421def19773ed07afe7b0b0"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ms_1_1_staff_type.html#a985cca1be421def19773ed07afe7b0b0">setDurationMetrics</a> () const</td></tr>
+<tr class="separator:a985cca1be421def19773ed07afe7b0b0"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:afa2b747cf6de180e8d10bc9348ad66da"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ms_1_1_staff_type.html#afa2b747cf6de180e8d10bc9348ad66da">setFretMetrics</a> () const</td></tr>
+<tr class="separator:afa2b747cf6de180e8d10bc9348ad66da"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pri-static-methods"></a>
+Static Private Member Functions</h2></td></tr>
+<tr class="memitem:a1bc96f2d64bf38db83c4bf4cc996709f"><td class="memItemLeft" align="right" valign="top">static bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ms_1_1_staff_type.html#a1bc96f2d64bf38db83c4bf4cc996709f">readConfigFile</a> (const QString &amp;fileName)</td></tr>
+<tr class="separator:a1bc96f2d64bf38db83c4bf4cc996709f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pri-attribs"></a>
+Private Attributes</h2></td></tr>
+<tr class="memitem:a5880a5251edee470ec3ec04794c9ceba"><td class="memItemLeft" align="right" valign="top"><a class="el" href="namespace_ms.html#aad3918cfddca91d981504ae55c0f19b0">StaffGroup</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ms_1_1_staff_type.html#a5880a5251edee470ec3ec04794c9ceba">_group</a> = <a class="el" href="namespace_ms.html#aad3918cfddca91d981504ae55c0f19b0a94e94133f4bdc1794c6b647b8ea134d0">StaffGroup::STANDARD</a></td></tr>
+<tr class="separator:a5880a5251edee470ec3ec04794c9ceba"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a63436f695af00b1650cf2889f366417a"><td class="memItemLeft" align="right" valign="top">QString&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ms_1_1_staff_type.html#a63436f695af00b1650cf2889f366417a">_xmlName</a></td></tr>
+<tr class="separator:a63436f695af00b1650cf2889f366417a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac551fd8b4d47c0e20376c15f1b6238d8"><td class="memItemLeft" align="right" valign="top">QString&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ms_1_1_staff_type.html#ac551fd8b4d47c0e20376c15f1b6238d8">_name</a></td></tr>
+<tr class="separator:ac551fd8b4d47c0e20376c15f1b6238d8"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a5e0d0ac6b1089be44f0c60ea93840018"><td class="memItemLeft" align="right" valign="top">qreal&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ms_1_1_staff_type.html#a5e0d0ac6b1089be44f0c60ea93840018">_userMag</a> { 1.0 }</td></tr>
+<tr class="separator:a5e0d0ac6b1089be44f0c60ea93840018"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa7c6221657e54a5a0799ac4f210b0c86"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_ms_1_1_spatium.html">Spatium</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ms_1_1_staff_type.html#aa7c6221657e54a5a0799ac4f210b0c86">_yoffset</a> { 0.0 }</td></tr>
+<tr class="separator:aa7c6221657e54a5a0799ac4f210b0c86"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a4cab4135367e7ddf46696809166a8d9f"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ms_1_1_staff_type.html#a4cab4135367e7ddf46696809166a8d9f">_small</a> { false }</td></tr>
+<tr class="separator:a4cab4135367e7ddf46696809166a8d9f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:add906e36ce6a49012434e20be0a0c62d"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ms_1_1_staff_type.html#add906e36ce6a49012434e20be0a0c62d">_lines</a> = 5</td></tr>
+<tr class="separator:add906e36ce6a49012434e20be0a0c62d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab755e2657946938ba07ef25823c7efd3"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ms_1_1_staff_type.html#ab755e2657946938ba07ef25823c7efd3">_stepOffset</a> = 0</td></tr>
+<tr class="separator:ab755e2657946938ba07ef25823c7efd3"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab8565fd9e9cef8badc55a315d632212e"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_ms_1_1_spatium.html">Spatium</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ms_1_1_staff_type.html#ab8565fd9e9cef8badc55a315d632212e">_lineDistance</a> = <a class="el" href="class_ms_1_1_spatium.html">Spatium</a>(1)</td></tr>
+<tr class="separator:ab8565fd9e9cef8badc55a315d632212e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a58a7372cc3c7eff31630319d408883b8"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ms_1_1_staff_type.html#a58a7372cc3c7eff31630319d408883b8">_showBarlines</a> = true</td></tr>
+<tr class="separator:a58a7372cc3c7eff31630319d408883b8"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a062eb07a0de49674282ca82a1ab515ad"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ms_1_1_staff_type.html#a062eb07a0de49674282ca82a1ab515ad">_showLedgerLines</a> = true</td></tr>
+<tr class="separator:a062eb07a0de49674282ca82a1ab515ad"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae8e1558b875054372e143b408424aa8d"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ms_1_1_staff_type.html#ae8e1558b875054372e143b408424aa8d">_slashStyle</a> = false</td></tr>
+<tr class="separator:ae8e1558b875054372e143b408424aa8d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:afa05cb340a2e5cf26aa6a05a3cdf37d7"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ms_1_1_staff_type.html#afa05cb340a2e5cf26aa6a05a3cdf37d7">_genClef</a> = true</td></tr>
+<tr class="separator:afa05cb340a2e5cf26aa6a05a3cdf37d7"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a204bd4147b0b26a31bdb0155207d08c7"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ms_1_1_staff_type.html#a204bd4147b0b26a31bdb0155207d08c7">_genTimesig</a> = true</td></tr>
+<tr class="separator:a204bd4147b0b26a31bdb0155207d08c7"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a7a599bdd74fd3b86f06ef61394eb3784"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ms_1_1_staff_type.html#a7a599bdd74fd3b86f06ef61394eb3784">_genKeysig</a> = true</td></tr>
+<tr class="separator:a7a599bdd74fd3b86f06ef61394eb3784"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a4ebd55883c7551c2b6dd64c64f751ead"><td class="memItemLeft" align="right" valign="top"><a class="el" href="namespace_ms.html#a5b4a3c13732b31f8b6e8a7f8948754b9">NoteHeadScheme</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ms_1_1_staff_type.html#a4ebd55883c7551c2b6dd64c64f751ead">_noteHeadScheme</a> = <a class="el" href="namespace_ms.html#a5b4a3c13732b31f8b6e8a7f8948754b9a6a94b8d56da1b6f881b076e10170e9a2">NoteHeadScheme::HEAD_NORMAL</a></td></tr>
+<tr class="separator:a4ebd55883c7551c2b6dd64c64f751ead"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac77e0db0b85cbd58359b2e2c7d695245"><td class="memItemLeft" align="right" valign="top">qreal&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ms_1_1_staff_type.html#ac77e0db0b85cbd58359b2e2c7d695245">_durationFontSize</a> = 15.0</td></tr>
+<tr class="separator:ac77e0db0b85cbd58359b2e2c7d695245"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a5561369284f33df2d2af869b51598232"><td class="memItemLeft" align="right" valign="top">qreal&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ms_1_1_staff_type.html#a5561369284f33df2d2af869b51598232">_durationFontUserY</a> = 0.0</td></tr>
+<tr class="separator:a5561369284f33df2d2af869b51598232"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac0f9fbfe9fbf03e432d107b315c176a1"><td class="memItemLeft" align="right" valign="top">qreal&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ms_1_1_staff_type.html#ac0f9fbfe9fbf03e432d107b315c176a1">_fretFontSize</a> = 10.0</td></tr>
+<tr class="separator:ac0f9fbfe9fbf03e432d107b315c176a1"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:abddb0e3d0aee6f751a74a0c778b2974b"><td class="memItemLeft" align="right" valign="top">qreal&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ms_1_1_staff_type.html#abddb0e3d0aee6f751a74a0c778b2974b">_fretFontUserY</a> = 0.0</td></tr>
+<tr class="separator:abddb0e3d0aee6f751a74a0c778b2974b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a54b1363b1679c49e3e741d1798d1afdd"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ms_1_1_staff_type.html#a54b1363b1679c49e3e741d1798d1afdd">_genDurations</a> = false</td></tr>
+<tr class="separator:a54b1363b1679c49e3e741d1798d1afdd"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a1d26bbe019444e51df94eebd26c44b29"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ms_1_1_staff_type.html#a1d26bbe019444e51df94eebd26c44b29">_linesThrough</a> = false</td></tr>
+<tr class="separator:a1d26bbe019444e51df94eebd26c44b29"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:afc94145ea414adb4e95d4f742c548fe5"><td class="memItemLeft" align="right" valign="top"><a class="el" href="namespace_ms.html#a2410ba6b8645516fa7f4e2446551da5b">TablatureMinimStyle</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ms_1_1_staff_type.html#afc94145ea414adb4e95d4f742c548fe5">_minimStyle</a> = <a class="el" href="namespace_ms.html#a2410ba6b8645516fa7f4e2446551da5bab50339a10e1de285ac99d4c3990b8693">TablatureMinimStyle::NONE</a></td></tr>
+<tr class="separator:afc94145ea414adb4e95d4f742c548fe5"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a578bf15609f7faa95f409bacd8bac90a"><td class="memItemLeft" align="right" valign="top"><a class="el" href="namespace_ms.html#a704a7cd3b8260ca95e9a99bbabe800c3">TablatureSymbolRepeat</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ms_1_1_staff_type.html#a578bf15609f7faa95f409bacd8bac90a">_symRepeat</a> = <a class="el" href="namespace_ms.html#a704a7cd3b8260ca95e9a99bbabe800c3a443475558f0168dff92ecde26b98ae5a">TablatureSymbolRepeat::NEVER</a></td></tr>
+<tr class="separator:a578bf15609f7faa95f409bacd8bac90a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a071d13259bf6296ece406f7af315a821"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ms_1_1_staff_type.html#a071d13259bf6296ece406f7af315a821">_onLines</a> = true</td></tr>
+<tr class="separator:a071d13259bf6296ece406f7af315a821"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a81bcd7eb8441fe976345fc388d68107e"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ms_1_1_staff_type.html#a81bcd7eb8441fe976345fc388d68107e">_showRests</a> = false</td></tr>
+<tr class="separator:a81bcd7eb8441fe976345fc388d68107e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:adca3f26a26690f821442747790d4583c"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ms_1_1_staff_type.html#adca3f26a26690f821442747790d4583c">_stemsDown</a> = true</td></tr>
+<tr class="separator:adca3f26a26690f821442747790d4583c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aebfa548f3c0df500c6357b545b6c684d"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ms_1_1_staff_type.html#aebfa548f3c0df500c6357b545b6c684d">_stemsThrough</a> = true</td></tr>
+<tr class="separator:aebfa548f3c0df500c6357b545b6c684d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa3c9ed6e7d11b9e321c14c2e156f6d7b"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ms_1_1_staff_type.html#aa3c9ed6e7d11b9e321c14c2e156f6d7b">_upsideDown</a> = false</td></tr>
+<tr class="separator:aa3c9ed6e7d11b9e321c14c2e156f6d7b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a6adb0fb00a059e4d9efb52022f7f0a8c"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ms_1_1_staff_type.html#a6adb0fb00a059e4d9efb52022f7f0a8c">_showTabFingering</a> = false</td></tr>
+<tr class="separator:a6adb0fb00a059e4d9efb52022f7f0a8c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad33c72aae4a89ad6a42c3df44d75b49e"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ms_1_1_staff_type.html#ad33c72aae4a89ad6a42c3df44d75b49e">_useNumbers</a> = true</td></tr>
+<tr class="separator:ad33c72aae4a89ad6a42c3df44d75b49e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a8ac6ccbe80d35c804757a55bc2d74f8a"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ms_1_1_staff_type.html#a8ac6ccbe80d35c804757a55bc2d74f8a">_showBackTied</a> = true</td></tr>
+<tr class="separator:a8ac6ccbe80d35c804757a55bc2d74f8a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a63e11a2084aa556b9f2100b69dad78e4"><td class="memItemLeft" align="right" valign="top">qreal&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ms_1_1_staff_type.html#a63e11a2084aa556b9f2100b69dad78e4">_durationBoxH</a> = 0.0</td></tr>
+<tr class="separator:a63e11a2084aa556b9f2100b69dad78e4"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a0faebd10023c1e70cb9c69912ec5e96b"><td class="memItemLeft" align="right" valign="top">qreal&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ms_1_1_staff_type.html#a0faebd10023c1e70cb9c69912ec5e96b">_durationBoxY</a> = 0.0</td></tr>
+<tr class="separator:a0faebd10023c1e70cb9c69912ec5e96b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aeb536099db36db1a43b6226d11829d84"><td class="memItemLeft" align="right" valign="top">QFont&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ms_1_1_staff_type.html#aeb536099db36db1a43b6226d11829d84">_durationFont</a></td></tr>
+<tr class="separator:aeb536099db36db1a43b6226d11829d84"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae5b0b52409c027fd62cd4eb5fc8e5938"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ms_1_1_staff_type.html#ae5b0b52409c027fd62cd4eb5fc8e5938">_durationFontIdx</a> = 0</td></tr>
+<tr class="separator:ae5b0b52409c027fd62cd4eb5fc8e5938"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab662c2909cd808e20c02c59ff2b60389"><td class="memItemLeft" align="right" valign="top">qreal&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ms_1_1_staff_type.html#ab662c2909cd808e20c02c59ff2b60389">_durationYOffset</a> = 0.0</td></tr>
+<tr class="separator:ab662c2909cd808e20c02c59ff2b60389"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a0be12fff51550e3feee48e83fa5151a8"><td class="memItemLeft" align="right" valign="top">qreal&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ms_1_1_staff_type.html#a0be12fff51550e3feee48e83fa5151a8">_durationGridYOffset</a> = 0.0</td></tr>
+<tr class="separator:a0be12fff51550e3feee48e83fa5151a8"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab6fe20c16432ef54bed3d70f1353c773"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ms_1_1_staff_type.html#ab6fe20c16432ef54bed3d70f1353c773">_durationMetricsValid</a> = false</td></tr>
+<tr class="separator:ab6fe20c16432ef54bed3d70f1353c773"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad4101f481052855b4ef9b4a78cb34138"><td class="memItemLeft" align="right" valign="top">qreal&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ms_1_1_staff_type.html#ad4101f481052855b4ef9b4a78cb34138">_fretBoxH</a> = 0.0</td></tr>
+<tr class="separator:ad4101f481052855b4ef9b4a78cb34138"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af4511da6a41da5cfbdf124e3eafffb3f"><td class="memItemLeft" align="right" valign="top">qreal&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ms_1_1_staff_type.html#af4511da6a41da5cfbdf124e3eafffb3f">_fretBoxY</a> = 0.0</td></tr>
+<tr class="separator:af4511da6a41da5cfbdf124e3eafffb3f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a3607f87ea23eff80c04c630473d34a28"><td class="memItemLeft" align="right" valign="top">QFont&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ms_1_1_staff_type.html#a3607f87ea23eff80c04c630473d34a28">_fretFont</a></td></tr>
+<tr class="separator:a3607f87ea23eff80c04c630473d34a28"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a596de3489aab228283ba41382169ff57"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ms_1_1_staff_type.html#a596de3489aab228283ba41382169ff57">_fretFontIdx</a> = 0</td></tr>
+<tr class="separator:a596de3489aab228283ba41382169ff57"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:acd1b9752419a016cdad0633031b0ff13"><td class="memItemLeft" align="right" valign="top">qreal&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ms_1_1_staff_type.html#acd1b9752419a016cdad0633031b0ff13">_fretYOffset</a> = 0.0</td></tr>
+<tr class="separator:acd1b9752419a016cdad0633031b0ff13"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a801397bff1a6d4a14fd5cb76f728353b"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ms_1_1_staff_type.html#a801397bff1a6d4a14fd5cb76f728353b">_fretMetricsValid</a> = false</td></tr>
+<tr class="separator:a801397bff1a6d4a14fd5cb76f728353b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac954755f3e3828f7d1adb9258fce00e5"><td class="memItemLeft" align="right" valign="top">qreal&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ms_1_1_staff_type.html#ac954755f3e3828f7d1adb9258fce00e5">_refDPI</a> = 0.0</td></tr>
+<tr class="separator:ac954755f3e3828f7d1adb9258fce00e5"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pri-static-attribs"></a>
+Static Private Attributes</h2></td></tr>
+<tr class="memitem:aeb2592f20af0abb29c7fa012dc2bcf1a"><td class="memItemLeft" align="right" valign="top">static QList&lt; <a class="el" href="struct_ms_1_1_tablature_fret_font.html">TablatureFretFont</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ms_1_1_staff_type.html#aeb2592f20af0abb29c7fa012dc2bcf1a">_fretFonts</a> = QList&lt;<a class="el" href="struct_ms_1_1_tablature_fret_font.html">TablatureFretFont</a>&gt;()</td></tr>
+<tr class="separator:aeb2592f20af0abb29c7fa012dc2bcf1a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a90c037099141762c0e508afccdb41615"><td class="memItemLeft" align="right" valign="top">static QList&lt; <a class="el" href="struct_ms_1_1_tablature_duration_font.html">TablatureDurationFont</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ms_1_1_staff_type.html#a90c037099141762c0e508afccdb41615">_durationFonts</a> = QList&lt;<a class="el" href="struct_ms_1_1_tablature_duration_font.html">TablatureDurationFont</a>&gt;()</td></tr>
+<tr class="separator:a90c037099141762c0e508afccdb41615"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9060b69c54e6a9d4c0a1400db2a1405b"><td class="memItemLeft" align="right" valign="top">static std::vector&lt; <a class="el" href="class_ms_1_1_staff_type.html">StaffType</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ms_1_1_staff_type.html#a9060b69c54e6a9d4c0a1400db2a1405b">_presets</a></td></tr>
+<tr class="separator:a9060b69c54e6a9d4c0a1400db2a1405b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aebc0c69d818f37e797b5dd1b5b547b97"><td class="memItemLeft" align="right" valign="top">static const char&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ms_1_1_staff_type.html#aebc0c69d818f37e797b5dd1b5b547b97">groupNames</a> [<a class="el" href="namespace_ms.html#aa1720b8d90edf8d06388cb0a2d5baa3a">STAFF_GROUP_MAX</a>][STAFF_GROUP_NAME_MAX_LENGTH]</td></tr>
+<tr class="separator:aebc0c69d818f37e797b5dd1b5b547b97"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a4d2604bcdbbc436d981b83fb19c04414"><td class="memItemLeft" align="right" valign="top">static const QString&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ms_1_1_staff_type.html#a4d2604bcdbbc436d981b83fb19c04414">fileGroupNames</a> [<a class="el" href="namespace_ms.html#aa1720b8d90edf8d06388cb0a2d5baa3a">STAFF_GROUP_MAX</a>] = { &quot;pitched&quot;, &quot;percussion&quot;, &quot;tablature&quot; }</td></tr>
+<tr class="separator:a4d2604bcdbbc436d981b83fb19c04414"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="friends"></a>
 Friends</h2></td></tr>
@@ -2020,6 +2152,32 @@ Friends</h2></td></tr>
 
 </div>
 </div>
+<a id="a1bc96f2d64bf38db83c4bf4cc996709f"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a1bc96f2d64bf38db83c4bf4cc996709f">&#9670;&nbsp;</a></span>readConfigFile()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool Ms::StaffType::readConfigFile </td>
+          <td>(</td>
+          <td class="paramtype">const QString &amp;&#160;</td>
+          <td class="paramname"><em>fileName</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
 <a id="a0f5e12d55d7555a38f70eea1aec5a66a"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a0f5e12d55d7555a38f70eea1aec5a66a">&#9670;&nbsp;</a></span>scheme2name()</h2>
 
@@ -2134,6 +2292,31 @@ Friends</h2></td></tr>
 
 </div>
 </div>
+<a id="a985cca1be421def19773ed07afe7b0b0"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a985cca1be421def19773ed07afe7b0b0">&#9670;&nbsp;</a></span>setDurationMetrics()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void Ms::StaffType::setDurationMetrics </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
 <a id="ae07af1d002f1ec8897fb4da3667a77bb"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#ae07af1d002f1ec8897fb4da3667a77bb">&#9670;&nbsp;</a></span>setFretFontName()</h2>
 
@@ -2190,6 +2373,31 @@ Friends</h2></td></tr>
   </td>
   <td class="mlabels-right">
 <span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="afa2b747cf6de180e8d10bc9348ad66da"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#afa2b747cf6de180e8d10bc9348ad66da">&#9670;&nbsp;</a></span>setFretMetrics()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void Ms::StaffType::setFretMetrics </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
   </tr>
 </table>
 </div><div class="memdoc">
@@ -3393,6 +3601,1129 @@ Friends</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
+</div>
+</div>
+<h2 class="groupheader">Member Data Documentation</h2>
+<a id="a63e11a2084aa556b9f2100b69dad78e4"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a63e11a2084aa556b9f2100b69dad78e4">&#9670;&nbsp;</a></span>_durationBoxH</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">qreal Ms::StaffType::_durationBoxH = 0.0</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">mutable</span><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a0faebd10023c1e70cb9c69912ec5e96b"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a0faebd10023c1e70cb9c69912ec5e96b">&#9670;&nbsp;</a></span>_durationBoxY</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">qreal Ms::StaffType::_durationBoxY = 0.0</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">mutable</span><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="aeb536099db36db1a43b6226d11829d84"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aeb536099db36db1a43b6226d11829d84">&#9670;&nbsp;</a></span>_durationFont</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">QFont Ms::StaffType::_durationFont</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="ae5b0b52409c027fd62cd4eb5fc8e5938"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ae5b0b52409c027fd62cd4eb5fc8e5938">&#9670;&nbsp;</a></span>_durationFontIdx</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">int Ms::StaffType::_durationFontIdx = 0</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a90c037099141762c0e508afccdb41615"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a90c037099141762c0e508afccdb41615">&#9670;&nbsp;</a></span>_durationFonts</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">QList&lt; <a class="el" href="struct_ms_1_1_tablature_duration_font.html">TablatureDurationFont</a> &gt; Ms::StaffType::_durationFonts = QList&lt;<a class="el" href="struct_ms_1_1_tablature_duration_font.html">TablatureDurationFont</a>&gt;()</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="ac77e0db0b85cbd58359b2e2c7d695245"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ac77e0db0b85cbd58359b2e2c7d695245">&#9670;&nbsp;</a></span>_durationFontSize</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">qreal Ms::StaffType::_durationFontSize = 15.0</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a5561369284f33df2d2af869b51598232"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a5561369284f33df2d2af869b51598232">&#9670;&nbsp;</a></span>_durationFontUserY</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">qreal Ms::StaffType::_durationFontUserY = 0.0</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a0be12fff51550e3feee48e83fa5151a8"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a0be12fff51550e3feee48e83fa5151a8">&#9670;&nbsp;</a></span>_durationGridYOffset</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">qreal Ms::StaffType::_durationGridYOffset = 0.0</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">mutable</span><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="ab6fe20c16432ef54bed3d70f1353c773"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ab6fe20c16432ef54bed3d70f1353c773">&#9670;&nbsp;</a></span>_durationMetricsValid</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool Ms::StaffType::_durationMetricsValid = false</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">mutable</span><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="ab662c2909cd808e20c02c59ff2b60389"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ab662c2909cd808e20c02c59ff2b60389">&#9670;&nbsp;</a></span>_durationYOffset</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">qreal Ms::StaffType::_durationYOffset = 0.0</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">mutable</span><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="ad4101f481052855b4ef9b4a78cb34138"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ad4101f481052855b4ef9b4a78cb34138">&#9670;&nbsp;</a></span>_fretBoxH</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">qreal Ms::StaffType::_fretBoxH = 0.0</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">mutable</span><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="af4511da6a41da5cfbdf124e3eafffb3f"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#af4511da6a41da5cfbdf124e3eafffb3f">&#9670;&nbsp;</a></span>_fretBoxY</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">qreal Ms::StaffType::_fretBoxY = 0.0</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">mutable</span><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a3607f87ea23eff80c04c630473d34a28"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a3607f87ea23eff80c04c630473d34a28">&#9670;&nbsp;</a></span>_fretFont</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">QFont Ms::StaffType::_fretFont</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a596de3489aab228283ba41382169ff57"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a596de3489aab228283ba41382169ff57">&#9670;&nbsp;</a></span>_fretFontIdx</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">int Ms::StaffType::_fretFontIdx = 0</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="aeb2592f20af0abb29c7fa012dc2bcf1a"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aeb2592f20af0abb29c7fa012dc2bcf1a">&#9670;&nbsp;</a></span>_fretFonts</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">QList&lt; <a class="el" href="struct_ms_1_1_tablature_fret_font.html">TablatureFretFont</a> &gt; Ms::StaffType::_fretFonts = QList&lt;<a class="el" href="struct_ms_1_1_tablature_fret_font.html">TablatureFretFont</a>&gt;()</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="ac0f9fbfe9fbf03e432d107b315c176a1"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ac0f9fbfe9fbf03e432d107b315c176a1">&#9670;&nbsp;</a></span>_fretFontSize</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">qreal Ms::StaffType::_fretFontSize = 10.0</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="abddb0e3d0aee6f751a74a0c778b2974b"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#abddb0e3d0aee6f751a74a0c778b2974b">&#9670;&nbsp;</a></span>_fretFontUserY</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">qreal Ms::StaffType::_fretFontUserY = 0.0</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a801397bff1a6d4a14fd5cb76f728353b"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a801397bff1a6d4a14fd5cb76f728353b">&#9670;&nbsp;</a></span>_fretMetricsValid</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool Ms::StaffType::_fretMetricsValid = false</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">mutable</span><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="acd1b9752419a016cdad0633031b0ff13"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#acd1b9752419a016cdad0633031b0ff13">&#9670;&nbsp;</a></span>_fretYOffset</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">qreal Ms::StaffType::_fretYOffset = 0.0</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">mutable</span><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="afa05cb340a2e5cf26aa6a05a3cdf37d7"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#afa05cb340a2e5cf26aa6a05a3cdf37d7">&#9670;&nbsp;</a></span>_genClef</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool Ms::StaffType::_genClef = true</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a54b1363b1679c49e3e741d1798d1afdd"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a54b1363b1679c49e3e741d1798d1afdd">&#9670;&nbsp;</a></span>_genDurations</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool Ms::StaffType::_genDurations = false</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a7a599bdd74fd3b86f06ef61394eb3784"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a7a599bdd74fd3b86f06ef61394eb3784">&#9670;&nbsp;</a></span>_genKeysig</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool Ms::StaffType::_genKeysig = true</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a204bd4147b0b26a31bdb0155207d08c7"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a204bd4147b0b26a31bdb0155207d08c7">&#9670;&nbsp;</a></span>_genTimesig</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool Ms::StaffType::_genTimesig = true</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a5880a5251edee470ec3ec04794c9ceba"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a5880a5251edee470ec3ec04794c9ceba">&#9670;&nbsp;</a></span>_group</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="namespace_ms.html#aad3918cfddca91d981504ae55c0f19b0">StaffGroup</a> Ms::StaffType::_group = <a class="el" href="namespace_ms.html#aad3918cfddca91d981504ae55c0f19b0a94e94133f4bdc1794c6b647b8ea134d0">StaffGroup::STANDARD</a></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="ab8565fd9e9cef8badc55a315d632212e"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ab8565fd9e9cef8badc55a315d632212e">&#9670;&nbsp;</a></span>_lineDistance</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="class_ms_1_1_spatium.html">Spatium</a> Ms::StaffType::_lineDistance = <a class="el" href="class_ms_1_1_spatium.html">Spatium</a>(1)</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="add906e36ce6a49012434e20be0a0c62d"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#add906e36ce6a49012434e20be0a0c62d">&#9670;&nbsp;</a></span>_lines</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">int Ms::StaffType::_lines = 5</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a1d26bbe019444e51df94eebd26c44b29"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a1d26bbe019444e51df94eebd26c44b29">&#9670;&nbsp;</a></span>_linesThrough</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool Ms::StaffType::_linesThrough = false</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="afc94145ea414adb4e95d4f742c548fe5"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#afc94145ea414adb4e95d4f742c548fe5">&#9670;&nbsp;</a></span>_minimStyle</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="namespace_ms.html#a2410ba6b8645516fa7f4e2446551da5b">TablatureMinimStyle</a> Ms::StaffType::_minimStyle = <a class="el" href="namespace_ms.html#a2410ba6b8645516fa7f4e2446551da5bab50339a10e1de285ac99d4c3990b8693">TablatureMinimStyle::NONE</a></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="ac551fd8b4d47c0e20376c15f1b6238d8"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ac551fd8b4d47c0e20376c15f1b6238d8">&#9670;&nbsp;</a></span>_name</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">QString Ms::StaffType::_name</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a4ebd55883c7551c2b6dd64c64f751ead"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a4ebd55883c7551c2b6dd64c64f751ead">&#9670;&nbsp;</a></span>_noteHeadScheme</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="namespace_ms.html#a5b4a3c13732b31f8b6e8a7f8948754b9">NoteHeadScheme</a> Ms::StaffType::_noteHeadScheme = <a class="el" href="namespace_ms.html#a5b4a3c13732b31f8b6e8a7f8948754b9a6a94b8d56da1b6f881b076e10170e9a2">NoteHeadScheme::HEAD_NORMAL</a></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a071d13259bf6296ece406f7af315a821"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a071d13259bf6296ece406f7af315a821">&#9670;&nbsp;</a></span>_onLines</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool Ms::StaffType::_onLines = true</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a9060b69c54e6a9d4c0a1400db2a1405b"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a9060b69c54e6a9d4c0a1400db2a1405b">&#9670;&nbsp;</a></span>_presets</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">std::vector&lt; <a class="el" href="class_ms_1_1_staff_type.html">StaffType</a> &gt; Ms::StaffType::_presets</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="ac954755f3e3828f7d1adb9258fce00e5"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ac954755f3e3828f7d1adb9258fce00e5">&#9670;&nbsp;</a></span>_refDPI</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">qreal Ms::StaffType::_refDPI = 0.0</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">mutable</span><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a8ac6ccbe80d35c804757a55bc2d74f8a"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a8ac6ccbe80d35c804757a55bc2d74f8a">&#9670;&nbsp;</a></span>_showBackTied</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool Ms::StaffType::_showBackTied = true</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a58a7372cc3c7eff31630319d408883b8"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a58a7372cc3c7eff31630319d408883b8">&#9670;&nbsp;</a></span>_showBarlines</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool Ms::StaffType::_showBarlines = true</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a062eb07a0de49674282ca82a1ab515ad"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a062eb07a0de49674282ca82a1ab515ad">&#9670;&nbsp;</a></span>_showLedgerLines</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool Ms::StaffType::_showLedgerLines = true</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a81bcd7eb8441fe976345fc388d68107e"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a81bcd7eb8441fe976345fc388d68107e">&#9670;&nbsp;</a></span>_showRests</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool Ms::StaffType::_showRests = false</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a6adb0fb00a059e4d9efb52022f7f0a8c"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a6adb0fb00a059e4d9efb52022f7f0a8c">&#9670;&nbsp;</a></span>_showTabFingering</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool Ms::StaffType::_showTabFingering = false</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="ae8e1558b875054372e143b408424aa8d"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ae8e1558b875054372e143b408424aa8d">&#9670;&nbsp;</a></span>_slashStyle</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool Ms::StaffType::_slashStyle = false</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a4cab4135367e7ddf46696809166a8d9f"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a4cab4135367e7ddf46696809166a8d9f">&#9670;&nbsp;</a></span>_small</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool Ms::StaffType::_small { false }</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="adca3f26a26690f821442747790d4583c"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#adca3f26a26690f821442747790d4583c">&#9670;&nbsp;</a></span>_stemsDown</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool Ms::StaffType::_stemsDown = true</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="aebfa548f3c0df500c6357b545b6c684d"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aebfa548f3c0df500c6357b545b6c684d">&#9670;&nbsp;</a></span>_stemsThrough</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool Ms::StaffType::_stemsThrough = true</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="ab755e2657946938ba07ef25823c7efd3"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ab755e2657946938ba07ef25823c7efd3">&#9670;&nbsp;</a></span>_stepOffset</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">int Ms::StaffType::_stepOffset = 0</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a578bf15609f7faa95f409bacd8bac90a"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a578bf15609f7faa95f409bacd8bac90a">&#9670;&nbsp;</a></span>_symRepeat</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="namespace_ms.html#a704a7cd3b8260ca95e9a99bbabe800c3">TablatureSymbolRepeat</a> Ms::StaffType::_symRepeat = <a class="el" href="namespace_ms.html#a704a7cd3b8260ca95e9a99bbabe800c3a443475558f0168dff92ecde26b98ae5a">TablatureSymbolRepeat::NEVER</a></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="aa3c9ed6e7d11b9e321c14c2e156f6d7b"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aa3c9ed6e7d11b9e321c14c2e156f6d7b">&#9670;&nbsp;</a></span>_upsideDown</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool Ms::StaffType::_upsideDown = false</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="ad33c72aae4a89ad6a42c3df44d75b49e"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ad33c72aae4a89ad6a42c3df44d75b49e">&#9670;&nbsp;</a></span>_useNumbers</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool Ms::StaffType::_useNumbers = true</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a5e0d0ac6b1089be44f0c60ea93840018"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a5e0d0ac6b1089be44f0c60ea93840018">&#9670;&nbsp;</a></span>_userMag</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">qreal Ms::StaffType::_userMag { 1.0 }</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a63436f695af00b1650cf2889f366417a"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a63436f695af00b1650cf2889f366417a">&#9670;&nbsp;</a></span>_xmlName</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">QString Ms::StaffType::_xmlName</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="aa7c6221657e54a5a0799ac4f210b0c86"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aa7c6221657e54a5a0799ac4f210b0c86">&#9670;&nbsp;</a></span>_yoffset</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="class_ms_1_1_spatium.html">Spatium</a> Ms::StaffType::_yoffset { 0.0 }</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a4d2604bcdbbc436d981b83fb19c04414"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a4d2604bcdbbc436d981b83fb19c04414">&#9670;&nbsp;</a></span>fileGroupNames</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">const QString Ms::StaffType::fileGroupNames = { &quot;pitched&quot;, &quot;percussion&quot;, &quot;tablature&quot; }</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="aebc0c69d818f37e797b5dd1b5b547b97"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aebc0c69d818f37e797b5dd1b5b547b97">&#9670;&nbsp;</a></span>groupNames</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">const char Ms::StaffType::groupNames</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<b>Initial value:</b><div class="fragment"><div class="line">= {</div><div class="line">      QT_TRANSLATE_NOOP(<span class="stringliteral">&quot;Staff type group name&quot;</span>, <span class="stringliteral">&quot;Standard&quot;</span>),</div><div class="line">      QT_TRANSLATE_NOOP(<span class="stringliteral">&quot;Staff type group name&quot;</span>, <span class="stringliteral">&quot;Percussion&quot;</span>),</div><div class="line">      QT_TRANSLATE_NOOP(<span class="stringliteral">&quot;Staff type group name&quot;</span>, <span class="stringliteral">&quot;Tablature&quot;</span>)</div><div class="line">      }</div></div><!-- fragment -->
 </div>
 </div>
 <hr/>The documentation for this class was generated from the following files:<ul>

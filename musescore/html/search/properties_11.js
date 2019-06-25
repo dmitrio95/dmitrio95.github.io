@@ -1,10 +1,12 @@
 var searchData=
 [
-  ['scale',['scale',['../class_ms_1_1_plugin_a_p_i_1_1_element.html#a7c08db89c908392c201b71d3ba0433c6',1,'Ms::PluginAPI::Element::scale()'],['../class_ms_1_1_plugin_a_p_i_1_1_ms_score_view.html#ab0f4eb600d17677523fcf872382a4311',1,'Ms::PluginAPI::MsScoreView::scale()']]],
+  ['scale',['scale',['../class_ms_1_1_plugin_a_p_i_1_1_element.html#a7c08db89c908392c201b71d3ba0433c6',1,'Ms::PluginAPI::Element::scale()'],['../class_ms_1_1_plugin_a_p_i_1_1_score_view.html#a994764e05b84082f594028ecc06a9fdf',1,'Ms::PluginAPI::ScoreView::scale()']]],
   ['scalecolor',['scaleColor',['../class_awl_1_1_abstract_slider.html#ada9bfd104ba72f47f755e258cfd0dae1',1,'Awl::AbstractSlider']]],
   ['scalevaluecolor',['scaleValueColor',['../class_awl_1_1_abstract_slider.html#a91b3d791e901a9d82deffbd23a720a95',1,'Awl::AbstractSlider']]],
   ['scalewidth',['scaleWidth',['../class_awl_1_1_abstract_slider.html#a43e083238669144339eaaf7577f8414f',1,'Awl::AbstractSlider']]],
   ['score',['score',['../class_ms_1_1_plugin_a_p_i_1_1_cursor.html#ad7f6d2fd488f1162b0dfd2e9149512d4',1,'Ms::PluginAPI::Cursor']]],
+  ['scorename',['scoreName',['../class_ms_1_1_plugin_a_p_i_1_1_score.html#a0e066245a2dbb175416f41c9135a8016',1,'Ms::PluginAPI::Score']]],
+  ['scores',['scores',['../class_ms_1_1_plugin_a_p_i_1_1_plugin_a_p_i.html#ab21657c4e3d90f2e4e7ad26bdc3ee606',1,'Ms::PluginAPI::PluginAPI']]],
   ['segment',['segment',['../class_ms_1_1_plugin_a_p_i_1_1_cursor.html#a959dc586442140d2c4f474dbbc816be0',1,'Ms::PluginAPI::Cursor::segment()'],['../class_ms_1_1_plugin_a_p_i_1_1_plugin_a_p_i.html#a0e3297c2d8debe2d8915323332bd0842',1,'Ms::PluginAPI::PluginAPI::Segment()']]],
   ['segmenttype',['segmentType',['../class_ms_1_1_plugin_a_p_i_1_1_segment.html#a176dc05c9c91a7a37731f3dec9e85d3d',1,'Ms::PluginAPI::Segment']]],
   ['selected',['selected',['../class_ms_1_1_plugin_a_p_i_1_1_element.html#a6ffcc96e0cafdf339f7c71d9b9dc4585',1,'Ms::PluginAPI::Element']]],

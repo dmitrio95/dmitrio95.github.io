@@ -23,9 +23,9 @@
   <td id="projectlogo"><img alt="Logo" src="musescore_logo_full.png"/></td>
   <td id="projectalign" style="padding-left: 0.5em;">
    <div id="projectname">MuseScore
-   &#160;<span id="projectnumber">3.1</span>
+   &#160;<span id="projectnumber">3.2</span>
    </div>
-   <div id="projectbrief">Music compisition and notation</div>
+   <div id="projectbrief">Music composition and notation</div>
   </td>
  </tr>
  </tbody>
@@ -67,6 +67,8 @@ $(function() {
 <div class="header">
   <div class="summary">
 <a href="#pub-methods">Public Member Functions</a> &#124;
+<a href="#pri-slots">Private Slots</a> &#124;
+<a href="#pri-methods">Private Member Functions</a> &#124;
 <a href="class_ms_1_1_transpose_dialog-members.html">List of all members</a>  </div>
   <div class="headertitle">
 <div class="title">Ms::TransposeDialog Class Reference</div>  </div>
@@ -115,6 +117,22 @@ Public Member Functions</h2></td></tr>
 <tr class="separator:a3f6ada8ee1c17891cee21c421855a257"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a944af680b509ed43d71c18911c5b8c14"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ms_1_1_transpose_dialog.html#a944af680b509ed43d71c18911c5b8c14">useDoubleSharpsFlats</a> () const</td></tr>
 <tr class="separator:a944af680b509ed43d71c18911c5b8c14"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pri-slots"></a>
+Private Slots</h2></td></tr>
+<tr class="memitem:acdb86ad3dce7f74ae908c9a3c4cc87d9"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ms_1_1_transpose_dialog.html#acdb86ad3dce7f74ae908c9a3c4cc87d9">transposeByKeyToggled</a> (bool)</td></tr>
+<tr class="separator:acdb86ad3dce7f74ae908c9a3c4cc87d9"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:afdbcbced8719dbc5f160f484bc917e87"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ms_1_1_transpose_dialog.html#afdbcbced8719dbc5f160f484bc917e87">transposeByIntervalToggled</a> (bool)</td></tr>
+<tr class="separator:afdbcbced8719dbc5f160f484bc917e87"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9cb72e3a4fe9f1f4a1404d7fe2ffc073"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ms_1_1_transpose_dialog.html#a9cb72e3a4fe9f1f4a1404d7fe2ffc073">on_chromaticBox_toggled</a> (bool val)</td></tr>
+<tr class="separator:a9cb72e3a4fe9f1f4a1404d7fe2ffc073"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a28a106a2fff2a7f0410a8698fc9a9150"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ms_1_1_transpose_dialog.html#a28a106a2fff2a7f0410a8698fc9a9150">on_diatonicBox_toggled</a> (bool val)</td></tr>
+<tr class="separator:a28a106a2fff2a7f0410a8698fc9a9150"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pri-methods"></a>
+Private Member Functions</h2></td></tr>
+<tr class="memitem:aaf68845848cb7b5cec6e3e702dcfbaa5"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ms_1_1_transpose_dialog.html#aaf68845848cb7b5cec6e3e702dcfbaa5">hideEvent</a> (QHideEvent *)</td></tr>
+<tr class="separator:aaf68845848cb7b5cec6e3e702dcfbaa5"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
 <a id="a834d8d333ecd2286f5b2fb24de1929d4"></a>
@@ -265,6 +283,32 @@ Public Member Functions</h2></td></tr>
 
 </div>
 </div>
+<a id="aaf68845848cb7b5cec6e3e702dcfbaa5"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aaf68845848cb7b5cec6e3e702dcfbaa5">&#9670;&nbsp;</a></span>hideEvent()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void Ms::TransposeDialog::hideEvent </td>
+          <td>(</td>
+          <td class="paramtype">QHideEvent *&#160;</td>
+          <td class="paramname"><em>event</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span><span class="mlabel">virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
 <a id="a5d823f0e36d45467e5c04dbcd5b97d50"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a5d823f0e36d45467e5c04dbcd5b97d50">&#9670;&nbsp;</a></span>mode()</h2>
 
@@ -278,6 +322,58 @@ Public Member Functions</h2></td></tr>
           <td> const</td>
         </tr>
       </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a9cb72e3a4fe9f1f4a1404d7fe2ffc073"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a9cb72e3a4fe9f1f4a1404d7fe2ffc073">&#9670;&nbsp;</a></span>on_chromaticBox_toggled</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void Ms::TransposeDialog::on_chromaticBox_toggled </td>
+          <td>(</td>
+          <td class="paramtype">bool&#160;</td>
+          <td class="paramname"><em>val</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span><span class="mlabel">slot</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a28a106a2fff2a7f0410a8698fc9a9150"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a28a106a2fff2a7f0410a8698fc9a9150">&#9670;&nbsp;</a></span>on_diatonicBox_toggled</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void Ms::TransposeDialog::on_diatonicBox_toggled </td>
+          <td>(</td>
+          <td class="paramtype">bool&#160;</td>
+          <td class="paramname"><em>val</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span><span class="mlabel">slot</span></span>  </td>
+  </tr>
+</table>
 </div><div class="memdoc">
 
 </div>
@@ -302,6 +398,58 @@ Public Member Functions</h2></td></tr>
   </td>
   <td class="mlabels-right">
 <span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="afdbcbced8719dbc5f160f484bc917e87"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#afdbcbced8719dbc5f160f484bc917e87">&#9670;&nbsp;</a></span>transposeByIntervalToggled</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void Ms::TransposeDialog::transposeByIntervalToggled </td>
+          <td>(</td>
+          <td class="paramtype">bool&#160;</td>
+          <td class="paramname"><em>val</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span><span class="mlabel">slot</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="acdb86ad3dce7f74ae908c9a3c4cc87d9"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#acdb86ad3dce7f74ae908c9a3c4cc87d9">&#9670;&nbsp;</a></span>transposeByKeyToggled</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void Ms::TransposeDialog::transposeByKeyToggled </td>
+          <td>(</td>
+          <td class="paramtype">bool&#160;</td>
+          <td class="paramname"><em>val</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span><span class="mlabel">slot</span></span>  </td>
   </tr>
 </table>
 </div><div class="memdoc">

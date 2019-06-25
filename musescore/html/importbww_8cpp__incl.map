@@ -13,16 +13,16 @@
 <area shape="rect" id="node31" href="$segment_8h.html" title="segment.h" alt="" coords="1811,304,1893,331"/>
 <area shape="rect" id="node32" href="$note_8h.html" title="Definition of classes Note and NoteHead. " alt="" coords="1244,304,1303,331"/>
 <area shape="rect" id="node34" href="$pitchspelling_8h.html" title="pitchspelling.h" alt="" coords="1227,379,1333,405"/>
-<area shape="rect" id="node35" href="$libmscore_2part_8h.html" title="libmscore/part.h" alt="" coords="2363,80,2477,107"/>
-<area shape="rect" id="node38" href="$libmscore_2score_8h.html" title="Definition of Score class. " alt="" coords="2257,155,2383,181"/>
-<area shape="rect" id="node42" href="$slur_8h.html" title="libmscore/slur.h" alt="" coords="1816,80,1931,107"/>
-<area shape="rect" id="node43" href="$tie_8h.html" title="libmscore/tie.h" alt="" coords="1955,80,2061,107"/>
-<area shape="rect" id="node44" href="$staff_8h.html" title="Definition of class Staff. " alt="" coords="2613,453,2731,480"/>
-<area shape="rect" id="node45" href="$tempotext_8h.html" title="libmscore/tempotext.h" alt="" coords="2137,80,2287,107"/>
+<area shape="rect" id="node35" href="$libmscore_2part_8h.html" title="libmscore/part.h" alt="" coords="2356,80,2471,107"/>
+<area shape="rect" id="node38" href="$libmscore_2score_8h.html" title="Definition of Score class. " alt="" coords="2251,155,2376,181"/>
+<area shape="rect" id="node42" href="$slur_8h.html" title="libmscore/slur.h" alt="" coords="1809,80,1924,107"/>
+<area shape="rect" id="node43" href="$tie_8h.html" title="libmscore/tie.h" alt="" coords="1948,80,2055,107"/>
+<area shape="rect" id="node44" href="$staff_8h.html" title="Definition of class Staff. " alt="" coords="2610,453,2729,480"/>
+<area shape="rect" id="node45" href="$tempotext_8h.html" title="libmscore/tempotext.h" alt="" coords="2130,80,2281,107"/>
 <area shape="rect" id="node46" href="$timesig_8h.html" title="libmscore/timesig.h" alt="" coords="2150,304,2285,331"/>
-<area shape="rect" id="node47" href="$tuplet_8h.html" title="libmscore/tuplet.h" alt="" coords="1955,155,2080,181"/>
-<area shape="rect" id="node48" href="$volta_8h.html" title="libmscore/volta.h" alt="" coords="2502,80,2623,107"/>
-<area shape="rect" id="node49" href="$musescore_8h.html" title="musescore.h" alt="" coords="2647,80,2745,107"/>
+<area shape="rect" id="node47" href="$tuplet_8h.html" title="libmscore/tuplet.h" alt="" coords="1953,155,2079,181"/>
+<area shape="rect" id="node48" href="$volta_8h.html" title="libmscore/volta.h" alt="" coords="2495,80,2617,107"/>
+<area shape="rect" id="node49" href="$musescore_8h.html" title="musescore.h" alt="" coords="2641,80,2738,107"/>
 <area shape="rect" id="node50" href="$musicxml_8h.html" title="Definition of class MusicXML. " alt="" coords="1079,304,1169,331"/>
 <area shape="rect" id="node7" href="$symbols_8h.html" title="Definition of tokens types for bww lexer and parser. " alt="" coords="461,229,544,256"/>
 <area shape="rect" id="node14" href="$mscore_8h.html" title="mscore.h" alt="" coords="2030,528,2106,555"/>
@@ -36,7 +36,7 @@
 <area shape="rect" id="node30" href="$segmentlist_8h.html" title="segmentlist.h" alt="" coords="1485,229,1585,256"/>
 <area shape="rect" id="node33" href="$noteevent_8h.html" title="noteevent.h" alt="" coords="1357,379,1448,405"/>
 <area shape="rect" id="node36" href="$libmscore_2instrument_8h.html" title="instrument.h" alt="" coords="2263,229,2358,256"/>
-<area shape="rect" id="node37" href="$text_8h.html" title="text.h" alt="" coords="2178,155,2233,181"/>
+<area shape="rect" id="node37" href="$text_8h.html" title="text.h" alt="" coords="2171,155,2226,181"/>
 <area shape="rect" id="node39" href="$input_8h.html" title="input.h" alt="" coords="2360,453,2421,480"/>
 <area shape="rect" id="node40" href="$select_8h.html" title="select.h" alt="" coords="1918,304,1986,331"/>
 <area shape="rect" id="node41" href="$synthesizerstate_8h.html" title="synthesizerstate.h" alt="" coords="2110,229,2239,256"/>

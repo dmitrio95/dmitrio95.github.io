@@ -23,9 +23,9 @@
   <td id="projectlogo"><img alt="Logo" src="musescore_logo_full.png"/></td>
   <td id="projectalign" style="padding-left: 0.5em;">
    <div id="projectname">MuseScore
-   &#160;<span id="projectnumber">3.1</span>
+   &#160;<span id="projectnumber">3.2</span>
    </div>
-   <div id="projectbrief">Music compisition and notation</div>
+   <div id="projectbrief">Music composition and notation</div>
   </td>
  </tr>
  </tbody>
@@ -69,6 +69,10 @@ $(function() {
 <a href="#pub-slots">Public Slots</a> &#124;
 <a href="#pub-methods">Public Member Functions</a> &#124;
 <a href="#pub-static-methods">Static Public Member Functions</a> &#124;
+<a href="#pri-methods">Private Member Functions</a> &#124;
+<a href="#pri-static-methods">Static Private Member Functions</a> &#124;
+<a href="#pri-attribs">Private Attributes</a> &#124;
+<a href="#pri-static-attribs">Static Private Attributes</a> &#124;
 <a href="class_ms_1_1_tour_handler-members.html">List of all members</a>  </div>
   <div class="headertitle">
 <div class="title">Ms::TourHandler Class Reference</div>  </div>
@@ -127,6 +131,36 @@ Static Public Member Functions</h2></td></tr>
 <tr class="separator:a3028e3981fd5a1b9587e1d36e02a5665"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a7b06788ba866b007f0254524b5d51602"><td class="memItemLeft" align="right" valign="top">static QList&lt; QString &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ms_1_1_tour_handler.html#a7b06788ba866b007f0254524b5d51602">allTourShortcuts</a> ()</td></tr>
 <tr class="separator:a7b06788ba866b007f0254524b5d51602"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pri-methods"></a>
+Private Member Functions</h2></td></tr>
+<tr class="memitem:a871e8a6a72df2de5f090349a5680a4e0"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ms_1_1_tour_handler.html#a871e8a6a72df2de5f090349a5680a4e0">loadTour</a> (<a class="el" href="class_ms_1_1_xml_reader.html">XmlReader</a> &amp;tourXml)</td></tr>
+<tr class="separator:a871e8a6a72df2de5f090349a5680a4e0"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pri-static-methods"></a>
+Static Private Member Functions</h2></td></tr>
+<tr class="memitem:aab23aeb50b508a892a5df086b9e32bf7"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ms_1_1_tour_handler.html#aab23aeb50b508a892a5df086b9e32bf7">displayTour</a> (<a class="el" href="class_ms_1_1_tour.html">Tour</a> *tour)</td></tr>
+<tr class="separator:aab23aeb50b508a892a5df086b9e32bf7"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:acc96c4b050d89cf330586aabd260318c"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ms_1_1_tour_handler.html#acc96c4b050d89cf330586aabd260318c">positionMessage</a> (QList&lt; QWidget *&gt; widgets, QMessageBox *mbox)</td></tr>
+<tr class="separator:acc96c4b050d89cf330586aabd260318c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af8f3a2dbc6f9e5dd8cc61229e35aa23d"><td class="memItemLeft" align="right" valign="top">static QList&lt; QWidget * &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ms_1_1_tour_handler.html#af8f3a2dbc6f9e5dd8cc61229e35aa23d">getWidgetsByNames</a> (<a class="el" href="class_ms_1_1_tour.html">Tour</a> *tour, QList&lt; QString &gt; names)</td></tr>
+<tr class="separator:af8f3a2dbc6f9e5dd8cc61229e35aa23d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pri-attribs"></a>
+Private Attributes</h2></td></tr>
+<tr class="memitem:a495f795e3c85b2ae9836fffa62b94f74"><td class="memItemLeft" align="right" valign="top">QMap&lt; QObject *, QMap&lt; QEvent::Type, QString &gt; * &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ms_1_1_tour_handler.html#a495f795e3c85b2ae9836fffa62b94f74">eventHandler</a></td></tr>
+<tr class="separator:a495f795e3c85b2ae9836fffa62b94f74"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a314c42e1e6ae14a2de805c3d4a5466d2"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ms_1_1_tour_handler.html#a314c42e1e6ae14a2de805c3d4a5466d2">delayedWelcomeTour</a> = false</td></tr>
+<tr class="separator:a314c42e1e6ae14a2de805c3d4a5466d2"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pri-static-attribs"></a>
+Static Private Attributes</h2></td></tr>
+<tr class="memitem:a5a2db3fe456d588190775de210a9a3a9"><td class="memItemLeft" align="right" valign="top">static QHash&lt; QString, <a class="el" href="class_ms_1_1_tour.html">Tour</a> * &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ms_1_1_tour_handler.html#a5a2db3fe456d588190775de210a9a3a9">allTours</a></td></tr>
+<tr class="separator:a5a2db3fe456d588190775de210a9a3a9"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a7f6ead98e23dca7587dabe2106622f04"><td class="memItemLeft" align="right" valign="top">static QHash&lt; QString, <a class="el" href="class_ms_1_1_tour.html">Tour</a> * &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ms_1_1_tour_handler.html#a7f6ead98e23dca7587dabe2106622f04">shortcutToTour</a></td></tr>
+<tr class="separator:a7f6ead98e23dca7587dabe2106622f04"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a07275e385448de72688a799a9cded678"><td class="memItemLeft" align="right" valign="top">static QMap&lt; QString, QMap&lt; QString, QString &gt; * &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ms_1_1_tour_handler.html#a07275e385448de72688a799a9cded678">eventNameLookup</a></td></tr>
+<tr class="separator:a07275e385448de72688a799a9cded678"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
 <a id="a111054f73b98683b85d803aedf9d7da5"></a>
@@ -308,6 +342,32 @@ Static Public Member Functions</h2></td></tr>
 
 </div>
 </div>
+<a id="aab23aeb50b508a892a5df086b9e32bf7"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aab23aeb50b508a892a5df086b9e32bf7">&#9670;&nbsp;</a></span>displayTour()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void Ms::TourHandler::displayTour </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="class_ms_1_1_tour.html">Tour</a> *&#160;</td>
+          <td class="paramname"><em>tour</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
 <a id="a6bf9c5413602b24b7b3b6bcdb1135b74"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a6bf9c5413602b24b7b3b6bcdb1135b74">&#9670;&nbsp;</a></span>eventFilter()</h2>
 
@@ -336,6 +396,68 @@ Static Public Member Functions</h2></td></tr>
 
 </div>
 </div>
+<a id="af8f3a2dbc6f9e5dd8cc61229e35aa23d"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#af8f3a2dbc6f9e5dd8cc61229e35aa23d">&#9670;&nbsp;</a></span>getWidgetsByNames()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">QList&lt; QWidget * &gt; Ms::TourHandler::getWidgetsByNames </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="class_ms_1_1_tour.html">Tour</a> *&#160;</td>
+          <td class="paramname"><em>tour</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">QList&lt; QString &gt;&#160;</td>
+          <td class="paramname"><em>names</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a871e8a6a72df2de5f090349a5680a4e0"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a871e8a6a72df2de5f090349a5680a4e0">&#9670;&nbsp;</a></span>loadTour()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void Ms::TourHandler::loadTour </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="class_ms_1_1_xml_reader.html">XmlReader</a> &amp;&#160;</td>
+          <td class="paramname"><em>tourXml</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
 <a id="af924dff272588afd34d0e396f5060434"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#af924dff272588afd34d0e396f5060434">&#9670;&nbsp;</a></span>loadTours()</h2>
 
@@ -349,6 +471,42 @@ Static Public Member Functions</h2></td></tr>
           <td></td>
         </tr>
       </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="acc96c4b050d89cf330586aabd260318c"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#acc96c4b050d89cf330586aabd260318c">&#9670;&nbsp;</a></span>positionMessage()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void Ms::TourHandler::positionMessage </td>
+          <td>(</td>
+          <td class="paramtype">QList&lt; QWidget *&gt;&#160;</td>
+          <td class="paramname"><em>widgets</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">QMessageBox *&#160;</td>
+          <td class="paramname"><em>mbox</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
 </div><div class="memdoc">
 
 </div>
@@ -468,6 +626,117 @@ Static Public Member Functions</h2></td></tr>
           <td></td>
         </tr>
       </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<h2 class="groupheader">Member Data Documentation</h2>
+<a id="a5a2db3fe456d588190775de210a9a3a9"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a5a2db3fe456d588190775de210a9a3a9">&#9670;&nbsp;</a></span>allTours</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">QHash&lt; QString, <a class="el" href="class_ms_1_1_tour.html">Tour</a> * &gt; Ms::TourHandler::allTours</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a314c42e1e6ae14a2de805c3d4a5466d2"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a314c42e1e6ae14a2de805c3d4a5466d2">&#9670;&nbsp;</a></span>delayedWelcomeTour</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool Ms::TourHandler::delayedWelcomeTour = false</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a495f795e3c85b2ae9836fffa62b94f74"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a495f795e3c85b2ae9836fffa62b94f74">&#9670;&nbsp;</a></span>eventHandler</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">QMap&lt;QObject*, QMap&lt;QEvent::Type, QString&gt;*&gt; Ms::TourHandler::eventHandler</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a07275e385448de72688a799a9cded678"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a07275e385448de72688a799a9cded678">&#9670;&nbsp;</a></span>eventNameLookup</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">QMap&lt; QString, QMap&lt; QString, QString &gt; * &gt; Ms::TourHandler::eventNameLookup</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a7f6ead98e23dca7587dabe2106622f04"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a7f6ead98e23dca7587dabe2106622f04">&#9670;&nbsp;</a></span>shortcutToTour</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">QHash&lt; QString, <a class="el" href="class_ms_1_1_tour.html">Tour</a> * &gt; Ms::TourHandler::shortcutToTour</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
 </div><div class="memdoc">
 
 </div>

@@ -23,9 +23,9 @@
   <td id="projectlogo"><img alt="Logo" src="musescore_logo_full.png"/></td>
   <td id="projectalign" style="padding-left: 0.5em;">
    <div id="projectname">MuseScore
-   &#160;<span id="projectnumber">3.1</span>
+   &#160;<span id="projectnumber">3.2</span>
    </div>
-   <div id="projectbrief">Music compisition and notation</div>
+   <div id="projectbrief">Music composition and notation</div>
   </td>
  </tr>
  </tbody>
@@ -67,6 +67,7 @@ $(function() {
 <div class="header">
   <div class="summary">
 <a href="#pub-methods">Public Member Functions</a> &#124;
+<a href="#pri-attribs">Private Attributes</a> &#124;
 <a href="class_ms_1_1_element_info-members.html">List of all members</a>  </div>
   <div class="headertitle">
 <div class="title">Ms::ElementInfo Class Reference</div>  </div>
@@ -74,6 +75,15 @@ $(function() {
 <div class="contents">
 
 <p><code>#include &lt;<a class="el" href="eleminfo_8h_source.html">eleminfo.h</a>&gt;</code></p>
+<div class="dynheader">
+Collaboration diagram for Ms::ElementInfo:</div>
+<div class="dyncontent">
+<div class="center"><img src="class_ms_1_1_element_info__coll__graph.png" border="0" usemap="#_ms_1_1_element_info_coll__map" alt="Collaboration graph"/></div>
+<map name="_ms_1_1_element_info_coll__map" id="_ms_1_1_element_info_coll__map">
+<area shape="rect" id="node2" href="class_ms_1_1_location.html" title="Ms::Location" alt="" coords="16,95,113,121"/>
+<area shape="rect" id="node3" href="class_ms_1_1_fraction.html" title="Ms::Fraction" alt="" coords="17,5,112,32"/>
+</map>
+<center><span class="legend">[<a href="graph_legend.html">legend</a>]</span></center></div>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
@@ -99,6 +109,15 @@ Public Member Functions</h2></td></tr>
 <tr class="separator:a26ed9ff95046e8be021f4c413aad7f13"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a4578908f55664c98d9125056de2dbbda"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ms_1_1_element_info.html#a4578908f55664c98d9125056de2dbbda">operator!=</a> (const <a class="el" href="class_ms_1_1_element_info.html">ElementInfo</a> &amp;other) const</td></tr>
 <tr class="separator:a4578908f55664c98d9125056de2dbbda"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pri-attribs"></a>
+Private Attributes</h2></td></tr>
+<tr class="memitem:a92b94cef879ba498bbd4ebd498666114"><td class="memItemLeft" align="right" valign="top"><a class="el" href="namespace_ms.html#a2c92ce0204176ede1ab86e2f44ae6b9e">ElementType</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ms_1_1_element_info.html#a92b94cef879ba498bbd4ebd498666114">_type</a> = <a class="el" href="namespace_ms.html#a2c92ce0204176ede1ab86e2f44ae6b9eaccc0377a8afbf50e7094f5c23a8af223">ElementType::INVALID</a></td></tr>
+<tr class="separator:a92b94cef879ba498bbd4ebd498666114"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab49c1063991cba63d218ec3c4a969ce3"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ms_1_1_element_info.html#ab49c1063991cba63d218ec3c4a969ce3">_subtype</a> = -1</td></tr>
+<tr class="separator:ab49c1063991cba63d218ec3c4a969ce3"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac3e450196c63fe4543546329daaa71a8"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_ms_1_1_location.html">Location</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ms_1_1_element_info.html#ac3e450196c63fe4543546329daaa71a8">_loc</a> = <a class="el" href="class_ms_1_1_location.html#ab22a638c5b1577bf0988533a2a6103ea">Location::absolute</a>()</td></tr>
+<tr class="separator:ac3e450196c63fe4543546329daaa71a8"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
 <a id="a3aa9490da7321d4faa9475e28a293ae1"></a>
@@ -370,6 +389,73 @@ Public Member Functions</h2></td></tr>
   </td>
   <td class="mlabels-right">
 <span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<h2 class="groupheader">Member Data Documentation</h2>
+<a id="ac3e450196c63fe4543546329daaa71a8"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ac3e450196c63fe4543546329daaa71a8">&#9670;&nbsp;</a></span>_loc</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="class_ms_1_1_location.html">Location</a> Ms::ElementInfo::_loc = <a class="el" href="class_ms_1_1_location.html#ab22a638c5b1577bf0988533a2a6103ea">Location::absolute</a>()</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="ab49c1063991cba63d218ec3c4a969ce3"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ab49c1063991cba63d218ec3c4a969ce3">&#9670;&nbsp;</a></span>_subtype</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">int Ms::ElementInfo::_subtype = -1</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a92b94cef879ba498bbd4ebd498666114"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a92b94cef879ba498bbd4ebd498666114">&#9670;&nbsp;</a></span>_type</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="namespace_ms.html#a2c92ce0204176ede1ab86e2f44ae6b9e">ElementType</a> Ms::ElementInfo::_type = <a class="el" href="namespace_ms.html#a2c92ce0204176ede1ab86e2f44ae6b9eaccc0377a8afbf50e7094f5c23a8af223">ElementType::INVALID</a></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
   </tr>
 </table>
 </div><div class="memdoc">

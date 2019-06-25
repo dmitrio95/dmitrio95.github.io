@@ -23,9 +23,9 @@
   <td id="projectlogo"><img alt="Logo" src="musescore_logo_full.png"/></td>
   <td id="projectalign" style="padding-left: 0.5em;">
    <div id="projectname">MuseScore
-   &#160;<span id="projectnumber">3.1</span>
+   &#160;<span id="projectnumber">3.2</span>
    </div>
-   <div id="projectbrief">Music compisition and notation</div>
+   <div id="projectbrief">Music composition and notation</div>
   </td>
  </tr>
  </tbody>
@@ -67,6 +67,8 @@ $(function() {
 <div class="header">
   <div class="summary">
 <a href="#pub-methods">Public Member Functions</a> &#124;
+<a href="#pri-methods">Private Member Functions</a> &#124;
+<a href="#pri-attribs">Private Attributes</a> &#124;
 <a href="class_ms_1_1_palette_cell_properties-members.html">List of all members</a>  </div>
   <div class="headertitle">
 <div class="title">Ms::PaletteCellProperties Class Reference</div>  </div>
@@ -86,6 +88,43 @@ Collaboration diagram for Ms::PaletteCellProperties:</div>
 <div class="dyncontent">
 <div class="center"><img src="class_ms_1_1_palette_cell_properties__coll__graph.png" border="0" usemap="#_ms_1_1_palette_cell_properties_coll__map" alt="Collaboration graph"/></div>
 <map name="_ms_1_1_palette_cell_properties_coll__map" id="_ms_1_1_palette_cell_properties_coll__map">
+<area shape="rect" id="node4" href="struct_ms_1_1_palette_cell.html" title="Ms::PaletteCell" alt="" coords="565,107,677,133"/>
+<area shape="rect" id="node5" href="class_ms_1_1_element.html" title="Base class of score layout elements. " alt="" coords="289,321,385,348"/>
+<area shape="rect" id="node23" href="class_ms_1_1_text_base.html" title="Ms::TextBase" alt="" coords="569,723,673,749"/>
+<area shape="rect" id="node31" href="class_ms_1_1_measure_base.html" title="Virtual base class for Measure, HBox and VBox. " alt="" coords="1178,660,1306,687"/>
+<area shape="rect" id="node35" href="class_ms_1_1_segment.html" title="Ms::Segment" alt="" coords="1192,345,1292,372"/>
+<area shape="rect" id="node39" href="class_ms_1_1_spanner.html" title="Virtual base class for slurs, ties, lines etc. " alt="" coords="1194,241,1290,268"/>
+<area shape="rect" id="node6" href="class_ms_1_1_score_element.html" title="Ms::ScoreElement" alt="" coords="2109,721,2240,748"/>
+<area shape="rect" id="node7" href="class_ms_1_1_score.html" title="Ms::Score" alt="" coords="1837,811,1919,837"/>
+<area shape="rect" id="node9" href="class_ms_1_1_excerpt.html" title="Ms::Excerpt" alt="" coords="2128,1103,2221,1129"/>
+<area shape="rect" id="node10" href="class_ms_1_1_master_score.html" title="Ms::MasterScore" alt="" coords="1487,873,1610,900"/>
+<area shape="rect" id="node14" href="class_ms_1_1_repeat_list.html" title="Ms::RepeatList" alt="" coords="2119,991,2230,1017"/>
+<area shape="rect" id="node34" href="class_ms_1_1_input_state.html" title="Ms::InputState" alt="" coords="2121,292,2229,319"/>
+<area shape="rect" id="node42" href="class_ms_1_1_selection.html" title="Ms::Selection" alt="" coords="2123,509,2226,536"/>
+<area shape="rect" id="node47" href="class_ms_1_1_selection_filter.html" title="Ms::SelectionFilter" alt="" coords="2109,833,2240,860"/>
+<area shape="rect" id="node11" href="class_ms_1_1_omr.html" title="Ms::Omr" alt="" coords="1205,812,1279,839"/>
+<area shape="rect" id="node12" href="class_ms_1_1_cmd_state.html" title="Ms::CmdState" alt="" coords="1189,556,1295,583"/>
+<area shape="rect" id="node13" href="class_ms_1_1_fraction.html" title="Ms::Fraction" alt="" coords="883,475,978,501"/>
+<area shape="rect" id="node16" href="class_ms_1_1_revisions.html" title="Ms::Revisions" alt="" coords="1189,863,1295,889"/>
+<area shape="rect" id="node17" href="class_ms_1_1_revision.html" title="Ms::Revision" alt="" coords="881,863,980,889"/>
+<area shape="rect" id="node18" href="class_ms_1_1_tempo_map.html" title="Ms::TempoMap" alt="" coords="1185,761,1299,788"/>
+<area shape="rect" id="node20" href="class_ms_1_1_movements.html" title="Ms::Movements" alt="" coords="1184,913,1300,940"/>
+<area shape="rect" id="node22" href="class_ms_1_1_text.html" title="Ms::Text" alt="" coords="893,964,968,991"/>
+<area shape="rect" id="node24" href="class_ms_1_1_spatium.html" title="Ms::Spatium" alt="" coords="5,321,101,348"/>
+<area shape="rect" id="node25" href="class_ms_1_1_m_style.html" title="Ms::MStyle" alt="" coords="886,1081,975,1108"/>
+<area shape="rect" id="node26" href="class_ms_1_1_chord_list.html" title="Ms::ChordList" alt="" coords="569,1183,673,1209"/>
+<area shape="rect" id="node28" href="class_ms_1_1_time_sig_map.html" title="Ms::TimeSigMap" alt="" coords="1181,711,1303,737"/>
+<area shape="rect" id="node30" href="class_ms_1_1_measure_base_list.html" title="Ms::MeasureBaseList" alt="" coords="1474,668,1623,695"/>
+<area shape="rect" id="node32" href="class_ms_1_1_element_list.html" title="Ms::ElementList" alt="" coords="872,672,989,699"/>
+<area shape="rect" id="node36" href="class_ms_1_1_t_duration.html" title="Ms::TDuration" alt="" coords="1825,191,1931,217"/>
+<area shape="rect" id="node37" href="class_ms_1_1_slur.html" title="Ms::Slur" alt="" coords="1843,241,1913,268"/>
+<area shape="rect" id="node38" href="class_ms_1_1_slur_tie.html" title="Ms::SlurTie" alt="" coords="1504,241,1593,268"/>
+<area shape="rect" id="node40" href="class_ms_1_1_synthesizer_state.html" title="Ms::SynthesizerState" alt="" coords="1475,952,1623,979"/>
+<area shape="rect" id="node43" href="class_ms_1_1_spanner_map.html" title="Ms::SpannerMap" alt="" coords="1488,1023,1609,1049"/>
+<area shape="rect" id="node45" href="class_ms_1_1_update_state.html" title="Ms::UpdateState" alt="" coords="1488,617,1609,644"/>
+<area shape="rect" id="node46" href="class_ms_1_1_audio.html" title="Ms::Audio" alt="" coords="1508,719,1589,745"/>
+<area shape="rect" id="node48" href="class_ms_1_1_score_font.html" title="Ms::ScoreFont" alt="" coords="1495,769,1603,796"/>
+<area shape="rect" id="node49" href="class_ms_1_1_linked_elements.html" title="Ms::LinkedElements" alt="" coords="1807,553,1949,580"/>
 </map>
 <center><span class="legend">[<a href="graph_legend.html">legend</a>]</span></center></div>
 <table class="memberdecls">
@@ -93,6 +132,18 @@ Collaboration diagram for Ms::PaletteCellProperties:</div>
 Public Member Functions</h2></td></tr>
 <tr class="memitem:af2ed48040e8779280796dddc4499d6d1"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ms_1_1_palette_cell_properties.html#af2ed48040e8779280796dddc4499d6d1">PaletteCellProperties</a> (<a class="el" href="struct_ms_1_1_palette_cell.html">PaletteCell</a> *p, QWidget *parent=0)</td></tr>
 <tr class="separator:af2ed48040e8779280796dddc4499d6d1"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pri-methods"></a>
+Private Member Functions</h2></td></tr>
+<tr class="memitem:a5583dd56f2d2260e43beb4cebaf42083"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ms_1_1_palette_cell_properties.html#a5583dd56f2d2260e43beb4cebaf42083">accept</a> ()</td></tr>
+<tr class="separator:a5583dd56f2d2260e43beb4cebaf42083"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a98d56f4172cdea916f2f2b1ebd4926c9"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ms_1_1_palette_cell_properties.html#a98d56f4172cdea916f2f2b1ebd4926c9">hideEvent</a> (QHideEvent *)</td></tr>
+<tr class="separator:a98d56f4172cdea916f2f2b1ebd4926c9"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pri-attribs"></a>
+Private Attributes</h2></td></tr>
+<tr class="memitem:a0f3bf065ec908d073bc4648e5f456edb"><td class="memItemLeft" align="right" valign="top"><a class="el" href="struct_ms_1_1_palette_cell.html">PaletteCell</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ms_1_1_palette_cell_properties.html#a0f3bf065ec908d073bc4648e5f456edb">cell</a></td></tr>
+<tr class="separator:a0f3bf065ec908d073bc4648e5f456edb"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
 <a id="af2ed48040e8779280796dddc4499d6d1"></a>
@@ -119,6 +170,81 @@ Public Member Functions</h2></td></tr>
           <td></td><td></td>
         </tr>
       </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<h2 class="groupheader">Member Function Documentation</h2>
+<a id="a5583dd56f2d2260e43beb4cebaf42083"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a5583dd56f2d2260e43beb4cebaf42083">&#9670;&nbsp;</a></span>accept()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void Ms::PaletteCellProperties::accept </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span><span class="mlabel">virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a98d56f4172cdea916f2f2b1ebd4926c9"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a98d56f4172cdea916f2f2b1ebd4926c9">&#9670;&nbsp;</a></span>hideEvent()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void Ms::PaletteCellProperties::hideEvent </td>
+          <td>(</td>
+          <td class="paramtype">QHideEvent *&#160;</td>
+          <td class="paramname"><em>event</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span><span class="mlabel">virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<h2 class="groupheader">Member Data Documentation</h2>
+<a id="a0f3bf065ec908d073bc4648e5f456edb"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a0f3bf065ec908d073bc4648e5f456edb">&#9670;&nbsp;</a></span>cell</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="struct_ms_1_1_palette_cell.html">PaletteCell</a>* Ms::PaletteCellProperties::cell</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
 </div><div class="memdoc">
 
 </div>

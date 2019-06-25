@@ -23,9 +23,9 @@
   <td id="projectlogo"><img alt="Logo" src="musescore_logo_full.png"/></td>
   <td id="projectalign" style="padding-left: 0.5em;">
    <div id="projectname">MuseScore
-   &#160;<span id="projectnumber">3.1</span>
+   &#160;<span id="projectnumber">3.2</span>
    </div>
-   <div id="projectbrief">Music compisition and notation</div>
+   <div id="projectbrief">Music composition and notation</div>
   </td>
  </tr>
  </tbody>
@@ -67,6 +67,7 @@ $(function() {
 <div class="header">
   <div class="summary">
 <a href="#pub-methods">Public Member Functions</a> &#124;
+<a href="#pri-attribs">Private Attributes</a> &#124;
 <a href="class_ms_1_1_drumset-members.html">List of all members</a>  </div>
   <div class="headertitle">
 <div class="title">Ms::Drumset Class Reference</div>  </div>
@@ -74,6 +75,14 @@ $(function() {
 <div class="contents">
 
 <p><code>#include &lt;<a class="el" href="drumset_8h_source.html">drumset.h</a>&gt;</code></p>
+<div class="dynheader">
+Collaboration diagram for Ms::Drumset:</div>
+<div class="dyncontent">
+<div class="center"><img src="class_ms_1_1_drumset__coll__graph.png" border="0" usemap="#_ms_1_1_drumset_coll__map" alt="Collaboration graph"/></div>
+<map name="_ms_1_1_drumset_coll__map" id="_ms_1_1_drumset_coll__map">
+<area shape="rect" id="node2" href="struct_ms_1_1_drum_instrument.html" title="Ms::DrumInstrument" alt="" coords="5,5,148,32"/>
+</map>
+<center><span class="legend">[<a href="graph_legend.html">legend</a>]</span></center></div>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
@@ -114,6 +123,11 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:a9c9a5871bc0244cab58c9235b22f58d1"><td class="memItemLeft" align="right" valign="top"><a class="el" href="struct_ms_1_1_drum_instrument_variant.html">DrumInstrumentVariant</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ms_1_1_drumset.html#a9c9a5871bc0244cab58c9235b22f58d1">findVariant</a> (int pitch, const QVector&lt; <a class="el" href="class_ms_1_1_articulation.html">Articulation</a> *&gt; articulations, <a class="el" href="class_ms_1_1_tremolo.html">Tremolo</a> *tremolo) const</td></tr>
 <tr class="memdesc:a9c9a5871bc0244cab58c9235b22f58d1"><td class="mdescLeft">&#160;</td><td class="mdescRight">find a variant for the given pitch with matching chord articulation and tremolo  <a href="#a9c9a5871bc0244cab58c9235b22f58d1">More...</a><br /></td></tr>
 <tr class="separator:a9c9a5871bc0244cab58c9235b22f58d1"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pri-attribs"></a>
+Private Attributes</h2></td></tr>
+<tr class="memitem:a19e00590fd33c3b8c95b1bc863e627bf"><td class="memItemLeft" align="right" valign="top"><a class="el" href="struct_ms_1_1_drum_instrument.html">DrumInstrument</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ms_1_1_drumset.html#a19e00590fd33c3b8c95b1bc863e627bf">_drum</a> [DRUM_INSTRUMENTS]</td></tr>
+<tr class="separator:a19e00590fd33c3b8c95b1bc863e627bf"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <h2 class="groupheader">Member Function Documentation</h2>
 <a id="a55a8c19f2c0e7903220050d1f781323e"></a>
@@ -559,6 +573,29 @@ Public Member Functions</h2></td></tr>
   </td>
   <td class="mlabels-right">
 <span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<h2 class="groupheader">Member Data Documentation</h2>
+<a id="a19e00590fd33c3b8c95b1bc863e627bf"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a19e00590fd33c3b8c95b1bc863e627bf">&#9670;&nbsp;</a></span>_drum</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="struct_ms_1_1_drum_instrument.html">DrumInstrument</a> Ms::Drumset::_drum[DRUM_INSTRUMENTS]</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
   </tr>
 </table>
 </div><div class="memdoc">

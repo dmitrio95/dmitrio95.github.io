@@ -23,9 +23,9 @@
   <td id="projectlogo"><img alt="Logo" src="musescore_logo_full.png"/></td>
   <td id="projectalign" style="padding-left: 0.5em;">
    <div id="projectname">MuseScore
-   &#160;<span id="projectnumber">3.1</span>
+   &#160;<span id="projectnumber">3.2</span>
    </div>
-   <div id="projectbrief">Music compisition and notation</div>
+   <div id="projectbrief">Music composition and notation</div>
   </td>
  </tr>
  </tbody>
@@ -67,6 +67,9 @@ $(function() {
 <div class="header">
   <div class="summary">
 <a href="#pub-methods">Public Member Functions</a> &#124;
+<a href="#pri-slots">Private Slots</a> &#124;
+<a href="#pri-methods">Private Member Functions</a> &#124;
+<a href="#pri-attribs">Private Attributes</a> &#124;
 <a href="class_ms_1_1_upload_score_dialog-members.html">List of all members</a>  </div>
   <div class="headertitle">
 <div class="title">Ms::UploadScoreDialog Class Reference</div>  </div>
@@ -86,6 +89,7 @@ Collaboration diagram for Ms::UploadScoreDialog:</div>
 <div class="dyncontent">
 <div class="center"><img src="class_ms_1_1_upload_score_dialog__coll__graph.png" border="0" usemap="#_ms_1_1_upload_score_dialog_coll__map" alt="Collaboration graph"/></div>
 <map name="_ms_1_1_upload_score_dialog_coll__map" id="_ms_1_1_upload_score_dialog_coll__map">
+<area shape="rect" id="node4" href="class_ms_1_1_login_manager.html" title="Ms::LoginManager" alt="" coords="278,81,407,108"/>
 </map>
 <center><span class="legend">[<a href="graph_legend.html">legend</a>]</span></center></div>
 <table class="memberdecls">
@@ -95,6 +99,45 @@ Public Member Functions</h2></td></tr>
 <tr class="separator:a71baeb38b160d64abf04e441951be383"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a7ab6f78fc2c8894a4acb88a00856faa9"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ms_1_1_upload_score_dialog.html#a7ab6f78fc2c8894a4acb88a00856faa9">setTitle</a> (const QString &amp;t)</td></tr>
 <tr class="separator:a7ab6f78fc2c8894a4acb88a00856faa9"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pri-slots"></a>
+Private Slots</h2></td></tr>
+<tr class="memitem:a1dd22efb3c5c795d1099370db50e97fc"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ms_1_1_upload_score_dialog.html#a1dd22efb3c5c795d1099370db50e97fc">buttonBoxClicked</a> (QAbstractButton *button)</td></tr>
+<tr class="separator:a1dd22efb3c5c795d1099370db50e97fc"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a69f4d96ebf8ff606794851ebb5a32ee9"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ms_1_1_upload_score_dialog.html#a69f4d96ebf8ff606794851ebb5a32ee9">uploadSuccess</a> (const QString &amp;url, const QString &amp;nid, const QString &amp;vid)</td></tr>
+<tr class="separator:a69f4d96ebf8ff606794851ebb5a32ee9"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a73055b00266489a3f1c2f42d70ae6680"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ms_1_1_upload_score_dialog.html#a73055b00266489a3f1c2f42d70ae6680">uploadError</a> (const QString &amp;error)</td></tr>
+<tr class="separator:a73055b00266489a3f1c2f42d70ae6680"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab8c0352c1e2872aa38ba6ff05abd2fe7"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ms_1_1_upload_score_dialog.html#ab8c0352c1e2872aa38ba6ff05abd2fe7">onGetScoreSuccess</a> (const QString &amp;title, const QString &amp;description, bool priv, const QString &amp;license, const QString &amp;tags, const QString &amp;url)</td></tr>
+<tr class="separator:ab8c0352c1e2872aa38ba6ff05abd2fe7"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a77e59e2c8587f87efb3d065a8595e81e"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ms_1_1_upload_score_dialog.html#a77e59e2c8587f87efb3d065a8595e81e">onGetScoreError</a> (const QString &amp;error)</td></tr>
+<tr class="separator:a77e59e2c8587f87efb3d065a8595e81e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a3e7b27ed2ae070faa99c32f300f0302b"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ms_1_1_upload_score_dialog.html#a3e7b27ed2ae070faa99c32f300f0302b">logout</a> ()</td></tr>
+<tr class="separator:a3e7b27ed2ae070faa99c32f300f0302b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a5ffd289a2231a2b9c3f12ed3520d0483"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ms_1_1_upload_score_dialog.html#a5ffd289a2231a2b9c3f12ed3520d0483">display</a> ()</td></tr>
+<tr class="separator:a5ffd289a2231a2b9c3f12ed3520d0483"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a60ba739f5e819b0e6949833e18b75c5b"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ms_1_1_upload_score_dialog.html#a60ba739f5e819b0e6949833e18b75c5b">displaySuccess</a> ()</td></tr>
+<tr class="separator:a60ba739f5e819b0e6949833e18b75c5b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pri-methods"></a>
+Private Member Functions</h2></td></tr>
+<tr class="memitem:ab6414aa4aedddac400f3eb624468deb4"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ms_1_1_upload_score_dialog.html#ab6414aa4aedddac400f3eb624468deb4">hideEvent</a> (QHideEvent *)</td></tr>
+<tr class="separator:ab6414aa4aedddac400f3eb624468deb4"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad9a25a7b3a4b081b29d0d16dd215c1bd"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ms_1_1_upload_score_dialog.html#ad9a25a7b3a4b081b29d0d16dd215c1bd">upload</a> (int nid)</td></tr>
+<tr class="separator:ad9a25a7b3a4b081b29d0d16dd215c1bd"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa28bfcac349e19a3fe1fb09c2ab7e70c"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ms_1_1_upload_score_dialog.html#aa28bfcac349e19a3fe1fb09c2ab7e70c">clear</a> ()</td></tr>
+<tr class="separator:aa28bfcac349e19a3fe1fb09c2ab7e70c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a0ca60da944bdd1b5dc1559b3905b34ef"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ms_1_1_upload_score_dialog.html#a0ca60da944bdd1b5dc1559b3905b34ef">showOrHideUploadAudio</a> ()</td></tr>
+<tr class="separator:a0ca60da944bdd1b5dc1559b3905b34ef"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pri-attribs"></a>
+Private Attributes</h2></td></tr>
+<tr class="memitem:a259d79a9ab0e11152a17259ec50186bf"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_ms_1_1_login_manager.html">LoginManager</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ms_1_1_upload_score_dialog.html#a259d79a9ab0e11152a17259ec50186bf">_loginManager</a></td></tr>
+<tr class="separator:a259d79a9ab0e11152a17259ec50186bf"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab7d554dd42db274f06d662756bb1529e"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ms_1_1_upload_score_dialog.html#ab7d554dd42db274f06d662756bb1529e">_nid</a></td></tr>
+<tr class="separator:ab7d554dd42db274f06d662756bb1529e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:adf57e89e382a9ee4c9f469ca8f1a2f00"><td class="memItemLeft" align="right" valign="top">QString&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ms_1_1_upload_score_dialog.html#adf57e89e382a9ee4c9f469ca8f1a2f00">_url</a></td></tr>
+<tr class="separator:adf57e89e382a9ee4c9f469ca8f1a2f00"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
 <a id="a71baeb38b160d64abf04e441951be383"></a>
@@ -116,6 +159,245 @@ Public Member Functions</h2></td></tr>
 </div>
 </div>
 <h2 class="groupheader">Member Function Documentation</h2>
+<a id="a1dd22efb3c5c795d1099370db50e97fc"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a1dd22efb3c5c795d1099370db50e97fc">&#9670;&nbsp;</a></span>buttonBoxClicked</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void Ms::UploadScoreDialog::buttonBoxClicked </td>
+          <td>(</td>
+          <td class="paramtype">QAbstractButton *&#160;</td>
+          <td class="paramname"><em>button</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span><span class="mlabel">slot</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="aa28bfcac349e19a3fe1fb09c2ab7e70c"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aa28bfcac349e19a3fe1fb09c2ab7e70c">&#9670;&nbsp;</a></span>clear()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void Ms::UploadScoreDialog::clear </td>
+          <td>(</td>
+          <td class="paramtype">void&#160;</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a5ffd289a2231a2b9c3f12ed3520d0483"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a5ffd289a2231a2b9c3f12ed3520d0483">&#9670;&nbsp;</a></span>display</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void Ms::UploadScoreDialog::display </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span><span class="mlabel">slot</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a60ba739f5e819b0e6949833e18b75c5b"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a60ba739f5e819b0e6949833e18b75c5b">&#9670;&nbsp;</a></span>displaySuccess</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void Ms::UploadScoreDialog::displaySuccess </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span><span class="mlabel">slot</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="ab6414aa4aedddac400f3eb624468deb4"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ab6414aa4aedddac400f3eb624468deb4">&#9670;&nbsp;</a></span>hideEvent()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void Ms::UploadScoreDialog::hideEvent </td>
+          <td>(</td>
+          <td class="paramtype">QHideEvent *&#160;</td>
+          <td class="paramname"><em>event</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span><span class="mlabel">virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a3e7b27ed2ae070faa99c32f300f0302b"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a3e7b27ed2ae070faa99c32f300f0302b">&#9670;&nbsp;</a></span>logout</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void Ms::UploadScoreDialog::logout </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span><span class="mlabel">slot</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a77e59e2c8587f87efb3d065a8595e81e"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a77e59e2c8587f87efb3d065a8595e81e">&#9670;&nbsp;</a></span>onGetScoreError</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void Ms::UploadScoreDialog::onGetScoreError </td>
+          <td>(</td>
+          <td class="paramtype">const QString &amp;&#160;</td>
+          <td class="paramname"><em>error</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span><span class="mlabel">slot</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="ab8c0352c1e2872aa38ba6ff05abd2fe7"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ab8c0352c1e2872aa38ba6ff05abd2fe7">&#9670;&nbsp;</a></span>onGetScoreSuccess</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void Ms::UploadScoreDialog::onGetScoreSuccess </td>
+          <td>(</td>
+          <td class="paramtype">const QString &amp;&#160;</td>
+          <td class="paramname"><em>title</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const QString &amp;&#160;</td>
+          <td class="paramname"><em>description</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">bool&#160;</td>
+          <td class="paramname"><em>priv</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const QString &amp;&#160;</td>
+          <td class="paramname"><em>license</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const QString &amp;&#160;</td>
+          <td class="paramname"><em>tags</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const QString &amp;&#160;</td>
+          <td class="paramname"><em>url</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span><span class="mlabel">slot</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
 <a id="a7ab6f78fc2c8894a4acb88a00856faa9"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a7ab6f78fc2c8894a4acb88a00856faa9">&#9670;&nbsp;</a></span>setTitle()</h2>
 
@@ -136,6 +418,192 @@ Public Member Functions</h2></td></tr>
   </td>
   <td class="mlabels-right">
 <span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a0ca60da944bdd1b5dc1559b3905b34ef"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a0ca60da944bdd1b5dc1559b3905b34ef">&#9670;&nbsp;</a></span>showOrHideUploadAudio()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void Ms::UploadScoreDialog::showOrHideUploadAudio </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="ad9a25a7b3a4b081b29d0d16dd215c1bd"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ad9a25a7b3a4b081b29d0d16dd215c1bd">&#9670;&nbsp;</a></span>upload()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void Ms::UploadScoreDialog::upload </td>
+          <td>(</td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>nid</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a73055b00266489a3f1c2f42d70ae6680"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a73055b00266489a3f1c2f42d70ae6680">&#9670;&nbsp;</a></span>uploadError</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void Ms::UploadScoreDialog::uploadError </td>
+          <td>(</td>
+          <td class="paramtype">const QString &amp;&#160;</td>
+          <td class="paramname"><em>error</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span><span class="mlabel">slot</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a69f4d96ebf8ff606794851ebb5a32ee9"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a69f4d96ebf8ff606794851ebb5a32ee9">&#9670;&nbsp;</a></span>uploadSuccess</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void Ms::UploadScoreDialog::uploadSuccess </td>
+          <td>(</td>
+          <td class="paramtype">const QString &amp;&#160;</td>
+          <td class="paramname"><em>url</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const QString &amp;&#160;</td>
+          <td class="paramname"><em>nid</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const QString &amp;&#160;</td>
+          <td class="paramname"><em>vid</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span><span class="mlabel">slot</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<h2 class="groupheader">Member Data Documentation</h2>
+<a id="a259d79a9ab0e11152a17259ec50186bf"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a259d79a9ab0e11152a17259ec50186bf">&#9670;&nbsp;</a></span>_loginManager</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="class_ms_1_1_login_manager.html">LoginManager</a>* Ms::UploadScoreDialog::_loginManager</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="ab7d554dd42db274f06d662756bb1529e"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ab7d554dd42db274f06d662756bb1529e">&#9670;&nbsp;</a></span>_nid</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">int Ms::UploadScoreDialog::_nid</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="adf57e89e382a9ee4c9f469ca8f1a2f00"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#adf57e89e382a9ee4c9f469ca8f1a2f00">&#9670;&nbsp;</a></span>_url</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">QString Ms::UploadScoreDialog::_url</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
   </tr>
 </table>
 </div><div class="memdoc">

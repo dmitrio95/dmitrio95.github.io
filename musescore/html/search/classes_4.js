@@ -13,6 +13,8 @@ var searchData=
   ['division',['Division',['../class_division.html',1,'']]],
   ['divisioninfo',['DivisionInfo',['../struct_ms_1_1_meter_1_1_division_info.html',1,'Ms::Meter']]],
   ['divlengthinfo',['DivLengthInfo',['../struct_ms_1_1_meter_1_1_div_length_info.html',1,'Ms::Meter']]],
+  ['dot',['Dot',['../struct_ms_1_1_fret_item_1_1_dot.html',1,'Ms::FretItem']]],
+  ['dottypenameitem',['DotTypeNameItem',['../struct_ms_1_1_fret_item_1_1_dot_type_name_item.html',1,'Ms::FretItem']]],
   ['doublelabel',['DoubleLabel',['../class_ms_1_1_double_label.html',1,'Ms']]],
   ['doublepreference',['DoublePreference',['../class_ms_1_1_double_preference.html',1,'Ms']]],
   ['doublepreferenceitem',['DoublePreferenceItem',['../class_ms_1_1_double_preference_item.html',1,'Ms']]],

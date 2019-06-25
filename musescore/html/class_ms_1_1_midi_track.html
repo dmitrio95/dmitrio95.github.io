@@ -23,9 +23,9 @@
   <td id="projectlogo"><img alt="Logo" src="musescore_logo_full.png"/></td>
   <td id="projectalign" style="padding-left: 0.5em;">
    <div id="projectname">MuseScore
-   &#160;<span id="projectnumber">3.1</span>
+   &#160;<span id="projectnumber">3.2</span>
    </div>
-   <div id="projectbrief">Music compisition and notation</div>
+   <div id="projectbrief">Music composition and notation</div>
   </td>
  </tr>
  </tbody>
@@ -68,6 +68,7 @@ $(function() {
   <div class="summary">
 <a href="#pub-methods">Public Member Functions</a> &#124;
 <a href="#pro-methods">Protected Member Functions</a> &#124;
+<a href="#pri-attribs">Private Attributes</a> &#124;
 <a href="class_ms_1_1_midi_track-members.html">List of all members</a>  </div>
   <div class="headertitle">
 <div class="title">Ms::MidiTrack Class Reference</div>  </div>
@@ -107,6 +108,17 @@ Public Member Functions</h2></td></tr>
 Protected Member Functions</h2></td></tr>
 <tr class="memitem:a27bb430e424378bfd16f42e2561443c6"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ms_1_1_midi_track.html#a27bb430e424378bfd16f42e2561443c6">readXml</a> (<a class="el" href="class_ms_1_1_xml_reader.html">XmlReader</a> &amp;)</td></tr>
 <tr class="separator:a27bb430e424378bfd16f42e2561443c6"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pri-attribs"></a>
+Private Attributes</h2></td></tr>
+<tr class="memitem:aa2b1347eec36acae1cf95dee4ea6ed25"><td class="memItemLeft" align="right" valign="top">std::multimap&lt; int, <a class="el" href="class_ms_1_1_midi_event.html">MidiEvent</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ms_1_1_midi_track.html#aa2b1347eec36acae1cf95dee4ea6ed25">_events</a></td></tr>
+<tr class="separator:aa2b1347eec36acae1cf95dee4ea6ed25"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a55701229201335cbdba94349a642a1de"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ms_1_1_midi_track.html#a55701229201335cbdba94349a642a1de">_outChannel</a></td></tr>
+<tr class="separator:a55701229201335cbdba94349a642a1de"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a49e33acbcba1a04b7fb2261ce9f0b0d4"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ms_1_1_midi_track.html#a49e33acbcba1a04b7fb2261ce9f0b0d4">_outPort</a></td></tr>
+<tr class="separator:a49e33acbcba1a04b7fb2261ce9f0b0d4"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac635f46df401f82a05b6d0b84e4611e4"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ms_1_1_midi_track.html#ac635f46df401f82a05b6d0b84e4611e4">_drumTrack</a></td></tr>
+<tr class="separator:ac635f46df401f82a05b6d0b84e4611e4"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
 <a id="a1aac85a42504d59b2b76983a44e42ed5"></a>
@@ -396,6 +408,95 @@ Protected Member Functions</h2></td></tr>
   </td>
   <td class="mlabels-right">
 <span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<h2 class="groupheader">Member Data Documentation</h2>
+<a id="ac635f46df401f82a05b6d0b84e4611e4"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ac635f46df401f82a05b6d0b84e4611e4">&#9670;&nbsp;</a></span>_drumTrack</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool Ms::MidiTrack::_drumTrack</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="aa2b1347eec36acae1cf95dee4ea6ed25"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aa2b1347eec36acae1cf95dee4ea6ed25">&#9670;&nbsp;</a></span>_events</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">std::multimap&lt;int, <a class="el" href="class_ms_1_1_midi_event.html">MidiEvent</a>&gt; Ms::MidiTrack::_events</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a55701229201335cbdba94349a642a1de"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a55701229201335cbdba94349a642a1de">&#9670;&nbsp;</a></span>_outChannel</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">int Ms::MidiTrack::_outChannel</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a49e33acbcba1a04b7fb2261ce9f0b0d4"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a49e33acbcba1a04b7fb2261ce9f0b0d4">&#9670;&nbsp;</a></span>_outPort</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">int Ms::MidiTrack::_outPort</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
   </tr>
 </table>
 </div><div class="memdoc">

@@ -23,9 +23,9 @@
   <td id="projectlogo"><img alt="Logo" src="musescore_logo_full.png"/></td>
   <td id="projectalign" style="padding-left: 0.5em;">
    <div id="projectname">MuseScore
-   &#160;<span id="projectnumber">3.1</span>
+   &#160;<span id="projectnumber">3.2</span>
    </div>
-   <div id="projectbrief">Music compisition and notation</div>
+   <div id="projectbrief">Music composition and notation</div>
   </td>
  </tr>
  </tbody>
@@ -68,6 +68,9 @@ $(function() {
   <div class="summary">
 <a href="#signals">Signals</a> &#124;
 <a href="#pub-methods">Public Member Functions</a> &#124;
+<a href="#pri-slots">Private Slots</a> &#124;
+<a href="#pri-methods">Private Member Functions</a> &#124;
+<a href="#pri-attribs">Private Attributes</a> &#124;
 <a href="class_ms_1_1_score_browser-members.html">List of all members</a>  </div>
   <div class="headertitle">
 <div class="title">Ms::ScoreBrowser Class Reference</div>  </div>
@@ -117,6 +120,35 @@ Public Member Functions</h2></td></tr>
 <tr class="separator:a9b0ce378b03c6a0f6efea25b8106da8d"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aec494809758c0e81ea18f5cc25903e47"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ms_1_1_score_browser.html#aec494809758c0e81ea18f5cc25903e47">filter</a> (const QString &amp;)</td></tr>
 <tr class="separator:aec494809758c0e81ea18f5cc25903e47"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pri-slots"></a>
+Private Slots</h2></td></tr>
+<tr class="memitem:a01923c99b0b23fd27cdc380776a4c011"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ms_1_1_score_browser.html#a01923c99b0b23fd27cdc380776a4c011">scoreClicked</a> (QListWidgetItem *)</td></tr>
+<tr class="separator:a01923c99b0b23fd27cdc380776a4c011"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad4a658e17fad6920dc47d6828cba23c9"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ms_1_1_score_browser.html#ad4a658e17fad6920dc47d6828cba23c9">setScoreActivated</a> (QListWidgetItem *)</td></tr>
+<tr class="separator:ad4a658e17fad6920dc47d6828cba23c9"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pri-methods"></a>
+Private Member Functions</h2></td></tr>
+<tr class="memitem:abd79cadd35447cbcac8b8c629d5325d8"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_ms_1_1_score_list_widget.html">ScoreListWidget</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ms_1_1_score_browser.html#abd79cadd35447cbcac8b8c629d5325d8">createScoreList</a> ()</td></tr>
+<tr class="separator:abd79cadd35447cbcac8b8c629d5325d8"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a07649d1674e37b0056de5dff9a53f1db"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_ms_1_1_score_item.html">ScoreItem</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ms_1_1_score_browser.html#a07649d1674e37b0056de5dff9a53f1db">genScoreItem</a> (const QFileInfo &amp;, <a class="el" href="class_ms_1_1_score_list_widget.html">ScoreListWidget</a> *)</td></tr>
+<tr class="separator:a07649d1674e37b0056de5dff9a53f1db"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pri-attribs"></a>
+Private Attributes</h2></td></tr>
+<tr class="memitem:aeadeeec9f744286f8e4e6d2ad442dc61"><td class="memItemLeft" align="right" valign="top">QList&lt; <a class="el" href="class_ms_1_1_score_list_widget.html">ScoreListWidget</a> * &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ms_1_1_score_browser.html#aeadeeec9f744286f8e4e6d2ad442dc61">scoreLists</a></td></tr>
+<tr class="separator:aeadeeec9f744286f8e4e6d2ad442dc61"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a71f32baaa28f86ca4da80a2e544d78c3"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ms_1_1_score_browser.html#a71f32baaa28f86ca4da80a2e544d78c3">_stripNumbers</a> { false }</td></tr>
+<tr class="separator:a71f32baaa28f86ca4da80a2e544d78c3"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af2ddce297c229cdf27c56ed87dc55240"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ms_1_1_score_browser.html#af2ddce297c229cdf27c56ed87dc55240">_showPreview</a> { false }</td></tr>
+<tr class="separator:af2ddce297c229cdf27c56ed87dc55240"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a5a339f20371dad8bbd3a659e936c4b2a"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ms_1_1_score_browser.html#a5a339f20371dad8bbd3a659e936c4b2a">_boldTitle</a> { false }</td></tr>
+<tr class="separator:a5a339f20371dad8bbd3a659e936c4b2a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aaeeacf54def29290f0c6738abfc3ea3b"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ms_1_1_score_browser.html#aaeeacf54def29290f0c6738abfc3ea3b">_showCustomCategory</a> { false }</td></tr>
+<tr class="separator:aaeeacf54def29290f0c6738abfc3ea3b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a79384797f11af2072393e27710bfaf5c"><td class="memItemLeft" align="right" valign="top">QLabel *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ms_1_1_score_browser.html#a79384797f11af2072393e27710bfaf5c">_noMatchedScoresLabel</a></td></tr>
+<tr class="separator:a79384797f11af2072393e27710bfaf5c"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
 <a id="ad204fb7f6e0cc68e7e36e7c3d401bba7"></a>
@@ -138,6 +170,31 @@ Public Member Functions</h2></td></tr>
 </div>
 </div>
 <h2 class="groupheader">Member Function Documentation</h2>
+<a id="abd79cadd35447cbcac8b8c629d5325d8"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#abd79cadd35447cbcac8b8c629d5325d8">&#9670;&nbsp;</a></span>createScoreList()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="class_ms_1_1_score_list_widget.html">ScoreListWidget</a> * Ms::ScoreBrowser::createScoreList </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
 <a id="aec494809758c0e81ea18f5cc25903e47"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#aec494809758c0e81ea18f5cc25903e47">&#9670;&nbsp;</a></span>filter()</h2>
 
@@ -152,6 +209,42 @@ Public Member Functions</h2></td></tr>
           <td></td>
         </tr>
       </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a07649d1674e37b0056de5dff9a53f1db"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a07649d1674e37b0056de5dff9a53f1db">&#9670;&nbsp;</a></span>genScoreItem()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="class_ms_1_1_score_item.html">ScoreItem</a> * Ms::ScoreBrowser::genScoreItem </td>
+          <td>(</td>
+          <td class="paramtype">const QFileInfo &amp;&#160;</td>
+          <td class="paramname"><em>fi</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="class_ms_1_1_score_list_widget.html">ScoreListWidget</a> *&#160;</td>
+          <td class="paramname"><em>l</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
 </div><div class="memdoc">
 
 </div>
@@ -201,6 +294,32 @@ Public Member Functions</h2></td></tr>
   </td>
   <td class="mlabels-right">
 <span class="mlabels"><span class="mlabel">signal</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a01923c99b0b23fd27cdc380776a4c011"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a01923c99b0b23fd27cdc380776a4c011">&#9670;&nbsp;</a></span>scoreClicked</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void Ms::ScoreBrowser::scoreClicked </td>
+          <td>(</td>
+          <td class="paramtype">QListWidgetItem *&#160;</td>
+          <td class="paramname"><em>current</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span><span class="mlabel">slot</span></span>  </td>
   </tr>
 </table>
 </div><div class="memdoc">
@@ -293,6 +412,32 @@ Public Member Functions</h2></td></tr>
 
 </div>
 </div>
+<a id="ad4a658e17fad6920dc47d6828cba23c9"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ad4a658e17fad6920dc47d6828cba23c9">&#9670;&nbsp;</a></span>setScoreActivated</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void Ms::ScoreBrowser::setScoreActivated </td>
+          <td>(</td>
+          <td class="paramtype">QListWidgetItem *&#160;</td>
+          <td class="paramname"><em>val</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span><span class="mlabel">slot</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
 <a id="a26bc529dddf88be5ffd7faae104f2699"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a26bc529dddf88be5ffd7faae104f2699">&#9670;&nbsp;</a></span>setScores()</h2>
 
@@ -357,6 +502,139 @@ Public Member Functions</h2></td></tr>
   </td>
   <td class="mlabels-right">
 <span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<h2 class="groupheader">Member Data Documentation</h2>
+<a id="a5a339f20371dad8bbd3a659e936c4b2a"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a5a339f20371dad8bbd3a659e936c4b2a">&#9670;&nbsp;</a></span>_boldTitle</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool Ms::ScoreBrowser::_boldTitle { false }</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a79384797f11af2072393e27710bfaf5c"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a79384797f11af2072393e27710bfaf5c">&#9670;&nbsp;</a></span>_noMatchedScoresLabel</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">QLabel* Ms::ScoreBrowser::_noMatchedScoresLabel</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="aaeeacf54def29290f0c6738abfc3ea3b"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aaeeacf54def29290f0c6738abfc3ea3b">&#9670;&nbsp;</a></span>_showCustomCategory</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool Ms::ScoreBrowser::_showCustomCategory { false }</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="af2ddce297c229cdf27c56ed87dc55240"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#af2ddce297c229cdf27c56ed87dc55240">&#9670;&nbsp;</a></span>_showPreview</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool Ms::ScoreBrowser::_showPreview { false }</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a71f32baaa28f86ca4da80a2e544d78c3"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a71f32baaa28f86ca4da80a2e544d78c3">&#9670;&nbsp;</a></span>_stripNumbers</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool Ms::ScoreBrowser::_stripNumbers { false }</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="aeadeeec9f744286f8e4e6d2ad442dc61"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aeadeeec9f744286f8e4e6d2ad442dc61">&#9670;&nbsp;</a></span>scoreLists</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">QList&lt;<a class="el" href="class_ms_1_1_score_list_widget.html">ScoreListWidget</a>*&gt; Ms::ScoreBrowser::scoreLists</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
   </tr>
 </table>
 </div><div class="memdoc">

@@ -1,5 +1,5 @@
 <map id="libmscore/notifier.hpp" name="libmscore/notifier.hpp">
-<area shape="rect" id="node2" href="$libmscore_2instrument_8h.html" title="libmscore/instrument.h" alt="" coords="5278,80,5433,107"/>
+<area shape="rect" id="node2" href="$libmscore_2instrument_8h.html" title="libmscore/instrument.h" alt="" coords="5283,80,5438,107"/>
 <area shape="rect" id="node3" href="$libmscore_2score_8h.html" title="Definition of Score class. " alt="" coords="2897,155,3022,181"/>
 <area shape="rect" id="node29" href="$libmscore_2instrument_8cpp.html" title="libmscore/instrument.cpp" alt="" coords="5806,229,5974,256"/>
 <area shape="rect" id="node30" href="$midimapping_8cpp.html" title="libmscore/midimapping.cpp" alt="" coords="3365,229,3545,256"/>
@@ -13,14 +13,14 @@
 <area shape="rect" id="node38" href="$libmscore_2part_8h.html" title="libmscore/part.h" alt="" coords="4470,155,4585,181"/>
 <area shape="rect" id="node39" href="$importptb_8cpp.html" title="mscore/importptb.cpp" alt="" coords="5633,229,5781,256"/>
 <area shape="rect" id="node40" href="$instrchange_8h.html" title="libmscore/instrchange.h" alt="" coords="4743,155,4903,181"/>
-<area shape="rect" id="node41" href="$staffstate_8h.html" title="libmscore/staffstate.h" alt="" coords="4928,155,5076,181"/>
-<area shape="rect" id="node42" href="$instrtemplate_8h.html" title="libmscore/instrtemplate.h" alt="" coords="5873,155,6041,181"/>
+<area shape="rect" id="node41" href="$staffstate_8h.html" title="libmscore/staffstate.h" alt="" coords="4933,155,5081,181"/>
+<area shape="rect" id="node42" href="$instrtemplate_8h.html" title="libmscore/instrtemplate.h" alt="" coords="5878,155,6046,181"/>
 <area shape="rect" id="node43" href="$selinstrument_8cpp.html" title="mscore/selinstrument.cpp" alt="" coords="5999,229,6171,256"/>
-<area shape="rect" id="node44" href="$editstaff_8h.html" title="mscore/editstaff.h" alt="" coords="5721,155,5848,181"/>
-<area shape="rect" id="node45" href="$parteditbase_8h.html" title="mscore/parteditbase.h" alt="" coords="5393,155,5544,181"/>
-<area shape="rect" id="node46" href="$mixer_8h.html" title="mscore/mixer.h" alt="" coords="5206,155,5318,181"/>
+<area shape="rect" id="node44" href="$editstaff_8h.html" title="mscore/editstaff.h" alt="" coords="5727,155,5853,181"/>
+<area shape="rect" id="node45" href="$parteditbase_8h.html" title="mscore/parteditbase.h" alt="" coords="5399,155,5549,181"/>
+<area shape="rect" id="node46" href="$mixer_8h.html" title="mscore/mixer.h" alt="" coords="5211,155,5323,181"/>
 <area shape="rect" id="node47" href="$mixerdetails_8h.html" title="mscore/mixerdetails.h" alt="" coords="6195,229,6345,256"/>
-<area shape="rect" id="node48" href="$mixertrackitem_8h.html" title="mscore/mixertrackitem.h" alt="" coords="6329,155,6496,181"/>
+<area shape="rect" id="node48" href="$mixertrackitem_8h.html" title="mscore/mixertrackitem.h" alt="" coords="6357,155,6524,181"/>
 <area shape="rect" id="node49" href="$mixertrackchannel_8h.html" title="mscore/mixertrackchannel.h" alt="" coords="6370,229,6557,256"/>
 <area shape="rect" id="node50" href="$mixertrackpart_8h.html" title="mscore/mixertrackpart.h" alt="" coords="6581,229,6743,256"/>
 <area shape="rect" id="node4" href="$accidental_8cpp.html" title="libmscore/accidental.cpp" alt="" coords="2504,229,2671,256"/>

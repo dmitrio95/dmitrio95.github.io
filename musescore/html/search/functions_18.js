@@ -18,6 +18,9 @@ var searchData=
   ['xover',['xover',['../class_ms_1_1_zita_reverb.html#a190e5f084b3c5edbee884bfe21f7bc6a',1,'Ms::ZitaReverb']]],
   ['xpos',['xpos',['../class_ms_1_1_text_block.html#aad7defcceaa79985f42046738e2a71e2',1,'Ms::TextBlock::xpos()'],['../class_ms_1_1_piano_levels.html#a04ef33ccadd2c9d16519033d870f1c77',1,'Ms::PianoLevels::xpos()'],['../class_ms_1_1_piano_ruler.html#a738a53146574976d27b87ac3901758b4',1,'Ms::PianoRuler::xpos()'],['../class_ms_1_1_ruler.html#ac1039ea139135e19fc9d0fc2650f01dc',1,'Ms::Ruler::xpos()']]],
   ['xposchanged',['xPosChanged',['../class_ms_1_1_omr_view.html#afefcf8c21f4eec0c42c28efaaf4edcc6',1,'Ms::OmrView::xPosChanged()'],['../class_ms_1_1_chord_view.html#aca1d9bc4d282cd6909d67656a1fca62c',1,'Ms::ChordView::xposChanged()'],['../class_ms_1_1_drum_view.html#a274c44de549de37e1de5f1202a4dbc43',1,'Ms::DrumView::xposChanged()']]],
+  ['xproject',['xproject',['../class_ms_1_1_omr_page.html#a2a7aec56016048ab2ecd43ddabf7778f',1,'Ms::OmrPage']]],
+  ['xproject2',['xproject2',['../class_ms_1_1_omr_page.html#a7446533b310995190cfb06896521d653',1,'Ms::OmrPage']]],
+  ['xscalechanged',['xScaleChanged',['../class_ms_1_1_scale_select.html#a1b1fffd1944c47ae3a32554e0b87e028',1,'Ms::ScaleSelect']]],
   ['xzoom',['xZoom',['../class_ms_1_1_piano_levels.html#a70dc5832f4af04787c44a11982ff2e9e',1,'Ms::PianoLevels::xZoom()'],['../class_ms_1_1_piano_ruler.html#a91ab847d44b02c948a802c17ebf243d3',1,'Ms::PianoRuler::xZoom()'],['../class_ms_1_1_piano_view.html#aef2feda58293b2fe5052047c6b4c3b94',1,'Ms::PianoView::xZoom()']]],
   ['xzoomchanged',['xZoomChanged',['../class_ms_1_1_piano_view.html#a88ceefa9c506003cdd3a82684c6b35ae',1,'Ms::PianoView']]]
 ];

@@ -28,6 +28,7 @@ var searchData=
   ['hairpinlineposbelow',['hairpinLinePosBelow',['../namespace_ms.html#a2bac757437d1a9e364db27de8f9c9e2eadbcba6c78c1b75c82ff2edbcafbcdaef',1,'Ms']]],
   ['hairpinlinestyle',['hairpinLineStyle',['../namespace_ms.html#a2bac757437d1a9e364db27de8f9c9e2eac9fba460ce08821d3ea5484aab2c4c28',1,'Ms']]],
   ['hairpinlinewidth',['hairpinLineWidth',['../namespace_ms.html#a2bac757437d1a9e364db27de8f9c9e2eafdbb3f33d500f1e22685a8249450ee83',1,'Ms']]],
+  ['hairpinmindistance',['hairpinMinDistance',['../namespace_ms.html#a2bac757437d1a9e364db27de8f9c9e2ea80b340bd2aa4e8ef2484842593ea72e6',1,'Ms']]],
   ['hairpinplacement',['hairpinPlacement',['../namespace_ms.html#a2bac757437d1a9e364db27de8f9c9e2ea65a297a104535204c3f83482dc75c142',1,'Ms']]],
   ['hairpinposabove',['hairpinPosAbove',['../namespace_ms.html#a2bac757437d1a9e364db27de8f9c9e2eaabf56ee60f1402182d94d0781fff4266',1,'Ms']]],
   ['hairpinposbelow',['hairpinPosBelow',['../namespace_ms.html#a2bac757437d1a9e364db27de8f9c9e2ea0f942b4e80b022cba46cd1bcc69a42e8',1,'Ms']]],
@@ -51,7 +52,7 @@ var searchData=
   ['handbellsswingup',['handbellsSwingUp',['../namespace_ms.html#a602ef082ffbbe2c4b11e2375cc4aa794a90a89946e259fe8e88c1bb8549e61950',1,'Ms']]],
   ['handbellstablepairbells',['handbellsTablePairBells',['../namespace_ms.html#a602ef082ffbbe2c4b11e2375cc4aa794a1a31086feba2724cba64e98c375e3eb2',1,'Ms']]],
   ['handbellstablesinglebell',['handbellsTableSingleBell',['../namespace_ms.html#a602ef082ffbbe2c4b11e2375cc4aa794a34de4d00511a5b7457a170db16778460',1,'Ms']]],
-  ['harmony',['HARMONY',['../namespace_ms.html#a2c92ce0204176ede1ab86e2f44ae6b9ea9c6a910141dd674271df4ebacccaeed0',1,'Ms::HARMONY()'],['../namespace_o_v_e.html#af450a9ba57c6ed04e6b30dc226f80145a24505c98be3f82509ad6b751fd46ab6e',1,'OVE::Harmony()'],['../namespace_o_v_e.html#a9a8ab7516c8888d011d85712083f2a37a24505c98be3f82509ad6b751fd46ab6e',1,'OVE::Harmony()']]],
+  ['harmony',['Harmony',['../namespace_o_v_e.html#af450a9ba57c6ed04e6b30dc226f80145a24505c98be3f82509ad6b751fd46ab6e',1,'OVE::Harmony()'],['../namespace_o_v_e.html#a9a8ab7516c8888d011d85712083f2a37a24505c98be3f82509ad6b751fd46ab6e',1,'OVE::Harmony()'],['../namespace_ms.html#a2c92ce0204176ede1ab86e2f44ae6b9ea9c6a910141dd674271df4ebacccaeed0',1,'Ms::HARMONY()']]],
   ['harmony_5fa',['HARMONY_A',['../namespace_ms.html#ad1b3e57dfd5b26a280bf2ebde66b9d5aacdb2c35e62e62e3e0bc0e85b89fe7369',1,'Ms']]],
   ['harmony_5fb',['HARMONY_B',['../namespace_ms.html#ad1b3e57dfd5b26a280bf2ebde66b9d5aa674c64f6c5069b3c47fe4ff9a2ef2292',1,'Ms']]],
   ['harmony_5fguitarframe',['Harmony_GuitarFrame',['../namespace_o_v_e.html#af450a9ba57c6ed04e6b30dc226f80145a97b7e47ac2c255f411d1cde8d7ac5e7c',1,'OVE']]],
@@ -218,7 +219,11 @@ var searchData=
   ['hpf_5f2p',['hpf_2p',['../zone_8h.html#a7ef0ab496f57e183b484e62e2053c94fa2727c153fb09266a52bf2aeb8aed95db',1,'zone.h']]],
   ['hraster_5ficon',['hraster_ICON',['../namespace_ms.html#ad8a05c457f7be5498653632d7b7f625ea2d446ac0ab9df81651767d5c8345a37d',1,'Ms']]],
   ['html_5ftext',['HTML_TEXT',['../namespace_ms.html#aa0f871cf8181cec31d68d20a39010655a0e6717bddfac205997e7dbb54b6f2699',1,'Ms']]],
+  ['http_5fdelete',['HTTP_DELETE',['../class_ms_1_1_api_request.html#a3cd991cb12e2933f4784411fe4f04fb3aa74f07236b7068b742330230edd78130',1,'Ms::ApiRequest']]],
+  ['http_5fget',['HTTP_GET',['../class_ms_1_1_api_request.html#a3cd991cb12e2933f4784411fe4f04fb3abe4ea425838ee391b95e4a137d5b02b6',1,'Ms::ApiRequest']]],
   ['http_5fnot_5ffound',['HTTP_NOT_FOUND',['../namespace_ms.html#af315dc831fa8b6e0c3487b5eb77aff8ba0fac9844153ca46519beeae828975158',1,'Ms']]],
   ['http_5fok',['HTTP_OK',['../namespace_ms.html#af315dc831fa8b6e0c3487b5eb77aff8baabc6ab2e41498b944b70075e6bff3bec',1,'Ms']]],
+  ['http_5fpost',['HTTP_POST',['../class_ms_1_1_api_request.html#a3cd991cb12e2933f4784411fe4f04fb3ac2fe0ab7d58437875bb2717e2f26b2c2',1,'Ms::ApiRequest']]],
+  ['http_5fput',['HTTP_PUT',['../class_ms_1_1_api_request.html#a3cd991cb12e2933f4784411fe4f04fb3a00a9df2189ba52fbde7defc08446b284',1,'Ms::ApiRequest']]],
   ['http_5funauthorized',['HTTP_UNAUTHORIZED',['../namespace_ms.html#af315dc831fa8b6e0c3487b5eb77aff8ba023d32a2446772642a63abb5f7a7a8b7',1,'Ms']]]
 ];

@@ -23,9 +23,9 @@
   <td id="projectlogo"><img alt="Logo" src="musescore_logo_full.png"/></td>
   <td id="projectalign" style="padding-left: 0.5em;">
    <div id="projectname">MuseScore
-   &#160;<span id="projectnumber">3.1</span>
+   &#160;<span id="projectnumber">3.2</span>
    </div>
-   <div id="projectbrief">Music compisition and notation</div>
+   <div id="projectbrief">Music composition and notation</div>
   </td>
  </tr>
  </tbody>
@@ -70,6 +70,7 @@ $(function() {
 <a href="#pub-methods">Public Member Functions</a> &#124;
 <a href="#pub-static-methods">Static Public Member Functions</a> &#124;
 <a href="#pro-attribs">Protected Attributes</a> &#124;
+<a href="#pri-attribs">Private Attributes</a> &#124;
 <a href="class_o_v_e_1_1_music_data-members.html">List of all members</a>  </div>
   <div class="headertitle">
 <div class="title">OVE::MusicData Class Reference</div>  </div>
@@ -120,9 +121,10 @@ Collaboration diagram for OVE::MusicData:</div>
 <div class="dyncontent">
 <div class="center"><img src="class_o_v_e_1_1_music_data__coll__graph.png" border="0" usemap="#_o_v_e_1_1_music_data_coll__map" alt="Collaboration graph"/></div>
 <map name="_o_v_e_1_1_music_data_coll__map" id="_o_v_e_1_1_music_data_coll__map">
-<area shape="rect" id="node2" href="class_o_v_e_1_1_tick_element.html" title="OVE::TickElement" alt="" coords="5,5,136,32"/>
-<area shape="rect" id="node3" href="class_o_v_e_1_1_pair_element.html" title="OVE::PairElement" alt="" coords="161,5,290,32"/>
-<area shape="rect" id="node4" href="class_o_v_e_1_1_offset_element.html" title="OVE::OffsetElement" alt="" coords="314,5,457,32"/>
+<area shape="rect" id="node2" href="class_o_v_e_1_1_tick_element.html" title="OVE::TickElement" alt="" coords="5,109,136,136"/>
+<area shape="rect" id="node3" href="class_o_v_e_1_1_pair_element.html" title="OVE::PairElement" alt="" coords="161,109,290,136"/>
+<area shape="rect" id="node4" href="class_o_v_e_1_1_measure_pos.html" title="OVE::MeasurePos" alt="" coords="160,5,291,32"/>
+<area shape="rect" id="node5" href="class_o_v_e_1_1_offset_element.html" title="OVE::OffsetElement" alt="" coords="314,109,457,136"/>
 </map>
 <center><span class="legend">[<a href="graph_legend.html">legend</a>]</span></center></div>
 <table class="memberdecls">
@@ -202,6 +204,15 @@ Static Public Member Functions</h2></td></tr>
 Protected Attributes</h2></td></tr>
 <tr class="memitem:ab5205156efc6c6631b9ae56ea12d7f47"><td class="memItemLeft" align="right" valign="top"><a class="el" href="namespace_o_v_e.html#a9a8ab7516c8888d011d85712083f2a37">MusicDataType</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_o_v_e_1_1_music_data.html#ab5205156efc6c6631b9ae56ea12d7f47">musicDataType_</a></td></tr>
 <tr class="separator:ab5205156efc6c6631b9ae56ea12d7f47"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pri-attribs"></a>
+Private Attributes</h2></td></tr>
+<tr class="memitem:a12dbcac598f85ee0e762028392be074b"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_o_v_e_1_1_music_data.html#a12dbcac598f85ee0e762028392be074b">show_</a></td></tr>
+<tr class="separator:a12dbcac598f85ee0e762028392be074b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a0ab812832a9b83d599d3f59f23956046"><td class="memItemLeft" align="right" valign="top">unsigned int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_o_v_e_1_1_music_data.html#a0ab812832a9b83d599d3f59f23956046">color_</a></td></tr>
+<tr class="separator:a0ab812832a9b83d599d3f59f23956046"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a13cb5f1e4fa470024d3b237d7e131ef2"><td class="memItemLeft" align="right" valign="top">unsigned int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_o_v_e_1_1_music_data.html#a13cb5f1e4fa470024d3b237d7e131ef2">voice_</a></td></tr>
+<tr class="separator:a13cb5f1e4fa470024d3b237d7e131ef2"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <h2 class="groupheader">Member Enumeration Documentation</h2>
 <a id="a4beb6a8896ff957a50bae0ad90f73247"></a>
@@ -444,6 +455,28 @@ Protected Attributes</h2></td></tr>
 </div>
 </div>
 <h2 class="groupheader">Member Data Documentation</h2>
+<a id="a0ab812832a9b83d599d3f59f23956046"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a0ab812832a9b83d599d3f59f23956046">&#9670;&nbsp;</a></span>color_</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">unsigned int OVE::MusicData::color_</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
 <a id="ab5205156efc6c6631b9ae56ea12d7f47"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#ab5205156efc6c6631b9ae56ea12d7f47">&#9670;&nbsp;</a></span>musicDataType_</h2>
 
@@ -460,6 +493,50 @@ Protected Attributes</h2></td></tr>
   </td>
   <td class="mlabels-right">
 <span class="mlabels"><span class="mlabel">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a12dbcac598f85ee0e762028392be074b"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a12dbcac598f85ee0e762028392be074b">&#9670;&nbsp;</a></span>show_</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool OVE::MusicData::show_</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a13cb5f1e4fa470024d3b237d7e131ef2"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a13cb5f1e4fa470024d3b237d7e131ef2">&#9670;&nbsp;</a></span>voice_</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">unsigned int OVE::MusicData::voice_</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
   </tr>
 </table>
 </div><div class="memdoc">

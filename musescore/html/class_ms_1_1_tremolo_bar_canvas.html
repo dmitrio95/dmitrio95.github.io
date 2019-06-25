@@ -23,9 +23,9 @@
   <td id="projectlogo"><img alt="Logo" src="musescore_logo_full.png"/></td>
   <td id="projectalign" style="padding-left: 0.5em;">
    <div id="projectname">MuseScore
-   &#160;<span id="projectnumber">3.1</span>
+   &#160;<span id="projectnumber">3.2</span>
    </div>
-   <div id="projectbrief">Music compisition and notation</div>
+   <div id="projectbrief">Music composition and notation</div>
   </td>
  </tr>
  </tbody>
@@ -67,6 +67,8 @@ $(function() {
 <div class="header">
   <div class="summary">
 <a href="#pub-methods">Public Member Functions</a> &#124;
+<a href="#pri-methods">Private Member Functions</a> &#124;
+<a href="#pri-attribs">Private Attributes</a> &#124;
 <a href="class_ms_1_1_tremolo_bar_canvas-members.html">List of all members</a>  </div>
   <div class="headertitle">
 <div class="title">Ms::TremoloBarCanvas Class Reference</div>  </div>
@@ -99,6 +101,18 @@ Public Member Functions</h2></td></tr>
 <tr class="separator:ab623a2e24d5a0b2c564c7a2e99142063"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a7c1934b2d91a69a13e6cccbe0dd8594b"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ms_1_1_tremolo_bar_canvas.html#a7c1934b2d91a69a13e6cccbe0dd8594b">setPoints</a> (const QList&lt; <a class="el" href="struct_ms_1_1_pitch_value.html">PitchValue</a> &gt; &amp;p)</td></tr>
 <tr class="separator:a7c1934b2d91a69a13e6cccbe0dd8594b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pri-methods"></a>
+Private Member Functions</h2></td></tr>
+<tr class="memitem:a91dae8b01cddc701279e1177e30dd1a4"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ms_1_1_tremolo_bar_canvas.html#a91dae8b01cddc701279e1177e30dd1a4">paintEvent</a> (QPaintEvent *)</td></tr>
+<tr class="separator:a91dae8b01cddc701279e1177e30dd1a4"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad1ffbeafbbce24b1c2562630a8b11c17"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ms_1_1_tremolo_bar_canvas.html#ad1ffbeafbbce24b1c2562630a8b11c17">mousePressEvent</a> (QMouseEvent *)</td></tr>
+<tr class="separator:ad1ffbeafbbce24b1c2562630a8b11c17"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pri-attribs"></a>
+Private Attributes</h2></td></tr>
+<tr class="memitem:a4583f78f9784912753f2613c193ec051"><td class="memItemLeft" align="right" valign="top">QList&lt; <a class="el" href="struct_ms_1_1_pitch_value.html">PitchValue</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ms_1_1_tremolo_bar_canvas.html#a4583f78f9784912753f2613c193ec051">_points</a></td></tr>
+<tr class="separator:a4583f78f9784912753f2613c193ec051"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
 <a id="ad83aac25042eab310349de0e7ace9a6e"></a>
@@ -120,6 +134,58 @@ Public Member Functions</h2></td></tr>
 </div>
 </div>
 <h2 class="groupheader">Member Function Documentation</h2>
+<a id="ad1ffbeafbbce24b1c2562630a8b11c17"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ad1ffbeafbbce24b1c2562630a8b11c17">&#9670;&nbsp;</a></span>mousePressEvent()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void Ms::TremoloBarCanvas::mousePressEvent </td>
+          <td>(</td>
+          <td class="paramtype">QMouseEvent *&#160;</td>
+          <td class="paramname"><em>ev</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span><span class="mlabel">virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a91dae8b01cddc701279e1177e30dd1a4"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a91dae8b01cddc701279e1177e30dd1a4">&#9670;&nbsp;</a></span>paintEvent()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void Ms::TremoloBarCanvas::paintEvent </td>
+          <td>(</td>
+          <td class="paramtype">QPaintEvent *&#160;</td>
+          <td class="paramname"><em>ev</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span><span class="mlabel">virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
 <a id="afaf13a0828f40b982f74dbfc8bedceb6"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#afaf13a0828f40b982f74dbfc8bedceb6">&#9670;&nbsp;</a></span>points() <span class="overload">[1/2]</span></h2>
 
@@ -190,6 +256,29 @@ Public Member Functions</h2></td></tr>
   </td>
   <td class="mlabels-right">
 <span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<h2 class="groupheader">Member Data Documentation</h2>
+<a id="a4583f78f9784912753f2613c193ec051"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a4583f78f9784912753f2613c193ec051">&#9670;&nbsp;</a></span>_points</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">QList&lt;<a class="el" href="struct_ms_1_1_pitch_value.html">PitchValue</a>&gt; Ms::TremoloBarCanvas::_points</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
   </tr>
 </table>
 </div><div class="memdoc">

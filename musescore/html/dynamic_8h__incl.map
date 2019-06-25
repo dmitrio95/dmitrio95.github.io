@@ -1,7 +1,7 @@
 <map id="libmscore/dynamic.h" name="libmscore/dynamic.h">
-<area shape="rect" id="node2" href="$text_8h.html" title="text.h" alt="" coords="243,80,298,107"/>
+<area shape="rect" id="node2" href="$text_8h.html" title="text.h" alt="" coords="326,80,381,107"/>
 <area shape="rect" id="node8" href="$mscore_8h.html" title="mscore.h" alt="" coords="419,379,495,405"/>
-<area shape="rect" id="node3" href="$textbase_8h.html" title="textbase.h" alt="" coords="131,155,213,181"/>
+<area shape="rect" id="node3" href="$textbase_8h.html" title="textbase.h" alt="" coords="145,155,228,181"/>
 <area shape="rect" id="node4" href="$element_8h.html" title="element.h" alt="" coords="211,229,290,256"/>
 <area shape="rect" id="node9" href="$style_8h.html" title="style.h" alt="" coords="241,453,303,480"/>
 <area shape="rect" id="node14" href="$property_8h.html" title="property.h" alt="" coords="5,229,85,256"/>

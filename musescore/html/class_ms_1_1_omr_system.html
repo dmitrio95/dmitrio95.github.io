@@ -23,9 +23,9 @@
   <td id="projectlogo"><img alt="Logo" src="musescore_logo_full.png"/></td>
   <td id="projectalign" style="padding-left: 0.5em;">
    <div id="projectname">MuseScore
-   &#160;<span id="projectnumber">3.1</span>
+   &#160;<span id="projectnumber">3.2</span>
    </div>
-   <div id="projectbrief">Music compisition and notation</div>
+   <div id="projectbrief">Music composition and notation</div>
   </td>
  </tr>
  </tbody>
@@ -68,6 +68,8 @@ $(function() {
   <div class="summary">
 <a href="#pub-methods">Public Member Functions</a> &#124;
 <a href="#pub-attribs">Public Attributes</a> &#124;
+<a href="#pri-methods">Private Member Functions</a> &#124;
+<a href="#pri-attribs">Private Attributes</a> &#124;
 <a href="class_ms_1_1_omr_system-members.html">List of all members</a>  </div>
   <div class="headertitle">
 <div class="title">Ms::OmrSystem Class Reference</div>  </div>
@@ -75,6 +77,15 @@ $(function() {
 <div class="contents">
 
 <p><code>#include &lt;<a class="el" href="omrpage_8h_source.html">omrpage.h</a>&gt;</code></p>
+<div class="dynheader">
+Collaboration diagram for Ms::OmrSystem:</div>
+<div class="dyncontent">
+<div class="center"><img src="class_ms_1_1_omr_system__coll__graph.png" border="0" usemap="#_ms_1_1_omr_system_coll__map" alt="Collaboration graph"/></div>
+<map name="_ms_1_1_omr_system_coll__map" id="_ms_1_1_omr_system_coll__map">
+<area shape="rect" id="node2" href="class_ms_1_1_omr_page.html" title="Ms::OmrPage" alt="" coords="13,95,116,121"/>
+<area shape="rect" id="node3" href="class_ms_1_1_omr.html" title="Ms::Omr" alt="" coords="28,5,101,32"/>
+</map>
+<center><span class="legend">[<a href="graph_legend.html">legend</a>]</span></center></div>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
@@ -101,6 +112,20 @@ Public Member Functions</h2></td></tr>
 Public Attributes</h2></td></tr>
 <tr class="memitem:ae76171f0fc2b0631df00e9bd3a6930b3"><td class="memItemLeft" align="right" valign="top">QList&lt; QLine &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ms_1_1_omr_system.html#ae76171f0fc2b0631df00e9bd3a6930b3">barLines</a></td></tr>
 <tr class="separator:ae76171f0fc2b0631df00e9bd3a6930b3"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pri-methods"></a>
+Private Member Functions</h2></td></tr>
+<tr class="memitem:a64b93a52f84ace5e287897c01b8e19b6"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ms_1_1_omr_system.html#a64b93a52f84ace5e287897c01b8e19b6">searchNotes</a> (QList&lt; <a class="el" href="class_ms_1_1_omr_note.html">OmrNote</a> *&gt; *, int x1, int x2, int y, int line)</td></tr>
+<tr class="separator:a64b93a52f84ace5e287897c01b8e19b6"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pri-attribs"></a>
+Private Attributes</h2></td></tr>
+<tr class="memitem:a2b65a629167afa9af4371616c02a1c31"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_ms_1_1_omr_page.html">OmrPage</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ms_1_1_omr_system.html#a2b65a629167afa9af4371616c02a1c31">_page</a></td></tr>
+<tr class="separator:a2b65a629167afa9af4371616c02a1c31"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a267c443f41a866ab0b5b1a5897528a6b"><td class="memItemLeft" align="right" valign="top">QList&lt; <a class="el" href="class_ms_1_1_omr_staff.html">OmrStaff</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ms_1_1_omr_system.html#a267c443f41a866ab0b5b1a5897528a6b">_staves</a></td></tr>
+<tr class="separator:a267c443f41a866ab0b5b1a5897528a6b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae39e492b0ba76e31329e1f1d130967bd"><td class="memItemLeft" align="right" valign="top">QList&lt; <a class="el" href="class_ms_1_1_omr_measure.html">OmrMeasure</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ms_1_1_omr_system.html#ae39e492b0ba76e31329e1f1d130967bd">_measures</a></td></tr>
+<tr class="separator:ae39e492b0ba76e31329e1f1d130967bd"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
 <a id="a0e8560cc0c5ba6f4a56b6c9b604adb86"></a>
@@ -208,8 +233,62 @@ Public Attributes</h2></td></tr>
 
 </div>
 </div>
+<a id="a64b93a52f84ace5e287897c01b8e19b6"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a64b93a52f84ace5e287897c01b8e19b6">&#9670;&nbsp;</a></span>searchNotes() <span class="overload">[1/3]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void Ms::OmrSystem::searchNotes </td>
+          <td>(</td>
+          <td class="paramtype">QList&lt; <a class="el" href="class_ms_1_1_omr_note.html">OmrNote</a> *&gt; *&#160;</td>
+          <td class="paramname"><em>noteList</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>x1</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>x2</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>y</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>line</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
 <a id="a670927a0f8e96dc0775232176ae64aa6"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a670927a0f8e96dc0775232176ae64aa6">&#9670;&nbsp;</a></span>searchNotes() <span class="overload">[1/2]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#a670927a0f8e96dc0775232176ae64aa6">&#9670;&nbsp;</a></span>searchNotes() <span class="overload">[2/3]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -226,7 +305,7 @@ Public Attributes</h2></td></tr>
 </div>
 </div>
 <a id="a1a77a5ca0d24310f8150574af19ad930"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a1a77a5ca0d24310f8150574af19ad930">&#9670;&nbsp;</a></span>searchNotes() <span class="overload">[2/2]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#a1a77a5ca0d24310f8150574af19ad930">&#9670;&nbsp;</a></span>searchNotes() <span class="overload">[3/3]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -321,6 +400,72 @@ Public Attributes</h2></td></tr>
 </div>
 </div>
 <h2 class="groupheader">Member Data Documentation</h2>
+<a id="ae39e492b0ba76e31329e1f1d130967bd"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ae39e492b0ba76e31329e1f1d130967bd">&#9670;&nbsp;</a></span>_measures</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">QList&lt;<a class="el" href="class_ms_1_1_omr_measure.html">OmrMeasure</a>&gt; Ms::OmrSystem::_measures</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a2b65a629167afa9af4371616c02a1c31"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a2b65a629167afa9af4371616c02a1c31">&#9670;&nbsp;</a></span>_page</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="class_ms_1_1_omr_page.html">OmrPage</a>* Ms::OmrSystem::_page</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a267c443f41a866ab0b5b1a5897528a6b"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a267c443f41a866ab0b5b1a5897528a6b">&#9670;&nbsp;</a></span>_staves</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">QList&lt;<a class="el" href="class_ms_1_1_omr_staff.html">OmrStaff</a>&gt; Ms::OmrSystem::_staves</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
 <a id="ae76171f0fc2b0631df00e9bd3a6930b3"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#ae76171f0fc2b0631df00e9bd3a6930b3">&#9670;&nbsp;</a></span>barLines</h2>
 

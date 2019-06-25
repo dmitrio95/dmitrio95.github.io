@@ -23,9 +23,9 @@
   <td id="projectlogo"><img alt="Logo" src="musescore_logo_full.png"/></td>
   <td id="projectalign" style="padding-left: 0.5em;">
    <div id="projectname">MuseScore
-   &#160;<span id="projectnumber">3.1</span>
+   &#160;<span id="projectnumber">3.2</span>
    </div>
-   <div id="projectbrief">Music compisition and notation</div>
+   <div id="projectbrief">Music composition and notation</div>
   </td>
  </tr>
  </tbody>
@@ -67,6 +67,9 @@ $(function() {
 <div class="header">
   <div class="summary">
 <a href="#pub-methods">Public Member Functions</a> &#124;
+<a href="#pri-methods">Private Member Functions</a> &#124;
+<a href="#pri-static-methods">Static Private Member Functions</a> &#124;
+<a href="#pri-attribs">Private Attributes</a> &#124;
 <a href="class_ms_1_1_jack_audio-members.html">List of all members</a>  </div>
   <div class="headertitle">
 <div class="title">Ms::JackAudio Class Reference</div>  </div>
@@ -87,9 +90,52 @@ Collaboration diagram for Ms::JackAudio:</div>
 <div class="dyncontent">
 <div class="center"><img src="class_ms_1_1_jack_audio__coll__graph.png" border="0" usemap="#_ms_1_1_jack_audio_coll__map" alt="Collaboration graph"/></div>
 <map name="_ms_1_1_jack_audio_coll__map" id="_ms_1_1_jack_audio_coll__map">
-<area shape="rect" id="node2" href="class_ms_1_1_driver.html" title="Ms::Driver" alt="" coords="57,171,139,197"/>
-<area shape="rect" id="node3" href="class_ms_1_1_seq.html" title="Ms::Seq" alt="" coords="63,81,133,108"/>
-<area shape="rect" id="node5" href="class_ms_1_1_sequencer.html" title="Ms::Sequencer" alt="" coords="100,5,211,32"/>
+<area shape="rect" id="node2" href="class_ms_1_1_driver.html" title="Ms::Driver" alt="" coords="64,615,147,641"/>
+<area shape="rect" id="node3" href="class_ms_1_1_seq.html" title="Ms::Seq" alt="" coords="337,733,407,760"/>
+<area shape="rect" id="node14" href="class_ms_1_1_score.html" title="Ms::Score" alt="" coords="1588,111,1671,137"/>
+<area shape="rect" id="node16" href="class_ms_1_1_excerpt.html" title="Ms::Excerpt" alt="" coords="1229,421,1323,448"/>
+<area shape="rect" id="node47" href="class_ms_1_1_master_synthesizer.html" title="Ms::MasterSynthesizer" alt="" coords="107,213,264,240"/>
+<area shape="rect" id="node48" href="class_ms_1_1_effect.html" title="Ms::Effect" alt="" coords="131,111,213,137"/>
+<area shape="rect" id="node5" href="class_ms_1_1_sequencer.html" title="Ms::Sequencer" alt="" coords="295,615,406,641"/>
+<area shape="rect" id="node6" href="class_ms_1_1_range_map.html" title="Helper class to keep track of status of status of certain parts of score or MIDI representation. " alt="" coords="430,615,541,641"/>
+<area shape="rect" id="node7" href="class_ms_1_1_seq_msg_fifo.html" title="Ms::SeqMsgFifo" alt="" coords="617,615,735,641"/>
+<area shape="rect" id="node8" href="class_ms_1_1_fifo_base.html" title="Ms::FifoBase" alt="" coords="625,518,725,545"/>
+<area shape="rect" id="node9" href="struct_ms_1_1_seq_msg.html" title="Ms::SeqMsg" alt="" coords="504,518,600,545"/>
+<area shape="rect" id="node10" href="class_ms_1_1_n_play_event.html" title="Ms::NPlayEvent" alt="" coords="505,421,623,448"/>
+<area shape="rect" id="node11" href="class_ms_1_1_score_view.html" title="Ms::ScoreView" alt="" coords="2142,615,2253,641"/>
+<area shape="rect" id="node42" href="class_ms_1_1_omr_view.html" title="Ms::OmrView" alt="" coords="1905,733,2007,760"/>
+<area shape="rect" id="node43" href="class_ms_1_1_continuous_panel.html" title="Ms::ContinuousPanel" alt="" coords="2523,733,2669,760"/>
+<area shape="rect" id="node45" href="class_ms_1_1_position_cursor.html" title="Ms::PositionCursor" alt="" coords="2247,733,2382,760"/>
+<area shape="rect" id="node13" href="class_ms_1_1_muse_score_view.html" title="Ms::MuseScoreView" alt="" coords="2207,316,2350,343"/>
+<area shape="rect" id="node41" href="class_ms_1_1_edit_data.html" title="Ms::EditData" alt="" coords="2247,421,2345,448"/>
+<area shape="rect" id="node15" href="class_ms_1_1_score_element.html" title="Ms::ScoreElement" alt="" coords="1768,213,1899,240"/>
+<area shape="rect" id="node17" href="class_ms_1_1_master_score.html" title="Ms::MasterScore" alt="" coords="965,316,1088,343"/>
+<area shape="rect" id="node21" href="class_ms_1_1_repeat_list.html" title="Ms::RepeatList" alt="" coords="633,213,743,240"/>
+<area shape="rect" id="node28" href="class_ms_1_1_input_state.html" title="Ms::InputState" alt="" coords="2015,213,2123,240"/>
+<area shape="rect" id="node31" href="class_ms_1_1_selection.html" title="Ms::Selection" alt="" coords="2269,213,2371,240"/>
+<area shape="rect" id="node35" href="class_ms_1_1_selection_filter.html" title="Ms::SelectionFilter" alt="" coords="1613,213,1744,240"/>
+<area shape="rect" id="node46" href="class_ms_1_1_midi_renderer.html" title="MIDI renderer for a score. " alt="" coords="321,264,447,291"/>
+<area shape="rect" id="node38" href="class_ms_1_1_element.html" title="Base class of score layout elements. " alt="" coords="2015,316,2111,343"/>
+<area shape="rect" id="node18" href="class_ms_1_1_omr.html" title="Ms::Omr" alt="" coords="406,213,479,240"/>
+<area shape="rect" id="node19" href="class_ms_1_1_cmd_state.html" title="Ms::CmdState" alt="" coords="2476,163,2583,189"/>
+<area shape="rect" id="node20" href="class_ms_1_1_fraction.html" title="Ms::Fraction" alt="" coords="2550,5,2645,32"/>
+<area shape="rect" id="node22" href="class_ms_1_1_revisions.html" title="Ms::Revisions" alt="" coords="768,213,875,240"/>
+<area shape="rect" id="node23" href="class_ms_1_1_tempo_map.html" title="Ms::TempoMap" alt="" coords="899,213,1013,240"/>
+<area shape="rect" id="node24" href="class_ms_1_1_movements.html" title="Ms::Movements" alt="" coords="322,163,438,189"/>
+<area shape="rect" id="node25" href="class_ms_1_1_m_style.html" title="Ms::MStyle" alt="" coords="739,5,829,32"/>
+<area shape="rect" id="node26" href="class_ms_1_1_time_sig_map.html" title="Ms::TimeSigMap" alt="" coords="1037,213,1158,240"/>
+<area shape="rect" id="node27" href="class_ms_1_1_measure_base_list.html" title="Ms::MeasureBaseList" alt="" coords="1500,5,1649,32"/>
+<area shape="rect" id="node29" href="class_ms_1_1_t_duration.html" title="Ms::TDuration" alt="" coords="2415,111,2521,137"/>
+<area shape="rect" id="node40" href="class_ms_1_1_shadow_note.html" title="Graphic representation of a shadow note, which shows the note insert position in note entry mode..." alt="" coords="2369,421,2492,448"/>
+<area shape="rect" id="node30" href="class_ms_1_1_synthesizer_state.html" title="Ms::SynthesizerState" alt="" coords="1674,5,1822,32"/>
+<area shape="rect" id="node32" href="class_ms_1_1_spanner_map.html" title="Ms::SpannerMap" alt="" coords="1846,5,1967,32"/>
+<area shape="rect" id="node33" href="class_ms_1_1_update_state.html" title="Ms::UpdateState" alt="" coords="1991,5,2113,32"/>
+<area shape="rect" id="node34" href="class_ms_1_1_audio.html" title="Ms::Audio" alt="" coords="1262,5,1343,32"/>
+<area shape="rect" id="node36" href="class_ms_1_1_score_font.html" title="Ms::ScoreFont" alt="" coords="1367,5,1475,32"/>
+<area shape="rect" id="node37" href="class_ms_1_1_lasso.html" title="Ms::Lasso" alt="" coords="2021,421,2104,448"/>
+<area shape="rect" id="node44" href="class_ms_1_1_foto_lasso.html" title="Ms::FotoLasso" alt="" coords="2004,518,2113,545"/>
+<area shape="rect" id="node39" href="class_ms_1_1_spatium.html" title="Ms::Spatium" alt="" coords="2148,213,2244,240"/>
+<area shape="rect" id="node49" href="class_ms_1_1_event_map.html" title="Ms::EventMap" alt="" coords="760,615,867,641"/>
 </map>
 <center><span class="legend">[<a href="graph_legend.html">legend</a>]</span></center></div>
 <table class="memberdecls">
@@ -101,7 +147,7 @@ Public Member Functions</h2></td></tr>
 <tr class="separator:a84205cb012ca438b0ac3a226fbc12727"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a8d6aa4df1e9c97b0f2785cb6a2b74197"><td class="memItemLeft" align="right" valign="top">virtual bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ms_1_1_jack_audio.html#a8d6aa4df1e9c97b0f2785cb6a2b74197">init</a> (bool hot=false)</td></tr>
 <tr class="separator:a8d6aa4df1e9c97b0f2785cb6a2b74197"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a893cc2a8d5a601739fe671807dd07ed4"><td class="memItemLeft" align="right" valign="top">virtual bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ms_1_1_jack_audio.html#a893cc2a8d5a601739fe671807dd07ed4">start</a> (bool hotPlug=false)</td></tr>
+<tr class="memitem:a893cc2a8d5a601739fe671807dd07ed4"><td class="memItemLeft" align="right" valign="top">virtual bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ms_1_1_jack_audio.html#a893cc2a8d5a601739fe671807dd07ed4">start</a> (bool <a class="el" href="class_ms_1_1_jack_audio.html#a991edba2eb199bd4442e01e7186a9a1b">hotPlug</a>=false)</td></tr>
 <tr class="separator:a893cc2a8d5a601739fe671807dd07ed4"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a74c530ff8a926fa9a790966c12e14ea7"><td class="memItemLeft" align="right" valign="top">virtual bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ms_1_1_jack_audio.html#a74c530ff8a926fa9a790966c12e14ea7">stop</a> ()</td></tr>
 <tr class="separator:a74c530ff8a926fa9a790966c12e14ea7"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -148,6 +194,51 @@ Public Member Functions</h2></td></tr>
 <tr class="separator:a0fac70a2949e1d9ac263991ad7e1838a inherit pub_methods_class_ms_1_1_driver"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a0597474feb1e59d2663e5071a43edb66 inherit pub_methods_class_ms_1_1_driver"><td class="memItemLeft" align="right" valign="top">virtual&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ms_1_1_driver.html#a0597474feb1e59d2663e5071a43edb66">~Driver</a> ()</td></tr>
 <tr class="separator:a0597474feb1e59d2663e5071a43edb66 inherit pub_methods_class_ms_1_1_driver"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pri-methods"></a>
+Private Member Functions</h2></td></tr>
+<tr class="memitem:a991edba2eb199bd4442e01e7186a9a1b"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ms_1_1_jack_audio.html#a991edba2eb199bd4442e01e7186a9a1b">hotPlug</a> ()</td></tr>
+<tr class="separator:a991edba2eb199bd4442e01e7186a9a1b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a42aa290a95be96080f50a40518d27c7f"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ms_1_1_jack_audio.html#a42aa290a95be96080f50a40518d27c7f">setTimebaseCallback</a> ()</td></tr>
+<tr class="separator:a42aa290a95be96080f50a40518d27c7f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a1318e248611372950ee75954eaff9b08"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ms_1_1_jack_audio.html#a1318e248611372950ee75954eaff9b08">releaseTimebaseCallback</a> ()</td></tr>
+<tr class="separator:a1318e248611372950ee75954eaff9b08"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a73ce6c44e3c1868000161f775aff2134"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ms_1_1_jack_audio.html#a73ce6c44e3c1868000161f775aff2134">rememberAudioConnections</a> ()</td></tr>
+<tr class="separator:a73ce6c44e3c1868000161f775aff2134"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a34e141d1d71beb351462766ddeddb424"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ms_1_1_jack_audio.html#a34e141d1d71beb351462766ddeddb424">restoreAudioConnections</a> ()</td></tr>
+<tr class="separator:a34e141d1d71beb351462766ddeddb424"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9227541f290b46bcb06a5dc3881a8131"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ms_1_1_jack_audio.html#a9227541f290b46bcb06a5dc3881a8131">rememberMidiConnections</a> ()</td></tr>
+<tr class="separator:a9227541f290b46bcb06a5dc3881a8131"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a0d3bb2ac37c66b42eeefd4b30644f9fc"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ms_1_1_jack_audio.html#a0d3bb2ac37c66b42eeefd4b30644f9fc">restoreMidiConnections</a> ()</td></tr>
+<tr class="separator:a0d3bb2ac37c66b42eeefd4b30644f9fc"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:abd55dfbd19d6de302920cd826074bfff"><td class="memItemLeft" align="right" valign="top">QList&lt; QString &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ms_1_1_jack_audio.html#abd55dfbd19d6de302920cd826074bfff">inputPorts</a> ()</td></tr>
+<tr class="separator:abd55dfbd19d6de302920cd826074bfff"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pri-static-methods"></a>
+Static Private Member Functions</h2></td></tr>
+<tr class="memitem:ab5e7aae775f825576e815d0119d6038e"><td class="memItemLeft" align="right" valign="top">static int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ms_1_1_jack_audio.html#ab5e7aae775f825576e815d0119d6038e">processAudio</a> (jack_nframes_t, void *)</td></tr>
+<tr class="separator:ab5e7aae775f825576e815d0119d6038e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aece1990b2dce4dba41694128b2ba570e"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ms_1_1_jack_audio.html#aece1990b2dce4dba41694128b2ba570e">timebase</a> (jack_transport_state_t, jack_nframes_t, jack_position_t *, int, void *)</td></tr>
+<tr class="separator:aece1990b2dce4dba41694128b2ba570e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pri-attribs"></a>
+Private Attributes</h2></td></tr>
+<tr class="memitem:a7b069b7c1ca11f32a583c8402780d14c"><td class="memItemLeft" align="right" valign="top">unsigned&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ms_1_1_jack_audio.html#a7b069b7c1ca11f32a583c8402780d14c">_segmentSize</a></td></tr>
+<tr class="separator:a7b069b7c1ca11f32a583c8402780d14c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a7a8c800fcd46f6b751968dee533b1e34"><td class="memItemLeft" align="right" valign="top"><a class="el" href="namespace_ms.html#abfeea37b11249d5df8436adae0dbfcb3">Transport</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ms_1_1_jack_audio.html#a7a8c800fcd46f6b751968dee533b1e34">fakeState</a></td></tr>
+<tr class="separator:a7a8c800fcd46f6b751968dee533b1e34"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac0c75afc6898bddfca3bb5e17db2fac4"><td class="memItemLeft" align="right" valign="top">jack_client_t *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ms_1_1_jack_audio.html#ac0c75afc6898bddfca3bb5e17db2fac4">client</a></td></tr>
+<tr class="separator:ac0c75afc6898bddfca3bb5e17db2fac4"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa4e7390bccc48a4ef2223caeda21cc37"><td class="memItemLeft" align="right" valign="top">char&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ms_1_1_jack_audio.html#aa4e7390bccc48a4ef2223caeda21cc37">_jackName</a> [8]</td></tr>
+<tr class="separator:aa4e7390bccc48a4ef2223caeda21cc37"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a785380ec143c654e9103dab3e81305f0"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ms_1_1_jack_audio.html#a785380ec143c654e9103dab3e81305f0">timeSigTempoChanged</a></td></tr>
+<tr class="separator:a785380ec143c654e9103dab3e81305f0"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9795a228002314d10030bb01e9db2092"><td class="memItemLeft" align="right" valign="top">QList&lt; jack_port_t * &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ms_1_1_jack_audio.html#a9795a228002314d10030bb01e9db2092">ports</a></td></tr>
+<tr class="separator:a9795a228002314d10030bb01e9db2092"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a0ba4024e6ed177ec9cf9e75ccad252f0"><td class="memItemLeft" align="right" valign="top">QList&lt; jack_port_t * &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ms_1_1_jack_audio.html#a0ba4024e6ed177ec9cf9e75ccad252f0">midiOutputPorts</a></td></tr>
+<tr class="separator:a0ba4024e6ed177ec9cf9e75ccad252f0"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac73fc066d38e1fdefd0e8bc4c98b39d4"><td class="memItemLeft" align="right" valign="top">QList&lt; jack_port_t * &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ms_1_1_jack_audio.html#ac73fc066d38e1fdefd0e8bc4c98b39d4">midiInputPorts</a></td></tr>
+<tr class="separator:ac73fc066d38e1fdefd0e8bc4c98b39d4"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="inherited"></a>
 Additional Inherited Members</h2></td></tr>
@@ -426,6 +517,31 @@ Additional Inherited Members</h2></td></tr>
 
 </div>
 </div>
+<a id="a991edba2eb199bd4442e01e7186a9a1b"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a991edba2eb199bd4442e01e7186a9a1b">&#9670;&nbsp;</a></span>hotPlug()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void Ms::JackAudio::hotPlug </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
 <a id="a8d6aa4df1e9c97b0f2785cb6a2b74197"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a8d6aa4df1e9c97b0f2785cb6a2b74197">&#9670;&nbsp;</a></span>init()</h2>
 
@@ -451,6 +567,31 @@ Additional Inherited Members</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Implements <a class="el" href="class_ms_1_1_driver.html#a66d0135d9d073db75bae39dc860f47f6">Ms::Driver</a>.</p>
+
+</div>
+</div>
+<a id="abd55dfbd19d6de302920cd826074bfff"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#abd55dfbd19d6de302920cd826074bfff">&#9670;&nbsp;</a></span>inputPorts()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">QList&lt; QString &gt; Ms::JackAudio::inputPorts </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
 
 </div>
 </div>
@@ -503,6 +644,42 @@ Additional Inherited Members</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Reimplemented from <a class="el" href="class_ms_1_1_driver.html#a8a016edc4d69ffd9a214ea6ec344999b">Ms::Driver</a>.</p>
+
+</div>
+</div>
+<a id="ab5e7aae775f825576e815d0119d6038e"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ab5e7aae775f825576e815d0119d6038e">&#9670;&nbsp;</a></span>processAudio()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">int Ms::JackAudio::processAudio </td>
+          <td>(</td>
+          <td class="paramtype">jack_nframes_t&#160;</td>
+          <td class="paramname"><em>frames</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">void *&#160;</td>
+          <td class="paramname"><em>p</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
 
 </div>
 </div>
@@ -586,6 +763,131 @@ Additional Inherited Members</h2></td></tr>
 
 </div>
 </div>
+<a id="a1318e248611372950ee75954eaff9b08"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a1318e248611372950ee75954eaff9b08">&#9670;&nbsp;</a></span>releaseTimebaseCallback()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void Ms::JackAudio::releaseTimebaseCallback </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a73ce6c44e3c1868000161f775aff2134"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a73ce6c44e3c1868000161f775aff2134">&#9670;&nbsp;</a></span>rememberAudioConnections()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void Ms::JackAudio::rememberAudioConnections </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a9227541f290b46bcb06a5dc3881a8131"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a9227541f290b46bcb06a5dc3881a8131">&#9670;&nbsp;</a></span>rememberMidiConnections()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void Ms::JackAudio::rememberMidiConnections </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a34e141d1d71beb351462766ddeddb424"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a34e141d1d71beb351462766ddeddb424">&#9670;&nbsp;</a></span>restoreAudioConnections()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void Ms::JackAudio::restoreAudioConnections </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a0d3bb2ac37c66b42eeefd4b30644f9fc"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a0d3bb2ac37c66b42eeefd4b30644f9fc">&#9670;&nbsp;</a></span>restoreMidiConnections()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void Ms::JackAudio::restoreMidiConnections </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
 <a id="a0d416a03c1e9a1879ce50b72bbed6ee8"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a0d416a03c1e9a1879ce50b72bbed6ee8">&#9670;&nbsp;</a></span>sampleRate()</h2>
 
@@ -661,6 +963,31 @@ Additional Inherited Members</h2></td></tr>
   </td>
   <td class="mlabels-right">
 <span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a42aa290a95be96080f50a40518d27c7f"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a42aa290a95be96080f50a40518d27c7f">&#9670;&nbsp;</a></span>setTimebaseCallback()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void Ms::JackAudio::setTimebaseCallback </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
   </tr>
 </table>
 </div><div class="memdoc">
@@ -776,6 +1103,60 @@ Additional Inherited Members</h2></td></tr>
 
 </div>
 </div>
+<a id="aece1990b2dce4dba41694128b2ba570e"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aece1990b2dce4dba41694128b2ba570e">&#9670;&nbsp;</a></span>timebase()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void Ms::JackAudio::timebase </td>
+          <td>(</td>
+          <td class="paramtype">jack_transport_state_t&#160;</td>
+          <td class="paramname"><em>state</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">jack_nframes_t&#160;</td>
+          <td class="paramname">, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">jack_position_t *&#160;</td>
+          <td class="paramname"><em>pos</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname">, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">void *&#160;</td>
+          <td class="paramname"><em>arg</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
 <a id="aaa948f11d89b7852c6d91cb10e9b207e"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#aaa948f11d89b7852c6d91cb10e9b207e">&#9670;&nbsp;</a></span>unregisterPort()</h2>
 
@@ -827,6 +1208,183 @@ Additional Inherited Members</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Reimplemented from <a class="el" href="class_ms_1_1_driver.html#a550a468ca8d2bb330ec16ddc75d477f4">Ms::Driver</a>.</p>
+
+</div>
+</div>
+<h2 class="groupheader">Member Data Documentation</h2>
+<a id="aa4e7390bccc48a4ef2223caeda21cc37"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aa4e7390bccc48a4ef2223caeda21cc37">&#9670;&nbsp;</a></span>_jackName</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">char Ms::JackAudio::_jackName[8]</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a7b069b7c1ca11f32a583c8402780d14c"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a7b069b7c1ca11f32a583c8402780d14c">&#9670;&nbsp;</a></span>_segmentSize</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">unsigned Ms::JackAudio::_segmentSize</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="ac0c75afc6898bddfca3bb5e17db2fac4"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ac0c75afc6898bddfca3bb5e17db2fac4">&#9670;&nbsp;</a></span>client</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">jack_client_t* Ms::JackAudio::client</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a7a8c800fcd46f6b751968dee533b1e34"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a7a8c800fcd46f6b751968dee533b1e34">&#9670;&nbsp;</a></span>fakeState</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="namespace_ms.html#abfeea37b11249d5df8436adae0dbfcb3">Transport</a> Ms::JackAudio::fakeState</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="ac73fc066d38e1fdefd0e8bc4c98b39d4"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ac73fc066d38e1fdefd0e8bc4c98b39d4">&#9670;&nbsp;</a></span>midiInputPorts</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">QList&lt;jack_port_t*&gt; Ms::JackAudio::midiInputPorts</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a0ba4024e6ed177ec9cf9e75ccad252f0"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a0ba4024e6ed177ec9cf9e75ccad252f0">&#9670;&nbsp;</a></span>midiOutputPorts</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">QList&lt;jack_port_t*&gt; Ms::JackAudio::midiOutputPorts</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a9795a228002314d10030bb01e9db2092"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a9795a228002314d10030bb01e9db2092">&#9670;&nbsp;</a></span>ports</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">QList&lt;jack_port_t*&gt; Ms::JackAudio::ports</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a785380ec143c654e9103dab3e81305f0"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a785380ec143c654e9103dab3e81305f0">&#9670;&nbsp;</a></span>timeSigTempoChanged</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool Ms::JackAudio::timeSigTempoChanged</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
 
 </div>
 </div>

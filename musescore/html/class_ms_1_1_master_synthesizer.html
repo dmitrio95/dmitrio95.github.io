@@ -23,9 +23,9 @@
   <td id="projectlogo"><img alt="Logo" src="musescore_logo_full.png"/></td>
   <td id="projectalign" style="padding-left: 0.5em;">
    <div id="projectname">MuseScore
-   &#160;<span id="projectnumber">3.1</span>
+   &#160;<span id="projectnumber">3.2</span>
    </div>
-   <div id="projectbrief">Music compisition and notation</div>
+   <div id="projectbrief">Music composition and notation</div>
   </td>
  </tr>
  </tbody>
@@ -70,6 +70,8 @@ $(function() {
 <a href="#signals">Signals</a> &#124;
 <a href="#pub-methods">Public Member Functions</a> &#124;
 <a href="#pub-static-attribs">Static Public Attributes</a> &#124;
+<a href="#pri-methods">Private Member Functions</a> &#124;
+<a href="#pri-attribs">Private Attributes</a> &#124;
 <a href="class_ms_1_1_master_synthesizer-members.html">List of all members</a>  </div>
   <div class="headertitle">
 <div class="title">Ms::MasterSynthesizer Class Reference</div>  </div>
@@ -89,6 +91,8 @@ Collaboration diagram for Ms::MasterSynthesizer:</div>
 <div class="dyncontent">
 <div class="center"><img src="class_ms_1_1_master_synthesizer__coll__graph.png" border="0" usemap="#_ms_1_1_master_synthesizer_coll__map" alt="Collaboration graph"/></div>
 <map name="_ms_1_1_master_synthesizer_coll__map" id="_ms_1_1_master_synthesizer_coll__map">
+<area shape="rect" id="node3" href="class_ms_1_1_effect.html" title="Ms::Effect" alt="" coords="121,81,204,108"/>
+<area shape="rect" id="node4" href="class_ms_1_1_effect_gui.html" title="Ms::EffectGui" alt="" coords="207,171,310,197"/>
 </map>
 <center><span class="legend">[<a href="graph_legend.html">legend</a>]</span></center></div>
 <table class="memberdecls">
@@ -183,6 +187,40 @@ Static Public Attributes</h2></td></tr>
 <tr class="separator:a34225050fdce5a1674fd9e922e01c8ab"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a319b679f0a9b82009432ef3ac0948b87"><td class="memItemLeft" align="right" valign="top">static const int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ms_1_1_master_synthesizer.html#a319b679f0a9b82009432ef3ac0948b87">MAX_EFFECTS</a> = 2</td></tr>
 <tr class="separator:a319b679f0a9b82009432ef3ac0948b87"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pri-methods"></a>
+Private Member Functions</h2></td></tr>
+<tr class="memitem:a2be154d1f551912c1664331a8b772472"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ms_1_1_master_synthesizer.html#a2be154d1f551912c1664331a8b772472">indexOfEffect</a> (int ab, const QString &amp;<a class="el" href="class_ms_1_1_master_synthesizer.html#aba6ee50ccfa1917e31e578fec2c02575">name</a>)</td></tr>
+<tr class="separator:a2be154d1f551912c1664331a8b772472"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pri-attribs"></a>
+Private Attributes</h2></td></tr>
+<tr class="memitem:a2704ccf0fbd7454b0e3c2b860e3992da"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ms_1_1_master_synthesizer.html#a2704ccf0fbd7454b0e3c2b860e3992da">_gain</a> { 0.1f }</td></tr>
+<tr class="separator:a2704ccf0fbd7454b0e3c2b860e3992da"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a729bf2e964df9f5d42ea107daf1c0e3f"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ms_1_1_master_synthesizer.html#a729bf2e964df9f5d42ea107daf1c0e3f">_boost</a> { 10.0 }</td></tr>
+<tr class="separator:a729bf2e964df9f5d42ea107daf1c0e3f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae8ff1451aa78e62421faa6e2e3107657"><td class="memItemLeft" align="right" valign="top">double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ms_1_1_master_synthesizer.html#ae8ff1451aa78e62421faa6e2e3107657">_masterTuning</a> { 440.0 }</td></tr>
+<tr class="separator:ae8ff1451aa78e62421faa6e2e3107657"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a94a1fdc3eeb0fec810e61394e336e0e7"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ms_1_1_master_synthesizer.html#a94a1fdc3eeb0fec810e61394e336e0e7">_dynamicsMethod</a> { 1 }</td></tr>
+<tr class="separator:a94a1fdc3eeb0fec810e61394e336e0e7"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a68654c044ddf2d94be27042c065b96a6"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ms_1_1_master_synthesizer.html#a68654c044ddf2d94be27042c065b96a6">_ccToUse</a> { 1 }</td></tr>
+<tr class="separator:a68654c044ddf2d94be27042c065b96a6"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a50ce41f7c1430b90580267fb7d29baa8"><td class="memItemLeft" align="right" valign="top">std::atomic&lt; bool &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ms_1_1_master_synthesizer.html#a50ce41f7c1430b90580267fb7d29baa8">lock1</a> { false }</td></tr>
+<tr class="separator:a50ce41f7c1430b90580267fb7d29baa8"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9942c29f1bca5e6499cf901ce968cf60"><td class="memItemLeft" align="right" valign="top">std::atomic&lt; bool &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ms_1_1_master_synthesizer.html#a9942c29f1bca5e6499cf901ce968cf60">lock2</a> { true }</td></tr>
+<tr class="separator:a9942c29f1bca5e6499cf901ce968cf60"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:acf5167d371dd56f0b3f8ee0ea188a16e"><td class="memItemLeft" align="right" valign="top">std::vector&lt; <a class="el" href="class_ms_1_1_synthesizer.html">Synthesizer</a> * &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ms_1_1_master_synthesizer.html#acf5167d371dd56f0b3f8ee0ea188a16e">_synthesizer</a></td></tr>
+<tr class="separator:acf5167d371dd56f0b3f8ee0ea188a16e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a443a331fb0524f98730e91e023d5186b"><td class="memItemLeft" align="right" valign="top">std::vector&lt; <a class="el" href="class_ms_1_1_effect.html">Effect</a> * &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ms_1_1_master_synthesizer.html#a443a331fb0524f98730e91e023d5186b">_effectList</a> [<a class="el" href="class_ms_1_1_master_synthesizer.html#a319b679f0a9b82009432ef3ac0948b87">MAX_EFFECTS</a>]</td></tr>
+<tr class="separator:a443a331fb0524f98730e91e023d5186b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a361291ef2a7d2a9faa430399aee9978c"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_ms_1_1_effect.html">Effect</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ms_1_1_master_synthesizer.html#a361291ef2a7d2a9faa430399aee9978c">_effect</a> [<a class="el" href="class_ms_1_1_master_synthesizer.html#a319b679f0a9b82009432ef3ac0948b87">MAX_EFFECTS</a>] { nullptr, nullptr }</td></tr>
+<tr class="separator:a361291ef2a7d2a9faa430399aee9978c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae3276234720f0fc3c6c1a65e469cb898"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ms_1_1_master_synthesizer.html#ae3276234720f0fc3c6c1a65e469cb898">_sampleRate</a></td></tr>
+<tr class="separator:ae3276234720f0fc3c6c1a65e469cb898"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9802389014afe6d3db777d2c03bc0e10"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ms_1_1_master_synthesizer.html#a9802389014afe6d3db777d2c03bc0e10">effect1Buffer</a> [<a class="el" href="class_ms_1_1_master_synthesizer.html#a34225050fdce5a1674fd9e922e01c8ab">MAX_BUFFERSIZE</a>]</td></tr>
+<tr class="separator:a9802389014afe6d3db777d2c03bc0e10"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a7bd52194180ee72d474db8c689a9ec74"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ms_1_1_master_synthesizer.html#a7bd52194180ee72d474db8c689a9ec74">effect2Buffer</a> [<a class="el" href="class_ms_1_1_master_synthesizer.html#a34225050fdce5a1674fd9e922e01c8ab">MAX_BUFFERSIZE</a>]</td></tr>
+<tr class="separator:a7bd52194180ee72d474db8c689a9ec74"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
 <a id="a159684ca020977be560bdd9a036f57d0"></a>
@@ -495,8 +533,44 @@ Static Public Attributes</h2></td></tr>
 
 </div>
 </div>
+<a id="a2be154d1f551912c1664331a8b772472"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a2be154d1f551912c1664331a8b772472">&#9670;&nbsp;</a></span>indexOfEffect() <span class="overload">[1/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">int Ms::MasterSynthesizer::indexOfEffect </td>
+          <td>(</td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>ab</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const QString &amp;&#160;</td>
+          <td class="paramname"><em>name</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
 <a id="a9cc8c04c6428bf09988acb5cc5003f2a"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a9cc8c04c6428bf09988acb5cc5003f2a">&#9670;&nbsp;</a></span>indexOfEffect()</h2>
+<h2 class="memtitle"><span class="permalink"><a href="#a9cc8c04c6428bf09988acb5cc5003f2a">&#9670;&nbsp;</a></span>indexOfEffect() <span class="overload">[2/2]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -1031,6 +1105,292 @@ Static Public Attributes</h2></td></tr>
 </div>
 </div>
 <h2 class="groupheader">Member Data Documentation</h2>
+<a id="a729bf2e964df9f5d42ea107daf1c0e3f"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a729bf2e964df9f5d42ea107daf1c0e3f">&#9670;&nbsp;</a></span>_boost</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">float Ms::MasterSynthesizer::_boost { 10.0 }</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a68654c044ddf2d94be27042c065b96a6"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a68654c044ddf2d94be27042c065b96a6">&#9670;&nbsp;</a></span>_ccToUse</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">int Ms::MasterSynthesizer::_ccToUse { 1 }</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a94a1fdc3eeb0fec810e61394e336e0e7"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a94a1fdc3eeb0fec810e61394e336e0e7">&#9670;&nbsp;</a></span>_dynamicsMethod</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">int Ms::MasterSynthesizer::_dynamicsMethod { 1 }</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a361291ef2a7d2a9faa430399aee9978c"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a361291ef2a7d2a9faa430399aee9978c">&#9670;&nbsp;</a></span>_effect</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="class_ms_1_1_effect.html">Effect</a>* Ms::MasterSynthesizer::_effect[<a class="el" href="class_ms_1_1_master_synthesizer.html#a319b679f0a9b82009432ef3ac0948b87">MAX_EFFECTS</a>] { nullptr, nullptr }</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a443a331fb0524f98730e91e023d5186b"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a443a331fb0524f98730e91e023d5186b">&#9670;&nbsp;</a></span>_effectList</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">std::vector&lt;<a class="el" href="class_ms_1_1_effect.html">Effect</a>*&gt; Ms::MasterSynthesizer::_effectList[<a class="el" href="class_ms_1_1_master_synthesizer.html#a319b679f0a9b82009432ef3ac0948b87">MAX_EFFECTS</a>]</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a2704ccf0fbd7454b0e3c2b860e3992da"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a2704ccf0fbd7454b0e3c2b860e3992da">&#9670;&nbsp;</a></span>_gain</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">float Ms::MasterSynthesizer::_gain { 0.1f }</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="ae8ff1451aa78e62421faa6e2e3107657"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ae8ff1451aa78e62421faa6e2e3107657">&#9670;&nbsp;</a></span>_masterTuning</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">double Ms::MasterSynthesizer::_masterTuning { 440.0 }</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="ae3276234720f0fc3c6c1a65e469cb898"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ae3276234720f0fc3c6c1a65e469cb898">&#9670;&nbsp;</a></span>_sampleRate</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">float Ms::MasterSynthesizer::_sampleRate</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="acf5167d371dd56f0b3f8ee0ea188a16e"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#acf5167d371dd56f0b3f8ee0ea188a16e">&#9670;&nbsp;</a></span>_synthesizer</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">std::vector&lt;<a class="el" href="class_ms_1_1_synthesizer.html">Synthesizer</a>*&gt; Ms::MasterSynthesizer::_synthesizer</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a9802389014afe6d3db777d2c03bc0e10"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a9802389014afe6d3db777d2c03bc0e10">&#9670;&nbsp;</a></span>effect1Buffer</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">float Ms::MasterSynthesizer::effect1Buffer[<a class="el" href="class_ms_1_1_master_synthesizer.html#a34225050fdce5a1674fd9e922e01c8ab">MAX_BUFFERSIZE</a>]</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a7bd52194180ee72d474db8c689a9ec74"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a7bd52194180ee72d474db8c689a9ec74">&#9670;&nbsp;</a></span>effect2Buffer</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">float Ms::MasterSynthesizer::effect2Buffer[<a class="el" href="class_ms_1_1_master_synthesizer.html#a34225050fdce5a1674fd9e922e01c8ab">MAX_BUFFERSIZE</a>]</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a50ce41f7c1430b90580267fb7d29baa8"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a50ce41f7c1430b90580267fb7d29baa8">&#9670;&nbsp;</a></span>lock1</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">std::atomic&lt;bool&gt; Ms::MasterSynthesizer::lock1 { false }</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a9942c29f1bca5e6499cf901ce968cf60"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a9942c29f1bca5e6499cf901ce968cf60">&#9670;&nbsp;</a></span>lock2</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">std::atomic&lt;bool&gt; Ms::MasterSynthesizer::lock2 { true }</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
 <a id="a34225050fdce5a1674fd9e922e01c8ab"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a34225050fdce5a1674fd9e922e01c8ab">&#9670;&nbsp;</a></span>MAX_BUFFERSIZE</h2>
 

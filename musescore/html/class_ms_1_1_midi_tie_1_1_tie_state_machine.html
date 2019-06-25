@@ -23,9 +23,9 @@
   <td id="projectlogo"><img alt="Logo" src="musescore_logo_full.png"/></td>
   <td id="projectalign" style="padding-left: 0.5em;">
    <div id="projectname">MuseScore
-   &#160;<span id="projectnumber">3.1</span>
+   &#160;<span id="projectnumber">3.2</span>
    </div>
-   <div id="projectbrief">Music compisition and notation</div>
+   <div id="projectbrief">Music composition and notation</div>
   </td>
  </tr>
  </tbody>
@@ -68,6 +68,7 @@ $(function() {
   <div class="summary">
 <a href="#pub-types">Public Types</a> &#124;
 <a href="#pub-methods">Public Member Functions</a> &#124;
+<a href="#pri-attribs">Private Attributes</a> &#124;
 <a href="class_ms_1_1_midi_tie_1_1_tie_state_machine-members.html">List of all members</a>  </div>
   <div class="headertitle">
 <div class="title">Ms::MidiTie::TieStateMachine Class Reference</div>  </div>
@@ -91,6 +92,13 @@ Public Member Functions</h2></td></tr>
 <tr class="separator:afeec7ef49d3847d0a4c532a65ee2393a"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a1db5190d9a960042fa0605f7305e91cb"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_ms_1_1_midi_tie_1_1_tie_state_machine.html#aad44e1c6121044a62933693a0792bfd4">State</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ms_1_1_midi_tie_1_1_tie_state_machine.html#a1db5190d9a960042fa0605f7305e91cb">state</a> () const</td></tr>
 <tr class="separator:a1db5190d9a960042fa0605f7305e91cb"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pri-attribs"></a>
+Private Attributes</h2></td></tr>
+<tr class="memitem:af6cb55fb3113460b6d8023b54b8ebe5b"><td class="memItemLeft" align="right" valign="top">std::set&lt; int &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ms_1_1_midi_tie_1_1_tie_state_machine.html#af6cb55fb3113460b6d8023b54b8ebe5b">tiedVoices</a></td></tr>
+<tr class="separator:af6cb55fb3113460b6d8023b54b8ebe5b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a03784187a3430fbfa34299235a7e61cf"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_ms_1_1_midi_tie_1_1_tie_state_machine.html#aad44e1c6121044a62933693a0792bfd4">State</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ms_1_1_midi_tie_1_1_tie_state_machine.html#a03784187a3430fbfa34299235a7e61cf">state_</a> = <a class="el" href="class_ms_1_1_midi_tie_1_1_tie_state_machine.html#aad44e1c6121044a62933693a0792bfd4a85cb094f77ac2c495ad8295d3d9b1383">State::UNTIED</a></td></tr>
+<tr class="separator:a03784187a3430fbfa34299235a7e61cf"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <h2 class="groupheader">Member Enumeration Documentation</h2>
 <a id="aad44e1c6121044a62933693a0792bfd4"></a>
@@ -169,6 +177,51 @@ Public Member Functions</h2></td></tr>
   </td>
   <td class="mlabels-right">
 <span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<h2 class="groupheader">Member Data Documentation</h2>
+<a id="a03784187a3430fbfa34299235a7e61cf"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a03784187a3430fbfa34299235a7e61cf">&#9670;&nbsp;</a></span>state_</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="class_ms_1_1_midi_tie_1_1_tie_state_machine.html#aad44e1c6121044a62933693a0792bfd4">State</a> Ms::MidiTie::TieStateMachine::state_ = <a class="el" href="class_ms_1_1_midi_tie_1_1_tie_state_machine.html#aad44e1c6121044a62933693a0792bfd4a85cb094f77ac2c495ad8295d3d9b1383">State::UNTIED</a></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="af6cb55fb3113460b6d8023b54b8ebe5b"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#af6cb55fb3113460b6d8023b54b8ebe5b">&#9670;&nbsp;</a></span>tiedVoices</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">std::set&lt;int&gt; Ms::MidiTie::TieStateMachine::tiedVoices</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
   </tr>
 </table>
 </div><div class="memdoc">

@@ -23,9 +23,9 @@
   <td id="projectlogo"><img alt="Logo" src="musescore_logo_full.png"/></td>
   <td id="projectalign" style="padding-left: 0.5em;">
    <div id="projectname">MuseScore
-   &#160;<span id="projectnumber">3.1</span>
+   &#160;<span id="projectnumber">3.2</span>
    </div>
-   <div id="projectbrief">Music compisition and notation</div>
+   <div id="projectbrief">Music composition and notation</div>
   </td>
  </tr>
  </tbody>
@@ -68,6 +68,9 @@ $(function() {
   <div class="summary">
 <a href="#signals">Signals</a> &#124;
 <a href="#pub-methods">Public Member Functions</a> &#124;
+<a href="#pri-slots">Private Slots</a> &#124;
+<a href="#pri-methods">Private Member Functions</a> &#124;
+<a href="#pri-attribs">Private Attributes</a> &#124;
 <a href="class_ms_1_1_scale_select-members.html">List of all members</a>  </div>
   <div class="headertitle">
 <div class="title">Ms::ScaleSelect Class Reference</div>  </div>
@@ -105,6 +108,23 @@ Public Member Functions</h2></td></tr>
 <tr class="separator:afd1e7daa4f2328b723597ed453e637e5"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a46b13635c29fb4bf7ab15d108be279b2"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ms_1_1_scale_select.html#a46b13635c29fb4bf7ab15d108be279b2">setLock</a> (bool)</td></tr>
 <tr class="separator:a46b13635c29fb4bf7ab15d108be279b2"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pri-slots"></a>
+Private Slots</h2></td></tr>
+<tr class="memitem:a1b1fffd1944c47ae3a32554e0b87e028"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ms_1_1_scale_select.html#a1b1fffd1944c47ae3a32554e0b87e028">xScaleChanged</a> ()</td></tr>
+<tr class="separator:a1b1fffd1944c47ae3a32554e0b87e028"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a03df5a51c87a348627cd199a5e7edea4"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ms_1_1_scale_select.html#a03df5a51c87a348627cd199a5e7edea4">yScaleChanged</a> ()</td></tr>
+<tr class="separator:a03df5a51c87a348627cd199a5e7edea4"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pri-methods"></a>
+Private Member Functions</h2></td></tr>
+<tr class="memitem:a78679afbfa6e896673f9887c49fc7cd3"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ms_1_1_scale_select.html#a78679afbfa6e896673f9887c49fc7cd3">blockScale</a> (bool val)</td></tr>
+<tr class="separator:a78679afbfa6e896673f9887c49fc7cd3"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pri-attribs"></a>
+Private Attributes</h2></td></tr>
+<tr class="memitem:adb8c67d07870925e865a75eb85f84e44"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ms_1_1_scale_select.html#adb8c67d07870925e865a75eb85f84e44">_lock</a></td></tr>
+<tr class="separator:adb8c67d07870925e865a75eb85f84e44"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
 <a id="a629599ff7c539c2e6dd9637f339cd554"></a>
@@ -126,6 +146,32 @@ Public Member Functions</h2></td></tr>
 </div>
 </div>
 <h2 class="groupheader">Member Function Documentation</h2>
+<a id="a78679afbfa6e896673f9887c49fc7cd3"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a78679afbfa6e896673f9887c49fc7cd3">&#9670;&nbsp;</a></span>blockScale()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void Ms::ScaleSelect::blockScale </td>
+          <td>(</td>
+          <td class="paramtype">bool&#160;</td>
+          <td class="paramname"><em>val</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
 <a id="ac56d5813048136689807788372032cf8"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#ac56d5813048136689807788372032cf8">&#9670;&nbsp;</a></span>scale()</h2>
 
@@ -201,6 +247,79 @@ Public Member Functions</h2></td></tr>
           <td></td>
         </tr>
       </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a1b1fffd1944c47ae3a32554e0b87e028"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a1b1fffd1944c47ae3a32554e0b87e028">&#9670;&nbsp;</a></span>xScaleChanged</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void Ms::ScaleSelect::xScaleChanged </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span><span class="mlabel">slot</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a03df5a51c87a348627cd199a5e7edea4"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a03df5a51c87a348627cd199a5e7edea4">&#9670;&nbsp;</a></span>yScaleChanged</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void Ms::ScaleSelect::yScaleChanged </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span><span class="mlabel">slot</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<h2 class="groupheader">Member Data Documentation</h2>
+<a id="adb8c67d07870925e865a75eb85f84e44"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#adb8c67d07870925e865a75eb85f84e44">&#9670;&nbsp;</a></span>_lock</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool Ms::ScaleSelect::_lock</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
 </div><div class="memdoc">
 
 </div>

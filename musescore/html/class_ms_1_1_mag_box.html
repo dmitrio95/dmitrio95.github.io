@@ -23,9 +23,9 @@
   <td id="projectlogo"><img alt="Logo" src="musescore_logo_full.png"/></td>
   <td id="projectalign" style="padding-left: 0.5em;">
    <div id="projectname">MuseScore
-   &#160;<span id="projectnumber">3.1</span>
+   &#160;<span id="projectnumber">3.2</span>
    </div>
-   <div id="projectbrief">Music compisition and notation</div>
+   <div id="projectbrief">Music composition and notation</div>
   </td>
  </tr>
  </tbody>
@@ -68,6 +68,8 @@ $(function() {
   <div class="summary">
 <a href="#signals">Signals</a> &#124;
 <a href="#pub-methods">Public Member Functions</a> &#124;
+<a href="#pri-slots">Private Slots</a> &#124;
+<a href="#pri-attribs">Private Attributes</a> &#124;
 <a href="class_ms_1_1_mag_box-members.html">List of all members</a>  </div>
   <div class="headertitle">
 <div class="title">Ms::MagBox Class Reference</div>  </div>
@@ -115,6 +117,18 @@ Public Member Functions</h2></td></tr>
 <tr class="separator:a2839d0e39ca2d778a9856897c3fb19ed"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a844b2d93f00a33cbc332e33f2e56f454"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ms_1_1_mag_box.html#a844b2d93f00a33cbc332e33f2e56f454">removeItem</a> (int i)</td></tr>
 <tr class="separator:a844b2d93f00a33cbc332e33f2e56f454"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pri-slots"></a>
+Private Slots</h2></td></tr>
+<tr class="memitem:a8168b89210db8adb83fa76de7031ad37"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ms_1_1_mag_box.html#a8168b89210db8adb83fa76de7031ad37">indexChanged</a> (int)</td></tr>
+<tr class="separator:a8168b89210db8adb83fa76de7031ad37"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac7a7b35e2a797b5ed31323718e6425d5"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ms_1_1_mag_box.html#ac7a7b35e2a797b5ed31323718e6425d5">textChanged</a> ()</td></tr>
+<tr class="separator:ac7a7b35e2a797b5ed31323718e6425d5"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pri-attribs"></a>
+Private Attributes</h2></td></tr>
+<tr class="memitem:a90da5278c2b83c215b7024e3e9fa2f21"><td class="memItemLeft" align="right" valign="top">double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ms_1_1_mag_box.html#a90da5278c2b83c215b7024e3e9fa2f21">freeMag</a></td></tr>
+<tr class="separator:a90da5278c2b83c215b7024e3e9fa2f21"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
 <a id="ae61e3178f20fac37d56d84ccb502d1c2"></a>
@@ -218,6 +232,32 @@ Public Member Functions</h2></td></tr>
           <td> const</td>
         </tr>
       </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a8168b89210db8adb83fa76de7031ad37"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a8168b89210db8adb83fa76de7031ad37">&#9670;&nbsp;</a></span>indexChanged</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void Ms::MagBox::indexChanged </td>
+          <td>(</td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>idx</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span><span class="mlabel">slot</span></span>  </td>
+  </tr>
+</table>
 </div><div class="memdoc">
 
 </div>
@@ -332,6 +372,54 @@ Public Member Functions</h2></td></tr>
           <td></td>
         </tr>
       </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="ac7a7b35e2a797b5ed31323718e6425d5"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ac7a7b35e2a797b5ed31323718e6425d5">&#9670;&nbsp;</a></span>textChanged</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void Ms::MagBox::textChanged </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span><span class="mlabel">slot</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<h2 class="groupheader">Member Data Documentation</h2>
+<a id="a90da5278c2b83c215b7024e3e9fa2f21"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a90da5278c2b83c215b7024e3e9fa2f21">&#9670;&nbsp;</a></span>freeMag</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">double Ms::MagBox::freeMag</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
 </div><div class="memdoc">
 
 </div>

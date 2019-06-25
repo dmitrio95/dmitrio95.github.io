@@ -23,9 +23,9 @@
   <td id="projectlogo"><img alt="Logo" src="musescore_logo_full.png"/></td>
   <td id="projectalign" style="padding-left: 0.5em;">
    <div id="projectname">MuseScore
-   &#160;<span id="projectnumber">3.1</span>
+   &#160;<span id="projectnumber">3.2</span>
    </div>
-   <div id="projectbrief">Music compisition and notation</div>
+   <div id="projectbrief">Music composition and notation</div>
   </td>
  </tr>
  </tbody>
@@ -69,6 +69,7 @@ $(function() {
 <a href="#pub-slots">Public Slots</a> &#124;
 <a href="#signals">Signals</a> &#124;
 <a href="#pub-methods">Public Member Functions</a> &#124;
+<a href="#pri-attribs">Private Attributes</a> &#124;
 <a href="class_ms_1_1_download_utils-members.html">List of all members</a>  </div>
   <div class="headertitle">
 <div class="title">Ms::DownloadUtils Class Reference</div>  </div>
@@ -117,6 +118,19 @@ Public Member Functions</h2></td></tr>
 <tr class="separator:aa220e5c1dbfc2b10b3f7f79d51cce618"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:af7a0b3441b05a793cb11caa6a9ab4f82"><td class="memItemLeft" align="right" valign="top">QByteArray&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ms_1_1_download_utils.html#af7a0b3441b05a793cb11caa6a9ab4f82">returnData</a> ()</td></tr>
 <tr class="separator:af7a0b3441b05a793cb11caa6a9ab4f82"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pri-attribs"></a>
+Private Attributes</h2></td></tr>
+<tr class="memitem:aa34c94954b6fa7f3d0bb6a7726f7f941"><td class="memItemLeft" align="right" valign="top">QByteArray&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ms_1_1_download_utils.html#aa34c94954b6fa7f3d0bb6a7726f7f941">sdata</a></td></tr>
+<tr class="separator:aa34c94954b6fa7f3d0bb6a7726f7f941"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae948f040f14bbf4f8c7d9bfbd9d0a2d1"><td class="memItemLeft" align="right" valign="top">QNetworkAccessManager&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ms_1_1_download_utils.html#ae948f040f14bbf4f8c7d9bfbd9d0a2d1">manager</a></td></tr>
+<tr class="separator:ae948f040f14bbf4f8c7d9bfbd9d0a2d1"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a89884a59cfaf3eb85261a501e5c7e68a"><td class="memItemLeft" align="right" valign="top">QString&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ms_1_1_download_utils.html#a89884a59cfaf3eb85261a501e5c7e68a">_target</a></td></tr>
+<tr class="separator:a89884a59cfaf3eb85261a501e5c7e68a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a26387790f2c8b3b504416b61bdbe1e09"><td class="memItemLeft" align="right" valign="top">QString&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ms_1_1_download_utils.html#a26387790f2c8b3b504416b61bdbe1e09">_localFile</a></td></tr>
+<tr class="separator:a26387790f2c8b3b504416b61bdbe1e09"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a05a2f48d8988aa7e3a6e0d031dceb1b7"><td class="memItemLeft" align="right" valign="top">QProgressDialog *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ms_1_1_download_utils.html#a05a2f48d8988aa7e3a6e0d031dceb1b7">progressDialog</a> = nullptr</td></tr>
+<tr class="separator:a05a2f48d8988aa7e3a6e0d031dceb1b7"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
 <a id="a4c21be8a7a0ab77c2a61d3cfb67aa9e4"></a>
@@ -339,6 +353,117 @@ Public Member Functions</h2></td></tr>
   </td>
   <td class="mlabels-right">
 <span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<h2 class="groupheader">Member Data Documentation</h2>
+<a id="a26387790f2c8b3b504416b61bdbe1e09"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a26387790f2c8b3b504416b61bdbe1e09">&#9670;&nbsp;</a></span>_localFile</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">QString Ms::DownloadUtils::_localFile</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a89884a59cfaf3eb85261a501e5c7e68a"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a89884a59cfaf3eb85261a501e5c7e68a">&#9670;&nbsp;</a></span>_target</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">QString Ms::DownloadUtils::_target</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="ae948f040f14bbf4f8c7d9bfbd9d0a2d1"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ae948f040f14bbf4f8c7d9bfbd9d0a2d1">&#9670;&nbsp;</a></span>manager</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">QNetworkAccessManager Ms::DownloadUtils::manager</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a05a2f48d8988aa7e3a6e0d031dceb1b7"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a05a2f48d8988aa7e3a6e0d031dceb1b7">&#9670;&nbsp;</a></span>progressDialog</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">QProgressDialog* Ms::DownloadUtils::progressDialog = nullptr</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="aa34c94954b6fa7f3d0bb6a7726f7f941"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aa34c94954b6fa7f3d0bb6a7726f7f941">&#9670;&nbsp;</a></span>sdata</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">QByteArray Ms::DownloadUtils::sdata</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
   </tr>
 </table>
 </div><div class="memdoc">

@@ -23,9 +23,9 @@
   <td id="projectlogo"><img alt="Logo" src="musescore_logo_full.png"/></td>
   <td id="projectalign" style="padding-left: 0.5em;">
    <div id="projectname">MuseScore
-   &#160;<span id="projectnumber">3.1</span>
+   &#160;<span id="projectnumber">3.2</span>
    </div>
-   <div id="projectbrief">Music compisition and notation</div>
+   <div id="projectbrief">Music composition and notation</div>
   </td>
  </tr>
  </tbody>
@@ -69,6 +69,9 @@ $(function() {
 <a href="#signals">Signals</a> &#124;
 <a href="#pub-methods">Public Member Functions</a> &#124;
 <a href="#pro-methods">Protected Member Functions</a> &#124;
+<a href="#pri-slots">Private Slots</a> &#124;
+<a href="#pri-methods">Private Member Functions</a> &#124;
+<a href="#pri-attribs">Private Attributes</a> &#124;
 <a href="class_ms_1_1_master_palette-members.html">List of all members</a>  </div>
   <div class="headertitle">
 <div class="title">Ms::MasterPalette Class Reference</div>  </div>
@@ -88,6 +91,10 @@ Collaboration diagram for Ms::MasterPalette:</div>
 <div class="dyncontent">
 <div class="center"><img src="class_ms_1_1_master_palette__coll__graph.png" border="0" usemap="#_ms_1_1_master_palette_coll__map" alt="Collaboration graph"/></div>
 <map name="_ms_1_1_master_palette_coll__map" id="_ms_1_1_master_palette_coll__map">
+<area shape="rect" id="node4" href="class_ms_1_1_key_editor.html" title="Ms::KeyEditor" alt="" coords="173,185,278,212"/>
+<area shape="rect" id="node8" href="class_ms_1_1_palette.html" title="Ms::Palette" alt="" coords="193,81,282,108"/>
+<area shape="rect" id="node9" href="class_ms_1_1_time_dialog.html" title="Ms::TimeDialog" alt="" coords="303,185,418,212"/>
+<area shape="rect" id="node6" href="class_ms_1_1_palette_scroll_area.html" title="Ms::PaletteScrollArea" alt="" coords="358,81,507,108"/>
 </map>
 <center><span class="legend">[<a href="graph_legend.html">legend</a>]</span></center></div>
 <table class="memberdecls">
@@ -113,6 +120,37 @@ Protected Member Functions</h2></td></tr>
 <tr class="separator:acd06d93e4cef3efca7338ee49a1d6a54"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ae7026c9989f9a42a715599075777be17"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ms_1_1_master_palette.html#ae7026c9989f9a42a715599075777be17">keyPressEvent</a> (QKeyEvent *ev)</td></tr>
 <tr class="separator:ae7026c9989f9a42a715599075777be17"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pri-slots"></a>
+Private Slots</h2></td></tr>
+<tr class="memitem:a78bd7f94c676aadf0daa91973a819e49"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ms_1_1_master_palette.html#a78bd7f94c676aadf0daa91973a819e49">currentChanged</a> (QTreeWidgetItem *, QTreeWidgetItem *)</td></tr>
+<tr class="separator:a78bd7f94c676aadf0daa91973a819e49"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab86ffe103b4838a25c9b77adab268feb"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ms_1_1_master_palette.html#ab86ffe103b4838a25c9b77adab268feb">clicked</a> (QTreeWidgetItem *, int)</td></tr>
+<tr class="separator:ab86ffe103b4838a25c9b77adab268feb"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pri-methods"></a>
+Private Member Functions</h2></td></tr>
+<tr class="memitem:a143a1a09c14cb4af7e75df9ab2222d1a"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ms_1_1_master_palette.html#a143a1a09c14cb4af7e75df9ab2222d1a">closeEvent</a> (QCloseEvent *)</td></tr>
+<tr class="separator:a143a1a09c14cb4af7e75df9ab2222d1a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae989f1a784da317113781df25913ac52"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_ms_1_1_palette.html">Palette</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ms_1_1_master_palette.html#ae989f1a784da317113781df25913ac52">createPalette</a> (int w, int h, bool grid, double mag=1.0)</td></tr>
+<tr class="separator:ae989f1a784da317113781df25913ac52"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa8f21436b6e67c82ff305d282b751e32"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ms_1_1_master_palette.html#aa8f21436b6e67c82ff305d282b751e32">addPalette</a> (<a class="el" href="class_ms_1_1_palette.html">Palette</a> *sp)</td></tr>
+<tr class="separator:aa8f21436b6e67c82ff305d282b751e32"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pri-attribs"></a>
+Private Attributes</h2></td></tr>
+<tr class="memitem:ae7953c36f0e5dc9979b1e831558cf399"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_ms_1_1_time_dialog.html">TimeDialog</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ms_1_1_master_palette.html#ae7953c36f0e5dc9979b1e831558cf399">timeDialog</a></td></tr>
+<tr class="separator:ae7953c36f0e5dc9979b1e831558cf399"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a17462aaa18b1b856569e7e992627d749"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_ms_1_1_key_editor.html">KeyEditor</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ms_1_1_master_palette.html#a17462aaa18b1b856569e7e992627d749">keyEditor</a></td></tr>
+<tr class="separator:a17462aaa18b1b856569e7e992627d749"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a968a44a120cad57210b66ceb31229d2b"><td class="memItemLeft" align="right" valign="top">QTreeWidgetItem *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ms_1_1_master_palette.html#a968a44a120cad57210b66ceb31229d2b">keyItem</a></td></tr>
+<tr class="separator:a968a44a120cad57210b66ceb31229d2b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a36c5a95c0c49c8ac699c9a5d48175002"><td class="memItemLeft" align="right" valign="top">QTreeWidgetItem *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ms_1_1_master_palette.html#a36c5a95c0c49c8ac699c9a5d48175002">timeItem</a></td></tr>
+<tr class="separator:a36c5a95c0c49c8ac699c9a5d48175002"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a482b9f92df1c53724bb490544b817c2e"><td class="memItemLeft" align="right" valign="top">QTreeWidgetItem *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ms_1_1_master_palette.html#a482b9f92df1c53724bb490544b817c2e">symbolItem</a></td></tr>
+<tr class="separator:a482b9f92df1c53724bb490544b817c2e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a66464be4b0f1c0d569cfabaafbfb10b4"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ms_1_1_master_palette.html#a66464be4b0f1c0d569cfabaafbfb10b4">idxAllSymbols</a> = -1</td></tr>
+<tr class="separator:a66464be4b0f1c0d569cfabaafbfb10b4"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
 <a id="a24f451176bf51937897cd9b0cb7c06ee"></a>
@@ -134,6 +172,32 @@ Protected Member Functions</h2></td></tr>
 </div>
 </div>
 <h2 class="groupheader">Member Function Documentation</h2>
+<a id="aa8f21436b6e67c82ff305d282b751e32"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aa8f21436b6e67c82ff305d282b751e32">&#9670;&nbsp;</a></span>addPalette()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void Ms::MasterPalette::addPalette </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="class_ms_1_1_palette.html">Palette</a> *&#160;</td>
+          <td class="paramname"><em>sp</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
 <a id="afba06de9f49062108db7bc171c2476b4"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#afba06de9f49062108db7bc171c2476b4">&#9670;&nbsp;</a></span>changeEvent()</h2>
 
@@ -160,6 +224,42 @@ Protected Member Functions</h2></td></tr>
 
 </div>
 </div>
+<a id="ab86ffe103b4838a25c9b77adab268feb"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ab86ffe103b4838a25c9b77adab268feb">&#9670;&nbsp;</a></span>clicked</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void Ms::MasterPalette::clicked </td>
+          <td>(</td>
+          <td class="paramtype">QTreeWidgetItem *&#160;</td>
+          <td class="paramname"><em>item</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname">&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span><span class="mlabel">slot</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
 <a id="ab63de28dbad82b19c4bdd2d3f7e5a5e7"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#ab63de28dbad82b19c4bdd2d3f7e5a5e7">&#9670;&nbsp;</a></span>closed</h2>
 
@@ -180,6 +280,116 @@ Protected Member Functions</h2></td></tr>
   </td>
   <td class="mlabels-right">
 <span class="mlabels"><span class="mlabel">signal</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a143a1a09c14cb4af7e75df9ab2222d1a"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a143a1a09c14cb4af7e75df9ab2222d1a">&#9670;&nbsp;</a></span>closeEvent()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void Ms::MasterPalette::closeEvent </td>
+          <td>(</td>
+          <td class="paramtype">QCloseEvent *&#160;</td>
+          <td class="paramname"><em>ev</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span><span class="mlabel">virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="ae989f1a784da317113781df25913ac52"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ae989f1a784da317113781df25913ac52">&#9670;&nbsp;</a></span>createPalette()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="class_ms_1_1_palette.html">Palette</a> * Ms::MasterPalette::createPalette </td>
+          <td>(</td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>w</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>h</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">bool&#160;</td>
+          <td class="paramname"><em>grid</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">double&#160;</td>
+          <td class="paramname"><em>mag</em> = <code>1.0</code>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a78bd7f94c676aadf0daa91973a819e49"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a78bd7f94c676aadf0daa91973a819e49">&#9670;&nbsp;</a></span>currentChanged</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void Ms::MasterPalette::currentChanged </td>
+          <td>(</td>
+          <td class="paramtype">QTreeWidgetItem *&#160;</td>
+          <td class="paramname"><em>item</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">QTreeWidgetItem *&#160;</td>
+          <td class="paramname">&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span><span class="mlabel">slot</span></span>  </td>
   </tr>
 </table>
 </div><div class="memdoc">
@@ -269,6 +479,139 @@ Protected Member Functions</h2></td></tr>
           <td></td>
         </tr>
       </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<h2 class="groupheader">Member Data Documentation</h2>
+<a id="a66464be4b0f1c0d569cfabaafbfb10b4"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a66464be4b0f1c0d569cfabaafbfb10b4">&#9670;&nbsp;</a></span>idxAllSymbols</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">int Ms::MasterPalette::idxAllSymbols = -1</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a17462aaa18b1b856569e7e992627d749"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a17462aaa18b1b856569e7e992627d749">&#9670;&nbsp;</a></span>keyEditor</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="class_ms_1_1_key_editor.html">KeyEditor</a>* Ms::MasterPalette::keyEditor</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a968a44a120cad57210b66ceb31229d2b"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a968a44a120cad57210b66ceb31229d2b">&#9670;&nbsp;</a></span>keyItem</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">QTreeWidgetItem* Ms::MasterPalette::keyItem</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a482b9f92df1c53724bb490544b817c2e"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a482b9f92df1c53724bb490544b817c2e">&#9670;&nbsp;</a></span>symbolItem</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">QTreeWidgetItem* Ms::MasterPalette::symbolItem</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="ae7953c36f0e5dc9979b1e831558cf399"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ae7953c36f0e5dc9979b1e831558cf399">&#9670;&nbsp;</a></span>timeDialog</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="class_ms_1_1_time_dialog.html">TimeDialog</a>* Ms::MasterPalette::timeDialog</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a36c5a95c0c49c8ac699c9a5d48175002"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a36c5a95c0c49c8ac699c9a5d48175002">&#9670;&nbsp;</a></span>timeItem</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">QTreeWidgetItem* Ms::MasterPalette::timeItem</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
 </div><div class="memdoc">
 
 </div>

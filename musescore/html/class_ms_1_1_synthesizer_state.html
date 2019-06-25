@@ -23,9 +23,9 @@
   <td id="projectlogo"><img alt="Logo" src="musescore_logo_full.png"/></td>
   <td id="projectalign" style="padding-left: 0.5em;">
    <div id="projectname">MuseScore
-   &#160;<span id="projectnumber">3.1</span>
+   &#160;<span id="projectnumber">3.2</span>
    </div>
-   <div id="projectbrief">Music compisition and notation</div>
+   <div id="projectbrief">Music composition and notation</div>
   </td>
  </tr>
  </tbody>
@@ -67,6 +67,7 @@ $(function() {
 <div class="header">
   <div class="summary">
 <a href="#pub-methods">Public Member Functions</a> &#124;
+<a href="#pri-attribs">Private Attributes</a> &#124;
 <a href="class_ms_1_1_synthesizer_state-members.html">List of all members</a>  </div>
   <div class="headertitle">
 <div class="title">Ms::SynthesizerState Class Reference</div>  </div>
@@ -95,8 +96,8 @@ Public Member Functions</h2></td></tr>
 <tr class="separator:a65321e96ef7a8ca623da0ce424d5ee08"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a0067b5a52c1529ea374bec452446f2e9"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ms_1_1_synthesizer_state.html#a0067b5a52c1529ea374bec452446f2e9">SynthesizerState</a> ()</td></tr>
 <tr class="separator:a0067b5a52c1529ea374bec452446f2e9"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aabc47251003d9131b6425b476bd7533a"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ms_1_1_synthesizer_state.html#aabc47251003d9131b6425b476bd7533a">write</a> (<a class="el" href="class_ms_1_1_xml_writer.html">XmlWriter</a> &amp;) const</td></tr>
-<tr class="separator:aabc47251003d9131b6425b476bd7533a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a2984dba6adbcd0dd9b17bea8592a4c69"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ms_1_1_synthesizer_state.html#a2984dba6adbcd0dd9b17bea8592a4c69">write</a> (<a class="el" href="class_ms_1_1_xml_writer.html">XmlWriter</a> &amp;, bool force=false) const</td></tr>
+<tr class="separator:a2984dba6adbcd0dd9b17bea8592a4c69"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a0be2aab38a583681071e6e05d8162071"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ms_1_1_synthesizer_state.html#a0be2aab38a583681071e6e05d8162071">read</a> (<a class="el" href="class_ms_1_1_xml_reader.html">XmlReader</a> &amp;)</td></tr>
 <tr class="separator:a0be2aab38a583681071e6e05d8162071"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:addbb693dd4dcdaf908c6c7a2046d2ff4"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_ms_1_1_synthesizer_group.html">SynthesizerGroup</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ms_1_1_synthesizer_state.html#addbb693dd4dcdaf908c6c7a2046d2ff4">group</a> (const QString &amp;name) const</td></tr>
@@ -109,6 +110,15 @@ Public Member Functions</h2></td></tr>
 <tr class="separator:a4366db7ce56fdc0c2b15df64fc985cfd"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a1e6c336e0076dc44dee7d08e03d65789"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ms_1_1_synthesizer_state.html#a1e6c336e0076dc44dee7d08e03d65789">method</a> () const</td></tr>
 <tr class="separator:a1e6c336e0076dc44dee7d08e03d65789"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a59e722ed6c3539467204b7c03c885b53"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ms_1_1_synthesizer_state.html#a59e722ed6c3539467204b7c03c885b53">isDefault</a> () const</td></tr>
+<tr class="separator:a59e722ed6c3539467204b7c03c885b53"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a18f0b5d39a54fe885bee093c98b2627f"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ms_1_1_synthesizer_state.html#a18f0b5d39a54fe885bee093c98b2627f">setIsDefault</a> (bool val)</td></tr>
+<tr class="separator:a18f0b5d39a54fe885bee093c98b2627f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pri-attribs"></a>
+Private Attributes</h2></td></tr>
+<tr class="memitem:adc05b2122827dfb79097292dae7584cd"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ms_1_1_synthesizer_state.html#adc05b2122827dfb79097292dae7584cd">_isDefault</a> { true }</td></tr>
+<tr class="separator:adc05b2122827dfb79097292dae7584cd"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
 <a id="a65321e96ef7a8ca623da0ce424d5ee08"></a>
@@ -200,6 +210,31 @@ Public Member Functions</h2></td></tr>
 
 </div>
 </div>
+<a id="a59e722ed6c3539467204b7c03c885b53"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a59e722ed6c3539467204b7c03c885b53">&#9670;&nbsp;</a></span>isDefault()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool Ms::SynthesizerState::isDefault </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
 <a id="aa308307dab5d80434cea75cff5355ad9"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#aa308307dab5d80434cea75cff5355ad9">&#9670;&nbsp;</a></span>isDefaultSynthSoundfont()</h2>
 
@@ -254,8 +289,34 @@ Public Member Functions</h2></td></tr>
 
 </div>
 </div>
-<a id="aabc47251003d9131b6425b476bd7533a"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#aabc47251003d9131b6425b476bd7533a">&#9670;&nbsp;</a></span>write()</h2>
+<a id="a18f0b5d39a54fe885bee093c98b2627f"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a18f0b5d39a54fe885bee093c98b2627f">&#9670;&nbsp;</a></span>setIsDefault()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void Ms::SynthesizerState::setIsDefault </td>
+          <td>(</td>
+          <td class="paramtype">bool&#160;</td>
+          <td class="paramname"><em>val</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a2984dba6adbcd0dd9b17bea8592a4c69"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a2984dba6adbcd0dd9b17bea8592a4c69">&#9670;&nbsp;</a></span>write()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -264,10 +325,43 @@ Public Member Functions</h2></td></tr>
           <td class="memname">void Ms::SynthesizerState::write </td>
           <td>(</td>
           <td class="paramtype"><a class="el" href="class_ms_1_1_xml_writer.html">XmlWriter</a> &amp;&#160;</td>
-          <td class="paramname"><em>xml</em></td><td>)</td>
-          <td> const</td>
+          <td class="paramname"><em>xml</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">bool&#160;</td>
+          <td class="paramname"><em>force</em> = <code>false</code>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td> const</td>
         </tr>
       </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<h2 class="groupheader">Member Data Documentation</h2>
+<a id="adc05b2122827dfb79097292dae7584cd"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#adc05b2122827dfb79097292dae7584cd">&#9670;&nbsp;</a></span>_isDefault</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool Ms::SynthesizerState::_isDefault { true }</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
 </div><div class="memdoc">
 
 </div>

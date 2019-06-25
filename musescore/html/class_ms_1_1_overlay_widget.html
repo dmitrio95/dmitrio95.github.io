@@ -23,9 +23,9 @@
   <td id="projectlogo"><img alt="Logo" src="musescore_logo_full.png"/></td>
   <td id="projectalign" style="padding-left: 0.5em;">
    <div id="projectname">MuseScore
-   &#160;<span id="projectnumber">3.1</span>
+   &#160;<span id="projectnumber">3.2</span>
    </div>
-   <div id="projectbrief">Music compisition and notation</div>
+   <div id="projectbrief">Music composition and notation</div>
   </td>
  </tr>
  </tbody>
@@ -67,6 +67,8 @@ $(function() {
 <div class="header">
   <div class="summary">
 <a href="#pub-methods">Public Member Functions</a> &#124;
+<a href="#pri-methods">Private Member Functions</a> &#124;
+<a href="#pri-attribs">Private Attributes</a> &#124;
 <a href="class_ms_1_1_overlay_widget-members.html">List of all members</a>  </div>
   <div class="headertitle">
 <div class="title">Ms::OverlayWidget Class Reference</div>  </div>
@@ -93,6 +95,22 @@ Collaboration diagram for Ms::OverlayWidget:</div>
 Public Member Functions</h2></td></tr>
 <tr class="memitem:abbe3b1de6620db766c80046d9e9bb8f3"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ms_1_1_overlay_widget.html#abbe3b1de6620db766c80046d9e9bb8f3">OverlayWidget</a> (QList&lt; QWidget *&gt; widgetList, QWidget *parent=0)</td></tr>
 <tr class="separator:abbe3b1de6620db766c80046d9e9bb8f3"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pri-methods"></a>
+Private Member Functions</h2></td></tr>
+<tr class="memitem:ae1509a5f07c9986c8d897a994cf6cf03"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ms_1_1_overlay_widget.html#ae1509a5f07c9986c8d897a994cf6cf03">newParent</a> ()</td></tr>
+<tr class="separator:ae1509a5f07c9986c8d897a994cf6cf03"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa8b57d903979c96b6b5335d63473a339"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ms_1_1_overlay_widget.html#aa8b57d903979c96b6b5335d63473a339">eventFilter</a> (QObject *obj, QEvent *ev)</td></tr>
+<tr class="separator:aa8b57d903979c96b6b5335d63473a339"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae89ce749989193ce6a4c2d653be13976"><td class="memItemLeft" align="right" valign="top">virtual bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ms_1_1_overlay_widget.html#ae89ce749989193ce6a4c2d653be13976">event</a> (QEvent *ev)</td></tr>
+<tr class="separator:ae89ce749989193ce6a4c2d653be13976"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a725deaa6864267e66f9282c82dc856b6"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ms_1_1_overlay_widget.html#a725deaa6864267e66f9282c82dc856b6">paintEvent</a> (QPaintEvent *)</td></tr>
+<tr class="separator:a725deaa6864267e66f9282c82dc856b6"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pri-attribs"></a>
+Private Attributes</h2></td></tr>
+<tr class="memitem:ad105af56ea238bd4c0f04a8f21fa1e0f"><td class="memItemLeft" align="right" valign="top">QList&lt; QWidget * &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ms_1_1_overlay_widget.html#ad105af56ea238bd4c0f04a8f21fa1e0f">widgets</a></td></tr>
+<tr class="separator:ad105af56ea238bd4c0f04a8f21fa1e0f"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
 <a id="abbe3b1de6620db766c80046d9e9bb8f3"></a>
@@ -119,6 +137,143 @@ Public Member Functions</h2></td></tr>
           <td></td><td></td>
         </tr>
       </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<h2 class="groupheader">Member Function Documentation</h2>
+<a id="ae89ce749989193ce6a4c2d653be13976"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ae89ce749989193ce6a4c2d653be13976">&#9670;&nbsp;</a></span>event()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool Ms::OverlayWidget::event </td>
+          <td>(</td>
+          <td class="paramtype">QEvent *&#160;</td>
+          <td class="paramname"><em>ev</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span><span class="mlabel">virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="aa8b57d903979c96b6b5335d63473a339"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aa8b57d903979c96b6b5335d63473a339">&#9670;&nbsp;</a></span>eventFilter()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool Ms::OverlayWidget::eventFilter </td>
+          <td>(</td>
+          <td class="paramtype">QObject *&#160;</td>
+          <td class="paramname"><em>obj</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">QEvent *&#160;</td>
+          <td class="paramname"><em>ev</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="ae1509a5f07c9986c8d897a994cf6cf03"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ae1509a5f07c9986c8d897a994cf6cf03">&#9670;&nbsp;</a></span>newParent()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void Ms::OverlayWidget::newParent </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a725deaa6864267e66f9282c82dc856b6"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a725deaa6864267e66f9282c82dc856b6">&#9670;&nbsp;</a></span>paintEvent()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void Ms::OverlayWidget::paintEvent </td>
+          <td>(</td>
+          <td class="paramtype">QPaintEvent *&#160;</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span><span class="mlabel">virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<h2 class="groupheader">Member Data Documentation</h2>
+<a id="ad105af56ea238bd4c0f04a8f21fa1e0f"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ad105af56ea238bd4c0f04a8f21fa1e0f">&#9670;&nbsp;</a></span>widgets</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">QList&lt;QWidget*&gt; Ms::OverlayWidget::widgets</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
 </div><div class="memdoc">
 
 </div>

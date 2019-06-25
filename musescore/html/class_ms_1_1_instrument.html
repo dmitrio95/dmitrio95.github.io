@@ -23,9 +23,9 @@
   <td id="projectlogo"><img alt="Logo" src="musescore_logo_full.png"/></td>
   <td id="projectalign" style="padding-left: 0.5em;">
    <div id="projectname">MuseScore
-   &#160;<span id="projectnumber">3.1</span>
+   &#160;<span id="projectnumber">3.2</span>
    </div>
-   <div id="projectbrief">Music compisition and notation</div>
+   <div id="projectbrief">Music composition and notation</div>
   </td>
  </tr>
  </tbody>
@@ -68,6 +68,7 @@ $(function() {
   <div class="summary">
 <a href="#pub-methods">Public Member Functions</a> &#124;
 <a href="#pub-static-methods">Static Public Member Functions</a> &#124;
+<a href="#pri-attribs">Private Attributes</a> &#124;
 <a href="class_ms_1_1_instrument-members.html">List of all members</a>  </div>
   <div class="headertitle">
 <div class="title">Ms::Instrument Class Reference</div>  </div>
@@ -75,6 +76,18 @@ $(function() {
 <div class="contents">
 
 <p><code>#include &lt;<a class="el" href="libmscore_2instrument_8h_source.html">instrument.h</a>&gt;</code></p>
+<div class="dynheader">
+Collaboration diagram for Ms::Instrument:</div>
+<div class="dyncontent">
+<div class="center"><img src="class_ms_1_1_instrument__coll__graph.png" border="0" usemap="#_ms_1_1_instrument_coll__map" alt="Collaboration graph"/></div>
+<map name="_ms_1_1_instrument_coll__map" id="_ms_1_1_instrument_coll__map">
+<area shape="rect" id="node2" href="struct_ms_1_1_interval.html" title="Ms::Interval" alt="" coords="5,95,96,121"/>
+<area shape="rect" id="node3" href="class_ms_1_1_drumset.html" title="Ms::Drumset" alt="" coords="120,95,219,121"/>
+<area shape="rect" id="node4" href="struct_ms_1_1_drum_instrument.html" title="Ms::DrumInstrument" alt="" coords="98,5,241,32"/>
+<area shape="rect" id="node5" href="class_ms_1_1_string_data.html" title="Ms::StringData" alt="" coords="243,95,354,121"/>
+<area shape="rect" id="node6" href="class_ms_1_1_staff_name_list.html" title="Ms::StaffNameList" alt="" coords="378,95,510,121"/>
+</map>
+<center><span class="legend">[<a href="graph_legend.html">legend</a>]</span></center></div>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
@@ -200,13 +213,50 @@ Public Member Functions</h2></td></tr>
 <tr class="separator:a160d3ef857a14f9df0cd6bbfd82e9451"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a8d1c7e7b3a5bf5e792e04df9fd61136f"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ms_1_1_instrument.html#a8d1c7e7b3a5bf5e792e04df9fd61136f">getSingleNoteDynamicsFromTemplate</a> () const</td></tr>
 <tr class="separator:a8d1c7e7b3a5bf5e792e04df9fd61136f"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a073bfdc2ce0a047f4ec03df7306e13b0"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ms_1_1_instrument.html#a073bfdc2ce0a047f4ec03df7306e13b0">switchExpressive</a> (<a class="el" href="class_ms_1_1_master_synthesizer.html">MasterSynthesizer</a> *m, bool expressive, bool force=false)</td></tr>
-<tr class="separator:a073bfdc2ce0a047f4ec03df7306e13b0"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a84f06a49a29e528741636c9c5b443933"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ms_1_1_instrument.html#a84f06a49a29e528741636c9c5b443933">switchExpressive</a> (<a class="el" href="class_ms_1_1_master_score.html">MasterScore</a> *score, <a class="el" href="class_ms_1_1_synthesizer.html">Synthesizer</a> *synth, bool expressive, bool force=false)</td></tr>
+<tr class="separator:a84f06a49a29e528741636c9c5b443933"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-static-methods"></a>
 Static Public Member Functions</h2></td></tr>
 <tr class="memitem:a65d8e0fadc7e6d2b6cd64c37094ed43e"><td class="memItemLeft" align="right" valign="top">static <a class="el" href="class_ms_1_1_instrument.html">Instrument</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ms_1_1_instrument.html#a65d8e0fadc7e6d2b6cd64c37094ed43e">fromTemplate</a> (const <a class="el" href="class_ms_1_1_instrument_template.html">InstrumentTemplate</a> *t)</td></tr>
 <tr class="separator:a65d8e0fadc7e6d2b6cd64c37094ed43e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pri-attribs"></a>
+Private Attributes</h2></td></tr>
+<tr class="memitem:a3cb5223999e0fdcef5d68c628755ea1e"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_ms_1_1_staff_name_list.html">StaffNameList</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ms_1_1_instrument.html#a3cb5223999e0fdcef5d68c628755ea1e">_longNames</a></td></tr>
+<tr class="separator:a3cb5223999e0fdcef5d68c628755ea1e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a8996813624d27837891d8b977b57ba2d"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_ms_1_1_staff_name_list.html">StaffNameList</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ms_1_1_instrument.html#a8996813624d27837891d8b977b57ba2d">_shortNames</a></td></tr>
+<tr class="separator:a8996813624d27837891d8b977b57ba2d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a1357081a5c35fc332264fdb3d8091ea1"><td class="memItemLeft" align="right" valign="top">QString&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ms_1_1_instrument.html#a1357081a5c35fc332264fdb3d8091ea1">_trackName</a></td></tr>
+<tr class="separator:a1357081a5c35fc332264fdb3d8091ea1"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a8816abd01b707804e43ad457362c8475"><td class="memItemLeft" align="right" valign="top">char&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ms_1_1_instrument.html#a8816abd01b707804e43ad457362c8475">_minPitchA</a></td></tr>
+<tr class="separator:a8816abd01b707804e43ad457362c8475"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa46380eaf2aea7b04d39cf38f7f4d43a"><td class="memItemLeft" align="right" valign="top">char&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ms_1_1_instrument.html#aa46380eaf2aea7b04d39cf38f7f4d43a">_maxPitchA</a></td></tr>
+<tr class="separator:aa46380eaf2aea7b04d39cf38f7f4d43a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aab65a2b4426f303f2ad139ccb40ee1fa"><td class="memItemLeft" align="right" valign="top">char&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ms_1_1_instrument.html#aab65a2b4426f303f2ad139ccb40ee1fa">_minPitchP</a></td></tr>
+<tr class="separator:aab65a2b4426f303f2ad139ccb40ee1fa"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a622a4288ee532710538ecffa7a125d95"><td class="memItemLeft" align="right" valign="top">char&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ms_1_1_instrument.html#a622a4288ee532710538ecffa7a125d95">_maxPitchP</a></td></tr>
+<tr class="separator:a622a4288ee532710538ecffa7a125d95"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aad067956c7ac22dae3d71e15555be181"><td class="memItemLeft" align="right" valign="top"><a class="el" href="struct_ms_1_1_interval.html">Interval</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ms_1_1_instrument.html#aad067956c7ac22dae3d71e15555be181">_transpose</a></td></tr>
+<tr class="separator:aad067956c7ac22dae3d71e15555be181"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ade891452f15073b4a465f01978769cca"><td class="memItemLeft" align="right" valign="top">QString&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ms_1_1_instrument.html#ade891452f15073b4a465f01978769cca">_instrumentId</a></td></tr>
+<tr class="separator:ade891452f15073b4a465f01978769cca"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a96949db5a1edcd04dd644478f5db92d0"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ms_1_1_instrument.html#a96949db5a1edcd04dd644478f5db92d0">_useDrumset</a></td></tr>
+<tr class="separator:a96949db5a1edcd04dd644478f5db92d0"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aad092ba47eb06e1d75e6c03d29e13cd8"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_ms_1_1_drumset.html">Drumset</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ms_1_1_instrument.html#aad092ba47eb06e1d75e6c03d29e13cd8">_drumset</a></td></tr>
+<tr class="separator:aad092ba47eb06e1d75e6c03d29e13cd8"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a4374b6fbfad4a0d7767319acc66736f5"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_ms_1_1_string_data.html">StringData</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ms_1_1_instrument.html#a4374b6fbfad4a0d7767319acc66736f5">_stringData</a></td></tr>
+<tr class="separator:a4374b6fbfad4a0d7767319acc66736f5"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac5c07717fd240588bca2583f7380e9d3"><td class="memItemLeft" align="right" valign="top">QList&lt; <a class="el" href="struct_ms_1_1_named_event_list.html">NamedEventList</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ms_1_1_instrument.html#ac5c07717fd240588bca2583f7380e9d3">_midiActions</a></td></tr>
+<tr class="separator:ac5c07717fd240588bca2583f7380e9d3"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac0ecfd0ac53c2d8a0f9f95af6d22e5d4"><td class="memItemLeft" align="right" valign="top">QList&lt; <a class="el" href="struct_ms_1_1_midi_articulation.html">MidiArticulation</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ms_1_1_instrument.html#ac0ecfd0ac53c2d8a0f9f95af6d22e5d4">_articulation</a></td></tr>
+<tr class="separator:ac0ecfd0ac53c2d8a0f9f95af6d22e5d4"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa91e3cfba9e728a9b655130c4530576f"><td class="memItemLeft" align="right" valign="top">QList&lt; <a class="el" href="class_ms_1_1_channel.html">Channel</a> * &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ms_1_1_instrument.html#aa91e3cfba9e728a9b655130c4530576f">_channel</a></td></tr>
+<tr class="separator:aa91e3cfba9e728a9b655130c4530576f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aab5eb9d170fdedae06075b4675f3dfaf"><td class="memItemLeft" align="right" valign="top">QList&lt; <a class="el" href="struct_ms_1_1_clef_type_list.html">ClefTypeList</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ms_1_1_instrument.html#aab5eb9d170fdedae06075b4675f3dfaf">_clefType</a></td></tr>
+<tr class="separator:aab5eb9d170fdedae06075b4675f3dfaf"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a09ffc63605c3c633a099b1c3491ac776"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ms_1_1_instrument.html#a09ffc63605c3c633a099b1c3491ac776">_singleNoteDynamics</a></td></tr>
+<tr class="separator:a09ffc63605c3c633a099b1c3491ac776"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
 <a id="a1c7b4bbce5c8ca36a89c33b853b6d805"></a>
@@ -1482,8 +1532,8 @@ Static Public Member Functions</h2></td></tr>
 
 </div>
 </div>
-<a id="a073bfdc2ce0a047f4ec03df7306e13b0"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a073bfdc2ce0a047f4ec03df7306e13b0">&#9670;&nbsp;</a></span>switchExpressive()</h2>
+<a id="a84f06a49a29e528741636c9c5b443933"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a84f06a49a29e528741636c9c5b443933">&#9670;&nbsp;</a></span>switchExpressive()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -1491,8 +1541,14 @@ Static Public Member Functions</h2></td></tr>
         <tr>
           <td class="memname">void Ms::Instrument::switchExpressive </td>
           <td>(</td>
-          <td class="paramtype"><a class="el" href="class_ms_1_1_master_synthesizer.html">MasterSynthesizer</a> *&#160;</td>
-          <td class="paramname"><em>m</em>, </td>
+          <td class="paramtype"><a class="el" href="class_ms_1_1_master_score.html">MasterScore</a> *&#160;</td>
+          <td class="paramname"><em>score</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="class_ms_1_1_synthesizer.html">Synthesizer</a> *&#160;</td>
+          <td class="paramname"><em>synth</em>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
@@ -1675,6 +1731,381 @@ Static Public Member Functions</h2></td></tr>
           <td></td><td> const</td>
         </tr>
       </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<h2 class="groupheader">Member Data Documentation</h2>
+<a id="ac0ecfd0ac53c2d8a0f9f95af6d22e5d4"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ac0ecfd0ac53c2d8a0f9f95af6d22e5d4">&#9670;&nbsp;</a></span>_articulation</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">QList&lt;<a class="el" href="struct_ms_1_1_midi_articulation.html">MidiArticulation</a>&gt; Ms::Instrument::_articulation</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="aa91e3cfba9e728a9b655130c4530576f"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aa91e3cfba9e728a9b655130c4530576f">&#9670;&nbsp;</a></span>_channel</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">QList&lt;<a class="el" href="class_ms_1_1_channel.html">Channel</a>*&gt; Ms::Instrument::_channel</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="aab5eb9d170fdedae06075b4675f3dfaf"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aab5eb9d170fdedae06075b4675f3dfaf">&#9670;&nbsp;</a></span>_clefType</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">QList&lt;<a class="el" href="struct_ms_1_1_clef_type_list.html">ClefTypeList</a>&gt; Ms::Instrument::_clefType</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="aad092ba47eb06e1d75e6c03d29e13cd8"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aad092ba47eb06e1d75e6c03d29e13cd8">&#9670;&nbsp;</a></span>_drumset</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="class_ms_1_1_drumset.html">Drumset</a>* Ms::Instrument::_drumset</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="ade891452f15073b4a465f01978769cca"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ade891452f15073b4a465f01978769cca">&#9670;&nbsp;</a></span>_instrumentId</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">QString Ms::Instrument::_instrumentId</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a3cb5223999e0fdcef5d68c628755ea1e"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a3cb5223999e0fdcef5d68c628755ea1e">&#9670;&nbsp;</a></span>_longNames</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="class_ms_1_1_staff_name_list.html">StaffNameList</a> Ms::Instrument::_longNames</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="aa46380eaf2aea7b04d39cf38f7f4d43a"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aa46380eaf2aea7b04d39cf38f7f4d43a">&#9670;&nbsp;</a></span>_maxPitchA</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">char Ms::Instrument::_maxPitchA</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a622a4288ee532710538ecffa7a125d95"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a622a4288ee532710538ecffa7a125d95">&#9670;&nbsp;</a></span>_maxPitchP</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">char Ms::Instrument::_maxPitchP</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="ac5c07717fd240588bca2583f7380e9d3"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ac5c07717fd240588bca2583f7380e9d3">&#9670;&nbsp;</a></span>_midiActions</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">QList&lt;<a class="el" href="struct_ms_1_1_named_event_list.html">NamedEventList</a>&gt; Ms::Instrument::_midiActions</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a8816abd01b707804e43ad457362c8475"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a8816abd01b707804e43ad457362c8475">&#9670;&nbsp;</a></span>_minPitchA</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">char Ms::Instrument::_minPitchA</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="aab65a2b4426f303f2ad139ccb40ee1fa"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aab65a2b4426f303f2ad139ccb40ee1fa">&#9670;&nbsp;</a></span>_minPitchP</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">char Ms::Instrument::_minPitchP</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a8996813624d27837891d8b977b57ba2d"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a8996813624d27837891d8b977b57ba2d">&#9670;&nbsp;</a></span>_shortNames</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="class_ms_1_1_staff_name_list.html">StaffNameList</a> Ms::Instrument::_shortNames</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a09ffc63605c3c633a099b1c3491ac776"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a09ffc63605c3c633a099b1c3491ac776">&#9670;&nbsp;</a></span>_singleNoteDynamics</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool Ms::Instrument::_singleNoteDynamics</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a4374b6fbfad4a0d7767319acc66736f5"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a4374b6fbfad4a0d7767319acc66736f5">&#9670;&nbsp;</a></span>_stringData</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="class_ms_1_1_string_data.html">StringData</a> Ms::Instrument::_stringData</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a1357081a5c35fc332264fdb3d8091ea1"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a1357081a5c35fc332264fdb3d8091ea1">&#9670;&nbsp;</a></span>_trackName</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">QString Ms::Instrument::_trackName</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="aad067956c7ac22dae3d71e15555be181"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aad067956c7ac22dae3d71e15555be181">&#9670;&nbsp;</a></span>_transpose</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="struct_ms_1_1_interval.html">Interval</a> Ms::Instrument::_transpose</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a96949db5a1edcd04dd644478f5db92d0"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a96949db5a1edcd04dd644478f5db92d0">&#9670;&nbsp;</a></span>_useDrumset</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool Ms::Instrument::_useDrumset</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
 </div><div class="memdoc">
 
 </div>

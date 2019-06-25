@@ -23,9 +23,9 @@
   <td id="projectlogo"><img alt="Logo" src="musescore_logo_full.png"/></td>
   <td id="projectalign" style="padding-left: 0.5em;">
    <div id="projectname">MuseScore
-   &#160;<span id="projectnumber">3.1</span>
+   &#160;<span id="projectnumber">3.2</span>
    </div>
-   <div id="projectbrief">Music compisition and notation</div>
+   <div id="projectbrief">Music composition and notation</div>
   </td>
  </tr>
  </tbody>
@@ -69,6 +69,9 @@ $(function() {
 <a href="#pub-static-methods">Static Public Member Functions</a> &#124;
 <a href="#pub-attribs">Public Attributes</a> &#124;
 <a href="#pub-static-attribs">Static Public Attributes</a> &#124;
+<a href="#pri-methods">Private Member Functions</a> &#124;
+<a href="#pri-static-methods">Static Private Member Functions</a> &#124;
+<a href="#pri-static-attribs">Static Private Attributes</a> &#124;
 <a href="class_ms_1_1_api_info-members.html">List of all members</a>  </div>
   <div class="headertitle">
 <div class="title">Ms::ApiInfo Class Reference</div>  </div>
@@ -76,6 +79,13 @@ $(function() {
 <div class="contents">
 
 <p><code>#include &lt;<a class="el" href="loginmanager__p_8h_source.html">loginmanager_p.h</a>&gt;</code></p>
+<div class="dynheader">
+Collaboration diagram for Ms::ApiInfo:</div>
+<div class="dyncontent">
+<div class="center"><img src="class_ms_1_1_api_info__coll__graph.png" border="0" usemap="#_ms_1_1_api_info_coll__map" alt="Collaboration graph"/></div>
+<map name="_ms_1_1_api_info_coll__map" id="_ms_1_1_api_info_coll__map">
+</map>
+<center><span class="legend">[<a href="graph_legend.html">legend</a>]</span></center></div>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-static-methods"></a>
 Static Public Member Functions</h2></td></tr>
@@ -111,8 +121,196 @@ Static Public Attributes</h2></td></tr>
 <tr class="separator:ac4479a55776a66f97f5dd647e4ed9f15"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a25f0a3da7f22199f2660befc59d7a1a6"><td class="memItemLeft" align="right" valign="top">static const QUrl&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ms_1_1_api_info.html#a25f0a3da7f22199f2660befc59d7a1a6">loginSuccessUrl</a></td></tr>
 <tr class="separator:a25f0a3da7f22199f2660befc59d7a1a6"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pri-methods"></a>
+Private Member Functions</h2></td></tr>
+<tr class="memitem:a8236e886255a98dad384123a7b2aa7ba"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ms_1_1_api_info.html#a8236e886255a98dad384123a7b2aa7ba">ApiInfo</a> (QByteArray <a class="el" href="class_ms_1_1_api_info.html#a96c3ef4dcea87948b01927fa5196e073">clientId</a>, QByteArray <a class="el" href="class_ms_1_1_api_info.html#ab69af463952b3a4f793ee20b53094231">apiKey</a>)</td></tr>
+<tr class="separator:a8236e886255a98dad384123a7b2aa7ba"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a0188f96813ce17240b00d77b5b653fc7"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ms_1_1_api_info.html#a0188f96813ce17240b00d77b5b653fc7">ApiInfo</a> (const <a class="el" href="class_ms_1_1_api_info.html">ApiInfo</a> &amp;)=delete</td></tr>
+<tr class="separator:a0188f96813ce17240b00d77b5b653fc7"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a8f9a2f8fd92bbeeab144fa6d04662741"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_ms_1_1_api_info.html">ApiInfo</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ms_1_1_api_info.html#a8f9a2f8fd92bbeeab144fa6d04662741">operator=</a> (const <a class="el" href="class_ms_1_1_api_info.html">ApiInfo</a> &amp;)=delete</td></tr>
+<tr class="separator:a8f9a2f8fd92bbeeab144fa6d04662741"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pri-static-methods"></a>
+Static Private Member Functions</h2></td></tr>
+<tr class="memitem:a770f9d92aa301bb2345dd39dacd8aa0a"><td class="memItemLeft" align="right" valign="top">static QByteArray&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ms_1_1_api_info.html#a770f9d92aa301bb2345dd39dacd8aa0a">genClientId</a> ()</td></tr>
+<tr class="separator:a770f9d92aa301bb2345dd39dacd8aa0a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a10d1c15b98f72ca5b083076d5d0a1527"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ms_1_1_api_info.html#a10d1c15b98f72ca5b083076d5d0a1527">createInstance</a> ()</td></tr>
+<tr class="separator:a10d1c15b98f72ca5b083076d5d0a1527"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:afc952ac14d63ab70ba978efc7a70149f"><td class="memItemLeft" align="right" valign="top">static QString&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ms_1_1_api_info.html#afc952ac14d63ab70ba978efc7a70149f">apiInfoLocation</a> ()</td></tr>
+<tr class="separator:afc952ac14d63ab70ba978efc7a70149f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae0da23f758df3f52d9a74f11b47cd80a"><td class="memItemLeft" align="right" valign="top">static QString&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ms_1_1_api_info.html#ae0da23f758df3f52d9a74f11b47cd80a">getOsInfo</a> ()</td></tr>
+<tr class="separator:ae0da23f758df3f52d9a74f11b47cd80a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pri-static-attribs"></a>
+Static Private Attributes</h2></td></tr>
+<tr class="memitem:a89fa2e2dd31fe3d21dbd87683d8c4afb"><td class="memItemLeft" align="right" valign="top">static <a class="el" href="class_ms_1_1_api_info.html">ApiInfo</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ms_1_1_api_info.html#a89fa2e2dd31fe3d21dbd87683d8c4afb">_instance</a> = nullptr</td></tr>
+<tr class="separator:a89fa2e2dd31fe3d21dbd87683d8c4afb"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
+<h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
+<a id="a8236e886255a98dad384123a7b2aa7ba"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a8236e886255a98dad384123a7b2aa7ba">&#9670;&nbsp;</a></span>ApiInfo() <span class="overload">[1/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">Ms::ApiInfo::ApiInfo </td>
+          <td>(</td>
+          <td class="paramtype">QByteArray&#160;</td>
+          <td class="paramname"><em>clientId</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">QByteArray&#160;</td>
+          <td class="paramname"><em>apiKey</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a0188f96813ce17240b00d77b5b653fc7"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a0188f96813ce17240b00d77b5b653fc7">&#9670;&nbsp;</a></span>ApiInfo() <span class="overload">[2/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">Ms::ApiInfo::ApiInfo </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="class_ms_1_1_api_info.html">ApiInfo</a> &amp;&#160;</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span><span class="mlabel">delete</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
 <h2 class="groupheader">Member Function Documentation</h2>
+<a id="afc952ac14d63ab70ba978efc7a70149f"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#afc952ac14d63ab70ba978efc7a70149f">&#9670;&nbsp;</a></span>apiInfoLocation()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">QString Ms::ApiInfo::apiInfoLocation </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a10d1c15b98f72ca5b083076d5d0a1527"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a10d1c15b98f72ca5b083076d5d0a1527">&#9670;&nbsp;</a></span>createInstance()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void Ms::ApiInfo::createInstance </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a770f9d92aa301bb2345dd39dacd8aa0a"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a770f9d92aa301bb2345dd39dacd8aa0a">&#9670;&nbsp;</a></span>genClientId()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">QByteArray Ms::ApiInfo::genClientId </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="ae0da23f758df3f52d9a74f11b47cd80a"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ae0da23f758df3f52d9a74f11b47cd80a">&#9670;&nbsp;</a></span>getOsInfo()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">QString Ms::ApiInfo::getOsInfo </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
 <a id="a7f6312c849ce7777ee4af89e2166742d"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a7f6312c849ce7777ee4af89e2166742d">&#9670;&nbsp;</a></span>instance()</h2>
 
@@ -138,7 +336,55 @@ Static Public Attributes</h2></td></tr>
 
 </div>
 </div>
+<a id="a8f9a2f8fd92bbeeab144fa6d04662741"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a8f9a2f8fd92bbeeab144fa6d04662741">&#9670;&nbsp;</a></span>operator=()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="class_ms_1_1_api_info.html">ApiInfo</a>&amp; Ms::ApiInfo::operator= </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="class_ms_1_1_api_info.html">ApiInfo</a> &amp;&#160;</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span><span class="mlabel">delete</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
 <h2 class="groupheader">Member Data Documentation</h2>
+<a id="a89fa2e2dd31fe3d21dbd87683d8c4afb"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a89fa2e2dd31fe3d21dbd87683d8c4afb">&#9670;&nbsp;</a></span>_instance</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="class_ms_1_1_api_info.html">ApiInfo</a> * Ms::ApiInfo::_instance = nullptr</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
 <a id="a4b14135d45cd3344b55899eb9f3c4bbb"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a4b14135d45cd3344b55899eb9f3c4bbb">&#9670;&nbsp;</a></span>apiHost</h2>
 

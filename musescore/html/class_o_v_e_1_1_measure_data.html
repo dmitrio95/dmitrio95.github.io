@@ -23,9 +23,9 @@
   <td id="projectlogo"><img alt="Logo" src="musescore_logo_full.png"/></td>
   <td id="projectalign" style="padding-left: 0.5em;">
    <div id="projectname">MuseScore
-   &#160;<span id="projectnumber">3.1</span>
+   &#160;<span id="projectnumber">3.2</span>
    </div>
-   <div id="projectbrief">Music compisition and notation</div>
+   <div id="projectbrief">Music composition and notation</div>
   </td>
  </tr>
  </tbody>
@@ -68,6 +68,7 @@ $(function() {
   <div class="summary">
 <a href="#pub-types">Public Types</a> &#124;
 <a href="#pub-methods">Public Member Functions</a> &#124;
+<a href="#pri-attribs">Private Attributes</a> &#124;
 <a href="class_o_v_e_1_1_measure_data-members.html">List of all members</a>  </div>
   <div class="headertitle">
 <div class="title">OVE::MeasureData Class Reference</div>  </div>
@@ -75,6 +76,21 @@ $(function() {
 <div class="contents">
 
 <p><code>#include &lt;<a class="el" href="ove_8h_source.html">ove.h</a>&gt;</code></p>
+<div class="dynheader">
+Collaboration diagram for OVE::MeasureData:</div>
+<div class="dyncontent">
+<div class="center"><img src="class_o_v_e_1_1_measure_data__coll__graph.png" border="0" usemap="#_o_v_e_1_1_measure_data_coll__map" alt="Collaboration graph"/></div>
+<map name="_o_v_e_1_1_measure_data_coll__map" id="_o_v_e_1_1_measure_data_coll__map">
+<area shape="rect" id="node2" href="class_o_v_e_1_1_key.html" title="OVE::Key" alt="" coords="185,261,266,288"/>
+<area shape="rect" id="node3" href="class_o_v_e_1_1_music_data.html" title="OVE::MusicData" alt="" coords="165,185,286,212"/>
+<area shape="rect" id="node8" href="class_o_v_e_1_1_clef.html" title="OVE::Clef" alt="" coords="77,261,160,288"/>
+<area shape="rect" id="node4" href="class_o_v_e_1_1_tick_element.html" title="OVE::TickElement" alt="" coords="5,109,136,136"/>
+<area shape="rect" id="node5" href="class_o_v_e_1_1_pair_element.html" title="OVE::PairElement" alt="" coords="161,109,290,136"/>
+<area shape="rect" id="node6" href="class_o_v_e_1_1_measure_pos.html" title="OVE::MeasurePos" alt="" coords="160,5,291,32"/>
+<area shape="rect" id="node7" href="class_o_v_e_1_1_offset_element.html" title="OVE::OffsetElement" alt="" coords="314,109,457,136"/>
+<area shape="rect" id="node9" href="class_o_v_e_1_1_line_element.html" title="OVE::LineElement" alt="" coords="9,185,140,212"/>
+</map>
+<center><span class="legend">[<a href="graph_legend.html">legend</a>]</span></center></div>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-types"></a>
 Public Types</h2></td></tr>
@@ -110,6 +126,21 @@ Public Member Functions</h2></td></tr>
 <tr class="separator:afca2264c8d7892d08dc51796dc7894dd"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a0d92a2e69d5df46e73af4d1a5e570061"><td class="memItemLeft" align="right" valign="top">QList&lt; <a class="el" href="class_o_v_e_1_1_midi_data.html">MidiData</a> * &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_o_v_e_1_1_measure_data.html#a0d92a2e69d5df46e73af4d1a5e570061">getMidiDatas</a> (<a class="el" href="namespace_o_v_e.html#abcaadcb7b35e7eacb1e4b4e8212729bf">MidiType</a> type)</td></tr>
 <tr class="separator:a0d92a2e69d5df46e73af4d1a5e570061"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pri-attribs"></a>
+Private Attributes</h2></td></tr>
+<tr class="memitem:ad352ca84a19b28e30f3c13c9506f03f0"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_o_v_e_1_1_key.html">Key</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_o_v_e_1_1_measure_data.html#ad352ca84a19b28e30f3c13c9506f03f0">key_</a></td></tr>
+<tr class="separator:ad352ca84a19b28e30f3c13c9506f03f0"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a1b1f1bd0592d032dedbf1851acd536c0"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_o_v_e_1_1_clef.html">Clef</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_o_v_e_1_1_measure_data.html#a1b1f1bd0592d032dedbf1851acd536c0">clef_</a></td></tr>
+<tr class="separator:a1b1f1bd0592d032dedbf1851acd536c0"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab70ab2396304c8ad0d3702041ea5a8ed"><td class="memItemLeft" align="right" valign="top">QList&lt; <a class="el" href="class_o_v_e_1_1_music_data.html">MusicData</a> * &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_o_v_e_1_1_measure_data.html#ab70ab2396304c8ad0d3702041ea5a8ed">musicDatas_</a></td></tr>
+<tr class="separator:ab70ab2396304c8ad0d3702041ea5a8ed"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a151f4eeb88dc3e42d517e885caa9ee9f"><td class="memItemLeft" align="right" valign="top">QList&lt; <a class="el" href="class_o_v_e_1_1_note_container.html">NoteContainer</a> * &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_o_v_e_1_1_measure_data.html#a151f4eeb88dc3e42d517e885caa9ee9f">noteContainers_</a></td></tr>
+<tr class="separator:a151f4eeb88dc3e42d517e885caa9ee9f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a4f49bbf043cd404df862bcce120be235"><td class="memItemLeft" align="right" valign="top">QList&lt; QPair&lt; <a class="el" href="class_o_v_e_1_1_music_data.html">MusicData</a> *, bool &gt; &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_o_v_e_1_1_measure_data.html#a4f49bbf043cd404df862bcce120be235">crossMeasureElements_</a></td></tr>
+<tr class="separator:a4f49bbf043cd404df862bcce120be235"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a66ca5f766fda62e32d06927c66a4a881"><td class="memItemLeft" align="right" valign="top">QList&lt; <a class="el" href="class_o_v_e_1_1_midi_data.html">MidiData</a> * &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_o_v_e_1_1_measure_data.html#a66ca5f766fda62e32d06927c66a4a881">midiDatas_</a></td></tr>
+<tr class="separator:a66ca5f766fda62e32d06927c66a4a881"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <h2 class="groupheader">Member Enumeration Documentation</h2>
 <a id="a6965835bc213a8ea3c2a4db2ed7e4280"></a>
@@ -368,6 +399,139 @@ Public Member Functions</h2></td></tr>
           <td> const</td>
         </tr>
       </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<h2 class="groupheader">Member Data Documentation</h2>
+<a id="a1b1f1bd0592d032dedbf1851acd536c0"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a1b1f1bd0592d032dedbf1851acd536c0">&#9670;&nbsp;</a></span>clef_</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="class_o_v_e_1_1_clef.html">Clef</a>* OVE::MeasureData::clef_</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a4f49bbf043cd404df862bcce120be235"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a4f49bbf043cd404df862bcce120be235">&#9670;&nbsp;</a></span>crossMeasureElements_</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">QList&lt;QPair&lt;<a class="el" href="class_o_v_e_1_1_music_data.html">MusicData</a>*, bool&gt; &gt; OVE::MeasureData::crossMeasureElements_</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="ad352ca84a19b28e30f3c13c9506f03f0"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ad352ca84a19b28e30f3c13c9506f03f0">&#9670;&nbsp;</a></span>key_</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="class_o_v_e_1_1_key.html">Key</a>* OVE::MeasureData::key_</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a66ca5f766fda62e32d06927c66a4a881"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a66ca5f766fda62e32d06927c66a4a881">&#9670;&nbsp;</a></span>midiDatas_</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">QList&lt;<a class="el" href="class_o_v_e_1_1_midi_data.html">MidiData</a>*&gt; OVE::MeasureData::midiDatas_</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="ab70ab2396304c8ad0d3702041ea5a8ed"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ab70ab2396304c8ad0d3702041ea5a8ed">&#9670;&nbsp;</a></span>musicDatas_</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">QList&lt;<a class="el" href="class_o_v_e_1_1_music_data.html">MusicData</a>*&gt; OVE::MeasureData::musicDatas_</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a151f4eeb88dc3e42d517e885caa9ee9f"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a151f4eeb88dc3e42d517e885caa9ee9f">&#9670;&nbsp;</a></span>noteContainers_</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">QList&lt;<a class="el" href="class_o_v_e_1_1_note_container.html">NoteContainer</a>*&gt; OVE::MeasureData::noteContainers_</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
 </div><div class="memdoc">
 
 </div>

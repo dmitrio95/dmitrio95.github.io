@@ -23,9 +23,9 @@
   <td id="projectlogo"><img alt="Logo" src="musescore_logo_full.png"/></td>
   <td id="projectalign" style="padding-left: 0.5em;">
    <div id="projectname">MuseScore
-   &#160;<span id="projectnumber">3.1</span>
+   &#160;<span id="projectnumber">3.2</span>
    </div>
-   <div id="projectbrief">Music compisition and notation</div>
+   <div id="projectbrief">Music composition and notation</div>
   </td>
  </tr>
  </tbody>
@@ -68,6 +68,8 @@ $(function() {
   <div class="summary">
 <a href="#pub-methods">Public Member Functions</a> &#124;
 <a href="#pub-static-methods">Static Public Member Functions</a> &#124;
+<a href="#pri-static-methods">Static Private Member Functions</a> &#124;
+<a href="#pri-attribs">Private Attributes</a> &#124;
 <a href="class_ms_1_1_location-members.html">List of all members</a>  </div>
   <div class="headertitle">
 <div class="title">Ms::Location Class Reference</div>  </div>
@@ -75,10 +77,18 @@ $(function() {
 <div class="contents">
 
 <p><code>#include &lt;<a class="el" href="location_8h_source.html">location.h</a>&gt;</code></p>
+<div class="dynheader">
+Collaboration diagram for Ms::Location:</div>
+<div class="dyncontent">
+<div class="center"><img src="class_ms_1_1_location__coll__graph.png" border="0" usemap="#_ms_1_1_location_coll__map" alt="Collaboration graph"/></div>
+<map name="_ms_1_1_location_coll__map" id="_ms_1_1_location_coll__map">
+<area shape="rect" id="node2" href="class_ms_1_1_fraction.html" title="Ms::Fraction" alt="" coords="7,5,101,32"/>
+</map>
+<center><span class="legend">[<a href="graph_legend.html">legend</a>]</span></center></div>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
-<tr class="memitem:ad9403bbf0848082d0b81c29b57b00d53"><td class="memItemLeft" align="right" valign="top">constexpr&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ms_1_1_location.html#ad9403bbf0848082d0b81c29b57b00d53">Location</a> (int <a class="el" href="class_ms_1_1_location.html#a7bac9f08cd471bad510e5c5a28dafbd7">staff</a>, int <a class="el" href="class_ms_1_1_location.html#aa868da30e8c21965c578e7ba64ec1ad5">voice</a>, int measure, <a class="el" href="class_ms_1_1_fraction.html">Fraction</a> <a class="el" href="class_ms_1_1_location.html#a5ab359860cd03dc01a421c587590b687">frac</a>, int graceIndex, int note, bool rel)</td></tr>
+<tr class="memitem:ad9403bbf0848082d0b81c29b57b00d53"><td class="memItemLeft" align="right" valign="top">constexpr&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ms_1_1_location.html#ad9403bbf0848082d0b81c29b57b00d53">Location</a> (int <a class="el" href="class_ms_1_1_location.html#a7bac9f08cd471bad510e5c5a28dafbd7">staff</a>, int <a class="el" href="class_ms_1_1_location.html#aa868da30e8c21965c578e7ba64ec1ad5">voice</a>, int <a class="el" href="class_ms_1_1_location.html#a3476b8fd1d1e13154efac7a87f5b41d2">measure</a>, <a class="el" href="class_ms_1_1_fraction.html">Fraction</a> <a class="el" href="class_ms_1_1_location.html#a5ab359860cd03dc01a421c587590b687">frac</a>, int <a class="el" href="class_ms_1_1_location.html#acae5fc28269cb63a830573b98af14898">graceIndex</a>, int <a class="el" href="class_ms_1_1_location.html#a9f74c1d22fd6414e6f786ce893956c63">note</a>, bool rel)</td></tr>
 <tr class="separator:ad9403bbf0848082d0b81c29b57b00d53"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a0e44cfc2291553b01f44dd4029d4bde9"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ms_1_1_location.html#a0e44cfc2291553b01f44dd4029d4bde9">toAbsolute</a> (const <a class="el" href="class_ms_1_1_location.html">Location</a> &amp;ref)</td></tr>
 <tr class="separator:a0e44cfc2291553b01f44dd4029d4bde9"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -102,11 +112,11 @@ Public Member Functions</h2></td></tr>
 <tr class="separator:ad01d192f9992c1e8d6f4a1d8596e72ca"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a1bc53f202854d359dd72f47c19d21096"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ms_1_1_location.html#a1bc53f202854d359dd72f47c19d21096">track</a> () const</td></tr>
 <tr class="separator:a1bc53f202854d359dd72f47c19d21096"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a69b23e067a444eb6bd6a19c84ed5f2cb"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ms_1_1_location.html#a69b23e067a444eb6bd6a19c84ed5f2cb">setTrack</a> (int track)</td></tr>
+<tr class="memitem:a69b23e067a444eb6bd6a19c84ed5f2cb"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ms_1_1_location.html#a69b23e067a444eb6bd6a19c84ed5f2cb">setTrack</a> (int <a class="el" href="class_ms_1_1_location.html#a41d0d6a1d3f61a3c7c108b9680bc2fa4">track</a>)</td></tr>
 <tr class="separator:a69b23e067a444eb6bd6a19c84ed5f2cb"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ade4fdb94623d611aafa1e85fb7ac4bc7"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ms_1_1_location.html#ade4fdb94623d611aafa1e85fb7ac4bc7">measure</a> () const</td></tr>
 <tr class="separator:ade4fdb94623d611aafa1e85fb7ac4bc7"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ac16dd3d754673f2c67e3a5225b0b078f"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ms_1_1_location.html#ac16dd3d754673f2c67e3a5225b0b078f">setMeasure</a> (int measure)</td></tr>
+<tr class="memitem:ac16dd3d754673f2c67e3a5225b0b078f"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ms_1_1_location.html#ac16dd3d754673f2c67e3a5225b0b078f">setMeasure</a> (int <a class="el" href="class_ms_1_1_location.html#a3476b8fd1d1e13154efac7a87f5b41d2">measure</a>)</td></tr>
 <tr class="separator:ac16dd3d754673f2c67e3a5225b0b078f"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a5ab359860cd03dc01a421c587590b687"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_ms_1_1_fraction.html">Fraction</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ms_1_1_location.html#a5ab359860cd03dc01a421c587590b687">frac</a> () const</td></tr>
 <tr class="separator:a5ab359860cd03dc01a421c587590b687"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -118,7 +128,7 @@ Public Member Functions</h2></td></tr>
 <tr class="separator:a23fb6854f67a2a8600d196d8aaf72fce"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a9bc90b67259cc6690fddfeffcff40024"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ms_1_1_location.html#a9bc90b67259cc6690fddfeffcff40024">note</a> () const</td></tr>
 <tr class="separator:a9bc90b67259cc6690fddfeffcff40024"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a52ffa3615073c4ad95def46dba2c27bb"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ms_1_1_location.html#a52ffa3615073c4ad95def46dba2c27bb">setNote</a> (int note)</td></tr>
+<tr class="memitem:a52ffa3615073c4ad95def46dba2c27bb"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ms_1_1_location.html#a52ffa3615073c4ad95def46dba2c27bb">setNote</a> (int <a class="el" href="class_ms_1_1_location.html#a9f74c1d22fd6414e6f786ce893956c63">note</a>)</td></tr>
 <tr class="separator:a52ffa3615073c4ad95def46dba2c27bb"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:abbc7cd580d3538ee1f0b141479ba9713"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ms_1_1_location.html#abbc7cd580d3538ee1f0b141479ba9713">fillForElement</a> (const <a class="el" href="class_ms_1_1_element.html">Element</a> *e, bool absfrac=true)</td></tr>
 <tr class="separator:abbc7cd580d3538ee1f0b141479ba9713"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -141,6 +151,34 @@ Static Public Member Functions</h2></td></tr>
 <tr class="separator:adaa470b25380a2b96499f941b14b99e6"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a544482e587691796c62eefe08d1973b3"><td class="memItemLeft" align="right" valign="top">static QVariant&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ms_1_1_location.html#a544482e587691796c62eefe08d1973b3">getLocationProperty</a> (<a class="el" href="namespace_ms.html#aa0f871cf8181cec31d68d20a39010655">Pid</a> pid, const <a class="el" href="class_ms_1_1_element.html">Element</a> *start, const <a class="el" href="class_ms_1_1_element.html">Element</a> *end)</td></tr>
 <tr class="separator:a544482e587691796c62eefe08d1973b3"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pri-static-methods"></a>
+Static Private Member Functions</h2></td></tr>
+<tr class="memitem:a41d0d6a1d3f61a3c7c108b9680bc2fa4"><td class="memItemLeft" align="right" valign="top">static int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ms_1_1_location.html#a41d0d6a1d3f61a3c7c108b9680bc2fa4">track</a> (const <a class="el" href="class_ms_1_1_element.html">Element</a> *e)</td></tr>
+<tr class="separator:a41d0d6a1d3f61a3c7c108b9680bc2fa4"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a3476b8fd1d1e13154efac7a87f5b41d2"><td class="memItemLeft" align="right" valign="top">static int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ms_1_1_location.html#a3476b8fd1d1e13154efac7a87f5b41d2">measure</a> (const <a class="el" href="class_ms_1_1_element.html">Element</a> *e)</td></tr>
+<tr class="separator:a3476b8fd1d1e13154efac7a87f5b41d2"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:acae5fc28269cb63a830573b98af14898"><td class="memItemLeft" align="right" valign="top">static int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ms_1_1_location.html#acae5fc28269cb63a830573b98af14898">graceIndex</a> (const <a class="el" href="class_ms_1_1_element.html">Element</a> *e)</td></tr>
+<tr class="separator:acae5fc28269cb63a830573b98af14898"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9f74c1d22fd6414e6f786ce893956c63"><td class="memItemLeft" align="right" valign="top">static int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ms_1_1_location.html#a9f74c1d22fd6414e6f786ce893956c63">note</a> (const <a class="el" href="class_ms_1_1_element.html">Element</a> *e)</td></tr>
+<tr class="separator:a9f74c1d22fd6414e6f786ce893956c63"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pri-attribs"></a>
+Private Attributes</h2></td></tr>
+<tr class="memitem:a3ec2d0c5a6b46b885b31950b4f573885"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ms_1_1_location.html#a3ec2d0c5a6b46b885b31950b4f573885">_staff</a></td></tr>
+<tr class="separator:a3ec2d0c5a6b46b885b31950b4f573885"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a4ccf2126c3f3b8831c71dd5c7b1f80c3"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ms_1_1_location.html#a4ccf2126c3f3b8831c71dd5c7b1f80c3">_voice</a></td></tr>
+<tr class="separator:a4ccf2126c3f3b8831c71dd5c7b1f80c3"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aafbc79b692d192ae4e18a722aab51398"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ms_1_1_location.html#aafbc79b692d192ae4e18a722aab51398">_measure</a></td></tr>
+<tr class="separator:aafbc79b692d192ae4e18a722aab51398"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aef9d796bc79fd674dfbd32e755288b70"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_ms_1_1_fraction.html">Fraction</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ms_1_1_location.html#aef9d796bc79fd674dfbd32e755288b70">_frac</a></td></tr>
+<tr class="separator:aef9d796bc79fd674dfbd32e755288b70"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a3790df5c490a3ae938e34694e63f94a4"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ms_1_1_location.html#a3790df5c490a3ae938e34694e63f94a4">_graceIndex</a></td></tr>
+<tr class="separator:a3790df5c490a3ae938e34694e63f94a4"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a851216dbc58581e687806786944f1b3d"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ms_1_1_location.html#a851216dbc58581e687806786944f1b3d">_note</a></td></tr>
+<tr class="separator:a851216dbc58581e687806786944f1b3d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a8780b0772d719a0358d1380d7e3e154e"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ms_1_1_location.html#a8780b0772d719a0358d1380d7e3e154e">_rel</a></td></tr>
+<tr class="separator:a8780b0772d719a0358d1380d7e3e154e"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
 <a id="ad9403bbf0848082d0b81c29b57b00d53"></a>
@@ -394,8 +432,34 @@ Static Public Member Functions</h2></td></tr>
 
 </div>
 </div>
+<a id="acae5fc28269cb63a830573b98af14898"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#acae5fc28269cb63a830573b98af14898">&#9670;&nbsp;</a></span>graceIndex() <span class="overload">[1/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">int Ms::Location::graceIndex </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="class_ms_1_1_element.html">Element</a> *&#160;</td>
+          <td class="paramname"><em>e</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
 <a id="a7d5be279d14924d689847755198aee2e"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a7d5be279d14924d689847755198aee2e">&#9670;&nbsp;</a></span>graceIndex()</h2>
+<h2 class="memtitle"><span class="permalink"><a href="#a7d5be279d14924d689847755198aee2e">&#9670;&nbsp;</a></span>graceIndex() <span class="overload">[2/2]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -469,8 +533,34 @@ Static Public Member Functions</h2></td></tr>
 
 </div>
 </div>
+<a id="a3476b8fd1d1e13154efac7a87f5b41d2"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a3476b8fd1d1e13154efac7a87f5b41d2">&#9670;&nbsp;</a></span>measure() <span class="overload">[1/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">int Ms::Location::measure </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="class_ms_1_1_element.html">Element</a> *&#160;</td>
+          <td class="paramname"><em>e</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
 <a id="ade4fdb94623d611aafa1e85fb7ac4bc7"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ade4fdb94623d611aafa1e85fb7ac4bc7">&#9670;&nbsp;</a></span>measure()</h2>
+<h2 class="memtitle"><span class="permalink"><a href="#ade4fdb94623d611aafa1e85fb7ac4bc7">&#9670;&nbsp;</a></span>measure() <span class="overload">[2/2]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -494,8 +584,34 @@ Static Public Member Functions</h2></td></tr>
 
 </div>
 </div>
+<a id="a9f74c1d22fd6414e6f786ce893956c63"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a9f74c1d22fd6414e6f786ce893956c63">&#9670;&nbsp;</a></span>note() <span class="overload">[1/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">int Ms::Location::note </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="class_ms_1_1_element.html">Element</a> *&#160;</td>
+          <td class="paramname"><em>e</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
 <a id="a9bc90b67259cc6690fddfeffcff40024"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a9bc90b67259cc6690fddfeffcff40024">&#9670;&nbsp;</a></span>note()</h2>
+<h2 class="memtitle"><span class="permalink"><a href="#a9bc90b67259cc6690fddfeffcff40024">&#9670;&nbsp;</a></span>note() <span class="overload">[2/2]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -877,8 +993,34 @@ Static Public Member Functions</h2></td></tr>
 
 </div>
 </div>
+<a id="a41d0d6a1d3f61a3c7c108b9680bc2fa4"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a41d0d6a1d3f61a3c7c108b9680bc2fa4">&#9670;&nbsp;</a></span>track() <span class="overload">[1/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">int Ms::Location::track </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="class_ms_1_1_element.html">Element</a> *&#160;</td>
+          <td class="paramname"><em>e</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
 <a id="a1bc53f202854d359dd72f47c19d21096"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a1bc53f202854d359dd72f47c19d21096">&#9670;&nbsp;</a></span>track()</h2>
+<h2 class="memtitle"><span class="permalink"><a href="#a1bc53f202854d359dd72f47c19d21096">&#9670;&nbsp;</a></span>track() <span class="overload">[2/2]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -933,6 +1075,161 @@ Static Public Member Functions</h2></td></tr>
           <td> const</td>
         </tr>
       </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<h2 class="groupheader">Member Data Documentation</h2>
+<a id="aef9d796bc79fd674dfbd32e755288b70"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aef9d796bc79fd674dfbd32e755288b70">&#9670;&nbsp;</a></span>_frac</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="class_ms_1_1_fraction.html">Fraction</a> Ms::Location::_frac</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a3790df5c490a3ae938e34694e63f94a4"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a3790df5c490a3ae938e34694e63f94a4">&#9670;&nbsp;</a></span>_graceIndex</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">int Ms::Location::_graceIndex</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="aafbc79b692d192ae4e18a722aab51398"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aafbc79b692d192ae4e18a722aab51398">&#9670;&nbsp;</a></span>_measure</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">int Ms::Location::_measure</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a851216dbc58581e687806786944f1b3d"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a851216dbc58581e687806786944f1b3d">&#9670;&nbsp;</a></span>_note</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">int Ms::Location::_note</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a8780b0772d719a0358d1380d7e3e154e"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a8780b0772d719a0358d1380d7e3e154e">&#9670;&nbsp;</a></span>_rel</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool Ms::Location::_rel</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a3ec2d0c5a6b46b885b31950b4f573885"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a3ec2d0c5a6b46b885b31950b4f573885">&#9670;&nbsp;</a></span>_staff</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">int Ms::Location::_staff</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a4ccf2126c3f3b8831c71dd5c7b1f80c3"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a4ccf2126c3f3b8831c71dd5c7b1f80c3">&#9670;&nbsp;</a></span>_voice</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">int Ms::Location::_voice</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
 </div><div class="memdoc">
 
 </div>

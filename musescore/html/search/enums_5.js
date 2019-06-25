@@ -17,5 +17,8 @@ var searchData=
   ['fontstyle',['FontStyle',['../namespace_ms.html#ab69e8e4e677a596f2c21790a67c08d09',1,'Ms']]],
   ['form',['Form',['../namespace_ms.html#a3369cc1ece2bbd874c148455b5db4b86',1,'Ms']]],
   ['formatid',['FormatId',['../namespace_ms.html#a69eba1766628127a01f8696ae423a508',1,'Ms']]],
-  ['frametype',['FrameType',['../namespace_ms.html#aedc59a3a65f9263aae682d29eec0af8d',1,'Ms']]]
+  ['formattype',['FormatType',['../class_audio_file.html#a0c980369ca14b85d127ccbf9a13d75c5',1,'AudioFile']]],
+  ['frametype',['FrameType',['../namespace_ms.html#aedc59a3a65f9263aae682d29eec0af8d',1,'Ms']]],
+  ['fretdottype',['FretDotType',['../namespace_ms.html#a171cca9e9c08954d3d6d9a3b446b456b',1,'Ms']]],
+  ['fretmarkertype',['FretMarkerType',['../namespace_ms.html#afe960eecdb956f5f84171893e42ecdc4',1,'Ms']]]
 ];

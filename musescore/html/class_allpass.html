@@ -23,9 +23,9 @@
   <td id="projectlogo"><img alt="Logo" src="musescore_logo_full.png"/></td>
   <td id="projectalign" style="padding-left: 0.5em;">
    <div id="projectname">MuseScore
-   &#160;<span id="projectnumber">3.1</span>
+   &#160;<span id="projectnumber">3.2</span>
    </div>
-   <div id="projectbrief">Music compisition and notation</div>
+   <div id="projectbrief">Music composition and notation</div>
   </td>
  </tr>
  </tbody>
@@ -63,6 +63,7 @@ $(function() {
 <div class="header">
   <div class="summary">
 <a href="#pub-methods">Public Member Functions</a> &#124;
+<a href="#pri-attribs">Private Attributes</a> &#124;
 <a href="class_allpass-members.html">List of all members</a>  </div>
   <div class="headertitle">
 <div class="title">Allpass Class Reference</div>  </div>
@@ -81,6 +82,17 @@ Public Member Functions</h2></td></tr>
 <tr class="separator:a45a0944019b0f8e3bc2dede781e45d93"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a0a993592a7f3563c007d0966e7a92643"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_allpass.html#a0a993592a7f3563c007d0966e7a92643">process</a> (float _input)</td></tr>
 <tr class="separator:a0a993592a7f3563c007d0966e7a92643"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pri-attribs"></a>
+Private Attributes</h2></td></tr>
+<tr class="memitem:a671b4ee68c5c1a414c075bb917744c30"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_allpass.html#a671b4ee68c5c1a414c075bb917744c30">feedback</a></td></tr>
+<tr class="separator:a671b4ee68c5c1a414c075bb917744c30"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac4abbea4ddad371aec970a296b28829e"><td class="memItemLeft" align="right" valign="top">float *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_allpass.html#ac4abbea4ddad371aec970a296b28829e">buffer</a></td></tr>
+<tr class="separator:ac4abbea4ddad371aec970a296b28829e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae8415fa902ce361176b782dc4e93300c"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_allpass.html#ae8415fa902ce361176b782dc4e93300c">bufsize</a></td></tr>
+<tr class="separator:ae8415fa902ce361176b782dc4e93300c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab5ca3bd9157149a9bc41bfde088c1d85"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_allpass.html#ab5ca3bd9157149a9bc41bfde088c1d85">bufidx</a></td></tr>
+<tr class="separator:ab5ca3bd9157149a9bc41bfde088c1d85"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <h2 class="groupheader">Member Function Documentation</h2>
 <a id="a45a0944019b0f8e3bc2dede781e45d93"></a>
@@ -172,6 +184,95 @@ Public Member Functions</h2></td></tr>
   </td>
   <td class="mlabels-right">
 <span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<h2 class="groupheader">Member Data Documentation</h2>
+<a id="ac4abbea4ddad371aec970a296b28829e"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ac4abbea4ddad371aec970a296b28829e">&#9670;&nbsp;</a></span>buffer</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">float* Allpass::buffer</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="ab5ca3bd9157149a9bc41bfde088c1d85"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ab5ca3bd9157149a9bc41bfde088c1d85">&#9670;&nbsp;</a></span>bufidx</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">int Allpass::bufidx</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="ae8415fa902ce361176b782dc4e93300c"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ae8415fa902ce361176b782dc4e93300c">&#9670;&nbsp;</a></span>bufsize</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">int Allpass::bufsize</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a671b4ee68c5c1a414c075bb917744c30"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a671b4ee68c5c1a414c075bb917744c30">&#9670;&nbsp;</a></span>feedback</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">float Allpass::feedback</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
   </tr>
 </table>
 </div><div class="memdoc">

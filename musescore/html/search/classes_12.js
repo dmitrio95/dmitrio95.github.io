@@ -1,6 +1,7 @@
 var searchData=
 [
   ['radoninfo',['RadonInfo',['../class_ms_1_1_radon_info.html',1,'Ms']]],
+  ['rangemap',['RangeMap',['../class_ms_1_1_range_map.html',1,'Ms']]],
   ['rank',['Rank',['../class_rank.html',1,'']]],
   ['rankwave',['Rankwave',['../class_rankwave.html',1,'']]],
   ['rawscorediffmodel',['RawScoreDiffModel',['../class_ms_1_1_raw_score_diff_model.html',1,'Ms']]],

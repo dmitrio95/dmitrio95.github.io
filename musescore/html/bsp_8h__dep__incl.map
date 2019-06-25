@@ -27,25 +27,25 @@
 <area shape="rect" id="node26" href="$system_8cpp.html" title="Implementation of classes SysStaff and System. " alt="" coords="4018,155,4169,181"/>
 <area shape="rect" id="node27" href="$textbase_8cpp.html" title="libmscore/textbase.cpp" alt="" coords="4193,155,4351,181"/>
 <area shape="rect" id="node28" href="$undo_8cpp.html" title="Implementation of undo functions. " alt="" coords="4375,155,4510,181"/>
-<area shape="rect" id="node29" href="$libmscore_2utils_8cpp.html" title="libmscore/utils.cpp" alt="" coords="4535,155,4665,181"/>
-<area shape="rect" id="node30" href="$continuouspanel_8cpp.html" title="mscore/continuouspanel.cpp" alt="" coords="4690,155,4878,181"/>
-<area shape="rect" id="node31" href="$debugger_8cpp.html" title="mscore/debugger/debugger.cpp" alt="" coords="4902,155,5106,181"/>
-<area shape="rect" id="node32" href="$dragdrop_8cpp.html" title="mscore/dragdrop.cpp" alt="" coords="5131,155,5275,181"/>
-<area shape="rect" id="node33" href="$exampleview_8cpp.html" title="mscore/exampleview.cpp" alt="" coords="5299,155,5469,181"/>
-<area shape="rect" id="node34" href="$exportly_8cpp.html" title="mscore/exportly.cpp" alt="" coords="5494,155,5634,181"/>
-<area shape="rect" id="node35" href="$exportxml_8cpp.html" title="mscore/exportxml.cpp" alt="" coords="5658,155,5809,181"/>
-<area shape="rect" id="node36" href="$file_8cpp.html" title="mscore/file.cpp" alt="" coords="5833,155,5943,181"/>
-<area shape="rect" id="node37" href="$fotomode_8cpp.html" title="mscore/fotomode.cpp" alt="" coords="5967,155,6115,181"/>
-<area shape="rect" id="node38" href="$importmxml_8cpp.html" title="mscore/importmxml.cpp" alt="" coords="6140,155,6303,181"/>
-<area shape="rect" id="node39" href="$importmxmlpass1_8cpp.html" title="mscore/importmxmlpass1.cpp" alt="" coords="6327,155,6524,181"/>
-<area shape="rect" id="node40" href="$magbox_8cpp.html" title="mscore/magbox.cpp" alt="" coords="6549,155,6689,181"/>
-<area shape="rect" id="node41" href="$musescore_8cpp.html" title="mscore/musescore.cpp" alt="" coords="6713,155,6871,181"/>
-<area shape="rect" id="node42" href="$navigator_8cpp.html" title="mscore/navigator.cpp" alt="" coords="6896,155,7043,181"/>
-<area shape="rect" id="node43" href="$pagesettings_8cpp.html" title="mscore/pagesettings.cpp" alt="" coords="7067,155,7235,181"/>
-<area shape="rect" id="node44" href="$palette_8cpp.html" title="mscore/palette.cpp" alt="" coords="7259,155,7392,181"/>
-<area shape="rect" id="node45" href="$cursor_8cpp.html" title="mscore/plugin/api/cursor.cpp" alt="" coords="7416,155,7605,181"/>
-<area shape="rect" id="node46" href="$util_8cpp.html" title="mscore/plugin/api/util.cpp" alt="" coords="7629,155,7800,181"/>
-<area shape="rect" id="node47" href="$mscore_plugins_8cpp.html" title="mscore/plugin/mscorePlugins.cpp" alt="" coords="7824,155,8043,181"/>
-<area shape="rect" id="node48" href="$scoreview_8cpp.html" title="mscore/scoreview.cpp" alt="" coords="8067,155,8221,181"/>
-<area shape="rect" id="node49" href="$textcursor_8cpp.html" title="mscore/textcursor.cpp" alt="" coords="8245,155,8397,181"/>
+<area shape="rect" id="node29" href="$unrollrepeats_8cpp.html" title="libmscore/unrollrepeats.cpp" alt="" coords="4535,155,4716,181"/>
+<area shape="rect" id="node30" href="$libmscore_2utils_8cpp.html" title="libmscore/utils.cpp" alt="" coords="4740,155,4871,181"/>
+<area shape="rect" id="node31" href="$continuouspanel_8cpp.html" title="mscore/continuouspanel.cpp" alt="" coords="4895,155,5083,181"/>
+<area shape="rect" id="node32" href="$debugger_8cpp.html" title="mscore/debugger/debugger.cpp" alt="" coords="5107,155,5311,181"/>
+<area shape="rect" id="node33" href="$dragdrop_8cpp.html" title="mscore/dragdrop.cpp" alt="" coords="5336,155,5480,181"/>
+<area shape="rect" id="node34" href="$exampleview_8cpp.html" title="mscore/exampleview.cpp" alt="" coords="5504,155,5675,181"/>
+<area shape="rect" id="node35" href="$exportly_8cpp.html" title="mscore/exportly.cpp" alt="" coords="5699,155,5839,181"/>
+<area shape="rect" id="node36" href="$exportxml_8cpp.html" title="mscore/exportxml.cpp" alt="" coords="5863,155,6014,181"/>
+<area shape="rect" id="node37" href="$file_8cpp.html" title="mscore/file.cpp" alt="" coords="6038,155,6149,181"/>
+<area shape="rect" id="node38" href="$fotomode_8cpp.html" title="mscore/fotomode.cpp" alt="" coords="6173,155,6321,181"/>
+<area shape="rect" id="node39" href="$importmxml_8cpp.html" title="mscore/importmxml.cpp" alt="" coords="6345,155,6508,181"/>
+<area shape="rect" id="node40" href="$importmxmlpass1_8cpp.html" title="mscore/importmxmlpass1.cpp" alt="" coords="6532,155,6729,181"/>
+<area shape="rect" id="node41" href="$magbox_8cpp.html" title="mscore/magbox.cpp" alt="" coords="6754,155,6894,181"/>
+<area shape="rect" id="node42" href="$musescore_8cpp.html" title="mscore/musescore.cpp" alt="" coords="6918,155,7077,181"/>
+<area shape="rect" id="node43" href="$navigator_8cpp.html" title="mscore/navigator.cpp" alt="" coords="7101,155,7248,181"/>
+<area shape="rect" id="node44" href="$pagesettings_8cpp.html" title="mscore/pagesettings.cpp" alt="" coords="7272,155,7440,181"/>
+<area shape="rect" id="node45" href="$palette_8cpp.html" title="mscore/palette.cpp" alt="" coords="7464,155,7597,181"/>
+<area shape="rect" id="node46" href="$cursor_8cpp.html" title="mscore/plugin/api/cursor.cpp" alt="" coords="7621,155,7811,181"/>
+<area shape="rect" id="node47" href="$util_8cpp.html" title="mscore/plugin/api/util.cpp" alt="" coords="7835,155,8005,181"/>
+<area shape="rect" id="node48" href="$mscore_plugins_8cpp.html" title="mscore/plugin/mscorePlugins.cpp" alt="" coords="8029,155,8248,181"/>
+<area shape="rect" id="node49" href="$scoreview_8cpp.html" title="mscore/scoreview.cpp" alt="" coords="8273,155,8426,181"/>
 </map>

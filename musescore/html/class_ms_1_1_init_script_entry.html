@@ -23,9 +23,9 @@
   <td id="projectlogo"><img alt="Logo" src="musescore_logo_full.png"/></td>
   <td id="projectalign" style="padding-left: 0.5em;">
    <div id="projectname">MuseScore
-   &#160;<span id="projectnumber">3.1</span>
+   &#160;<span id="projectnumber">3.2</span>
    </div>
-   <div id="projectbrief">Music compisition and notation</div>
+   <div id="projectbrief">Music composition and notation</div>
   </td>
  </tr>
  </tbody>
@@ -68,6 +68,7 @@ $(function() {
   <div class="summary">
 <a href="#pub-methods">Public Member Functions</a> &#124;
 <a href="#pub-static-methods">Static Public Member Functions</a> &#124;
+<a href="#pri-attribs">Private Attributes</a> &#124;
 <a href="class_ms_1_1_init_script_entry-members.html">List of all members</a>  </div>
   <div class="headertitle">
 <div class="title">Ms::InitScriptEntry Class Reference</div>  </div>
@@ -114,6 +115,11 @@ Static Public Member Functions</h2></td></tr>
 <tr class="memitem:a533cb33192a889d735cfda1c069a810b inherit pub_static_methods_class_ms_1_1_script_entry"><td class="memItemLeft" align="right" valign="top">static std::unique_ptr&lt; <a class="el" href="class_ms_1_1_script_entry.html">ScriptEntry</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ms_1_1_script_entry.html#a533cb33192a889d735cfda1c069a810b">deserialize</a> (const QString &amp;line)</td></tr>
 <tr class="separator:a533cb33192a889d735cfda1c069a810b inherit pub_static_methods_class_ms_1_1_script_entry"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pri-attribs"></a>
+Private Attributes</h2></td></tr>
+<tr class="memitem:a8d12c2d6e503e37d7217ec46b854099f"><td class="memItemLeft" align="right" valign="top">QString&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ms_1_1_init_script_entry.html#a8d12c2d6e503e37d7217ec46b854099f">_filePath</a></td></tr>
+<tr class="separator:a8d12c2d6e503e37d7217ec46b854099f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="inherited"></a>
 Additional Inherited Members</h2></td></tr>
 <tr class="inherit_header pro_static_methods_class_ms_1_1_script_entry"><td colspan="2" onclick="javascript:toggleInherit('pro_static_methods_class_ms_1_1_script_entry')"><img src="closed.png" alt="-"/>&#160;Static Protected Member Functions inherited from <a class="el" href="class_ms_1_1_script_entry.html">Ms::ScriptEntry</a></td></tr>
@@ -128,6 +134,8 @@ Additional Inherited Members</h2></td></tr>
 <tr class="separator:a0f5ca9e99f64a0288a468884dbef856a inherit pro_static_attribs_class_ms_1_1_script_entry"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a8171e6c344c57ce08ee83e8b255da05c inherit pro_static_attribs_class_ms_1_1_script_entry"><td class="memItemLeft" align="right" valign="top">static constexpr const char *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ms_1_1_script_entry.html#a8171e6c344c57ce08ee83e8b255da05c">SCRIPT_INSPECTOR</a> = &quot;inspector&quot;</td></tr>
 <tr class="separator:a8171e6c344c57ce08ee83e8b255da05c inherit pro_static_attribs_class_ms_1_1_script_entry"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a5dc253d5d0bc5c80da7eff5c26e165a3 inherit pro_static_attribs_class_ms_1_1_script_entry"><td class="memItemLeft" align="right" valign="top">static constexpr const char *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ms_1_1_script_entry.html#a5dc253d5d0bc5c80da7eff5c26e165a3">SCRIPT_EXCERPT_CHANGE</a> = &quot;excerpt&quot;</td></tr>
+<tr class="separator:a5dc253d5d0bc5c80da7eff5c26e165a3 inherit pro_static_attribs_class_ms_1_1_script_entry"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a2b93b8d559776982da530750f4e72e39 inherit pro_static_attribs_class_ms_1_1_script_entry"><td class="memItemLeft" align="right" valign="top">static constexpr const char *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ms_1_1_script_entry.html#a2b93b8d559776982da530750f4e72e39">SCRIPT_TEST</a> = &quot;test&quot;</td></tr>
 <tr class="separator:a2b93b8d559776982da530750f4e72e39 inherit pro_static_attribs_class_ms_1_1_script_entry"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
@@ -263,6 +271,29 @@ Additional Inherited Members</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Implements <a class="el" href="class_ms_1_1_script_entry.html#a11da8166299802668a7a4e5cb83487ce">Ms::ScriptEntry</a>.</p>
+
+</div>
+</div>
+<h2 class="groupheader">Member Data Documentation</h2>
+<a id="a8d12c2d6e503e37d7217ec46b854099f"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a8d12c2d6e503e37d7217ec46b854099f">&#9670;&nbsp;</a></span>_filePath</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">QString Ms::InitScriptEntry::_filePath</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
 
 </div>
 </div>

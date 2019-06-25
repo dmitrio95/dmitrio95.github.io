@@ -7,10 +7,10 @@
 <area shape="rect" id="node9" href="$inspector_lasso_8h.html" title="mscore/inspector/inspector\lLasso.h" alt="" coords="1275,80,1454,121"/>
 <area shape="rect" id="node11" href="$inspector_volta_8h.html" title="mscore/inspector/inspector\lVolta.h" alt="" coords="1478,80,1657,121"/>
 <area shape="rect" id="node13" href="$inspector_ottava_8h.html" title="mscore/inspector/inspector\lOttava.h" alt="" coords="414,80,593,121"/>
-<area shape="rect" id="node14" href="$inspector_ottava_8cpp.html" title="mscore/inspector/inspector\lOttava.cpp" alt="" coords="313,169,491,211"/>
+<area shape="rect" id="node14" href="$inspector_ottava_8cpp.html" title="mscore/inspector/inspector\lOttava.cpp" alt="" coords="363,169,542,211"/>
 <area shape="rect" id="node15" href="$inspector_trill_8h.html" title="mscore/inspector/inspector\lTrill.h" alt="" coords="1681,80,1859,121"/>
 <area shape="rect" id="node17" href="$inspector_hairpin_8h.html" title="mscore/inspector/inspector\lHairpin.h" alt="" coords="667,80,846,121"/>
-<area shape="rect" id="node18" href="$inspector_hairpin_8cpp.html" title="mscore/inspector/inspector\lHairpin.cpp" alt="" coords="603,169,782,211"/>
+<area shape="rect" id="node18" href="$inspector_hairpin_8cpp.html" title="mscore/inspector/inspector\lHairpin.cpp" alt="" coords="591,169,770,211"/>
 <area shape="rect" id="node19" href="$inspector_glissando_8h.html" title="mscore/inspector/inspector\lGlissando.h" alt="" coords="1883,80,2062,121"/>
 <area shape="rect" id="node21" href="$inspector_arpeggio_8h.html" title="mscore/inspector/inspector\lArpeggio.h" alt="" coords="2947,80,3126,121"/>
 <area shape="rect" id="node23" href="$inspector_note_8h.html" title="mscore/inspector/inspector\lNote.h" alt="" coords="3555,80,3734,121"/>

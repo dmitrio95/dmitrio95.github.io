@@ -23,9 +23,9 @@
   <td id="projectlogo"><img alt="Logo" src="musescore_logo_full.png"/></td>
   <td id="projectalign" style="padding-left: 0.5em;">
    <div id="projectname">MuseScore
-   &#160;<span id="projectnumber">3.1</span>
+   &#160;<span id="projectnumber">3.2</span>
    </div>
-   <div id="projectbrief">Music compisition and notation</div>
+   <div id="projectbrief">Music composition and notation</div>
   </td>
  </tr>
  </tbody>
@@ -68,6 +68,7 @@ $(function() {
   <div class="summary">
 <a href="#pub-methods">Public Member Functions</a> &#124;
 <a href="#pub-attribs">Public Attributes</a> &#124;
+<a href="#pri-attribs">Private Attributes</a> &#124;
 <a href="class_fluid_s_1_1_channel-members.html">List of all members</a>  </div>
   <div class="headertitle">
 <div class="title">FluidS::Channel Class Reference</div>  </div>
@@ -75,10 +76,27 @@ $(function() {
 <div class="contents">
 
 <p><code>#include &lt;<a class="el" href="fluid_8h_source.html">fluid.h</a>&gt;</code></p>
+<div class="dynheader">
+Collaboration diagram for FluidS::Channel:</div>
+<div class="dyncontent">
+<div class="center"><img src="class_fluid_s_1_1_channel__coll__graph.png" border="0" usemap="#_fluid_s_1_1_channel_coll__map" alt="Collaboration graph"/></div>
+<map name="_fluid_s_1_1_channel_coll__map" id="_fluid_s_1_1_channel_coll__map">
+<area shape="rect" id="node2" href="class_fluid_s_1_1_preset.html" title="FluidS::Preset" alt="" coords="15,467,120,493"/>
+<area shape="rect" id="node3" href="class_fluid_s_1_1_zone.html" title="FluidS::Zone" alt="" coords="131,377,227,404"/>
+<area shape="rect" id="node4" href="class_fluid_s_1_1_instrument.html" title="FluidS::Instrument" alt="" coords="173,467,303,493"/>
+<area shape="rect" id="node5" href="class_fluid_s_1_1_generator.html" title="SoundFont generator structure. " alt="" coords="61,288,185,315"/>
+<area shape="rect" id="node6" href="class_fluid_s_1_1_sample.html" title="FluidS::Sample" alt="" coords="209,288,320,315"/>
+<area shape="rect" id="node7" href="class_fluid_s_1_1_s_font.html" title="FluidS::SFont" alt="" coords="196,199,299,225"/>
+<area shape="rect" id="node8" href="class_fluid_s_1_1_fluid.html" title="FluidS::Fluid" alt="" coords="320,95,415,121"/>
+<area shape="rect" id="node9" href="class_ms_1_1_synthesizer.html" title="Ms::Synthesizer" alt="" coords="35,5,153,32"/>
+<area shape="rect" id="node10" href="class_ms_1_1_synthesizer_gui.html" title="Ms::SynthesizerGui" alt="" coords="5,95,143,121"/>
+<area shape="rect" id="node12" href="struct_fluid_s_1_1_s_f_version.html" title="FluidS::SFVersion" alt="" coords="167,95,295,121"/>
+</map>
+<center><span class="legend">[<a href="graph_legend.html">legend</a>]</span></center></div>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
-<tr class="memitem:acbf26ddcbf1b70609fd3ab2fff9a3d57"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_fluid_s_1_1_channel.html#acbf26ddcbf1b70609fd3ab2fff9a3d57">Channel</a> (<a class="el" href="class_fluid_s_1_1_fluid.html">Fluid</a> *synth, int num)</td></tr>
+<tr class="memitem:acbf26ddcbf1b70609fd3ab2fff9a3d57"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_fluid_s_1_1_channel.html#acbf26ddcbf1b70609fd3ab2fff9a3d57">Channel</a> (<a class="el" href="class_fluid_s_1_1_fluid.html">Fluid</a> *<a class="el" href="class_fluid_s_1_1_channel.html#ab79cb310359f97b961942217f44aab50">synth</a>, int num)</td></tr>
 <tr class="separator:acbf26ddcbf1b70609fd3ab2fff9a3d57"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:afb6d85344b59765dcd1e0c6369772513"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_fluid_s_1_1_channel.html#afb6d85344b59765dcd1e0c6369772513">sustained</a> () const</td></tr>
 <tr class="separator:afb6d85344b59765dcd1e0c6369772513"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -153,6 +171,19 @@ Public Attributes</h2></td></tr>
 <tr class="separator:aeb172e3301c40509053168ef34b1d38b"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aeb63bfcdcec9a0bc445c7b2191f65608"><td class="memItemLeft" align="right" valign="top">char&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_fluid_s_1_1_channel.html#aeb63bfcdcec9a0bc445c7b2191f65608">gen_abs</a> [<a class="el" href="namespace_fluid_s.html#abd53d410c4e4e0dc45ef1fcb3d237c37a92e4c7d0dc3be12a66bfd62ef70650a4">GEN_LAST</a>]</td></tr>
 <tr class="separator:aeb63bfcdcec9a0bc445c7b2191f65608"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pri-attribs"></a>
+Private Attributes</h2></td></tr>
+<tr class="memitem:ab79cb310359f97b961942217f44aab50"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_fluid_s_1_1_fluid.html">Fluid</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_fluid_s_1_1_channel.html#ab79cb310359f97b961942217f44aab50">synth</a></td></tr>
+<tr class="separator:ab79cb310359f97b961942217f44aab50"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a40af5accffa26304fe4dcd9a611affb5"><td class="memItemLeft" align="right" valign="top">unsigned int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_fluid_s_1_1_channel.html#a40af5accffa26304fe4dcd9a611affb5">sfontnum</a></td></tr>
+<tr class="separator:a40af5accffa26304fe4dcd9a611affb5"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a39e0c347d3837503be25f72a85410ffa"><td class="memItemLeft" align="right" valign="top">unsigned int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_fluid_s_1_1_channel.html#a39e0c347d3837503be25f72a85410ffa">banknum</a></td></tr>
+<tr class="separator:a39e0c347d3837503be25f72a85410ffa"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a2a71df6a66c5081ad3c8b16a432f715a"><td class="memItemLeft" align="right" valign="top">unsigned int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_fluid_s_1_1_channel.html#a2a71df6a66c5081ad3c8b16a432f715a">prognum</a></td></tr>
+<tr class="separator:a2a71df6a66c5081ad3c8b16a432f715a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a47a625f2cad67e67b499bc9494b07c6f"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_fluid_s_1_1_preset.html">Preset</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_fluid_s_1_1_channel.html#a47a625f2cad67e67b499bc9494b07c6f">_preset</a></td></tr>
+<tr class="separator:a47a625f2cad67e67b499bc9494b07c6f"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
 <a id="acbf26ddcbf1b70609fd3ab2fff9a3d57"></a>
@@ -770,6 +801,28 @@ Public Attributes</h2></td></tr>
 </div>
 </div>
 <h2 class="groupheader">Member Data Documentation</h2>
+<a id="a47a625f2cad67e67b499bc9494b07c6f"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a47a625f2cad67e67b499bc9494b07c6f">&#9670;&nbsp;</a></span>_preset</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="class_fluid_s_1_1_preset.html">Preset</a>* FluidS::Channel::_preset</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
 <a id="a70adb48ad1205a2f70e52af5eb091504"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a70adb48ad1205a2f70e52af5eb091504">&#9670;&nbsp;</a></span>bank_msb</h2>
 
@@ -780,6 +833,28 @@ Public Attributes</h2></td></tr>
           <td class="memname">unsigned char FluidS::Channel::bank_msb</td>
         </tr>
       </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a39e0c347d3837503be25f72a85410ffa"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a39e0c347d3837503be25f72a85410ffa">&#9670;&nbsp;</a></span>banknum</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">unsigned int FluidS::Channel::banknum</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
 </div><div class="memdoc">
 
 </div>
@@ -920,6 +995,72 @@ Public Attributes</h2></td></tr>
           <td class="memname">short FluidS::Channel::pitch_wheel_sensitivity</td>
         </tr>
       </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a2a71df6a66c5081ad3c8b16a432f715a"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a2a71df6a66c5081ad3c8b16a432f715a">&#9670;&nbsp;</a></span>prognum</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">unsigned int FluidS::Channel::prognum</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a40af5accffa26304fe4dcd9a611affb5"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a40af5accffa26304fe4dcd9a611affb5">&#9670;&nbsp;</a></span>sfontnum</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">unsigned int FluidS::Channel::sfontnum</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="ab79cb310359f97b961942217f44aab50"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ab79cb310359f97b961942217f44aab50">&#9670;&nbsp;</a></span>synth</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="class_fluid_s_1_1_fluid.html">Fluid</a>* FluidS::Channel::synth</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
 </div><div class="memdoc">
 
 </div>

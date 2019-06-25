@@ -1,12 +1,12 @@
 <map id="libmscore/tempotext.h" name="libmscore/tempotext.h">
-<area shape="rect" id="node2" href="$durationtype_8h.html" title="durationtype.h" alt="" coords="253,80,357,107"/>
-<area shape="rect" id="node19" href="$text_8h.html" title="text.h" alt="" coords="443,80,498,107"/>
+<area shape="rect" id="node2" href="$durationtype_8h.html" title="durationtype.h" alt="" coords="260,80,364,107"/>
+<area shape="rect" id="node19" href="$text_8h.html" title="text.h" alt="" coords="450,80,505,107"/>
 <area shape="rect" id="node3" href="$libmscore_2fraction_8h.html" title="fraction.h" alt="" coords="125,453,201,480"/>
-<area shape="rect" id="node9" href="$note_8h.html" title="Definition of classes Note and NoteHead. " alt="" coords="276,155,335,181"/>
-<area shape="rect" id="node5" href="$mscore_8h.html" title="mscore.h" alt="" coords="361,528,437,555"/>
-<area shape="rect" id="node6" href="$style_8h.html" title="style.h" alt="" coords="307,603,368,629"/>
-<area shape="rect" id="node7" href="$chordlist_8h.html" title="chordlist.h" alt="" coords="296,677,379,704"/>
-<area shape="rect" id="node8" href="$types_8h.html" title="types.h" alt="" coords="206,677,271,704"/>
+<area shape="rect" id="node9" href="$note_8h.html" title="Definition of classes Note and NoteHead. " alt="" coords="283,155,341,181"/>
+<area shape="rect" id="node5" href="$mscore_8h.html" title="mscore.h" alt="" coords="362,528,438,555"/>
+<area shape="rect" id="node6" href="$style_8h.html" title="style.h" alt="" coords="313,603,375,629"/>
+<area shape="rect" id="node7" href="$chordlist_8h.html" title="chordlist.h" alt="" coords="303,677,385,704"/>
+<area shape="rect" id="node8" href="$types_8h.html" title="types.h" alt="" coords="213,677,278,704"/>
 <area shape="rect" id="node10" href="$element_8h.html" title="element.h" alt="" coords="277,379,355,405"/>
 <area shape="rect" id="node13" href="$shape_8h.html" title="shape.h" alt="" coords="379,453,447,480"/>
 <area shape="rect" id="node14" href="$symbol_8h.html" title="symbol.h" alt="" coords="237,229,312,256"/>

@@ -23,9 +23,9 @@
   <td id="projectlogo"><img alt="Logo" src="musescore_logo_full.png"/></td>
   <td id="projectalign" style="padding-left: 0.5em;">
    <div id="projectname">MuseScore
-   &#160;<span id="projectnumber">3.1</span>
+   &#160;<span id="projectnumber">3.2</span>
    </div>
-   <div id="projectbrief">Music compisition and notation</div>
+   <div id="projectbrief">Music composition and notation</div>
   </td>
  </tr>
  </tbody>
@@ -67,6 +67,7 @@ $(function() {
 <div class="header">
   <div class="summary">
 <a href="#pub-methods">Public Member Functions</a> &#124;
+<a href="#pri-attribs">Private Attributes</a> &#124;
 <a href="class_ms_1_1_midi_operations_1_1_op-members.html">List of all members</a>  </div>
   <div class="headertitle">
 <div class="title">Ms::MidiOperations::Op&lt; T &gt; Class Template Reference</div>  </div>
@@ -89,6 +90,17 @@ Public Member Functions</h2></td></tr>
 <tr class="separator:a764eb309ae5c9363783505691d2f192b"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ac8df173e89b32255119c7a2e2838c8af"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ms_1_1_midi_operations_1_1_op.html#ac8df173e89b32255119c7a2e2838c8af">setDefaultValue</a> (T <a class="el" href="class_ms_1_1_midi_operations_1_1_op.html#a9e7bb8e4dfe7cc99a3b5381a32eae7ce">value</a>, bool <a class="el" href="class_ms_1_1_midi_operations_1_1_op.html#a764eb309ae5c9363783505691d2f192b">canRedefineDefaultLater</a>=true)</td></tr>
 <tr class="separator:ac8df173e89b32255119c7a2e2838c8af"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pri-attribs"></a>
+Private Attributes</h2></td></tr>
+<tr class="memitem:ab8199b1bca1f90af0fe06ffaa36ca289"><td class="memItemLeft" align="right" valign="top">T&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ms_1_1_midi_operations_1_1_op.html#ab8199b1bca1f90af0fe06ffaa36ca289">_value</a></td></tr>
+<tr class="separator:ab8199b1bca1f90af0fe06ffaa36ca289"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad39712b5dce1798d17d326818d8c4c41"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ms_1_1_midi_operations_1_1_op.html#ad39712b5dce1798d17d326818d8c4c41">_valueWasSet</a></td></tr>
+<tr class="separator:ad39712b5dce1798d17d326818d8c4c41"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac9aeb26ad621d4cdd96ec609a395042d"><td class="memItemLeft" align="right" valign="top">T&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ms_1_1_midi_operations_1_1_op.html#ac9aeb26ad621d4cdd96ec609a395042d">_defaultValue</a></td></tr>
+<tr class="separator:ac9aeb26ad621d4cdd96ec609a395042d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab82a9f1347eeccd3832f76da2c342012"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ms_1_1_midi_operations_1_1_op.html#ab82a9f1347eeccd3832f76da2c342012">_canRedefineDefaultLater</a></td></tr>
+<tr class="separator:ab82a9f1347eeccd3832f76da2c342012"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
 <a id="a6b7188713d2da5bc8673434260d0bffa"></a>
@@ -261,6 +273,103 @@ template&lt;typename T&gt; </div>
   </td>
   <td class="mlabels-right">
 <span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<h2 class="groupheader">Member Data Documentation</h2>
+<a id="ab82a9f1347eeccd3832f76da2c342012"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ab82a9f1347eeccd3832f76da2c342012">&#9670;&nbsp;</a></span>_canRedefineDefaultLater</h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;typename T&gt; </div>
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool <a class="el" href="class_ms_1_1_midi_operations_1_1_op.html">Ms::MidiOperations::Op</a>&lt; T &gt;::_canRedefineDefaultLater</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="ac9aeb26ad621d4cdd96ec609a395042d"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ac9aeb26ad621d4cdd96ec609a395042d">&#9670;&nbsp;</a></span>_defaultValue</h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;typename T&gt; </div>
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">T <a class="el" href="class_ms_1_1_midi_operations_1_1_op.html">Ms::MidiOperations::Op</a>&lt; T &gt;::_defaultValue</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="ab8199b1bca1f90af0fe06ffaa36ca289"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ab8199b1bca1f90af0fe06ffaa36ca289">&#9670;&nbsp;</a></span>_value</h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;typename T&gt; </div>
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">T <a class="el" href="class_ms_1_1_midi_operations_1_1_op.html">Ms::MidiOperations::Op</a>&lt; T &gt;::_value</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="ad39712b5dce1798d17d326818d8c4c41"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ad39712b5dce1798d17d326818d8c4c41">&#9670;&nbsp;</a></span>_valueWasSet</h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;typename T&gt; </div>
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool <a class="el" href="class_ms_1_1_midi_operations_1_1_op.html">Ms::MidiOperations::Op</a>&lt; T &gt;::_valueWasSet</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
   </tr>
 </table>
 </div><div class="memdoc">

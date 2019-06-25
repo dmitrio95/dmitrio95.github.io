@@ -23,9 +23,9 @@
   <td id="projectlogo"><img alt="Logo" src="musescore_logo_full.png"/></td>
   <td id="projectalign" style="padding-left: 0.5em;">
    <div id="projectname">MuseScore
-   &#160;<span id="projectnumber">3.1</span>
+   &#160;<span id="projectnumber">3.2</span>
    </div>
-   <div id="projectbrief">Music compisition and notation</div>
+   <div id="projectbrief">Music composition and notation</div>
   </td>
  </tr>
  </tbody>
@@ -68,6 +68,8 @@ $(function() {
   <div class="summary">
 <a href="#pub-slots">Public Slots</a> &#124;
 <a href="#pub-methods">Public Member Functions</a> &#124;
+<a href="#pri-methods">Private Member Functions</a> &#124;
+<a href="#pri-attribs">Private Attributes</a> &#124;
 <a href="class_ms_1_1_wallpaper_preview-members.html">List of all members</a>  </div>
   <div class="headertitle">
 <div class="title">Ms::WallpaperPreview Class Reference</div>  </div>
@@ -99,6 +101,18 @@ Public Slots</h2></td></tr>
 Public Member Functions</h2></td></tr>
 <tr class="memitem:a536b879f39b828758abd34d33b7ef6cd"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ms_1_1_wallpaper_preview.html#a536b879f39b828758abd34d33b7ef6cd">WallpaperPreview</a> (QWidget *parent=0)</td></tr>
 <tr class="separator:a536b879f39b828758abd34d33b7ef6cd"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pri-methods"></a>
+Private Member Functions</h2></td></tr>
+<tr class="memitem:a564d78b5774ea73e878eb74bd5fa0d0b"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ms_1_1_wallpaper_preview.html#a564d78b5774ea73e878eb74bd5fa0d0b">paintEvent</a> (QPaintEvent *)</td></tr>
+<tr class="separator:a564d78b5774ea73e878eb74bd5fa0d0b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a687bd9455eec817ff62b1d76a95e815f"><td class="memItemLeft" align="right" valign="top">virtual QSize&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ms_1_1_wallpaper_preview.html#a687bd9455eec817ff62b1d76a95e815f">sizeHint</a> () const</td></tr>
+<tr class="separator:a687bd9455eec817ff62b1d76a95e815f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pri-attribs"></a>
+Private Attributes</h2></td></tr>
+<tr class="memitem:af23c091b3b910b1bafa6498a847ec5db"><td class="memItemLeft" align="right" valign="top">QPixmap *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ms_1_1_wallpaper_preview.html#af23c091b3b910b1bafa6498a847ec5db">_pixmap</a></td></tr>
+<tr class="separator:af23c091b3b910b1bafa6498a847ec5db"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
 <a id="a536b879f39b828758abd34d33b7ef6cd"></a>
@@ -120,6 +134,32 @@ Public Member Functions</h2></td></tr>
 </div>
 </div>
 <h2 class="groupheader">Member Function Documentation</h2>
+<a id="a564d78b5774ea73e878eb74bd5fa0d0b"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a564d78b5774ea73e878eb74bd5fa0d0b">&#9670;&nbsp;</a></span>paintEvent()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void Ms::WallpaperPreview::paintEvent </td>
+          <td>(</td>
+          <td class="paramtype">QPaintEvent *&#160;</td>
+          <td class="paramname"><em>ev</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span><span class="mlabel">virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
 <a id="aa05eec1bdbf0b42b91db1a2bbd5dacf2"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#aa05eec1bdbf0b42b91db1a2bbd5dacf2">&#9670;&nbsp;</a></span>setImage</h2>
 
@@ -140,6 +180,54 @@ Public Member Functions</h2></td></tr>
   </td>
   <td class="mlabels-right">
 <span class="mlabels"><span class="mlabel">slot</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a687bd9455eec817ff62b1d76a95e815f"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a687bd9455eec817ff62b1d76a95e815f">&#9670;&nbsp;</a></span>sizeHint()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">virtual QSize Ms::WallpaperPreview::sizeHint </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">private</span><span class="mlabel">virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<h2 class="groupheader">Member Data Documentation</h2>
+<a id="af23c091b3b910b1bafa6498a847ec5db"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#af23c091b3b910b1bafa6498a847ec5db">&#9670;&nbsp;</a></span>_pixmap</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">QPixmap* Ms::WallpaperPreview::_pixmap</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
   </tr>
 </table>
 </div><div class="memdoc">

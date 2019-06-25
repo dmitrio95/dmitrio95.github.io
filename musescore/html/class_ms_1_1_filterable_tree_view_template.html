@@ -23,9 +23,9 @@
   <td id="projectlogo"><img alt="Logo" src="musescore_logo_full.png"/></td>
   <td id="projectalign" style="padding-left: 0.5em;">
    <div id="projectname">MuseScore
-   &#160;<span id="projectnumber">3.1</span>
+   &#160;<span id="projectnumber">3.2</span>
    </div>
-   <div id="projectbrief">Music compisition and notation</div>
+   <div id="projectbrief">Music composition and notation</div>
   </td>
  </tr>
  </tbody>
@@ -68,6 +68,7 @@ $(function() {
   <div class="summary">
 <a href="#pub-methods">Public Member Functions</a> &#124;
 <a href="#pro-methods">Protected Member Functions</a> &#124;
+<a href="#pri-methods">Private Member Functions</a> &#124;
 <a href="class_ms_1_1_filterable_tree_view_template-members.html">List of all members</a>  </div>
   <div class="headertitle">
 <div class="title">Ms::FilterableTreeViewTemplate&lt; T &gt; Class Template Reference</div>  </div>
@@ -118,6 +119,22 @@ Public Member Functions</h2></td></tr>
 Protected Member Functions</h2></td></tr>
 <tr class="memitem:a704633092936e9bb8256da33046be60f"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ms_1_1_filterable_tree_view_template.html#a704633092936e9bb8256da33046be60f">keyPressEvent</a> (QKeyEvent *event) override</td></tr>
 <tr class="separator:a704633092936e9bb8256da33046be60f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pri-methods"></a>
+Private Member Functions</h2></td></tr>
+<tr class="memitem:a6bea2b0f8751ed6599092e408fc4b2ed"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ms_1_1_filterable_tree_view_template.html#a6bea2b0f8751ed6599092e408fc4b2ed">toggleExpanded</a> (const QModelIndex &amp;node)</td></tr>
+<tr class="separator:a6bea2b0f8751ed6599092e408fc4b2ed"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a8f642c15be154d388574c39943826754"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ms_1_1_filterable_tree_view_template.html#a8f642c15be154d388574c39943826754">toggleExpandedForUnselectable</a> (const QModelIndex &amp;node)</td></tr>
+<tr class="separator:a8f642c15be154d388574c39943826754"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a111f03b312e2046fdd40bb22c6f4f433"><td class="memTemplParams" colspan="2">template&lt;typename F &gt; </td></tr>
+<tr class="memitem:a111f03b312e2046fdd40bb22c6f4f433"><td class="memTemplItemLeft" align="right" valign="top">QModelIndex&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="class_ms_1_1_filterable_tree_view_template.html#a111f03b312e2046fdd40bb22c6f4f433">recurse</a> (const <a class="el" href="namespace_ms.html#a3b085ddb3e3b890843f2e33874b9fa4ba800618943025315f869e4e1f09471012">F</a> &amp;func, const bool backwards=false)</td></tr>
+<tr class="separator:a111f03b312e2046fdd40bb22c6f4f433"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a2d0b92e54a207cec3b309dfb0e4cbc62"><td class="memTemplParams" colspan="2">template&lt;typename F &gt; </td></tr>
+<tr class="memitem:a2d0b92e54a207cec3b309dfb0e4cbc62"><td class="memTemplItemLeft" align="right" valign="top">QModelIndex&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="class_ms_1_1_filterable_tree_view_template.html#a2d0b92e54a207cec3b309dfb0e4cbc62">recurse</a> (const <a class="el" href="namespace_ms.html#a3b085ddb3e3b890843f2e33874b9fa4ba800618943025315f869e4e1f09471012">F</a> &amp;func, const QModelIndex &amp;node, const bool backwards=false)</td></tr>
+<tr class="separator:a2d0b92e54a207cec3b309dfb0e4cbc62"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad1c066bfef57e3188e4d3dc582b8d2cb"><td class="memTemplParams" colspan="2">template&lt;typename F &gt; </td></tr>
+<tr class="memitem:ad1c066bfef57e3188e4d3dc582b8d2cb"><td class="memTemplItemLeft" align="right" valign="top">QModelIndex&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="class_ms_1_1_filterable_tree_view_template.html#ad1c066bfef57e3188e4d3dc582b8d2cb">recurseUnder</a> (const <a class="el" href="namespace_ms.html#a3b085ddb3e3b890843f2e33874b9fa4ba800618943025315f869e4e1f09471012">F</a> &amp;func, const QModelIndex &amp;node, const bool backwards=false)</td></tr>
+<tr class="separator:ad1c066bfef57e3188e4d3dc582b8d2cb"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
 <a id="a5f68d2ea760e382a0c9d624ed0386a00"></a>
@@ -237,6 +254,138 @@ template&lt;typename T &gt; </div>
 
 </div>
 </div>
+<a id="a111f03b312e2046fdd40bb22c6f4f433"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a111f03b312e2046fdd40bb22c6f4f433">&#9670;&nbsp;</a></span>recurse() <span class="overload">[1/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;typename T &gt; </div>
+<div class="memtemplate">
+template&lt;typename F &gt; </div>
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">QModelIndex <a class="el" href="class_ms_1_1_filterable_tree_view_template.html">Ms::FilterableTreeViewTemplate</a>&lt; T &gt;::recurse </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="namespace_ms.html#a3b085ddb3e3b890843f2e33874b9fa4ba800618943025315f869e4e1f09471012">F</a> &amp;&#160;</td>
+          <td class="paramname"><em>func</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const bool&#160;</td>
+          <td class="paramname"><em>backwards</em> = <code>false</code>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a2d0b92e54a207cec3b309dfb0e4cbc62"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a2d0b92e54a207cec3b309dfb0e4cbc62">&#9670;&nbsp;</a></span>recurse() <span class="overload">[2/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;typename T &gt; </div>
+<div class="memtemplate">
+template&lt;typename F &gt; </div>
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">QModelIndex <a class="el" href="class_ms_1_1_filterable_tree_view_template.html">Ms::FilterableTreeViewTemplate</a>&lt; T &gt;::recurse </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="namespace_ms.html#a3b085ddb3e3b890843f2e33874b9fa4ba800618943025315f869e4e1f09471012">F</a> &amp;&#160;</td>
+          <td class="paramname"><em>func</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const QModelIndex &amp;&#160;</td>
+          <td class="paramname"><em>node</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const bool&#160;</td>
+          <td class="paramname"><em>backwards</em> = <code>false</code>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="ad1c066bfef57e3188e4d3dc582b8d2cb"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ad1c066bfef57e3188e4d3dc582b8d2cb">&#9670;&nbsp;</a></span>recurseUnder()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;typename T &gt; </div>
+<div class="memtemplate">
+template&lt;typename F &gt; </div>
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">QModelIndex <a class="el" href="class_ms_1_1_filterable_tree_view_template.html">Ms::FilterableTreeViewTemplate</a>&lt; T &gt;::recurseUnder </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="namespace_ms.html#a3b085ddb3e3b890843f2e33874b9fa4ba800618943025315f869e4e1f09471012">F</a> &amp;&#160;</td>
+          <td class="paramname"><em>func</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const QModelIndex &amp;&#160;</td>
+          <td class="paramname"><em>node</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const bool&#160;</td>
+          <td class="paramname"><em>backwards</em> = <code>false</code>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
 <a id="a8c2402fa581615eafe9e8b1b7ba2560a"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a8c2402fa581615eafe9e8b1b7ba2560a">&#9670;&nbsp;</a></span>selectFirst()</h2>
 
@@ -321,6 +470,62 @@ template&lt;typename T &gt; </div>
 </div><div class="memdoc">
 
 <p>Implements <a class="el" href="class_ms_1_1_filterable_view.html#abbe2129eb1b14b6104a56a3b7a89ca40">Ms::FilterableView</a>.</p>
+
+</div>
+</div>
+<a id="a6bea2b0f8751ed6599092e408fc4b2ed"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a6bea2b0f8751ed6599092e408fc4b2ed">&#9670;&nbsp;</a></span>toggleExpanded()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;typename T &gt; </div>
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void <a class="el" href="class_ms_1_1_filterable_tree_view_template.html">Ms::FilterableTreeViewTemplate</a>&lt; T &gt;::toggleExpanded </td>
+          <td>(</td>
+          <td class="paramtype">const QModelIndex &amp;&#160;</td>
+          <td class="paramname"><em>node</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a8f642c15be154d388574c39943826754"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a8f642c15be154d388574c39943826754">&#9670;&nbsp;</a></span>toggleExpandedForUnselectable()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;typename T &gt; </div>
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void <a class="el" href="class_ms_1_1_filterable_tree_view_template.html">Ms::FilterableTreeViewTemplate</a>&lt; T &gt;::toggleExpandedForUnselectable </td>
+          <td>(</td>
+          <td class="paramtype">const QModelIndex &amp;&#160;</td>
+          <td class="paramname"><em>node</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
 
 </div>
 </div>

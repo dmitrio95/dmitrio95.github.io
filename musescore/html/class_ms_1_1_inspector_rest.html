@@ -23,9 +23,9 @@
   <td id="projectlogo"><img alt="Logo" src="musescore_logo_full.png"/></td>
   <td id="projectalign" style="padding-left: 0.5em;">
    <div id="projectname">MuseScore
-   &#160;<span id="projectnumber">3.1</span>
+   &#160;<span id="projectnumber">3.2</span>
    </div>
-   <div id="projectbrief">Music compisition and notation</div>
+   <div id="projectbrief">Music composition and notation</div>
   </td>
  </tr>
  </tbody>
@@ -67,6 +67,9 @@ $(function() {
 <div class="header">
   <div class="summary">
 <a href="#pub-methods">Public Member Functions</a> &#124;
+<a href="#pri-slots">Private Slots</a> &#124;
+<a href="#pri-methods">Private Member Functions</a> &#124;
+<a href="#pri-attribs">Private Attributes</a> &#124;
 <a href="class_ms_1_1_inspector_rest-members.html">List of all members</a>  </div>
   <div class="headertitle">
 <div class="title">Ms::InspectorRest Class Reference</div>  </div>
@@ -88,10 +91,44 @@ Collaboration diagram for Ms::InspectorRest:</div>
 <div class="dyncontent">
 <div class="center"><img src="class_ms_1_1_inspector_rest__coll__graph.png" border="0" usemap="#_ms_1_1_inspector_rest_coll__map" alt="Collaboration graph"/></div>
 <map name="_ms_1_1_inspector_rest_coll__map" id="_ms_1_1_inspector_rest_coll__map">
-<area shape="rect" id="node2" href="class_ms_1_1_inspector_element_base.html" title="Ms::InspectorElementBase" alt="" coords="147,260,327,287"/>
-<area shape="rect" id="node3" href="class_ms_1_1_inspector_base.html" title="Ms::InspectorBase" alt="" coords="69,171,201,197"/>
-<area shape="rect" id="node5" href="class_ms_1_1_inspector.html" title="Ms::Inspector" alt="" coords="103,81,205,108"/>
-<area shape="rect" id="node7" href="class_ms_1_1_ui_inspector_element.html" title="Ms::UiInspectorElement" alt="" coords="226,171,389,197"/>
+<area shape="rect" id="node2" href="class_ms_1_1_inspector_element_base.html" title="Ms::InspectorElementBase" alt="" coords="1541,1636,1721,1663"/>
+<area shape="rect" id="node3" href="class_ms_1_1_inspector_base.html" title="Ms::InspectorBase" alt="" coords="1289,1576,1421,1603"/>
+<area shape="rect" id="node5" href="class_ms_1_1_inspector.html" title="Ms::Inspector" alt="" coords="1580,1480,1683,1507"/>
+<area shape="rect" id="node7" href="class_ms_1_1_score.html" title="Ms::Score" alt="" coords="705,745,787,772"/>
+<area shape="rect" id="node9" href="class_ms_1_1_score_element.html" title="Ms::ScoreElement" alt="" coords="998,1197,1129,1224"/>
+<area shape="rect" id="node12" href="class_ms_1_1_excerpt.html" title="Ms::Excerpt" alt="" coords="1585,597,1678,624"/>
+<area shape="rect" id="node13" href="class_ms_1_1_master_score.html" title="Ms::MasterScore" alt="" coords="1293,355,1416,381"/>
+<area shape="rect" id="node17" href="class_ms_1_1_repeat_list.html" title="Ms::RepeatList" alt="" coords="1008,253,1119,280"/>
+<area shape="rect" id="node35" href="class_ms_1_1_input_state.html" title="Ms::InputState" alt="" coords="1885,1401,1993,1428"/>
+<area shape="rect" id="node42" href="class_ms_1_1_selection.html" title="Ms::Selection" alt="" coords="1887,1001,1990,1028"/>
+<area shape="rect" id="node47" href="class_ms_1_1_selection_filter.html" title="Ms::SelectionFilter" alt="" coords="998,644,1129,671"/>
+<area shape="rect" id="node32" href="class_ms_1_1_element.html" title="Base class of score layout elements. " alt="" coords="1307,1236,1403,1263"/>
+<area shape="rect" id="node10" href="class_ms_1_1_linked_elements.html" title="Ms::LinkedElements" alt="" coords="675,1315,817,1341"/>
+<area shape="rect" id="node14" href="class_ms_1_1_omr.html" title="Ms::Omr" alt="" coords="1027,203,1100,229"/>
+<area shape="rect" id="node15" href="class_ms_1_1_cmd_state.html" title="Ms::CmdState" alt="" coords="860,425,967,452"/>
+<area shape="rect" id="node16" href="class_ms_1_1_fraction.html" title="Ms::Fraction" alt="" coords="358,1067,453,1093"/>
+<area shape="rect" id="node31" href="class_ms_1_1_measure_base.html" title="Virtual base class for Measure, HBox and VBox. " alt="" coords="1567,1028,1695,1055"/>
+<area shape="rect" id="node36" href="class_ms_1_1_segment.html" title="Ms::Segment" alt="" coords="1581,1288,1681,1315"/>
+<area shape="rect" id="node19" href="class_ms_1_1_revisions.html" title="Ms::Revisions" alt="" coords="1010,152,1117,179"/>
+<area shape="rect" id="node20" href="class_ms_1_1_revision.html" title="Ms::Revision" alt="" coords="697,191,795,217"/>
+<area shape="rect" id="node21" href="class_ms_1_1_tempo_map.html" title="Ms::TempoMap" alt="" coords="1007,304,1120,331"/>
+<area shape="rect" id="node23" href="class_ms_1_1_movements.html" title="Ms::Movements" alt="" coords="688,45,804,72"/>
+<area shape="rect" id="node25" href="class_ms_1_1_text.html" title="Ms::Text" alt="" coords="368,7,443,33"/>
+<area shape="rect" id="node26" href="class_ms_1_1_m_style.html" title="Ms::MStyle" alt="" coords="361,356,450,383"/>
+<area shape="rect" id="node27" href="class_ms_1_1_chord_list.html" title="Ms::ChordList" alt="" coords="50,356,154,383"/>
+<area shape="rect" id="node28" href="class_ms_1_1_time_sig_map.html" title="Ms::TimeSigMap" alt="" coords="1003,355,1124,381"/>
+<area shape="rect" id="node30" href="class_ms_1_1_measure_base_list.html" title="Ms::MeasureBaseList" alt="" coords="1864,917,2013,944"/>
+<area shape="rect" id="node33" href="class_ms_1_1_spatium.html" title="Ms::Spatium" alt="" coords="1015,1248,1111,1275"/>
+<area shape="rect" id="node34" href="class_ms_1_1_element_list.html" title="Ms::ElementList" alt="" coords="1296,983,1413,1009"/>
+<area shape="rect" id="node37" href="class_ms_1_1_t_duration.html" title="Ms::TDuration" alt="" coords="1579,1531,1684,1557"/>
+<area shape="rect" id="node38" href="class_ms_1_1_slur.html" title="Ms::Slur" alt="" coords="1596,1583,1667,1609"/>
+<area shape="rect" id="node39" href="class_ms_1_1_slur_tie.html" title="Ms::SlurTie" alt="" coords="1310,1653,1399,1680"/>
+<area shape="rect" id="node40" href="class_ms_1_1_synthesizer_state.html" title="Ms::SynthesizerState" alt="" coords="331,533,479,560"/>
+<area shape="rect" id="node43" href="class_ms_1_1_spanner_map.html" title="Ms::SpannerMap" alt="" coords="345,588,466,615"/>
+<area shape="rect" id="node45" href="class_ms_1_1_update_state.html" title="Ms::UpdateState" alt="" coords="345,639,466,665"/>
+<area shape="rect" id="node46" href="class_ms_1_1_audio.html" title="Ms::Audio" alt="" coords="365,744,446,771"/>
+<area shape="rect" id="node48" href="class_ms_1_1_score_font.html" title="Ms::ScoreFont" alt="" coords="351,795,459,821"/>
+<area shape="rect" id="node49" href="class_ms_1_1_ui_inspector_element.html" title="Ms::UiInspectorElement" alt="" coords="1273,1704,1436,1731"/>
 </map>
 <center><span class="legend">[<a href="graph_legend.html">legend</a>]</span></center></div>
 <table class="memberdecls">
@@ -111,6 +148,41 @@ Public Member Functions</h2></td></tr>
 <tr class="separator:a21bd813fd59fb6b56d2f39e112c628bc inherit pub_methods_class_ms_1_1_inspector_base"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ac30581df4d37c01c4664110bfd60cd6e inherit pub_methods_class_ms_1_1_inspector_base"><td class="memItemLeft" align="right" valign="top">QWidget *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ms_1_1_inspector_base.html#ac30581df4d37c01c4664110bfd60cd6e">addWidget</a> ()</td></tr>
 <tr class="separator:ac30581df4d37c01c4664110bfd60cd6e inherit pub_methods_class_ms_1_1_inspector_base"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pri-slots"></a>
+Private Slots</h2></td></tr>
+<tr class="memitem:acbb73a718cfdf8f75efcd1995ac0d69a"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ms_1_1_inspector_rest.html#acbb73a718cfdf8f75efcd1995ac0d69a">dot1Clicked</a> ()</td></tr>
+<tr class="separator:acbb73a718cfdf8f75efcd1995ac0d69a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a835eddecdb3b0c6b4701fcc3594d1326"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ms_1_1_inspector_rest.html#a835eddecdb3b0c6b4701fcc3594d1326">dot2Clicked</a> ()</td></tr>
+<tr class="separator:a835eddecdb3b0c6b4701fcc3594d1326"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:afc95b3f81214676e0d398656f762db78"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ms_1_1_inspector_rest.html#afc95b3f81214676e0d398656f762db78">dot3Clicked</a> ()</td></tr>
+<tr class="separator:afc95b3f81214676e0d398656f762db78"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa017ca80562e3183f73394ca873750cf"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ms_1_1_inspector_rest.html#aa017ca80562e3183f73394ca873750cf">dot4Clicked</a> ()</td></tr>
+<tr class="separator:aa017ca80562e3183f73394ca873750cf"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a1867feef13b49511f42a55eda8803f5e"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ms_1_1_inspector_rest.html#a1867feef13b49511f42a55eda8803f5e">tupletClicked</a> ()</td></tr>
+<tr class="separator:a1867feef13b49511f42a55eda8803f5e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pri-methods"></a>
+Private Member Functions</h2></td></tr>
+<tr class="memitem:a8072e4b52ce2bde36fabb671f7127f58"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ms_1_1_inspector_rest.html#a8072e4b52ce2bde36fabb671f7127f58">dotClicked</a> (int n)</td></tr>
+<tr class="separator:a8072e4b52ce2bde36fabb671f7127f58"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pri-attribs"></a>
+Private Attributes</h2></td></tr>
+<tr class="memitem:a10bf422e62273bf5debcac1ae17a15aa"><td class="memItemLeft" align="right" valign="top">Ui::InspectorSegment&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ms_1_1_inspector_rest.html#a10bf422e62273bf5debcac1ae17a15aa">s</a></td></tr>
+<tr class="separator:a10bf422e62273bf5debcac1ae17a15aa"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a573cd182cd5c3adb343d4476506c0589"><td class="memItemLeft" align="right" valign="top">Ui::InspectorRest&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ms_1_1_inspector_rest.html#a573cd182cd5c3adb343d4476506c0589">r</a></td></tr>
+<tr class="separator:a573cd182cd5c3adb343d4476506c0589"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af56f5e963638dcaef6318e01a501389a"><td class="memItemLeft" align="right" valign="top">QPushButton *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ms_1_1_inspector_rest.html#af56f5e963638dcaef6318e01a501389a">dot1</a></td></tr>
+<tr class="separator:af56f5e963638dcaef6318e01a501389a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a4c2ee2555d03e034e1ff390458248966"><td class="memItemLeft" align="right" valign="top">QPushButton *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ms_1_1_inspector_rest.html#a4c2ee2555d03e034e1ff390458248966">dot2</a></td></tr>
+<tr class="separator:a4c2ee2555d03e034e1ff390458248966"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a6e8714d3c78b062531a318728f271ebf"><td class="memItemLeft" align="right" valign="top">QPushButton *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ms_1_1_inspector_rest.html#a6e8714d3c78b062531a318728f271ebf">dot3</a></td></tr>
+<tr class="separator:a6e8714d3c78b062531a318728f271ebf"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a6d72a23079818a9a3ff630dcbaa733cf"><td class="memItemLeft" align="right" valign="top">QPushButton *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ms_1_1_inspector_rest.html#a6d72a23079818a9a3ff630dcbaa733cf">dot4</a></td></tr>
+<tr class="separator:a6d72a23079818a9a3ff630dcbaa733cf"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab178e378e50347c8bfadd019e6918dc2"><td class="memItemLeft" align="right" valign="top">QPushButton *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ms_1_1_inspector_rest.html#ab178e378e50347c8bfadd019e6918dc2">tuplet</a></td></tr>
+<tr class="separator:ab178e378e50347c8bfadd019e6918dc2"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="inherited"></a>
 Additional Inherited Members</h2></td></tr>
@@ -170,6 +242,132 @@ Additional Inherited Members</h2></td></tr>
 </div>
 </div>
 <h2 class="groupheader">Member Function Documentation</h2>
+<a id="acbb73a718cfdf8f75efcd1995ac0d69a"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#acbb73a718cfdf8f75efcd1995ac0d69a">&#9670;&nbsp;</a></span>dot1Clicked</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void Ms::InspectorRest::dot1Clicked </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span><span class="mlabel">slot</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a835eddecdb3b0c6b4701fcc3594d1326"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a835eddecdb3b0c6b4701fcc3594d1326">&#9670;&nbsp;</a></span>dot2Clicked</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void Ms::InspectorRest::dot2Clicked </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span><span class="mlabel">slot</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="afc95b3f81214676e0d398656f762db78"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#afc95b3f81214676e0d398656f762db78">&#9670;&nbsp;</a></span>dot3Clicked</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void Ms::InspectorRest::dot3Clicked </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span><span class="mlabel">slot</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="aa017ca80562e3183f73394ca873750cf"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aa017ca80562e3183f73394ca873750cf">&#9670;&nbsp;</a></span>dot4Clicked</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void Ms::InspectorRest::dot4Clicked </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span><span class="mlabel">slot</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a8072e4b52ce2bde36fabb671f7127f58"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a8072e4b52ce2bde36fabb671f7127f58">&#9670;&nbsp;</a></span>dotClicked()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void Ms::InspectorRest::dotClicked </td>
+          <td>(</td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>n</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
 <a id="a209b91b1e53176c17ec9bf64650184d9"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a209b91b1e53176c17ec9bf64650184d9">&#9670;&nbsp;</a></span>setElement()</h2>
 
@@ -194,6 +392,186 @@ Additional Inherited Members</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Reimplemented from <a class="el" href="class_ms_1_1_inspector_element_base.html#af3a1245fa8eb1aaf0db98478712d6bf9">Ms::InspectorElementBase</a>.</p>
+
+</div>
+</div>
+<a id="a1867feef13b49511f42a55eda8803f5e"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a1867feef13b49511f42a55eda8803f5e">&#9670;&nbsp;</a></span>tupletClicked</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void Ms::InspectorRest::tupletClicked </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span><span class="mlabel">slot</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<h2 class="groupheader">Member Data Documentation</h2>
+<a id="af56f5e963638dcaef6318e01a501389a"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#af56f5e963638dcaef6318e01a501389a">&#9670;&nbsp;</a></span>dot1</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">QPushButton* Ms::InspectorRest::dot1</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a4c2ee2555d03e034e1ff390458248966"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a4c2ee2555d03e034e1ff390458248966">&#9670;&nbsp;</a></span>dot2</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">QPushButton* Ms::InspectorRest::dot2</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a6e8714d3c78b062531a318728f271ebf"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a6e8714d3c78b062531a318728f271ebf">&#9670;&nbsp;</a></span>dot3</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">QPushButton* Ms::InspectorRest::dot3</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a6d72a23079818a9a3ff630dcbaa733cf"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a6d72a23079818a9a3ff630dcbaa733cf">&#9670;&nbsp;</a></span>dot4</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">QPushButton* Ms::InspectorRest::dot4</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a573cd182cd5c3adb343d4476506c0589"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a573cd182cd5c3adb343d4476506c0589">&#9670;&nbsp;</a></span>r</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">Ui::InspectorRest Ms::InspectorRest::r</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a10bf422e62273bf5debcac1ae17a15aa"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a10bf422e62273bf5debcac1ae17a15aa">&#9670;&nbsp;</a></span>s</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">Ui::InspectorSegment Ms::InspectorRest::s</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="ab178e378e50347c8bfadd019e6918dc2"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ab178e378e50347c8bfadd019e6918dc2">&#9670;&nbsp;</a></span>tuplet</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">QPushButton* Ms::InspectorRest::tuplet</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
 
 </div>
 </div>

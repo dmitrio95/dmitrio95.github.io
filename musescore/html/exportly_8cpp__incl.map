@@ -2,11 +2,11 @@
 <area shape="rect" id="node2" href="$arpeggio_8h.html" title="libmscore/arpeggio.h" alt="" coords="537,155,679,181"/>
 <area shape="rect" id="node3" href="$element_8h.html" title="element.h" alt="" coords="805,304,883,331"/>
 <area shape="rect" id="node4" href="$articulation_8h.html" title="libmscore/articulation.h" alt="" coords="966,229,1122,256"/>
-<area shape="rect" id="node7" href="$style_8h.html" title="style.h" alt="" coords="393,453,455,480"/>
+<area shape="rect" id="node7" href="$style_8h.html" title="style.h" alt="" coords="349,453,411,480"/>
 <area shape="rect" id="node8" href="$barline_8h.html" title="libmscore/barline.h" alt="" coords="200,229,331,256"/>
 <area shape="rect" id="node9" href="$beam_8h.html" title="libmscore/beam.h" alt="" coords="1299,80,1424,107"/>
 <area shape="rect" id="node11" href="$note_8h.html" title="Definition of classes Note and NoteHead. " alt="" coords="1527,229,1585,256"/>
-<area shape="rect" id="node12" href="$pitchspelling_8h.html" title="pitchspelling.h" alt="" coords="2467,304,2573,331"/>
+<area shape="rect" id="node12" href="$pitchspelling_8h.html" title="pitchspelling.h" alt="" coords="2591,304,2697,331"/>
 <area shape="rect" id="node13" href="$key_8h.html" title="key.h" alt="" coords="1338,304,1393,331"/>
 <area shape="rect" id="node15" href="$bracket_8h.html" title="libmscore/bracket.h" alt="" coords="755,229,891,256"/>
 <area shape="rect" id="node16" href="$chord_8h.html" title="Definition of classes Chord, HelpLine and NoteList. " alt="" coords="907,80,1032,107"/>
@@ -30,7 +30,7 @@
 <area shape="rect" id="node36" href="$segment_8h.html" title="segment.h" alt="" coords="93,229,176,256"/>
 <area shape="rect" id="node37" href="$slur_8h.html" title="libmscore/slur.h" alt="" coords="2912,80,3027,107"/>
 <area shape="rect" id="node38" href="$staff_8h.html" title="Definition of class Staff. " alt="" coords="50,304,169,331"/>
-<area shape="rect" id="node42" href="$sym_8h.html" title="libmscore/sym.h" alt="" coords="3746,379,3865,405"/>
+<area shape="rect" id="node42" href="$sym_8h.html" title="libmscore/sym.h" alt="" coords="3755,379,3874,405"/>
 <area shape="rect" id="node43" href="$tempotext_8h.html" title="libmscore/tempotext.h" alt="" coords="1755,80,1906,107"/>
 <area shape="rect" id="node44" href="$timesig_8h.html" title="libmscore/timesig.h" alt="" coords="494,229,629,256"/>
 <area shape="rect" id="node45" href="$tremolo_8h.html" title="libmscore/tremolo.h" alt="" coords="1448,80,1584,107"/>

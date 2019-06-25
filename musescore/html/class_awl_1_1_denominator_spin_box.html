@@ -23,9 +23,9 @@
   <td id="projectlogo"><img alt="Logo" src="musescore_logo_full.png"/></td>
   <td id="projectalign" style="padding-left: 0.5em;">
    <div id="projectname">MuseScore
-   &#160;<span id="projectnumber">3.1</span>
+   &#160;<span id="projectnumber">3.2</span>
    </div>
-   <div id="projectbrief">Music compisition and notation</div>
+   <div id="projectbrief">Music composition and notation</div>
   </td>
  </tr>
  </tbody>
@@ -67,6 +67,7 @@ $(function() {
 <div class="header">
   <div class="summary">
 <a href="#pub-methods">Public Member Functions</a> &#124;
+<a href="#pri-methods">Private Member Functions</a> &#124;
 <a href="class_awl_1_1_denominator_spin_box-members.html">List of all members</a>  </div>
   <div class="headertitle">
 <div class="title">Awl::DenominatorSpinBox Class Reference</div>  </div>
@@ -95,6 +96,13 @@ Public Member Functions</h2></td></tr>
 <tr class="separator:ab9fc4708d756aa491733a94b86940d69"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a731bf7b1d0c31ffa8732e13ec2d03d75"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_awl_1_1_denominator_spin_box.html#a731bf7b1d0c31ffa8732e13ec2d03d75">DenominatorSpinBox</a> (QWidget *parent=0)</td></tr>
 <tr class="separator:a731bf7b1d0c31ffa8732e13ec2d03d75"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pri-methods"></a>
+Private Member Functions</h2></td></tr>
+<tr class="memitem:ae3a2dfbda3a0d2fe50eb08bb2dc738c6"><td class="memItemLeft" align="right" valign="top">virtual QValidator::State&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_awl_1_1_denominator_spin_box.html#ae3a2dfbda3a0d2fe50eb08bb2dc738c6">validate</a> (QString &amp;input, int &amp;pos) const</td></tr>
+<tr class="separator:ae3a2dfbda3a0d2fe50eb08bb2dc738c6"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a47504bc09e81c8320b42963e7a26caff"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_awl_1_1_denominator_spin_box.html#a47504bc09e81c8320b42963e7a26caff">fixup</a> (QString &amp;input) const</td></tr>
+<tr class="separator:a47504bc09e81c8320b42963e7a26caff"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
 <a id="a731bf7b1d0c31ffa8732e13ec2d03d75"></a>
@@ -116,6 +124,32 @@ Public Member Functions</h2></td></tr>
 </div>
 </div>
 <h2 class="groupheader">Member Function Documentation</h2>
+<a id="a47504bc09e81c8320b42963e7a26caff"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a47504bc09e81c8320b42963e7a26caff">&#9670;&nbsp;</a></span>fixup()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void Awl::DenominatorSpinBox::fixup </td>
+          <td>(</td>
+          <td class="paramtype">QString &amp;&#160;</td>
+          <td class="paramname"><em>input</em></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span><span class="mlabel">virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
 <a id="ab9fc4708d756aa491733a94b86940d69"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#ab9fc4708d756aa491733a94b86940d69">&#9670;&nbsp;</a></span>stepBy()</h2>
 
@@ -136,6 +170,42 @@ Public Member Functions</h2></td></tr>
   </td>
   <td class="mlabels-right">
 <span class="mlabels"><span class="mlabel">virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="ae3a2dfbda3a0d2fe50eb08bb2dc738c6"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ae3a2dfbda3a0d2fe50eb08bb2dc738c6">&#9670;&nbsp;</a></span>validate()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">QValidator::State Awl::DenominatorSpinBox::validate </td>
+          <td>(</td>
+          <td class="paramtype">QString &amp;&#160;</td>
+          <td class="paramname"><em>input</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int &amp;&#160;</td>
+          <td class="paramname"><em>pos</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span><span class="mlabel">virtual</span></span>  </td>
   </tr>
 </table>
 </div><div class="memdoc">

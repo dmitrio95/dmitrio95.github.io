@@ -15,7 +15,7 @@ var searchData=
   ['dockarea',['dockArea',['../class_ms_1_1_plugin_a_p_i_1_1_plugin_a_p_i.html#ad0f8a54fc07da522f85c8fbe581a3416',1,'Ms::PluginAPI::PluginAPI']]],
   ['dotposition',['dotPosition',['../class_ms_1_1_plugin_a_p_i_1_1_element.html#a16e5aebd1d26a346702b41c2a511d371',1,'Ms::PluginAPI::Element']]],
   ['dots',['dots',['../class_ms_1_1_plugin_a_p_i_1_1_note.html#a6706e48ded8c4d35b5d2fc152fbd7970',1,'Ms::PluginAPI::Note']]],
-  ['duration',['duration',['../class_ms_1_1_plugin_a_p_i_1_1_element.html#aba0476f5de78b0bba0c957650e1d7bf2',1,'Ms::PluginAPI::Element']]],
+  ['duration',['duration',['../class_ms_1_1_plugin_a_p_i_1_1_element.html#aba0476f5de78b0bba0c957650e1d7bf2',1,'Ms::PluginAPI::Element::duration()'],['../class_ms_1_1_plugin_a_p_i_1_1_score.html#a6144c4723a339a80b5ad3ebc67483324',1,'Ms::PluginAPI::Score::duration()']]],
   ['durationtype',['durationType',['../class_ms_1_1_plugin_a_p_i_1_1_element.html#a213234efc26702b1c0c7f6777bd77d6e',1,'Ms::PluginAPI::Element']]],
   ['dynamicrange',['dynamicRange',['../class_ms_1_1_plugin_a_p_i_1_1_element.html#aacf9a0ebf3f91ca3a040071826fd772a',1,'Ms::PluginAPI::Element']]]
 ];

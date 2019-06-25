@@ -23,9 +23,9 @@
   <td id="projectlogo"><img alt="Logo" src="musescore_logo_full.png"/></td>
   <td id="projectalign" style="padding-left: 0.5em;">
    <div id="projectname">MuseScore
-   &#160;<span id="projectnumber">3.1</span>
+   &#160;<span id="projectnumber">3.2</span>
    </div>
-   <div id="projectbrief">Music compisition and notation</div>
+   <div id="projectbrief">Music composition and notation</div>
   </td>
  </tr>
  </tbody>
@@ -68,6 +68,8 @@ $(function() {
   <div class="summary">
 <a href="#signals">Signals</a> &#124;
 <a href="#pub-methods">Public Member Functions</a> &#124;
+<a href="#pri-methods">Private Member Functions</a> &#124;
+<a href="#pri-attribs">Private Attributes</a> &#124;
 <a href="class_ms_1_1_t_dock_widget-members.html">List of all members</a>  </div>
   <div class="headertitle">
 <div class="title">Ms::TDockWidget Class Reference</div>  </div>
@@ -101,6 +103,16 @@ Public Member Functions</h2></td></tr>
 <tr class="separator:a070ca8e98e6ad534e640f88030ccd3fa"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ab94b1e04a00771976d3c78e7a2e56265"><td class="memItemLeft" align="right" valign="top">QSplitter *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ms_1_1_t_dock_widget.html#ab94b1e04a00771976d3c78e7a2e56265">grid</a> ()</td></tr>
 <tr class="separator:ab94b1e04a00771976d3c78e7a2e56265"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pri-methods"></a>
+Private Member Functions</h2></td></tr>
+<tr class="memitem:ae345969b4d0996bfaa672310cbb4910b"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ms_1_1_t_dock_widget.html#ae345969b4d0996bfaa672310cbb4910b">closeEvent</a> (QCloseEvent *event)</td></tr>
+<tr class="separator:ae345969b4d0996bfaa672310cbb4910b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pri-attribs"></a>
+Private Attributes</h2></td></tr>
+<tr class="memitem:ac1daaa15f5a873ab9e4460190bed6157"><td class="memItemLeft" align="right" valign="top">QSplitter *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ms_1_1_t_dock_widget.html#ac1daaa15f5a873ab9e4460190bed6157">_grid</a></td></tr>
+<tr class="separator:ac1daaa15f5a873ab9e4460190bed6157"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
 <a id="a070ca8e98e6ad534e640f88030ccd3fa"></a>
@@ -148,6 +160,32 @@ Public Member Functions</h2></td></tr>
 
 </div>
 </div>
+<a id="ae345969b4d0996bfaa672310cbb4910b"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ae345969b4d0996bfaa672310cbb4910b">&#9670;&nbsp;</a></span>closeEvent()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void Ms::TDockWidget::closeEvent </td>
+          <td>(</td>
+          <td class="paramtype">QCloseEvent *&#160;</td>
+          <td class="paramname"><em>event</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span><span class="mlabel">virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
 <a id="ab94b1e04a00771976d3c78e7a2e56265"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#ab94b1e04a00771976d3c78e7a2e56265">&#9670;&nbsp;</a></span>grid()</h2>
 
@@ -167,6 +205,29 @@ Public Member Functions</h2></td></tr>
   </td>
   <td class="mlabels-right">
 <span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<h2 class="groupheader">Member Data Documentation</h2>
+<a id="ac1daaa15f5a873ab9e4460190bed6157"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ac1daaa15f5a873ab9e4460190bed6157">&#9670;&nbsp;</a></span>_grid</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">QSplitter* Ms::TDockWidget::_grid</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
   </tr>
 </table>
 </div><div class="memdoc">

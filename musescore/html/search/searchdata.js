@@ -5,12 +5,12 @@ var indexSectionsWithContent =
   2: "abfmotu",
   3: "abcdefghijklmnopqrstuvwxz",
   4: "_abcdefghijklmnopqrstuvwxyz~",
-  5: "_abcdefghijklmnopqrstuvwxyz",
+  5: "_abcdefghijklmnopqrstuvwxyz~",
   6: "bcdefghijlmnopstv",
   7: "abcdefghiklmnopqrstuvwx",
   8: "_abcdefghijklmnopqrstuvwxyz",
   9: "abcdefghijklmnoprstuvz",
-  10: "abcilmopqrstvz",
+  10: "abcfilmopqrstvz",
   11: "_abcdfghklmnopqrstuvxy",
   12: "luw"
 };

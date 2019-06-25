@@ -23,9 +23,9 @@
   <td id="projectlogo"><img alt="Logo" src="musescore_logo_full.png"/></td>
   <td id="projectalign" style="padding-left: 0.5em;">
    <div id="projectname">MuseScore
-   &#160;<span id="projectnumber">3.1</span>
+   &#160;<span id="projectnumber">3.2</span>
    </div>
-   <div id="projectbrief">Music compisition and notation</div>
+   <div id="projectbrief">Music composition and notation</div>
   </td>
  </tr>
  </tbody>
@@ -67,6 +67,9 @@ $(function() {
 <div class="header">
   <div class="summary">
 <a href="#pub-methods">Public Member Functions</a> &#124;
+<a href="#pri-slots">Private Slots</a> &#124;
+<a href="#pri-methods">Private Member Functions</a> &#124;
+<a href="#pri-attribs">Private Attributes</a> &#124;
 <a href="class_ms_1_1_operations_delegate-members.html">List of all members</a>  </div>
   <div class="headertitle">
 <div class="title">Ms::OperationsDelegate Class Reference</div>  </div>
@@ -93,7 +96,7 @@ Collaboration diagram for Ms::OperationsDelegate:</div>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
-<tr class="memitem:a71580bbfddabda17167682e144d7da58"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ms_1_1_operations_delegate.html#a71580bbfddabda17167682e144d7da58">OperationsDelegate</a> (QWidget *appWindow, bool rightArrowAlign)</td></tr>
+<tr class="memitem:a71580bbfddabda17167682e144d7da58"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ms_1_1_operations_delegate.html#a71580bbfddabda17167682e144d7da58">OperationsDelegate</a> (QWidget *<a class="el" href="class_ms_1_1_operations_delegate.html#aa4eea9cf440866efc16314ed7df67b34">appWindow</a>, bool <a class="el" href="class_ms_1_1_operations_delegate.html#a4f91c7735c64c0162b965ecc9cb71931">rightArrowAlign</a>)</td></tr>
 <tr class="separator:a71580bbfddabda17167682e144d7da58"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a7c06885993ced9582bbe8b7138a13383"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ms_1_1_operations_delegate.html#a7c06885993ced9582bbe8b7138a13383">paint</a> (QPainter *painter, const QStyleOptionViewItem &amp;option, const QModelIndex &amp;index) const</td></tr>
 <tr class="separator:a7c06885993ced9582bbe8b7138a13383"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -112,6 +115,23 @@ Public Member Functions</h2></td></tr>
 <tr class="separator:a0244a79b27b1988ee05ff0be8e303ea5 inherit pub_methods_class_separator_delegate"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a15ae2216611e19c101cb0778d3da649e inherit pub_methods_class_separator_delegate"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_separator_delegate.html#a15ae2216611e19c101cb0778d3da649e">paint</a> (QPainter *painter, const QStyleOptionViewItem &amp;option, const QModelIndex &amp;index) const</td></tr>
 <tr class="separator:a15ae2216611e19c101cb0778d3da649e inherit pub_methods_class_separator_delegate"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pri-slots"></a>
+Private Slots</h2></td></tr>
+<tr class="memitem:a15fd6a9ebeb4c89e13799b38b15dc8f0"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ms_1_1_operations_delegate.html#a15fd6a9ebeb4c89e13799b38b15dc8f0">commitAndCloseEditor</a> ()</td></tr>
+<tr class="separator:a15fd6a9ebeb4c89e13799b38b15dc8f0"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pri-methods"></a>
+Private Member Functions</h2></td></tr>
+<tr class="memitem:a7c0ae5154719bea4c54fd6f4068fdb16"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ms_1_1_operations_delegate.html#a7c0ae5154719bea4c54fd6f4068fdb16">drawArrow</a> (QPainter *painter, const QStyleOptionViewItem &amp;option, const QModelIndex &amp;index) const</td></tr>
+<tr class="separator:a7c0ae5154719bea4c54fd6f4068fdb16"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pri-attribs"></a>
+Private Attributes</h2></td></tr>
+<tr class="memitem:aa4eea9cf440866efc16314ed7df67b34"><td class="memItemLeft" align="right" valign="top">QWidget *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ms_1_1_operations_delegate.html#aa4eea9cf440866efc16314ed7df67b34">appWindow</a></td></tr>
+<tr class="separator:aa4eea9cf440866efc16314ed7df67b34"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a4f91c7735c64c0162b965ecc9cb71931"><td class="memItemLeft" align="right" valign="top">const bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ms_1_1_operations_delegate.html#a4f91c7735c64c0162b965ecc9cb71931">rightArrowAlign</a></td></tr>
+<tr class="separator:a4f91c7735c64c0162b965ecc9cb71931"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
 <a id="a71580bbfddabda17167682e144d7da58"></a>
@@ -151,6 +171,31 @@ Public Member Functions</h2></td></tr>
 </div>
 </div>
 <h2 class="groupheader">Member Function Documentation</h2>
+<a id="a15fd6a9ebeb4c89e13799b38b15dc8f0"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a15fd6a9ebeb4c89e13799b38b15dc8f0">&#9670;&nbsp;</a></span>commitAndCloseEditor</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void Ms::OperationsDelegate::commitAndCloseEditor </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span><span class="mlabel">slot</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
 <a id="a155277f6000917f904fd23fb64a41cb8"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a155277f6000917f904fd23fb64a41cb8">&#9670;&nbsp;</a></span>createEditor()</h2>
 
@@ -181,6 +226,48 @@ Public Member Functions</h2></td></tr>
           <td></td><td> const</td>
         </tr>
       </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a7c0ae5154719bea4c54fd6f4068fdb16"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a7c0ae5154719bea4c54fd6f4068fdb16">&#9670;&nbsp;</a></span>drawArrow()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void Ms::OperationsDelegate::drawArrow </td>
+          <td>(</td>
+          <td class="paramtype">QPainter *&#160;</td>
+          <td class="paramname"><em>painter</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const QStyleOptionViewItem &amp;&#160;</td>
+          <td class="paramname"><em>option</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const QModelIndex &amp;&#160;</td>
+          <td class="paramname"><em>index</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
 </div><div class="memdoc">
 
 </div>
@@ -277,6 +364,51 @@ Public Member Functions</h2></td></tr>
           <td></td><td> const</td>
         </tr>
       </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<h2 class="groupheader">Member Data Documentation</h2>
+<a id="aa4eea9cf440866efc16314ed7df67b34"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aa4eea9cf440866efc16314ed7df67b34">&#9670;&nbsp;</a></span>appWindow</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">QWidget* Ms::OperationsDelegate::appWindow</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a4f91c7735c64c0162b965ecc9cb71931"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a4f91c7735c64c0162b965ecc9cb71931">&#9670;&nbsp;</a></span>rightArrowAlign</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">const bool Ms::OperationsDelegate::rightArrowAlign</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
 </div><div class="memdoc">
 
 </div>

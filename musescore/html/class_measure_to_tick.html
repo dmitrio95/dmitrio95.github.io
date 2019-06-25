@@ -23,9 +23,9 @@
   <td id="projectlogo"><img alt="Logo" src="musescore_logo_full.png"/></td>
   <td id="projectalign" style="padding-left: 0.5em;">
    <div id="projectname">MuseScore
-   &#160;<span id="projectnumber">3.1</span>
+   &#160;<span id="projectnumber">3.2</span>
    </div>
-   <div id="projectbrief">Music compisition and notation</div>
+   <div id="projectbrief">Music composition and notation</div>
   </td>
  </tr>
  </tbody>
@@ -65,11 +65,20 @@ $(function() {
 <a href="#nested-classes">Classes</a> &#124;
 <a href="#pub-methods">Public Member Functions</a> &#124;
 <a href="#pub-static-methods">Static Public Member Functions</a> &#124;
+<a href="#pri-attribs">Private Attributes</a> &#124;
 <a href="class_measure_to_tick-members.html">List of all members</a>  </div>
   <div class="headertitle">
 <div class="title">MeasureToTick Class Reference</div>  </div>
 </div><!--header-->
 <div class="contents">
+<div class="dynheader">
+Collaboration diagram for MeasureToTick:</div>
+<div class="dyncontent">
+<div class="center"><img src="class_measure_to_tick__coll__graph.png" border="0" usemap="#_measure_to_tick_coll__map" alt="Collaboration graph"/></div>
+<map name="_measure_to_tick_coll__map" id="_measure_to_tick_coll__map">
+<area shape="rect" id="node2" href="class_o_v_e_1_1_ove_song.html" title="OVE::OveSong" alt="" coords="5,5,117,32"/>
+</map>
+<center><span class="legend">[<a href="graph_legend.html">legend</a>]</span></center></div>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="nested-classes"></a>
 Classes</h2></td></tr>
@@ -93,6 +102,15 @@ Public Member Functions</h2></td></tr>
 Static Public Member Functions</h2></td></tr>
 <tr class="memitem:a618879bf8cbb9258d3c428abb4f13a26"><td class="memItemLeft" align="right" valign="top">static int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_measure_to_tick.html#a618879bf8cbb9258d3c428abb4f13a26">unitToTick</a> (int unit, int quarter)</td></tr>
 <tr class="separator:a618879bf8cbb9258d3c428abb4f13a26"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pri-attribs"></a>
+Private Attributes</h2></td></tr>
+<tr class="memitem:ac435ec0e89bba488665d28886f047aba"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_measure_to_tick.html#ac435ec0e89bba488665d28886f047aba">quarter_</a></td></tr>
+<tr class="separator:ac435ec0e89bba488665d28886f047aba"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:afcae646a3fc8f3ab17b2bbabb826a983"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_o_v_e_1_1_ove_song.html">OVE::OveSong</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_measure_to_tick.html#afcae646a3fc8f3ab17b2bbabb826a983">ove_</a></td></tr>
+<tr class="separator:afcae646a3fc8f3ab17b2bbabb826a983"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a4b85c0126ffafaeaf329998bca5f7e40"><td class="memItemLeft" align="right" valign="top">QList&lt; <a class="el" href="struct_measure_to_tick_1_1_time_tick.html">TimeTick</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_measure_to_tick.html#a4b85c0126ffafaeaf329998bca5f7e40">tts_</a></td></tr>
+<tr class="separator:a4b85c0126ffafaeaf329998bca5f7e40"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
 <a id="ac1145f5c44362c9a750f32cab969c64c"></a>
@@ -233,6 +251,73 @@ Static Public Member Functions</h2></td></tr>
   </td>
   <td class="mlabels-right">
 <span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<h2 class="groupheader">Member Data Documentation</h2>
+<a id="afcae646a3fc8f3ab17b2bbabb826a983"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#afcae646a3fc8f3ab17b2bbabb826a983">&#9670;&nbsp;</a></span>ove_</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="class_o_v_e_1_1_ove_song.html">OVE::OveSong</a>* MeasureToTick::ove_</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="ac435ec0e89bba488665d28886f047aba"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ac435ec0e89bba488665d28886f047aba">&#9670;&nbsp;</a></span>quarter_</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">int MeasureToTick::quarter_</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a4b85c0126ffafaeaf329998bca5f7e40"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a4b85c0126ffafaeaf329998bca5f7e40">&#9670;&nbsp;</a></span>tts_</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">QList&lt;<a class="el" href="struct_measure_to_tick_1_1_time_tick.html">TimeTick</a>&gt; MeasureToTick::tts_</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
   </tr>
 </table>
 </div><div class="memdoc">

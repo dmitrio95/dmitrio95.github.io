@@ -8,11 +8,11 @@
 <area shape="rect" id="node21" href="$importmidi__operations_8h.html" title="importmidi_operations.h" alt="" coords="798,95,958,121"/>
 <area shape="rect" id="node25" href="$preferences_8h.html" title="mscore/preferences.h" alt="" coords="1363,95,1511,121"/>
 <area shape="rect" id="node4" href="$importmidi__fraction_8h.html" title="importmidi_fraction.h" alt="" coords="656,393,799,420"/>
-<area shape="rect" id="node5" href="$libmscore_2fraction_8h.html" title="libmscore/fraction.h" alt="" coords="794,468,930,495"/>
-<area shape="rect" id="node7" href="$mscore_8h.html" title="mscore.h" alt="" coords="787,543,863,569"/>
-<area shape="rect" id="node8" href="$style_8h.html" title="style.h" alt="" coords="741,617,802,644"/>
-<area shape="rect" id="node9" href="$chordlist_8h.html" title="chordlist.h" alt="" coords="730,692,813,719"/>
-<area shape="rect" id="node10" href="$types_8h.html" title="types.h" alt="" coords="640,692,705,719"/>
+<area shape="rect" id="node5" href="$libmscore_2fraction_8h.html" title="libmscore/fraction.h" alt="" coords="734,468,870,495"/>
+<area shape="rect" id="node7" href="$mscore_8h.html" title="mscore.h" alt="" coords="727,543,803,569"/>
+<area shape="rect" id="node8" href="$style_8h.html" title="style.h" alt="" coords="681,617,742,644"/>
+<area shape="rect" id="node9" href="$chordlist_8h.html" title="chordlist.h" alt="" coords="670,692,753,719"/>
+<area shape="rect" id="node10" href="$types_8h.html" title="types.h" alt="" coords="580,692,645,719"/>
 <area shape="rect" id="node15" href="$importmidi__operation_8h.html" title="importmidi_operation.h" alt="" coords="765,244,919,271"/>
 <area shape="rect" id="node22" href="$midifile_8h.html" title="midi/midifile.h" alt="" coords="960,169,1063,196"/>
 <area shape="rect" id="node23" href="$sig_8h.html" title="libmscore/sig.h" alt="" coords="941,393,1052,420"/>

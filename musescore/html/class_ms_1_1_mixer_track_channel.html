@@ -23,9 +23,9 @@
   <td id="projectlogo"><img alt="Logo" src="musescore_logo_full.png"/></td>
   <td id="projectalign" style="padding-left: 0.5em;">
    <div id="projectname">MuseScore
-   &#160;<span id="projectnumber">3.1</span>
+   &#160;<span id="projectnumber">3.2</span>
    </div>
-   <div id="projectbrief">Music compisition and notation</div>
+   <div id="projectbrief">Music composition and notation</div>
   </td>
  </tr>
  </tbody>
@@ -70,6 +70,9 @@ $(function() {
 <a href="#signals">Signals</a> &#124;
 <a href="#pub-methods">Public Member Functions</a> &#124;
 <a href="#pro-methods">Protected Member Functions</a> &#124;
+<a href="#pri-methods">Private Member Functions</a> &#124;
+<a href="#pri-attribs">Private Attributes</a> &#124;
+<a href="#pri-static-attribs">Static Private Attributes</a> &#124;
 <a href="class_ms_1_1_mixer_track_channel-members.html">List of all members</a>  </div>
   <div class="headertitle">
 <div class="title">Ms::MixerTrackChannel Class Reference</div>  </div>
@@ -92,9 +95,11 @@ Collaboration diagram for Ms::MixerTrackChannel:</div>
 <div class="dyncontent">
 <div class="center"><img src="class_ms_1_1_mixer_track_channel__coll__graph.png" border="0" usemap="#_ms_1_1_mixer_track_channel_coll__map" alt="Collaboration graph"/></div>
 <map name="_ms_1_1_mixer_track_channel_coll__map" id="_ms_1_1_mixer_track_channel_coll__map">
-<area shape="rect" id="node4" href="class_ms_1_1_channel_listener.html" title="Ms::ChannelListener" alt="" coords="283,95,425,121"/>
-<area shape="rect" id="node5" href="class_ms_1_1_listener.html" title="Ms::Listener\&lt; Channel\l::Prop \&gt;" alt="" coords="277,5,431,47"/>
-<area shape="rect" id="node6" href="class_ms_1_1_mixer_track.html" title="Ms::MixerTrack" alt="" coords="449,95,563,121"/>
+<area shape="rect" id="node4" href="class_ms_1_1_channel_listener.html" title="Ms::ChannelListener" alt="" coords="283,200,425,227"/>
+<area shape="rect" id="node5" href="class_ms_1_1_listener.html" title="Ms::Listener\&lt; Channel\l::Prop \&gt;" alt="" coords="277,109,431,151"/>
+<area shape="rect" id="node6" href="class_ms_1_1_notifier.html" title="Ms::Notifier\&lt; Channel\l::Prop \&gt;" alt="" coords="279,5,429,47"/>
+<area shape="rect" id="node7" href="class_ms_1_1_mixer_track.html" title="Ms::MixerTrack" alt="" coords="449,200,563,227"/>
+<area shape="rect" id="node8" href="class_ms_1_1_mixer_track_group.html" title="Ms::MixerTrackGroup" alt="" coords="587,200,735,227"/>
 </map>
 <center><span class="legend">[<a href="graph_legend.html">legend</a>]</span></center></div>
 <table class="memberdecls">
@@ -146,8 +151,12 @@ Public Member Functions</h2></td></tr>
 <tr class="separator:ae00cc588e083ac2af9e191b88d910c3b inherit pub_methods_class_ms_1_1_listener"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ae1b80168bd04dd8f627fe6bcf8ce5860 inherit pub_methods_class_ms_1_1_listener"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ms_1_1_listener.html#ae1b80168bd04dd8f627fe6bcf8ce5860">Listener</a> (const <a class="el" href="class_ms_1_1_listener.html">Listener</a>&lt; <a class="el" href="class_ms_1_1_channel.html#afc15270bc2c3de90473f7db58428a5b0">Channel::Prop</a> &gt; &amp;)</td></tr>
 <tr class="separator:ae1b80168bd04dd8f627fe6bcf8ce5860 inherit pub_methods_class_ms_1_1_listener"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a055013096ac5f7bf48c38b9495b694cf inherit pub_methods_class_ms_1_1_listener"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ms_1_1_listener.html#a055013096ac5f7bf48c38b9495b694cf">Listener</a> (<a class="el" href="class_ms_1_1_listener.html">Listener</a>&lt; <a class="el" href="class_ms_1_1_channel.html#afc15270bc2c3de90473f7db58428a5b0">Channel::Prop</a> &gt; &amp;&amp;)</td></tr>
+<tr class="separator:a055013096ac5f7bf48c38b9495b694cf inherit pub_methods_class_ms_1_1_listener"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a099a52a70938915e238eeecebb8e06af inherit pub_methods_class_ms_1_1_listener"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_ms_1_1_listener.html">Listener</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ms_1_1_listener.html#a099a52a70938915e238eeecebb8e06af">operator=</a> (const <a class="el" href="class_ms_1_1_listener.html">Listener</a>&lt; <a class="el" href="class_ms_1_1_channel.html#afc15270bc2c3de90473f7db58428a5b0">Channel::Prop</a> &gt; &amp;)</td></tr>
 <tr class="separator:a099a52a70938915e238eeecebb8e06af inherit pub_methods_class_ms_1_1_listener"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa3bfed53b0219bb4645967c1f40a8b66 inherit pub_methods_class_ms_1_1_listener"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_ms_1_1_listener.html">Listener</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ms_1_1_listener.html#aa3bfed53b0219bb4645967c1f40a8b66">operator=</a> (<a class="el" href="class_ms_1_1_listener.html">Listener</a> &amp;&amp;)</td></tr>
+<tr class="separator:aa3bfed53b0219bb4645967c1f40a8b66 inherit pub_methods_class_ms_1_1_listener"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a434530e00cfc637bcc0e88a7cccac633 inherit pub_methods_class_ms_1_1_listener"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ms_1_1_listener.html#a434530e00cfc637bcc0e88a7cccac633">~Listener</a> ()</td></tr>
 <tr class="separator:a434530e00cfc637bcc0e88a7cccac633 inherit pub_methods_class_ms_1_1_listener"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a571f3641f1abb1bff8d78797e808f6f0 inherit pub_methods_class_ms_1_1_listener"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ms_1_1_listener.html#a571f3641f1abb1bff8d78797e808f6f0">setNotifier</a> (<a class="el" href="class_ms_1_1_notifier.html">Notifier</a>&lt; <a class="el" href="class_ms_1_1_channel.html#afc15270bc2c3de90473f7db58428a5b0">Channel::Prop</a> &gt; *n)</td></tr>
@@ -170,6 +179,33 @@ Protected Member Functions</h2></td></tr>
 <tr class="separator:abbd52da7768a50bb25db3ce63f0302db"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aeb88e6562076078d92ecad675f717cbc"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ms_1_1_mixer_track_channel.html#aeb88e6562076078d92ecad675f717cbc">propertyChanged</a> (<a class="el" href="class_ms_1_1_channel.html#afc15270bc2c3de90473f7db58428a5b0">Channel::Prop</a> property) override</td></tr>
 <tr class="separator:aeb88e6562076078d92ecad675f717cbc"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pri-methods"></a>
+Private Member Functions</h2></td></tr>
+<tr class="memitem:a819e4843e6ca440d905991f997514f62"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ms_1_1_mixer_track_channel.html#a819e4843e6ca440d905991f997514f62">updateNameLabel</a> ()</td></tr>
+<tr class="separator:a819e4843e6ca440d905991f997514f62"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pri-attribs"></a>
+Private Attributes</h2></td></tr>
+<tr class="memitem:a7eb0d6182c9976e7333ad8598f10fab9"><td class="memItemLeft" align="right" valign="top"><a class="el" href="namespace_ms.html#a833d7d7542236c6f2fa4c81bec7d840b">MixerTrackItemPtr</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ms_1_1_mixer_track_channel.html#a7eb0d6182c9976e7333ad8598f10fab9">_mti</a></td></tr>
+<tr class="separator:a7eb0d6182c9976e7333ad8598f10fab9"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a289df8233bb45ae9e9a325a667aabd9b"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ms_1_1_mixer_track_channel.html#a289df8233bb45ae9e9a325a667aabd9b">_selected</a></td></tr>
+<tr class="separator:a289df8233bb45ae9e9a325a667aabd9b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a08cc8a26283186f6df1fba135e0bb3e4"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_ms_1_1_mixer_track_group.html">MixerTrackGroup</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ms_1_1_mixer_track_channel.html#a08cc8a26283186f6df1fba135e0bb3e4">_group</a></td></tr>
+<tr class="separator:a08cc8a26283186f6df1fba135e0bb3e4"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pri-static-attribs"></a>
+Static Private Attributes</h2></td></tr>
+<tr class="memitem:a1e2f7fe2163632713a69565075ff2a6a"><td class="memItemLeft" align="right" valign="top">static const QString&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ms_1_1_mixer_track_channel.html#a1e2f7fe2163632713a69565075ff2a6a">unselStyleLight</a></td></tr>
+<tr class="separator:a1e2f7fe2163632713a69565075ff2a6a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:abdb36e3d2a92a85faefb36cf76b34937"><td class="memItemLeft" align="right" valign="top">static const QString&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ms_1_1_mixer_track_channel.html#abdb36e3d2a92a85faefb36cf76b34937">selStyleLight</a></td></tr>
+<tr class="separator:abdb36e3d2a92a85faefb36cf76b34937"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:adbd6108d6617a71265a307ea50f2276b"><td class="memItemLeft" align="right" valign="top">static const QString&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ms_1_1_mixer_track_channel.html#adbd6108d6617a71265a307ea50f2276b">unselStyleDark</a></td></tr>
+<tr class="separator:adbd6108d6617a71265a307ea50f2276b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a48f1e45732fe83038b8fa0a3feabe571"><td class="memItemLeft" align="right" valign="top">static const QString&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ms_1_1_mixer_track_channel.html#a48f1e45732fe83038b8fa0a3feabe571">selStyleDark</a></td></tr>
+<tr class="separator:a48f1e45732fe83038b8fa0a3feabe571"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:abfc8614e93344c7f64544d559081d67e"><td class="memItemLeft" align="right" valign="top">static const QString&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ms_1_1_mixer_track_channel.html#abfc8614e93344c7f64544d559081d67e">sliderStyle</a></td></tr>
+<tr class="separator:abfc8614e93344c7f64544d559081d67e"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
 <a id="a3835287df728d586c3b16e2352f8914d"></a>
@@ -577,6 +613,31 @@ Protected Member Functions</h2></td></tr>
 
 </div>
 </div>
+<a id="a819e4843e6ca440d905991f997514f62"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a819e4843e6ca440d905991f997514f62">&#9670;&nbsp;</a></span>updateNameLabel()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void Ms::MixerTrackChannel::updateNameLabel </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
 <a id="a70c134fc53ce4b9d89cf357395dcc182"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a70c134fc53ce4b9d89cf357395dcc182">&#9670;&nbsp;</a></span>updateSolo</h2>
 
@@ -627,6 +688,183 @@ Protected Member Functions</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
+</div>
+</div>
+<h2 class="groupheader">Member Data Documentation</h2>
+<a id="a08cc8a26283186f6df1fba135e0bb3e4"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a08cc8a26283186f6df1fba135e0bb3e4">&#9670;&nbsp;</a></span>_group</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="class_ms_1_1_mixer_track_group.html">MixerTrackGroup</a>* Ms::MixerTrackChannel::_group</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a7eb0d6182c9976e7333ad8598f10fab9"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a7eb0d6182c9976e7333ad8598f10fab9">&#9670;&nbsp;</a></span>_mti</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="namespace_ms.html#a833d7d7542236c6f2fa4c81bec7d840b">MixerTrackItemPtr</a> Ms::MixerTrackChannel::_mti</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a289df8233bb45ae9e9a325a667aabd9b"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a289df8233bb45ae9e9a325a667aabd9b">&#9670;&nbsp;</a></span>_selected</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool Ms::MixerTrackChannel::_selected</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a48f1e45732fe83038b8fa0a3feabe571"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a48f1e45732fe83038b8fa0a3feabe571">&#9670;&nbsp;</a></span>selStyleDark</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">const QString Ms::MixerTrackChannel::selStyleDark</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<b>Initial value:</b><div class="fragment"><div class="line">= <span class="stringliteral">&quot;#controlWidget {&quot;</span></div><div class="line">                                     <span class="stringliteral">&quot;      background: #666;&quot;</span></div><div class="line">                                     <span class="stringliteral">&quot;      border-left: 2px solid #888;&quot;</span></div><div class="line">                                     <span class="stringliteral">&quot;      border-top: 2px solid #888;&quot;</span></div><div class="line">                                     <span class="stringliteral">&quot;      border-right: 2px solid #000;&quot;</span></div><div class="line">                                     <span class="stringliteral">&quot;      border-bottom: 2px solid #000;&quot;</span></div><div class="line">                                     <span class="stringliteral">&quot;}&quot;</span></div><div class="line">                                     <span class="stringliteral">&quot;.expandBn {&quot;</span></div><div class="line">                                     <span class="stringliteral">&quot;     background-color: #aaa;&quot;</span></div><div class="line">                                     <span class="stringliteral">&quot;}&quot;</span></div></div><!-- fragment -->
+</div>
+</div>
+<a id="abdb36e3d2a92a85faefb36cf76b34937"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#abdb36e3d2a92a85faefb36cf76b34937">&#9670;&nbsp;</a></span>selStyleLight</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">const QString Ms::MixerTrackChannel::selStyleLight</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<b>Initial value:</b><div class="fragment"><div class="line">= <span class="stringliteral">&quot;#controlWidget {&quot;</span></div><div class="line">                                     <span class="stringliteral">&quot;      background: #ccc;&quot;</span></div><div class="line">                                     <span class="stringliteral">&quot;      border-left: 2px solid #eee;&quot;</span></div><div class="line">                                     <span class="stringliteral">&quot;      border-top: 2px solid #eee;&quot;</span></div><div class="line">                                     <span class="stringliteral">&quot;      border-right: 2px solid #777;&quot;</span></div><div class="line">                                     <span class="stringliteral">&quot;      border-bottom: 2px solid #777;&quot;</span></div><div class="line">                                     <span class="stringliteral">&quot;}&quot;</span></div></div><!-- fragment -->
+</div>
+</div>
+<a id="abfc8614e93344c7f64544d559081d67e"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#abfc8614e93344c7f64544d559081d67e">&#9670;&nbsp;</a></span>sliderStyle</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">const QString Ms::MixerTrackChannel::sliderStyle</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="adbd6108d6617a71265a307ea50f2276b"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#adbd6108d6617a71265a307ea50f2276b">&#9670;&nbsp;</a></span>unselStyleDark</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">const QString Ms::MixerTrackChannel::unselStyleDark</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<b>Initial value:</b><div class="fragment"><div class="line">= <span class="stringliteral">&quot;#controlWidget {&quot;</span></div><div class="line">                                       <span class="stringliteral">&quot;      background: #444;&quot;</span></div><div class="line">                                       <span class="stringliteral">&quot;      border-left: 2px solid #888;&quot;</span></div><div class="line">                                       <span class="stringliteral">&quot;      border-top: 2px solid #888;&quot;</span></div><div class="line">                                       <span class="stringliteral">&quot;      border-right: 2px solid #000;&quot;</span></div><div class="line">                                       <span class="stringliteral">&quot;      border-bottom: 2px solid #000;&quot;</span></div><div class="line">                                       <span class="stringliteral">&quot;}&quot;</span></div><div class="line">                                       <span class="stringliteral">&quot;.expandBn {&quot;</span></div><div class="line">                                       <span class="stringliteral">&quot;     background-color: #aaa;&quot;</span></div><div class="line">                                       <span class="stringliteral">&quot;}&quot;</span></div></div><!-- fragment -->
+</div>
+</div>
+<a id="a1e2f7fe2163632713a69565075ff2a6a"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a1e2f7fe2163632713a69565075ff2a6a">&#9670;&nbsp;</a></span>unselStyleLight</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">const QString Ms::MixerTrackChannel::unselStyleLight</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<b>Initial value:</b><div class="fragment"><div class="line">= <span class="stringliteral">&quot;#controlWidget {&quot;</span></div><div class="line">                                       <span class="stringliteral">&quot;      background: #aaa;&quot;</span></div><div class="line">                                       <span class="stringliteral">&quot;      border-left: 2px solid #ddd;&quot;</span></div><div class="line">                                       <span class="stringliteral">&quot;      border-top: 2px solid #ddd;&quot;</span></div><div class="line">                                       <span class="stringliteral">&quot;      border-right: 2px solid #777;&quot;</span></div><div class="line">                                       <span class="stringliteral">&quot;      border-bottom: 2px solid #777;&quot;</span></div><div class="line">                                       <span class="stringliteral">&quot;}&quot;</span></div></div><!-- fragment -->
 </div>
 </div>
 <hr/>The documentation for this class was generated from the following files:<ul>

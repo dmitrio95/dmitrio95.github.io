@@ -1,5 +1,5 @@
 <map id="mscore/script/recorderwidget.cpp" name="mscore/script/recorderwidget.cpp">
-<area shape="rect" id="node2" href="$recorderwidget_8h.html" title="recorderwidget.h" alt="" coords="289,80,408,107"/>
+<area shape="rect" id="node2" href="$recorderwidget_8h.html" title="recorderwidget.h" alt="" coords="317,80,436,107"/>
 <area shape="rect" id="node13" href="$musescore_8h.html" title="musescore.h" alt="" coords="944,80,1041,107"/>
 <area shape="rect" id="node3" href="$script_8h.html" title="script.h" alt="" coords="93,155,159,181"/>
 <area shape="rect" id="node4" href="$scriptentry_8h.html" title="scriptentry.h" alt="" coords="5,229,100,256"/>
@@ -14,13 +14,13 @@
 <area shape="rect" id="node21" href="$musescore_core_8h.html" title="libmscore/musescoreCore.h" alt="" coords="1375,155,1560,181"/>
 <area shape="rect" id="node22" href="$libmscore_2score_8h.html" title="Definition of Score class. " alt="" coords="1035,229,1161,256"/>
 <area shape="rect" id="node43" href="$newwizard_8h.html" title="newwizard.h" alt="" coords="1655,155,1749,181"/>
-<area shape="rect" id="node23" href="$input_8h.html" title="input.h" alt="" coords="1475,304,1537,331"/>
+<area shape="rect" id="node23" href="$input_8h.html" title="input.h" alt="" coords="1459,304,1521,331"/>
 <area shape="rect" id="node26" href="$property_8h.html" title="property.h" alt="" coords="1182,468,1262,495"/>
-<area shape="rect" id="node27" href="$libmscore_2instrument_8h.html" title="instrument.h" alt="" coords="733,304,828,331"/>
+<area shape="rect" id="node27" href="$libmscore_2instrument_8h.html" title="instrument.h" alt="" coords="732,304,827,331"/>
 <area shape="rect" id="node35" href="$select_8h.html" title="select.h" alt="" coords="1401,386,1469,413"/>
 <area shape="rect" id="node37" href="$synthesizerstate_8h.html" title="synthesizerstate.h" alt="" coords="1103,304,1232,331"/>
-<area shape="rect" id="node39" href="$mscoreview_8h.html" title="mscoreview.h" alt="" coords="607,304,709,331"/>
-<area shape="rect" id="node40" href="$spannermap_8h.html" title="spannermap.h" alt="" coords="278,304,382,331"/>
+<area shape="rect" id="node39" href="$mscoreview_8h.html" title="mscoreview.h" alt="" coords="605,304,708,331"/>
+<area shape="rect" id="node40" href="$spannermap_8h.html" title="spannermap.h" alt="" coords="342,304,446,331"/>
 <area shape="rect" id="node42" href="$layoutbreak_8h.html" title="layoutbreak.h" alt="" coords="979,304,1079,331"/>
 <area shape="rect" id="node24" href="$durationtype_8h.html" title="durationtype.h" alt="" coords="1518,468,1622,495"/>
 <area shape="rect" id="node25" href="$beam_8h.html" title="beam.h" alt="" coords="1312,386,1377,413"/>

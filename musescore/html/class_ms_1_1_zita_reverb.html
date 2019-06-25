@@ -23,9 +23,9 @@
   <td id="projectlogo"><img alt="Logo" src="musescore_logo_full.png"/></td>
   <td id="projectalign" style="padding-left: 0.5em;">
    <div id="projectname">MuseScore
-   &#160;<span id="projectnumber">3.1</span>
+   &#160;<span id="projectnumber">3.2</span>
    </div>
-   <div id="projectbrief">Music compisition and notation</div>
+   <div id="projectbrief">Music composition and notation</div>
   </td>
  </tr>
  </tbody>
@@ -67,6 +67,9 @@ $(function() {
 <div class="header">
   <div class="summary">
 <a href="#pub-methods">Public Member Functions</a> &#124;
+<a href="#pri-methods">Private Member Functions</a> &#124;
+<a href="#pri-attribs">Private Attributes</a> &#124;
+<a href="#pri-static-attribs">Static Private Attributes</a> &#124;
 <a href="class_ms_1_1_zita_reverb-members.html">List of all members</a>  </div>
   <div class="headertitle">
 <div class="title">Ms::ZitaReverb Class Reference</div>  </div>
@@ -87,8 +90,13 @@ Collaboration diagram for Ms::ZitaReverb:</div>
 <div class="dyncontent">
 <div class="center"><img src="class_ms_1_1_zita_reverb__coll__graph.png" border="0" usemap="#_ms_1_1_zita_reverb_coll__map" alt="Collaboration graph"/></div>
 <map name="_ms_1_1_zita_reverb_coll__map" id="_ms_1_1_zita_reverb_coll__map">
-<area shape="rect" id="node2" href="class_ms_1_1_effect.html" title="Ms::Effect" alt="" coords="38,171,121,197"/>
-<area shape="rect" id="node4" href="class_ms_1_1_effect_gui.html" title="Ms::EffectGui" alt="" coords="100,81,203,108"/>
+<area shape="rect" id="node2" href="class_ms_1_1_effect.html" title="Ms::Effect" alt="" coords="118,81,201,108"/>
+<area shape="rect" id="node4" href="class_ms_1_1_effect_gui.html" title="Ms::EffectGui" alt="" coords="35,185,137,212"/>
+<area shape="rect" id="node6" href="class_ms_1_1_filt1.html" title="Ms::Filt1" alt="" coords="225,81,299,108"/>
+<area shape="rect" id="node7" href="class_ms_1_1_diff1.html" title="Ms::Diff1" alt="" coords="323,81,399,108"/>
+<area shape="rect" id="node8" href="class_ms_1_1_vdelay.html" title="Ms::Vdelay" alt="" coords="423,81,511,108"/>
+<area shape="rect" id="node9" href="class_ms_1_1_pareq.html" title="Ms::Pareq" alt="" coords="535,81,618,108"/>
+<area shape="rect" id="node10" href="class_ms_1_1_delay.html" title="Ms::Delay" alt="" coords="642,81,725,108"/>
 </map>
 <center><span class="legend">[<a href="graph_legend.html">legend</a>]</span></center></div>
 <table class="memberdecls">
@@ -171,6 +179,75 @@ Public Member Functions</h2></td></tr>
 <tr class="separator:a5797c5c510259fede1c7ecc5124b163a inherit pub_methods_class_ms_1_1_effect"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a14623b722bc803e63b74d00ffc0a7f64 inherit pub_methods_class_ms_1_1_effect"><td class="memItemLeft" align="right" valign="top">virtual const <a class="el" href="struct_ms_1_1_par_descr.html">ParDescr</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ms_1_1_effect.html#a14623b722bc803e63b74d00ffc0a7f64">parameter</a> (const QString &amp;) const</td></tr>
 <tr class="separator:a14623b722bc803e63b74d00ffc0a7f64 inherit pub_methods_class_ms_1_1_effect"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pri-methods"></a>
+Private Member Functions</h2></td></tr>
+<tr class="memitem:a85ab2c43512e41024f91c4cb2a6cb507"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ms_1_1_zita_reverb.html#a85ab2c43512e41024f91c4cb2a6cb507">prepare</a> (int n)</td></tr>
+<tr class="separator:a85ab2c43512e41024f91c4cb2a6cb507"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pri-attribs"></a>
+Private Attributes</h2></td></tr>
+<tr class="memitem:a1a669d84df37f1b6ae95f666ef92fe6f"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ms_1_1_zita_reverb.html#a1a669d84df37f1b6ae95f666ef92fe6f">_fsamp</a></td></tr>
+<tr class="separator:a1a669d84df37f1b6ae95f666ef92fe6f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa5e1ad0ea2b78cc382f9f0ef2eb00058"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_ms_1_1_vdelay.html">Vdelay</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ms_1_1_zita_reverb.html#aa5e1ad0ea2b78cc382f9f0ef2eb00058">_vdelay0</a></td></tr>
+<tr class="separator:aa5e1ad0ea2b78cc382f9f0ef2eb00058"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a26af93f3efd4a546e470f50911923674"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_ms_1_1_vdelay.html">Vdelay</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ms_1_1_zita_reverb.html#a26af93f3efd4a546e470f50911923674">_vdelay1</a></td></tr>
+<tr class="separator:a26af93f3efd4a546e470f50911923674"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af47fab8ec2b0643db05e953e8b706987"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_ms_1_1_diff1.html">Diff1</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ms_1_1_zita_reverb.html#af47fab8ec2b0643db05e953e8b706987">_diff1</a> [8]</td></tr>
+<tr class="separator:af47fab8ec2b0643db05e953e8b706987"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:abdb5468f225df20021d914940156be87"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_ms_1_1_filt1.html">Filt1</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ms_1_1_zita_reverb.html#abdb5468f225df20021d914940156be87">_filt1</a> [8]</td></tr>
+<tr class="separator:abdb5468f225df20021d914940156be87"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af06fb0f8688bdcf12f228793e0258c4f"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_ms_1_1_delay.html">Delay</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ms_1_1_zita_reverb.html#af06fb0f8688bdcf12f228793e0258c4f">_delay</a> [8]</td></tr>
+<tr class="separator:af06fb0f8688bdcf12f228793e0258c4f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a923a83802f750dd4cc77699843fccd05"><td class="memItemLeft" align="right" valign="top">volatile int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ms_1_1_zita_reverb.html#a923a83802f750dd4cc77699843fccd05">_cntA1</a></td></tr>
+<tr class="separator:a923a83802f750dd4cc77699843fccd05"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a19dcaf98e9c009766e07f1b08994a1fb"><td class="memItemLeft" align="right" valign="top">volatile int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ms_1_1_zita_reverb.html#a19dcaf98e9c009766e07f1b08994a1fb">_cntB1</a></td></tr>
+<tr class="separator:a19dcaf98e9c009766e07f1b08994a1fb"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:abd20ec2c3559acfe784ccb3b762f2de6"><td class="memItemLeft" align="right" valign="top">volatile int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ms_1_1_zita_reverb.html#abd20ec2c3559acfe784ccb3b762f2de6">_cntC1</a></td></tr>
+<tr class="separator:abd20ec2c3559acfe784ccb3b762f2de6"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a836286039cf59c60c6c6ca9326df39b2"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ms_1_1_zita_reverb.html#a836286039cf59c60c6c6ca9326df39b2">_cntA2</a></td></tr>
+<tr class="separator:a836286039cf59c60c6c6ca9326df39b2"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a5348ff36b31869f4deda98db7f776ae8"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ms_1_1_zita_reverb.html#a5348ff36b31869f4deda98db7f776ae8">_cntB2</a></td></tr>
+<tr class="separator:a5348ff36b31869f4deda98db7f776ae8"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a7d11f0167568f686e7d4aacbc835bd7a"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ms_1_1_zita_reverb.html#a7d11f0167568f686e7d4aacbc835bd7a">_cntC2</a></td></tr>
+<tr class="separator:a7d11f0167568f686e7d4aacbc835bd7a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a5d27685d5d18a0b6895ce962ce0a1bb9"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ms_1_1_zita_reverb.html#a5d27685d5d18a0b6895ce962ce0a1bb9">_ipdel</a></td></tr>
+<tr class="separator:a5d27685d5d18a0b6895ce962ce0a1bb9"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aeaac225a6c96c7d6841fb421286f41fb"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ms_1_1_zita_reverb.html#aeaac225a6c96c7d6841fb421286f41fb">_xover</a></td></tr>
+<tr class="separator:aeaac225a6c96c7d6841fb421286f41fb"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a0102ac2a4eb6d881dd20e2a85e075517"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ms_1_1_zita_reverb.html#a0102ac2a4eb6d881dd20e2a85e075517">_rtlow</a></td></tr>
+<tr class="separator:a0102ac2a4eb6d881dd20e2a85e075517"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac8626cd72c37f4964d3d541bb6037c41"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ms_1_1_zita_reverb.html#ac8626cd72c37f4964d3d541bb6037c41">_rtmid</a></td></tr>
+<tr class="separator:ac8626cd72c37f4964d3d541bb6037c41"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae9b83566b006518b0764fbe2924d2046"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ms_1_1_zita_reverb.html#ae9b83566b006518b0764fbe2924d2046">_fdamp</a></td></tr>
+<tr class="separator:ae9b83566b006518b0764fbe2924d2046"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a22f4ed25fbaed6e1047a8450211ec946"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ms_1_1_zita_reverb.html#a22f4ed25fbaed6e1047a8450211ec946">_opmix</a></td></tr>
+<tr class="separator:a22f4ed25fbaed6e1047a8450211ec946"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab611d6c6c1b0b2170571984e219987ad"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ms_1_1_zita_reverb.html#ab611d6c6c1b0b2170571984e219987ad">_rgxyz</a></td></tr>
+<tr class="separator:ab611d6c6c1b0b2170571984e219987ad"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a5eb7031edc216623a740bb344e63a4a9"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ms_1_1_zita_reverb.html#a5eb7031edc216623a740bb344e63a4a9">_g0</a></td></tr>
+<tr class="separator:a5eb7031edc216623a740bb344e63a4a9"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a7e9e2903f1da4185e56f090e7af246aa"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ms_1_1_zita_reverb.html#a7e9e2903f1da4185e56f090e7af246aa">_d0</a></td></tr>
+<tr class="separator:a7e9e2903f1da4185e56f090e7af246aa"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a098dd548f68b63d8b38abc78cf815ba1"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ms_1_1_zita_reverb.html#a098dd548f68b63d8b38abc78cf815ba1">_g1</a></td></tr>
+<tr class="separator:a098dd548f68b63d8b38abc78cf815ba1"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a8c4c149e62c0bac9342ddc6156e1a0cb"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ms_1_1_zita_reverb.html#a8c4c149e62c0bac9342ddc6156e1a0cb">_d1</a></td></tr>
+<tr class="separator:a8c4c149e62c0bac9342ddc6156e1a0cb"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a27c1242556eff31994e77c8867b57820"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_ms_1_1_pareq.html">Pareq</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ms_1_1_zita_reverb.html#a27c1242556eff31994e77c8867b57820">_pareq1</a></td></tr>
+<tr class="separator:a27c1242556eff31994e77c8867b57820"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a1bb978bbf10788883fc89dc16cfb0db1"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_ms_1_1_pareq.html">Pareq</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ms_1_1_zita_reverb.html#a1bb978bbf10788883fc89dc16cfb0db1">_pareq2</a></td></tr>
+<tr class="separator:a1bb978bbf10788883fc89dc16cfb0db1"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a6e578c5708b104ea296672596dbf7ff8"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ms_1_1_zita_reverb.html#a6e578c5708b104ea296672596dbf7ff8">_fragm</a></td></tr>
+<tr class="separator:a6e578c5708b104ea296672596dbf7ff8"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9fa874fcedeaf19ee2b98ae9f9c2d809"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ms_1_1_zita_reverb.html#a9fa874fcedeaf19ee2b98ae9f9c2d809">_nsamp</a></td></tr>
+<tr class="separator:a9fa874fcedeaf19ee2b98ae9f9c2d809"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pri-static-attribs"></a>
+Static Private Attributes</h2></td></tr>
+<tr class="memitem:abbc53842e847aea9dfd3e4827e264704"><td class="memItemLeft" align="right" valign="top">static float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ms_1_1_zita_reverb.html#abbc53842e847aea9dfd3e4827e264704">_tdiff1</a> [8]</td></tr>
+<tr class="separator:abbc53842e847aea9dfd3e4827e264704"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aeecc8e90c6270dfc2c05190ae1d3a414"><td class="memItemLeft" align="right" valign="top">static float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ms_1_1_zita_reverb.html#aeecc8e90c6270dfc2c05190ae1d3a414">_tdelay</a> [8]</td></tr>
+<tr class="separator:aeecc8e90c6270dfc2c05190ae1d3a414"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="inherited"></a>
 Additional Inherited Members</h2></td></tr>
@@ -554,6 +631,32 @@ Additional Inherited Members</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Implements <a class="el" href="class_ms_1_1_effect.html#a4fa1b2544020864e640f0d312d1b5041">Ms::Effect</a>.</p>
+
+</div>
+</div>
+<a id="a85ab2c43512e41024f91c4cb2a6cb507"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a85ab2c43512e41024f91c4cb2a6cb507">&#9670;&nbsp;</a></span>prepare()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void Ms::ZitaReverb::prepare </td>
+          <td>(</td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>n</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
 
 </div>
 </div>
@@ -1023,6 +1126,645 @@ Additional Inherited Members</h2></td></tr>
   </td>
   <td class="mlabels-right">
 <span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<h2 class="groupheader">Member Data Documentation</h2>
+<a id="a923a83802f750dd4cc77699843fccd05"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a923a83802f750dd4cc77699843fccd05">&#9670;&nbsp;</a></span>_cntA1</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">volatile int Ms::ZitaReverb::_cntA1</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a836286039cf59c60c6c6ca9326df39b2"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a836286039cf59c60c6c6ca9326df39b2">&#9670;&nbsp;</a></span>_cntA2</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">int Ms::ZitaReverb::_cntA2</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a19dcaf98e9c009766e07f1b08994a1fb"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a19dcaf98e9c009766e07f1b08994a1fb">&#9670;&nbsp;</a></span>_cntB1</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">volatile int Ms::ZitaReverb::_cntB1</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a5348ff36b31869f4deda98db7f776ae8"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a5348ff36b31869f4deda98db7f776ae8">&#9670;&nbsp;</a></span>_cntB2</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">int Ms::ZitaReverb::_cntB2</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="abd20ec2c3559acfe784ccb3b762f2de6"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#abd20ec2c3559acfe784ccb3b762f2de6">&#9670;&nbsp;</a></span>_cntC1</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">volatile int Ms::ZitaReverb::_cntC1</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a7d11f0167568f686e7d4aacbc835bd7a"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a7d11f0167568f686e7d4aacbc835bd7a">&#9670;&nbsp;</a></span>_cntC2</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">int Ms::ZitaReverb::_cntC2</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a7e9e2903f1da4185e56f090e7af246aa"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a7e9e2903f1da4185e56f090e7af246aa">&#9670;&nbsp;</a></span>_d0</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">float Ms::ZitaReverb::_d0</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a8c4c149e62c0bac9342ddc6156e1a0cb"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a8c4c149e62c0bac9342ddc6156e1a0cb">&#9670;&nbsp;</a></span>_d1</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">float Ms::ZitaReverb::_d1</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="af06fb0f8688bdcf12f228793e0258c4f"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#af06fb0f8688bdcf12f228793e0258c4f">&#9670;&nbsp;</a></span>_delay</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="class_ms_1_1_delay.html">Delay</a> Ms::ZitaReverb::_delay[8]</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="af47fab8ec2b0643db05e953e8b706987"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#af47fab8ec2b0643db05e953e8b706987">&#9670;&nbsp;</a></span>_diff1</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="class_ms_1_1_diff1.html">Diff1</a> Ms::ZitaReverb::_diff1[8]</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="ae9b83566b006518b0764fbe2924d2046"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ae9b83566b006518b0764fbe2924d2046">&#9670;&nbsp;</a></span>_fdamp</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">float Ms::ZitaReverb::_fdamp</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="abdb5468f225df20021d914940156be87"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#abdb5468f225df20021d914940156be87">&#9670;&nbsp;</a></span>_filt1</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="class_ms_1_1_filt1.html">Filt1</a> Ms::ZitaReverb::_filt1[8]</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a6e578c5708b104ea296672596dbf7ff8"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a6e578c5708b104ea296672596dbf7ff8">&#9670;&nbsp;</a></span>_fragm</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">int Ms::ZitaReverb::_fragm</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a1a669d84df37f1b6ae95f666ef92fe6f"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a1a669d84df37f1b6ae95f666ef92fe6f">&#9670;&nbsp;</a></span>_fsamp</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">float Ms::ZitaReverb::_fsamp</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a5eb7031edc216623a740bb344e63a4a9"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a5eb7031edc216623a740bb344e63a4a9">&#9670;&nbsp;</a></span>_g0</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">float Ms::ZitaReverb::_g0</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a098dd548f68b63d8b38abc78cf815ba1"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a098dd548f68b63d8b38abc78cf815ba1">&#9670;&nbsp;</a></span>_g1</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">float Ms::ZitaReverb::_g1</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a5d27685d5d18a0b6895ce962ce0a1bb9"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a5d27685d5d18a0b6895ce962ce0a1bb9">&#9670;&nbsp;</a></span>_ipdel</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">float Ms::ZitaReverb::_ipdel</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a9fa874fcedeaf19ee2b98ae9f9c2d809"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a9fa874fcedeaf19ee2b98ae9f9c2d809">&#9670;&nbsp;</a></span>_nsamp</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">int Ms::ZitaReverb::_nsamp</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a22f4ed25fbaed6e1047a8450211ec946"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a22f4ed25fbaed6e1047a8450211ec946">&#9670;&nbsp;</a></span>_opmix</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">float Ms::ZitaReverb::_opmix</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a27c1242556eff31994e77c8867b57820"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a27c1242556eff31994e77c8867b57820">&#9670;&nbsp;</a></span>_pareq1</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="class_ms_1_1_pareq.html">Pareq</a> Ms::ZitaReverb::_pareq1</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a1bb978bbf10788883fc89dc16cfb0db1"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a1bb978bbf10788883fc89dc16cfb0db1">&#9670;&nbsp;</a></span>_pareq2</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="class_ms_1_1_pareq.html">Pareq</a> Ms::ZitaReverb::_pareq2</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="ab611d6c6c1b0b2170571984e219987ad"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ab611d6c6c1b0b2170571984e219987ad">&#9670;&nbsp;</a></span>_rgxyz</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">float Ms::ZitaReverb::_rgxyz</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a0102ac2a4eb6d881dd20e2a85e075517"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a0102ac2a4eb6d881dd20e2a85e075517">&#9670;&nbsp;</a></span>_rtlow</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">float Ms::ZitaReverb::_rtlow</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="ac8626cd72c37f4964d3d541bb6037c41"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ac8626cd72c37f4964d3d541bb6037c41">&#9670;&nbsp;</a></span>_rtmid</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">float Ms::ZitaReverb::_rtmid</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="aeecc8e90c6270dfc2c05190ae1d3a414"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aeecc8e90c6270dfc2c05190ae1d3a414">&#9670;&nbsp;</a></span>_tdelay</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">float Ms::ZitaReverb::_tdelay</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<b>Initial value:</b><div class="fragment"><div class="line">= {</div><div class="line">      153129e-6f,</div><div class="line">      210389e-6f,</div><div class="line">      127837e-6f,</div><div class="line">      256891e-6f,</div><div class="line">      174713e-6f,</div><div class="line">      192303e-6f,</div><div class="line">      125000e-6f,</div><div class="line">      219991e-6f</div><div class="line">      }</div></div><!-- fragment -->
+</div>
+</div>
+<a id="abbc53842e847aea9dfd3e4827e264704"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#abbc53842e847aea9dfd3e4827e264704">&#9670;&nbsp;</a></span>_tdiff1</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">float Ms::ZitaReverb::_tdiff1</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<b>Initial value:</b><div class="fragment"><div class="line">= {</div><div class="line">      20346e-6f,</div><div class="line">      24421e-6f,</div><div class="line">      31604e-6f,</div><div class="line">      27333e-6f,</div><div class="line">      22904e-6f,</div><div class="line">      29291e-6f,</div><div class="line">      13458e-6f,</div><div class="line">      19123e-6f</div><div class="line">      }</div></div><!-- fragment -->
+</div>
+</div>
+<a id="aa5e1ad0ea2b78cc382f9f0ef2eb00058"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aa5e1ad0ea2b78cc382f9f0ef2eb00058">&#9670;&nbsp;</a></span>_vdelay0</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="class_ms_1_1_vdelay.html">Vdelay</a> Ms::ZitaReverb::_vdelay0</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a26af93f3efd4a546e470f50911923674"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a26af93f3efd4a546e470f50911923674">&#9670;&nbsp;</a></span>_vdelay1</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="class_ms_1_1_vdelay.html">Vdelay</a> Ms::ZitaReverb::_vdelay1</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="aeaac225a6c96c7d6841fb421286f41fb"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aeaac225a6c96c7d6841fb421286f41fb">&#9670;&nbsp;</a></span>_xover</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">float Ms::ZitaReverb::_xover</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
   </tr>
 </table>
 </div><div class="memdoc">

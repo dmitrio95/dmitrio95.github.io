@@ -23,9 +23,9 @@
   <td id="projectlogo"><img alt="Logo" src="musescore_logo_full.png"/></td>
   <td id="projectalign" style="padding-left: 0.5em;">
    <div id="projectname">MuseScore
-   &#160;<span id="projectnumber">3.1</span>
+   &#160;<span id="projectnumber">3.2</span>
    </div>
-   <div id="projectbrief">Music compisition and notation</div>
+   <div id="projectbrief">Music composition and notation</div>
   </td>
  </tr>
  </tbody>
@@ -70,6 +70,7 @@ $(function() {
 <a href="#signals">Signals</a> &#124;
 <a href="#pub-methods">Public Member Functions</a> &#124;
 <a href="#properties">Properties</a> &#124;
+<a href="#pri-attribs">Private Attributes</a> &#124;
 <a href="class_ms_1_1_plugin_a_p_i_1_1_file_i_o-members.html">List of all members</a>  </div>
   <div class="headertitle">
 <div class="title">Ms::PluginAPI::FileIO Class Reference</div>  </div>
@@ -129,7 +130,7 @@ Public Member Functions</h2></td></tr>
 <tr class="memdesc:a541932f39b9d9d4d29b1cde7afe3c884"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns a path suitable for a temporary file.  <a href="#a541932f39b9d9d4d29b1cde7afe3c884">More...</a><br /></td></tr>
 <tr class="separator:a541932f39b9d9d4d29b1cde7afe3c884"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a027f62bec750d9507b2ecfcc2883a5a9"><td class="memItemLeft" align="right" valign="top">Q_INVOKABLE int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ms_1_1_plugin_a_p_i_1_1_file_i_o.html#a027f62bec750d9507b2ecfcc2883a5a9">modifiedTime</a> ()</td></tr>
-<tr class="memdesc:a027f62bec750d9507b2ecfcc2883a5a9"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns the file modification time.  <a href="#a027f62bec750d9507b2ecfcc2883a5a9">More...</a><br /></td></tr>
+<tr class="memdesc:a027f62bec750d9507b2ecfcc2883a5a9"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns the file's last modification time.  <a href="#a027f62bec750d9507b2ecfcc2883a5a9">More...</a><br /></td></tr>
 <tr class="separator:a027f62bec750d9507b2ecfcc2883a5a9"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:af57586863fd0f04b8e122eee55adbee1"><td class="memItemLeft" align="right" valign="top">QString&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ms_1_1_plugin_a_p_i_1_1_file_i_o.html#af57586863fd0f04b8e122eee55adbee1">source</a> ()</td></tr>
 <tr class="separator:af57586863fd0f04b8e122eee55adbee1"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -139,6 +140,11 @@ Properties</h2></td></tr>
 <tr class="memitem:a41e05725a7fb03119cfb03c0e733de27"><td class="memItemLeft" align="right" valign="top">QString&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ms_1_1_plugin_a_p_i_1_1_file_i_o.html#a41e05725a7fb03119cfb03c0e733de27">source</a></td></tr>
 <tr class="memdesc:a41e05725a7fb03119cfb03c0e733de27"><td class="mdescLeft">&#160;</td><td class="mdescRight">Path to the file which is operated on.  <a href="#a41e05725a7fb03119cfb03c0e733de27">More...</a><br /></td></tr>
 <tr class="separator:a41e05725a7fb03119cfb03c0e733de27"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pri-attribs"></a>
+Private Attributes</h2></td></tr>
+<tr class="memitem:afa64654aa0efd52c3ada4e74c1c826ff"><td class="memItemLeft" align="right" valign="top">QString&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ms_1_1_plugin_a_p_i_1_1_file_i_o.html#afa64654aa0efd52c3ada4e74c1c826ff">mSource</a></td></tr>
+<tr class="separator:afa64654aa0efd52c3ada4e74c1c826ff"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><p>Provides a simple API to perform file reading and writing operations. </p>
@@ -265,7 +271,7 @@ Properties</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p>Returns the file modification time. </p>
+<p>Returns the file's last modification time. </p>
 
 </div>
 </div>
@@ -405,6 +411,29 @@ Properties</h2></td></tr>
 <p>Writes a string to the file. </p>
 <dl class="section warning"><dt>Warning</dt><dd>This function overwrites all the contents of the file pointed by <a class="el" href="class_ms_1_1_plugin_a_p_i_1_1_file_i_o.html#a41e05725a7fb03119cfb03c0e733de27" title="Path to the file which is operated on. ">FileIO::source</a> so it becomes lost. </dd></dl>
 <dl class="section return"><dt>Returns</dt><dd><code>true</code> if an operation finished successfully. </dd></dl>
+
+</div>
+</div>
+<h2 class="groupheader">Member Data Documentation</h2>
+<a id="afa64654aa0efd52c3ada4e74c1c826ff"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#afa64654aa0efd52c3ada4e74c1c826ff">&#9670;&nbsp;</a></span>mSource</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">QString Ms::PluginAPI::FileIO::mSource</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
 
 </div>
 </div>

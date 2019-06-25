@@ -23,9 +23,9 @@
   <td id="projectlogo"><img alt="Logo" src="musescore_logo_full.png"/></td>
   <td id="projectalign" style="padding-left: 0.5em;">
    <div id="projectname">MuseScore
-   &#160;<span id="projectnumber">3.1</span>
+   &#160;<span id="projectnumber">3.2</span>
    </div>
-   <div id="projectbrief">Music compisition and notation</div>
+   <div id="projectbrief">Music composition and notation</div>
   </td>
  </tr>
  </tbody>
@@ -68,6 +68,7 @@ $(function() {
   <div class="summary">
 <a href="#pub-methods">Public Member Functions</a> &#124;
 <a href="#pub-static-methods">Static Public Member Functions</a> &#124;
+<a href="#pri-attribs">Private Attributes</a> &#124;
 <a href="class_ms_1_1_fraction-members.html">List of all members</a>  </div>
   <div class="headertitle">
 <div class="title">Ms::Fraction Class Reference</div>  </div>
@@ -163,8 +164,18 @@ Public Member Functions</h2></td></tr>
 Static Public Member Functions</h2></td></tr>
 <tr class="memitem:a63e242155373d30a2de43750ea718368"><td class="memItemLeft" align="right" valign="top">static <a class="el" href="class_ms_1_1_fraction.html">Fraction</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ms_1_1_fraction.html#a63e242155373d30a2de43750ea718368">fromTicks</a> (int <a class="el" href="class_ms_1_1_fraction.html#a1d92a73ce7f9b7f895a9a083f6fe1eb2">ticks</a>)</td></tr>
 <tr class="separator:a63e242155373d30a2de43750ea718368"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a2caa5aec03acdab600534725160df7f7"><td class="memItemLeft" align="right" valign="top">static <a class="el" href="class_ms_1_1_fraction.html">Fraction</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ms_1_1_fraction.html#a2caa5aec03acdab600534725160df7f7">eps</a> ()</td></tr>
+<tr class="memdesc:a2caa5aec03acdab600534725160df7f7"><td class="mdescLeft">&#160;</td><td class="mdescRight">A very small fraction, corresponds to 1 MIDI tick.  <a href="#a2caa5aec03acdab600534725160df7f7">More...</a><br /></td></tr>
+<tr class="separator:a2caa5aec03acdab600534725160df7f7"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:abed91002a58e3f44e1429c7fa6fcb0f7"><td class="memItemLeft" align="right" valign="top">static <a class="el" href="class_ms_1_1_fraction.html">Fraction</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ms_1_1_fraction.html#abed91002a58e3f44e1429c7fa6fcb0f7">fromString</a> (const QString &amp;str)</td></tr>
 <tr class="separator:abed91002a58e3f44e1429c7fa6fcb0f7"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pri-attribs"></a>
+Private Attributes</h2></td></tr>
+<tr class="memitem:ac115d21bc9a3ce84da3096aa962db18c"><td class="memItemLeft" align="right" valign="top">int_least64_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ms_1_1_fraction.html#ac115d21bc9a3ce84da3096aa962db18c">_numerator</a> { 0 }</td></tr>
+<tr class="separator:ac115d21bc9a3ce84da3096aa962db18c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a65cc090ef2bb5ef1accad129a25312ba"><td class="memItemLeft" align="right" valign="top">int_least64_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ms_1_1_fraction.html#a65cc090ef2bb5ef1accad129a25312ba">_denominator</a> { 1 }</td></tr>
+<tr class="separator:a65cc090ef2bb5ef1accad129a25312ba"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
 <a id="a60f8d77cf56e1a39991443ab04188c2e"></a>
@@ -276,6 +287,33 @@ Static Public Member Functions</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
+
+</div>
+</div>
+<a id="a2caa5aec03acdab600534725160df7f7"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a2caa5aec03acdab600534725160df7f7">&#9670;&nbsp;</a></span>eps()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">static <a class="el" href="class_ms_1_1_fraction.html">Fraction</a> Ms::Fraction::eps </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>A very small fraction, corresponds to 1 MIDI tick. </p>
 
 </div>
 </div>
@@ -1154,6 +1192,51 @@ Static Public Member Functions</h2></td></tr>
   </td>
   <td class="mlabels-right">
 <span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<h2 class="groupheader">Member Data Documentation</h2>
+<a id="a65cc090ef2bb5ef1accad129a25312ba"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a65cc090ef2bb5ef1accad129a25312ba">&#9670;&nbsp;</a></span>_denominator</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">int_least64_t Ms::Fraction::_denominator { 1 }</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="ac115d21bc9a3ce84da3096aa962db18c"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ac115d21bc9a3ce84da3096aa962db18c">&#9670;&nbsp;</a></span>_numerator</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">int_least64_t Ms::Fraction::_numerator { 0 }</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
   </tr>
 </table>
 </div><div class="memdoc">

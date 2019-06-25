@@ -1,10 +1,10 @@
 <map id="libmscore/input.h" name="libmscore/input.h">
-<area shape="rect" id="node2" href="$mscore_8h.html" title="mscore.h" alt="" coords="145,603,221,629"/>
+<area shape="rect" id="node2" href="$mscore_8h.html" title="mscore.h" alt="" coords="139,603,215,629"/>
 <area shape="rect" id="node7" href="$durationtype_8h.html" title="durationtype.h" alt="" coords="245,155,349,181"/>
 <area shape="rect" id="node19" href="$beam_8h.html" title="beam.h" alt="" coords="358,80,423,107"/>
-<area shape="rect" id="node4" href="$style_8h.html" title="style.h" alt="" coords="240,677,301,704"/>
-<area shape="rect" id="node5" href="$chordlist_8h.html" title="chordlist.h" alt="" coords="220,752,303,779"/>
-<area shape="rect" id="node6" href="$types_8h.html" title="types.h" alt="" coords="327,752,393,779"/>
+<area shape="rect" id="node4" href="$style_8h.html" title="style.h" alt="" coords="237,677,299,704"/>
+<area shape="rect" id="node5" href="$chordlist_8h.html" title="chordlist.h" alt="" coords="215,752,297,779"/>
+<area shape="rect" id="node6" href="$types_8h.html" title="types.h" alt="" coords="322,752,387,779"/>
 <area shape="rect" id="node8" href="$libmscore_2fraction_8h.html" title="fraction.h" alt="" coords="399,528,475,555"/>
 <area shape="rect" id="node9" href="$note_8h.html" title="Definition of classes Note and NoteHead. " alt="" coords="208,229,267,256"/>
 <area shape="rect" id="node10" href="$element_8h.html" title="element.h" alt="" coords="322,453,401,480"/>

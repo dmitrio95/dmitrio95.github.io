@@ -23,9 +23,9 @@
   <td id="projectlogo"><img alt="Logo" src="musescore_logo_full.png"/></td>
   <td id="projectalign" style="padding-left: 0.5em;">
    <div id="projectname">MuseScore
-   &#160;<span id="projectnumber">3.1</span>
+   &#160;<span id="projectnumber">3.2</span>
    </div>
-   <div id="projectbrief">Music compisition and notation</div>
+   <div id="projectbrief">Music composition and notation</div>
   </td>
  </tr>
  </tbody>
@@ -68,6 +68,9 @@ $(function() {
   <div class="summary">
 <a href="#signals">Signals</a> &#124;
 <a href="#pub-methods">Public Member Functions</a> &#124;
+<a href="#pri-slots">Private Slots</a> &#124;
+<a href="#pri-methods">Private Member Functions</a> &#124;
+<a href="#pri-attribs">Private Attributes</a> &#124;
 <a href="class_ms_1_1_palette_box-members.html">List of all members</a>  </div>
   <div class="headertitle">
 <div class="title">Ms::PaletteBox Class Reference</div>  </div>
@@ -127,6 +130,52 @@ Public Member Functions</h2></td></tr>
 <tr class="separator:ab90dac47e98d629db1691a53b7c03d49"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a9bbf24c2b36b83d1d3ac448dba74519b"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ms_1_1_palette_box.html#a9bbf24c2b36b83d1d3ac448dba74519b">selectWorkspace</a> (QString path)</td></tr>
 <tr class="separator:a9bbf24c2b36b83d1d3ac448dba74519b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a3fc9a824e1adeaadd88f462832d78eb4"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ms_1_1_palette_box.html#a3fc9a824e1adeaadd88f462832d78eb4">selectWorkspace</a> (int idx)</td></tr>
+<tr class="memdesc:a3fc9a824e1adeaadd88f462832d78eb4"><td class="mdescLeft">&#160;</td><td class="mdescRight"><hr/>
+<p> selectWorkspace Selects the workspace in the workspaceList dropdown widget using specified  If  value is out of valid range: If currentIndex is valid, keep the index </p><h2>1st element of the list is selected othrwise </h2>
+ <a href="#a3fc9a824e1adeaadd88f462832d78eb4">More...</a><br /></td></tr>
+<tr class="separator:a3fc9a824e1adeaadd88f462832d78eb4"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pri-slots"></a>
+Private Slots</h2></td></tr>
+<tr class="memitem:a071b0c2af7a829602d18ee6c626a1145"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ms_1_1_palette_box.html#a071b0c2af7a829602d18ee6c626a1145">paletteCmd</a> (<a class="el" href="namespace_ms.html#ae766f7aa85c576136de4039d4635e3b7">PaletteCommand</a>, int)</td></tr>
+<tr class="separator:a071b0c2af7a829602d18ee6c626a1145"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac4a85eb89cc9e7bbc52061999e5972d5"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ms_1_1_palette_box.html#ac4a85eb89cc9e7bbc52061999e5972d5">closeAll</a> ()</td></tr>
+<tr class="separator:ac4a85eb89cc9e7bbc52061999e5972d5"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:acdb9a83851ac55930c4e3fc67b5d08bd"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ms_1_1_palette_box.html#acdb9a83851ac55930c4e3fc67b5d08bd">workspaceSelected</a> (int idx)</td></tr>
+<tr class="separator:acdb9a83851ac55930c4e3fc67b5d08bd"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a68606f316be165901be9544b73bb93ba"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ms_1_1_palette_box.html#a68606f316be165901be9544b73bb93ba">newWorkspaceClicked</a> ()</td></tr>
+<tr class="separator:a68606f316be165901be9544b73bb93ba"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a6db5165ffdc356ed621dfc1770cfa64d"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ms_1_1_palette_box.html#a6db5165ffdc356ed621dfc1770cfa64d">setSinglePalette</a> (bool)</td></tr>
+<tr class="separator:a6db5165ffdc356ed621dfc1770cfa64d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a4d73f5788639df8d6a767f368ee77cdb"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ms_1_1_palette_box.html#a4d73f5788639df8d6a767f368ee77cdb">filterPalettes</a> (const QString &amp;text)</td></tr>
+<tr class="separator:a4d73f5788639df8d6a767f368ee77cdb"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pri-methods"></a>
+Private Member Functions</h2></td></tr>
+<tr class="memitem:a6f65ebac21d70bac67a0fc6cf95f4f7d"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_ms_1_1_palette.html">Palette</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ms_1_1_palette_box.html#a6f65ebac21d70bac67a0fc6cf95f4f7d">newPalette</a> (const QString &amp;name, int slot)</td></tr>
+<tr class="separator:a6f65ebac21d70bac67a0fc6cf95f4f7d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a4bf594109bdfab43eac450c7384d90d8"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ms_1_1_palette_box.html#a4bf594109bdfab43eac450c7384d90d8">changeEvent</a> (QEvent *event)</td></tr>
+<tr class="separator:a4bf594109bdfab43eac450c7384d90d8"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9b8432f8861546e56f3748fd714265f9"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ms_1_1_palette_box.html#a9b8432f8861546e56f3748fd714265f9">retranslate</a> ()</td></tr>
+<tr class="separator:a9b8432f8861546e56f3748fd714265f9"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pri-attribs"></a>
+Private Attributes</h2></td></tr>
+<tr class="memitem:a683690e9b48fe7846f468341303a5c09"><td class="memItemLeft" align="right" valign="top">QVBoxLayout *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ms_1_1_palette_box.html#a683690e9b48fe7846f468341303a5c09">vbox</a></td></tr>
+<tr class="separator:a683690e9b48fe7846f468341303a5c09"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a514df37b91e63ae3530bea68563432e9"><td class="memItemLeft" align="right" valign="top">QComboBox *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ms_1_1_palette_box.html#a514df37b91e63ae3530bea68563432e9">workspaceList</a></td></tr>
+<tr class="separator:a514df37b91e63ae3530bea68563432e9"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a77ed74a8cf12c7ea01b472649d7de60f"><td class="memItemLeft" align="right" valign="top">QLineEdit *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ms_1_1_palette_box.html#a77ed74a8cf12c7ea01b472649d7de60f">_searchBox</a></td></tr>
+<tr class="separator:a77ed74a8cf12c7ea01b472649d7de60f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ace1cbb15a5a242849cec9b0528cbd874"><td class="memItemLeft" align="right" valign="top">const int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ms_1_1_palette_box.html#ace1cbb15a5a242849cec9b0528cbd874">paletteStretch</a> = 1000</td></tr>
+<tr class="separator:ace1cbb15a5a242849cec9b0528cbd874"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aea0e02a220bdeba293faf61cdc78ad40"><td class="memItemLeft" align="right" valign="top">QAction *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ms_1_1_palette_box.html#aea0e02a220bdeba293faf61cdc78ad40">singlePaletteAction</a></td></tr>
+<tr class="separator:aea0e02a220bdeba293faf61cdc78ad40"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:add4ad4a32323b1e8cddd5cc277cfbeb8"><td class="memItemLeft" align="right" valign="top">QToolButton *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ms_1_1_palette_box.html#add4ad4a32323b1e8cddd5cc277cfbeb8">addWorkspaceButton</a></td></tr>
+<tr class="separator:add4ad4a32323b1e8cddd5cc277cfbeb8"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aee382fbf6313c179f20df1a690a465d5"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ms_1_1_palette_box.html#aee382fbf6313c179f20df1a690a465d5">keyboardNavigation</a> = false</td></tr>
+<tr class="separator:aee382fbf6313c179f20df1a690a465d5"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
 <a id="a73f161020771a0492487f558b4be9dca"></a>
@@ -191,6 +240,32 @@ Public Member Functions</h2></td></tr>
 
 </div>
 </div>
+<a id="a4bf594109bdfab43eac450c7384d90d8"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a4bf594109bdfab43eac450c7384d90d8">&#9670;&nbsp;</a></span>changeEvent()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void Ms::PaletteBox::changeEvent </td>
+          <td>(</td>
+          <td class="paramtype">QEvent *&#160;</td>
+          <td class="paramname"><em>event</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
 <a id="a4965eb895ad3e7abf07b848dbf052959"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a4965eb895ad3e7abf07b848dbf052959">&#9670;&nbsp;</a></span>clear()</h2>
 
@@ -205,6 +280,31 @@ Public Member Functions</h2></td></tr>
           <td></td>
         </tr>
       </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="ac4a85eb89cc9e7bbc52061999e5972d5"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ac4a85eb89cc9e7bbc52061999e5972d5">&#9670;&nbsp;</a></span>closeAll</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void Ms::PaletteBox::closeAll </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span><span class="mlabel">slot</span></span>  </td>
+  </tr>
+</table>
 </div><div class="memdoc">
 
 </div>
@@ -233,6 +333,32 @@ Public Member Functions</h2></td></tr>
           <td></td><td></td>
         </tr>
       </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a4d73f5788639df8d6a767f368ee77cdb"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a4d73f5788639df8d6a767f368ee77cdb">&#9670;&nbsp;</a></span>filterPalettes</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void Ms::PaletteBox::filterPalettes </td>
+          <td>(</td>
+          <td class="paramtype">const QString &amp;&#160;</td>
+          <td class="paramname"><em>text</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span><span class="mlabel">slot</span></span>  </td>
+  </tr>
+</table>
 </div><div class="memdoc">
 
 </div>
@@ -308,6 +434,67 @@ Public Member Functions</h2></td></tr>
 
 </div>
 </div>
+<a id="a6f65ebac21d70bac67a0fc6cf95f4f7d"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a6f65ebac21d70bac67a0fc6cf95f4f7d">&#9670;&nbsp;</a></span>newPalette()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="class_ms_1_1_palette.html">Palette</a> * Ms::PaletteBox::newPalette </td>
+          <td>(</td>
+          <td class="paramtype">const QString &amp;&#160;</td>
+          <td class="paramname"><em>name</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>slot</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a68606f316be165901be9544b73bb93ba"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a68606f316be165901be9544b73bb93ba">&#9670;&nbsp;</a></span>newWorkspaceClicked</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void Ms::PaletteBox::newWorkspaceClicked </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span><span class="mlabel">slot</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
 <a id="a414140f9f0afd4ab668b1d83c1732eee"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a414140f9f0afd4ab668b1d83c1732eee">&#9670;&nbsp;</a></span>noSelection()</h2>
 
@@ -321,6 +508,42 @@ Public Member Functions</h2></td></tr>
           <td></td>
         </tr>
       </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a071b0c2af7a829602d18ee6c626a1145"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a071b0c2af7a829602d18ee6c626a1145">&#9670;&nbsp;</a></span>paletteCmd</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void Ms::PaletteBox::paletteCmd </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="namespace_ms.html#ae766f7aa85c576136de4039d4635e3b7">PaletteCommand</a>&#160;</td>
+          <td class="paramname"><em>cmd</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>slot</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span><span class="mlabel">slot</span></span>  </td>
+  </tr>
+</table>
 </div><div class="memdoc">
 
 </div>
@@ -360,6 +583,31 @@ Public Member Functions</h2></td></tr>
 
 </div>
 </div>
+<a id="a9b8432f8861546e56f3748fd714265f9"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a9b8432f8861546e56f3748fd714265f9">&#9670;&nbsp;</a></span>retranslate()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void Ms::PaletteBox::retranslate </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
 <a id="a845592630021b475329f31859bda7b0f"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a845592630021b475329f31859bda7b0f">&#9670;&nbsp;</a></span>searchBox()</h2>
 
@@ -386,7 +634,7 @@ Public Member Functions</h2></td></tr>
 </div>
 </div>
 <a id="a9bbf24c2b36b83d1d3ac448dba74519b"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a9bbf24c2b36b83d1d3ac448dba74519b">&#9670;&nbsp;</a></span>selectWorkspace()</h2>
+<h2 class="memtitle"><span class="permalink"><a href="#a9bbf24c2b36b83d1d3ac448dba74519b">&#9670;&nbsp;</a></span>selectWorkspace() <span class="overload">[1/2]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -400,6 +648,28 @@ Public Member Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
+
+</div>
+</div>
+<a id="a3fc9a824e1adeaadd88f462832d78eb4"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a3fc9a824e1adeaadd88f462832d78eb4">&#9670;&nbsp;</a></span>selectWorkspace() <span class="overload">[2/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void Ms::PaletteBox::selectWorkspace </td>
+          <td>(</td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>idx</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p><hr/>
+<p> selectWorkspace Selects the workspace in the workspaceList dropdown widget using specified  If  value is out of valid range: If currentIndex is valid, keep the index </p><h2>1st element of the list is selected othrwise </h2>
+</p>
 
 </div>
 </div>
@@ -429,6 +699,32 @@ Public Member Functions</h2></td></tr>
 
 </div>
 </div>
+<a id="a6db5165ffdc356ed621dfc1770cfa64d"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a6db5165ffdc356ed621dfc1770cfa64d">&#9670;&nbsp;</a></span>setSinglePalette</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void Ms::PaletteBox::setSinglePalette </td>
+          <td>(</td>
+          <td class="paramtype">bool&#160;</td>
+          <td class="paramname"><em>val</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span><span class="mlabel">slot</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
 <a id="a579c4edb7de5b2da9c03f15ac763a1b4"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a579c4edb7de5b2da9c03f15ac763a1b4">&#9670;&nbsp;</a></span>updateWorkspaces()</h2>
 
@@ -442,6 +738,32 @@ Public Member Functions</h2></td></tr>
           <td></td>
         </tr>
       </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="acdb9a83851ac55930c4e3fc67b5d08bd"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#acdb9a83851ac55930c4e3fc67b5d08bd">&#9670;&nbsp;</a></span>workspaceSelected</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void Ms::PaletteBox::workspaceSelected </td>
+          <td>(</td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>idx</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span><span class="mlabel">slot</span></span>  </td>
+  </tr>
+</table>
 </div><div class="memdoc">
 
 </div>
@@ -460,6 +782,161 @@ Public Member Functions</h2></td></tr>
           <td></td>
         </tr>
       </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<h2 class="groupheader">Member Data Documentation</h2>
+<a id="a77ed74a8cf12c7ea01b472649d7de60f"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a77ed74a8cf12c7ea01b472649d7de60f">&#9670;&nbsp;</a></span>_searchBox</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">QLineEdit* Ms::PaletteBox::_searchBox</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="add4ad4a32323b1e8cddd5cc277cfbeb8"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#add4ad4a32323b1e8cddd5cc277cfbeb8">&#9670;&nbsp;</a></span>addWorkspaceButton</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">QToolButton* Ms::PaletteBox::addWorkspaceButton</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="aee382fbf6313c179f20df1a690a465d5"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aee382fbf6313c179f20df1a690a465d5">&#9670;&nbsp;</a></span>keyboardNavigation</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool Ms::PaletteBox::keyboardNavigation = false</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="ace1cbb15a5a242849cec9b0528cbd874"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ace1cbb15a5a242849cec9b0528cbd874">&#9670;&nbsp;</a></span>paletteStretch</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">const int Ms::PaletteBox::paletteStretch = 1000</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="aea0e02a220bdeba293faf61cdc78ad40"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aea0e02a220bdeba293faf61cdc78ad40">&#9670;&nbsp;</a></span>singlePaletteAction</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">QAction* Ms::PaletteBox::singlePaletteAction</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a683690e9b48fe7846f468341303a5c09"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a683690e9b48fe7846f468341303a5c09">&#9670;&nbsp;</a></span>vbox</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">QVBoxLayout* Ms::PaletteBox::vbox</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a514df37b91e63ae3530bea68563432e9"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a514df37b91e63ae3530bea68563432e9">&#9670;&nbsp;</a></span>workspaceList</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">QComboBox* Ms::PaletteBox::workspaceList</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
 </div><div class="memdoc">
 
 </div>

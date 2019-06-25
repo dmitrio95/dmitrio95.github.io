@@ -1,7 +1,7 @@
 <map id="mscore/harmonycanvas.h" name="mscore/harmonycanvas.h">
 <area shape="rect" id="node2" href="$harmony_8h.html" title="libmscore/harmony.h" alt="" coords="174,80,317,107"/>
-<area shape="rect" id="node3" href="$text_8h.html" title="text.h" alt="" coords="173,155,227,181"/>
-<area shape="rect" id="node16" href="$pitchspelling_8h.html" title="pitchspelling.h" alt="" coords="391,229,497,256"/>
+<area shape="rect" id="node3" href="$text_8h.html" title="text.h" alt="" coords="186,155,241,181"/>
+<area shape="rect" id="node16" href="$pitchspelling_8h.html" title="pitchspelling.h" alt="" coords="359,229,465,256"/>
 <area shape="rect" id="node4" href="$textbase_8h.html" title="textbase.h" alt="" coords="145,229,228,256"/>
 <area shape="rect" id="node5" href="$element_8h.html" title="element.h" alt="" coords="211,304,290,331"/>
 <area shape="rect" id="node10" href="$style_8h.html" title="style.h" alt="" coords="241,528,303,555"/>

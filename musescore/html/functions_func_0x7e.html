@@ -23,9 +23,9 @@
   <td id="projectlogo"><img alt="Logo" src="musescore_logo_full.png"/></td>
   <td id="projectalign" style="padding-left: 0.5em;">
    <div id="projectname">MuseScore
-   &#160;<span id="projectnumber">3.1</span>
+   &#160;<span id="projectnumber">3.2</span>
    </div>
-   <div id="projectbrief">Music compisition and notation</div>
+   <div id="projectbrief">Music composition and notation</div>
   </td>
  </tr>
  </tbody>
@@ -138,8 +138,7 @@ $(function() {
 : <a class="el" href="class_o_v_e_1_1_chunk.html#aa19ca9cd05ebf7445cd3d0b0187fb5a8">OVE::Chunk</a>
 </li>
 <li>~Clef()
-: <a class="el" href="class_ms_1_1_clef.html#aea39a394eb7be2ca591e7f2deb0fb023">Ms::Clef</a>
-, <a class="el" href="class_o_v_e_1_1_clef.html#adae6669b2c59c51752592cff64281bbc">OVE::Clef</a>
+: <a class="el" href="class_o_v_e_1_1_clef.html#adae6669b2c59c51752592cff64281bbc">OVE::Clef</a>
 </li>
 <li>~CmdContext()
 : <a class="el" href="struct_ms_1_1_cmd_context.html#a464a496c72f5edb79d91984e6d6faf40">Ms::CmdContext</a>
@@ -168,6 +167,12 @@ $(function() {
 <li>~Decorator()
 : <a class="el" href="class_o_v_e_1_1_decorator.html#a48d0ec3a20a7b8a71d13a6b87519c424">OVE::Decorator</a>
 </li>
+<li>~Delay()
+: <a class="el" href="class_ms_1_1_delay.html#a782918e7e491eaa0466a1437259658dd">Ms::Delay</a>
+</li>
+<li>~Diff1()
+: <a class="el" href="class_ms_1_1_diff1.html#a83eec2fce33d69e5e9311adb81c1179c">Ms::Diff1</a>
+</li>
 <li>~Division()
 : <a class="el" href="class_division.html#a7f08073a7e2e201182af12610cd5e3eb">Division</a>
 </li>
@@ -177,11 +182,17 @@ $(function() {
 <li>~Dsp()
 : <a class="el" href="class_ms_1_1_dsp.html#a0af42d2546717ccbd56b4773a9308679">Ms::Dsp</a>
 </li>
+<li>~DurationElement()
+: <a class="el" href="class_ms_1_1_duration_element.html#ab010975267b42880b077f6fb89dc5b38">Ms::DurationElement</a>
+</li>
 <li>~Dynamics()
 : <a class="el" href="class_o_v_e_1_1_dynamics.html#a3da53d137b7b1d9ad7627132d79ff3d1">OVE::Dynamics</a>
 </li>
 <li>~EditInstrument()
 : <a class="el" href="class_ms_1_1_edit_instrument.html#a68b2f52e0f60cf40b7387a5b18aba631">Ms::EditInstrument</a>
+</li>
+<li>~Editor()
+: <a class="el" href="class_ms_1_1_editor.html#aeeb7663ed428a1373c260d8a87523901">Ms::Editor</a>
 </li>
 <li>~EditPitch()
 : <a class="el" href="class_ms_1_1_edit_pitch.html#a35a8387a0d2a78d6d5d9b3ca2aef7e04">Ms::EditPitch</a>
@@ -223,6 +234,9 @@ $(function() {
 <li>~FiguredBassItem()
 : <a class="el" href="class_ms_1_1_figured_bass_item.html#ae15020eae1a538e16e5706c75cd7d09e">Ms::FiguredBassItem</a>
 </li>
+<li>~Filt1()
+: <a class="el" href="class_ms_1_1_filt1.html#a03b9e892ad1ac6f27248716c1d289dae">Ms::Filt1</a>
+</li>
 <li>~FixedBlock()
 : <a class="el" href="class_o_v_e_1_1_fixed_block.html#a09ee6ec55d3a64b991e2d14427cbd37c">OVE::FixedBlock</a>
 </li>
@@ -259,6 +273,9 @@ $(function() {
 </li>
 <li>~Image()
 : <a class="el" href="class_ms_1_1_image.html#a4da48d165893cfcfe444cbb921206a82">Ms::Image</a>
+</li>
+<li>~ImageStore()
+: <a class="el" href="class_ms_1_1_image_store.html#a74c13e4d778dd6f72627d18b69836612">Ms::ImageStore</a>
 </li>
 <li>~ImportMidiPanel()
 : <a class="el" href="class_ms_1_1_import_midi_panel.html#a1d158d7f14f8dcde8db983e72acf8f49">Ms::ImportMidiPanel</a>
@@ -398,9 +415,6 @@ $(function() {
 <li>~MPaintDevice()
 : <a class="el" href="class_ms_1_1_m_paint_device.html#ab0e927997bf2b5d7880a6ed3641cc38b">Ms::MPaintDevice</a>
 </li>
-<li>~MsScoreView()
-: <a class="el" href="class_ms_1_1_plugin_a_p_i_1_1_ms_score_view.html#afb32cbbb66899953e5399959b5be3574">Ms::PluginAPI::MsScoreView</a>
-</li>
 <li>~MStaff()
 : <a class="el" href="class_ms_1_1_m_staff.html#aa708c22012e71e2f34ea32cef3461dc9">Ms::MStaff</a>
 </li>
@@ -502,6 +516,9 @@ $(function() {
 <li>~PianoView()
 : <a class="el" href="class_ms_1_1_piano_view.html#a69d48b667dcae71459b62bda45c0df68">Ms::PianoView</a>
 </li>
+<li>~Pipewave()
+: <a class="el" href="class_pipewave.html#a9a4721c685664687d3cf69c6034d1955">Pipewave</a>
+</li>
 <li>~PlayPanel()
 : <a class="el" href="class_ms_1_1_play_panel.html#a51eba1525926bc23bcfa80c960946353">Ms::PlayPanel</a>
 </li>
@@ -540,6 +557,9 @@ $(function() {
 </li>
 <li>~Rankwave()
 : <a class="el" href="class_rankwave.html#afaa5d747d3a3dc5ed713ab01016ab693">Rankwave</a>
+</li>
+<li>~RepeatList()
+: <a class="el" href="class_ms_1_1_repeat_list.html#af93313439ecba6664aa86d1ac8b16f43">Ms::RepeatList</a>
 </li>
 <li>~RepeatSymbol()
 : <a class="el" href="class_o_v_e_1_1_repeat_symbol.html#a8ff341126ea411a9febeba53a0685b4a">OVE::RepeatSymbol</a>
@@ -583,7 +603,8 @@ $(function() {
 : <a class="el" href="class_ms_1_1_score_tab.html#a75b9e542e699089ed69f30a02c9d7005">Ms::ScoreTab</a>
 </li>
 <li>~ScoreView()
-: <a class="el" href="class_ms_1_1_score_view.html#a94f2b82e913f6afe7b46f9df097f81ec">Ms::ScoreView</a>
+: <a class="el" href="class_ms_1_1_plugin_a_p_i_1_1_score_view.html#a472aae4ad9e3b616ea8043a16fd65b26">Ms::PluginAPI::ScoreView</a>
+, <a class="el" href="class_ms_1_1_score_view.html#a94f2b82e913f6afe7b46f9df097f81ec">Ms::ScoreView</a>
 </li>
 <li>~ScriptEntry()
 : <a class="el" href="class_ms_1_1_script_entry.html#a1be64decf1ee16c9d14f05c785a4bc48">Ms::ScriptEntry</a>
@@ -724,6 +745,9 @@ $(function() {
 </li>
 <li>~VBox()
 : <a class="el" href="class_ms_1_1_v_box.html#a4d62552d41c749eec3956e49d2b3fa6e">Ms::VBox</a>
+</li>
+<li>~Vdelay()
+: <a class="el" href="class_ms_1_1_vdelay.html#a8d19517453f309d00c5f01dd6267154d">Ms::Vdelay</a>
 </li>
 <li>~Vibrato()
 : <a class="el" href="class_ms_1_1_vibrato.html#a54478a1a4fca48795b46cad01df62339">Ms::Vibrato</a>

@@ -23,9 +23,9 @@
   <td id="projectlogo"><img alt="Logo" src="musescore_logo_full.png"/></td>
   <td id="projectalign" style="padding-left: 0.5em;">
    <div id="projectname">MuseScore
-   &#160;<span id="projectnumber">3.1</span>
+   &#160;<span id="projectnumber">3.2</span>
    </div>
-   <div id="projectbrief">Music compisition and notation</div>
+   <div id="projectbrief">Music composition and notation</div>
   </td>
  </tr>
  </tbody>
@@ -68,6 +68,9 @@ $(function() {
   <div class="summary">
 <a href="#pub-methods">Public Member Functions</a> &#124;
 <a href="#pub-static-methods">Static Public Member Functions</a> &#124;
+<a href="#pri-methods">Private Member Functions</a> &#124;
+<a href="#pri-attribs">Private Attributes</a> &#124;
+<a href="#pri-static-attribs">Static Private Attributes</a> &#124;
 <a href="class_ms_1_1_string_data-members.html">List of all members</a>  </div>
   <div class="headertitle">
 <div class="title">Ms::StringData Class Reference</div>  </div>
@@ -84,13 +87,13 @@ Public Member Functions</h2></td></tr>
 <tr class="separator:acfd3ef522bdbf4634988217c542b2b77"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:abc011c67a9491957bd9395214e42e79e"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ms_1_1_string_data.html#abc011c67a9491957bd9395214e42e79e">StringData</a> (int numFrets, QList&lt; <a class="el" href="struct_ms_1_1instr_string.html">instrString</a> &gt; &amp;<a class="el" href="class_ms_1_1_string_data.html#a59a2c70ea01631416d53d3db184a45ab">strings</a>)</td></tr>
 <tr class="separator:abc011c67a9491957bd9395214e42e79e"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a61f8d50a3a07102479b94562e538e37a"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ms_1_1_string_data.html#a61f8d50a3a07102479b94562e538e37a">convertPitch</a> (int pitch, <a class="el" href="class_ms_1_1_staff.html">Staff</a> *staff, const <a class="el" href="class_ms_1_1_fraction.html">Fraction</a> &amp;tick, int *string, int *fret) const</td></tr>
+<tr class="memitem:a61f8d50a3a07102479b94562e538e37a"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ms_1_1_string_data.html#a61f8d50a3a07102479b94562e538e37a">convertPitch</a> (int pitch, <a class="el" href="class_ms_1_1_staff.html">Staff</a> *staff, const <a class="el" href="class_ms_1_1_fraction.html">Fraction</a> &amp;tick, int *string, int *<a class="el" href="class_ms_1_1_string_data.html#a7667f56194842da577eb00b80b088e46">fret</a>) const</td></tr>
 <tr class="separator:a61f8d50a3a07102479b94562e538e37a"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:abb4b4fabc43ee4860888f8d3ee6fd559"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ms_1_1_string_data.html#abb4b4fabc43ee4860888f8d3ee6fd559">fret</a> (int pitch, int string, <a class="el" href="class_ms_1_1_staff.html">Staff</a> *staff, const <a class="el" href="class_ms_1_1_fraction.html">Fraction</a> &amp;tick) const</td></tr>
 <tr class="separator:abb4b4fabc43ee4860888f8d3ee6fd559"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aae089ceff91360aa295a4378bd288383"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ms_1_1_string_data.html#aae089ceff91360aa295a4378bd288383">fretChords</a> (<a class="el" href="class_ms_1_1_chord.html">Chord</a> *chord) const</td></tr>
 <tr class="separator:aae089ceff91360aa295a4378bd288383"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a70d07c86f868a2fa7b5bdececf5c379b"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ms_1_1_string_data.html#a70d07c86f868a2fa7b5bdececf5c379b">getPitch</a> (int string, int fret, <a class="el" href="class_ms_1_1_staff.html">Staff</a> *staff, const <a class="el" href="class_ms_1_1_fraction.html">Fraction</a> &amp;tick) const</td></tr>
+<tr class="memitem:a70d07c86f868a2fa7b5bdececf5c379b"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ms_1_1_string_data.html#a70d07c86f868a2fa7b5bdececf5c379b">getPitch</a> (int string, int <a class="el" href="class_ms_1_1_string_data.html#a7667f56194842da577eb00b80b088e46">fret</a>, <a class="el" href="class_ms_1_1_staff.html">Staff</a> *staff, const <a class="el" href="class_ms_1_1_fraction.html">Fraction</a> &amp;tick) const</td></tr>
 <tr class="separator:a70d07c86f868a2fa7b5bdececf5c379b"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a59a2c70ea01631416d53d3db184a45ab"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ms_1_1_string_data.html#a59a2c70ea01631416d53d3db184a45ab">strings</a> () const</td></tr>
 <tr class="separator:a59a2c70ea01631416d53d3db184a45ab"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -117,6 +120,29 @@ Public Member Functions</h2></td></tr>
 Static Public Member Functions</h2></td></tr>
 <tr class="memitem:a035dfe733d1fce84de9329f4f328f57d"><td class="memItemLeft" align="right" valign="top">static int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ms_1_1_string_data.html#a035dfe733d1fce84de9329f4f328f57d">pitchOffsetAt</a> (<a class="el" href="class_ms_1_1_staff.html">Staff</a> *staff, const <a class="el" href="class_ms_1_1_fraction.html">Fraction</a> &amp;tick)</td></tr>
 <tr class="separator:a035dfe733d1fce84de9329f4f328f57d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pri-methods"></a>
+Private Member Functions</h2></td></tr>
+<tr class="memitem:af1a0f0a9ac1ad04265869dbe4688ce88"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ms_1_1_string_data.html#af1a0f0a9ac1ad04265869dbe4688ce88">convertPitch</a> (int pitch, int pitchOffset, int *string, int *<a class="el" href="class_ms_1_1_string_data.html#a7667f56194842da577eb00b80b088e46">fret</a>) const</td></tr>
+<tr class="separator:af1a0f0a9ac1ad04265869dbe4688ce88"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a7667f56194842da577eb00b80b088e46"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ms_1_1_string_data.html#a7667f56194842da577eb00b80b088e46">fret</a> (int pitch, int string, int pitchOffset) const</td></tr>
+<tr class="separator:a7667f56194842da577eb00b80b088e46"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a760d95932dd3ce5533f4e18cd542546f"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ms_1_1_string_data.html#a760d95932dd3ce5533f4e18cd542546f">getPitch</a> (int string, int <a class="el" href="class_ms_1_1_string_data.html#a7667f56194842da577eb00b80b088e46">fret</a>, int pitchOffset) const</td></tr>
+<tr class="separator:a760d95932dd3ce5533f4e18cd542546f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae0babb7b278558616c7dcf6934f4f133"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ms_1_1_string_data.html#ae0babb7b278558616c7dcf6934f4f133">sortChordNotes</a> (QMap&lt; int, <a class="el" href="class_ms_1_1_note.html">Note</a> *&gt; &amp;sortedNotes, const <a class="el" href="class_ms_1_1_chord.html">Chord</a> *chord, int pitchOffset, int *count) const</td></tr>
+<tr class="separator:ae0babb7b278558616c7dcf6934f4f133"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pri-attribs"></a>
+Private Attributes</h2></td></tr>
+<tr class="memitem:aac84c94cc4a7eacfb215b645a95d6abf"><td class="memItemLeft" align="right" valign="top">QList&lt; <a class="el" href="struct_ms_1_1instr_string.html">instrString</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ms_1_1_string_data.html#aac84c94cc4a7eacfb215b645a95d6abf">stringTable</a> { }</td></tr>
+<tr class="separator:aac84c94cc4a7eacfb215b645a95d6abf"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a1a68cfd10da6aaa9c60adbba3be3952c"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ms_1_1_string_data.html#a1a68cfd10da6aaa9c60adbba3be3952c">_frets</a> = 0</td></tr>
+<tr class="separator:a1a68cfd10da6aaa9c60adbba3be3952c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pri-static-attribs"></a>
+Static Private Attributes</h2></td></tr>
+<tr class="memitem:a27f79c27c829c8219bb2c4e3533fadb4"><td class="memItemLeft" align="right" valign="top">static bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ms_1_1_string_data.html#a27f79c27c829c8219bb2c4e3533fadb4">bFretting</a> = false</td></tr>
+<tr class="separator:a27f79c27c829c8219bb2c4e3533fadb4"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
 <a id="a10afbb5b5402e9279bb85ccedf63bc15"></a>
@@ -207,8 +233,56 @@ Static Public Member Functions</h2></td></tr>
 </div>
 </div>
 <h2 class="groupheader">Member Function Documentation</h2>
+<a id="af1a0f0a9ac1ad04265869dbe4688ce88"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#af1a0f0a9ac1ad04265869dbe4688ce88">&#9670;&nbsp;</a></span>convertPitch() <span class="overload">[1/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool Ms::StringData::convertPitch </td>
+          <td>(</td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>pitch</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>pitchOffset</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int *&#160;</td>
+          <td class="paramname"><em>string</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int *&#160;</td>
+          <td class="paramname"><em>fret</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
 <a id="a61f8d50a3a07102479b94562e538e37a"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a61f8d50a3a07102479b94562e538e37a">&#9670;&nbsp;</a></span>convertPitch()</h2>
+<h2 class="memtitle"><span class="permalink"><a href="#a61f8d50a3a07102479b94562e538e37a">&#9670;&nbsp;</a></span>convertPitch() <span class="overload">[2/2]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -253,8 +327,50 @@ Static Public Member Functions</h2></td></tr>
 
 </div>
 </div>
+<a id="a7667f56194842da577eb00b80b088e46"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a7667f56194842da577eb00b80b088e46">&#9670;&nbsp;</a></span>fret() <span class="overload">[1/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">int Ms::StringData::fret </td>
+          <td>(</td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>pitch</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>string</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>pitchOffset</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
 <a id="abb4b4fabc43ee4860888f8d3ee6fd559"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#abb4b4fabc43ee4860888f8d3ee6fd559">&#9670;&nbsp;</a></span>fret()</h2>
+<h2 class="memtitle"><span class="permalink"><a href="#abb4b4fabc43ee4860888f8d3ee6fd559">&#9670;&nbsp;</a></span>fret() <span class="overload">[2/2]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -353,8 +469,50 @@ Static Public Member Functions</h2></td></tr>
 
 </div>
 </div>
+<a id="a760d95932dd3ce5533f4e18cd542546f"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a760d95932dd3ce5533f4e18cd542546f">&#9670;&nbsp;</a></span>getPitch() <span class="overload">[1/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">int Ms::StringData::getPitch </td>
+          <td>(</td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>string</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>fret</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>pitchOffset</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
 <a id="a70d07c86f868a2fa7b5bdececf5c379b"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a70d07c86f868a2fa7b5bdececf5c379b">&#9670;&nbsp;</a></span>getPitch()</h2>
+<h2 class="memtitle"><span class="permalink"><a href="#a70d07c86f868a2fa7b5bdececf5c379b">&#9670;&nbsp;</a></span>getPitch() <span class="overload">[2/2]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -499,6 +657,54 @@ Static Public Member Functions</h2></td></tr>
 
 </div>
 </div>
+<a id="ae0babb7b278558616c7dcf6934f4f133"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ae0babb7b278558616c7dcf6934f4f133">&#9670;&nbsp;</a></span>sortChordNotes()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void Ms::StringData::sortChordNotes </td>
+          <td>(</td>
+          <td class="paramtype">QMap&lt; int, <a class="el" href="class_ms_1_1_note.html">Note</a> *&gt; &amp;&#160;</td>
+          <td class="paramname"><em>sortedNotes</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="class_ms_1_1_chord.html">Chord</a> *&#160;</td>
+          <td class="paramname"><em>chord</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>pitchOffset</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int *&#160;</td>
+          <td class="paramname"><em>count</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
 <a id="a1626a485b85d97ec1b02a1d731614d2f"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a1626a485b85d97ec1b02a1d731614d2f">&#9670;&nbsp;</a></span>stringList() <span class="overload">[1/2]</span></h2>
 
@@ -606,6 +812,73 @@ Static Public Member Functions</h2></td></tr>
           <td> const</td>
         </tr>
       </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<h2 class="groupheader">Member Data Documentation</h2>
+<a id="a1a68cfd10da6aaa9c60adbba3be3952c"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a1a68cfd10da6aaa9c60adbba3be3952c">&#9670;&nbsp;</a></span>_frets</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">int Ms::StringData::_frets = 0</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a27f79c27c829c8219bb2c4e3533fadb4"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a27f79c27c829c8219bb2c4e3533fadb4">&#9670;&nbsp;</a></span>bFretting</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool Ms::StringData::bFretting = false</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="aac84c94cc4a7eacfb215b645a95d6abf"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aac84c94cc4a7eacfb215b645a95d6abf">&#9670;&nbsp;</a></span>stringTable</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">QList&lt;<a class="el" href="struct_ms_1_1instr_string.html">instrString</a>&gt; Ms::StringData::stringTable { }</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
 </div><div class="memdoc">
 
 </div>

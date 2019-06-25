@@ -23,9 +23,9 @@
   <td id="projectlogo"><img alt="Logo" src="musescore_logo_full.png"/></td>
   <td id="projectalign" style="padding-left: 0.5em;">
    <div id="projectname">MuseScore
-   &#160;<span id="projectnumber">3.1</span>
+   &#160;<span id="projectnumber">3.2</span>
    </div>
-   <div id="projectbrief">Music compisition and notation</div>
+   <div id="projectbrief">Music composition and notation</div>
   </td>
  </tr>
  </tbody>
@@ -69,6 +69,8 @@ $(function() {
 <a href="#pub-slots">Public Slots</a> &#124;
 <a href="#pub-methods">Public Member Functions</a> &#124;
 <a href="#pro-methods">Protected Member Functions</a> &#124;
+<a href="#pri-methods">Private Member Functions</a> &#124;
+<a href="#pri-attribs">Private Attributes</a> &#124;
 <a href="class_awl_1_1_pos_label-members.html">List of all members</a>  </div>
   <div class="headertitle">
 <div class="title">Awl::PosLabel Class Reference</div>  </div>
@@ -88,6 +90,9 @@ Collaboration diagram for Awl::PosLabel:</div>
 <div class="dyncontent">
 <div class="center"><img src="class_awl_1_1_pos_label__coll__graph.png" border="0" usemap="#_awl_1_1_pos_label_coll__map" alt="Collaboration graph"/></div>
 <map name="_awl_1_1_pos_label_coll__map" id="_awl_1_1_pos_label_coll__map">
+<area shape="rect" id="node3" href="class_ms_1_1_pos.html" title="Ms::Pos" alt="" coords="144,171,215,197"/>
+<area shape="rect" id="node4" href="class_ms_1_1_tempo_map.html" title="Ms::TempoMap" alt="" coords="43,81,156,108"/>
+<area shape="rect" id="node6" href="class_ms_1_1_time_sig_map.html" title="Ms::TimeSigMap" alt="" coords="204,81,325,108"/>
 </map>
 <center><span class="legend">[<a href="graph_legend.html">legend</a>]</span></center></div>
 <table class="memberdecls">
@@ -115,6 +120,18 @@ Public Member Functions</h2></td></tr>
 Protected Member Functions</h2></td></tr>
 <tr class="memitem:afb106608178a55255c8b34c663147f9a"><td class="memItemLeft" align="right" valign="top">QSize&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_awl_1_1_pos_label.html#afb106608178a55255c8b34c663147f9a">sizeHint</a> () const</td></tr>
 <tr class="separator:afb106608178a55255c8b34c663147f9a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pri-methods"></a>
+Private Member Functions</h2></td></tr>
+<tr class="memitem:a8770058bd6c4073439d3279e3f1c44bc"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_awl_1_1_pos_label.html#a8770058bd6c4073439d3279e3f1c44bc">updateValue</a> ()</td></tr>
+<tr class="separator:a8770058bd6c4073439d3279e3f1c44bc"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pri-attribs"></a>
+Private Attributes</h2></td></tr>
+<tr class="memitem:a1c5baad06ca215f6c9c4e69ffa6bebe6"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_awl_1_1_pos_label.html#a1c5baad06ca215f6c9c4e69ffa6bebe6">_smpte</a></td></tr>
+<tr class="separator:a1c5baad06ca215f6c9c4e69ffa6bebe6"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a114c2c6adb256706afef39daacb66b65"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_ms_1_1_pos.html">Pos</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_awl_1_1_pos_label.html#a114c2c6adb256706afef39daacb66b65">pos</a></td></tr>
+<tr class="separator:a114c2c6adb256706afef39daacb66b65"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
 <a id="a5e442068421820c20e9556c290af8058"></a>
@@ -292,6 +309,31 @@ Protected Member Functions</h2></td></tr>
 
 </div>
 </div>
+<a id="a8770058bd6c4073439d3279e3f1c44bc"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a8770058bd6c4073439d3279e3f1c44bc">&#9670;&nbsp;</a></span>updateValue()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void Awl::PosLabel::updateValue </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
 <a id="a284cee7dee5d0aaf76cbbfbe13bf9010"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a284cee7dee5d0aaf76cbbfbe13bf9010">&#9670;&nbsp;</a></span>value()</h2>
 
@@ -311,6 +353,51 @@ Protected Member Functions</h2></td></tr>
   </td>
   <td class="mlabels-right">
 <span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<h2 class="groupheader">Member Data Documentation</h2>
+<a id="a1c5baad06ca215f6c9c4e69ffa6bebe6"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a1c5baad06ca215f6c9c4e69ffa6bebe6">&#9670;&nbsp;</a></span>_smpte</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool Awl::PosLabel::_smpte</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a114c2c6adb256706afef39daacb66b65"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a114c2c6adb256706afef39daacb66b65">&#9670;&nbsp;</a></span>pos</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="class_ms_1_1_pos.html">Pos</a> Awl::PosLabel::pos</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
   </tr>
 </table>
 </div><div class="memdoc">

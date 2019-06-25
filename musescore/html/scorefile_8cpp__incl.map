@@ -16,7 +16,7 @@
 <area shape="rect" id="node31" href="$page_8h.html" title="page.h" alt="" coords="220,229,281,256"/>
 <area shape="rect" id="node32" href="$libmscore_2part_8h.html" title="part.h" alt="" coords="1910,80,1965,107"/>
 <area shape="rect" id="node33" href="$text_8h.html" title="text.h" alt="" coords="2341,155,2395,181"/>
-<area shape="rect" id="node34" href="$staff_8h.html" title="Definition of class Staff. " alt="" coords="1307,304,1365,331"/>
+<area shape="rect" id="node34" href="$staff_8h.html" title="Definition of class Staff. " alt="" coords="1305,304,1364,331"/>
 <area shape="rect" id="node35" href="$system_8h.html" title="Definition of classes SysStaff and System. " alt="" coords="789,229,865,256"/>
 <area shape="rect" id="node36" href="$keysig_8h.html" title="keysig.h" alt="" coords="469,155,539,181"/>
 <area shape="rect" id="node37" href="$ottava_8h.html" title="ottava.h" alt="" coords="2363,229,2432,256"/>
@@ -37,7 +37,7 @@
 <area shape="rect" id="node19" href="$spannermap_8h.html" title="spannermap.h" alt="" coords="2009,155,2113,181"/>
 <area shape="rect" id="node20" href="$layoutbreak_8h.html" title="layoutbreak.h" alt="" coords="1587,155,1687,181"/>
 <area shape="rect" id="node8" href="$spatium_8h.html" title="spatium.h" alt="" coords="787,379,866,405"/>
-<area shape="rect" id="node9" href="$libmscore_2fraction_8h.html" title="fraction.h" alt="" coords="241,379,317,405"/>
+<area shape="rect" id="node9" href="$libmscore_2fraction_8h.html" title="fraction.h" alt="" coords="255,379,331,405"/>
 <area shape="rect" id="node10" href="$libmscore_2score_element_8h.html" title="scoreElement.h" alt="" coords="1231,379,1345,405"/>
 <area shape="rect" id="node11" href="$shape_8h.html" title="shape.h" alt="" coords="695,379,763,405"/>
 <area shape="rect" id="node14" href="$interval_8h.html" title="interval.h" alt="" coords="1281,229,1356,256"/>

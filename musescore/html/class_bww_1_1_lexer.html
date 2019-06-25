@@ -23,9 +23,9 @@
   <td id="projectlogo"><img alt="Logo" src="musescore_logo_full.png"/></td>
   <td id="projectalign" style="padding-left: 0.5em;">
    <div id="projectname">MuseScore
-   &#160;<span id="projectnumber">3.1</span>
+   &#160;<span id="projectnumber">3.2</span>
    </div>
-   <div id="projectbrief">Music compisition and notation</div>
+   <div id="projectbrief">Music composition and notation</div>
   </td>
  </tr>
  </tbody>
@@ -67,6 +67,8 @@ $(function() {
 <div class="header">
   <div class="summary">
 <a href="#pub-methods">Public Member Functions</a> &#124;
+<a href="#pri-methods">Private Member Functions</a> &#124;
+<a href="#pri-attribs">Private Attributes</a> &#124;
 <a href="class_bww_1_1_lexer-members.html">List of all members</a>  </div>
   <div class="headertitle">
 <div class="title">Bww::Lexer Class Reference</div>  </div>
@@ -94,6 +96,36 @@ Public Member Functions</h2></td></tr>
 <tr class="separator:ad0db7123fdddafafa0a81a62bdcf3d0a"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a6022cbc623564c100ad7ead2c34d8086"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_bww_1_1_lexer.html#a6022cbc623564c100ad7ead2c34d8086">symLineNumber</a> () const</td></tr>
 <tr class="separator:a6022cbc623564c100ad7ead2c34d8086"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pri-methods"></a>
+Private Member Functions</h2></td></tr>
+<tr class="memitem:af253ca9d14f0404e2a3fef4cb5711589"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_bww_1_1_lexer.html#af253ca9d14f0404e2a3fef4cb5711589">categorizeWord</a> (QString word)</td></tr>
+<tr class="memdesc:af253ca9d14f0404e2a3fef4cb5711589"><td class="mdescLeft">&#160;</td><td class="mdescRight">Determine the symbol type for <em>word</em>.  <a href="#af253ca9d14f0404e2a3fef4cb5711589">More...</a><br /></td></tr>
+<tr class="separator:af253ca9d14f0404e2a3fef4cb5711589"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pri-attribs"></a>
+Private Attributes</h2></td></tr>
+<tr class="memitem:a007da0f895cea690dceb012dc2d54532"><td class="memItemLeft" align="right" valign="top">QTextStream&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_bww_1_1_lexer.html#a007da0f895cea690dceb012dc2d54532">in</a></td></tr>
+<tr class="memdesc:a007da0f895cea690dceb012dc2d54532"><td class="mdescLeft">&#160;</td><td class="mdescRight">Input stream.  <a href="#a007da0f895cea690dceb012dc2d54532">More...</a><br /></td></tr>
+<tr class="separator:a007da0f895cea690dceb012dc2d54532"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a69f126f54d08feae54557cb2245aba25"><td class="memItemLeft" align="right" valign="top">QString&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_bww_1_1_lexer.html#a69f126f54d08feae54557cb2245aba25">line</a></td></tr>
+<tr class="memdesc:a69f126f54d08feae54557cb2245aba25"><td class="mdescLeft">&#160;</td><td class="mdescRight">The current line.  <a href="#a69f126f54d08feae54557cb2245aba25">More...</a><br /></td></tr>
+<tr class="separator:a69f126f54d08feae54557cb2245aba25"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a3490095d93987183f6056857bedc84fe"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_bww_1_1_lexer.html#a3490095d93987183f6056857bedc84fe">lineNumber</a></td></tr>
+<tr class="memdesc:a3490095d93987183f6056857bedc84fe"><td class="mdescLeft">&#160;</td><td class="mdescRight">The current line number (zero-based)  <a href="#a3490095d93987183f6056857bedc84fe">More...</a><br /></td></tr>
+<tr class="separator:a3490095d93987183f6056857bedc84fe"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac967accab88a15c7f5c839b5e641f821"><td class="memItemLeft" align="right" valign="top">QStringList&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_bww_1_1_lexer.html#ac967accab88a15c7f5c839b5e641f821">list</a></td></tr>
+<tr class="memdesc:ac967accab88a15c7f5c839b5e641f821"><td class="mdescLeft">&#160;</td><td class="mdescRight">Unprocessed words.  <a href="#ac967accab88a15c7f5c839b5e641f821">More...</a><br /></td></tr>
+<tr class="separator:ac967accab88a15c7f5c839b5e641f821"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa7e4df41f54dd6d1fd5157610daaf3b8"><td class="memItemLeft" align="right" valign="top"><a class="el" href="namespace_bww.html#a3e78f1ce9898d7fcb3f7e7adfec046f1">Symbol</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_bww_1_1_lexer.html#aa7e4df41f54dd6d1fd5157610daaf3b8">type</a></td></tr>
+<tr class="memdesc:aa7e4df41f54dd6d1fd5157610daaf3b8"><td class="mdescLeft">&#160;</td><td class="mdescRight">Last symbol type.  <a href="#aa7e4df41f54dd6d1fd5157610daaf3b8">More...</a><br /></td></tr>
+<tr class="separator:aa7e4df41f54dd6d1fd5157610daaf3b8"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a5833a69128fae5579432e84912c4db97"><td class="memItemLeft" align="right" valign="top">QString&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_bww_1_1_lexer.html#a5833a69128fae5579432e84912c4db97">value</a></td></tr>
+<tr class="memdesc:a5833a69128fae5579432e84912c4db97"><td class="mdescLeft">&#160;</td><td class="mdescRight">Last symbol value.  <a href="#a5833a69128fae5579432e84912c4db97">More...</a><br /></td></tr>
+<tr class="separator:a5833a69128fae5579432e84912c4db97"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a18683f8ba457db5b1c9ec9d8b4a8469e"><td class="memItemLeft" align="right" valign="top">QMap&lt; QString, QString &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_bww_1_1_lexer.html#a18683f8ba457db5b1c9ec9d8b4a8469e">graceMap</a></td></tr>
+<tr class="memdesc:a18683f8ba457db5b1c9ec9d8b4a8469e"><td class="mdescLeft">&#160;</td><td class="mdescRight">Map bww embellishments to separate grace notes.  <a href="#a18683f8ba457db5b1c9ec9d8b4a8469e">More...</a><br /></td></tr>
+<tr class="separator:a18683f8ba457db5b1c9ec9d8b4a8469e"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><p>The bww lexer. </p>
@@ -119,6 +151,34 @@ Public Member Functions</h2></td></tr>
 </div>
 </div>
 <h2 class="groupheader">Member Function Documentation</h2>
+<a id="af253ca9d14f0404e2a3fef4cb5711589"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#af253ca9d14f0404e2a3fef4cb5711589">&#9670;&nbsp;</a></span>categorizeWord()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void Bww::Lexer::categorizeWord </td>
+          <td>(</td>
+          <td class="paramtype">QString&#160;</td>
+          <td class="paramname"><em>word</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Determine the symbol type for <em>word</em>. </p>
+
+</div>
+</div>
 <a id="aa3ceaa505cedd20885b90934bd7f0992"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#aa3ceaa505cedd20885b90934bd7f0992">&#9670;&nbsp;</a></span>getSym()</h2>
 
@@ -198,6 +258,175 @@ Public Member Functions</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Return the current symbols value. </p>
+
+</div>
+</div>
+<h2 class="groupheader">Member Data Documentation</h2>
+<a id="a18683f8ba457db5b1c9ec9d8b4a8469e"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a18683f8ba457db5b1c9ec9d8b4a8469e">&#9670;&nbsp;</a></span>graceMap</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">QMap&lt;QString, QString&gt; Bww::Lexer::graceMap</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Map bww embellishments to separate grace notes. </p>
+
+</div>
+</div>
+<a id="a007da0f895cea690dceb012dc2d54532"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a007da0f895cea690dceb012dc2d54532">&#9670;&nbsp;</a></span>in</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">QTextStream Bww::Lexer::in</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Input stream. </p>
+
+</div>
+</div>
+<a id="a69f126f54d08feae54557cb2245aba25"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a69f126f54d08feae54557cb2245aba25">&#9670;&nbsp;</a></span>line</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">QString Bww::Lexer::line</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>The current line. </p>
+
+</div>
+</div>
+<a id="a3490095d93987183f6056857bedc84fe"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a3490095d93987183f6056857bedc84fe">&#9670;&nbsp;</a></span>lineNumber</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">int Bww::Lexer::lineNumber</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>The current line number (zero-based) </p>
+
+</div>
+</div>
+<a id="ac967accab88a15c7f5c839b5e641f821"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ac967accab88a15c7f5c839b5e641f821">&#9670;&nbsp;</a></span>list</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">QStringList Bww::Lexer::list</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Unprocessed words. </p>
+
+</div>
+</div>
+<a id="aa7e4df41f54dd6d1fd5157610daaf3b8"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aa7e4df41f54dd6d1fd5157610daaf3b8">&#9670;&nbsp;</a></span>type</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="namespace_bww.html#a3e78f1ce9898d7fcb3f7e7adfec046f1">Symbol</a> Bww::Lexer::type</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Last symbol type. </p>
+
+</div>
+</div>
+<a id="a5833a69128fae5579432e84912c4db97"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a5833a69128fae5579432e84912c4db97">&#9670;&nbsp;</a></span>value</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">QString Bww::Lexer::value</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Last symbol value. </p>
 
 </div>
 </div>

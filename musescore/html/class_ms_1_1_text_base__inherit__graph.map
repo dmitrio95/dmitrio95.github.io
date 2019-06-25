@@ -11,10 +11,11 @@
 <area shape="rect" id="node13" href="$class_ms_1_1_measure_number.html" title="Ms::MeasureNumber" alt="" coords="485,461,629,488"/>
 <area shape="rect" id="node14" href="$class_ms_1_1_rehearsal_mark.html" title="Ms::RehearsalMark" alt="" coords="489,512,625,539"/>
 <area shape="rect" id="node15" href="$class_ms_1_1_staff_text_base.html" title="Ms::StaffTextBase" alt="" coords="491,563,623,589"/>
-<area shape="rect" id="node18" href="$class_ms_1_1_tempo_text.html" title="Tempo marker which determines the midi tempo. " alt="" coords="500,613,615,640"/>
-<area shape="rect" id="node19" href="$class_ms_1_1_text.html" title="Ms::Text" alt="" coords="520,664,595,691"/>
-<area shape="rect" id="node2" href="$class_ms_1_1_element.html" title="Base class of score layout elements. " alt="" coords="184,335,280,361"/>
-<area shape="rect" id="node3" href="$class_ms_1_1_score_element.html" title="Ms::ScoreElement" alt="" coords="5,335,136,361"/>
+<area shape="rect" id="node18" href="$class_ms_1_1_sticking.html" title="Drum sticking. " alt="" coords="510,613,605,640"/>
+<area shape="rect" id="node19" href="$class_ms_1_1_tempo_text.html" title="Tempo marker which determines the midi tempo. " alt="" coords="500,664,615,691"/>
+<area shape="rect" id="node20" href="$class_ms_1_1_text.html" title="Ms::Text" alt="" coords="520,715,595,741"/>
+<area shape="rect" id="node2" href="$class_ms_1_1_element.html" title="Base class of score layout elements. " alt="" coords="184,360,280,387"/>
+<area shape="rect" id="node3" href="$class_ms_1_1_score_element.html" title="Ms::ScoreElement" alt="" coords="5,360,136,387"/>
 <area shape="rect" id="node16" href="$class_ms_1_1_staff_text.html" title="Ms::StaffText" alt="" coords="691,537,793,564"/>
 <area shape="rect" id="node17" href="$class_ms_1_1_system_text.html" title="Ms::SystemText" alt="" coords="683,588,801,615"/>
 </map>

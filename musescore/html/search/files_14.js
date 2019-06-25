@@ -2,6 +2,7 @@ var searchData=
 [
   ['undo_2ecpp',['undo.cpp',['../undo_8cpp.html',1,'']]],
   ['undo_2eh',['undo.h',['../undo_8h.html',1,'']]],
+  ['unrollrepeats_2ecpp',['unrollrepeats.cpp',['../unrollrepeats_8cpp.html',1,'']]],
   ['updatechecker_2ecpp',['updatechecker.cpp',['../updatechecker_8cpp.html',1,'']]],
   ['updatechecker_2eh',['updatechecker.h',['../updatechecker_8h.html',1,'']]],
   ['uploadscoredialog_2ecpp',['uploadscoredialog.cpp',['../uploadscoredialog_8cpp.html',1,'']]],

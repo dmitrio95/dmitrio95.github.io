@@ -23,9 +23,9 @@
   <td id="projectlogo"><img alt="Logo" src="musescore_logo_full.png"/></td>
   <td id="projectalign" style="padding-left: 0.5em;">
    <div id="projectname">MuseScore
-   &#160;<span id="projectnumber">3.1</span>
+   &#160;<span id="projectnumber">3.2</span>
    </div>
-   <div id="projectbrief">Music compisition and notation</div>
+   <div id="projectbrief">Music composition and notation</div>
   </td>
  </tr>
  </tbody>
@@ -70,6 +70,9 @@ $(function() {
 <a href="#pub-methods">Public Member Functions</a> &#124;
 <a href="#pub-attribs">Public Attributes</a> &#124;
 <a href="#pub-static-attribs">Static Public Attributes</a> &#124;
+<a href="#pri-methods">Private Member Functions</a> &#124;
+<a href="#pri-attribs">Private Attributes</a> &#124;
+<a href="#pri-static-attribs">Static Private Attributes</a> &#124;
 <a href="class_ms_1_1_channel-members.html">List of all members</a>  </div>
   <div class="headertitle">
 <div class="title">Ms::Channel Class Reference</div>  </div>
@@ -77,6 +80,14 @@ $(function() {
 <div class="contents">
 
 <p><code>#include &lt;<a class="el" href="libmscore_2instrument_8h_source.html">instrument.h</a>&gt;</code></p>
+<div class="dynheader">
+Collaboration diagram for Ms::Channel:</div>
+<div class="dyncontent">
+<div class="center"><img src="class_ms_1_1_channel__coll__graph.png" border="0" usemap="#_ms_1_1_channel_coll__map" alt="Collaboration graph"/></div>
+<map name="_ms_1_1_channel_coll__map" id="_ms_1_1_channel_coll__map">
+<area shape="rect" id="node2" href="class_ms_1_1_notifier.html" title="Ms::Notifier\&lt; Channel\l::Prop \&gt;" alt="" coords="5,5,156,47"/>
+</map>
+<center><span class="legend">[<a href="graph_legend.html">legend</a>]</span></center></div>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-types"></a>
 Public Types</h2></td></tr>
@@ -110,7 +121,8 @@ Public Types</h2></td></tr>
 <a class="el" href="class_ms_1_1_channel.html#afc15270bc2c3de90473f7db58428a5b0a5415e9052565ecaf84f33d7f20996fd9">Prop::MUTE</a>, 
 <br />
 &#160;&#160;<a class="el" href="class_ms_1_1_channel.html#afc15270bc2c3de90473f7db58428a5b0a87abb5fd3e2e69d7e2853a2c1f04181b">Prop::SYNTI</a>, 
-<a class="el" href="class_ms_1_1_channel.html#afc15270bc2c3de90473f7db58428a5b0af52e9c50a060add65a035429b2a22229">Prop::CHANNEL</a>
+<a class="el" href="class_ms_1_1_channel.html#afc15270bc2c3de90473f7db58428a5b0af52e9c50a060add65a035429b2a22229">Prop::CHANNEL</a>, 
+<a class="el" href="class_ms_1_1_channel.html#afc15270bc2c3de90473f7db58428a5b0aed73f8a5364d52bc71414a047365b886">Prop::USER_BANK_CONTROL</a>
 <br />
  }</td></tr>
 <tr class="separator:afc15270bc2c3de90473f7db58428a5b0"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -177,8 +189,8 @@ Public Member Functions</h2></td></tr>
 <tr class="separator:afb9d0baaa1159ad9f1af73b7ee163afa"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a76b6b9588043d26c3e3c37a9ee743ac5"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ms_1_1_channel.html#a76b6b9588043d26c3e3c37a9ee743ac5">userBankController</a> () const</td></tr>
 <tr class="separator:a76b6b9588043d26c3e3c37a9ee743ac5"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a7185d0951ce042b7b279085d98f4df78"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ms_1_1_channel.html#a7185d0951ce042b7b279085d98f4df78">setUserBankController</a> (bool val)</td></tr>
-<tr class="separator:a7185d0951ce042b7b279085d98f4df78"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a5d31e4153ab236857aefc22df798b712"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ms_1_1_channel.html#a5d31e4153ab236857aefc22df798b712">setUserBankController</a> (bool val)</td></tr>
+<tr class="separator:a5d31e4153ab236857aefc22df798b712"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:af2b4b16288cbb2c592b1e0f6486c2430"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ms_1_1_channel.html#af2b4b16288cbb2c592b1e0f6486c2430">Channel</a> ()</td></tr>
 <tr class="separator:af2b4b16288cbb2c592b1e0f6486c2430"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a12da2d336fdba035af4c3777369ab7cd"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ms_1_1_channel.html#a12da2d336fdba035af4c3777369ab7cd">write</a> (<a class="el" href="class_ms_1_1_xml_writer.html">XmlWriter</a> &amp;, const <a class="el" href="class_ms_1_1_part.html">Part</a> *part) const</td></tr>
@@ -193,8 +205,8 @@ Public Member Functions</h2></td></tr>
 <tr class="separator:aa01c6cd302aa0164afbed6a44bbcd9c0"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a1bb7d86f79b73f89533c97257479193b"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ms_1_1_channel.html#a1bb7d86f79b73f89533c97257479193b">removeListener</a> (<a class="el" href="class_ms_1_1_channel_listener.html">ChannelListener</a> *l)</td></tr>
 <tr class="separator:a1bb7d86f79b73f89533c97257479193b"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ac45c9663a88a1b2dd3b00297603757f8"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ms_1_1_channel.html#ac45c9663a88a1b2dd3b00297603757f8">switchExpressive</a> (<a class="el" href="class_ms_1_1_master_synthesizer.html">MasterSynthesizer</a> *m, bool expressive, bool force=false)</td></tr>
-<tr class="separator:ac45c9663a88a1b2dd3b00297603757f8"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a926017fd8d9e9c15967c3214211d56cc"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ms_1_1_channel.html#a926017fd8d9e9c15967c3214211d56cc">switchExpressive</a> (<a class="el" href="class_ms_1_1_synthesizer.html">Synthesizer</a> *synth, bool expressive, bool force=false)</td></tr>
+<tr class="separator:a926017fd8d9e9c15967c3214211d56cc"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-attribs"></a>
 Public Attributes</h2></td></tr>
@@ -207,6 +219,55 @@ Public Attributes</h2></td></tr>
 Static Public Attributes</h2></td></tr>
 <tr class="memitem:a4611a4365a104375ca0606d376c6d0d0"><td class="memItemLeft" align="right" valign="top">static const char *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ms_1_1_channel.html#a4611a4365a104375ca0606d376c6d0d0">DEFAULT_NAME</a> = &quot;normal&quot;</td></tr>
 <tr class="separator:a4611a4365a104375ca0606d376c6d0d0"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pri-methods"></a>
+Private Member Functions</h2></td></tr>
+<tr class="memitem:a50ff8cf194aaa514691046f7683b27aa"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ms_1_1_channel.html#a50ff8cf194aaa514691046f7683b27aa">firePropertyChanged</a> (<a class="el" href="class_ms_1_1_channel.html#afc15270bc2c3de90473f7db58428a5b0">Channel::Prop</a> prop)</td></tr>
+<tr class="separator:a50ff8cf194aaa514691046f7683b27aa"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pri-attribs"></a>
+Private Attributes</h2></td></tr>
+<tr class="memitem:a3bc4a7a12753cef7f66421e77d6e98ac"><td class="memItemLeft" align="right" valign="top">QString&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ms_1_1_channel.html#a3bc4a7a12753cef7f66421e77d6e98ac">_name</a></td></tr>
+<tr class="separator:a3bc4a7a12753cef7f66421e77d6e98ac"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab7277ff33f892283501fed04577a91ac"><td class="memItemLeft" align="right" valign="top">QString&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ms_1_1_channel.html#ab7277ff33f892283501fed04577a91ac">_descr</a></td></tr>
+<tr class="separator:ab7277ff33f892283501fed04577a91ac"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a4c447cc725e5102ecf78804cf9f1013a"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ms_1_1_channel.html#a4c447cc725e5102ecf78804cf9f1013a">_color</a></td></tr>
+<tr class="separator:a4c447cc725e5102ecf78804cf9f1013a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af5b0250508aa1416e6157ce3e164340e"><td class="memItemLeft" align="right" valign="top">QString&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ms_1_1_channel.html#af5b0250508aa1416e6157ce3e164340e">_synti</a></td></tr>
+<tr class="separator:af5b0250508aa1416e6157ce3e164340e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a8438c3fb09b8175e795ca661e4ab2581"><td class="memItemLeft" align="right" valign="top">char&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ms_1_1_channel.html#a8438c3fb09b8175e795ca661e4ab2581">_volume</a></td></tr>
+<tr class="separator:a8438c3fb09b8175e795ca661e4ab2581"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a70c2e9cdbe464dd4fb09a851aa63daea"><td class="memItemLeft" align="right" valign="top">char&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ms_1_1_channel.html#a70c2e9cdbe464dd4fb09a851aa63daea">_pan</a></td></tr>
+<tr class="separator:a70c2e9cdbe464dd4fb09a851aa63daea"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a1ee77449a5c6832833fc66702dfd7743"><td class="memItemLeft" align="right" valign="top">char&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ms_1_1_channel.html#a1ee77449a5c6832833fc66702dfd7743">_chorus</a></td></tr>
+<tr class="separator:a1ee77449a5c6832833fc66702dfd7743"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab9fb79fa0d2fba36ed96682ad271eb07"><td class="memItemLeft" align="right" valign="top">char&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ms_1_1_channel.html#ab9fb79fa0d2fba36ed96682ad271eb07">_reverb</a></td></tr>
+<tr class="separator:ab9fb79fa0d2fba36ed96682ad271eb07"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a7acd7cc85aa1d3d0ad6a7559ec259f4f"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ms_1_1_channel.html#a7acd7cc85aa1d3d0ad6a7559ec259f4f">_program</a></td></tr>
+<tr class="separator:a7acd7cc85aa1d3d0ad6a7559ec259f4f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a489167ebda31275e175b6210bc26463f"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ms_1_1_channel.html#a489167ebda31275e175b6210bc26463f">_bank</a></td></tr>
+<tr class="separator:a489167ebda31275e175b6210bc26463f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a016d2c81e4f3b9c5ab18d2a2681657b6"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ms_1_1_channel.html#a016d2c81e4f3b9c5ab18d2a2681657b6">_channel</a> { 0 }</td></tr>
+<tr class="separator:a016d2c81e4f3b9c5ab18d2a2681657b6"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a965ee38a44c17e980e4bc48a9ec8ea3b"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ms_1_1_channel.html#a965ee38a44c17e980e4bc48a9ec8ea3b">_soloMute</a></td></tr>
+<tr class="separator:a965ee38a44c17e980e4bc48a9ec8ea3b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a55bba197c485f596b17f8cd7b3901611"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ms_1_1_channel.html#a55bba197c485f596b17f8cd7b3901611">_mute</a></td></tr>
+<tr class="separator:a55bba197c485f596b17f8cd7b3901611"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae6881b1a719a0c77d8763d4a17ddf97d"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ms_1_1_channel.html#ae6881b1a719a0c77d8763d4a17ddf97d">_solo</a></td></tr>
+<tr class="separator:ae6881b1a719a0c77d8763d4a17ddf97d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aab7d9f91ea83e84dc43a576657d8146b"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ms_1_1_channel.html#aab7d9f91ea83e84dc43a576657d8146b">_userBankController</a> = false</td></tr>
+<tr class="separator:aab7d9f91ea83e84dc43a576657d8146b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa19a00bd4aa7549c58cea67cca98370c"><td class="memItemLeft" align="right" valign="top">std::vector&lt; <a class="el" href="class_ms_1_1_midi_core_event.html">MidiCoreEvent</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ms_1_1_channel.html#aa19a00bd4aa7549c58cea67cca98370c">_init</a></td></tr>
+<tr class="separator:aa19a00bd4aa7549c58cea67cca98370c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a8a764e6e24ffca99aad467b1eab9286f"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ms_1_1_channel.html#a8a764e6e24ffca99aad467b1eab9286f">_mustUpdateInit</a> = true</td></tr>
+<tr class="separator:a8a764e6e24ffca99aad467b1eab9286f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad57dc2360584c37bec93fbfca84a28d8"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_ms_1_1_notifier.html">Notifier</a>&lt; <a class="el" href="class_ms_1_1_channel.html#afc15270bc2c3de90473f7db58428a5b0">Channel::Prop</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ms_1_1_channel.html#ad57dc2360584c37bec93fbfca84a28d8">_notifier</a></td></tr>
+<tr class="separator:ad57dc2360584c37bec93fbfca84a28d8"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pri-static-attribs"></a>
+Static Private Attributes</h2></td></tr>
+<tr class="memitem:a7abf67c9970dd300ce8c5bf6183dc8ca"><td class="memItemLeft" align="right" valign="top">static const int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ms_1_1_channel.html#a7abf67c9970dd300ce8c5bf6183dc8ca">DEFAULT_COLOR</a> = 0x3399ff</td></tr>
+<tr class="separator:a7abf67c9970dd300ce8c5bf6183dc8ca"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <h2 class="groupheader">Member Enumeration Documentation</h2>
 <a id="a514ee076dce4731bf26831a9edd63caf"></a>
@@ -275,6 +336,7 @@ Static Public Attributes</h2></td></tr>
 <tr><td class="fieldname"><a id="afc15270bc2c3de90473f7db58428a5b0a5415e9052565ecaf84f33d7f20996fd9"></a>MUTE&#160;</td><td class="fielddoc"></td></tr>
 <tr><td class="fieldname"><a id="afc15270bc2c3de90473f7db58428a5b0a87abb5fd3e2e69d7e2853a2c1f04181b"></a>SYNTI&#160;</td><td class="fielddoc"></td></tr>
 <tr><td class="fieldname"><a id="afc15270bc2c3de90473f7db58428a5b0af52e9c50a060add65a035429b2a22229"></a>CHANNEL&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="afc15270bc2c3de90473f7db58428a5b0aed73f8a5364d52bc71414a047365b886"></a>USER_BANK_CONTROL&#160;</td><td class="fielddoc"></td></tr>
 </table>
 
 </div>
@@ -435,6 +497,32 @@ Static Public Attributes</h2></td></tr>
   </td>
   <td class="mlabels-right">
 <span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a50ff8cf194aaa514691046f7683b27aa"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a50ff8cf194aaa514691046f7683b27aa">&#9670;&nbsp;</a></span>firePropertyChanged()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void Ms::Channel::firePropertyChanged </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="class_ms_1_1_channel.html#afc15270bc2c3de90473f7db58428a5b0">Channel::Prop</a>&#160;</td>
+          <td class="paramname"><em>prop</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">private</span></span>  </td>
   </tr>
 </table>
 </div><div class="memdoc">
@@ -889,28 +977,20 @@ Static Public Attributes</h2></td></tr>
 
 </div>
 </div>
-<a id="a7185d0951ce042b7b279085d98f4df78"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a7185d0951ce042b7b279085d98f4df78">&#9670;&nbsp;</a></span>setUserBankController()</h2>
+<a id="a5d31e4153ab236857aefc22df798b712"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a5d31e4153ab236857aefc22df798b712">&#9670;&nbsp;</a></span>setUserBankController()</h2>
 
 <div class="memitem">
 <div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">void Ms::Channel::setUserBankController </td>
+          <td class="memname">void Channel::setUserBankController </td>
           <td>(</td>
           <td class="paramtype">bool&#160;</td>
           <td class="paramname"><em>val</em></td><td>)</td>
           <td></td>
         </tr>
       </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
-  </tr>
-</table>
 </div><div class="memdoc">
 
 </div>
@@ -983,8 +1063,8 @@ Static Public Attributes</h2></td></tr>
 
 </div>
 </div>
-<a id="ac45c9663a88a1b2dd3b00297603757f8"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ac45c9663a88a1b2dd3b00297603757f8">&#9670;&nbsp;</a></span>switchExpressive()</h2>
+<a id="a926017fd8d9e9c15967c3214211d56cc"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a926017fd8d9e9c15967c3214211d56cc">&#9670;&nbsp;</a></span>switchExpressive()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -992,8 +1072,8 @@ Static Public Attributes</h2></td></tr>
         <tr>
           <td class="memname">void Channel::switchExpressive </td>
           <td>(</td>
-          <td class="paramtype"><a class="el" href="class_ms_1_1_master_synthesizer.html">MasterSynthesizer</a> *&#160;</td>
-          <td class="paramname"><em>m</em>, </td>
+          <td class="paramtype"><a class="el" href="class_ms_1_1_synthesizer.html">Synthesizer</a> *&#160;</td>
+          <td class="paramname"><em>synth</em>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
@@ -1138,6 +1218,402 @@ Static Public Attributes</h2></td></tr>
 </div>
 </div>
 <h2 class="groupheader">Member Data Documentation</h2>
+<a id="a489167ebda31275e175b6210bc26463f"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a489167ebda31275e175b6210bc26463f">&#9670;&nbsp;</a></span>_bank</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">int Ms::Channel::_bank</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a016d2c81e4f3b9c5ab18d2a2681657b6"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a016d2c81e4f3b9c5ab18d2a2681657b6">&#9670;&nbsp;</a></span>_channel</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">int Ms::Channel::_channel { 0 }</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a1ee77449a5c6832833fc66702dfd7743"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a1ee77449a5c6832833fc66702dfd7743">&#9670;&nbsp;</a></span>_chorus</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">char Ms::Channel::_chorus</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a4c447cc725e5102ecf78804cf9f1013a"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a4c447cc725e5102ecf78804cf9f1013a">&#9670;&nbsp;</a></span>_color</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">int Ms::Channel::_color</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="ab7277ff33f892283501fed04577a91ac"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ab7277ff33f892283501fed04577a91ac">&#9670;&nbsp;</a></span>_descr</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">QString Ms::Channel::_descr</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="aa19a00bd4aa7549c58cea67cca98370c"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aa19a00bd4aa7549c58cea67cca98370c">&#9670;&nbsp;</a></span>_init</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">std::vector&lt;<a class="el" href="class_ms_1_1_midi_core_event.html">MidiCoreEvent</a>&gt; Ms::Channel::_init</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">mutable</span><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a8a764e6e24ffca99aad467b1eab9286f"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a8a764e6e24ffca99aad467b1eab9286f">&#9670;&nbsp;</a></span>_mustUpdateInit</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool Ms::Channel::_mustUpdateInit = true</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">mutable</span><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a55bba197c485f596b17f8cd7b3901611"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a55bba197c485f596b17f8cd7b3901611">&#9670;&nbsp;</a></span>_mute</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool Ms::Channel::_mute</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a3bc4a7a12753cef7f66421e77d6e98ac"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a3bc4a7a12753cef7f66421e77d6e98ac">&#9670;&nbsp;</a></span>_name</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">QString Ms::Channel::_name</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="ad57dc2360584c37bec93fbfca84a28d8"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ad57dc2360584c37bec93fbfca84a28d8">&#9670;&nbsp;</a></span>_notifier</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="class_ms_1_1_notifier.html">Notifier</a>&lt;<a class="el" href="class_ms_1_1_channel.html#afc15270bc2c3de90473f7db58428a5b0">Channel::Prop</a>&gt; Ms::Channel::_notifier</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a70c2e9cdbe464dd4fb09a851aa63daea"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a70c2e9cdbe464dd4fb09a851aa63daea">&#9670;&nbsp;</a></span>_pan</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">char Ms::Channel::_pan</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a7acd7cc85aa1d3d0ad6a7559ec259f4f"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a7acd7cc85aa1d3d0ad6a7559ec259f4f">&#9670;&nbsp;</a></span>_program</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">int Ms::Channel::_program</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="ab9fb79fa0d2fba36ed96682ad271eb07"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ab9fb79fa0d2fba36ed96682ad271eb07">&#9670;&nbsp;</a></span>_reverb</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">char Ms::Channel::_reverb</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="ae6881b1a719a0c77d8763d4a17ddf97d"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ae6881b1a719a0c77d8763d4a17ddf97d">&#9670;&nbsp;</a></span>_solo</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool Ms::Channel::_solo</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a965ee38a44c17e980e4bc48a9ec8ea3b"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a965ee38a44c17e980e4bc48a9ec8ea3b">&#9670;&nbsp;</a></span>_soloMute</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool Ms::Channel::_soloMute</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="af5b0250508aa1416e6157ce3e164340e"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#af5b0250508aa1416e6157ce3e164340e">&#9670;&nbsp;</a></span>_synti</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">QString Ms::Channel::_synti</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="aab7d9f91ea83e84dc43a576657d8146b"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aab7d9f91ea83e84dc43a576657d8146b">&#9670;&nbsp;</a></span>_userBankController</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool Ms::Channel::_userBankController = false</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a8438c3fb09b8175e795ca661e4ab2581"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a8438c3fb09b8175e795ca661e4ab2581">&#9670;&nbsp;</a></span>_volume</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">char Ms::Channel::_volume</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
 <a id="a8bff2cfb48398e1998068714c3084292"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a8bff2cfb48398e1998068714c3084292">&#9670;&nbsp;</a></span>articulation</h2>
 
@@ -1148,6 +1624,28 @@ Static Public Attributes</h2></td></tr>
           <td class="memname">QList&lt;<a class="el" href="struct_ms_1_1_midi_articulation.html">MidiArticulation</a>&gt; Ms::Channel::articulation</td>
         </tr>
       </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a7abf67c9970dd300ce8c5bf6183dc8ca"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a7abf67c9970dd300ce8c5bf6183dc8ca">&#9670;&nbsp;</a></span>DEFAULT_COLOR</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">const int Ms::Channel::DEFAULT_COLOR = 0x3399ff</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
 </div><div class="memdoc">
 
 </div>

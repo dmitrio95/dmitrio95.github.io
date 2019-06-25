@@ -23,9 +23,9 @@
   <td id="projectlogo"><img alt="Logo" src="musescore_logo_full.png"/></td>
   <td id="projectalign" style="padding-left: 0.5em;">
    <div id="projectname">MuseScore
-   &#160;<span id="projectnumber">3.1</span>
+   &#160;<span id="projectnumber">3.2</span>
    </div>
-   <div id="projectbrief">Music compisition and notation</div>
+   <div id="projectbrief">Music composition and notation</div>
   </td>
  </tr>
  </tbody>
@@ -67,6 +67,8 @@ $(function() {
 <div class="header">
   <div class="summary">
 <a href="#pub-methods">Public Member Functions</a> &#124;
+<a href="#pri-methods">Private Member Functions</a> &#124;
+<a href="#pri-attribs">Private Attributes</a> &#124;
 <a href="class_ms_1_1_preferences_list_widget-members.html">List of all members</a>  </div>
   <div class="headertitle">
 <div class="title">Ms::PreferencesListWidget Class Reference</div>  </div>
@@ -111,6 +113,16 @@ Public Member Functions</h2></td></tr>
 <tr class="separator:aef4888b00617bf579b52b50c05d1be0a"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:adcf11c1bc207b92346f370961f07e8de"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ms_1_1_preferences_list_widget.html#adcf11c1bc207b92346f370961f07e8de">visit</a> (QString key, <a class="el" href="class_ms_1_1_color_preference.html">ColorPreference</a> *)</td></tr>
 <tr class="separator:adcf11c1bc207b92346f370961f07e8de"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pri-methods"></a>
+Private Member Functions</h2></td></tr>
+<tr class="memitem:a4e0d22adc3afbefd868f4719b8f77ed7"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ms_1_1_preferences_list_widget.html#a4e0d22adc3afbefd868f4719b8f77ed7">addPreference</a> (<a class="el" href="class_ms_1_1_preference_item.html">PreferenceItem</a> *item)</td></tr>
+<tr class="separator:a4e0d22adc3afbefd868f4719b8f77ed7"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pri-attribs"></a>
+Private Attributes</h2></td></tr>
+<tr class="memitem:a7c0f3319879da9b0606948ccc2b869c9"><td class="memItemLeft" align="right" valign="top">QHash&lt; QString, <a class="el" href="class_ms_1_1_preference_item.html">PreferenceItem</a> * &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ms_1_1_preferences_list_widget.html#a7c0f3319879da9b0606948ccc2b869c9">preferenceItems</a></td></tr>
+<tr class="separator:a7c0f3319879da9b0606948ccc2b869c9"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
 <a id="a029e97111569212b563c460e62ecacde"></a>
@@ -140,6 +152,32 @@ Public Member Functions</h2></td></tr>
 </div>
 </div>
 <h2 class="groupheader">Member Function Documentation</h2>
+<a id="a4e0d22adc3afbefd868f4719b8f77ed7"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a4e0d22adc3afbefd868f4719b8f77ed7">&#9670;&nbsp;</a></span>addPreference()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void Ms::PreferencesListWidget::addPreference </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="class_ms_1_1_preference_item.html">PreferenceItem</a> *&#160;</td>
+          <td class="paramname"><em>item</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
 <a id="ac5d7cef6e7297d031bc7c44ec53dbff9"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#ac5d7cef6e7297d031bc7c44ec53dbff9">&#9670;&nbsp;</a></span>loadPreferences()</h2>
 
@@ -378,6 +416,29 @@ Public Member Functions</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Implements <a class="el" href="class_ms_1_1_preference_visitor.html#a6e0b4d26ee9ad2667de184bf4a6ca69e">Ms::PreferenceVisitor</a>.</p>
+
+</div>
+</div>
+<h2 class="groupheader">Member Data Documentation</h2>
+<a id="a7c0f3319879da9b0606948ccc2b869c9"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a7c0f3319879da9b0606948ccc2b869c9">&#9670;&nbsp;</a></span>preferenceItems</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">QHash&lt;QString, <a class="el" href="class_ms_1_1_preference_item.html">PreferenceItem</a>*&gt; Ms::PreferencesListWidget::preferenceItems</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
 
 </div>
 </div>

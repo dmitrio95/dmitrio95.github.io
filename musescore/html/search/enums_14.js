@@ -9,5 +9,6 @@ var searchData=
   ['verticalalignrange',['VerticalAlignRange',['../namespace_ms.html#a72e619a51799cbb2ec85aa0a07e8fd18',1,'Ms']]],
   ['viewstate',['ViewState',['../namespace_ms.html#a20d9370e85f87d0b2594fd90665f8cc1',1,'Ms']]],
   ['voicecount',['VoiceCount',['../namespace_ms_1_1_midi_operations.html#a4772d0d86fe923144456551b894d78fe',1,'Ms::MidiOperations']]],
-  ['voicestate',['VoiceState',['../zerberus_2voice_8h.html#aac92f13c8b3b343f173f898caf31314a',1,'voice.h']]]
+  ['voicestate',['VoiceState',['../zerberus_2voice_8h.html#aac92f13c8b3b343f173f898caf31314a',1,'voice.h']]],
+  ['voltatype',['voltatype',['../class_ms_1_1_export_ly.html#aceab6e87dd145c270793bf3ea03d5e34',1,'Ms::ExportLy']]]
 ];

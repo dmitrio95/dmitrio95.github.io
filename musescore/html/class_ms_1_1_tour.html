@@ -23,9 +23,9 @@
   <td id="projectlogo"><img alt="Logo" src="musescore_logo_full.png"/></td>
   <td id="projectalign" style="padding-left: 0.5em;">
    <div id="projectname">MuseScore
-   &#160;<span id="projectnumber">3.1</span>
+   &#160;<span id="projectnumber">3.2</span>
    </div>
-   <div id="projectbrief">Music compisition and notation</div>
+   <div id="projectbrief">Music composition and notation</div>
   </td>
  </tr>
  </tbody>
@@ -67,6 +67,7 @@ $(function() {
 <div class="header">
   <div class="summary">
 <a href="#pub-methods">Public Member Functions</a> &#124;
+<a href="#pri-attribs">Private Attributes</a> &#124;
 <a href="class_ms_1_1_tour-members.html">List of all members</a>  </div>
   <div class="headertitle">
 <div class="title">Ms::Tour Class Reference</div>  </div>
@@ -99,6 +100,17 @@ Public Member Functions</h2></td></tr>
 <tr class="separator:a852ec77558c0b0481edfb0db811fa696"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ac0314cc2c5f706bfa125032cd0710345"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ms_1_1_tour.html#ac0314cc2c5f706bfa125032cd0710345">completed</a> ()</td></tr>
 <tr class="separator:ac0314cc2c5f706bfa125032cd0710345"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pri-attribs"></a>
+Private Attributes</h2></td></tr>
+<tr class="memitem:a3340de0ef8c4ed640c01b03ba9d52b14"><td class="memItemLeft" align="right" valign="top">QList&lt; <a class="el" href="struct_ms_1_1_tour_message.html">TourMessage</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ms_1_1_tour.html#a3340de0ef8c4ed640c01b03ba9d52b14">_messages</a></td></tr>
+<tr class="separator:a3340de0ef8c4ed640c01b03ba9d52b14"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aba95c572867b4ea361b66660522565fa"><td class="memItemLeft" align="right" valign="top">QMultiMap&lt; QString, QWidget * &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ms_1_1_tour.html#aba95c572867b4ea361b66660522565fa">nameToWidget</a></td></tr>
+<tr class="separator:aba95c572867b4ea361b66660522565fa"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a4ac9aba5e9527712d19717ca9526118f"><td class="memItemLeft" align="right" valign="top">QString&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ms_1_1_tour.html#a4ac9aba5e9527712d19717ca9526118f">_tourName</a></td></tr>
+<tr class="separator:a4ac9aba5e9527712d19717ca9526118f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae685b57c46b1f2952419d29f1abdbbbe"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ms_1_1_tour.html#ae685b57c46b1f2952419d29f1abdbbbe">_completed</a> = false</td></tr>
+<tr class="separator:ae685b57c46b1f2952419d29f1abdbbbe"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
 <a id="af9c375c4424ada710c9dc2a81bd8a597"></a>
@@ -398,6 +410,95 @@ Public Member Functions</h2></td></tr>
   </td>
   <td class="mlabels-right">
 <span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<h2 class="groupheader">Member Data Documentation</h2>
+<a id="ae685b57c46b1f2952419d29f1abdbbbe"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ae685b57c46b1f2952419d29f1abdbbbe">&#9670;&nbsp;</a></span>_completed</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool Ms::Tour::_completed = false</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a3340de0ef8c4ed640c01b03ba9d52b14"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a3340de0ef8c4ed640c01b03ba9d52b14">&#9670;&nbsp;</a></span>_messages</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">QList&lt;<a class="el" href="struct_ms_1_1_tour_message.html">TourMessage</a>&gt; Ms::Tour::_messages</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a4ac9aba5e9527712d19717ca9526118f"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a4ac9aba5e9527712d19717ca9526118f">&#9670;&nbsp;</a></span>_tourName</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">QString Ms::Tour::_tourName</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="aba95c572867b4ea361b66660522565fa"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aba95c572867b4ea361b66660522565fa">&#9670;&nbsp;</a></span>nameToWidget</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">QMultiMap&lt;QString, QWidget*&gt; Ms::Tour::nameToWidget</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
   </tr>
 </table>
 </div><div class="memdoc">

@@ -23,9 +23,9 @@
   <td id="projectlogo"><img alt="Logo" src="musescore_logo_full.png"/></td>
   <td id="projectalign" style="padding-left: 0.5em;">
    <div id="projectname">MuseScore
-   &#160;<span id="projectnumber">3.1</span>
+   &#160;<span id="projectnumber">3.2</span>
    </div>
-   <div id="projectbrief">Music compisition and notation</div>
+   <div id="projectbrief">Music composition and notation</div>
   </td>
  </tr>
  </tbody>
@@ -67,6 +67,8 @@ $(function() {
 <div class="header">
   <div class="summary">
 <a href="#pub-methods">Public Member Functions</a> &#124;
+<a href="#pri-slots">Private Slots</a> &#124;
+<a href="#pri-attribs">Private Attributes</a> &#124;
 <a href="class_ms_1_1_tie_view-members.html">List of all members</a>  </div>
   <div class="headertitle">
 <div class="title">Ms::TieView Class Reference</div>  </div>
@@ -89,9 +91,44 @@ Collaboration diagram for Ms::TieView:</div>
 <div class="dyncontent">
 <div class="center"><img src="class_ms_1_1_tie_view__coll__graph.png" border="0" usemap="#_ms_1_1_tie_view_coll__map" alt="Collaboration graph"/></div>
 <map name="_ms_1_1_tie_view_coll__map" id="_ms_1_1_tie_view_coll__map">
-<area shape="rect" id="node2" href="class_ms_1_1_slur_tie_view.html" title="Ms::SlurTieView" alt="" coords="25,229,144,256"/>
-<area shape="rect" id="node3" href="class_ms_1_1_spanner_view.html" title="Ms::SpannerView" alt="" coords="22,155,147,181"/>
-<area shape="rect" id="node4" href="class_ms_1_1_show_element_base.html" title="Ms::ShowElementBase" alt="" coords="5,80,164,107"/>
+<area shape="rect" id="node2" href="class_ms_1_1_slur_tie_view.html" title="Ms::SlurTieView" alt="" coords="2515,439,2634,465"/>
+<area shape="rect" id="node3" href="class_ms_1_1_spanner_view.html" title="Ms::SpannerView" alt="" coords="2333,319,2459,345"/>
+<area shape="rect" id="node4" href="class_ms_1_1_show_element_base.html" title="Ms::ShowElementBase" alt="" coords="2106,206,2265,233"/>
+<area shape="rect" id="node6" href="class_ms_1_1_element.html" title="Base class of score layout elements. " alt="" coords="1519,95,1615,121"/>
+<area shape="rect" id="node30" href="class_ms_1_1_measure_base.html" title="Virtual base class for Measure, HBox and VBox. " alt="" coords="548,206,676,233"/>
+<area shape="rect" id="node34" href="class_ms_1_1_segment.html" title="Ms::Segment" alt="" coords="1155,206,1255,233"/>
+<area shape="rect" id="node39" href="class_ms_1_1_spanner.html" title="Virtual base class for slurs, ties, lines etc. " alt="" coords="1609,206,1705,233"/>
+<area shape="rect" id="node7" href="class_ms_1_1_score_element.html" title="Ms::ScoreElement" alt="" coords="1188,528,1319,555"/>
+<area shape="rect" id="node8" href="class_ms_1_1_score.html" title="Ms::Score" alt="" coords="784,439,867,465"/>
+<area shape="rect" id="node10" href="class_ms_1_1_excerpt.html" title="Ms::Excerpt" alt="" coords="351,709,444,736"/>
+<area shape="rect" id="node11" href="class_ms_1_1_master_score.html" title="Ms::MasterScore" alt="" coords="1005,619,1128,645"/>
+<area shape="rect" id="node15" href="class_ms_1_1_repeat_list.html" title="Ms::RepeatList" alt="" coords="1889,528,1999,555"/>
+<area shape="rect" id="node33" href="class_ms_1_1_input_state.html" title="Ms::InputState" alt="" coords="1489,528,1597,555"/>
+<area shape="rect" id="node42" href="class_ms_1_1_selection.html" title="Ms::Selection" alt="" coords="478,528,581,555"/>
+<area shape="rect" id="node47" href="class_ms_1_1_selection_filter.html" title="Ms::SelectionFilter" alt="" coords="789,528,920,555"/>
+<area shape="rect" id="node12" href="class_ms_1_1_omr.html" title="Ms::Omr" alt="" coords="945,528,1018,555"/>
+<area shape="rect" id="node13" href="class_ms_1_1_cmd_state.html" title="Ms::CmdState" alt="" coords="5,265,112,292"/>
+<area shape="rect" id="node14" href="class_ms_1_1_fraction.html" title="Ms::Fraction" alt="" coords="455,95,550,121"/>
+<area shape="rect" id="node17" href="class_ms_1_1_revisions.html" title="Ms::Revisions" alt="" coords="2056,528,2163,555"/>
+<area shape="rect" id="node18" href="class_ms_1_1_revision.html" title="Ms::Revision" alt="" coords="2135,439,2233,465"/>
+<area shape="rect" id="node19" href="class_ms_1_1_tempo_map.html" title="Ms::TempoMap" alt="" coords="2297,528,2410,555"/>
+<area shape="rect" id="node21" href="class_ms_1_1_movements.html" title="Ms::Movements" alt="" coords="1790,439,1906,465"/>
+<area shape="rect" id="node23" href="class_ms_1_1_text.html" title="Ms::Text" alt="" coords="2051,319,2125,345"/>
+<area shape="rect" id="node24" href="class_ms_1_1_m_style.html" title="Ms::MStyle" alt="" coords="1726,319,1815,345"/>
+<area shape="rect" id="node25" href="class_ms_1_1_chord_list.html" title="Ms::ChordList" alt="" coords="1751,206,1855,233"/>
+<area shape="rect" id="node27" href="class_ms_1_1_time_sig_map.html" title="Ms::TimeSigMap" alt="" coords="1343,528,1465,555"/>
+<area shape="rect" id="node29" href="class_ms_1_1_measure_base_list.html" title="Ms::MeasureBaseList" alt="" coords="591,319,740,345"/>
+<area shape="rect" id="node31" href="class_ms_1_1_element_list.html" title="Ms::ElementList" alt="" coords="575,95,692,121"/>
+<area shape="rect" id="node35" href="class_ms_1_1_spatium.html" title="Ms::Spatium" alt="" coords="1283,5,1379,32"/>
+<area shape="rect" id="node36" href="class_ms_1_1_t_duration.html" title="Ms::TDuration" alt="" coords="1566,439,1671,465"/>
+<area shape="rect" id="node37" href="class_ms_1_1_slur.html" title="Ms::Slur" alt="" coords="1695,439,1766,465"/>
+<area shape="rect" id="node38" href="class_ms_1_1_slur_tie.html" title="Ms::SlurTie" alt="" coords="1613,319,1702,345"/>
+<area shape="rect" id="node40" href="class_ms_1_1_synthesizer_state.html" title="Ms::SynthesizerState" alt="" coords="1147,319,1295,345"/>
+<area shape="rect" id="node43" href="class_ms_1_1_spanner_map.html" title="Ms::SpannerMap" alt="" coords="343,319,465,345"/>
+<area shape="rect" id="node45" href="class_ms_1_1_update_state.html" title="Ms::UpdateState" alt="" coords="765,319,886,345"/>
+<area shape="rect" id="node46" href="class_ms_1_1_audio.html" title="Ms::Audio" alt="" coords="910,319,991,345"/>
+<area shape="rect" id="node48" href="class_ms_1_1_score_font.html" title="Ms::ScoreFont" alt="" coords="1015,319,1123,345"/>
+<area shape="rect" id="node49" href="class_ms_1_1_linked_elements.html" title="Ms::LinkedElements" alt="" coords="1101,439,1243,465"/>
 </map>
 <center><span class="legend">[<a href="graph_legend.html">legend</a>]</span></center></div>
 <table class="memberdecls">
@@ -114,6 +151,18 @@ Public Member Functions</h2></td></tr>
 <tr class="separator:a88a22064010808459d41e2da3c851ad3 inherit pub_methods_class_ms_1_1_show_element_base"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a08f658d064b77cb4fb826912f8b4ed97 inherit pub_methods_class_ms_1_1_show_element_base"><td class="memItemLeft" align="right" valign="top">QWidget *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ms_1_1_show_element_base.html#a08f658d064b77cb4fb826912f8b4ed97">addWidget</a> ()</td></tr>
 <tr class="separator:a08f658d064b77cb4fb826912f8b4ed97 inherit pub_methods_class_ms_1_1_show_element_base"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pri-slots"></a>
+Private Slots</h2></td></tr>
+<tr class="memitem:a50e61306d68adb0152ff15a974b1baca"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ms_1_1_tie_view.html#a50e61306d68adb0152ff15a974b1baca">startClicked</a> ()</td></tr>
+<tr class="separator:a50e61306d68adb0152ff15a974b1baca"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af5671cf71af0d70783856a0317c8fb33"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ms_1_1_tie_view.html#af5671cf71af0d70783856a0317c8fb33">endClicked</a> ()</td></tr>
+<tr class="separator:af5671cf71af0d70783856a0317c8fb33"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pri-attribs"></a>
+Private Attributes</h2></td></tr>
+<tr class="memitem:a4658db32e697cc9f43e257b3a27d0930"><td class="memItemLeft" align="right" valign="top">Ui::TieBase&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ms_1_1_tie_view.html#a4658db32e697cc9f43e257b3a27d0930">tb</a></td></tr>
+<tr class="separator:a4658db32e697cc9f43e257b3a27d0930"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="inherited"></a>
 Additional Inherited Members</h2></td></tr>
@@ -148,6 +197,31 @@ Additional Inherited Members</h2></td></tr>
 </div>
 </div>
 <h2 class="groupheader">Member Function Documentation</h2>
+<a id="af5671cf71af0d70783856a0317c8fb33"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#af5671cf71af0d70783856a0317c8fb33">&#9670;&nbsp;</a></span>endClicked</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void Ms::TieView::endClicked </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span><span class="mlabel">slot</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
 <a id="a943e96905644b13813a01ef7d63c761d"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a943e96905644b13813a01ef7d63c761d">&#9670;&nbsp;</a></span>setElement()</h2>
 
@@ -173,6 +247,54 @@ Additional Inherited Members</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Reimplemented from <a class="el" href="class_ms_1_1_slur_tie_view.html#ade34055994474d2adba52c4317d7f07b">Ms::SlurTieView</a>.</p>
+
+</div>
+</div>
+<a id="a50e61306d68adb0152ff15a974b1baca"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a50e61306d68adb0152ff15a974b1baca">&#9670;&nbsp;</a></span>startClicked</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void Ms::TieView::startClicked </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span><span class="mlabel">slot</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<h2 class="groupheader">Member Data Documentation</h2>
+<a id="a4658db32e697cc9f43e257b3a27d0930"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a4658db32e697cc9f43e257b3a27d0930">&#9670;&nbsp;</a></span>tb</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">Ui::TieBase Ms::TieView::tb</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
 
 </div>
 </div>

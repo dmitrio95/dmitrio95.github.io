@@ -23,9 +23,9 @@
   <td id="projectlogo"><img alt="Logo" src="musescore_logo_full.png"/></td>
   <td id="projectalign" style="padding-left: 0.5em;">
    <div id="projectname">MuseScore
-   &#160;<span id="projectnumber">3.1</span>
+   &#160;<span id="projectnumber">3.2</span>
    </div>
-   <div id="projectbrief">Music compisition and notation</div>
+   <div id="projectbrief">Music composition and notation</div>
   </td>
  </tr>
  </tbody>
@@ -69,6 +69,8 @@ $(function() {
 <a href="#signals">Signals</a> &#124;
 <a href="#pub-methods">Public Member Functions</a> &#124;
 <a href="#pro-methods">Protected Member Functions</a> &#124;
+<a href="#pri-slots">Private Slots</a> &#124;
+<a href="#pri-methods">Private Member Functions</a> &#124;
 <a href="class_ms_1_1_startcenter-members.html">List of all members</a>  </div>
   <div class="headertitle">
 <div class="title">Ms::Startcenter Class Reference</div>  </div>
@@ -127,6 +129,20 @@ Protected Member Functions</h2></td></tr>
 <tr class="inherit_header pro_methods_class_ms_1_1_abstract_dialog"><td colspan="2" onclick="javascript:toggleInherit('pro_methods_class_ms_1_1_abstract_dialog')"><img src="closed.png" alt="-"/>&#160;Protected Member Functions inherited from <a class="el" href="class_ms_1_1_abstract_dialog.html">Ms::AbstractDialog</a></td></tr>
 <tr class="memitem:a8b3a49dc3c7531f0a3234078b3aa97e1 inherit pro_methods_class_ms_1_1_abstract_dialog"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ms_1_1_abstract_dialog.html#a8b3a49dc3c7531f0a3234078b3aa97e1">changeEvent</a> (QEvent *event)</td></tr>
 <tr class="separator:a8b3a49dc3c7531f0a3234078b3aa97e1 inherit pro_methods_class_ms_1_1_abstract_dialog"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pri-slots"></a>
+Private Slots</h2></td></tr>
+<tr class="memitem:a1e4f141277854b25c6d0f464cce53fb5"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ms_1_1_startcenter.html#a1e4f141277854b25c6d0f464cce53fb5">loadScore</a> (QString)</td></tr>
+<tr class="separator:a1e4f141277854b25c6d0f464cce53fb5"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a1697c3d93192e2f529393638c45be69f"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ms_1_1_startcenter.html#a1697c3d93192e2f529393638c45be69f">newScore</a> ()</td></tr>
+<tr class="separator:a1697c3d93192e2f529393638c45be69f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:adcf05e7bc80a228122411d319c4506b0"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ms_1_1_startcenter.html#adcf05e7bc80a228122411d319c4506b0">openScoreClicked</a> ()</td></tr>
+<tr class="separator:adcf05e7bc80a228122411d319c4506b0"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pri-methods"></a>
+Private Member Functions</h2></td></tr>
+<tr class="memitem:ac928c654aa15c5133f7580eae3e9490d"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ms_1_1_startcenter.html#ac928c654aa15c5133f7580eae3e9490d">closeEvent</a> (QCloseEvent *)</td></tr>
+<tr class="separator:ac928c654aa15c5133f7580eae3e9490d"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
 <a id="ae4f3463976357b447a8f7291d06742c2"></a>
@@ -191,6 +207,32 @@ Protected Member Functions</h2></td></tr>
 
 </div>
 </div>
+<a id="ac928c654aa15c5133f7580eae3e9490d"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ac928c654aa15c5133f7580eae3e9490d">&#9670;&nbsp;</a></span>closeEvent()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void Ms::Startcenter::closeEvent </td>
+          <td>(</td>
+          <td class="paramtype">QCloseEvent *&#160;</td>
+          <td class="paramname"><em>event</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span><span class="mlabel">virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
 <a id="ae5aaff5c4bf38cd804fad8b471dd577a"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#ae5aaff5c4bf38cd804fad8b471dd577a">&#9670;&nbsp;</a></span>keyPressEvent()</h2>
 
@@ -237,6 +279,82 @@ Protected Member Functions</h2></td></tr>
   </td>
   <td class="mlabels-right">
 <span class="mlabels"><span class="mlabel">override</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a1e4f141277854b25c6d0f464cce53fb5"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a1e4f141277854b25c6d0f464cce53fb5">&#9670;&nbsp;</a></span>loadScore</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void Ms::Startcenter::loadScore </td>
+          <td>(</td>
+          <td class="paramtype">QString&#160;</td>
+          <td class="paramname"><em>s</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span><span class="mlabel">slot</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a1697c3d93192e2f529393638c45be69f"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a1697c3d93192e2f529393638c45be69f">&#9670;&nbsp;</a></span>newScore</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void Ms::Startcenter::newScore </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span><span class="mlabel">slot</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="adcf05e7bc80a228122411d319c4506b0"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#adcf05e7bc80a228122411d319c4506b0">&#9670;&nbsp;</a></span>openScoreClicked</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void Ms::Startcenter::openScoreClicked </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span><span class="mlabel">slot</span></span>  </td>
   </tr>
 </table>
 </div><div class="memdoc">

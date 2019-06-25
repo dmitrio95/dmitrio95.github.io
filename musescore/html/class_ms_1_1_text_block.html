@@ -23,9 +23,9 @@
   <td id="projectlogo"><img alt="Logo" src="musescore_logo_full.png"/></td>
   <td id="projectalign" style="padding-left: 0.5em;">
    <div id="projectname">MuseScore
-   &#160;<span id="projectnumber">3.1</span>
+   &#160;<span id="projectnumber">3.2</span>
    </div>
-   <div id="projectbrief">Music compisition and notation</div>
+   <div id="projectbrief">Music composition and notation</div>
   </td>
  </tr>
  </tbody>
@@ -67,6 +67,8 @@ $(function() {
 <div class="header">
   <div class="summary">
 <a href="#pub-methods">Public Member Functions</a> &#124;
+<a href="#pri-methods">Private Member Functions</a> &#124;
+<a href="#pri-attribs">Private Attributes</a> &#124;
 <a href="class_ms_1_1_text_block-members.html">List of all members</a>  </div>
   <div class="headertitle">
 <div class="title">Ms::TextBlock Class Reference</div>  </div>
@@ -129,6 +131,24 @@ Public Member Functions</h2></td></tr>
 <tr class="separator:ab3442cee3338033e4358956ebd904c2c"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:af0b6244f67af012a00f03c2cdd7731fe"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ms_1_1_text_block.html#af0b6244f67af012a00f03c2cdd7731fe">changeFormat</a> (<a class="el" href="namespace_ms.html#a69eba1766628127a01f8696ae423a508">FormatId</a>, QVariant val, int start, int n)</td></tr>
 <tr class="separator:af0b6244f67af012a00f03c2cdd7731fe"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pri-methods"></a>
+Private Member Functions</h2></td></tr>
+<tr class="memitem:a47719e05e6b71194eb38219a6c12bb0b"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ms_1_1_text_block.html#a47719e05e6b71194eb38219a6c12bb0b">simplify</a> ()</td></tr>
+<tr class="separator:a47719e05e6b71194eb38219a6c12bb0b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pri-attribs"></a>
+Private Attributes</h2></td></tr>
+<tr class="memitem:a2d431b019443b8b907e8c3fa95665a73"><td class="memItemLeft" align="right" valign="top">QList&lt; <a class="el" href="class_ms_1_1_text_fragment.html">TextFragment</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ms_1_1_text_block.html#a2d431b019443b8b907e8c3fa95665a73">_fragments</a></td></tr>
+<tr class="separator:a2d431b019443b8b907e8c3fa95665a73"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a3cfc7fffd54f66245898fc63c03727c4"><td class="memItemLeft" align="right" valign="top">qreal&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ms_1_1_text_block.html#a3cfc7fffd54f66245898fc63c03727c4">_y</a> = 0</td></tr>
+<tr class="separator:a3cfc7fffd54f66245898fc63c03727c4"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:adeaad490bd4e3f930da1de941b96012e"><td class="memItemLeft" align="right" valign="top">qreal&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ms_1_1_text_block.html#adeaad490bd4e3f930da1de941b96012e">_lineSpacing</a></td></tr>
+<tr class="separator:adeaad490bd4e3f930da1de941b96012e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a30a21a5aecba60a315713fe42c918cd3"><td class="memItemLeft" align="right" valign="top">QRectF&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ms_1_1_text_block.html#a30a21a5aecba60a315713fe42c918cd3">_bbox</a></td></tr>
+<tr class="separator:a30a21a5aecba60a315713fe42c918cd3"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a728b9f7ad53b8b56be10539b5b2b8962"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ms_1_1_text_block.html#a728b9f7ad53b8b56be10539b5b2b8962">_eol</a> = false</td></tr>
+<tr class="separator:a728b9f7ad53b8b56be10539b5b2b8962"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
 <a id="a557b7d3a60e5d78a0c214e274aad76bd"></a>
@@ -695,6 +715,31 @@ Public Member Functions</h2></td></tr>
 
 </div>
 </div>
+<a id="a47719e05e6b71194eb38219a6c12bb0b"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a47719e05e6b71194eb38219a6c12bb0b">&#9670;&nbsp;</a></span>simplify()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void Ms::TextBlock::simplify </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
 <a id="aec27a6f5ba2a5d62c32f6b17404b1cbc"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#aec27a6f5ba2a5d62c32f6b17404b1cbc">&#9670;&nbsp;</a></span>split()</h2>
 
@@ -788,6 +833,117 @@ Public Member Functions</h2></td></tr>
   </td>
   <td class="mlabels-right">
 <span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<h2 class="groupheader">Member Data Documentation</h2>
+<a id="a30a21a5aecba60a315713fe42c918cd3"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a30a21a5aecba60a315713fe42c918cd3">&#9670;&nbsp;</a></span>_bbox</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">QRectF Ms::TextBlock::_bbox</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a728b9f7ad53b8b56be10539b5b2b8962"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a728b9f7ad53b8b56be10539b5b2b8962">&#9670;&nbsp;</a></span>_eol</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool Ms::TextBlock::_eol = false</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a2d431b019443b8b907e8c3fa95665a73"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a2d431b019443b8b907e8c3fa95665a73">&#9670;&nbsp;</a></span>_fragments</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">QList&lt;<a class="el" href="class_ms_1_1_text_fragment.html">TextFragment</a>&gt; Ms::TextBlock::_fragments</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="adeaad490bd4e3f930da1de941b96012e"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#adeaad490bd4e3f930da1de941b96012e">&#9670;&nbsp;</a></span>_lineSpacing</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">qreal Ms::TextBlock::_lineSpacing</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a3cfc7fffd54f66245898fc63c03727c4"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a3cfc7fffd54f66245898fc63c03727c4">&#9670;&nbsp;</a></span>_y</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">qreal Ms::TextBlock::_y = 0</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
   </tr>
 </table>
 </div><div class="memdoc">

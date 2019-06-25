@@ -23,9 +23,9 @@
   <td id="projectlogo"><img alt="Logo" src="musescore_logo_full.png"/></td>
   <td id="projectalign" style="padding-left: 0.5em;">
    <div id="projectname">MuseScore
-   &#160;<span id="projectnumber">3.1</span>
+   &#160;<span id="projectnumber">3.2</span>
    </div>
-   <div id="projectbrief">Music compisition and notation</div>
+   <div id="projectbrief">Music composition and notation</div>
   </td>
  </tr>
  </tbody>
@@ -69,6 +69,9 @@ $(function() {
 <a href="#pub-types">Public Types</a> &#124;
 <a href="#signals">Signals</a> &#124;
 <a href="#pub-methods">Public Member Functions</a> &#124;
+<a href="#pri-slots">Private Slots</a> &#124;
+<a href="#pri-methods">Private Member Functions</a> &#124;
+<a href="#pri-attribs">Private Attributes</a> &#124;
 <a href="class_ms_1_1_search_combo_box-members.html">List of all members</a>  </div>
   <div class="headertitle">
 <div class="title">Ms::SearchComboBox Class Reference</div>  </div>
@@ -113,6 +116,25 @@ Public Member Functions</h2></td></tr>
 <tr class="separator:a5f8eeac7b67eaded2865b81b1d46910d"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a13df8f4cb3096fe9d46eda0b6b20b285"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ms_1_1_search_combo_box.html#a13df8f4cb3096fe9d46eda0b6b20b285">SearchComboBox</a> (QWidget *p=0)</td></tr>
 <tr class="separator:a13df8f4cb3096fe9d46eda0b6b20b285"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pri-slots"></a>
+Private Slots</h2></td></tr>
+<tr class="memitem:aef0302a3f62fd69a6f64dfb2f8baecb3"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ms_1_1_search_combo_box.html#aef0302a3f62fd69a6f64dfb2f8baecb3">searchTextChanged</a> (const QString &amp;s)</td></tr>
+<tr class="separator:aef0302a3f62fd69a6f64dfb2f8baecb3"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pri-methods"></a>
+Private Member Functions</h2></td></tr>
+<tr class="memitem:ac7e9847fad3302470c419a66b787fa67"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ms_1_1_search_combo_box.html#ac7e9847fad3302470c419a66b787fa67">searchInit</a> ()</td></tr>
+<tr class="separator:ac7e9847fad3302470c419a66b787fa67"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a68d911d51e328cc32b7fd41df357c5b8"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ms_1_1_search_combo_box.html#a68d911d51e328cc32b7fd41df357c5b8">setSearchType</a> (<a class="el" href="class_ms_1_1_search_combo_box.html#a4a41a667864b37d2a38b98b3701b5d34">SearchType</a> s)</td></tr>
+<tr class="separator:a68d911d51e328cc32b7fd41df357c5b8"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pri-attribs"></a>
+Private Attributes</h2></td></tr>
+<tr class="memitem:a057b470ade17516d37c30ce8547522bd"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_ms_1_1_search_combo_box.html#a4a41a667864b37d2a38b98b3701b5d34">SearchType</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ms_1_1_search_combo_box.html#a057b470ade17516d37c30ce8547522bd">_searchType</a></td></tr>
+<tr class="separator:a057b470ade17516d37c30ce8547522bd"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab5201c0f680da044958895252e6bd1d1"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ms_1_1_search_combo_box.html#ab5201c0f680da044958895252e6bd1d1">_found</a></td></tr>
+<tr class="separator:ab5201c0f680da044958895252e6bd1d1"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <h2 class="groupheader">Member Enumeration Documentation</h2>
 <a id="a4a41a667864b37d2a38b98b3701b5d34"></a>
@@ -205,6 +227,57 @@ Public Member Functions</h2></td></tr>
 
 </div>
 </div>
+<a id="ac7e9847fad3302470c419a66b787fa67"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ac7e9847fad3302470c419a66b787fa67">&#9670;&nbsp;</a></span>searchInit()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void Ms::SearchComboBox::searchInit </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="aef0302a3f62fd69a6f64dfb2f8baecb3"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aef0302a3f62fd69a6f64dfb2f8baecb3">&#9670;&nbsp;</a></span>searchTextChanged</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void Ms::SearchComboBox::searchTextChanged </td>
+          <td>(</td>
+          <td class="paramtype">const QString &amp;&#160;</td>
+          <td class="paramname"><em>s</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span><span class="mlabel">slot</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
 <a id="af85bc6e349c35462368ee61021e0e85e"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#af85bc6e349c35462368ee61021e0e85e">&#9670;&nbsp;</a></span>searchType()</h2>
 
@@ -224,6 +297,77 @@ Public Member Functions</h2></td></tr>
   </td>
   <td class="mlabels-right">
 <span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a68d911d51e328cc32b7fd41df357c5b8"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a68d911d51e328cc32b7fd41df357c5b8">&#9670;&nbsp;</a></span>setSearchType()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void Ms::SearchComboBox::setSearchType </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="class_ms_1_1_search_combo_box.html#a4a41a667864b37d2a38b98b3701b5d34">SearchType</a>&#160;</td>
+          <td class="paramname"><em>s</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<h2 class="groupheader">Member Data Documentation</h2>
+<a id="ab5201c0f680da044958895252e6bd1d1"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ab5201c0f680da044958895252e6bd1d1">&#9670;&nbsp;</a></span>_found</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool Ms::SearchComboBox::_found</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a057b470ade17516d37c30ce8547522bd"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a057b470ade17516d37c30ce8547522bd">&#9670;&nbsp;</a></span>_searchType</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="class_ms_1_1_search_combo_box.html#a4a41a667864b37d2a38b98b3701b5d34">SearchType</a> Ms::SearchComboBox::_searchType</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
   </tr>
 </table>
 </div><div class="memdoc">

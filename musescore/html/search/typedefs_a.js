@@ -1,5 +1,6 @@
 var searchData=
 [
+  ['markermap',['MarkerMap',['../namespace_ms.html#ac53a0e4f59549737a7c492a87e53df2c',1,'Ms']]],
   ['mixertrackitemptr',['MixerTrackItemPtr',['../namespace_ms.html#a833d7d7542236c6f2fa4c81bec7d840b',1,'Ms']]],
   ['musicxmldrumset',['MusicXMLDrumset',['../namespace_ms.html#a568bb2597ab1d23e4660f255997223c2',1,'Ms']]],
   ['musicxmldrumsetiterator',['MusicXMLDrumsetIterator',['../namespace_ms.html#aec8bfb2b71c5bb7f9f816cc2cbd51851',1,'Ms']]],

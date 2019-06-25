@@ -23,9 +23,9 @@
   <td id="projectlogo"><img alt="Logo" src="musescore_logo_full.png"/></td>
   <td id="projectalign" style="padding-left: 0.5em;">
    <div id="projectname">MuseScore
-   &#160;<span id="projectnumber">3.1</span>
+   &#160;<span id="projectnumber">3.2</span>
    </div>
-   <div id="projectbrief">Music compisition and notation</div>
+   <div id="projectbrief">Music composition and notation</div>
   </td>
  </tr>
  </tbody>
@@ -68,6 +68,7 @@ $(function() {
   <div class="summary">
 <a href="#pub-methods">Public Member Functions</a> &#124;
 <a href="#properties">Properties</a> &#124;
+<a href="#pri-methods">Private Member Functions</a> &#124;
 <a href="class_ms_1_1_plugin_a_p_i_1_1_note-members.html">List of all members</a>  </div>
   <div class="headertitle">
 <div class="title">Ms::PluginAPI::Note Class Reference</div>  </div>
@@ -89,10 +90,44 @@ Collaboration diagram for Ms::PluginAPI::Note:</div>
 <div class="dyncontent">
 <div class="center"><img src="class_ms_1_1_plugin_a_p_i_1_1_note__coll__graph.png" border="0" usemap="#_ms_1_1_plugin_a_p_i_1_1_note_coll__map" alt="Collaboration graph"/></div>
 <map name="_ms_1_1_plugin_a_p_i_1_1_note_coll__map" id="_ms_1_1_plugin_a_p_i_1_1_note_coll__map">
-<area shape="rect" id="node2" href="class_ms_1_1_plugin_a_p_i_1_1_element.html" title="Ms::PluginAPI::Element" alt="" coords="22,336,185,363"/>
-<area shape="rect" id="node3" href="class_ms_1_1_plugin_a_p_i_1_1_score_element.html" title="Base class for most of object wrappers exposed to QML. " alt="" coords="5,260,201,287"/>
-<area shape="rect" id="node5" href="class_ms_1_1_score_element.html" title="Ms::ScoreElement" alt="" coords="122,171,253,197"/>
-<area shape="rect" id="node6" href="class_ms_1_1_linked_elements.html" title="Ms::LinkedElements" alt="" coords="117,81,258,108"/>
+<area shape="rect" id="node2" href="class_ms_1_1_plugin_a_p_i_1_1_element.html" title="Ms::PluginAPI::Element" alt="" coords="1853,57,2016,84"/>
+<area shape="rect" id="node3" href="class_ms_1_1_plugin_a_p_i_1_1_score_element.html" title="Base class for most of object wrappers exposed to QML. " alt="" coords="1524,57,1720,84"/>
+<area shape="rect" id="node6" href="class_ms_1_1_score.html" title="Ms::Score" alt="" coords="935,816,1018,843"/>
+<area shape="rect" id="node7" href="class_ms_1_1_excerpt.html" title="Ms::Excerpt" alt="" coords="2949,936,3043,963"/>
+<area shape="rect" id="node5" href="class_ms_1_1_score_element.html" title="Ms::ScoreElement" alt="" coords="1239,348,1369,375"/>
+<area shape="rect" id="node22" href="class_ms_1_1_element.html" title="Base class of score layout elements. " alt="" coords="1574,384,1670,411"/>
+<area shape="rect" id="node8" href="class_ms_1_1_master_score.html" title="Ms::MasterScore" alt="" coords="2728,1176,2851,1203"/>
+<area shape="rect" id="node12" href="class_ms_1_1_repeat_list.html" title="Ms::RepeatList" alt="" coords="1249,1260,1359,1287"/>
+<area shape="rect" id="node33" href="class_ms_1_1_input_state.html" title="Ms::InputState" alt="" coords="2735,295,2843,321"/>
+<area shape="rect" id="node41" href="class_ms_1_1_selection.html" title="Ms::Selection" alt="" coords="2201,763,2303,789"/>
+<area shape="rect" id="node46" href="class_ms_1_1_selection_filter.html" title="Ms::SelectionFilter" alt="" coords="1239,689,1369,716"/>
+<area shape="rect" id="node9" href="class_ms_1_1_omr.html" title="Ms::Omr" alt="" coords="2503,1279,2576,1305"/>
+<area shape="rect" id="node10" href="class_ms_1_1_cmd_state.html" title="Ms::CmdState" alt="" coords="1091,1492,1197,1519"/>
+<area shape="rect" id="node11" href="class_ms_1_1_fraction.html" title="Ms::Fraction" alt="" coords="600,515,695,541"/>
+<area shape="rect" id="node30" href="class_ms_1_1_measure_base.html" title="Virtual base class for Measure, HBox and VBox. " alt="" coords="1871,613,1999,640"/>
+<area shape="rect" id="node34" href="class_ms_1_1_segment.html" title="Ms::Segment" alt="" coords="1885,349,1985,376"/>
+<area shape="rect" id="node38" href="class_ms_1_1_spanner.html" title="Virtual base class for slurs, ties, lines etc. " alt="" coords="1887,245,1983,272"/>
+<area shape="rect" id="node14" href="class_ms_1_1_revisions.html" title="Ms::Revisions" alt="" coords="2486,1329,2593,1356"/>
+<area shape="rect" id="node15" href="class_ms_1_1_revision.html" title="Ms::Revision" alt="" coords="2203,1349,2301,1376"/>
+<area shape="rect" id="node16" href="class_ms_1_1_tempo_map.html" title="Ms::TempoMap" alt="" coords="2483,1380,2596,1407"/>
+<area shape="rect" id="node18" href="class_ms_1_1_movements.html" title="Ms::Movements" alt="" coords="2481,1176,2597,1203"/>
+<area shape="rect" id="node20" href="class_ms_1_1_text.html" title="Ms::Text" alt="" coords="2215,1057,2289,1084"/>
+<area shape="rect" id="node21" href="class_ms_1_1_text_base.html" title="Ms::TextBase" alt="" coords="1883,445,1987,472"/>
+<area shape="rect" id="node23" href="class_ms_1_1_spatium.html" title="Ms::Spatium" alt="" coords="1256,399,1352,425"/>
+<area shape="rect" id="node24" href="class_ms_1_1_m_style.html" title="Ms::MStyle" alt="" coords="603,1168,692,1195"/>
+<area shape="rect" id="node25" href="class_ms_1_1_chord_list.html" title="Ms::ChordList" alt="" coords="303,1168,407,1195"/>
+<area shape="rect" id="node27" href="class_ms_1_1_time_sig_map.html" title="Ms::TimeSigMap" alt="" coords="2479,956,2600,983"/>
+<area shape="rect" id="node29" href="class_ms_1_1_measure_base_list.html" title="Ms::MeasureBaseList" alt="" coords="2177,581,2327,608"/>
+<area shape="rect" id="node31" href="class_ms_1_1_element_list.html" title="Ms::ElementList" alt="" coords="1563,613,1681,640"/>
+<area shape="rect" id="node35" href="class_ms_1_1_t_duration.html" title="Ms::TDuration" alt="" coords="2487,295,2592,321"/>
+<area shape="rect" id="node36" href="class_ms_1_1_slur.html" title="Ms::Slur" alt="" coords="2504,168,2575,195"/>
+<area shape="rect" id="node37" href="class_ms_1_1_slur_tie.html" title="Ms::SlurTie" alt="" coords="2207,149,2297,176"/>
+<area shape="rect" id="node39" href="class_ms_1_1_synthesizer_state.html" title="Ms::SynthesizerState" alt="" coords="573,1100,721,1127"/>
+<area shape="rect" id="node42" href="class_ms_1_1_spanner_map.html" title="Ms::SpannerMap" alt="" coords="587,765,708,792"/>
+<area shape="rect" id="node44" href="class_ms_1_1_update_state.html" title="Ms::UpdateState" alt="" coords="587,816,708,843"/>
+<area shape="rect" id="node45" href="class_ms_1_1_audio.html" title="Ms::Audio" alt="" coords="607,867,688,893"/>
+<area shape="rect" id="node47" href="class_ms_1_1_score_font.html" title="Ms::ScoreFont" alt="" coords="593,1049,701,1076"/>
+<area shape="rect" id="node48" href="class_ms_1_1_linked_elements.html" title="Ms::LinkedElements" alt="" coords="906,172,1047,199"/>
 </map>
 <center><span class="legend">[<a href="graph_legend.html">legend</a>]</span></center></div>
 <table class="memberdecls">
@@ -484,8 +519,6 @@ Properties</h2></td></tr>
 <tr class="separator:a1299629d49fbf9345ccc51c2d89012b4 inherit properties_class_ms_1_1_plugin_a_p_i_1_1_element"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:af38650fc8b934289a000dde02050c2c2 inherit properties_class_ms_1_1_plugin_a_p_i_1_1_element"><td class="memItemLeft" align="right" valign="top">QVariant&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ms_1_1_plugin_a_p_i_1_1_element.html#af38650fc8b934289a000dde02050c2c2">fretFrets</a></td></tr>
 <tr class="separator:af38650fc8b934289a000dde02050c2c2 inherit properties_class_ms_1_1_plugin_a_p_i_1_1_element"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a2ecec518d0f8b5da3df3daa6f132b7a0 inherit properties_class_ms_1_1_plugin_a_p_i_1_1_element"><td class="memItemLeft" align="right" valign="top">QVariant&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ms_1_1_plugin_a_p_i_1_1_element.html#a2ecec518d0f8b5da3df3daa6f132b7a0">fretBarre</a></td></tr>
-<tr class="separator:a2ecec518d0f8b5da3df3daa6f132b7a0 inherit properties_class_ms_1_1_plugin_a_p_i_1_1_element"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:afefa2343c32e2ef0657d159f17d02214 inherit properties_class_ms_1_1_plugin_a_p_i_1_1_element"><td class="memItemLeft" align="right" valign="top">QVariant&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ms_1_1_plugin_a_p_i_1_1_element.html#afefa2343c32e2ef0657d159f17d02214">fretOffset</a></td></tr>
 <tr class="separator:afefa2343c32e2ef0657d159f17d02214 inherit properties_class_ms_1_1_plugin_a_p_i_1_1_element"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aa1b09ef1864ac2717882992c1143d43a inherit properties_class_ms_1_1_plugin_a_p_i_1_1_element"><td class="memItemLeft" align="right" valign="top">QVariant&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ms_1_1_plugin_a_p_i_1_1_element.html#aa1b09ef1864ac2717882992c1143d43a">fretNumPos</a></td></tr>
@@ -501,8 +534,6 @@ Properties</h2></td></tr>
 <tr class="separator:a753f880c5dabda317d9e4e8bbf405ea2 inherit properties_class_ms_1_1_plugin_a_p_i_1_1_element"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:adea4fc80edd46a36e18ccb68d42a9ecc inherit properties_class_ms_1_1_plugin_a_p_i_1_1_element"><td class="memItemLeft" align="right" valign="top">QVariant&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ms_1_1_plugin_a_p_i_1_1_element.html#adea4fc80edd46a36e18ccb68d42a9ecc">dashGapLen</a></td></tr>
 <tr class="separator:adea4fc80edd46a36e18ccb68d42a9ecc inherit properties_class_ms_1_1_plugin_a_p_i_1_1_element"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a8780c931aec104310bdcde87a128067f inherit properties_class_ms_1_1_plugin_a_p_i_1_1_element"><td class="memItemLeft" align="right" valign="top">QVariant&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ms_1_1_plugin_a_p_i_1_1_element.html#a8780c931aec104310bdcde87a128067f">tick</a></td></tr>
-<tr class="separator:a8780c931aec104310bdcde87a128067f inherit properties_class_ms_1_1_plugin_a_p_i_1_1_element"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a508f682d4b1ea72c7c73c31dfdce10f5 inherit properties_class_ms_1_1_plugin_a_p_i_1_1_element"><td class="memItemLeft" align="right" valign="top">QVariant&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ms_1_1_plugin_a_p_i_1_1_element.html#a508f682d4b1ea72c7c73c31dfdce10f5">playbackVoice1</a></td></tr>
 <tr class="separator:a508f682d4b1ea72c7c73c31dfdce10f5 inherit properties_class_ms_1_1_plugin_a_p_i_1_1_element"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a9c1c1ce0577851e584dbac9279621dce inherit properties_class_ms_1_1_plugin_a_p_i_1_1_element"><td class="memItemLeft" align="right" valign="top">QVariant&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ms_1_1_plugin_a_p_i_1_1_element.html#a9c1c1ce0577851e584dbac9279621dce">playbackVoice2</a></td></tr>
@@ -642,6 +673,29 @@ Properties</h2></td></tr>
 <tr class="memitem:a604cde9aa9bc5e4d2a14e4ac37a6b5de inherit properties_class_ms_1_1_plugin_a_p_i_1_1_score_element"><td class="memItemLeft" align="right" valign="top">QString&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ms_1_1_plugin_a_p_i_1_1_score_element.html#a604cde9aa9bc5e4d2a14e4ac37a6b5de">name</a></td></tr>
 <tr class="memdesc:a604cde9aa9bc5e4d2a14e4ac37a6b5de inherit properties_class_ms_1_1_plugin_a_p_i_1_1_score_element"><td class="mdescLeft">&#160;</td><td class="mdescRight">Name of this element's type, not localized.  <a href="class_ms_1_1_plugin_a_p_i_1_1_score_element.html#a604cde9aa9bc5e4d2a14e4ac37a6b5de">More...</a><br /></td></tr>
 <tr class="separator:a604cde9aa9bc5e4d2a14e4ac37a6b5de inherit properties_class_ms_1_1_plugin_a_p_i_1_1_score_element"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pri-methods"></a>
+Private Member Functions</h2></td></tr>
+<tr class="memitem:ac2d3a3aa52e0cb83e4fb7fac4f51a160"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ms_1_1_plugin_a_p_i_1_1_note.html#ac2d3a3aa52e0cb83e4fb7fac4f51a160">get_pitch</a> () const</td></tr>
+<tr class="separator:ac2d3a3aa52e0cb83e4fb7fac4f51a160"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:afc527d510b31d8f3c6632523d1752c35"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ms_1_1_plugin_a_p_i_1_1_note.html#afc527d510b31d8f3c6632523d1752c35">set_pitch</a> (int val)</td></tr>
+<tr class="separator:afc527d510b31d8f3c6632523d1752c35"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:afae70547d635101117bdbb8c57c18bbc"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ms_1_1_plugin_a_p_i_1_1_note.html#afae70547d635101117bdbb8c57c18bbc">get_tpc1</a> () const</td></tr>
+<tr class="separator:afae70547d635101117bdbb8c57c18bbc"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae9aba09326aa0db48a6ed4093fd35a3e"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ms_1_1_plugin_a_p_i_1_1_note.html#ae9aba09326aa0db48a6ed4093fd35a3e">set_tpc1</a> (int val)</td></tr>
+<tr class="separator:ae9aba09326aa0db48a6ed4093fd35a3e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aacef804c9b12627b573e5aeafadd55ed"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ms_1_1_plugin_a_p_i_1_1_note.html#aacef804c9b12627b573e5aeafadd55ed">get_tpc2</a> () const</td></tr>
+<tr class="separator:aacef804c9b12627b573e5aeafadd55ed"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a542996a469871135491f79a2bff89e1c"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ms_1_1_plugin_a_p_i_1_1_note.html#a542996a469871135491f79a2bff89e1c">set_tpc2</a> (int val)</td></tr>
+<tr class="separator:a542996a469871135491f79a2bff89e1c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a500cd560b302e3fd98846c0ca309097c"><td class="memItemLeft" align="right" valign="top">QVariant&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ms_1_1_plugin_a_p_i_1_1_note.html#a500cd560b302e3fd98846c0ca309097c">get_veloType</a> () const</td></tr>
+<tr class="separator:a500cd560b302e3fd98846c0ca309097c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a1d463ef29e571473f85224dd0403584e"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ms_1_1_plugin_a_p_i_1_1_note.html#a1d463ef29e571473f85224dd0403584e">set_veloType</a> (QVariant val)</td></tr>
+<tr class="separator:a1d463ef29e571473f85224dd0403584e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa5624ab36133969f5674d08ea7f94fdd"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ms_1_1_plugin_a_p_i_1_1_note.html#aa5624ab36133969f5674d08ea7f94fdd">get_veloOffset</a> () const</td></tr>
+<tr class="separator:aa5624ab36133969f5674d08ea7f94fdd"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a08d91f918485593a7e08b52c1eebaa10"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ms_1_1_plugin_a_p_i_1_1_note.html#a08d91f918485593a7e08b52c1eebaa10">set_veloOffset</a> (int val)</td></tr>
+<tr class="separator:a08d91f918485593a7e08b52c1eebaa10"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="inherited"></a>
 Additional Inherited Members</h2></td></tr>
@@ -791,6 +845,131 @@ Additional Inherited Members</h2></td></tr>
 
 </div>
 </div>
+<a id="ac2d3a3aa52e0cb83e4fb7fac4f51a160"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ac2d3a3aa52e0cb83e4fb7fac4f51a160">&#9670;&nbsp;</a></span>get_pitch()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">int Ms::PluginAPI::Note::get_pitch </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="afae70547d635101117bdbb8c57c18bbc"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#afae70547d635101117bdbb8c57c18bbc">&#9670;&nbsp;</a></span>get_tpc1()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">int Ms::PluginAPI::Note::get_tpc1 </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="aacef804c9b12627b573e5aeafadd55ed"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aacef804c9b12627b573e5aeafadd55ed">&#9670;&nbsp;</a></span>get_tpc2()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">int Ms::PluginAPI::Note::get_tpc2 </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="aa5624ab36133969f5674d08ea7f94fdd"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aa5624ab36133969f5674d08ea7f94fdd">&#9670;&nbsp;</a></span>get_veloOffset()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">int Ms::PluginAPI::Note::get_veloOffset </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a500cd560b302e3fd98846c0ca309097c"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a500cd560b302e3fd98846c0ca309097c">&#9670;&nbsp;</a></span>get_veloType()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">QVariant Ms::PluginAPI::Note::get_veloType </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
 <a id="a9d388db1c97f3ded8ff1b89d79a1d415"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a9d388db1c97f3ded8ff1b89d79a1d415">&#9670;&nbsp;</a></span>note() <span class="overload">[1/2]</span></h2>
 
@@ -835,6 +1014,136 @@ Additional Inherited Members</h2></td></tr>
   </td>
   <td class="mlabels-right">
 <span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="afc527d510b31d8f3c6632523d1752c35"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#afc527d510b31d8f3c6632523d1752c35">&#9670;&nbsp;</a></span>set_pitch()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void Ms::PluginAPI::Note::set_pitch </td>
+          <td>(</td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>val</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="ae9aba09326aa0db48a6ed4093fd35a3e"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ae9aba09326aa0db48a6ed4093fd35a3e">&#9670;&nbsp;</a></span>set_tpc1()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void Ms::PluginAPI::Note::set_tpc1 </td>
+          <td>(</td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>val</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a542996a469871135491f79a2bff89e1c"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a542996a469871135491f79a2bff89e1c">&#9670;&nbsp;</a></span>set_tpc2()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void Ms::PluginAPI::Note::set_tpc2 </td>
+          <td>(</td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>val</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a08d91f918485593a7e08b52c1eebaa10"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a08d91f918485593a7e08b52c1eebaa10">&#9670;&nbsp;</a></span>set_veloOffset()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void Ms::PluginAPI::Note::set_veloOffset </td>
+          <td>(</td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>val</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a1d463ef29e571473f85224dd0403584e"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a1d463ef29e571473f85224dd0403584e">&#9670;&nbsp;</a></span>set_veloType()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void Ms::PluginAPI::Note::set_veloType </td>
+          <td>(</td>
+          <td class="paramtype">QVariant&#160;</td>
+          <td class="paramname"><em>val</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">private</span></span>  </td>
   </tr>
 </table>
 </div><div class="memdoc">

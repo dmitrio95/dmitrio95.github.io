@@ -23,9 +23,9 @@
   <td id="projectlogo"><img alt="Logo" src="musescore_logo_full.png"/></td>
   <td id="projectalign" style="padding-left: 0.5em;">
    <div id="projectname">MuseScore
-   &#160;<span id="projectnumber">3.1</span>
+   &#160;<span id="projectnumber">3.2</span>
    </div>
-   <div id="projectbrief">Music compisition and notation</div>
+   <div id="projectbrief">Music composition and notation</div>
   </td>
  </tr>
  </tbody>
@@ -68,6 +68,7 @@ $(function() {
   <div class="summary">
 <a href="#pub-methods">Public Member Functions</a> &#124;
 <a href="#pub-attribs">Public Attributes</a> &#124;
+<a href="#pri-attribs">Private Attributes</a> &#124;
 <a href="class_ms_1_1_slur_obj-members.html">List of all members</a>  </div>
   <div class="headertitle">
 <div class="title">Ms::SlurObj Class Reference</div>  </div>
@@ -92,7 +93,7 @@ Collaboration diagram for Ms::SlurObj:</div>
 <area shape="rect" id="node2" href="class_ms_1_1_basic_draw_obj.html" title="Ms::BasicDrawObj" alt="" coords="5,81,137,108"/>
 <area shape="rect" id="node3" href="class_ms_1_1_capella_obj.html" title="Ms::CapellaObj" alt="" coords="119,5,231,32"/>
 <area shape="rect" id="node6" href="class_ms_1_1_basic_durational_obj.html" title="Ms::BasicDurationalObj" alt="" coords="213,81,373,108"/>
-<area shape="rect" id="node4" href="class_ms_1_1_capella.html" title="Ms::Capella" alt="" coords="169,260,261,287"/>
+<area shape="rect" id="node4" href="class_ms_1_1_capella.html" title="Ms::Capella" alt="" coords="151,260,243,287"/>
 <area shape="rect" id="node5" href="class_ms_1_1_chord_obj.html" title="Ms::ChordObj" alt="" coords="241,171,344,197"/>
 <area shape="rect" id="node7" href="class_ms_1_1_note_obj.html" title="Ms::NoteObj" alt="" coords="397,81,493,108"/>
 </map>
@@ -146,6 +147,13 @@ Public Attributes</h2></td></tr>
 <tr class="separator:a27027e924b0dc961893a252b0e90788e inherit pub_attribs_class_ms_1_1_basic_draw_obj"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a3b6b7116016fee8b4df0dcd4383e682c inherit pub_attribs_class_ms_1_1_basic_draw_obj"><td class="memItemLeft" align="right" valign="top"><a class="el" href="namespace_ms.html#a6b5aa179fb8d7a11ec316c01a2fdf6e1">CapellaType</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ms_1_1_basic_draw_obj.html#a3b6b7116016fee8b4df0dcd4383e682c">type</a></td></tr>
 <tr class="separator:a3b6b7116016fee8b4df0dcd4383e682c inherit pub_attribs_class_ms_1_1_basic_draw_obj"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pri-attribs"></a>
+Private Attributes</h2></td></tr>
+<tr class="memitem:a2755634bfed1dcbc98c135718be4ad47"><td class="memItemLeft" align="right" valign="top">QPointF&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ms_1_1_slur_obj.html#a2755634bfed1dcbc98c135718be4ad47">bezierPoint</a> [4]</td></tr>
+<tr class="separator:a2755634bfed1dcbc98c135718be4ad47"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a6681e40361837aecf63fb0b9563e96c1"><td class="memItemLeft" align="right" valign="top">QColor&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ms_1_1_slur_obj.html#a6681e40361837aecf63fb0b9563e96c1">color</a></td></tr>
+<tr class="separator:a6681e40361837aecf63fb0b9563e96c1"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="inherited"></a>
 Additional Inherited Members</h2></td></tr>
@@ -217,6 +225,50 @@ Additional Inherited Members</h2></td></tr>
 </div>
 </div>
 <h2 class="groupheader">Member Data Documentation</h2>
+<a id="a2755634bfed1dcbc98c135718be4ad47"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a2755634bfed1dcbc98c135718be4ad47">&#9670;&nbsp;</a></span>bezierPoint</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">QPointF Ms::SlurObj::bezierPoint[4]</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a6681e40361837aecf63fb0b9563e96c1"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a6681e40361837aecf63fb0b9563e96c1">&#9670;&nbsp;</a></span>color</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">QColor Ms::SlurObj::color</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
 <a id="ac8321d64e68c7d9f6c2ad6edfb579f18"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#ac8321d64e68c7d9f6c2ad6edfb579f18">&#9670;&nbsp;</a></span>nDotDist</h2>
 

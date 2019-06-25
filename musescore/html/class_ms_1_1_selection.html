@@ -23,9 +23,9 @@
   <td id="projectlogo"><img alt="Logo" src="musescore_logo_full.png"/></td>
   <td id="projectalign" style="padding-left: 0.5em;">
    <div id="projectname">MuseScore
-   &#160;<span id="projectnumber">3.1</span>
+   &#160;<span id="projectnumber">3.2</span>
    </div>
-   <div id="projectbrief">Music compisition and notation</div>
+   <div id="projectbrief">Music composition and notation</div>
   </td>
  </tr>
  </tbody>
@@ -67,6 +67,8 @@ $(function() {
 <div class="header">
   <div class="summary">
 <a href="#pub-methods">Public Member Functions</a> &#124;
+<a href="#pri-methods">Private Member Functions</a> &#124;
+<a href="#pri-attribs">Private Attributes</a> &#124;
 <a href="class_ms_1_1_selection-members.html">List of all members</a>  </div>
   <div class="headertitle">
 <div class="title">Ms::Selection Class Reference</div>  </div>
@@ -74,6 +76,48 @@ $(function() {
 <div class="contents">
 
 <p><code>#include &lt;<a class="el" href="select_8h_source.html">select.h</a>&gt;</code></p>
+<div class="dynheader">
+Collaboration diagram for Ms::Selection:</div>
+<div class="dyncontent">
+<div class="center"><img src="class_ms_1_1_selection__coll__graph.png" border="0" usemap="#_ms_1_1_selection_coll__map" alt="Collaboration graph"/></div>
+<map name="_ms_1_1_selection_coll__map" id="_ms_1_1_selection_coll__map">
+<area shape="rect" id="node5" href="class_ms_1_1_score.html" title="Ms::Score" alt="" coords="959,617,1042,644"/>
+<area shape="rect" id="node2" href="class_ms_1_1_segment.html" title="Ms::Segment" alt="" coords="1801,261,1901,288"/>
+<area shape="rect" id="node32" href="class_ms_1_1_input_state.html" title="Ms::InputState" alt="" coords="2609,363,2717,389"/>
+<area shape="rect" id="node3" href="class_ms_1_1_element.html" title="Base class of score layout elements. " alt="" coords="1544,427,1640,453"/>
+<area shape="rect" id="node21" href="class_ms_1_1_text_base.html" title="Ms::TextBase" alt="" coords="1799,555,1903,581"/>
+<area shape="rect" id="node29" href="class_ms_1_1_measure_base.html" title="Virtual base class for Measure, HBox and VBox. " alt="" coords="1787,785,1915,812"/>
+<area shape="rect" id="node36" href="class_ms_1_1_spanner.html" title="Virtual base class for slurs, ties, lines etc. " alt="" coords="1803,376,1899,403"/>
+<area shape="rect" id="node4" href="class_ms_1_1_score_element.html" title="Ms::ScoreElement" alt="" coords="1249,491,1380,517"/>
+<area shape="rect" id="node7" href="class_ms_1_1_excerpt.html" title="Ms::Excerpt" alt="" coords="2823,279,2916,305"/>
+<area shape="rect" id="node8" href="class_ms_1_1_master_score.html" title="Ms::MasterScore" alt="" coords="2601,769,2724,796"/>
+<area shape="rect" id="node12" href="class_ms_1_1_repeat_list.html" title="Ms::RepeatList" alt="" coords="1259,1120,1370,1147"/>
+<area shape="rect" id="node43" href="class_ms_1_1_selection_filter.html" title="Ms::SelectionFilter" alt="" coords="1249,616,1380,643"/>
+<area shape="rect" id="node9" href="class_ms_1_1_omr.html" title="Ms::Omr" alt="" coords="2376,668,2449,695"/>
+<area shape="rect" id="node10" href="class_ms_1_1_cmd_state.html" title="Ms::CmdState" alt="" coords="779,1003,885,1029"/>
+<area shape="rect" id="node11" href="class_ms_1_1_fraction.html" title="Ms::Fraction" alt="" coords="308,481,403,508"/>
+<area shape="rect" id="node14" href="class_ms_1_1_revisions.html" title="Ms::Revisions" alt="" coords="2359,605,2466,632"/>
+<area shape="rect" id="node15" href="class_ms_1_1_revision.html" title="Ms::Revision" alt="" coords="2076,591,2175,617"/>
+<area shape="rect" id="node16" href="class_ms_1_1_tempo_map.html" title="Ms::TempoMap" alt="" coords="2356,719,2469,745"/>
+<area shape="rect" id="node18" href="class_ms_1_1_movements.html" title="Ms::Movements" alt="" coords="2355,769,2471,796"/>
+<area shape="rect" id="node20" href="class_ms_1_1_text.html" title="Ms::Text" alt="" coords="2088,692,2163,719"/>
+<area shape="rect" id="node22" href="class_ms_1_1_spatium.html" title="Ms::Spatium" alt="" coords="1267,427,1363,453"/>
+<area shape="rect" id="node23" href="class_ms_1_1_m_style.html" title="Ms::MStyle" alt="" coords="627,885,716,912"/>
+<area shape="rect" id="node24" href="class_ms_1_1_chord_list.html" title="Ms::ChordList" alt="" coords="303,981,407,1008"/>
+<area shape="rect" id="node26" href="class_ms_1_1_time_sig_map.html" title="Ms::TimeSigMap" alt="" coords="2352,535,2473,561"/>
+<area shape="rect" id="node28" href="class_ms_1_1_measure_base_list.html" title="Ms::MeasureBaseList" alt="" coords="2051,793,2200,820"/>
+<area shape="rect" id="node30" href="class_ms_1_1_element_list.html" title="Ms::ElementList" alt="" coords="1533,740,1651,767"/>
+<area shape="rect" id="node33" href="class_ms_1_1_t_duration.html" title="Ms::TDuration" alt="" coords="2360,413,2465,440"/>
+<area shape="rect" id="node34" href="class_ms_1_1_slur.html" title="Ms::Slur" alt="" coords="2377,363,2448,389"/>
+<area shape="rect" id="node35" href="class_ms_1_1_slur_tie.html" title="Ms::SlurTie" alt="" coords="2081,369,2170,396"/>
+<area shape="rect" id="node37" href="class_ms_1_1_synthesizer_state.html" title="Ms::SynthesizerState" alt="" coords="597,668,745,695"/>
+<area shape="rect" id="node39" href="class_ms_1_1_spanner_map.html" title="Ms::SpannerMap" alt="" coords="611,828,732,855"/>
+<area shape="rect" id="node41" href="class_ms_1_1_update_state.html" title="Ms::UpdateState" alt="" coords="611,567,732,593"/>
+<area shape="rect" id="node42" href="class_ms_1_1_audio.html" title="Ms::Audio" alt="" coords="631,617,712,644"/>
+<area shape="rect" id="node44" href="class_ms_1_1_score_font.html" title="Ms::ScoreFont" alt="" coords="617,719,725,745"/>
+<area shape="rect" id="node45" href="class_ms_1_1_linked_elements.html" title="Ms::LinkedElements" alt="" coords="930,397,1071,424"/>
+</map>
+<center><span class="legend">[<a href="graph_legend.html">legend</a>]</span></center></div>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
@@ -183,6 +227,48 @@ Public Member Functions</h2></td></tr>
 <tr class="separator:a6dbdf3cdd7e7f9dcb99730b9db45657b"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ac868369151e7cb98499e1fbf9c4fc652"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ms_1_1_selection.html#ac868369151e7cb98499e1fbf9c4fc652">extendRangeSelection</a> (<a class="el" href="class_ms_1_1_segment.html">Segment</a> *seg, <a class="el" href="class_ms_1_1_segment.html">Segment</a> *segAfter, int staffIdx, const <a class="el" href="class_ms_1_1_fraction.html">Fraction</a> &amp;tick, const <a class="el" href="class_ms_1_1_fraction.html">Fraction</a> &amp;etick)</td></tr>
 <tr class="separator:ac868369151e7cb98499e1fbf9c4fc652"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pri-methods"></a>
+Private Member Functions</h2></td></tr>
+<tr class="memitem:a0bcef86771d7f0fa04383625013ec3ec"><td class="memItemLeft" align="right" valign="top">QByteArray&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ms_1_1_selection.html#a0bcef86771d7f0fa04383625013ec3ec">staffMimeData</a> () const</td></tr>
+<tr class="separator:a0bcef86771d7f0fa04383625013ec3ec"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a81ef471a50df5adf0386ecaa6a382b43"><td class="memItemLeft" align="right" valign="top">QByteArray&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ms_1_1_selection.html#a81ef471a50df5adf0386ecaa6a382b43">symbolListMimeData</a> () const</td></tr>
+<tr class="separator:a81ef471a50df5adf0386ecaa6a382b43"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9be19dcfc51df3931d5b40fc5ef20dab"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_ms_1_1_selection_filter.html">SelectionFilter</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ms_1_1_selection.html#a9be19dcfc51df3931d5b40fc5ef20dab">selectionFilter</a> () const</td></tr>
+<tr class="separator:a9be19dcfc51df3931d5b40fc5ef20dab"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa45535b637f8b1e87ae888fac4073ac1"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ms_1_1_selection.html#aa45535b637f8b1e87ae888fac4073ac1">canSelect</a> (<a class="el" href="class_ms_1_1_element.html">Element</a> *e) const</td></tr>
+<tr class="separator:aa45535b637f8b1e87ae888fac4073ac1"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab3c305092e212b518ebef25fc4d74a67"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ms_1_1_selection.html#ab3c305092e212b518ebef25fc4d74a67">canSelectVoice</a> (int track) const</td></tr>
+<tr class="separator:ab3c305092e212b518ebef25fc4d74a67"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad446a3f2deb2c719caa4fea3db0c82ee"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ms_1_1_selection.html#ad446a3f2deb2c719caa4fea3db0c82ee">appendFiltered</a> (<a class="el" href="class_ms_1_1_element.html">Element</a> *e)</td></tr>
+<tr class="separator:ad446a3f2deb2c719caa4fea3db0c82ee"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad01405c1adebf8dac29876bdd46f1e07"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ms_1_1_selection.html#ad01405c1adebf8dac29876bdd46f1e07">appendChord</a> (<a class="el" href="class_ms_1_1_chord.html">Chord</a> *chord)</td></tr>
+<tr class="separator:ad01405c1adebf8dac29876bdd46f1e07"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pri-attribs"></a>
+Private Attributes</h2></td></tr>
+<tr class="memitem:afa94c12a3e492bab8887be08a34bd2c7"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_ms_1_1_score.html">Score</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ms_1_1_selection.html#afa94c12a3e492bab8887be08a34bd2c7">_score</a></td></tr>
+<tr class="separator:afa94c12a3e492bab8887be08a34bd2c7"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad8bf1017a8763b2e9e5409c50afa9bb6"><td class="memItemLeft" align="right" valign="top"><a class="el" href="namespace_ms.html#a8ba055802fd4a7411880d6902e984be1">SelState</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ms_1_1_selection.html#ad8bf1017a8763b2e9e5409c50afa9bb6">_state</a></td></tr>
+<tr class="separator:ad8bf1017a8763b2e9e5409c50afa9bb6"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:afb9afaa0c5b59a9d6ee4ff46658cf4d3"><td class="memItemLeft" align="right" valign="top">QList&lt; <a class="el" href="class_ms_1_1_element.html">Element</a> * &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ms_1_1_selection.html#afb9afaa0c5b59a9d6ee4ff46658cf4d3">_el</a></td></tr>
+<tr class="separator:afb9afaa0c5b59a9d6ee4ff46658cf4d3"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad3122ece02ac6000bd4cf360f3fb26ae"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ms_1_1_selection.html#ad3122ece02ac6000bd4cf360f3fb26ae">_staffStart</a></td></tr>
+<tr class="separator:ad3122ece02ac6000bd4cf360f3fb26ae"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a79cf5a95f1bba1ace8da0cea0794a5e8"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ms_1_1_selection.html#a79cf5a95f1bba1ace8da0cea0794a5e8">_staffEnd</a></td></tr>
+<tr class="separator:a79cf5a95f1bba1ace8da0cea0794a5e8"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a03c8d1c0eced4d06c86da3188b9fdad4"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_ms_1_1_segment.html">Segment</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ms_1_1_selection.html#a03c8d1c0eced4d06c86da3188b9fdad4">_startSegment</a></td></tr>
+<tr class="separator:a03c8d1c0eced4d06c86da3188b9fdad4"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a5e704d37f43aa6b90752801434da8bd1"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_ms_1_1_segment.html">Segment</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ms_1_1_selection.html#a5e704d37f43aa6b90752801434da8bd1">_endSegment</a></td></tr>
+<tr class="separator:a5e704d37f43aa6b90752801434da8bd1"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af14c6ea3b687dfc485743f8c0d7dd049"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_ms_1_1_fraction.html">Fraction</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ms_1_1_selection.html#af14c6ea3b687dfc485743f8c0d7dd049">_plannedTick1</a> { -1, 1 }</td></tr>
+<tr class="separator:af14c6ea3b687dfc485743f8c0d7dd049"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:abb47401a8766f8f5f1cf91fb4b0c8bb5"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_ms_1_1_fraction.html">Fraction</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ms_1_1_selection.html#abb47401a8766f8f5f1cf91fb4b0c8bb5">_plannedTick2</a> { -1, 1 }</td></tr>
+<tr class="separator:abb47401a8766f8f5f1cf91fb4b0c8bb5"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aab16e95ab1d91f546f48b544ecefc90a"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_ms_1_1_segment.html">Segment</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ms_1_1_selection.html#aab16e95ab1d91f546f48b544ecefc90a">_activeSegment</a></td></tr>
+<tr class="separator:aab16e95ab1d91f546f48b544ecefc90a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a69b69affcc6dd60a3379a4f11923ee4a"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ms_1_1_selection.html#a69b69affcc6dd60a3379a4f11923ee4a">_activeTrack</a></td></tr>
+<tr class="separator:a69b69affcc6dd60a3379a4f11923ee4a"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
 <a id="a37fdf270034f1f5dd3f67e2c8d4a6882"></a>
@@ -314,6 +400,58 @@ Public Member Functions</h2></td></tr>
 
 </div>
 </div>
+<a id="ad01405c1adebf8dac29876bdd46f1e07"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ad01405c1adebf8dac29876bdd46f1e07">&#9670;&nbsp;</a></span>appendChord()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void Ms::Selection::appendChord </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="class_ms_1_1_chord.html">Chord</a> *&#160;</td>
+          <td class="paramname"><em>chord</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="ad446a3f2deb2c719caa4fea3db0c82ee"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ad446a3f2deb2c719caa4fea3db0c82ee">&#9670;&nbsp;</a></span>appendFiltered()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void Ms::Selection::appendFiltered </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="class_ms_1_1_element.html">Element</a> *&#160;</td>
+          <td class="paramname"><em>e</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
 <a id="a0969f35b11165acffa0c648b4e191bf5"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a0969f35b11165acffa0c648b4e191bf5">&#9670;&nbsp;</a></span>canCopy()</h2>
 
@@ -327,6 +465,58 @@ Public Member Functions</h2></td></tr>
           <td> const</td>
         </tr>
       </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="aa45535b637f8b1e87ae888fac4073ac1"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aa45535b637f8b1e87ae888fac4073ac1">&#9670;&nbsp;</a></span>canSelect()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool Ms::Selection::canSelect </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="class_ms_1_1_element.html">Element</a> *&#160;</td>
+          <td class="paramname"><em>e</em></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="ab3c305092e212b518ebef25fc4d74a67"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ab3c305092e212b518ebef25fc4d74a67">&#9670;&nbsp;</a></span>canSelectVoice()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool Ms::Selection::canSelectVoice </td>
+          <td>(</td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>track</em></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
 </div><div class="memdoc">
 
 </div>
@@ -857,6 +1047,31 @@ Public Member Functions</h2></td></tr>
 
 </div>
 </div>
+<a id="a9be19dcfc51df3931d5b40fc5ef20dab"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a9be19dcfc51df3931d5b40fc5ef20dab">&#9670;&nbsp;</a></span>selectionFilter()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="class_ms_1_1_selection_filter.html">SelectionFilter</a> Ms::Selection::selectionFilter </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
 <a id="aa70d94a3c3dc8f6fad70fa00c5345962"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#aa70d94a3c3dc8f6fad70fa00c5345962">&#9670;&nbsp;</a></span>setActiveSegment()</h2>
 
@@ -1136,6 +1351,31 @@ Public Member Functions</h2></td></tr>
 
 </div>
 </div>
+<a id="a0bcef86771d7f0fa04383625013ec3ec"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a0bcef86771d7f0fa04383625013ec3ec">&#9670;&nbsp;</a></span>staffMimeData()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">QByteArray Ms::Selection::staffMimeData </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
 <a id="a009257797226b07065d8a225184178b3"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a009257797226b07065d8a225184178b3">&#9670;&nbsp;</a></span>staffStart()</h2>
 
@@ -1205,6 +1445,31 @@ Public Member Functions</h2></td></tr>
   </td>
   <td class="mlabels-right">
 <span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a81ef471a50df5adf0386ecaa6a382b43"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a81ef471a50df5adf0386ecaa6a382b43">&#9670;&nbsp;</a></span>symbolListMimeData()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">QByteArray Ms::Selection::symbolListMimeData </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
   </tr>
 </table>
 </div><div class="memdoc">
@@ -1332,6 +1597,249 @@ Public Member Functions</h2></td></tr>
 </div><div class="memdoc">
 
 <p>update selection and input state </p>
+
+</div>
+</div>
+<h2 class="groupheader">Member Data Documentation</h2>
+<a id="aab16e95ab1d91f546f48b544ecefc90a"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aab16e95ab1d91f546f48b544ecefc90a">&#9670;&nbsp;</a></span>_activeSegment</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="class_ms_1_1_segment.html">Segment</a>* Ms::Selection::_activeSegment</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a69b69affcc6dd60a3379a4f11923ee4a"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a69b69affcc6dd60a3379a4f11923ee4a">&#9670;&nbsp;</a></span>_activeTrack</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">int Ms::Selection::_activeTrack</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="afb9afaa0c5b59a9d6ee4ff46658cf4d3"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#afb9afaa0c5b59a9d6ee4ff46658cf4d3">&#9670;&nbsp;</a></span>_el</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">QList&lt;<a class="el" href="class_ms_1_1_element.html">Element</a>*&gt; Ms::Selection::_el</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a5e704d37f43aa6b90752801434da8bd1"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a5e704d37f43aa6b90752801434da8bd1">&#9670;&nbsp;</a></span>_endSegment</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="class_ms_1_1_segment.html">Segment</a>* Ms::Selection::_endSegment</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="af14c6ea3b687dfc485743f8c0d7dd049"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#af14c6ea3b687dfc485743f8c0d7dd049">&#9670;&nbsp;</a></span>_plannedTick1</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="class_ms_1_1_fraction.html">Fraction</a> Ms::Selection::_plannedTick1 { -1, 1 }</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="abb47401a8766f8f5f1cf91fb4b0c8bb5"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#abb47401a8766f8f5f1cf91fb4b0c8bb5">&#9670;&nbsp;</a></span>_plannedTick2</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="class_ms_1_1_fraction.html">Fraction</a> Ms::Selection::_plannedTick2 { -1, 1 }</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="afa94c12a3e492bab8887be08a34bd2c7"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#afa94c12a3e492bab8887be08a34bd2c7">&#9670;&nbsp;</a></span>_score</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="class_ms_1_1_score.html">Score</a>* Ms::Selection::_score</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a79cf5a95f1bba1ace8da0cea0794a5e8"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a79cf5a95f1bba1ace8da0cea0794a5e8">&#9670;&nbsp;</a></span>_staffEnd</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">int Ms::Selection::_staffEnd</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="ad3122ece02ac6000bd4cf360f3fb26ae"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ad3122ece02ac6000bd4cf360f3fb26ae">&#9670;&nbsp;</a></span>_staffStart</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">int Ms::Selection::_staffStart</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a03c8d1c0eced4d06c86da3188b9fdad4"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a03c8d1c0eced4d06c86da3188b9fdad4">&#9670;&nbsp;</a></span>_startSegment</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="class_ms_1_1_segment.html">Segment</a>* Ms::Selection::_startSegment</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="ad8bf1017a8763b2e9e5409c50afa9bb6"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ad8bf1017a8763b2e9e5409c50afa9bb6">&#9670;&nbsp;</a></span>_state</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="namespace_ms.html#a8ba055802fd4a7411880d6902e984be1">SelState</a> Ms::Selection::_state</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
 
 </div>
 </div>

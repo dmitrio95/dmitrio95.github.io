@@ -23,9 +23,9 @@
   <td id="projectlogo"><img alt="Logo" src="musescore_logo_full.png"/></td>
   <td id="projectalign" style="padding-left: 0.5em;">
    <div id="projectname">MuseScore
-   &#160;<span id="projectnumber">3.1</span>
+   &#160;<span id="projectnumber">3.2</span>
    </div>
-   <div id="projectbrief">Music compisition and notation</div>
+   <div id="projectbrief">Music composition and notation</div>
   </td>
  </tr>
  </tbody>
@@ -67,6 +67,8 @@ $(function() {
 <div class="header">
   <div class="summary">
 <a href="#pub-methods">Public Member Functions</a> &#124;
+<a href="#pri-methods">Private Member Functions</a> &#124;
+<a href="#pri-attribs">Private Attributes</a> &#124;
 <a href="#friends">Friends</a> &#124;
 <a href="class_ms_1_1_midi_mapping-members.html">List of all members</a>  </div>
   <div class="headertitle">
@@ -75,6 +77,56 @@ $(function() {
 <div class="contents">
 
 <p><code>#include &lt;<a class="el" href="libmscore_2score_8h_source.html">score.h</a>&gt;</code></p>
+<div class="dynheader">
+Collaboration diagram for Ms::MidiMapping:</div>
+<div class="dyncontent">
+<div class="center"><img src="class_ms_1_1_midi_mapping__coll__graph.png" border="0" usemap="#_ms_1_1_midi_mapping_coll__map" alt="Collaboration graph"/></div>
+<map name="_ms_1_1_midi_mapping_coll__map" id="_ms_1_1_midi_mapping_coll__map">
+<area shape="rect" id="node2" href="class_ms_1_1_part.html" title="Ms::Part" alt="" coords="1167,224,1239,251"/>
+<area shape="rect" id="node3" href="class_ms_1_1_score_element.html" title="Ms::ScoreElement" alt="" coords="842,475,973,501"/>
+<area shape="rect" id="node4" href="class_ms_1_1_score.html" title="Ms::Score" alt="" coords="2071,580,2154,607"/>
+<area shape="rect" id="node20" href="class_ms_1_1_element.html" title="Base class of score layout elements. " alt="" coords="1155,589,1251,616"/>
+<area shape="rect" id="node6" href="class_ms_1_1_excerpt.html" title="Ms::Excerpt" alt="" coords="2803,445,2896,472"/>
+<area shape="rect" id="node7" href="class_ms_1_1_master_score.html" title="Ms::MasterScore" alt="" coords="2581,787,2704,813"/>
+<area shape="rect" id="node11" href="class_ms_1_1_repeat_list.html" title="Ms::RepeatList" alt="" coords="2339,736,2450,763"/>
+<area shape="rect" id="node22" href="class_ms_1_1_input_state.html" title="Ms::InputState" alt="" coords="2341,348,2449,375"/>
+<area shape="rect" id="node28" href="class_ms_1_1_selection.html" title="Ms::Selection" alt="" coords="2343,900,2446,927"/>
+<area shape="rect" id="node33" href="class_ms_1_1_selection_filter.html" title="Ms::SelectionFilter" alt="" coords="2329,572,2460,599"/>
+<area shape="rect" id="node8" href="class_ms_1_1_omr.html" title="Ms::Omr" alt="" coords="2358,1013,2431,1040"/>
+<area shape="rect" id="node9" href="class_ms_1_1_cmd_state.html" title="Ms::CmdState" alt="" coords="1623,1061,1729,1088"/>
+<area shape="rect" id="node10" href="class_ms_1_1_fraction.html" title="Ms::Fraction" alt="" coords="1155,927,1250,953"/>
+<area shape="rect" id="node19" href="class_ms_1_1_measure_base.html" title="Virtual base class for Measure, HBox and VBox. " alt="" coords="1438,575,1566,601"/>
+<area shape="rect" id="node23" href="class_ms_1_1_segment.html" title="Ms::Segment" alt="" coords="1931,917,2031,944"/>
+<area shape="rect" id="node12" href="class_ms_1_1_revisions.html" title="Ms::Revisions" alt="" coords="2341,1115,2448,1141"/>
+<area shape="rect" id="node13" href="class_ms_1_1_tempo_map.html" title="Ms::TempoMap" alt="" coords="2338,521,2451,548"/>
+<area shape="rect" id="node14" href="class_ms_1_1_movements.html" title="Ms::Movements" alt="" coords="2189,1031,2305,1057"/>
+<area shape="rect" id="node15" href="class_ms_1_1_m_style.html" title="Ms::MStyle" alt="" coords="1783,809,1873,836"/>
+<area shape="rect" id="node16" href="class_ms_1_1_chord_list.html" title="Ms::ChordList" alt="" coords="1450,809,1554,836"/>
+<area shape="rect" id="node17" href="class_ms_1_1_time_sig_map.html" title="Ms::TimeSigMap" alt="" coords="2334,685,2455,712"/>
+<area shape="rect" id="node18" href="class_ms_1_1_measure_base_list.html" title="Ms::MeasureBaseList" alt="" coords="1753,556,1903,583"/>
+<area shape="rect" id="node21" href="class_ms_1_1_element_list.html" title="Ms::ElementList" alt="" coords="1144,500,1261,527"/>
+<area shape="rect" id="node24" href="class_ms_1_1_t_duration.html" title="Ms::TDuration" alt="" coords="2060,308,2165,335"/>
+<area shape="rect" id="node25" href="class_ms_1_1_slur.html" title="Ms::Slur" alt="" coords="2077,257,2148,284"/>
+<area shape="rect" id="node26" href="class_ms_1_1_synthesizer_state.html" title="Ms::SynthesizerState" alt="" coords="1754,404,1902,431"/>
+<area shape="rect" id="node29" href="class_ms_1_1_spanner_map.html" title="Ms::SpannerMap" alt="" coords="1767,455,1889,481"/>
+<area shape="rect" id="node31" href="class_ms_1_1_update_state.html" title="Ms::UpdateState" alt="" coords="1767,505,1889,532"/>
+<area shape="rect" id="node32" href="class_ms_1_1_audio.html" title="Ms::Audio" alt="" coords="1787,657,1869,684"/>
+<area shape="rect" id="node34" href="class_ms_1_1_score_font.html" title="Ms::ScoreFont" alt="" coords="1774,708,1882,735"/>
+<area shape="rect" id="node35" href="class_ms_1_1_linked_elements.html" title="Ms::LinkedElements" alt="" coords="535,475,676,501"/>
+<area shape="rect" id="node37" href="class_ms_1_1_instrument_list.html" title="Ms::InstrumentList" alt="" coords="842,111,973,137"/>
+<area shape="rect" id="node39" href="class_ms_1_1_instrument.html" title="Ms::Instrument" alt="" coords="550,111,661,137"/>
+<area shape="rect" id="node40" href="struct_ms_1_1_interval.html" title="Ms::Interval" alt="" coords="274,111,365,137"/>
+<area shape="rect" id="node41" href="class_ms_1_1_drumset.html" title="Ms::Drumset" alt="" coords="270,161,369,188"/>
+<area shape="rect" id="node42" href="struct_ms_1_1_drum_instrument.html" title="Ms::DrumInstrument" alt="" coords="5,161,148,188"/>
+<area shape="rect" id="node43" href="class_ms_1_1_string_data.html" title="Ms::StringData" alt="" coords="264,5,375,32"/>
+<area shape="rect" id="node44" href="class_ms_1_1_staff_name_list.html" title="Ms::StaffNameList" alt="" coords="253,60,385,87"/>
+<area shape="rect" id="node46" href="class_ms_1_1_part_channel_settings_link.html" title="Ms::PartChannelSettingsLink" alt="" coords="1107,173,1299,200"/>
+<area shape="rect" id="node47" href="class_ms_1_1_channel_listener.html" title="Ms::ChannelListener" alt="" coords="836,165,979,192"/>
+<area shape="rect" id="node48" href="class_ms_1_1_listener.html" title="Ms::Listener\&lt; Channel\l::Prop \&gt;" alt="" coords="528,170,683,211"/>
+<area shape="rect" id="node49" href="class_ms_1_1_notifier.html" title="Ms::Notifier\&lt; Channel\l::Prop \&gt;" alt="" coords="244,225,395,266"/>
+<area shape="rect" id="node50" href="class_ms_1_1_channel.html" title="Ms::Channel" alt="" coords="859,245,955,272"/>
+</map>
+<center><span class="legend">[<a href="graph_legend.html">legend</a>]</span></center></div>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
@@ -91,11 +143,57 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:ae8e9b9b3b2a97826bb9413a00f60ccae"><td class="memItemLeft" align="right" valign="top">signed char&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ms_1_1_midi_mapping.html#ae8e9b9b3b2a97826bb9413a00f60ccae">channel</a> () const</td></tr>
 <tr class="separator:ae8e9b9b3b2a97826bb9413a00f60ccae"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pri-methods"></a>
+Private Member Functions</h2></td></tr>
+<tr class="memitem:a65c83cb3e70702075d214754fc07d3df"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ms_1_1_midi_mapping.html#a65c83cb3e70702075d214754fc07d3df">MidiMapping</a> ()=default</td></tr>
+<tr class="separator:a65c83cb3e70702075d214754fc07d3df"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pri-attribs"></a>
+Private Attributes</h2></td></tr>
+<tr class="memitem:aca4a08ddb012f984ba59a511c032f10d"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_ms_1_1_part.html">Part</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ms_1_1_midi_mapping.html#aca4a08ddb012f984ba59a511c032f10d">_part</a></td></tr>
+<tr class="separator:aca4a08ddb012f984ba59a511c032f10d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a67008f163851a114547cd72efbb3b61b"><td class="memItemLeft" align="right" valign="top">std::unique_ptr&lt; <a class="el" href="class_ms_1_1_channel.html">Channel</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ms_1_1_midi_mapping.html#a67008f163851a114547cd72efbb3b61b">_articulation</a></td></tr>
+<tr class="separator:a67008f163851a114547cd72efbb3b61b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a5550a6ace9c6cf24545cf3326e14435a"><td class="memItemLeft" align="right" valign="top">signed char&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ms_1_1_midi_mapping.html#a5550a6ace9c6cf24545cf3326e14435a">_port</a></td></tr>
+<tr class="separator:a5550a6ace9c6cf24545cf3326e14435a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a03b6293205d4e89e34c17f0b1ce57509"><td class="memItemLeft" align="right" valign="top">signed char&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ms_1_1_midi_mapping.html#a03b6293205d4e89e34c17f0b1ce57509">_channel</a></td></tr>
+<tr class="separator:a03b6293205d4e89e34c17f0b1ce57509"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:add8c7e0d5fa03bf557f24b19e6bfa711"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_ms_1_1_channel.html">Channel</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ms_1_1_midi_mapping.html#add8c7e0d5fa03bf557f24b19e6bfa711">masterChannel</a></td></tr>
+<tr class="separator:add8c7e0d5fa03bf557f24b19e6bfa711"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a8e124c5792fe4bf45ef805c00c3c2774"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_ms_1_1_part_channel_settings_link.html">PartChannelSettingsLink</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ms_1_1_midi_mapping.html#a8e124c5792fe4bf45ef805c00c3c2774">link</a></td></tr>
+<tr class="separator:a8e124c5792fe4bf45ef805c00c3c2774"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="friends"></a>
 Friends</h2></td></tr>
 <tr class="memitem:a93665bd5dc65d18455c59793bf521c0c"><td class="memItemLeft" align="right" valign="top">class&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ms_1_1_midi_mapping.html#a93665bd5dc65d18455c59793bf521c0c">MasterScore</a></td></tr>
 <tr class="separator:a93665bd5dc65d18455c59793bf521c0c"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
+<h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
+<a id="a65c83cb3e70702075d214754fc07d3df"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a65c83cb3e70702075d214754fc07d3df">&#9670;&nbsp;</a></span>MidiMapping()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">Ms::MidiMapping::MidiMapping </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span><span class="mlabel">default</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
 <h2 class="groupheader">Member Function Documentation</h2>
 <a id="a642a1975d5d032c28bed6f7e906099fb"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a642a1975d5d032c28bed6f7e906099fb">&#9670;&nbsp;</a></span>articulation() <span class="overload">[1/2]</span></h2>
@@ -264,6 +362,139 @@ Friends</h2></td></tr>
   </td>
   <td class="mlabels-right">
 <span class="mlabels"><span class="mlabel">friend</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<h2 class="groupheader">Member Data Documentation</h2>
+<a id="a67008f163851a114547cd72efbb3b61b"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a67008f163851a114547cd72efbb3b61b">&#9670;&nbsp;</a></span>_articulation</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">std::unique_ptr&lt;<a class="el" href="class_ms_1_1_channel.html">Channel</a>&gt; Ms::MidiMapping::_articulation</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a03b6293205d4e89e34c17f0b1ce57509"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a03b6293205d4e89e34c17f0b1ce57509">&#9670;&nbsp;</a></span>_channel</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">signed char Ms::MidiMapping::_channel</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="aca4a08ddb012f984ba59a511c032f10d"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aca4a08ddb012f984ba59a511c032f10d">&#9670;&nbsp;</a></span>_part</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="class_ms_1_1_part.html">Part</a>* Ms::MidiMapping::_part</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a5550a6ace9c6cf24545cf3326e14435a"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a5550a6ace9c6cf24545cf3326e14435a">&#9670;&nbsp;</a></span>_port</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">signed char Ms::MidiMapping::_port</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a8e124c5792fe4bf45ef805c00c3c2774"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a8e124c5792fe4bf45ef805c00c3c2774">&#9670;&nbsp;</a></span>link</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="class_ms_1_1_part_channel_settings_link.html">PartChannelSettingsLink</a> Ms::MidiMapping::link</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="add8c7e0d5fa03bf557f24b19e6bfa711"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#add8c7e0d5fa03bf557f24b19e6bfa711">&#9670;&nbsp;</a></span>masterChannel</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="class_ms_1_1_channel.html">Channel</a>* Ms::MidiMapping::masterChannel</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
   </tr>
 </table>
 </div><div class="memdoc">

@@ -23,9 +23,9 @@
   <td id="projectlogo"><img alt="Logo" src="musescore_logo_full.png"/></td>
   <td id="projectalign" style="padding-left: 0.5em;">
    <div id="projectname">MuseScore
-   &#160;<span id="projectnumber">3.1</span>
+   &#160;<span id="projectnumber">3.2</span>
    </div>
-   <div id="projectbrief">Music compisition and notation</div>
+   <div id="projectbrief">Music composition and notation</div>
   </td>
  </tr>
  </tbody>
@@ -67,6 +67,7 @@ $(function() {
 <div class="header">
   <div class="summary">
 <a href="#pub-methods">Public Member Functions</a> &#124;
+<a href="#pri-attribs">Private Attributes</a> &#124;
 <a href="class_ms_1_1_pos_len-members.html">List of all members</a>  </div>
   <div class="headertitle">
 <div class="title">Ms::PosLen Class Reference</div>  </div>
@@ -87,7 +88,7 @@ Collaboration diagram for Ms::PosLen:</div>
 <div class="dyncontent">
 <div class="center"><img src="class_ms_1_1_pos_len__coll__graph.png" border="0" usemap="#_ms_1_1_pos_len_coll__map" alt="Collaboration graph"/></div>
 <map name="_ms_1_1_pos_len_coll__map" id="_ms_1_1_pos_len_coll__map">
-<area shape="rect" id="node2" href="class_ms_1_1_pos.html" title="Ms::Pos" alt="" coords="157,171,228,197"/>
+<area shape="rect" id="node2" href="class_ms_1_1_pos.html" title="Ms::Pos" alt="" coords="135,171,205,197"/>
 <area shape="rect" id="node3" href="class_ms_1_1_tempo_map.html" title="Ms::TempoMap" alt="" coords="43,81,156,108"/>
 <area shape="rect" id="node5" href="class_ms_1_1_time_sig_map.html" title="Ms::TimeSigMap" alt="" coords="204,81,325,108"/>
 </map>
@@ -202,6 +203,15 @@ Public Member Functions</h2></td></tr>
 <tr class="separator:a350397f8500d5784e1bab9052930128d inherit pub_methods_class_ms_1_1_pos"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a70ca1ef8aa94fff95f29a3e902f91b76 inherit pub_methods_class_ms_1_1_pos"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ms_1_1_pos.html#a70ca1ef8aa94fff95f29a3e902f91b76">setInvalid</a> ()</td></tr>
 <tr class="separator:a70ca1ef8aa94fff95f29a3e902f91b76 inherit pub_methods_class_ms_1_1_pos"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pri-attribs"></a>
+Private Attributes</h2></td></tr>
+<tr class="memitem:a4f6a64eac8f42d2f2c4c22b71400010e"><td class="memItemLeft" align="right" valign="top">unsigned&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ms_1_1_pos_len.html#a4f6a64eac8f42d2f2c4c22b71400010e">_lenTick</a></td></tr>
+<tr class="separator:a4f6a64eac8f42d2f2c4c22b71400010e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae394c41f913bcd2c8ef3aa32194781ed"><td class="memItemLeft" align="right" valign="top">unsigned&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ms_1_1_pos_len.html#ae394c41f913bcd2c8ef3aa32194781ed">_lenFrame</a></td></tr>
+<tr class="separator:ae394c41f913bcd2c8ef3aa32194781ed"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a5ea321412fe8837871b170fa8e9e9632"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ms_1_1_pos_len.html#a5ea321412fe8837871b170fa8e9e9632">sn</a></td></tr>
+<tr class="separator:a5ea321412fe8837871b170fa8e9e9632"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="inherited"></a>
 Additional Inherited Members</h2></td></tr>
@@ -492,6 +502,73 @@ Additional Inherited Members</h2></td></tr>
           <td></td><td> const</td>
         </tr>
       </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<h2 class="groupheader">Member Data Documentation</h2>
+<a id="ae394c41f913bcd2c8ef3aa32194781ed"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ae394c41f913bcd2c8ef3aa32194781ed">&#9670;&nbsp;</a></span>_lenFrame</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">unsigned Ms::PosLen::_lenFrame</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">mutable</span><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a4f6a64eac8f42d2f2c4c22b71400010e"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a4f6a64eac8f42d2f2c4c22b71400010e">&#9670;&nbsp;</a></span>_lenTick</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">unsigned Ms::PosLen::_lenTick</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">mutable</span><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a5ea321412fe8837871b170fa8e9e9632"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a5ea321412fe8837871b170fa8e9e9632">&#9670;&nbsp;</a></span>sn</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">int Ms::PosLen::sn</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">mutable</span><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
 </div><div class="memdoc">
 
 </div>

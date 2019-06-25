@@ -6,7 +6,7 @@
 <area shape="rect" id="node15" href="$stafftype_8h.html" title="stafftype.h" alt="" coords="371,155,455,181"/>
 <area shape="rect" id="node16" href="$element_8h.html" title="element.h" alt="" coords="325,528,403,555"/>
 <area shape="rect" id="node27" href="$interval_8h.html" title="interval.h" alt="" coords="272,155,347,181"/>
-<area shape="rect" id="node28" href="$select_8h.html" title="select.h" alt="" coords="639,155,707,181"/>
+<area shape="rect" id="node28" href="$select_8h.html" title="select.h" alt="" coords="614,155,682,181"/>
 <area shape="rect" id="node8" href="$location_8h.html" title="location.h" alt="" coords="118,528,197,555"/>
 <area shape="rect" id="node13" href="$types_8h.html" title="types.h" alt="" coords="521,827,586,853"/>
 <area shape="rect" id="node9" href="$libmscore_2fraction_8h.html" title="fraction.h" alt="" coords="206,603,282,629"/>
@@ -16,7 +16,7 @@
 <area shape="rect" id="node17" href="$spatium_8h.html" title="spatium.h" alt="" coords="315,603,394,629"/>
 <area shape="rect" id="node20" href="$durationtype_8h.html" title="durationtype.h" alt="" coords="461,229,565,256"/>
 <area shape="rect" id="node18" href="$libmscore_2score_element_8h.html" title="scoreElement.h" alt="" coords="497,677,610,704"/>
-<area shape="rect" id="node19" href="$shape_8h.html" title="shape.h" alt="" coords="609,603,677,629"/>
+<area shape="rect" id="node19" href="$shape_8h.html" title="shape.h" alt="" coords="578,603,646,629"/>
 <area shape="rect" id="node21" href="$note_8h.html" title="Definition of classes Note and NoteHead. " alt="" coords="535,304,593,331"/>
 <area shape="rect" id="node22" href="$symbol_8h.html" title="symbol.h" alt="" coords="323,379,397,405"/>
 <area shape="rect" id="node24" href="$noteevent_8h.html" title="noteevent.h" alt="" coords="421,379,512,405"/>

@@ -23,9 +23,9 @@
   <td id="projectlogo"><img alt="Logo" src="musescore_logo_full.png"/></td>
   <td id="projectalign" style="padding-left: 0.5em;">
    <div id="projectname">MuseScore
-   &#160;<span id="projectnumber">3.1</span>
+   &#160;<span id="projectnumber">3.2</span>
    </div>
-   <div id="projectbrief">Music compisition and notation</div>
+   <div id="projectbrief">Music composition and notation</div>
   </td>
  </tr>
  </tbody>
@@ -68,6 +68,8 @@ $(function() {
   <div class="summary">
 <a href="#nested-classes">Classes</a> &#124;
 <a href="#pub-methods">Public Member Functions</a> &#124;
+<a href="#pri-methods">Private Member Functions</a> &#124;
+<a href="#pri-attribs">Private Attributes</a> &#124;
 <a href="class_ms_1_1_bsp_tree-members.html">List of all members</a>  </div>
   <div class="headertitle">
 <div class="title">Ms::BspTree Class Reference</div>  </div>
@@ -85,7 +87,7 @@ Classes</h2></td></tr>
 Public Member Functions</h2></td></tr>
 <tr class="memitem:a8916245a180be98d10a388cbe15835f9"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ms_1_1_bsp_tree.html#a8916245a180be98d10a388cbe15835f9">BspTree</a> ()</td></tr>
 <tr class="separator:a8916245a180be98d10a388cbe15835f9"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:add61c5fed47ea6ad0b9e65d750f4a66e"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ms_1_1_bsp_tree.html#add61c5fed47ea6ad0b9e65d750f4a66e">initialize</a> (const QRectF &amp;rect, int depth)</td></tr>
+<tr class="memitem:add61c5fed47ea6ad0b9e65d750f4a66e"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ms_1_1_bsp_tree.html#add61c5fed47ea6ad0b9e65d750f4a66e">initialize</a> (const QRectF &amp;<a class="el" href="class_ms_1_1_bsp_tree.html#a416bca8e3d5764befc058c71b3e204d1">rect</a>, int <a class="el" href="class_ms_1_1_bsp_tree.html#afd89d95340050b4954d18b5231898558">depth</a>)</td></tr>
 <tr class="separator:add61c5fed47ea6ad0b9e65d750f4a66e"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a6b98da1cba784ac1bc56c3df75a32895"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ms_1_1_bsp_tree.html#a6b98da1cba784ac1bc56c3df75a32895">clear</a> ()</td></tr>
 <tr class="separator:a6b98da1cba784ac1bc56c3df75a32895"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -93,7 +95,7 @@ Public Member Functions</h2></td></tr>
 <tr class="separator:ae781e27bfc7b9ac23de3ddb3909375b0"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a3c4c5cf8125f6fef93c149c81416f1b1"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ms_1_1_bsp_tree.html#a3c4c5cf8125f6fef93c149c81416f1b1">remove</a> (<a class="el" href="class_ms_1_1_element.html">Element</a> *item)</td></tr>
 <tr class="separator:a3c4c5cf8125f6fef93c149c81416f1b1"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a4ab732d32b0e0206fb6a9ea7c53ec30e"><td class="memItemLeft" align="right" valign="top">QList&lt; <a class="el" href="class_ms_1_1_element.html">Element</a> * &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ms_1_1_bsp_tree.html#a4ab732d32b0e0206fb6a9ea7c53ec30e">items</a> (const QRectF &amp;rect)</td></tr>
+<tr class="memitem:a4ab732d32b0e0206fb6a9ea7c53ec30e"><td class="memItemLeft" align="right" valign="top">QList&lt; <a class="el" href="class_ms_1_1_element.html">Element</a> * &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ms_1_1_bsp_tree.html#a4ab732d32b0e0206fb6a9ea7c53ec30e">items</a> (const QRectF &amp;<a class="el" href="class_ms_1_1_bsp_tree.html#a416bca8e3d5764befc058c71b3e204d1">rect</a>)</td></tr>
 <tr class="separator:a4ab732d32b0e0206fb6a9ea7c53ec30e"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a9e6c11b7fd68523efe90c4b51ea0135e"><td class="memItemLeft" align="right" valign="top">QList&lt; <a class="el" href="class_ms_1_1_element.html">Element</a> * &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ms_1_1_bsp_tree.html#a9e6c11b7fd68523efe90c4b51ea0135e">items</a> (const QPointF &amp;pos)</td></tr>
 <tr class="separator:a9e6c11b7fd68523efe90c4b51ea0135e"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -105,6 +107,34 @@ Public Member Functions</h2></td></tr>
 <tr class="separator:a9075e4a49712c94b38dfde6a6eacabce"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aef6a4f8a958cb36cf403440815232430"><td class="memItemLeft" align="right" valign="top">QString&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ms_1_1_bsp_tree.html#aef6a4f8a958cb36cf403440815232430">debug</a> (int index) const</td></tr>
 <tr class="separator:aef6a4f8a958cb36cf403440815232430"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pri-methods"></a>
+Private Member Functions</h2></td></tr>
+<tr class="memitem:adf239b87c9cf7692a8927def4e89585b"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ms_1_1_bsp_tree.html#adf239b87c9cf7692a8927def4e89585b">initialize</a> (const QRectF &amp;<a class="el" href="class_ms_1_1_bsp_tree.html#a416bca8e3d5764befc058c71b3e204d1">rect</a>, int <a class="el" href="class_ms_1_1_bsp_tree.html#afd89d95340050b4954d18b5231898558">depth</a>, int index)</td></tr>
+<tr class="separator:adf239b87c9cf7692a8927def4e89585b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a1f1b396b969de5a8032904056b25ff83"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ms_1_1_bsp_tree.html#a1f1b396b969de5a8032904056b25ff83">climbTree</a> (<a class="el" href="class_ms_1_1_bsp_tree_visitor.html">BspTreeVisitor</a> *visitor, const QPointF &amp;pos, int index=0)</td></tr>
+<tr class="separator:a1f1b396b969de5a8032904056b25ff83"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac18e448ae55f615f7dbbbc45999be798"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ms_1_1_bsp_tree.html#ac18e448ae55f615f7dbbbc45999be798">climbTree</a> (<a class="el" href="class_ms_1_1_bsp_tree_visitor.html">BspTreeVisitor</a> *visitor, const QRectF &amp;<a class="el" href="class_ms_1_1_bsp_tree.html#a416bca8e3d5764befc058c71b3e204d1">rect</a>, int index=0)</td></tr>
+<tr class="separator:ac18e448ae55f615f7dbbbc45999be798"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a3e0a9fd9e8d0724cf329038d22ce6516"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ms_1_1_bsp_tree.html#a3e0a9fd9e8d0724cf329038d22ce6516">findItems</a> (QList&lt; <a class="el" href="class_ms_1_1_element.html">Element</a> *&gt; *foundItems, const QRectF &amp;<a class="el" href="class_ms_1_1_bsp_tree.html#a416bca8e3d5764befc058c71b3e204d1">rect</a>, int index)</td></tr>
+<tr class="separator:a3e0a9fd9e8d0724cf329038d22ce6516"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a32b5f1e00b783d728ffbb8727b44ec4f"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ms_1_1_bsp_tree.html#a32b5f1e00b783d728ffbb8727b44ec4f">findItems</a> (QList&lt; <a class="el" href="class_ms_1_1_element.html">Element</a> *&gt; *foundItems, const QPointF &amp;pos, int index)</td></tr>
+<tr class="separator:a32b5f1e00b783d728ffbb8727b44ec4f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a26c5606c49ed48591a2982099b9c8557"><td class="memItemLeft" align="right" valign="top">QRectF&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ms_1_1_bsp_tree.html#a26c5606c49ed48591a2982099b9c8557">rectForIndex</a> (int index) const</td></tr>
+<tr class="separator:a26c5606c49ed48591a2982099b9c8557"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pri-attribs"></a>
+Private Attributes</h2></td></tr>
+<tr class="memitem:afd89d95340050b4954d18b5231898558"><td class="memItemLeft" align="right" valign="top">uint&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ms_1_1_bsp_tree.html#afd89d95340050b4954d18b5231898558">depth</a></td></tr>
+<tr class="separator:afd89d95340050b4954d18b5231898558"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a2ce8d5ea2efa9fdd11686dd951285086"><td class="memItemLeft" align="right" valign="top">QVector&lt; <a class="el" href="struct_ms_1_1_bsp_tree_1_1_node.html">Node</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ms_1_1_bsp_tree.html#a2ce8d5ea2efa9fdd11686dd951285086">nodes</a></td></tr>
+<tr class="separator:a2ce8d5ea2efa9fdd11686dd951285086"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a711ebe729fd52d949e828a2ddebce8d3"><td class="memItemLeft" align="right" valign="top">QVector&lt; QList&lt; <a class="el" href="class_ms_1_1_element.html">Element</a> * &gt; &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ms_1_1_bsp_tree.html#a711ebe729fd52d949e828a2ddebce8d3">leaves</a></td></tr>
+<tr class="separator:a711ebe729fd52d949e828a2ddebce8d3"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac8251ed0d807efabd6e99f5d9102fe0f"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ms_1_1_bsp_tree.html#ac8251ed0d807efabd6e99f5d9102fe0f">leafCnt</a></td></tr>
+<tr class="separator:ac8251ed0d807efabd6e99f5d9102fe0f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a416bca8e3d5764befc058c71b3e204d1"><td class="memItemLeft" align="right" valign="top">QRectF&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ms_1_1_bsp_tree.html#a416bca8e3d5764befc058c71b3e204d1">rect</a></td></tr>
+<tr class="separator:a416bca8e3d5764befc058c71b3e204d1"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
 <a id="a8916245a180be98d10a388cbe15835f9"></a>
@@ -142,6 +172,90 @@ Public Member Functions</h2></td></tr>
 
 </div>
 </div>
+<a id="a1f1b396b969de5a8032904056b25ff83"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a1f1b396b969de5a8032904056b25ff83">&#9670;&nbsp;</a></span>climbTree() <span class="overload">[1/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void Ms::BspTree::climbTree </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="class_ms_1_1_bsp_tree_visitor.html">BspTreeVisitor</a> *&#160;</td>
+          <td class="paramname"><em>visitor</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const QPointF &amp;&#160;</td>
+          <td class="paramname"><em>pos</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>index</em> = <code>0</code>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="ac18e448ae55f615f7dbbbc45999be798"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ac18e448ae55f615f7dbbbc45999be798">&#9670;&nbsp;</a></span>climbTree() <span class="overload">[2/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void Ms::BspTree::climbTree </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="class_ms_1_1_bsp_tree_visitor.html">BspTreeVisitor</a> *&#160;</td>
+          <td class="paramname"><em>visitor</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const QRectF &amp;&#160;</td>
+          <td class="paramname"><em>rect</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>index</em> = <code>0</code>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
 <a id="aef6a4f8a958cb36cf403440815232430"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#aef6a4f8a958cb36cf403440815232430">&#9670;&nbsp;</a></span>debug()</h2>
 
@@ -156,6 +270,90 @@ Public Member Functions</h2></td></tr>
           <td> const</td>
         </tr>
       </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a3e0a9fd9e8d0724cf329038d22ce6516"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a3e0a9fd9e8d0724cf329038d22ce6516">&#9670;&nbsp;</a></span>findItems() <span class="overload">[1/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void Ms::BspTree::findItems </td>
+          <td>(</td>
+          <td class="paramtype">QList&lt; <a class="el" href="class_ms_1_1_element.html">Element</a> *&gt; *&#160;</td>
+          <td class="paramname"><em>foundItems</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const QRectF &amp;&#160;</td>
+          <td class="paramname"><em>rect</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>index</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a32b5f1e00b783d728ffbb8727b44ec4f"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a32b5f1e00b783d728ffbb8727b44ec4f">&#9670;&nbsp;</a></span>findItems() <span class="overload">[2/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void Ms::BspTree::findItems </td>
+          <td>(</td>
+          <td class="paramtype">QList&lt; <a class="el" href="class_ms_1_1_element.html">Element</a> *&gt; *&#160;</td>
+          <td class="paramname"><em>foundItems</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const QPointF &amp;&#160;</td>
+          <td class="paramname"><em>pos</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>index</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
 </div><div class="memdoc">
 
 </div>
@@ -186,8 +384,50 @@ Public Member Functions</h2></td></tr>
 
 </div>
 </div>
+<a id="adf239b87c9cf7692a8927def4e89585b"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#adf239b87c9cf7692a8927def4e89585b">&#9670;&nbsp;</a></span>initialize() <span class="overload">[1/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void Ms::BspTree::initialize </td>
+          <td>(</td>
+          <td class="paramtype">const QRectF &amp;&#160;</td>
+          <td class="paramname"><em>rect</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>depth</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>index</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
 <a id="add61c5fed47ea6ad0b9e65d750f4a66e"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#add61c5fed47ea6ad0b9e65d750f4a66e">&#9670;&nbsp;</a></span>initialize()</h2>
+<h2 class="memtitle"><span class="permalink"><a href="#add61c5fed47ea6ad0b9e65d750f4a66e">&#9670;&nbsp;</a></span>initialize() <span class="overload">[2/2]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -319,6 +559,32 @@ Public Member Functions</h2></td></tr>
 
 </div>
 </div>
+<a id="a26c5606c49ed48591a2982099b9c8557"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a26c5606c49ed48591a2982099b9c8557">&#9670;&nbsp;</a></span>rectForIndex()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">QRectF Ms::BspTree::rectForIndex </td>
+          <td>(</td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>index</em></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
 <a id="a3c4c5cf8125f6fef93c149c81416f1b1"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a3c4c5cf8125f6fef93c149c81416f1b1">&#9670;&nbsp;</a></span>remove()</h2>
 
@@ -333,6 +599,117 @@ Public Member Functions</h2></td></tr>
           <td></td>
         </tr>
       </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<h2 class="groupheader">Member Data Documentation</h2>
+<a id="afd89d95340050b4954d18b5231898558"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#afd89d95340050b4954d18b5231898558">&#9670;&nbsp;</a></span>depth</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">uint Ms::BspTree::depth</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="ac8251ed0d807efabd6e99f5d9102fe0f"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ac8251ed0d807efabd6e99f5d9102fe0f">&#9670;&nbsp;</a></span>leafCnt</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">int Ms::BspTree::leafCnt</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a711ebe729fd52d949e828a2ddebce8d3"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a711ebe729fd52d949e828a2ddebce8d3">&#9670;&nbsp;</a></span>leaves</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">QVector&lt;QList&lt;<a class="el" href="class_ms_1_1_element.html">Element</a>*&gt; &gt; Ms::BspTree::leaves</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a2ce8d5ea2efa9fdd11686dd951285086"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a2ce8d5ea2efa9fdd11686dd951285086">&#9670;&nbsp;</a></span>nodes</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">QVector&lt;<a class="el" href="struct_ms_1_1_bsp_tree_1_1_node.html">Node</a>&gt; Ms::BspTree::nodes</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a416bca8e3d5764befc058c71b3e204d1"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a416bca8e3d5764befc058c71b3e204d1">&#9670;&nbsp;</a></span>rect</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">QRectF Ms::BspTree::rect</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
 </div><div class="memdoc">
 
 </div>

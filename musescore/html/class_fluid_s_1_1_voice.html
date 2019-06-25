@@ -23,9 +23,9 @@
   <td id="projectlogo"><img alt="Logo" src="musescore_logo_full.png"/></td>
   <td id="projectalign" style="padding-left: 0.5em;">
    <div id="projectname">MuseScore
-   &#160;<span id="projectnumber">3.1</span>
+   &#160;<span id="projectnumber">3.2</span>
    </div>
-   <div id="projectbrief">Music compisition and notation</div>
+   <div id="projectbrief">Music composition and notation</div>
   </td>
  </tr>
  </tbody>
@@ -69,6 +69,9 @@ $(function() {
 <a href="#pub-methods">Public Member Functions</a> &#124;
 <a href="#pub-static-methods">Static Public Member Functions</a> &#124;
 <a href="#pub-attribs">Public Attributes</a> &#124;
+<a href="#pri-methods">Private Member Functions</a> &#124;
+<a href="#pri-attribs">Private Attributes</a> &#124;
+<a href="#pri-static-attribs">Static Private Attributes</a> &#124;
 <a href="class_fluid_s_1_1_voice-members.html">List of all members</a>  </div>
   <div class="headertitle">
 <div class="title">FluidS::Voice Class Reference</div>  </div>
@@ -81,13 +84,20 @@ Collaboration diagram for FluidS::Voice:</div>
 <div class="dyncontent">
 <div class="center"><img src="class_fluid_s_1_1_voice__coll__graph.png" border="0" usemap="#_fluid_s_1_1_voice_coll__map" alt="Collaboration graph"/></div>
 <map name="_fluid_s_1_1_voice_coll__map" id="_fluid_s_1_1_voice_coll__map">
-<area shape="rect" id="node2" href="class_fluid_s_1_1_channel.html" title="FluidS::Channel" alt="" coords="196,5,311,32"/>
-<area shape="rect" id="node3" href="struct_fluid_s_1_1_phase.html" title="FluidS::Phase" alt="" coords="201,56,305,83"/>
-<area shape="rect" id="node4" href="struct_fluid_s_1_1fluid__env__data__t.html" title="FluidS::fluid_env_data_t" alt="" coords="172,111,335,137"/>
-<area shape="rect" id="node5" href="struct_fluid_s_1_1_mod.html" title="FluidS::Mod" alt="" coords="207,161,299,188"/>
-<area shape="rect" id="node6" href="class_fluid_s_1_1_sample.html" title="FluidS::Sample" alt="" coords="198,212,309,239"/>
-<area shape="rect" id="node7" href="class_fluid_s_1_1_s_font.html" title="FluidS::SFont" alt="" coords="5,212,108,239"/>
-<area shape="rect" id="node8" href="class_fluid_s_1_1_generator.html" title="SoundFont generator structure. " alt="" coords="191,263,315,289"/>
+<area shape="rect" id="node2" href="class_fluid_s_1_1_channel.html" title="FluidS::Channel" alt="" coords="1344,288,1459,315"/>
+<area shape="rect" id="node3" href="class_fluid_s_1_1_preset.html" title="FluidS::Preset" alt="" coords="1107,237,1212,264"/>
+<area shape="rect" id="node4" href="class_fluid_s_1_1_zone.html" title="FluidS::Zone" alt="" coords="869,87,965,113"/>
+<area shape="rect" id="node5" href="class_fluid_s_1_1_instrument.html" title="FluidS::Instrument" alt="" coords="1095,77,1224,104"/>
+<area shape="rect" id="node6" href="class_fluid_s_1_1_generator.html" title="SoundFont generator structure. " alt="" coords="651,156,775,183"/>
+<area shape="rect" id="node7" href="class_fluid_s_1_1_sample.html" title="FluidS::Sample" alt="" coords="657,87,768,113"/>
+<area shape="rect" id="node8" href="class_fluid_s_1_1_s_font.html" title="FluidS::SFont" alt="" coords="484,216,587,243"/>
+<area shape="rect" id="node9" href="class_fluid_s_1_1_fluid.html" title="FluidS::Fluid" alt="" coords="271,260,365,287"/>
+<area shape="rect" id="node10" href="class_ms_1_1_synthesizer.html" title="Ms::Synthesizer" alt="" coords="5,200,123,227"/>
+<area shape="rect" id="node11" href="class_ms_1_1_synthesizer_gui.html" title="Ms::SynthesizerGui" alt="" coords="249,148,387,175"/>
+<area shape="rect" id="node13" href="struct_fluid_s_1_1_s_f_version.html" title="FluidS::SFVersion" alt="" coords="254,199,382,225"/>
+<area shape="rect" id="node14" href="struct_fluid_s_1_1_phase.html" title="FluidS::Phase" alt="" coords="1349,391,1453,417"/>
+<area shape="rect" id="node15" href="struct_fluid_s_1_1fluid__env__data__t.html" title="FluidS::fluid_env_data_t" alt="" coords="1320,441,1483,468"/>
+<area shape="rect" id="node16" href="struct_fluid_s_1_1_mod.html" title="FluidS::Mod" alt="" coords="1355,492,1447,519"/>
 </map>
 <center><span class="legend">[<a href="graph_legend.html">legend</a>]</span></center></div>
 <table class="memberdecls">
@@ -327,6 +337,41 @@ Public Attributes</h2></td></tr>
 <tr class="separator:ac71c7c2680156834347931316852dc10"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a06c4669ea0c4c6c7aeb6c01d47318e97"><td class="memItemLeft" align="right" valign="top">double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_fluid_s_1_1_voice.html#a06c4669ea0c4c6c7aeb6c01d47318e97">ref</a></td></tr>
 <tr class="separator:a06c4669ea0c4c6c7aeb6c01d47318e97"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pri-methods"></a>
+Private Member Functions</h2></td></tr>
+<tr class="memitem:aae3ea5ede208b96c103cbf95b248984a"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_fluid_s_1_1_voice.html#aae3ea5ede208b96c103cbf95b248984a">effects</a> (int startBufIdx, int count, float *out, float *effect1, float *effect2)</td></tr>
+<tr class="separator:aae3ea5ede208b96c103cbf95b248984a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aed5c6b45d689c43340806e71871b6f45"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_fluid_s_1_1_voice.html#aed5c6b45d689c43340806e71871b6f45">generateDataForDSPChain</a> (unsigned frames)</td></tr>
+<tr class="separator:aed5c6b45d689c43340806e71871b6f45"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a1d8385cbc0ebcfc7e1c9f1530b4011cc"><td class="memItemLeft" align="right" valign="top">std::tuple&lt; unsigned, bool &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_fluid_s_1_1_voice.html#a1d8385cbc0ebcfc7e1c9f1530b4011cc">interpolateGeneratedDSPData</a> (unsigned n)</td></tr>
+<tr class="separator:a1d8385cbc0ebcfc7e1c9f1530b4011cc"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pri-attribs"></a>
+Private Attributes</h2></td></tr>
+<tr class="memitem:a9b8aa14547274ef9d5adb2506bd00c82"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_fluid_s_1_1_fluid.html">Fluid</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_fluid_s_1_1_voice.html#a9b8aa14547274ef9d5adb2506bd00c82">_fluid</a></td></tr>
+<tr class="separator:a9b8aa14547274ef9d5adb2506bd00c82"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a64cf861491cd5fceedeabd8cc965d32b"><td class="memItemLeft" align="right" valign="top">double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_fluid_s_1_1_voice.html#a64cf861491cd5fceedeabd8cc965d32b">_noteTuning</a></td></tr>
+<tr class="separator:a64cf861491cd5fceedeabd8cc965d32b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a3afd52fca0eebce5fc152070808201ca"><td class="memItemLeft" align="right" valign="top">unsigned&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_fluid_s_1_1_voice.html#a3afd52fca0eebce5fc152070808201ca">_cachedFrames</a> = 0</td></tr>
+<tr class="separator:a3afd52fca0eebce5fc152070808201ca"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a3962dbe3d478b3c9a3a6ec113c597c45"><td class="memItemLeft" align="right" valign="top">unsigned&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_fluid_s_1_1_voice.html#a3962dbe3d478b3c9a3a6ec113c597c45">_initialCacheFrames</a> = 0</td></tr>
+<tr class="separator:a3962dbe3d478b3c9a3a6ec113c597c45"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a57962862516748bdbfa0333e4c84e076"><td class="memItemLeft" align="right" valign="top">std::vector&lt; float &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_fluid_s_1_1_voice.html#a57962862516748bdbfa0333e4c84e076">_cacheOut</a></td></tr>
+<tr class="separator:a57962862516748bdbfa0333e4c84e076"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab0c2523df2885400ea4646eebfd52cae"><td class="memItemLeft" align="right" valign="top">std::vector&lt; float &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_fluid_s_1_1_voice.html#ab0c2523df2885400ea4646eebfd52cae">_cacheReverb</a></td></tr>
+<tr class="separator:ab0c2523df2885400ea4646eebfd52cae"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aee7067c92e1a5ce9e5e5ac18bf342859"><td class="memItemLeft" align="right" valign="top">std::vector&lt; float &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_fluid_s_1_1_voice.html#aee7067c92e1a5ce9e5e5ac18bf342859">_cacheChorus</a></td></tr>
+<tr class="separator:aee7067c92e1a5ce9e5e5ac18bf342859"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pri-static-attribs"></a>
+Static Private Attributes</h2></td></tr>
+<tr class="memitem:a3f0abf523d36bc8a28915c6d8e1ea783"><td class="memItemLeft" align="right" valign="top">static float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_fluid_s_1_1_voice.html#a3f0abf523d36bc8a28915c6d8e1ea783">interp_coeff_linear</a> [<a class="el" href="fluid_8h.html#a20e1252e1fa6ac6bcdacb6194fabc3fe">FLUID_INTERP_MAX</a>][2]</td></tr>
+<tr class="separator:a3f0abf523d36bc8a28915c6d8e1ea783"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac55de221ca5a1653f96e6704e570d15b"><td class="memItemLeft" align="right" valign="top">static float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_fluid_s_1_1_voice.html#ac55de221ca5a1653f96e6704e570d15b">interp_coeff</a> [<a class="el" href="fluid_8h.html#a20e1252e1fa6ac6bcdacb6194fabc3fe">FLUID_INTERP_MAX</a>][4]</td></tr>
+<tr class="separator:ac55de221ca5a1653f96e6704e570d15b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a36e2664288eecafd4f9de0e128630281"><td class="memItemLeft" align="right" valign="top">static float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_fluid_s_1_1_voice.html#a36e2664288eecafd4f9de0e128630281">sinc_table7</a> [<a class="el" href="fluid_8h.html#a20e1252e1fa6ac6bcdacb6194fabc3fe">FLUID_INTERP_MAX</a>][7]</td></tr>
+<tr class="separator:a36e2664288eecafd4f9de0e128630281"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
 <a id="a99bde03d499c8c0826397cfeef4f8f59"></a>
@@ -577,6 +622,60 @@ Public Attributes</h2></td></tr>
 
 </div>
 </div>
+<a id="aae3ea5ede208b96c103cbf95b248984a"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aae3ea5ede208b96c103cbf95b248984a">&#9670;&nbsp;</a></span>effects()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void Voice::effects </td>
+          <td>(</td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>startBufIdx</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>count</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">float *&#160;</td>
+          <td class="paramname"><em>out</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">float *&#160;</td>
+          <td class="paramname"><em>effect1</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">float *&#160;</td>
+          <td class="paramname"><em>effect2</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
 <a id="a99d7c39c3ae7ce1046afd5ff032796bb"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a99d7c39c3ae7ce1046afd5ff032796bb">&#9670;&nbsp;</a></span>GEN()</h2>
 
@@ -673,6 +772,32 @@ Public Attributes</h2></td></tr>
           <td></td><td></td>
         </tr>
       </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="aed5c6b45d689c43340806e71871b6f45"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aed5c6b45d689c43340806e71871b6f45">&#9670;&nbsp;</a></span>generateDataForDSPChain()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool Voice::generateDataForDSPChain </td>
+          <td>(</td>
+          <td class="paramtype">unsigned&#160;</td>
+          <td class="paramname"><em>frames</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
 </div><div class="memdoc">
 
 </div>
@@ -792,6 +917,32 @@ Public Attributes</h2></td></tr>
           <td></td><td></td>
         </tr>
       </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a1d8385cbc0ebcfc7e1c9f1530b4011cc"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a1d8385cbc0ebcfc7e1c9f1530b4011cc">&#9670;&nbsp;</a></span>interpolateGeneratedDSPData()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">std::tuple&lt; unsigned, bool &gt; Voice::interpolateGeneratedDSPData </td>
+          <td>(</td>
+          <td class="paramtype">unsigned&#160;</td>
+          <td class="paramname"><em>n</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
 </div><div class="memdoc">
 
 </div>
@@ -1212,6 +1363,160 @@ Public Attributes</h2></td></tr>
 </div>
 </div>
 <h2 class="groupheader">Member Data Documentation</h2>
+<a id="aee7067c92e1a5ce9e5e5ac18bf342859"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aee7067c92e1a5ce9e5e5ac18bf342859">&#9670;&nbsp;</a></span>_cacheChorus</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">std::vector&lt;float&gt; FluidS::Voice::_cacheChorus</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a3afd52fca0eebce5fc152070808201ca"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a3afd52fca0eebce5fc152070808201ca">&#9670;&nbsp;</a></span>_cachedFrames</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">unsigned FluidS::Voice::_cachedFrames = 0</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a57962862516748bdbfa0333e4c84e076"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a57962862516748bdbfa0333e4c84e076">&#9670;&nbsp;</a></span>_cacheOut</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">std::vector&lt;float&gt; FluidS::Voice::_cacheOut</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="ab0c2523df2885400ea4646eebfd52cae"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ab0c2523df2885400ea4646eebfd52cae">&#9670;&nbsp;</a></span>_cacheReverb</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">std::vector&lt;float&gt; FluidS::Voice::_cacheReverb</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a9b8aa14547274ef9d5adb2506bd00c82"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a9b8aa14547274ef9d5adb2506bd00c82">&#9670;&nbsp;</a></span>_fluid</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="class_fluid_s_1_1_fluid.html">Fluid</a>* FluidS::Voice::_fluid</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a3962dbe3d478b3c9a3a6ec113c597c45"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a3962dbe3d478b3c9a3a6ec113c597c45">&#9670;&nbsp;</a></span>_initialCacheFrames</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">unsigned FluidS::Voice::_initialCacheFrames = 0</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a64cf861491cd5fceedeabd8cc965d32b"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a64cf861491cd5fceedeabd8cc965d32b">&#9670;&nbsp;</a></span>_noteTuning</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">double FluidS::Voice::_noteTuning</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
 <a id="a95e327752233414ea9b8d16ab05f9191"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a95e327752233414ea9b8d16ab05f9191">&#9670;&nbsp;</a></span>a1</h2>
 
@@ -1674,6 +1979,50 @@ Public Attributes</h2></td></tr>
 
 </div>
 </div>
+<a id="ac55de221ca5a1653f96e6704e570d15b"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ac55de221ca5a1653f96e6704e570d15b">&#9670;&nbsp;</a></span>interp_coeff</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">float Voice::interp_coeff</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a3f0abf523d36bc8a28915c6d8e1ea783"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a3f0abf523d36bc8a28915c6d8e1ea783">&#9670;&nbsp;</a></span>interp_coeff_linear</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">float Voice::interp_coeff_linear</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
 <a id="a045edf6153559c10f1a23944034679ca"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a045edf6153559c10f1a23944034679ca">&#9670;&nbsp;</a></span>interp_method</h2>
 
@@ -2132,6 +2481,28 @@ Public Attributes</h2></td></tr>
           <td class="memname">std::map&lt;int, qreal&gt; FluidS::Voice::Sample2AmpInc</td>
         </tr>
       </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a36e2664288eecafd4f9de0e128630281"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a36e2664288eecafd4f9de0e128630281">&#9670;&nbsp;</a></span>sinc_table7</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">float Voice::sinc_table7</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
 </div><div class="memdoc">
 
 </div>

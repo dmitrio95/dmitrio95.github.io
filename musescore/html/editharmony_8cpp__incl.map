@@ -12,8 +12,8 @@
 <area shape="rect" id="node11" href="$musescore_core_8h.html" title="libmscore/musescoreCore.h" alt="" coords="1114,155,1299,181"/>
 <area shape="rect" id="node34" href="$newwizard_8h.html" title="newwizard.h" alt="" coords="1153,379,1247,405"/>
 <area shape="rect" id="node13" href="$input_8h.html" title="input.h" alt="" coords="1552,229,1613,256"/>
-<area shape="rect" id="node27" href="$property_8h.html" title="property.h" alt="" coords="1707,379,1787,405"/>
-<area shape="rect" id="node28" href="$libmscore_2instrument_8h.html" title="instrument.h" alt="" coords="1487,603,1582,629"/>
+<area shape="rect" id="node27" href="$property_8h.html" title="property.h" alt="" coords="1728,379,1808,405"/>
+<area shape="rect" id="node28" href="$libmscore_2instrument_8h.html" title="instrument.h" alt="" coords="1482,603,1577,629"/>
 <area shape="rect" id="node29" href="$select_8h.html" title="select.h" alt="" coords="1905,304,1973,331"/>
 <area shape="rect" id="node30" href="$synthesizerstate_8h.html" title="synthesizerstate.h" alt="" coords="1638,229,1767,256"/>
 <area shape="rect" id="node31" href="$mscoreview_8h.html" title="mscoreview.h" alt="" coords="1894,229,1997,256"/>
@@ -29,7 +29,7 @@
 <area shape="rect" id="node22" href="$shape_8h.html" title="shape.h" alt="" coords="2691,603,2759,629"/>
 <area shape="rect" id="node23" href="$symbol_8h.html" title="symbol.h" alt="" coords="2187,528,2261,555"/>
 <area shape="rect" id="node24" href="$pitchspelling_8h.html" title="pitchspelling.h" alt="" coords="2006,528,2111,555"/>
-<area shape="rect" id="node25" href="$key_8h.html" title="key.h" alt="" coords="1555,528,1610,555"/>
+<area shape="rect" id="node25" href="$key_8h.html" title="key.h" alt="" coords="1546,528,1601,555"/>
 <area shape="rect" id="node20" href="$spatium_8h.html" title="spatium.h" alt="" coords="2353,603,2431,629"/>
 <area shape="rect" id="node21" href="$libmscore_2score_element_8h.html" title="scoreElement.h" alt="" coords="2641,677,2754,704"/>
 <area shape="rect" id="node38" href="$timesig_8h.html" title="libmscore/timesig.h" alt="" coords="1323,453,1458,480"/>

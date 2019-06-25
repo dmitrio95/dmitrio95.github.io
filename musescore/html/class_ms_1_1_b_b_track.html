@@ -23,9 +23,9 @@
   <td id="projectlogo"><img alt="Logo" src="musescore_logo_full.png"/></td>
   <td id="projectalign" style="padding-left: 0.5em;">
    <div id="projectname">MuseScore
-   &#160;<span id="projectnumber">3.1</span>
+   &#160;<span id="projectnumber">3.2</span>
    </div>
-   <div id="projectbrief">Music compisition and notation</div>
+   <div id="projectbrief">Music composition and notation</div>
   </td>
  </tr>
  </tbody>
@@ -67,6 +67,8 @@ $(function() {
 <div class="header">
   <div class="summary">
 <a href="#pub-methods">Public Member Functions</a> &#124;
+<a href="#pri-methods">Private Member Functions</a> &#124;
+<a href="#pri-attribs">Private Attributes</a> &#124;
 <a href="#friends">Friends</a> &#124;
 <a href="class_ms_1_1_b_b_track-members.html">List of all members</a>  </div>
   <div class="headertitle">
@@ -75,6 +77,16 @@ $(function() {
 <div class="contents">
 
 <p><code>#include &lt;<a class="el" href="bb_8h_source.html">bb.h</a>&gt;</code></p>
+<div class="dynheader">
+Collaboration diagram for Ms::BBTrack:</div>
+<div class="dyncontent">
+<div class="center"><img src="class_ms_1_1_b_b_track__coll__graph.png" border="0" usemap="#_ms_1_1_b_b_track_coll__map" alt="Collaboration graph"/></div>
+<map name="_ms_1_1_b_b_track_coll__map" id="_ms_1_1_b_b_track_coll__map">
+<area shape="rect" id="node2" href="class_ms_1_1_b_b_file.html" title="Ms::BBFile" alt="" coords="56,171,143,197"/>
+<area shape="rect" id="node3" href="class_ms_1_1_time_sig_map.html" title="Ms::TimeSigMap" alt="" coords="31,81,152,108"/>
+<area shape="rect" id="node5" href="class_ms_1_1_event_list.html" title="Ms::EventList" alt="" coords="177,171,280,197"/>
+</map>
+<center><span class="legend">[<a href="graph_legend.html">legend</a>]</span></center></div>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
@@ -102,6 +114,22 @@ Public Member Functions</h2></td></tr>
 <tr class="separator:a5e72d24f9047ca288c908027d40565a6"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a134fcbc4f10b34a0cd8f799229c40aef"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ms_1_1_b_b_track.html#a134fcbc4f10b34a0cd8f799229c40aef">cleanup</a> ()</td></tr>
 <tr class="separator:a134fcbc4f10b34a0cd8f799229c40aef"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pri-methods"></a>
+Private Member Functions</h2></td></tr>
+<tr class="memitem:a5eb8a29a216379eb94333fad34d7e19d"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ms_1_1_b_b_track.html#a5eb8a29a216379eb94333fad34d7e19d">quantize</a> (int startTick, int endTick, <a class="el" href="class_ms_1_1_event_list.html">EventList</a> *dst)</td></tr>
+<tr class="separator:a5eb8a29a216379eb94333fad34d7e19d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pri-attribs"></a>
+Private Attributes</h2></td></tr>
+<tr class="memitem:af9055d30be08da215c33416736f9f624"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_ms_1_1_b_b_file.html">BBFile</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ms_1_1_b_b_track.html#af9055d30be08da215c33416736f9f624">bb</a></td></tr>
+<tr class="separator:af9055d30be08da215c33416736f9f624"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a680a732a5bcb27a1f882c980634d3742"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_ms_1_1_event_list.html">EventList</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ms_1_1_b_b_track.html#a680a732a5bcb27a1f882c980634d3742">_events</a></td></tr>
+<tr class="separator:a680a732a5bcb27a1f882c980634d3742"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a0a58be2b12927068a461f62db03370b9"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ms_1_1_b_b_track.html#a0a58be2b12927068a461f62db03370b9">_outChannel</a></td></tr>
+<tr class="separator:a0a58be2b12927068a461f62db03370b9"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad0b5d32500a01ef5d76115afb98ab26f"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ms_1_1_b_b_track.html#ad0b5d32500a01ef5d76115afb98ab26f">_drumTrack</a></td></tr>
+<tr class="separator:ad0b5d32500a01ef5d76115afb98ab26f"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="friends"></a>
 Friends</h2></td></tr>
@@ -323,6 +351,48 @@ Friends</h2></td></tr>
 
 </div>
 </div>
+<a id="a5eb8a29a216379eb94333fad34d7e19d"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a5eb8a29a216379eb94333fad34d7e19d">&#9670;&nbsp;</a></span>quantize()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void Ms::BBTrack::quantize </td>
+          <td>(</td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>startTick</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>endTick</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="class_ms_1_1_event_list.html">EventList</a> *&#160;</td>
+          <td class="paramname"><em>dst</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
 <a id="a5e72d24f9047ca288c908027d40565a6"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a5e72d24f9047ca288c908027d40565a6">&#9670;&nbsp;</a></span>separateVoices()</h2>
 
@@ -384,6 +454,95 @@ Friends</h2></td></tr>
   </td>
   <td class="mlabels-right">
 <span class="mlabels"><span class="mlabel">friend</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<h2 class="groupheader">Member Data Documentation</h2>
+<a id="ad0b5d32500a01ef5d76115afb98ab26f"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ad0b5d32500a01ef5d76115afb98ab26f">&#9670;&nbsp;</a></span>_drumTrack</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool Ms::BBTrack::_drumTrack</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a680a732a5bcb27a1f882c980634d3742"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a680a732a5bcb27a1f882c980634d3742">&#9670;&nbsp;</a></span>_events</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="class_ms_1_1_event_list.html">EventList</a> Ms::BBTrack::_events</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a0a58be2b12927068a461f62db03370b9"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a0a58be2b12927068a461f62db03370b9">&#9670;&nbsp;</a></span>_outChannel</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">int Ms::BBTrack::_outChannel</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="af9055d30be08da215c33416736f9f624"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#af9055d30be08da215c33416736f9f624">&#9670;&nbsp;</a></span>bb</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="class_ms_1_1_b_b_file.html">BBFile</a>* Ms::BBTrack::bb</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
   </tr>
 </table>
 </div><div class="memdoc">

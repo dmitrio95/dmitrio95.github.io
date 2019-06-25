@@ -23,9 +23,9 @@
   <td id="projectlogo"><img alt="Logo" src="musescore_logo_full.png"/></td>
   <td id="projectalign" style="padding-left: 0.5em;">
    <div id="projectname">MuseScore
-   &#160;<span id="projectnumber">3.1</span>
+   &#160;<span id="projectnumber">3.2</span>
    </div>
-   <div id="projectbrief">Music compisition and notation</div>
+   <div id="projectbrief">Music composition and notation</div>
   </td>
  </tr>
  </tbody>
@@ -67,6 +67,8 @@ $(function() {
 <div class="header">
   <div class="summary">
 <a href="#pub-methods">Public Member Functions</a> &#124;
+<a href="#pri-methods">Private Member Functions</a> &#124;
+<a href="#pri-attribs">Private Attributes</a> &#124;
 <a href="class_ms_1_1_guitar_pro4-members.html">List of all members</a>  </div>
   <div class="headertitle">
 <div class="title">Ms::GuitarPro4 Class Reference</div>  </div>
@@ -87,25 +89,48 @@ Collaboration diagram for Ms::GuitarPro4:</div>
 <div class="dyncontent">
 <div class="center"><img src="class_ms_1_1_guitar_pro4__coll__graph.png" border="0" usemap="#_ms_1_1_guitar_pro4_coll__map" alt="Collaboration graph"/></div>
 <map name="_ms_1_1_guitar_pro4_coll__map" id="_ms_1_1_guitar_pro4_coll__map">
-<area shape="rect" id="node2" href="class_ms_1_1_guitar_pro.html" title="Ms::GuitarPro" alt="" coords="451,743,553,769"/>
-<area shape="rect" id="node3" href="class_ms_1_1_segment.html" title="Ms::Segment" alt="" coords="515,400,615,427"/>
-<area shape="rect" id="node4" href="class_ms_1_1_element.html" title="Base class of score layout elements. " alt="" coords="409,260,505,287"/>
-<area shape="rect" id="node9" href="class_ms_1_1_measure_base.html" title="Virtual base class for Measure, HBox and VBox. " alt="" coords="265,349,393,376"/>
-<area shape="rect" id="node19" href="class_ms_1_1_spanner.html" title="Virtual base class for slurs, ties, lines etc. " alt="" coords="417,349,513,376"/>
-<area shape="rect" id="node5" href="class_ms_1_1_score_element.html" title="Ms::ScoreElement" alt="" coords="309,171,439,197"/>
-<area shape="rect" id="node12" href="class_ms_1_1_score.html" title="Ms::Score" alt="" coords="179,260,262,287"/>
-<area shape="rect" id="node6" href="class_ms_1_1_linked_elements.html" title="Ms::LinkedElements" alt="" coords="303,81,445,108"/>
-<area shape="rect" id="node8" href="class_ms_1_1_measure.html" title="one measure in a system " alt="" coords="253,501,351,528"/>
-<area shape="rect" id="node10" href="class_ms_1_1_fraction.html" title="Ms::Fraction" alt="" coords="287,260,381,287"/>
-<area shape="rect" id="node11" href="class_ms_1_1_master_score.html" title="Ms::MasterScore" alt="" coords="159,400,282,427"/>
-<area shape="rect" id="node14" href="class_ms_1_1_synthesizer_state.html" title="Ms::SynthesizerState" alt="" coords="28,171,176,197"/>
-<area shape="rect" id="node16" href="class_ms_1_1_hairpin.html" title="Ms::Hairpin" alt="" coords="363,653,452,680"/>
-<area shape="rect" id="node17" href="class_ms_1_1_text_line_base.html" title="Ms::TextLineBase" alt="" coords="339,552,467,579"/>
-<area shape="rect" id="node18" href="class_ms_1_1_s_line.html" title="virtual base class for Hairpin, Trill and TextLine " alt="" coords="340,451,421,477"/>
-<area shape="rect" id="node23" href="class_ms_1_1_slur_tie.html" title="Ms::SlurTie" alt="" coords="445,451,535,477"/>
-<area shape="rect" id="node20" href="struct_ms_1_1_g_p_lyrics.html" title="Ms::GPLyrics" alt="" coords="611,653,713,680"/>
-<area shape="rect" id="node21" href="struct_ms_1_1_gp_track.html" title="Ms::GpTrack" alt="" coords="738,653,837,680"/>
-<area shape="rect" id="node22" href="class_ms_1_1_slur.html" title="Ms::Slur" alt="" coords="468,603,539,629"/>
+<area shape="rect" id="node2" href="class_ms_1_1_guitar_pro.html" title="Ms::GuitarPro" alt="" coords="2831,1381,2933,1408"/>
+<area shape="rect" id="node3" href="class_ms_1_1_segment.html" title="Ms::Segment" alt="" coords="319,1197,419,1224"/>
+<area shape="rect" id="node29" href="class_ms_1_1_input_state.html" title="Ms::InputState" alt="" coords="659,1037,767,1064"/>
+<area shape="rect" id="node36" href="class_ms_1_1_selection.html" title="Ms::Selection" alt="" coords="1329,923,1431,949"/>
+<area shape="rect" id="node45" href="class_ms_1_1_segment_list.html" title="Ms::SegmentList" alt="" coords="831,1197,952,1224"/>
+<area shape="rect" id="node4" href="class_ms_1_1_element.html" title="Base class of score layout elements. " alt="" coords="1636,1264,1732,1291"/>
+<area shape="rect" id="node26" href="class_ms_1_1_measure_base.html" title="Virtual base class for Measure, HBox and VBox. " alt="" coords="1879,623,2007,649"/>
+<area shape="rect" id="node33" href="class_ms_1_1_spanner.html" title="Virtual base class for slurs, ties, lines etc. " alt="" coords="1895,1313,1991,1340"/>
+<area shape="rect" id="node5" href="class_ms_1_1_score_element.html" title="Ms::ScoreElement" alt="" coords="1315,1012,1445,1039"/>
+<area shape="rect" id="node6" href="class_ms_1_1_score.html" title="Ms::Score" alt="" coords="1025,743,1107,769"/>
+<area shape="rect" id="node8" href="class_ms_1_1_excerpt.html" title="Ms::Excerpt" alt="" coords="1896,856,1989,883"/>
+<area shape="rect" id="node9" href="class_ms_1_1_master_score.html" title="Ms::MasterScore" alt="" coords="1623,465,1745,492"/>
+<area shape="rect" id="node13" href="class_ms_1_1_repeat_list.html" title="Ms::RepeatList" alt="" coords="1325,608,1435,635"/>
+<area shape="rect" id="node40" href="class_ms_1_1_selection_filter.html" title="Ms::SelectionFilter" alt="" coords="1315,659,1445,685"/>
+<area shape="rect" id="node10" href="class_ms_1_1_omr.html" title="Ms::Omr" alt="" coords="1343,557,1417,584"/>
+<area shape="rect" id="node11" href="class_ms_1_1_cmd_state.html" title="Ms::CmdState" alt="" coords="489,129,596,156"/>
+<area shape="rect" id="node12" href="class_ms_1_1_fraction.html" title="Ms::Fraction" alt="" coords="6,591,101,617"/>
+<area shape="rect" id="node44" href="class_ms_1_1_measure.html" title="one measure in a system " alt="" coords="2113,641,2212,668"/>
+<area shape="rect" id="node15" href="class_ms_1_1_revisions.html" title="Ms::Revisions" alt="" coords="1327,280,1433,307"/>
+<area shape="rect" id="node16" href="class_ms_1_1_revision.html" title="Ms::Revision" alt="" coords="1017,315,1115,341"/>
+<area shape="rect" id="node17" href="class_ms_1_1_tempo_map.html" title="Ms::TempoMap" alt="" coords="1323,331,1437,357"/>
+<area shape="rect" id="node19" href="class_ms_1_1_movements.html" title="Ms::Movements" alt="" coords="1008,225,1124,252"/>
+<area shape="rect" id="node21" href="class_ms_1_1_text.html" title="Ms::Text" alt="" coords="676,231,751,257"/>
+<area shape="rect" id="node22" href="class_ms_1_1_m_style.html" title="Ms::MStyle" alt="" coords="669,395,758,421"/>
+<area shape="rect" id="node23" href="class_ms_1_1_time_sig_map.html" title="Ms::TimeSigMap" alt="" coords="1319,381,1441,408"/>
+<area shape="rect" id="node25" href="class_ms_1_1_measure_base_list.html" title="Ms::MeasureBaseList" alt="" coords="2088,729,2237,756"/>
+<area shape="rect" id="node27" href="class_ms_1_1_element_list.html" title="Ms::ElementList" alt="" coords="1625,57,1743,84"/>
+<area shape="rect" id="node30" href="class_ms_1_1_t_duration.html" title="Ms::TDuration" alt="" coords="316,1037,421,1064"/>
+<area shape="rect" id="node31" href="class_ms_1_1_slur.html" title="Ms::Slur" alt="" coords="2351,1313,2422,1340"/>
+<area shape="rect" id="node32" href="class_ms_1_1_slur_tie.html" title="Ms::SlurTie" alt="" coords="2118,1313,2207,1340"/>
+<area shape="rect" id="node48" href="class_ms_1_1_s_line.html" title="virtual base class for Hairpin, Trill and TextLine " alt="" coords="2122,1432,2203,1459"/>
+<area shape="rect" id="node34" href="class_ms_1_1_synthesizer_state.html" title="Ms::SynthesizerState" alt="" coords="639,641,787,668"/>
+<area shape="rect" id="node37" href="class_ms_1_1_spanner_map.html" title="Ms::SpannerMap" alt="" coords="653,743,774,769"/>
+<area shape="rect" id="node38" href="class_ms_1_1_update_state.html" title="Ms::UpdateState" alt="" coords="653,793,774,820"/>
+<area shape="rect" id="node39" href="class_ms_1_1_audio.html" title="Ms::Audio" alt="" coords="673,844,754,871"/>
+<area shape="rect" id="node41" href="class_ms_1_1_score_font.html" title="Ms::ScoreFont" alt="" coords="659,692,767,719"/>
+<area shape="rect" id="node42" href="class_ms_1_1_linked_elements.html" title="Ms::LinkedElements" alt="" coords="995,1096,1137,1123"/>
+<area shape="rect" id="node43" href="class_ms_1_1_spatium.html" title="Ms::Spatium" alt="" coords="5,1463,101,1489"/>
+<area shape="rect" id="node46" href="class_ms_1_1_hairpin.html" title="Ms::Hairpin" alt="" coords="2588,1432,2677,1459"/>
+<area shape="rect" id="node47" href="class_ms_1_1_text_line_base.html" title="Ms::TextLineBase" alt="" coords="2323,1432,2451,1459"/>
+<area shape="rect" id="node49" href="struct_ms_1_1_g_p_lyrics.html" title="Ms::GPLyrics" alt="" coords="2581,1483,2684,1509"/>
+<area shape="rect" id="node50" href="struct_ms_1_1_gp_track.html" title="Ms::GpTrack" alt="" coords="2583,1533,2682,1560"/>
 </map>
 <center><span class="legend">[<a href="graph_legend.html">legend</a>]</span></center></div>
 <table class="memberdecls">
@@ -126,6 +151,26 @@ Public Member Functions</h2></td></tr>
 <tr class="separator:ae91ad2e3ed9c448064bf9510a981e074 inherit pub_methods_class_ms_1_1_guitar_pro"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aaa7b5d5176a9abe97592dedf9ee7b148 inherit pub_methods_class_ms_1_1_guitar_pro"><td class="memItemLeft" align="right" valign="top">QString&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ms_1_1_guitar_pro.html#aaa7b5d5176a9abe97592dedf9ee7b148">error</a> (<a class="el" href="class_ms_1_1_guitar_pro.html#a22c176114b2efbc1e7076761d4b598be">GuitarProError</a> n) const</td></tr>
 <tr class="separator:aaa7b5d5176a9abe97592dedf9ee7b148 inherit pub_methods_class_ms_1_1_guitar_pro"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pri-methods"></a>
+Private Member Functions</h2></td></tr>
+<tr class="memitem:a563c314bbe93bf039d85b40808236d27"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ms_1_1_guitar_pro4.html#a563c314bbe93bf039d85b40808236d27">readInfo</a> ()</td></tr>
+<tr class="separator:a563c314bbe93bf039d85b40808236d27"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a8f1f0f0be4f37643bc7829a50df21c72"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ms_1_1_guitar_pro4.html#a8f1f0f0be4f37643bc7829a50df21c72">readNote</a> (int string, int staffIdx, <a class="el" href="class_ms_1_1_note.html">Note</a> *note)</td></tr>
+<tr class="separator:a8f1f0f0be4f37643bc7829a50df21c72"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a93fa1d355896d1fca6e43b56c2905594"><td class="memItemLeft" align="right" valign="top">virtual int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ms_1_1_guitar_pro4.html#a93fa1d355896d1fca6e43b56c2905594">readBeatEffects</a> (int track, <a class="el" href="class_ms_1_1_segment.html">Segment</a> *segment)</td></tr>
+<tr class="separator:a93fa1d355896d1fca6e43b56c2905594"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a273d4e7fb3fc69dedaa0481dc359d1e5"><td class="memItemLeft" align="right" valign="top">virtual bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ms_1_1_guitar_pro4.html#a273d4e7fb3fc69dedaa0481dc359d1e5">readMixChange</a> (<a class="el" href="class_ms_1_1_measure.html">Measure</a> *measure)</td></tr>
+<tr class="separator:a273d4e7fb3fc69dedaa0481dc359d1e5"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a840d7b2a7dd516c94a3cf8a3212f2935"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ms_1_1_guitar_pro4.html#a840d7b2a7dd516c94a3cf8a3212f2935">convertGP4SlideNum</a> (int <a class="el" href="class_ms_1_1_guitar_pro.html#ad11a5e1319033ffc189264ffeec8ffec">slide</a>)</td></tr>
+<tr class="separator:a840d7b2a7dd516c94a3cf8a3212f2935"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pri-attribs"></a>
+Private Attributes</h2></td></tr>
+<tr class="memitem:af9d6c03f6fb1999ff163f21abed9d8b5"><td class="memItemLeft" align="right" valign="top">std::vector&lt; int &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ms_1_1_guitar_pro4.html#af9d6c03f6fb1999ff163f21abed9d8b5">curDynam</a></td></tr>
+<tr class="separator:af9d6c03f6fb1999ff163f21abed9d8b5"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a56f4d7aec7630b9965d27a58d33d8b9e"><td class="memItemLeft" align="right" valign="top">std::vector&lt; int &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ms_1_1_guitar_pro4.html#a56f4d7aec7630b9965d27a58d33d8b9e">tupleKind</a></td></tr>
+<tr class="separator:a56f4d7aec7630b9965d27a58d33d8b9e"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="inherited"></a>
 Additional Inherited Members</h2></td></tr>
@@ -431,6 +476,32 @@ Additional Inherited Members</h2></td></tr>
 </div>
 </div>
 <h2 class="groupheader">Member Function Documentation</h2>
+<a id="a840d7b2a7dd516c94a3cf8a3212f2935"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a840d7b2a7dd516c94a3cf8a3212f2935">&#9670;&nbsp;</a></span>convertGP4SlideNum()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">int Ms::GuitarPro4::convertGP4SlideNum </td>
+          <td>(</td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>slide</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
 <a id="adf519de202df0ada859e86cbf27619d2"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#adf519de202df0ada859e86cbf27619d2">&#9670;&nbsp;</a></span>read()</h2>
 
@@ -456,6 +527,184 @@ Additional Inherited Members</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Implements <a class="el" href="class_ms_1_1_guitar_pro.html#a377b93152aef3c19bd8136c8c53ddabb">Ms::GuitarPro</a>.</p>
+
+</div>
+</div>
+<a id="a93fa1d355896d1fca6e43b56c2905594"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a93fa1d355896d1fca6e43b56c2905594">&#9670;&nbsp;</a></span>readBeatEffects()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">int Ms::GuitarPro4::readBeatEffects </td>
+          <td>(</td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>track</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="class_ms_1_1_segment.html">Segment</a> *&#160;</td>
+          <td class="paramname"><em>segment</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span><span class="mlabel">virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Implements <a class="el" href="class_ms_1_1_guitar_pro.html#a0978450e49d1f34a510e6c45dca5a02f">Ms::GuitarPro</a>.</p>
+
+</div>
+</div>
+<a id="a563c314bbe93bf039d85b40808236d27"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a563c314bbe93bf039d85b40808236d27">&#9670;&nbsp;</a></span>readInfo()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void Ms::GuitarPro4::readInfo </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a273d4e7fb3fc69dedaa0481dc359d1e5"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a273d4e7fb3fc69dedaa0481dc359d1e5">&#9670;&nbsp;</a></span>readMixChange()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool Ms::GuitarPro4::readMixChange </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="class_ms_1_1_measure.html">Measure</a> *&#160;</td>
+          <td class="paramname"><em>measure</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span><span class="mlabel">virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Reimplemented from <a class="el" href="class_ms_1_1_guitar_pro.html#ae16e9c9028ca268322f7c6921091d547">Ms::GuitarPro</a>.</p>
+
+</div>
+</div>
+<a id="a8f1f0f0be4f37643bc7829a50df21c72"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a8f1f0f0be4f37643bc7829a50df21c72">&#9670;&nbsp;</a></span>readNote()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool Ms::GuitarPro4::readNote </td>
+          <td>(</td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>string</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>staffIdx</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="class_ms_1_1_note.html">Note</a> *&#160;</td>
+          <td class="paramname"><em>note</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<h2 class="groupheader">Member Data Documentation</h2>
+<a id="af9d6c03f6fb1999ff163f21abed9d8b5"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#af9d6c03f6fb1999ff163f21abed9d8b5">&#9670;&nbsp;</a></span>curDynam</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">std::vector&lt;int&gt; Ms::GuitarPro4::curDynam</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a56f4d7aec7630b9965d27a58d33d8b9e"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a56f4d7aec7630b9965d27a58d33d8b9e">&#9670;&nbsp;</a></span>tupleKind</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">std::vector&lt;int&gt; Ms::GuitarPro4::tupleKind</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
 
 </div>
 </div>

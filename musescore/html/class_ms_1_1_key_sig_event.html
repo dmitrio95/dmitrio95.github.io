@@ -23,9 +23,9 @@
   <td id="projectlogo"><img alt="Logo" src="musescore_logo_full.png"/></td>
   <td id="projectalign" style="padding-left: 0.5em;">
    <div id="projectname">MuseScore
-   &#160;<span id="projectnumber">3.1</span>
+   &#160;<span id="projectnumber">3.2</span>
    </div>
-   <div id="projectbrief">Music compisition and notation</div>
+   <div id="projectbrief">Music composition and notation</div>
   </td>
  </tr>
  </tbody>
@@ -67,6 +67,8 @@ $(function() {
 <div class="header">
   <div class="summary">
 <a href="#pub-methods">Public Member Functions</a> &#124;
+<a href="#pri-methods">Private Member Functions</a> &#124;
+<a href="#pri-attribs">Private Attributes</a> &#124;
 <a href="class_ms_1_1_key_sig_event-members.html">List of all members</a>  </div>
   <div class="headertitle">
 <div class="title">Ms::KeySigEvent Class Reference</div>  </div>
@@ -83,6 +85,8 @@ Public Member Functions</h2></td></tr>
 <tr class="separator:a3ad993e09564785f5a8feae3d85d8dfc"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a55a72cd91a198d696cf4db35f6b89b9b"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ms_1_1_key_sig_event.html#a55a72cd91a198d696cf4db35f6b89b9b">operator==</a> (const <a class="el" href="class_ms_1_1_key_sig_event.html">KeySigEvent</a> &amp;e) const</td></tr>
 <tr class="separator:a55a72cd91a198d696cf4db35f6b89b9b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a3607e38feaf4be541ab6f08253fbcdbd"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ms_1_1_key_sig_event.html#a3607e38feaf4be541ab6f08253fbcdbd">operator!=</a> (const <a class="el" href="class_ms_1_1_key_sig_event.html">KeySigEvent</a> &amp;e) const</td></tr>
+<tr class="separator:a3607e38feaf4be541ab6f08253fbcdbd"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a0e522f9b3f3cb460981a8c7826dc1a01"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ms_1_1_key_sig_event.html#a0e522f9b3f3cb460981a8c7826dc1a01">setKey</a> (<a class="el" href="namespace_ms.html#a179a9005112d5cdef0f8a79327c752e6">Key</a> v)</td></tr>
 <tr class="separator:a0e522f9b3f3cb460981a8c7826dc1a01"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ad9aef94e4ced4932260087079958b15b"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ms_1_1_key_sig_event.html#ad9aef94e4ced4932260087079958b15b">print</a> () const</td></tr>
@@ -107,6 +111,22 @@ Public Member Functions</h2></td></tr>
 <tr class="separator:a15ff5090a86fdc8ce70d00e293ca073b"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:abc35d3442b3e3e8b78b17a3ec661afd7"><td class="memItemLeft" align="right" valign="top">const QList&lt; <a class="el" href="struct_ms_1_1_key_sym.html">KeySym</a> &gt; &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ms_1_1_key_sig_event.html#abc35d3442b3e3e8b78b17a3ec661afd7">keySymbols</a> () const</td></tr>
 <tr class="separator:abc35d3442b3e3e8b78b17a3ec661afd7"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pri-methods"></a>
+Private Member Functions</h2></td></tr>
+<tr class="memitem:afb32dfa07742a2525a875daf817a7521"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ms_1_1_key_sig_event.html#afb32dfa07742a2525a875daf817a7521">enforceLimits</a> ()</td></tr>
+<tr class="separator:afb32dfa07742a2525a875daf817a7521"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pri-attribs"></a>
+Private Attributes</h2></td></tr>
+<tr class="memitem:a87032ed37beba2ab57654cbf2d3285db"><td class="memItemLeft" align="right" valign="top"><a class="el" href="namespace_ms.html#a179a9005112d5cdef0f8a79327c752e6">Key</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ms_1_1_key_sig_event.html#a87032ed37beba2ab57654cbf2d3285db">_key</a> { <a class="el" href="namespace_ms.html#a179a9005112d5cdef0f8a79327c752e6accc0377a8afbf50e7094f5c23a8af223">Key::INVALID</a> }</td></tr>
+<tr class="separator:a87032ed37beba2ab57654cbf2d3285db"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a643a6738a04e74369a6092077f9d03bf"><td class="memItemLeft" align="right" valign="top"><a class="el" href="namespace_ms.html#a2eb1b28e95da78e69feaf07326b62318">KeyMode</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ms_1_1_key_sig_event.html#a643a6738a04e74369a6092077f9d03bf">_mode</a> { <a class="el" href="namespace_ms.html#a1d19008c03cb6d496010a5451a9a5e71a696b031073e74bf2cb98e5ef201d4aa3">KeyMode::UNKNOWN</a> }</td></tr>
+<tr class="separator:a643a6738a04e74369a6092077f9d03bf"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aaabc70ff6f24c2cb09432dd552e84093"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ms_1_1_key_sig_event.html#aaabc70ff6f24c2cb09432dd552e84093">_custom</a> { false }</td></tr>
+<tr class="separator:aaabc70ff6f24c2cb09432dd552e84093"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae14695902c8ac32ce5c5fe05580528f1"><td class="memItemLeft" align="right" valign="top">QList&lt; <a class="el" href="struct_ms_1_1_key_sym.html">KeySym</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ms_1_1_key_sig_event.html#ae14695902c8ac32ce5c5fe05580528f1">_keySymbols</a></td></tr>
+<tr class="separator:ae14695902c8ac32ce5c5fe05580528f1"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
 <a id="a6e02178a27b7d5335aec4ea964ee1f18"></a>
@@ -172,6 +192,31 @@ Public Member Functions</h2></td></tr>
   </td>
   <td class="mlabels-right">
 <span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="afb32dfa07742a2525a875daf817a7521"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#afb32dfa07742a2525a875daf817a7521">&#9670;&nbsp;</a></span>enforceLimits()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void Ms::KeySigEvent::enforceLimits </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
   </tr>
 </table>
 </div><div class="memdoc">
@@ -346,6 +391,32 @@ Public Member Functions</h2></td></tr>
 
 </div>
 </div>
+<a id="a3607e38feaf4be541ab6f08253fbcdbd"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a3607e38feaf4be541ab6f08253fbcdbd">&#9670;&nbsp;</a></span>operator!=()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool Ms::KeySigEvent::operator!= </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="class_ms_1_1_key_sig_event.html">KeySigEvent</a> &amp;&#160;</td>
+          <td class="paramname"><em>e</em></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
 <a id="a55a72cd91a198d696cf4db35f6b89b9b"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a55a72cd91a198d696cf4db35f6b89b9b">&#9670;&nbsp;</a></span>operator==()</h2>
 
@@ -445,6 +516,95 @@ Public Member Functions</h2></td></tr>
   </td>
   <td class="mlabels-right">
 <span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<h2 class="groupheader">Member Data Documentation</h2>
+<a id="aaabc70ff6f24c2cb09432dd552e84093"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aaabc70ff6f24c2cb09432dd552e84093">&#9670;&nbsp;</a></span>_custom</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool Ms::KeySigEvent::_custom { false }</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a87032ed37beba2ab57654cbf2d3285db"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a87032ed37beba2ab57654cbf2d3285db">&#9670;&nbsp;</a></span>_key</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="namespace_ms.html#a179a9005112d5cdef0f8a79327c752e6">Key</a> Ms::KeySigEvent::_key { <a class="el" href="namespace_ms.html#a179a9005112d5cdef0f8a79327c752e6accc0377a8afbf50e7094f5c23a8af223">Key::INVALID</a> }</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="ae14695902c8ac32ce5c5fe05580528f1"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ae14695902c8ac32ce5c5fe05580528f1">&#9670;&nbsp;</a></span>_keySymbols</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">QList&lt;<a class="el" href="struct_ms_1_1_key_sym.html">KeySym</a>&gt; Ms::KeySigEvent::_keySymbols</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a643a6738a04e74369a6092077f9d03bf"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a643a6738a04e74369a6092077f9d03bf">&#9670;&nbsp;</a></span>_mode</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="namespace_ms.html#a2eb1b28e95da78e69feaf07326b62318">KeyMode</a> Ms::KeySigEvent::_mode { <a class="el" href="namespace_ms.html#a1d19008c03cb6d496010a5451a9a5e71a696b031073e74bf2cb98e5ef201d4aa3">KeyMode::UNKNOWN</a> }</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
   </tr>
 </table>
 </div><div class="memdoc">

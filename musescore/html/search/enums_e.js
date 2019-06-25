@@ -6,6 +6,7 @@ var searchData=
   ['pairtype',['PairType',['../class_o_v_e_1_1_measure_data.html#a6965835bc213a8ea3c2a4db2ed7e4280',1,'OVE::MeasureData']]],
   ['palettecommand',['PaletteCommand',['../namespace_ms.html#ae766f7aa85c576136de4039d4635e3b7',1,'Ms']]],
   ['parenthesis',['Parenthesis',['../class_ms_1_1_figured_bass_item.html#a793b442cab61ecc9b909d511ab81a959',1,'Ms::FiguredBassItem']]],
+  ['pcstate',['PCState',['../class_ms_1_1_plugin_creator.html#a5843bff37cbc4346ad5627a27cfbfd36',1,'Ms::PluginCreator']]],
   ['pianoorientation',['PianoOrientation',['../namespace_ms.html#a996781f6cd7dad24e8117958002bb8ee',1,'Ms']]],
   ['pid',['Pid',['../namespace_ms.html#aa0f871cf8181cec31d68d20a39010655',1,'Ms']]],
   ['placement',['Placement',['../namespace_ms.html#a5340e53ea850ac4e67c071825916e469',1,'Ms']]],

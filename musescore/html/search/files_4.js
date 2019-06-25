@@ -1,6 +1,7 @@
 var searchData=
 [
   ['edit_2ecpp',['edit.cpp',['../edit_8cpp.html',1,'']]],
+  ['edit_2eh',['edit.h',['../edit_8h.html',1,'']]],
   ['editdrumset_2ecpp',['editdrumset.cpp',['../editdrumset_8cpp.html',1,'']]],
   ['editdrumset_2eh',['editdrumset.h',['../editdrumset_8h.html',1,'']]],
   ['editelement_2ecpp',['editelement.cpp',['../editelement_8cpp.html',1,'']]],

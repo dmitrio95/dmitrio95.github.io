@@ -23,9 +23,9 @@
   <td id="projectlogo"><img alt="Logo" src="musescore_logo_full.png"/></td>
   <td id="projectalign" style="padding-left: 0.5em;">
    <div id="projectname">MuseScore
-   &#160;<span id="projectnumber">3.1</span>
+   &#160;<span id="projectnumber">3.2</span>
    </div>
-   <div id="projectbrief">Music compisition and notation</div>
+   <div id="projectbrief">Music composition and notation</div>
   </td>
  </tr>
  </tbody>
@@ -70,6 +70,9 @@ $(function() {
 <a href="#pub-methods">Public Member Functions</a> &#124;
 <a href="#pub-static-methods">Static Public Member Functions</a> &#124;
 <a href="#properties">Properties</a> &#124;
+<a href="#pri-static-methods">Static Private Member Functions</a> &#124;
+<a href="#pri-attribs">Private Attributes</a> &#124;
+<a href="#pri-static-attribs">Static Private Attributes</a> &#124;
 <a href="class_ms_1_1_plugin_a_p_i_1_1_plugin_a_p_i-members.html">List of all members</a>  </div>
   <div class="headertitle">
 <div class="title">Ms::PluginAPI::PluginAPI Class Reference</div>  </div>
@@ -93,7 +96,8 @@ Collaboration diagram for Ms::PluginAPI::PluginAPI:</div>
 <div class="dyncontent">
 <div class="center"><img src="class_ms_1_1_plugin_a_p_i_1_1_plugin_a_p_i__coll__graph.png" border="0" usemap="#_ms_1_1_plugin_a_p_i_1_1_plugin_a_p_i_coll__map" alt="Collaboration graph"/></div>
 <map name="_ms_1_1_plugin_a_p_i_1_1_plugin_a_p_i_coll__map" id="_ms_1_1_plugin_a_p_i_1_1_plugin_a_p_i_coll__map">
-<area shape="rect" id="node2" href="class_ms_1_1_qml_plugin.html" title="Ms::QmlPlugin" alt="" coords="37,80,145,107"/>
+<area shape="rect" id="node2" href="class_ms_1_1_qml_plugin.html" title="Ms::QmlPlugin" alt="" coords="5,81,113,108"/>
+<area shape="rect" id="node4" href="class_ms_1_1_plugin_a_p_i_1_1_enum.html" title="Wrapper for enumerations. " alt="" coords="137,81,285,108"/>
 </map>
 <center><span class="legend">[<a href="graph_legend.html">legend</a>]</span></center></div>
 <table class="memberdecls">
@@ -111,8 +115,8 @@ Public Member Functions</h2></td></tr>
 <tr class="separator:a377eb45ca9b942bef98cea6be87ad41b"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a2b4ec2ba6343f696ebcf74772c3ecf57"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_ms_1_1_plugin_a_p_i_1_1_score.html">Score</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ms_1_1_plugin_a_p_i_1_1_plugin_a_p_i.html#a2b4ec2ba6343f696ebcf74772c3ecf57">curScore</a> () const</td></tr>
 <tr class="separator:a2b4ec2ba6343f696ebcf74772c3ecf57"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a0aeda8085fb8f692d37280ae966c6563"><td class="memItemLeft" align="right" valign="top">QQmlListProperty&lt; <a class="el" href="class_ms_1_1_plugin_a_p_i_1_1_score.html">Score</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ms_1_1_plugin_a_p_i_1_1_plugin_a_p_i.html#a0aeda8085fb8f692d37280ae966c6563">scores</a> ()</td></tr>
-<tr class="separator:a0aeda8085fb8f692d37280ae966c6563"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa602b5d9f56ba105873d00c17fa91002"><td class="memItemLeft" align="right" valign="top">QQmlListProperty&lt; <a class="el" href="class_ms_1_1_plugin_a_p_i_1_1_score.html">Score</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ms_1_1_plugin_a_p_i_1_1_plugin_a_p_i.html#aa602b5d9f56ba105873d00c17fa91002">scores</a> ()</td></tr>
+<tr class="separator:aa602b5d9f56ba105873d00c17fa91002"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a83dfefbdec556c8f9632c3d0408c2103"><td class="memItemLeft" align="right" valign="top">Q_INVOKABLE <a class="el" href="class_ms_1_1_plugin_a_p_i_1_1_score.html">Ms::PluginAPI::Score</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ms_1_1_plugin_a_p_i_1_1_plugin_a_p_i.html#a83dfefbdec556c8f9632c3d0408c2103">newScore</a> (const QString &amp;name, const QString &amp;part, int measures)</td></tr>
 <tr class="separator:a83dfefbdec556c8f9632c3d0408c2103"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a240fc1e40f7cd268583bc5ae6bfb7e5b"><td class="memItemLeft" align="right" valign="top">Q_INVOKABLE <a class="el" href="class_ms_1_1_plugin_a_p_i_1_1_element.html">Ms::PluginAPI::Element</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ms_1_1_plugin_a_p_i_1_1_plugin_a_p_i.html#a240fc1e40f7cd268583bc5ae6bfb7e5b">newElement</a> (int)</td></tr>
@@ -208,13 +212,13 @@ Properties</h2></td></tr>
 <tr class="memdesc:a645ab1ac09177bfdd0c7ff903a8fe053"><td class="mdescLeft">&#160;</td><td class="mdescRight">Human-readable plugin description, displayed in Plugin Manager.  <a href="#a645ab1ac09177bfdd0c7ff903a8fe053">More...</a><br /></td></tr>
 <tr class="separator:a645ab1ac09177bfdd0c7ff903a8fe053"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ab012ca33296326776c5cc083117278b7"><td class="memItemLeft" align="right" valign="top">QString&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ms_1_1_plugin_a_p_i_1_1_plugin_a_p_i.html#ab012ca33296326776c5cc083117278b7">pluginType</a></td></tr>
-<tr class="memdesc:ab012ca33296326776c5cc083117278b7"><td class="mdescLeft">&#160;</td><td class="mdescRight">type may be dialog, dock, or not defined  <a href="#ab012ca33296326776c5cc083117278b7">More...</a><br /></td></tr>
+<tr class="memdesc:ab012ca33296326776c5cc083117278b7"><td class="mdescLeft">&#160;</td><td class="mdescRight">Type may be dialog, dock, or not defined.  <a href="#ab012ca33296326776c5cc083117278b7">More...</a><br /></td></tr>
 <tr class="separator:ab012ca33296326776c5cc083117278b7"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ad0f8a54fc07da522f85c8fbe581a3416"><td class="memItemLeft" align="right" valign="top">QString&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ms_1_1_plugin_a_p_i_1_1_plugin_a_p_i.html#ad0f8a54fc07da522f85c8fbe581a3416">dockArea</a></td></tr>
 <tr class="memdesc:ad0f8a54fc07da522f85c8fbe581a3416"><td class="mdescLeft">&#160;</td><td class="mdescRight">Where to dock on main screen.  <a href="#ad0f8a54fc07da522f85c8fbe581a3416">More...</a><br /></td></tr>
 <tr class="separator:ad0f8a54fc07da522f85c8fbe581a3416"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a08f119edd18764a5a65416bea25ef1a7"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ms_1_1_plugin_a_p_i_1_1_plugin_a_p_i.html#a08f119edd18764a5a65416bea25ef1a7">requiresScore</a></td></tr>
-<tr class="memdesc:a08f119edd18764a5a65416bea25ef1a7"><td class="mdescLeft">&#160;</td><td class="mdescRight">Whether the plugin requires an existing score to run.  <a href="#a08f119edd18764a5a65416bea25ef1a7">More...</a><br /></td></tr>
+<tr class="memdesc:a08f119edd18764a5a65416bea25ef1a7"><td class="mdescLeft">&#160;</td><td class="mdescRight">Whether the plugin requires an existing score to run, default is <code>true</code>  <a href="#a08f119edd18764a5a65416bea25ef1a7">More...</a><br /></td></tr>
 <tr class="separator:a08f119edd18764a5a65416bea25ef1a7"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ab1fdce5c651837bea17e18a65e446c23"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ms_1_1_plugin_a_p_i_1_1_plugin_a_p_i.html#ab1fdce5c651837bea17e18a65e446c23">division</a></td></tr>
 <tr class="memdesc:ab1fdce5c651837bea17e18a65e446c23"><td class="mdescLeft">&#160;</td><td class="mdescRight">Number of MIDI ticks for 1/4 note (read only)  <a href="#ab1fdce5c651837bea17e18a65e446c23">More...</a><br /></td></tr>
@@ -235,8 +239,11 @@ Properties</h2></td></tr>
 <tr class="memdesc:a1dac1084d571f4f2d1034f07ea3eb011"><td class="mdescLeft">&#160;</td><td class="mdescRight">(read-only)  <a href="#a1dac1084d571f4f2d1034f07ea3eb011">More...</a><br /></td></tr>
 <tr class="separator:a1dac1084d571f4f2d1034f07ea3eb011"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a6cff55ba0ef9b11748551251e4589995"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_ms_1_1_plugin_a_p_i_1_1_score.html">Ms::PluginAPI::Score</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ms_1_1_plugin_a_p_i_1_1_plugin_a_p_i.html#a6cff55ba0ef9b11748551251e4589995">curScore</a></td></tr>
-<tr class="memdesc:a6cff55ba0ef9b11748551251e4589995"><td class="mdescLeft">&#160;</td><td class="mdescRight">current score, if any (read only)  <a href="#a6cff55ba0ef9b11748551251e4589995">More...</a><br /></td></tr>
+<tr class="memdesc:a6cff55ba0ef9b11748551251e4589995"><td class="mdescLeft">&#160;</td><td class="mdescRight">Current score, if any (read only)  <a href="#a6cff55ba0ef9b11748551251e4589995">More...</a><br /></td></tr>
 <tr class="separator:a6cff55ba0ef9b11748551251e4589995"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab21657c4e3d90f2e4e7ad26bdc3ee606"><td class="memItemLeft" align="right" valign="top">QQmlListProperty&lt; <a class="el" href="class_ms_1_1_plugin_a_p_i_1_1_score.html">Ms::PluginAPI::Score</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ms_1_1_plugin_a_p_i_1_1_plugin_a_p_i.html#ab21657c4e3d90f2e4e7ad26bdc3ee606">scores</a></td></tr>
+<tr class="memdesc:ab21657c4e3d90f2e4e7ad26bdc3ee606"><td class="mdescLeft">&#160;</td><td class="mdescRight">List of currently open scores (read only).  <a href="#ab21657c4e3d90f2e4e7ad26bdc3ee606">More...</a><br /></td></tr>
+<tr class="separator:ab21657c4e3d90f2e4e7ad26bdc3ee606"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a6bc5d7409e3b9ff1219f602801d9b576"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_ms_1_1_plugin_a_p_i_1_1_enum.html">Ms::PluginAPI::Enum</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ms_1_1_plugin_a_p_i_1_1_plugin_a_p_i.html#a6bc5d7409e3b9ff1219f602801d9b576">Element</a></td></tr>
 <tr class="memdesc:a6bc5d7409e3b9ff1219f602801d9b576"><td class="mdescLeft">&#160;</td><td class="mdescRight">Contains <a class="el" href="namespace_ms.html#a2c92ce0204176ede1ab86e2f44ae6b9e">Ms::ElementType</a> enumeration values.  <a href="#a6bc5d7409e3b9ff1219f602801d9b576">More...</a><br /></td></tr>
 <tr class="separator:a6bc5d7409e3b9ff1219f602801d9b576"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -287,6 +294,87 @@ Properties</h2></td></tr>
 <tr class="separator:a0e3297c2d8debe2d8915323332bd0842"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aefb2dc5fa4529b6bc16e13511fbb34a5"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_ms_1_1_plugin_a_p_i_1_1_enum.html">Ms::PluginAPI::Enum</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ms_1_1_plugin_a_p_i_1_1_plugin_a_p_i.html#aefb2dc5fa4529b6bc16e13511fbb34a5">Spanner</a></td></tr>
 <tr class="separator:aefb2dc5fa4529b6bc16e13511fbb34a5"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pri-static-methods"></a>
+Static Private Member Functions</h2></td></tr>
+<tr class="memitem:a44904c371f55ffc3db611e9473ea0a58"><td class="memItemLeft" align="right" valign="top">static <a class="el" href="class_ms_1_1_plugin_a_p_i_1_1_enum.html">Enum</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ms_1_1_plugin_a_p_i_1_1_plugin_a_p_i.html#a44904c371f55ffc3db611e9473ea0a58">get_elementTypeEnum</a> ()</td></tr>
+<tr class="separator:a44904c371f55ffc3db611e9473ea0a58"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aaf57067301a419ff55597cc04ea81c7f"><td class="memItemLeft" align="right" valign="top">static <a class="el" href="class_ms_1_1_plugin_a_p_i_1_1_enum.html">Enum</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ms_1_1_plugin_a_p_i_1_1_plugin_a_p_i.html#aaf57067301a419ff55597cc04ea81c7f">get_accidentalTypeEnum</a> ()</td></tr>
+<tr class="separator:aaf57067301a419ff55597cc04ea81c7f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa01a67b068c878690d18f55da5341375"><td class="memItemLeft" align="right" valign="top">static <a class="el" href="class_ms_1_1_plugin_a_p_i_1_1_enum.html">Enum</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ms_1_1_plugin_a_p_i_1_1_plugin_a_p_i.html#aa01a67b068c878690d18f55da5341375">get_beamModeEnum</a> ()</td></tr>
+<tr class="separator:aa01a67b068c878690d18f55da5341375"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad42adcb18e4a62bfb3e1b627e1a82870"><td class="memItemLeft" align="right" valign="top">static <a class="el" href="class_ms_1_1_plugin_a_p_i_1_1_enum.html">Enum</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ms_1_1_plugin_a_p_i_1_1_plugin_a_p_i.html#ad42adcb18e4a62bfb3e1b627e1a82870">get_placementEnum</a> ()</td></tr>
+<tr class="separator:ad42adcb18e4a62bfb3e1b627e1a82870"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a5faf0afb94bb9dbb53c9a7d6c168c743"><td class="memItemLeft" align="right" valign="top">static <a class="el" href="class_ms_1_1_plugin_a_p_i_1_1_enum.html">Enum</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ms_1_1_plugin_a_p_i_1_1_plugin_a_p_i.html#a5faf0afb94bb9dbb53c9a7d6c168c743">get_glissandoTypeEnum</a> ()</td></tr>
+<tr class="separator:a5faf0afb94bb9dbb53c9a7d6c168c743"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a20cdfec561db8b029683bdb62ce5a906"><td class="memItemLeft" align="right" valign="top">static <a class="el" href="class_ms_1_1_plugin_a_p_i_1_1_enum.html">Enum</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ms_1_1_plugin_a_p_i_1_1_plugin_a_p_i.html#a20cdfec561db8b029683bdb62ce5a906">get_layoutBreakTypeEnum</a> ()</td></tr>
+<tr class="separator:a20cdfec561db8b029683bdb62ce5a906"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a2cfd09b03c5c8139c9866aa0c9b0d13f"><td class="memItemLeft" align="right" valign="top">static <a class="el" href="class_ms_1_1_plugin_a_p_i_1_1_enum.html">Enum</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ms_1_1_plugin_a_p_i_1_1_plugin_a_p_i.html#a2cfd09b03c5c8139c9866aa0c9b0d13f">get_lyricsSyllabicEnum</a> ()</td></tr>
+<tr class="separator:a2cfd09b03c5c8139c9866aa0c9b0d13f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a1992f608a5c83e65e4aaa43d2a99d5c0"><td class="memItemLeft" align="right" valign="top">static <a class="el" href="class_ms_1_1_plugin_a_p_i_1_1_enum.html">Enum</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ms_1_1_plugin_a_p_i_1_1_plugin_a_p_i.html#a1992f608a5c83e65e4aaa43d2a99d5c0">get_directionEnum</a> ()</td></tr>
+<tr class="separator:a1992f608a5c83e65e4aaa43d2a99d5c0"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a46f72982ba49fe8743375d15eb2807a5"><td class="memItemLeft" align="right" valign="top">static <a class="el" href="class_ms_1_1_plugin_a_p_i_1_1_enum.html">Enum</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ms_1_1_plugin_a_p_i_1_1_plugin_a_p_i.html#a46f72982ba49fe8743375d15eb2807a5">get_directionHEnum</a> ()</td></tr>
+<tr class="separator:a46f72982ba49fe8743375d15eb2807a5"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a861fb21580176b6a3e2427e2611a2c7e"><td class="memItemLeft" align="right" valign="top">static <a class="el" href="class_ms_1_1_plugin_a_p_i_1_1_enum.html">Enum</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ms_1_1_plugin_a_p_i_1_1_plugin_a_p_i.html#a861fb21580176b6a3e2427e2611a2c7e">get_ornamentStyleEnum</a> ()</td></tr>
+<tr class="separator:a861fb21580176b6a3e2427e2611a2c7e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a2863859d4c95a257eeaa0aa1002b6d62"><td class="memItemLeft" align="right" valign="top">static <a class="el" href="class_ms_1_1_plugin_a_p_i_1_1_enum.html">Enum</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ms_1_1_plugin_a_p_i_1_1_plugin_a_p_i.html#a2863859d4c95a257eeaa0aa1002b6d62">get_glissandoStyleEnum</a> ()</td></tr>
+<tr class="separator:a2863859d4c95a257eeaa0aa1002b6d62"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab271d6829c840eb6ff83c2b5ee53eaea"><td class="memItemLeft" align="right" valign="top">static <a class="el" href="class_ms_1_1_plugin_a_p_i_1_1_enum.html">Enum</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ms_1_1_plugin_a_p_i_1_1_plugin_a_p_i.html#ab271d6829c840eb6ff83c2b5ee53eaea">get_tidEnum</a> ()</td></tr>
+<tr class="separator:ab271d6829c840eb6ff83c2b5ee53eaea"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a8c187d8e0674e5640a25c159e7bef0e6"><td class="memItemLeft" align="right" valign="top">static <a class="el" href="class_ms_1_1_plugin_a_p_i_1_1_enum.html">Enum</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ms_1_1_plugin_a_p_i_1_1_plugin_a_p_i.html#a8c187d8e0674e5640a25c159e7bef0e6">get_noteHeadTypeEnum</a> ()</td></tr>
+<tr class="separator:a8c187d8e0674e5640a25c159e7bef0e6"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a21832d426d45d570636f34dc9ca1c227"><td class="memItemLeft" align="right" valign="top">static <a class="el" href="class_ms_1_1_plugin_a_p_i_1_1_enum.html">Enum</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ms_1_1_plugin_a_p_i_1_1_plugin_a_p_i.html#a21832d426d45d570636f34dc9ca1c227">get_noteHeadGroupEnum</a> ()</td></tr>
+<tr class="separator:a21832d426d45d570636f34dc9ca1c227"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a52dfbf3b93405e089b5cab48f9abc485"><td class="memItemLeft" align="right" valign="top">static <a class="el" href="class_ms_1_1_plugin_a_p_i_1_1_enum.html">Enum</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ms_1_1_plugin_a_p_i_1_1_plugin_a_p_i.html#a52dfbf3b93405e089b5cab48f9abc485">get_noteValueTypeEnum</a> ()</td></tr>
+<tr class="separator:a52dfbf3b93405e089b5cab48f9abc485"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a3bff0479349c791b85dcc1cdb896d2eb"><td class="memItemLeft" align="right" valign="top">static <a class="el" href="class_ms_1_1_plugin_a_p_i_1_1_enum.html">Enum</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ms_1_1_plugin_a_p_i_1_1_plugin_a_p_i.html#a3bff0479349c791b85dcc1cdb896d2eb">get_segmentTypeEnum</a> ()</td></tr>
+<tr class="separator:a3bff0479349c791b85dcc1cdb896d2eb"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad799b83d3e2c665fe5300e2516715f90"><td class="memItemLeft" align="right" valign="top">static <a class="el" href="class_ms_1_1_plugin_a_p_i_1_1_enum.html">Enum</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ms_1_1_plugin_a_p_i_1_1_plugin_a_p_i.html#ad799b83d3e2c665fe5300e2516715f90">get_spannerAnchorEnum</a> ()</td></tr>
+<tr class="separator:ad799b83d3e2c665fe5300e2516715f90"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a117786db9ff582994386f5098dbae880"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ms_1_1_plugin_a_p_i_1_1_plugin_a_p_i.html#a117786db9ff582994386f5098dbae880">initEnums</a> ()</td></tr>
+<tr class="separator:a117786db9ff582994386f5098dbae880"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pri-attribs"></a>
+Private Attributes</h2></td></tr>
+<tr class="memitem:a1a392a837c53593a7bd21b297394ba5a"><td class="memItemLeft" align="right" valign="top">QFile&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ms_1_1_plugin_a_p_i_1_1_plugin_a_p_i.html#a1a392a837c53593a7bd21b297394ba5a">logFile</a></td></tr>
+<tr class="separator:a1a392a837c53593a7bd21b297394ba5a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pri-static-attribs"></a>
+Static Private Attributes</h2></td></tr>
+<tr class="memitem:ad056d444e811c6654426e7e630ba5260"><td class="memItemLeft" align="right" valign="top">static <a class="el" href="class_ms_1_1_plugin_a_p_i_1_1_enum.html">Enum</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ms_1_1_plugin_a_p_i_1_1_plugin_a_p_i.html#ad056d444e811c6654426e7e630ba5260">elementTypeEnum</a></td></tr>
+<tr class="separator:ad056d444e811c6654426e7e630ba5260"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:afd8054c3de8bbb7689762f49831b27bf"><td class="memItemLeft" align="right" valign="top">static <a class="el" href="class_ms_1_1_plugin_a_p_i_1_1_enum.html">Enum</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ms_1_1_plugin_a_p_i_1_1_plugin_a_p_i.html#afd8054c3de8bbb7689762f49831b27bf">accidentalTypeEnum</a></td></tr>
+<tr class="separator:afd8054c3de8bbb7689762f49831b27bf"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a147392475e7198dcdbcb7f4fa5e9efcb"><td class="memItemLeft" align="right" valign="top">static <a class="el" href="class_ms_1_1_plugin_a_p_i_1_1_enum.html">Enum</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ms_1_1_plugin_a_p_i_1_1_plugin_a_p_i.html#a147392475e7198dcdbcb7f4fa5e9efcb">beamModeEnum</a></td></tr>
+<tr class="separator:a147392475e7198dcdbcb7f4fa5e9efcb"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a545aeee874f05d716addd4028933027c"><td class="memItemLeft" align="right" valign="top">static <a class="el" href="class_ms_1_1_plugin_a_p_i_1_1_enum.html">Enum</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ms_1_1_plugin_a_p_i_1_1_plugin_a_p_i.html#a545aeee874f05d716addd4028933027c">placementEnum</a></td></tr>
+<tr class="separator:a545aeee874f05d716addd4028933027c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac6fbd3466d9eb52fcf33ec01cbd75f87"><td class="memItemLeft" align="right" valign="top">static <a class="el" href="class_ms_1_1_plugin_a_p_i_1_1_enum.html">Enum</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ms_1_1_plugin_a_p_i_1_1_plugin_a_p_i.html#ac6fbd3466d9eb52fcf33ec01cbd75f87">glissandoTypeEnum</a></td></tr>
+<tr class="separator:ac6fbd3466d9eb52fcf33ec01cbd75f87"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a8d4d6d2c366e36d75e2981fbe0fc1b6e"><td class="memItemLeft" align="right" valign="top">static <a class="el" href="class_ms_1_1_plugin_a_p_i_1_1_enum.html">Enum</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ms_1_1_plugin_a_p_i_1_1_plugin_a_p_i.html#a8d4d6d2c366e36d75e2981fbe0fc1b6e">layoutBreakTypeEnum</a></td></tr>
+<tr class="separator:a8d4d6d2c366e36d75e2981fbe0fc1b6e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a2779b4a0d9b962bf6ea92c998ad85994"><td class="memItemLeft" align="right" valign="top">static <a class="el" href="class_ms_1_1_plugin_a_p_i_1_1_enum.html">Enum</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ms_1_1_plugin_a_p_i_1_1_plugin_a_p_i.html#a2779b4a0d9b962bf6ea92c998ad85994">lyricsSyllabicEnum</a></td></tr>
+<tr class="separator:a2779b4a0d9b962bf6ea92c998ad85994"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab8a3dd247f3f151b50a29c08e843b065"><td class="memItemLeft" align="right" valign="top">static <a class="el" href="class_ms_1_1_plugin_a_p_i_1_1_enum.html">Enum</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ms_1_1_plugin_a_p_i_1_1_plugin_a_p_i.html#ab8a3dd247f3f151b50a29c08e843b065">directionEnum</a></td></tr>
+<tr class="separator:ab8a3dd247f3f151b50a29c08e843b065"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a0a48d062dc4886582ad9b329a62601c9"><td class="memItemLeft" align="right" valign="top">static <a class="el" href="class_ms_1_1_plugin_a_p_i_1_1_enum.html">Enum</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ms_1_1_plugin_a_p_i_1_1_plugin_a_p_i.html#a0a48d062dc4886582ad9b329a62601c9">directionHEnum</a></td></tr>
+<tr class="separator:a0a48d062dc4886582ad9b329a62601c9"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af33ee163cfc71bf9b02974af99f5fa3e"><td class="memItemLeft" align="right" valign="top">static <a class="el" href="class_ms_1_1_plugin_a_p_i_1_1_enum.html">Enum</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ms_1_1_plugin_a_p_i_1_1_plugin_a_p_i.html#af33ee163cfc71bf9b02974af99f5fa3e">ornamentStyleEnum</a></td></tr>
+<tr class="separator:af33ee163cfc71bf9b02974af99f5fa3e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a41f95c0b6f9372f3a3a18d1bca7e503c"><td class="memItemLeft" align="right" valign="top">static <a class="el" href="class_ms_1_1_plugin_a_p_i_1_1_enum.html">Enum</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ms_1_1_plugin_a_p_i_1_1_plugin_a_p_i.html#a41f95c0b6f9372f3a3a18d1bca7e503c">glissandoStyleEnum</a></td></tr>
+<tr class="separator:a41f95c0b6f9372f3a3a18d1bca7e503c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a1b8556c0eec04a07781f2954e89a6057"><td class="memItemLeft" align="right" valign="top">static <a class="el" href="class_ms_1_1_plugin_a_p_i_1_1_enum.html">Enum</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ms_1_1_plugin_a_p_i_1_1_plugin_a_p_i.html#a1b8556c0eec04a07781f2954e89a6057">tidEnum</a></td></tr>
+<tr class="separator:a1b8556c0eec04a07781f2954e89a6057"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a3e5fc3dfc17cb9e084a4169935675d2b"><td class="memItemLeft" align="right" valign="top">static <a class="el" href="class_ms_1_1_plugin_a_p_i_1_1_enum.html">Enum</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ms_1_1_plugin_a_p_i_1_1_plugin_a_p_i.html#a3e5fc3dfc17cb9e084a4169935675d2b">noteHeadTypeEnum</a></td></tr>
+<tr class="separator:a3e5fc3dfc17cb9e084a4169935675d2b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa11fcbe69e407f39a963dff569d64729"><td class="memItemLeft" align="right" valign="top">static <a class="el" href="class_ms_1_1_plugin_a_p_i_1_1_enum.html">Enum</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ms_1_1_plugin_a_p_i_1_1_plugin_a_p_i.html#aa11fcbe69e407f39a963dff569d64729">noteHeadGroupEnum</a></td></tr>
+<tr class="separator:aa11fcbe69e407f39a963dff569d64729"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a16b3d3302b419b81095973ce2f90e613"><td class="memItemLeft" align="right" valign="top">static <a class="el" href="class_ms_1_1_plugin_a_p_i_1_1_enum.html">Enum</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ms_1_1_plugin_a_p_i_1_1_plugin_a_p_i.html#a16b3d3302b419b81095973ce2f90e613">noteValueTypeEnum</a></td></tr>
+<tr class="separator:a16b3d3302b419b81095973ce2f90e613"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a77f29354e8af57fa4ff2863ff39126a3"><td class="memItemLeft" align="right" valign="top">static <a class="el" href="class_ms_1_1_plugin_a_p_i_1_1_enum.html">Enum</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ms_1_1_plugin_a_p_i_1_1_plugin_a_p_i.html#a77f29354e8af57fa4ff2863ff39126a3">segmentTypeEnum</a></td></tr>
+<tr class="separator:a77f29354e8af57fa4ff2863ff39126a3"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a30810e3ece4bbce2d1ecc2e981d59460"><td class="memItemLeft" align="right" valign="top">static <a class="el" href="class_ms_1_1_plugin_a_p_i_1_1_enum.html">Enum</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ms_1_1_plugin_a_p_i_1_1_plugin_a_p_i.html#a30810e3ece4bbce2d1ecc2e981d59460">spannerAnchorEnum</a></td></tr>
+<tr class="separator:a30810e3ece4bbce2d1ecc2e981d59460"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="inherited"></a>
 Additional Inherited Members</h2></td></tr>
@@ -419,6 +507,456 @@ Additional Inherited Members</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Creates a new fraction with the given numerator and denominator. </p>
+
+</div>
+</div>
+<a id="aaf57067301a419ff55597cc04ea81c7f"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aaf57067301a419ff55597cc04ea81c7f">&#9670;&nbsp;</a></span>get_accidentalTypeEnum()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">static <a class="el" href="class_ms_1_1_plugin_a_p_i_1_1_enum.html">Enum</a>* Ms::PluginAPI::PluginAPI::get_accidentalTypeEnum </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">static</span><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="aa01a67b068c878690d18f55da5341375"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aa01a67b068c878690d18f55da5341375">&#9670;&nbsp;</a></span>get_beamModeEnum()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">static <a class="el" href="class_ms_1_1_plugin_a_p_i_1_1_enum.html">Enum</a>* Ms::PluginAPI::PluginAPI::get_beamModeEnum </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">static</span><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a1992f608a5c83e65e4aaa43d2a99d5c0"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a1992f608a5c83e65e4aaa43d2a99d5c0">&#9670;&nbsp;</a></span>get_directionEnum()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">static <a class="el" href="class_ms_1_1_plugin_a_p_i_1_1_enum.html">Enum</a>* Ms::PluginAPI::PluginAPI::get_directionEnum </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">static</span><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a46f72982ba49fe8743375d15eb2807a5"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a46f72982ba49fe8743375d15eb2807a5">&#9670;&nbsp;</a></span>get_directionHEnum()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">static <a class="el" href="class_ms_1_1_plugin_a_p_i_1_1_enum.html">Enum</a>* Ms::PluginAPI::PluginAPI::get_directionHEnum </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">static</span><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a44904c371f55ffc3db611e9473ea0a58"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a44904c371f55ffc3db611e9473ea0a58">&#9670;&nbsp;</a></span>get_elementTypeEnum()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">static <a class="el" href="class_ms_1_1_plugin_a_p_i_1_1_enum.html">Enum</a>* Ms::PluginAPI::PluginAPI::get_elementTypeEnum </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">static</span><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a2863859d4c95a257eeaa0aa1002b6d62"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a2863859d4c95a257eeaa0aa1002b6d62">&#9670;&nbsp;</a></span>get_glissandoStyleEnum()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">static <a class="el" href="class_ms_1_1_plugin_a_p_i_1_1_enum.html">Enum</a>* Ms::PluginAPI::PluginAPI::get_glissandoStyleEnum </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">static</span><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a5faf0afb94bb9dbb53c9a7d6c168c743"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a5faf0afb94bb9dbb53c9a7d6c168c743">&#9670;&nbsp;</a></span>get_glissandoTypeEnum()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">static <a class="el" href="class_ms_1_1_plugin_a_p_i_1_1_enum.html">Enum</a>* Ms::PluginAPI::PluginAPI::get_glissandoTypeEnum </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">static</span><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a20cdfec561db8b029683bdb62ce5a906"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a20cdfec561db8b029683bdb62ce5a906">&#9670;&nbsp;</a></span>get_layoutBreakTypeEnum()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">static <a class="el" href="class_ms_1_1_plugin_a_p_i_1_1_enum.html">Enum</a>* Ms::PluginAPI::PluginAPI::get_layoutBreakTypeEnum </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">static</span><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a2cfd09b03c5c8139c9866aa0c9b0d13f"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a2cfd09b03c5c8139c9866aa0c9b0d13f">&#9670;&nbsp;</a></span>get_lyricsSyllabicEnum()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">static <a class="el" href="class_ms_1_1_plugin_a_p_i_1_1_enum.html">Enum</a>* Ms::PluginAPI::PluginAPI::get_lyricsSyllabicEnum </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">static</span><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a21832d426d45d570636f34dc9ca1c227"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a21832d426d45d570636f34dc9ca1c227">&#9670;&nbsp;</a></span>get_noteHeadGroupEnum()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">static <a class="el" href="class_ms_1_1_plugin_a_p_i_1_1_enum.html">Enum</a>* Ms::PluginAPI::PluginAPI::get_noteHeadGroupEnum </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">static</span><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a8c187d8e0674e5640a25c159e7bef0e6"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a8c187d8e0674e5640a25c159e7bef0e6">&#9670;&nbsp;</a></span>get_noteHeadTypeEnum()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">static <a class="el" href="class_ms_1_1_plugin_a_p_i_1_1_enum.html">Enum</a>* Ms::PluginAPI::PluginAPI::get_noteHeadTypeEnum </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">static</span><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a52dfbf3b93405e089b5cab48f9abc485"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a52dfbf3b93405e089b5cab48f9abc485">&#9670;&nbsp;</a></span>get_noteValueTypeEnum()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">static <a class="el" href="class_ms_1_1_plugin_a_p_i_1_1_enum.html">Enum</a>* Ms::PluginAPI::PluginAPI::get_noteValueTypeEnum </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">static</span><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a861fb21580176b6a3e2427e2611a2c7e"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a861fb21580176b6a3e2427e2611a2c7e">&#9670;&nbsp;</a></span>get_ornamentStyleEnum()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">static <a class="el" href="class_ms_1_1_plugin_a_p_i_1_1_enum.html">Enum</a>* Ms::PluginAPI::PluginAPI::get_ornamentStyleEnum </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">static</span><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="ad42adcb18e4a62bfb3e1b627e1a82870"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ad42adcb18e4a62bfb3e1b627e1a82870">&#9670;&nbsp;</a></span>get_placementEnum()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">static <a class="el" href="class_ms_1_1_plugin_a_p_i_1_1_enum.html">Enum</a>* Ms::PluginAPI::PluginAPI::get_placementEnum </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">static</span><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a3bff0479349c791b85dcc1cdb896d2eb"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a3bff0479349c791b85dcc1cdb896d2eb">&#9670;&nbsp;</a></span>get_segmentTypeEnum()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">static <a class="el" href="class_ms_1_1_plugin_a_p_i_1_1_enum.html">Enum</a>* Ms::PluginAPI::PluginAPI::get_segmentTypeEnum </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">static</span><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="ad799b83d3e2c665fe5300e2516715f90"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ad799b83d3e2c665fe5300e2516715f90">&#9670;&nbsp;</a></span>get_spannerAnchorEnum()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">static <a class="el" href="class_ms_1_1_plugin_a_p_i_1_1_enum.html">Enum</a>* Ms::PluginAPI::PluginAPI::get_spannerAnchorEnum </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">static</span><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="ab271d6829c840eb6ff83c2b5ee53eaea"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ab271d6829c840eb6ff83c2b5ee53eaea">&#9670;&nbsp;</a></span>get_tidEnum()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">static <a class="el" href="class_ms_1_1_plugin_a_p_i_1_1_enum.html">Enum</a>* Ms::PluginAPI::PluginAPI::get_tidEnum </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">static</span><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a117786db9ff582994386f5098dbae880"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a117786db9ff582994386f5098dbae880">&#9670;&nbsp;</a></span>initEnums()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void Ms::PluginAPI::PluginAPI::initEnums </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
 
 </div>
 </div>
@@ -701,14 +1239,14 @@ changes" dialog on closing a score that is either imported or was created with a
 
 </div>
 </div>
-<a id="a0aeda8085fb8f692d37280ae966c6563"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a0aeda8085fb8f692d37280ae966c6563">&#9670;&nbsp;</a></span>scores()</h2>
+<a id="aa602b5d9f56ba105873d00c17fa91002"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aa602b5d9f56ba105873d00c17fa91002">&#9670;&nbsp;</a></span>scores()</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">QQmlListProperty&lt; <a class="el" href="class_ms_1_1_plugin_a_p_i_1_1_score.html">Score</a> &gt; Ms::PluginAPI::PluginAPI::scores </td>
+          <td class="memname">QQmlListProperty&lt;<a class="el" href="class_ms_1_1_plugin_a_p_i_1_1_score.html">Score</a>&gt; Ms::PluginAPI::PluginAPI::scores </td>
           <td>(</td>
           <td class="paramname"></td><td>)</td>
           <td></td>
@@ -759,6 +1297,403 @@ changes" dialog on closing a score that is either imported or was created with a
   </table>
   </dd>
 </dl>
+
+</div>
+</div>
+<h2 class="groupheader">Member Data Documentation</h2>
+<a id="afd8054c3de8bbb7689762f49831b27bf"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#afd8054c3de8bbb7689762f49831b27bf">&#9670;&nbsp;</a></span>accidentalTypeEnum</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="class_ms_1_1_plugin_a_p_i_1_1_enum.html">Enum</a> * Ms::PluginAPI::PluginAPI::accidentalTypeEnum</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a147392475e7198dcdbcb7f4fa5e9efcb"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a147392475e7198dcdbcb7f4fa5e9efcb">&#9670;&nbsp;</a></span>beamModeEnum</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="class_ms_1_1_plugin_a_p_i_1_1_enum.html">Enum</a> * Ms::PluginAPI::PluginAPI::beamModeEnum</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="ab8a3dd247f3f151b50a29c08e843b065"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ab8a3dd247f3f151b50a29c08e843b065">&#9670;&nbsp;</a></span>directionEnum</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="class_ms_1_1_plugin_a_p_i_1_1_enum.html">Enum</a> * Ms::PluginAPI::PluginAPI::directionEnum</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a0a48d062dc4886582ad9b329a62601c9"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a0a48d062dc4886582ad9b329a62601c9">&#9670;&nbsp;</a></span>directionHEnum</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="class_ms_1_1_plugin_a_p_i_1_1_enum.html">Enum</a> * Ms::PluginAPI::PluginAPI::directionHEnum</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="ad056d444e811c6654426e7e630ba5260"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ad056d444e811c6654426e7e630ba5260">&#9670;&nbsp;</a></span>elementTypeEnum</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="class_ms_1_1_plugin_a_p_i_1_1_enum.html">Enum</a> * Ms::PluginAPI::PluginAPI::elementTypeEnum</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a41f95c0b6f9372f3a3a18d1bca7e503c"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a41f95c0b6f9372f3a3a18d1bca7e503c">&#9670;&nbsp;</a></span>glissandoStyleEnum</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="class_ms_1_1_plugin_a_p_i_1_1_enum.html">Enum</a> * Ms::PluginAPI::PluginAPI::glissandoStyleEnum</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="ac6fbd3466d9eb52fcf33ec01cbd75f87"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ac6fbd3466d9eb52fcf33ec01cbd75f87">&#9670;&nbsp;</a></span>glissandoTypeEnum</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="class_ms_1_1_plugin_a_p_i_1_1_enum.html">Enum</a> * Ms::PluginAPI::PluginAPI::glissandoTypeEnum</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a8d4d6d2c366e36d75e2981fbe0fc1b6e"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a8d4d6d2c366e36d75e2981fbe0fc1b6e">&#9670;&nbsp;</a></span>layoutBreakTypeEnum</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="class_ms_1_1_plugin_a_p_i_1_1_enum.html">Enum</a> * Ms::PluginAPI::PluginAPI::layoutBreakTypeEnum</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a1a392a837c53593a7bd21b297394ba5a"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a1a392a837c53593a7bd21b297394ba5a">&#9670;&nbsp;</a></span>logFile</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">QFile Ms::PluginAPI::PluginAPI::logFile</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a2779b4a0d9b962bf6ea92c998ad85994"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a2779b4a0d9b962bf6ea92c998ad85994">&#9670;&nbsp;</a></span>lyricsSyllabicEnum</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="class_ms_1_1_plugin_a_p_i_1_1_enum.html">Enum</a> * Ms::PluginAPI::PluginAPI::lyricsSyllabicEnum</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="aa11fcbe69e407f39a963dff569d64729"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aa11fcbe69e407f39a963dff569d64729">&#9670;&nbsp;</a></span>noteHeadGroupEnum</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="class_ms_1_1_plugin_a_p_i_1_1_enum.html">Enum</a> * Ms::PluginAPI::PluginAPI::noteHeadGroupEnum</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a3e5fc3dfc17cb9e084a4169935675d2b"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a3e5fc3dfc17cb9e084a4169935675d2b">&#9670;&nbsp;</a></span>noteHeadTypeEnum</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="class_ms_1_1_plugin_a_p_i_1_1_enum.html">Enum</a> * Ms::PluginAPI::PluginAPI::noteHeadTypeEnum</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a16b3d3302b419b81095973ce2f90e613"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a16b3d3302b419b81095973ce2f90e613">&#9670;&nbsp;</a></span>noteValueTypeEnum</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="class_ms_1_1_plugin_a_p_i_1_1_enum.html">Enum</a> * Ms::PluginAPI::PluginAPI::noteValueTypeEnum</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="af33ee163cfc71bf9b02974af99f5fa3e"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#af33ee163cfc71bf9b02974af99f5fa3e">&#9670;&nbsp;</a></span>ornamentStyleEnum</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="class_ms_1_1_plugin_a_p_i_1_1_enum.html">Enum</a> * Ms::PluginAPI::PluginAPI::ornamentStyleEnum</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a545aeee874f05d716addd4028933027c"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a545aeee874f05d716addd4028933027c">&#9670;&nbsp;</a></span>placementEnum</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="class_ms_1_1_plugin_a_p_i_1_1_enum.html">Enum</a> * Ms::PluginAPI::PluginAPI::placementEnum</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a77f29354e8af57fa4ff2863ff39126a3"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a77f29354e8af57fa4ff2863ff39126a3">&#9670;&nbsp;</a></span>segmentTypeEnum</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="class_ms_1_1_plugin_a_p_i_1_1_enum.html">Enum</a> * Ms::PluginAPI::PluginAPI::segmentTypeEnum</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a30810e3ece4bbce2d1ecc2e981d59460"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a30810e3ece4bbce2d1ecc2e981d59460">&#9670;&nbsp;</a></span>spannerAnchorEnum</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="class_ms_1_1_plugin_a_p_i_1_1_enum.html">Enum</a> * Ms::PluginAPI::PluginAPI::spannerAnchorEnum</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a1b8556c0eec04a07781f2954e89a6057"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a1b8556c0eec04a07781f2954e89a6057">&#9670;&nbsp;</a></span>tidEnum</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="class_ms_1_1_plugin_a_p_i_1_1_enum.html">Enum</a> * Ms::PluginAPI::PluginAPI::tidEnum</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
 
 </div>
 </div>
@@ -831,7 +1766,7 @@ changes" dialog on closing a score that is either imported or was created with a
 </table>
 </div><div class="memdoc">
 
-<p>current score, if any (read only) </p>
+<p>Current score, if any (read only) </p>
 
 </div>
 </div>
@@ -1051,7 +1986,7 @@ changes" dialog on closing a score that is either imported or was created with a
 </div><div class="memdoc">
 
 <p>Contains <a class="el" href="namespace_ms.html#a735719736398000828a4138ca8b31c90">Ms::GlissandoStyle</a> enumeration values. </p>
-<dl class="section note"><dt>Note</dt><dd>In <a class="el" href="class_ms_1_1_muse_score.html">MuseScore</a> 2.X this enumeration was available as MScoreCHROMATIC, <a class="el" href="namespace_ms.html#a735719736398000828a4138ca8b31c90a382b34fcd85458c84c406cedf030f23c">MScore.WHITE_KEYS</a>, <a class="el" href="namespace_ms.html#a735719736398000828a4138ca8b31c90af377200b70d9b2113f770a642493cd21">MScore.BLACK_KEYS</a>, <a class="el" href="namespace_ms.html#aa56d24b082133246f25b43b7bef7f959af3fb4b2c999493d3d65c2377e47c0fee">MScore.DIATONIC</a>. </dd></dl>
+<dl class="section note"><dt>Note</dt><dd>In <a class="el" href="class_ms_1_1_muse_score.html">MuseScore</a> 2.X this enumeration was available as <a class="el" href="namespace_ms.html#aa56d24b082133246f25b43b7bef7f959ad791767a8f56d109401330faf122f63d">MScore.CHROMATIC</a>, <a class="el" href="namespace_ms.html#a735719736398000828a4138ca8b31c90a382b34fcd85458c84c406cedf030f23c">MScore.WHITE_KEYS</a>, <a class="el" href="namespace_ms.html#a735719736398000828a4138ca8b31c90af377200b70d9b2113f770a642493cd21">MScore.BLACK_KEYS</a>, <a class="el" href="namespace_ms.html#aa56d24b082133246f25b43b7bef7f959af3fb4b2c999493d3d65c2377e47c0fee">MScore.DIATONIC</a>. </dd></dl>
 
 </div>
 </div>
@@ -1343,7 +2278,7 @@ changes" dialog on closing a score that is either imported or was created with a
 </div><div class="memdoc">
 
 <p>Contains <a class="el" href="class_ms_1_1_m_score.html#a1a82a38a1280478b964ff18ae4a0e03c">Ms::MScore::OrnamentStyle</a> enumeration values. </p>
-<dl class="section note"><dt>Note</dt><dd>In <a class="el" href="class_ms_1_1_muse_score.html">MuseScore</a> 2.X this enumeration was available as <a class="el" href="namespace_ms.html#ad1b3e57dfd5b26a280bf2ebde66b9d5aa5b39c8b553c821e7cddc6da64b5bd2ee">MScore.DEFAULT</a>, MScore.BAROQUE. </dd></dl>
+<dl class="section note"><dt>Note</dt><dd>In <a class="el" href="class_ms_1_1_muse_score.html">MuseScore</a> 2.X this enumeration was available as <a class="el" href="namespace_ms.html#a7c46c7accebd6ed6c6e259bc6e679ca0a5b39c8b553c821e7cddc6da64b5bd2ee">MScore.DEFAULT</a>, MScore.BAROQUE. </dd></dl>
 
 </div>
 </div>
@@ -1392,7 +2327,7 @@ changes" dialog on closing a score that is either imported or was created with a
 </table>
 </div><div class="memdoc">
 
-<p>type may be dialog, dock, or not defined </p>
+<p>Type may be dialog, dock, or not defined. </p>
 
 </div>
 </div>
@@ -1416,7 +2351,33 @@ changes" dialog on closing a score that is either imported or was created with a
 </table>
 </div><div class="memdoc">
 
-<p>Whether the plugin requires an existing score to run. </p>
+<p>Whether the plugin requires an existing score to run, default is <code>true</code> </p>
+
+</div>
+</div>
+<a id="ab21657c4e3d90f2e4e7ad26bdc3ee606"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ab21657c4e3d90f2e4e7ad26bdc3ee606">&#9670;&nbsp;</a></span>scores</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">QQmlListProperty&lt; <a class="el" href="class_ms_1_1_plugin_a_p_i_1_1_score.html">Score</a> &gt; Ms::PluginAPI::PluginAPI::scores</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">read</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>List of currently open scores (read only). </p>
+<p><br />
+ </p><dl class="section since"><dt>Since</dt><dd><a class="el" href="class_ms_1_1_muse_score.html">MuseScore</a> 3.2 </dd></dl>
 
 </div>
 </div>

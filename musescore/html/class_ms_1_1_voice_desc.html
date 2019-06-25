@@ -23,9 +23,9 @@
   <td id="projectlogo"><img alt="Logo" src="musescore_logo_full.png"/></td>
   <td id="projectalign" style="padding-left: 0.5em;">
    <div id="projectname">MuseScore
-   &#160;<span id="projectnumber">3.1</span>
+   &#160;<span id="projectnumber">3.2</span>
    </div>
-   <div id="projectbrief">Music compisition and notation</div>
+   <div id="projectbrief">Music composition and notation</div>
   </td>
  </tr>
  </tbody>
@@ -67,6 +67,7 @@ $(function() {
 <div class="header">
   <div class="summary">
 <a href="#pub-methods">Public Member Functions</a> &#124;
+<a href="#pri-attribs">Private Attributes</a> &#124;
 <a href="class_ms_1_1_voice_desc-members.html">List of all members</a>  </div>
   <div class="headertitle">
 <div class="title">Ms::VoiceDesc Class Reference</div>  </div>
@@ -113,6 +114,27 @@ Public Member Functions</h2></td></tr>
 <tr class="separator:ad0a87575c052faf2387dd8dd6c65f642"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aba50123d72d471d6af74d36a1eecb107"><td class="memItemLeft" align="right" valign="top">QString&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ms_1_1_voice_desc.html#aba50123d72d471d6af74d36a1eecb107">toString</a> () const</td></tr>
 <tr class="separator:aba50123d72d471d6af74d36a1eecb107"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pri-attribs"></a>
+Private Attributes</h2></td></tr>
+<tr class="memitem:aee88b75ef30f8bdbd4f2d8f558ed05a3"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ms_1_1_voice_desc.html#aee88b75ef30f8bdbd4f2d8f558ed05a3">_chordRests</a> [MAX_STAVES]</td></tr>
+<tr class="memdesc:aee88b75ef30f8bdbd4f2d8f558ed05a3"><td class="mdescLeft">&#160;</td><td class="mdescRight">The number of chordrests on each MusicXML staff.  <a href="#aee88b75ef30f8bdbd4f2d8f558ed05a3">More...</a><br /></td></tr>
+<tr class="separator:aee88b75ef30f8bdbd4f2d8f558ed05a3"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a2ad61b3beb46693486790982ac6c301f"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ms_1_1_voice_desc.html#a2ad61b3beb46693486790982ac6c301f">_staff</a></td></tr>
+<tr class="memdesc:a2ad61b3beb46693486790982ac6c301f"><td class="mdescLeft">&#160;</td><td class="mdescRight">The <a class="el" href="class_ms_1_1_muse_score.html">MuseScore</a> staff allocated.  <a href="#a2ad61b3beb46693486790982ac6c301f">More...</a><br /></td></tr>
+<tr class="separator:a2ad61b3beb46693486790982ac6c301f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a0bb420423716dcbda812406581b3ca0a"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ms_1_1_voice_desc.html#a0bb420423716dcbda812406581b3ca0a">_voice</a></td></tr>
+<tr class="memdesc:a0bb420423716dcbda812406581b3ca0a"><td class="mdescLeft">&#160;</td><td class="mdescRight">The <a class="el" href="class_ms_1_1_muse_score.html">MuseScore</a> voice allocated.  <a href="#a0bb420423716dcbda812406581b3ca0a">More...</a><br /></td></tr>
+<tr class="separator:a0bb420423716dcbda812406581b3ca0a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab270b57f92c3c60efd8e8b0240864324"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ms_1_1_voice_desc.html#ab270b57f92c3c60efd8e8b0240864324">_overlaps</a></td></tr>
+<tr class="memdesc:ab270b57f92c3c60efd8e8b0240864324"><td class="mdescLeft">&#160;</td><td class="mdescRight">This voice contains active notes in multiple staves at the same time.  <a href="#ab270b57f92c3c60efd8e8b0240864324">More...</a><br /></td></tr>
+<tr class="separator:ab270b57f92c3c60efd8e8b0240864324"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a61ba61785edeaf88500394e4543aa494"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ms_1_1_voice_desc.html#a61ba61785edeaf88500394e4543aa494">_staffAlloc</a> [MAX_STAVES]</td></tr>
+<tr class="memdesc:a61ba61785edeaf88500394e4543aa494"><td class="mdescLeft">&#160;</td><td class="mdescRight">For overlapping voices: voice is allocated on these staves (note: -2=unalloc -1=undef 1=alloc)  <a href="#a61ba61785edeaf88500394e4543aa494">More...</a><br /></td></tr>
+<tr class="separator:a61ba61785edeaf88500394e4543aa494"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a94716ac8dbc1f3648fe23cbf007a9d73"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ms_1_1_voice_desc.html#a94716ac8dbc1f3648fe23cbf007a9d73">_voices</a> [MAX_STAVES]</td></tr>
+<tr class="memdesc:a94716ac8dbc1f3648fe23cbf007a9d73"><td class="mdescLeft">&#160;</td><td class="mdescRight">For every voice allocated on the staff, the voice number.  <a href="#a94716ac8dbc1f3648fe23cbf007a9d73">More...</a><br /></td></tr>
+<tr class="separator:a94716ac8dbc1f3648fe23cbf007a9d73"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><p>The description of a single voice in a MusicXML part. </p>
@@ -506,6 +528,151 @@ Public Member Functions</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
+
+</div>
+</div>
+<h2 class="groupheader">Member Data Documentation</h2>
+<a id="aee88b75ef30f8bdbd4f2d8f558ed05a3"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aee88b75ef30f8bdbd4f2d8f558ed05a3">&#9670;&nbsp;</a></span>_chordRests</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">int Ms::VoiceDesc::_chordRests[MAX_STAVES]</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>The number of chordrests on each MusicXML staff. </p>
+
+</div>
+</div>
+<a id="ab270b57f92c3c60efd8e8b0240864324"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ab270b57f92c3c60efd8e8b0240864324">&#9670;&nbsp;</a></span>_overlaps</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool Ms::VoiceDesc::_overlaps</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>This voice contains active notes in multiple staves at the same time. </p>
+
+</div>
+</div>
+<a id="a2ad61b3beb46693486790982ac6c301f"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a2ad61b3beb46693486790982ac6c301f">&#9670;&nbsp;</a></span>_staff</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">int Ms::VoiceDesc::_staff</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>The <a class="el" href="class_ms_1_1_muse_score.html">MuseScore</a> staff allocated. </p>
+
+</div>
+</div>
+<a id="a61ba61785edeaf88500394e4543aa494"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a61ba61785edeaf88500394e4543aa494">&#9670;&nbsp;</a></span>_staffAlloc</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">int Ms::VoiceDesc::_staffAlloc[MAX_STAVES]</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>For overlapping voices: voice is allocated on these staves (note: -2=unalloc -1=undef 1=alloc) </p>
+
+</div>
+</div>
+<a id="a0bb420423716dcbda812406581b3ca0a"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a0bb420423716dcbda812406581b3ca0a">&#9670;&nbsp;</a></span>_voice</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">int Ms::VoiceDesc::_voice</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>The <a class="el" href="class_ms_1_1_muse_score.html">MuseScore</a> voice allocated. </p>
+
+</div>
+</div>
+<a id="a94716ac8dbc1f3648fe23cbf007a9d73"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a94716ac8dbc1f3648fe23cbf007a9d73">&#9670;&nbsp;</a></span>_voices</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">int Ms::VoiceDesc::_voices[MAX_STAVES]</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>For every voice allocated on the staff, the voice number. </p>
 
 </div>
 </div>

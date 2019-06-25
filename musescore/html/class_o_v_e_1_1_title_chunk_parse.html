@@ -23,9 +23,9 @@
   <td id="projectlogo"><img alt="Logo" src="musescore_logo_full.png"/></td>
   <td id="projectalign" style="padding-left: 0.5em;">
    <div id="projectname">MuseScore
-   &#160;<span id="projectnumber">3.1</span>
+   &#160;<span id="projectnumber">3.2</span>
    </div>
-   <div id="projectbrief">Music compisition and notation</div>
+   <div id="projectbrief">Music composition and notation</div>
   </td>
  </tr>
  </tbody>
@@ -67,6 +67,8 @@ $(function() {
 <div class="header">
   <div class="summary">
 <a href="#pub-methods">Public Member Functions</a> &#124;
+<a href="#pri-methods">Private Member Functions</a> &#124;
+<a href="#pri-attribs">Private Attributes</a> &#124;
 <a href="class_o_v_e_1_1_title_chunk_parse-members.html">List of all members</a>  </div>
   <div class="headertitle">
 <div class="title">OVE::TitleChunkParse Class Reference</div>  </div>
@@ -87,10 +89,16 @@ Collaboration diagram for OVE::TitleChunkParse:</div>
 <div class="dyncontent">
 <div class="center"><img src="class_o_v_e_1_1_title_chunk_parse__coll__graph.png" border="0" usemap="#_o_v_e_1_1_title_chunk_parse_coll__map" alt="Collaboration graph"/></div>
 <map name="_o_v_e_1_1_title_chunk_parse_coll__map" id="_o_v_e_1_1_title_chunk_parse_coll__map">
-<area shape="rect" id="node2" href="class_o_v_e_1_1_basic_parse.html" title="OVE::BasicParse" alt="" coords="169,95,295,121"/>
-<area shape="rect" id="node3" href="class_o_v_e_1_1_stream_handle.html" title="OVE::StreamHandle" alt="" coords="5,5,147,32"/>
-<area shape="rect" id="node4" href="class_o_v_e_1_1_i_ove_notify.html" title="OVE::IOveNotify" alt="" coords="171,5,293,32"/>
-<area shape="rect" id="node5" href="class_o_v_e_1_1_ove_song.html" title="OVE::OveSong" alt="" coords="317,5,429,32"/>
+<area shape="rect" id="node2" href="class_o_v_e_1_1_basic_parse.html" title="OVE::BasicParse" alt="" coords="245,348,371,375"/>
+<area shape="rect" id="node3" href="class_o_v_e_1_1_stream_handle.html" title="OVE::StreamHandle" alt="" coords="5,259,147,285"/>
+<area shape="rect" id="node4" href="class_o_v_e_1_1_i_ove_notify.html" title="OVE::IOveNotify" alt="" coords="171,259,293,285"/>
+<area shape="rect" id="node5" href="class_o_v_e_1_1_ove_song.html" title="OVE::OveSong" alt="" coords="317,259,429,285"/>
+<area shape="rect" id="node6" href="class_o_v_e_1_1_size_chunk.html" title="OVE::SizeChunk" alt="" coords="437,348,560,375"/>
+<area shape="rect" id="node7" href="class_o_v_e_1_1_chunk.html" title="OVE::Chunk" alt="" coords="512,259,608,285"/>
+<area shape="rect" id="node8" href="class_o_v_e_1_1_name_block.html" title="OVE::NameBlock" alt="" coords="561,157,687,184"/>
+<area shape="rect" id="node9" href="class_o_v_e_1_1_fixed_block.html" title="OVE::FixedBlock" alt="" coords="563,81,685,108"/>
+<area shape="rect" id="node11" href="class_o_v_e_1_1_size_block.html" title="OVE::SizeBlock" alt="" coords="663,208,780,235"/>
+<area shape="rect" id="node10" href="class_o_v_e_1_1_block.html" title="OVE::Block" alt="" coords="437,5,528,32"/>
 </map>
 <center><span class="legend">[<a href="graph_legend.html">legend</a>]</span></center></div>
 <table class="memberdecls">
@@ -111,6 +119,28 @@ Public Member Functions</h2></td></tr>
 <tr class="separator:ae808dfd9d7623e7e3f6f6524d58e0684 inherit pub_methods_class_o_v_e_1_1_basic_parse"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a0acfb80499d02af56d94b28b46b744f0 inherit pub_methods_class_o_v_e_1_1_basic_parse"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_o_v_e_1_1_basic_parse.html#a0acfb80499d02af56d94b28b46b744f0">setNotify</a> (<a class="el" href="class_o_v_e_1_1_i_ove_notify.html">IOveNotify</a> *notify)</td></tr>
 <tr class="separator:a0acfb80499d02af56d94b28b46b744f0 inherit pub_methods_class_o_v_e_1_1_basic_parse"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pri-methods"></a>
+Private Member Functions</h2></td></tr>
+<tr class="memitem:ab3181980f588ea79fd50837916fa3a12"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_o_v_e_1_1_title_chunk_parse.html#ab3181980f588ea79fd50837916fa3a12">addToOve</a> (const QString &amp;str, unsigned int titleType)</td></tr>
+<tr class="separator:ab3181980f588ea79fd50837916fa3a12"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pri-attribs"></a>
+Private Attributes</h2></td></tr>
+<tr class="memitem:a1b006a52e0f263d6ecdc86364f076a7f"><td class="memItemLeft" align="right" valign="top">unsigned int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_o_v_e_1_1_title_chunk_parse.html#a1b006a52e0f263d6ecdc86364f076a7f">titleType_</a></td></tr>
+<tr class="separator:a1b006a52e0f263d6ecdc86364f076a7f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:abbb0c7e371976e60bccbc67c6e29d265"><td class="memItemLeft" align="right" valign="top">unsigned int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_o_v_e_1_1_title_chunk_parse.html#abbb0c7e371976e60bccbc67c6e29d265">annotateType_</a></td></tr>
+<tr class="separator:abbb0c7e371976e60bccbc67c6e29d265"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a1f73e3347b4b623d66a4b4296e731e81"><td class="memItemLeft" align="right" valign="top">unsigned int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_o_v_e_1_1_title_chunk_parse.html#a1f73e3347b4b623d66a4b4296e731e81">writerType_</a></td></tr>
+<tr class="separator:a1f73e3347b4b623d66a4b4296e731e81"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a1463fbe2080d85bbd10771c979aafb1e"><td class="memItemLeft" align="right" valign="top">unsigned int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_o_v_e_1_1_title_chunk_parse.html#a1463fbe2080d85bbd10771c979aafb1e">copyrightType_</a></td></tr>
+<tr class="separator:a1463fbe2080d85bbd10771c979aafb1e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a59eba5e297e5145d7fb80a6e98a12535"><td class="memItemLeft" align="right" valign="top">unsigned int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_o_v_e_1_1_title_chunk_parse.html#a59eba5e297e5145d7fb80a6e98a12535">headerType_</a></td></tr>
+<tr class="separator:a59eba5e297e5145d7fb80a6e98a12535"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a71be5b0a2ad241baa746697b74dc41b7"><td class="memItemLeft" align="right" valign="top">unsigned int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_o_v_e_1_1_title_chunk_parse.html#a71be5b0a2ad241baa746697b74dc41b7">footerType_</a></td></tr>
+<tr class="separator:a71be5b0a2ad241baa746697b74dc41b7"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a015ae7816770f4e970111237718873ff"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_o_v_e_1_1_size_chunk.html">SizeChunk</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_o_v_e_1_1_title_chunk_parse.html#a015ae7816770f4e970111237718873ff">chunk_</a></td></tr>
+<tr class="separator:a015ae7816770f4e970111237718873ff"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="inherited"></a>
 Additional Inherited Members</h2></td></tr>
@@ -174,6 +204,42 @@ Additional Inherited Members</h2></td></tr>
 </div>
 </div>
 <h2 class="groupheader">Member Function Documentation</h2>
+<a id="ab3181980f588ea79fd50837916fa3a12"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ab3181980f588ea79fd50837916fa3a12">&#9670;&nbsp;</a></span>addToOve()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void OVE::TitleChunkParse::addToOve </td>
+          <td>(</td>
+          <td class="paramtype">const QString &amp;&#160;</td>
+          <td class="paramname"><em>str</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">unsigned int&#160;</td>
+          <td class="paramname"><em>titleType</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
 <a id="a776fa850eb7d2c487d91df0189c56cea"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a776fa850eb7d2c487d91df0189c56cea">&#9670;&nbsp;</a></span>parse()</h2>
 
@@ -215,6 +281,161 @@ Additional Inherited Members</h2></td></tr>
           <td></td>
         </tr>
       </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<h2 class="groupheader">Member Data Documentation</h2>
+<a id="abbb0c7e371976e60bccbc67c6e29d265"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#abbb0c7e371976e60bccbc67c6e29d265">&#9670;&nbsp;</a></span>annotateType_</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">unsigned int OVE::TitleChunkParse::annotateType_</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a015ae7816770f4e970111237718873ff"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a015ae7816770f4e970111237718873ff">&#9670;&nbsp;</a></span>chunk_</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="class_o_v_e_1_1_size_chunk.html">SizeChunk</a>* OVE::TitleChunkParse::chunk_</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a1463fbe2080d85bbd10771c979aafb1e"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a1463fbe2080d85bbd10771c979aafb1e">&#9670;&nbsp;</a></span>copyrightType_</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">unsigned int OVE::TitleChunkParse::copyrightType_</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a71be5b0a2ad241baa746697b74dc41b7"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a71be5b0a2ad241baa746697b74dc41b7">&#9670;&nbsp;</a></span>footerType_</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">unsigned int OVE::TitleChunkParse::footerType_</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a59eba5e297e5145d7fb80a6e98a12535"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a59eba5e297e5145d7fb80a6e98a12535">&#9670;&nbsp;</a></span>headerType_</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">unsigned int OVE::TitleChunkParse::headerType_</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a1b006a52e0f263d6ecdc86364f076a7f"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a1b006a52e0f263d6ecdc86364f076a7f">&#9670;&nbsp;</a></span>titleType_</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">unsigned int OVE::TitleChunkParse::titleType_</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a1f73e3347b4b623d66a4b4296e731e81"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a1f73e3347b4b623d66a4b4296e731e81">&#9670;&nbsp;</a></span>writerType_</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">unsigned int OVE::TitleChunkParse::writerType_</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
 </div><div class="memdoc">
 
 </div>

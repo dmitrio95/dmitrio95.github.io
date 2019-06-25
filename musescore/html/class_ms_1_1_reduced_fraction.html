@@ -23,9 +23,9 @@
   <td id="projectlogo"><img alt="Logo" src="musescore_logo_full.png"/></td>
   <td id="projectalign" style="padding-left: 0.5em;">
    <div id="projectname">MuseScore
-   &#160;<span id="projectnumber">3.1</span>
+   &#160;<span id="projectnumber">3.2</span>
    </div>
-   <div id="projectbrief">Music compisition and notation</div>
+   <div id="projectbrief">Music composition and notation</div>
   </td>
  </tr>
  </tbody>
@@ -68,6 +68,8 @@ $(function() {
   <div class="summary">
 <a href="#pub-methods">Public Member Functions</a> &#124;
 <a href="#pub-static-methods">Static Public Member Functions</a> &#124;
+<a href="#pri-methods">Private Member Functions</a> &#124;
+<a href="#pri-attribs">Private Attributes</a> &#124;
 <a href="class_ms_1_1_reduced_fraction-members.html">List of all members</a>  </div>
   <div class="headertitle">
 <div class="title">Ms::ReducedFraction Class Reference</div>  </div>
@@ -143,6 +145,18 @@ Public Member Functions</h2></td></tr>
 Static Public Member Functions</h2></td></tr>
 <tr class="memitem:ad41ece8c81419c6fe9808d9f2d6fee93"><td class="memItemLeft" align="right" valign="top">static <a class="el" href="class_ms_1_1_reduced_fraction.html">ReducedFraction</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ms_1_1_reduced_fraction.html#ad41ece8c81419c6fe9808d9f2d6fee93">fromTicks</a> (int <a class="el" href="class_ms_1_1_reduced_fraction.html#a580d3163bd2491d2030d3f29316fe5d0">ticks</a>)</td></tr>
 <tr class="separator:ad41ece8c81419c6fe9808d9f2d6fee93"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pri-methods"></a>
+Private Member Functions</h2></td></tr>
+<tr class="memitem:ae3e6421a55002aaf02dcbde0b45e6f26"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ms_1_1_reduced_fraction.html#ae3e6421a55002aaf02dcbde0b45e6f26">preventOverflow</a> ()</td></tr>
+<tr class="separator:ae3e6421a55002aaf02dcbde0b45e6f26"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pri-attribs"></a>
+Private Attributes</h2></td></tr>
+<tr class="memitem:a346932eb23e78a2090dccda3bc7fb0fe"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ms_1_1_reduced_fraction.html#a346932eb23e78a2090dccda3bc7fb0fe">numerator_</a></td></tr>
+<tr class="separator:a346932eb23e78a2090dccda3bc7fb0fe"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab4325b2932f56248978a8c597ab09846"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ms_1_1_reduced_fraction.html#ab4325b2932f56248978a8c597ab09846">denominator_</a></td></tr>
+<tr class="separator:ab4325b2932f56248978a8c597ab09846"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
 <a id="a2e81153d0106643c7827e7ed7980d3a2"></a>
@@ -741,6 +755,31 @@ Static Public Member Functions</h2></td></tr>
 
 </div>
 </div>
+<a id="ae3e6421a55002aaf02dcbde0b45e6f26"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ae3e6421a55002aaf02dcbde0b45e6f26">&#9670;&nbsp;</a></span>preventOverflow()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void Ms::ReducedFraction::preventOverflow </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
 <a id="a919abb97af8c749a24911843f6989c5a"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a919abb97af8c749a24911843f6989c5a">&#9670;&nbsp;</a></span>reduce()</h2>
 
@@ -811,6 +850,51 @@ Static Public Member Functions</h2></td></tr>
   </td>
   <td class="mlabels-right">
 <span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<h2 class="groupheader">Member Data Documentation</h2>
+<a id="ab4325b2932f56248978a8c597ab09846"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ab4325b2932f56248978a8c597ab09846">&#9670;&nbsp;</a></span>denominator_</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">int Ms::ReducedFraction::denominator_</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a346932eb23e78a2090dccda3bc7fb0fe"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a346932eb23e78a2090dccda3bc7fb0fe">&#9670;&nbsp;</a></span>numerator_</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">int Ms::ReducedFraction::numerator_</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
   </tr>
 </table>
 </div><div class="memdoc">

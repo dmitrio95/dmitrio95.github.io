@@ -23,9 +23,9 @@
   <td id="projectlogo"><img alt="Logo" src="musescore_logo_full.png"/></td>
   <td id="projectalign" style="padding-left: 0.5em;">
    <div id="projectname">MuseScore
-   &#160;<span id="projectnumber">3.1</span>
+   &#160;<span id="projectnumber">3.2</span>
    </div>
-   <div id="projectbrief">Music compisition and notation</div>
+   <div id="projectbrief">Music composition and notation</div>
   </td>
  </tr>
  </tbody>
@@ -67,6 +67,7 @@ $(function() {
 <div class="header">
   <div class="summary">
 <a href="#pub-methods">Public Member Functions</a> &#124;
+<a href="#pri-attribs">Private Attributes</a> &#124;
 <a href="class_o_v_e_1_1_glissando-members.html">List of all members</a>  </div>
   <div class="headertitle">
 <div class="title">OVE::Glissando Class Reference</div>  </div>
@@ -91,11 +92,13 @@ Collaboration diagram for OVE::Glissando:</div>
 <div class="dyncontent">
 <div class="center"><img src="class_o_v_e_1_1_glissando__coll__graph.png" border="0" usemap="#_o_v_e_1_1_glissando_coll__map" alt="Collaboration graph"/></div>
 <map name="_o_v_e_1_1_glissando_coll__map" id="_o_v_e_1_1_glissando_coll__map">
-<area shape="rect" id="node2" href="class_o_v_e_1_1_music_data.html" title="OVE::MusicData" alt="" coords="165,80,286,107"/>
-<area shape="rect" id="node3" href="class_o_v_e_1_1_tick_element.html" title="OVE::TickElement" alt="" coords="5,5,136,32"/>
-<area shape="rect" id="node4" href="class_o_v_e_1_1_pair_element.html" title="OVE::PairElement" alt="" coords="161,5,290,32"/>
-<area shape="rect" id="node5" href="class_o_v_e_1_1_offset_element.html" title="OVE::OffsetElement" alt="" coords="314,5,457,32"/>
-<area shape="rect" id="node6" href="class_o_v_e_1_1_pair_ends.html" title="OVE::PairEnds" alt="" coords="310,80,421,107"/>
+<area shape="rect" id="node2" href="class_o_v_e_1_1_music_data.html" title="OVE::MusicData" alt="" coords="175,213,297,240"/>
+<area shape="rect" id="node3" href="class_o_v_e_1_1_tick_element.html" title="OVE::TickElement" alt="" coords="5,109,136,136"/>
+<area shape="rect" id="node4" href="class_o_v_e_1_1_pair_element.html" title="OVE::PairElement" alt="" coords="161,109,290,136"/>
+<area shape="rect" id="node5" href="class_o_v_e_1_1_measure_pos.html" title="OVE::MeasurePos" alt="" coords="160,5,291,32"/>
+<area shape="rect" id="node6" href="class_o_v_e_1_1_offset_element.html" title="OVE::OffsetElement" alt="" coords="314,109,457,136"/>
+<area shape="rect" id="node7" href="class_o_v_e_1_1_pair_ends.html" title="OVE::PairEnds" alt="" coords="330,213,441,240"/>
+<area shape="rect" id="node8" href="class_o_v_e_1_1_line_element.html" title="OVE::LineElement" alt="" coords="481,109,612,136"/>
 </map>
 <center><span class="legend">[<a href="graph_legend.html">legend</a>]</span></center></div>
 <table class="memberdecls">
@@ -182,6 +185,15 @@ Public Member Functions</h2></td></tr>
 <tr class="separator:a6ce83df6bec550623191515b2bfea023 inherit pub_methods_class_o_v_e_1_1_pair_ends"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:adb243afef8a4343eb9d61aeaaec19b90 inherit pub_methods_class_o_v_e_1_1_pair_ends"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_o_v_e_1_1_offset_element.html">OffsetElement</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_o_v_e_1_1_pair_ends.html#adb243afef8a4343eb9d61aeaaec19b90">getRightShoulder</a> () const</td></tr>
 <tr class="separator:adb243afef8a4343eb9d61aeaaec19b90 inherit pub_methods_class_o_v_e_1_1_pair_ends"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pri-attribs"></a>
+Private Attributes</h2></td></tr>
+<tr class="memitem:aef546351279068f770683f5869921d16"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_o_v_e_1_1_glissando.html#aef546351279068f770683f5869921d16">straight_</a></td></tr>
+<tr class="separator:aef546351279068f770683f5869921d16"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac2c376f1c8af4b36bc889e69055ac72b"><td class="memItemLeft" align="right" valign="top">QString&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_o_v_e_1_1_glissando.html#ac2c376f1c8af4b36bc889e69055ac72b">text_</a></td></tr>
+<tr class="separator:ac2c376f1c8af4b36bc889e69055ac72b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a5287aa9ba18e30d724e6067fb0d39f9c"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_o_v_e_1_1_glissando.html#a5287aa9ba18e30d724e6067fb0d39f9c">lineThick_</a></td></tr>
+<tr class="separator:a5287aa9ba18e30d724e6067fb0d39f9c"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="inherited"></a>
 Additional Inherited Members</h2></td></tr>
@@ -348,6 +360,73 @@ Additional Inherited Members</h2></td></tr>
           <td></td>
         </tr>
       </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<h2 class="groupheader">Member Data Documentation</h2>
+<a id="a5287aa9ba18e30d724e6067fb0d39f9c"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a5287aa9ba18e30d724e6067fb0d39f9c">&#9670;&nbsp;</a></span>lineThick_</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">int OVE::Glissando::lineThick_</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="aef546351279068f770683f5869921d16"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aef546351279068f770683f5869921d16">&#9670;&nbsp;</a></span>straight_</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool OVE::Glissando::straight_</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="ac2c376f1c8af4b36bc889e69055ac72b"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ac2c376f1c8af4b36bc889e69055ac72b">&#9670;&nbsp;</a></span>text_</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">QString OVE::Glissando::text_</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
 </div><div class="memdoc">
 
 </div>

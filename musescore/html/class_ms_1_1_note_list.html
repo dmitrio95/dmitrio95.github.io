@@ -23,9 +23,9 @@
   <td id="projectlogo"><img alt="Logo" src="musescore_logo_full.png"/></td>
   <td id="projectalign" style="padding-left: 0.5em;">
    <div id="projectname">MuseScore
-   &#160;<span id="projectnumber">3.1</span>
+   &#160;<span id="projectnumber">3.2</span>
    </div>
-   <div id="projectbrief">Music compisition and notation</div>
+   <div id="projectbrief">Music composition and notation</div>
   </td>
  </tr>
  </tbody>
@@ -67,6 +67,7 @@ $(function() {
 <div class="header">
   <div class="summary">
 <a href="#pub-methods">Public Member Functions</a> &#124;
+<a href="#pri-attribs">Private Attributes</a> &#124;
 <a href="class_ms_1_1_note_list-members.html">List of all members</a>  </div>
   <div class="headertitle">
 <div class="title">Ms::NoteList Class Reference</div>  </div>
@@ -92,6 +93,12 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:a30936f3073c3e4da3f93ddddbf7e1c47"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ms_1_1_note_list.html#a30936f3073c3e4da3f93ddddbf7e1c47">anyStaffOverlaps</a> () const</td></tr>
 <tr class="memdesc:a30936f3073c3e4da3f93ddddbf7e1c47"><td class="mdescLeft">&#160;</td><td class="mdescRight">Determine if any note in any staff overlaps.  <a href="#a30936f3073c3e4da3f93ddddbf7e1c47">More...</a><br /></td></tr>
 <tr class="separator:a30936f3073c3e4da3f93ddddbf7e1c47"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pri-attribs"></a>
+Private Attributes</h2></td></tr>
+<tr class="memitem:af567417287a46f20912122af2d5a561d"><td class="memItemLeft" align="right" valign="top">QList&lt; <a class="el" href="namespace_ms.html#ac4445aa63d9807a20db60abc7a6f77b9">StartStopList</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ms_1_1_note_list.html#af567417287a46f20912122af2d5a561d">_staffNoteLists</a></td></tr>
+<tr class="memdesc:af567417287a46f20912122af2d5a561d"><td class="mdescLeft">&#160;</td><td class="mdescRight">The note start/stop times in all staves.  <a href="#af567417287a46f20912122af2d5a561d">More...</a><br /></td></tr>
+<tr class="separator:af567417287a46f20912122af2d5a561d"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><p>List of note start/stop times in a voice in all staves. </p>
@@ -212,6 +219,31 @@ Public Member Functions</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Determine if any note in staff1 and staff2 overlaps. </p>
+
+</div>
+</div>
+<h2 class="groupheader">Member Data Documentation</h2>
+<a id="af567417287a46f20912122af2d5a561d"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#af567417287a46f20912122af2d5a561d">&#9670;&nbsp;</a></span>_staffNoteLists</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">QList&lt;<a class="el" href="namespace_ms.html#ac4445aa63d9807a20db60abc7a6f77b9">StartStopList</a>&gt; Ms::NoteList::_staffNoteLists</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>The note start/stop times in all staves. </p>
 
 </div>
 </div>

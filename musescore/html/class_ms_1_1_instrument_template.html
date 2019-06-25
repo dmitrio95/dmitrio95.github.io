@@ -23,9 +23,9 @@
   <td id="projectlogo"><img alt="Logo" src="musescore_logo_full.png"/></td>
   <td id="projectalign" style="padding-left: 0.5em;">
    <div id="projectname">MuseScore
-   &#160;<span id="projectnumber">3.1</span>
+   &#160;<span id="projectnumber">3.2</span>
    </div>
-   <div id="projectbrief">Music compisition and notation</div>
+   <div id="projectbrief">Music composition and notation</div>
   </td>
  </tr>
  </tbody>
@@ -68,6 +68,7 @@ $(function() {
   <div class="summary">
 <a href="#pub-methods">Public Member Functions</a> &#124;
 <a href="#pub-attribs">Public Attributes</a> &#124;
+<a href="#pri-attribs">Private Attributes</a> &#124;
 <a href="class_ms_1_1_instrument_template-members.html">List of all members</a>  </div>
   <div class="headertitle">
 <div class="title">Ms::InstrumentTemplate Class Reference</div>  </div>
@@ -80,12 +81,14 @@ Collaboration diagram for Ms::InstrumentTemplate:</div>
 <div class="dyncontent">
 <div class="center"><img src="class_ms_1_1_instrument_template__coll__graph.png" border="0" usemap="#_ms_1_1_instrument_template_coll__map" alt="Collaboration graph"/></div>
 <map name="_ms_1_1_instrument_template_coll__map" id="_ms_1_1_instrument_template_coll__map">
-<area shape="rect" id="node2" href="class_ms_1_1_staff_type.html" title="Ms::StaffType" alt="" coords="208,5,313,32"/>
-<area shape="rect" id="node3" href="struct_ms_1_1_interval.html" title="Ms::Interval" alt="" coords="215,56,306,83"/>
-<area shape="rect" id="node4" href="class_ms_1_1_drumset.html" title="Ms::Drumset" alt="" coords="211,107,310,133"/>
-<area shape="rect" id="node5" href="class_ms_1_1_string_data.html" title="Ms::StringData" alt="" coords="205,157,316,184"/>
-<area shape="rect" id="node6" href="struct_ms_1_1_clef_type_list.html" title="Ms::ClefTypeList" alt="" coords="199,208,322,235"/>
-<area shape="rect" id="node7" href="class_ms_1_1_staff_name_list.html" title="Ms::StaffNameList" alt="" coords="195,265,327,292"/>
+<area shape="rect" id="node2" href="class_ms_1_1_staff_type.html" title="Ms::StaffType" alt="" coords="293,21,399,48"/>
+<area shape="rect" id="node3" href="class_ms_1_1_spatium.html" title="Ms::Spatium" alt="" coords="29,21,125,48"/>
+<area shape="rect" id="node4" href="struct_ms_1_1_interval.html" title="Ms::Interval" alt="" coords="301,72,391,99"/>
+<area shape="rect" id="node5" href="class_ms_1_1_drumset.html" title="Ms::Drumset" alt="" coords="297,123,395,149"/>
+<area shape="rect" id="node6" href="struct_ms_1_1_drum_instrument.html" title="Ms::DrumInstrument" alt="" coords="5,123,148,149"/>
+<area shape="rect" id="node7" href="class_ms_1_1_string_data.html" title="Ms::StringData" alt="" coords="291,173,401,200"/>
+<area shape="rect" id="node8" href="struct_ms_1_1_clef_type_list.html" title="Ms::ClefTypeList" alt="" coords="285,224,407,251"/>
+<area shape="rect" id="node9" href="class_ms_1_1_staff_name_list.html" title="Ms::StaffNameList" alt="" coords="280,281,412,308"/>
 </map>
 <center><span class="legend">[<a href="graph_legend.html">legend</a>]</span></center></div>
 <table class="memberdecls">
@@ -182,6 +185,11 @@ Public Attributes</h2></td></tr>
 <tr class="separator:a9a0f4f879c98ef9704fb4ffe8a07a94f"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:abf5eecbfd35f1e8275bd39c1f407be2e"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ms_1_1_instrument_template.html#abf5eecbfd35f1e8275bd39c1f407be2e">singleNoteDynamics</a></td></tr>
 <tr class="separator:abf5eecbfd35f1e8275bd39c1f407be2e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pri-attribs"></a>
+Private Attributes</h2></td></tr>
+<tr class="memitem:a289e214f723267c1369d430c90f2c1c1"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ms_1_1_instrument_template.html#a289e214f723267c1369d430c90f2c1c1">staves</a></td></tr>
+<tr class="separator:a289e214f723267c1369d430c90f2c1c1"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
 <a id="ad608cbc0ab30d3785a08c82f6093cd6d"></a>
@@ -807,6 +815,28 @@ Public Attributes</h2></td></tr>
           <td class="memname">const <a class="el" href="class_ms_1_1_staff_type.html">StaffType</a>* Ms::InstrumentTemplate::staffTypePreset</td>
         </tr>
       </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a289e214f723267c1369d430c90f2c1c1"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a289e214f723267c1369d430c90f2c1c1">&#9670;&nbsp;</a></span>staves</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">int Ms::InstrumentTemplate::staves</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
 </div><div class="memdoc">
 
 </div>

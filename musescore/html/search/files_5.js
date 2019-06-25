@@ -25,6 +25,7 @@ var searchData=
   ['fontstyleselect_2eh',['fontStyleSelect.h',['../font_style_select_8h.html',1,'']]],
   ['fotomode_2ecpp',['fotomode.cpp',['../fotomode_8cpp.html',1,'']]],
   ['fotomode_2eh',['fotomode.h',['../fotomode_8h.html',1,'']]],
+  ['fraction_2ecpp',['fraction.cpp',['../fraction_8cpp.html',1,'']]],
   ['fraction_2eh',['fraction.h',['../libmscore_2fraction_8h.html',1,'(Global Namespace)'],['../mscore_2plugin_2api_2fraction_8h.html',1,'(Global Namespace)']]],
   ['freeverb_2ecpp',['freeverb.cpp',['../freeverb_8cpp.html',1,'']]],
   ['freeverb_2eh',['freeverb.h',['../freeverb_8h.html',1,'']]],

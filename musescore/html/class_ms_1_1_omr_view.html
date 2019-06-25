@@ -23,9 +23,9 @@
   <td id="projectlogo"><img alt="Logo" src="musescore_logo_full.png"/></td>
   <td id="projectalign" style="padding-left: 0.5em;">
    <div id="projectname">MuseScore
-   &#160;<span id="projectnumber">3.1</span>
+   &#160;<span id="projectnumber">3.2</span>
    </div>
-   <div id="projectbrief">Music compisition and notation</div>
+   <div id="projectbrief">Music composition and notation</div>
   </td>
  </tr>
  </tbody>
@@ -69,6 +69,8 @@ $(function() {
 <a href="#pub-slots">Public Slots</a> &#124;
 <a href="#signals">Signals</a> &#124;
 <a href="#pub-methods">Public Member Functions</a> &#124;
+<a href="#pri-methods">Private Member Functions</a> &#124;
+<a href="#pri-attribs">Private Attributes</a> &#124;
 <a href="class_ms_1_1_omr_view-members.html">List of all members</a>  </div>
   <div class="headertitle">
 <div class="title">Ms::OmrView Class Reference</div>  </div>
@@ -88,6 +90,47 @@ Collaboration diagram for Ms::OmrView:</div>
 <div class="dyncontent">
 <div class="center"><img src="class_ms_1_1_omr_view__coll__graph.png" border="0" usemap="#_ms_1_1_omr_view_coll__map" alt="Collaboration graph"/></div>
 <map name="_ms_1_1_omr_view_coll__map" id="_ms_1_1_omr_view_coll__map">
+<area shape="rect" id="node4" href="class_ms_1_1_score_view.html" title="Ms::ScoreView" alt="" coords="2068,1244,2179,1271"/>
+<area shape="rect" id="node3" href="class_ms_1_1_omr.html" title="Ms::Omr" alt="" coords="1019,631,1093,657"/>
+<area shape="rect" id="node12" href="class_ms_1_1_master_score.html" title="Ms::MasterScore" alt="" coords="1269,343,1391,369"/>
+<area shape="rect" id="node48" href="class_ms_1_1_continuous_panel.html" title="Ms::ContinuousPanel" alt="" coords="2335,1176,2481,1203"/>
+<area shape="rect" id="node50" href="class_ms_1_1_position_cursor.html" title="Ms::PositionCursor" alt="" coords="2341,1341,2475,1368"/>
+<area shape="rect" id="node5" href="class_ms_1_1_muse_score_view.html" title="Ms::MuseScoreView" alt="" coords="1259,896,1401,923"/>
+<area shape="rect" id="node47" href="class_ms_1_1_edit_data.html" title="Ms::EditData" alt="" coords="1537,1204,1636,1231"/>
+<area shape="rect" id="node6" href="class_ms_1_1_score.html" title="Ms::Score" alt="" coords="705,767,787,793"/>
+<area shape="rect" id="node8" href="class_ms_1_1_score_element.html" title="Ms::ScoreElement" alt="" coords="991,1083,1121,1109"/>
+<area shape="rect" id="node11" href="class_ms_1_1_excerpt.html" title="Ms::Excerpt" alt="" coords="1540,688,1633,715"/>
+<area shape="rect" id="node15" href="class_ms_1_1_repeat_list.html" title="Ms::RepeatList" alt="" coords="1001,240,1111,267"/>
+<area shape="rect" id="node31" href="class_ms_1_1_input_state.html" title="Ms::InputState" alt="" coords="1814,1612,1922,1639"/>
+<area shape="rect" id="node38" href="class_ms_1_1_selection.html" title="Ms::Selection" alt="" coords="1817,1105,1919,1132"/>
+<area shape="rect" id="node43" href="class_ms_1_1_selection_filter.html" title="Ms::SelectionFilter" alt="" coords="991,517,1121,544"/>
+<area shape="rect" id="node28" href="class_ms_1_1_element.html" title="Base class of score layout elements. " alt="" coords="1282,1304,1378,1331"/>
+<area shape="rect" id="node9" href="class_ms_1_1_linked_elements.html" title="Ms::LinkedElements" alt="" coords="675,1488,817,1515"/>
+<area shape="rect" id="node13" href="class_ms_1_1_cmd_state.html" title="Ms::CmdState" alt="" coords="860,356,967,383"/>
+<area shape="rect" id="node14" href="class_ms_1_1_fraction.html" title="Ms::Fraction" alt="" coords="358,1212,453,1239"/>
+<area shape="rect" id="node27" href="class_ms_1_1_measure_base.html" title="Virtual base class for Measure, HBox and VBox. " alt="" coords="1523,1153,1651,1180"/>
+<area shape="rect" id="node32" href="class_ms_1_1_segment.html" title="Ms::Segment" alt="" coords="1537,1511,1637,1537"/>
+<area shape="rect" id="node17" href="class_ms_1_1_revisions.html" title="Ms::Revisions" alt="" coords="1003,76,1109,103"/>
+<area shape="rect" id="node18" href="class_ms_1_1_revision.html" title="Ms::Revision" alt="" coords="697,81,795,108"/>
+<area shape="rect" id="node19" href="class_ms_1_1_tempo_map.html" title="Ms::TempoMap" alt="" coords="999,127,1113,153"/>
+<area shape="rect" id="node21" href="class_ms_1_1_movements.html" title="Ms::Movements" alt="" coords="688,184,804,211"/>
+<area shape="rect" id="node23" href="class_ms_1_1_m_style.html" title="Ms::MStyle" alt="" coords="361,427,450,453"/>
+<area shape="rect" id="node24" href="class_ms_1_1_chord_list.html" title="Ms::ChordList" alt="" coords="50,427,154,453"/>
+<area shape="rect" id="node25" href="class_ms_1_1_time_sig_map.html" title="Ms::TimeSigMap" alt="" coords="995,291,1117,317"/>
+<area shape="rect" id="node26" href="class_ms_1_1_measure_base_list.html" title="Ms::MeasureBaseList" alt="" coords="1793,1036,1943,1063"/>
+<area shape="rect" id="node45" href="class_ms_1_1_lasso.html" title="Ms::Lasso" alt="" coords="1545,1407,1628,1433"/>
+<area shape="rect" id="node46" href="class_ms_1_1_shadow_note.html" title="Graphic representation of a shadow note, which shows the note insert position in note entry mode..." alt="" coords="1807,1356,1929,1383"/>
+<area shape="rect" id="node29" href="class_ms_1_1_spatium.html" title="Ms::Spatium" alt="" coords="1008,1293,1104,1320"/>
+<area shape="rect" id="node30" href="class_ms_1_1_element_list.html" title="Ms::ElementList" alt="" coords="1271,947,1389,973"/>
+<area shape="rect" id="node33" href="class_ms_1_1_t_duration.html" title="Ms::TDuration" alt="" coords="1534,1561,1639,1588"/>
+<area shape="rect" id="node34" href="class_ms_1_1_slur.html" title="Ms::Slur" alt="" coords="1551,1713,1622,1740"/>
+<area shape="rect" id="node35" href="class_ms_1_1_slur_tie.html" title="Ms::SlurTie" alt="" coords="1285,1713,1375,1740"/>
+<area shape="rect" id="node36" href="class_ms_1_1_synthesizer_state.html" title="Ms::SynthesizerState" alt="" coords="331,756,479,783"/>
+<area shape="rect" id="node39" href="class_ms_1_1_spanner_map.html" title="Ms::SpannerMap" alt="" coords="345,857,466,884"/>
+<area shape="rect" id="node41" href="class_ms_1_1_update_state.html" title="Ms::UpdateState" alt="" coords="345,605,466,632"/>
+<area shape="rect" id="node42" href="class_ms_1_1_audio.html" title="Ms::Audio" alt="" coords="365,656,446,683"/>
+<area shape="rect" id="node44" href="class_ms_1_1_score_font.html" title="Ms::ScoreFont" alt="" coords="351,807,459,833"/>
+<area shape="rect" id="node49" href="class_ms_1_1_foto_lasso.html" title="Ms::FotoLasso" alt="" coords="1813,1472,1923,1499"/>
 </map>
 <center><span class="legend">[<a href="graph_legend.html">legend</a>]</span></center></div>
 <table class="memberdecls">
@@ -135,6 +178,62 @@ Public Member Functions</h2></td></tr>
 <tr class="separator:acb15e0a940a329db33713c15d8088187"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ab174c7bf6f4f97c541672ee4dbd4aa0c"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ms_1_1_omr_view.html#ab174c7bf6f4f97c541672ee4dbd4aa0c">setShowStaves</a> (bool val)</td></tr>
 <tr class="separator:ab174c7bf6f4f97c541672ee4dbd4aa0c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pri-methods"></a>
+Private Member Functions</h2></td></tr>
+<tr class="memitem:ae4172a1da7e594fea66139f17ab5d5c4"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ms_1_1_omr_view.html#ae4172a1da7e594fea66139f17ab5d5c4">zoom</a> (int step, const QPoint &amp;pos)</td></tr>
+<tr class="separator:ae4172a1da7e594fea66139f17ab5d5c4"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a12f85579069cbb8df134570b10c5726e"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ms_1_1_omr_view.html#a12f85579069cbb8df134570b10c5726e">mousePressEvent</a> (QMouseEvent *)</td></tr>
+<tr class="separator:a12f85579069cbb8df134570b10c5726e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a05dbbad9918c88ab3092ab7c5302617e"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ms_1_1_omr_view.html#a05dbbad9918c88ab3092ab7c5302617e">mouseMoveEvent</a> (QMouseEvent *)</td></tr>
+<tr class="separator:a05dbbad9918c88ab3092ab7c5302617e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a17171beccf2c096f96f128bb2a9ea1f1"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ms_1_1_omr_view.html#a17171beccf2c096f96f128bb2a9ea1f1">wheelEvent</a> (QWheelEvent *)</td></tr>
+<tr class="separator:a17171beccf2c096f96f128bb2a9ea1f1"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a3843b5e0fc4c76cfbadb48cd89d04d49"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ms_1_1_omr_view.html#a3843b5e0fc4c76cfbadb48cd89d04d49">paintEvent</a> (QPaintEvent *)</td></tr>
+<tr class="separator:a3843b5e0fc4c76cfbadb48cd89d04d49"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9988db7c7f7d7723c09a03088bdd9fc1"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ms_1_1_omr_view.html#a9988db7c7f7d7723c09a03088bdd9fc1">contextMenuEvent</a> (QContextMenuEvent *)</td></tr>
+<tr class="separator:a9988db7c7f7d7723c09a03088bdd9fc1"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa7cae64a7b5a8713780330c22f71dca2"><td class="memItemLeft" align="right" valign="top">qreal&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ms_1_1_omr_view.html#aa7cae64a7b5a8713780330c22f71dca2">mag</a> () const</td></tr>
+<tr class="separator:aa7cae64a7b5a8713780330c22f71dca2"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:afe77bf4c31d9b9f09a888a22c2dfbbcc"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ms_1_1_omr_view.html#afe77bf4c31d9b9f09a888a22c2dfbbcc">setMag</a> (double <a class="el" href="class_ms_1_1_omr_view.html#aa7cae64a7b5a8713780330c22f71dca2">mag</a>)</td></tr>
+<tr class="separator:afe77bf4c31d9b9f09a888a22c2dfbbcc"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a951c7ee118cb48eb568f135731a7f237"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ms_1_1_omr_view.html#a951c7ee118cb48eb568f135731a7f237">initTile</a> (<a class="el" href="struct_ms_1_1_tile.html">Tile</a> *t)</td></tr>
+<tr class="separator:a951c7ee118cb48eb568f135731a7f237"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pri-attribs"></a>
+Private Attributes</h2></td></tr>
+<tr class="memitem:a31fa5ace07af036688f27e6799868491"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_ms_1_1_omr.html">Omr</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ms_1_1_omr_view.html#a31fa5ace07af036688f27e6799868491">_omr</a></td></tr>
+<tr class="separator:a31fa5ace07af036688f27e6799868491"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a4eb34eb61cd70e0df0f6b099da4f5a4c"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_ms_1_1_score_view.html">ScoreView</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ms_1_1_omr_view.html#a4eb34eb61cd70e0df0f6b099da4f5a4c">_scoreView</a></td></tr>
+<tr class="separator:a4eb34eb61cd70e0df0f6b099da4f5a4c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:adefea2d7b215e4d099724193685a761b"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ms_1_1_omr_view.html#adefea2d7b215e4d099724193685a761b">maxTiles</a></td></tr>
+<tr class="separator:adefea2d7b215e4d099724193685a761b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a6e328e769f73ca734188b53ff1bea71d"><td class="memItemLeft" align="right" valign="top">QList&lt; <a class="el" href="struct_ms_1_1_tile.html">Tile</a> * &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ms_1_1_omr_view.html#a6e328e769f73ca734188b53ff1bea71d">usedTiles</a></td></tr>
+<tr class="separator:a6e328e769f73ca734188b53ff1bea71d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae0055ae420cdefb9a8df132f150f48f2"><td class="memItemLeft" align="right" valign="top">QStack&lt; <a class="el" href="struct_ms_1_1_tile.html">Tile</a> * &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ms_1_1_omr_view.html#ae0055ae420cdefb9a8df132f150f48f2">freeTiles</a></td></tr>
+<tr class="separator:ae0055ae420cdefb9a8df132f150f48f2"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a12cf05f88648e98fd246c7694ab26cae"><td class="memItemLeft" align="right" valign="top">QPoint&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ms_1_1_omr_view.html#a12cf05f88648e98fd246c7694ab26cae">startDrag</a></td></tr>
+<tr class="separator:a12cf05f88648e98fd246c7694ab26cae"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:adeb0f3e1e2fb321690372f259cdf12be"><td class="memItemLeft" align="right" valign="top">QTransform&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ms_1_1_omr_view.html#adeb0f3e1e2fb321690372f259cdf12be">_matrix</a></td></tr>
+<tr class="separator:adeb0f3e1e2fb321690372f259cdf12be"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a6783aaa9b3f2d584abe61ca457ba20bb"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ms_1_1_omr_view.html#a6783aaa9b3f2d584abe61ca457ba20bb">xoff</a></td></tr>
+<tr class="separator:a6783aaa9b3f2d584abe61ca457ba20bb"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad8aadfeaab23988dc5b7728eed16e813"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ms_1_1_omr_view.html#ad8aadfeaab23988dc5b7728eed16e813">yoff</a></td></tr>
+<tr class="separator:ad8aadfeaab23988dc5b7728eed16e813"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a4437737197ea19847abb9a3053e6c2b3"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ms_1_1_omr_view.html#a4437737197ea19847abb9a3053e6c2b3">pageWidth</a></td></tr>
+<tr class="separator:a4437737197ea19847abb9a3053e6c2b3"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a40b83b119695ad493a9b637560c706cd"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ms_1_1_omr_view.html#a40b83b119695ad493a9b637560c706cd">_fotoMode</a></td></tr>
+<tr class="separator:a40b83b119695ad493a9b637560c706cd"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a7a6cc8698c5891e17e4493e6b9e9cd09"><td class="memItemLeft" align="right" valign="top">QRectF&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ms_1_1_omr_view.html#a7a6cc8698c5891e17e4493e6b9e9cd09">_foto</a></td></tr>
+<tr class="separator:a7a6cc8698c5891e17e4493e6b9e9cd09"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a42df569c4f37ed314d10398d5951d729"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ms_1_1_omr_view.html#a42df569c4f37ed314d10398d5951d729">_showLines</a></td></tr>
+<tr class="separator:a42df569c4f37ed314d10398d5951d729"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a1b9cd84134496c0f243b768b47f60cef"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ms_1_1_omr_view.html#a1b9cd84134496c0f243b768b47f60cef">_showBarlines</a></td></tr>
+<tr class="separator:a1b9cd84134496c0f243b768b47f60cef"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9d7adf9310f47ffc24a10088606d9d7e"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ms_1_1_omr_view.html#a9d7adf9310f47ffc24a10088606d9d7e">_showSlices</a></td></tr>
+<tr class="separator:a9d7adf9310f47ffc24a10088606d9d7e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a7c3bbb3bed1aa67adaa27b985a2e00c1"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ms_1_1_omr_view.html#a7c3bbb3bed1aa67adaa27b985a2e00c1">_showStaves</a></td></tr>
+<tr class="separator:a7c3bbb3bed1aa67adaa27b985a2e00c1"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
 <a id="afa1b39091598c79514a603e1edc46ceb"></a>
@@ -166,6 +265,32 @@ Public Member Functions</h2></td></tr>
 </div>
 </div>
 <h2 class="groupheader">Member Function Documentation</h2>
+<a id="a9988db7c7f7d7723c09a03088bdd9fc1"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a9988db7c7f7d7723c09a03088bdd9fc1">&#9670;&nbsp;</a></span>contextMenuEvent()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void Ms::OmrView::contextMenuEvent </td>
+          <td>(</td>
+          <td class="paramtype">QContextMenuEvent *&#160;</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span><span class="mlabel">virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
 <a id="a06842c9103a90f04fcf2a032312af50d"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a06842c9103a90f04fcf2a032312af50d">&#9670;&nbsp;</a></span>fotoMode()</h2>
 
@@ -185,6 +310,109 @@ Public Member Functions</h2></td></tr>
   </td>
   <td class="mlabels-right">
 <span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a951c7ee118cb48eb568f135731a7f237"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a951c7ee118cb48eb568f135731a7f237">&#9670;&nbsp;</a></span>initTile()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void Ms::OmrView::initTile </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="struct_ms_1_1_tile.html">Tile</a> *&#160;</td>
+          <td class="paramname"><em>t</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="aa7cae64a7b5a8713780330c22f71dca2"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aa7cae64a7b5a8713780330c22f71dca2">&#9670;&nbsp;</a></span>mag()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">qreal Ms::OmrView::mag </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a05dbbad9918c88ab3092ab7c5302617e"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a05dbbad9918c88ab3092ab7c5302617e">&#9670;&nbsp;</a></span>mouseMoveEvent()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void Ms::OmrView::mouseMoveEvent </td>
+          <td>(</td>
+          <td class="paramtype">QMouseEvent *&#160;</td>
+          <td class="paramname"><em>e</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span><span class="mlabel">virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a12f85579069cbb8df134570b10c5726e"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a12f85579069cbb8df134570b10c5726e">&#9670;&nbsp;</a></span>mousePressEvent()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void Ms::OmrView::mousePressEvent </td>
+          <td>(</td>
+          <td class="paramtype">QMouseEvent *&#160;</td>
+          <td class="paramname"><em>e</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span><span class="mlabel">virtual</span></span>  </td>
   </tr>
 </table>
 </div><div class="memdoc">
@@ -242,6 +470,32 @@ Public Member Functions</h2></td></tr>
 
 </div>
 </div>
+<a id="a3843b5e0fc4c76cfbadb48cd89d04d49"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a3843b5e0fc4c76cfbadb48cd89d04d49">&#9670;&nbsp;</a></span>paintEvent()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void Ms::OmrView::paintEvent </td>
+          <td>(</td>
+          <td class="paramtype">QPaintEvent *&#160;</td>
+          <td class="paramname"><em>event</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span><span class="mlabel">virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
 <a id="a4aab6e15d21579043bef3ff588786a21"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a4aab6e15d21579043bef3ff588786a21">&#9670;&nbsp;</a></span>setFotoMode()</h2>
 
@@ -262,6 +516,32 @@ Public Member Functions</h2></td></tr>
   </td>
   <td class="mlabels-right">
 <span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="afe77bf4c31d9b9f09a888a22c2dfbbcc"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#afe77bf4c31d9b9f09a888a22c2dfbbcc">&#9670;&nbsp;</a></span>setMag()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void Ms::OmrView::setMag </td>
+          <td>(</td>
+          <td class="paramtype">double&#160;</td>
+          <td class="paramname"><em>mag</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
   </tr>
 </table>
 </div><div class="memdoc">
@@ -528,6 +808,32 @@ Public Member Functions</h2></td></tr>
 
 </div>
 </div>
+<a id="a17171beccf2c096f96f128bb2a9ea1f1"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a17171beccf2c096f96f128bb2a9ea1f1">&#9670;&nbsp;</a></span>wheelEvent()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void Ms::OmrView::wheelEvent </td>
+          <td>(</td>
+          <td class="paramtype">QWheelEvent *&#160;</td>
+          <td class="paramname"><em>event</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span><span class="mlabel">virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
 <a id="afefcf8c21f4eec0c42c28efaaf4edcc6"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#afefcf8c21f4eec0c42c28efaaf4edcc6">&#9670;&nbsp;</a></span>xPosChanged</h2>
 
@@ -574,6 +880,395 @@ Public Member Functions</h2></td></tr>
   </td>
   <td class="mlabels-right">
 <span class="mlabels"><span class="mlabel">signal</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="ae4172a1da7e594fea66139f17ab5d5c4"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ae4172a1da7e594fea66139f17ab5d5c4">&#9670;&nbsp;</a></span>zoom()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void Ms::OmrView::zoom </td>
+          <td>(</td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>step</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const QPoint &amp;&#160;</td>
+          <td class="paramname"><em>pos</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<h2 class="groupheader">Member Data Documentation</h2>
+<a id="a7a6cc8698c5891e17e4493e6b9e9cd09"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a7a6cc8698c5891e17e4493e6b9e9cd09">&#9670;&nbsp;</a></span>_foto</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">QRectF Ms::OmrView::_foto</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a40b83b119695ad493a9b637560c706cd"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a40b83b119695ad493a9b637560c706cd">&#9670;&nbsp;</a></span>_fotoMode</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool Ms::OmrView::_fotoMode</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="adeb0f3e1e2fb321690372f259cdf12be"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#adeb0f3e1e2fb321690372f259cdf12be">&#9670;&nbsp;</a></span>_matrix</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">QTransform Ms::OmrView::_matrix</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a31fa5ace07af036688f27e6799868491"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a31fa5ace07af036688f27e6799868491">&#9670;&nbsp;</a></span>_omr</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="class_ms_1_1_omr.html">Omr</a>* Ms::OmrView::_omr</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a4eb34eb61cd70e0df0f6b099da4f5a4c"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a4eb34eb61cd70e0df0f6b099da4f5a4c">&#9670;&nbsp;</a></span>_scoreView</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="class_ms_1_1_score_view.html">ScoreView</a>* Ms::OmrView::_scoreView</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a1b9cd84134496c0f243b768b47f60cef"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a1b9cd84134496c0f243b768b47f60cef">&#9670;&nbsp;</a></span>_showBarlines</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool Ms::OmrView::_showBarlines</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a42df569c4f37ed314d10398d5951d729"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a42df569c4f37ed314d10398d5951d729">&#9670;&nbsp;</a></span>_showLines</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool Ms::OmrView::_showLines</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a9d7adf9310f47ffc24a10088606d9d7e"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a9d7adf9310f47ffc24a10088606d9d7e">&#9670;&nbsp;</a></span>_showSlices</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool Ms::OmrView::_showSlices</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a7c3bbb3bed1aa67adaa27b985a2e00c1"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a7c3bbb3bed1aa67adaa27b985a2e00c1">&#9670;&nbsp;</a></span>_showStaves</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool Ms::OmrView::_showStaves</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="ae0055ae420cdefb9a8df132f150f48f2"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ae0055ae420cdefb9a8df132f150f48f2">&#9670;&nbsp;</a></span>freeTiles</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">QStack&lt;<a class="el" href="struct_ms_1_1_tile.html">Tile</a>*&gt; Ms::OmrView::freeTiles</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="adefea2d7b215e4d099724193685a761b"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#adefea2d7b215e4d099724193685a761b">&#9670;&nbsp;</a></span>maxTiles</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">int Ms::OmrView::maxTiles</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a4437737197ea19847abb9a3053e6c2b3"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a4437737197ea19847abb9a3053e6c2b3">&#9670;&nbsp;</a></span>pageWidth</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">int Ms::OmrView::pageWidth</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a12cf05f88648e98fd246c7694ab26cae"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a12cf05f88648e98fd246c7694ab26cae">&#9670;&nbsp;</a></span>startDrag</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">QPoint Ms::OmrView::startDrag</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a6e328e769f73ca734188b53ff1bea71d"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a6e328e769f73ca734188b53ff1bea71d">&#9670;&nbsp;</a></span>usedTiles</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">QList&lt;<a class="el" href="struct_ms_1_1_tile.html">Tile</a>*&gt; Ms::OmrView::usedTiles</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a6783aaa9b3f2d584abe61ca457ba20bb"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a6783aaa9b3f2d584abe61ca457ba20bb">&#9670;&nbsp;</a></span>xoff</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">int Ms::OmrView::xoff</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="ad8aadfeaab23988dc5b7728eed16e813"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ad8aadfeaab23988dc5b7728eed16e813">&#9670;&nbsp;</a></span>yoff</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">int Ms::OmrView::yoff</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
   </tr>
 </table>
 </div><div class="memdoc">

@@ -23,9 +23,9 @@
   <td id="projectlogo"><img alt="Logo" src="musescore_logo_full.png"/></td>
   <td id="projectalign" style="padding-left: 0.5em;">
    <div id="projectname">MuseScore
-   &#160;<span id="projectnumber">3.1</span>
+   &#160;<span id="projectnumber">3.2</span>
    </div>
-   <div id="projectbrief">Music compisition and notation</div>
+   <div id="projectbrief">Music composition and notation</div>
   </td>
  </tr>
  </tbody>
@@ -70,6 +70,8 @@ $(function() {
 <a href="#pub-methods">Public Member Functions</a> &#124;
 <a href="#pub-static-attribs">Static Public Attributes</a> &#124;
 <a href="#pro-attribs">Protected Attributes</a> &#124;
+<a href="#pri-methods">Private Member Functions</a> &#124;
+<a href="#pri-attribs">Private Attributes</a> &#124;
 <a href="class_ms_1_1_lyrics-members.html">List of all members</a>  </div>
   <div class="headertitle">
 <div class="title">Ms::Lyrics Class Reference<span class="mlabels"><span class="mlabel">final</span></span></div>  </div>
@@ -92,10 +94,44 @@ Collaboration diagram for Ms::Lyrics:</div>
 <div class="dyncontent">
 <div class="center"><img src="class_ms_1_1_lyrics__coll__graph.png" border="0" usemap="#_ms_1_1_lyrics_coll__map" alt="Collaboration graph"/></div>
 <map name="_ms_1_1_lyrics_coll__map" id="_ms_1_1_lyrics_coll__map">
-<area shape="rect" id="node2" href="class_ms_1_1_text_base.html" title="Ms::TextBase" alt="" coords="35,323,139,349"/>
-<area shape="rect" id="node3" href="class_ms_1_1_element.html" title="Base class of score layout elements. " alt="" coords="39,247,135,273"/>
-<area shape="rect" id="node4" href="class_ms_1_1_score_element.html" title="Ms::ScoreElement" alt="" coords="22,171,153,197"/>
-<area shape="rect" id="node5" href="class_ms_1_1_linked_elements.html" title="Ms::LinkedElements" alt="" coords="17,81,158,108"/>
+<area shape="rect" id="node48" href="class_ms_1_1_lyrics_line.html" title="Ms::LyricsLine" alt="" coords="2817,191,2923,217"/>
+<area shape="rect" id="node2" href="class_ms_1_1_text_base.html" title="Ms::TextBase" alt="" coords="2243,507,2347,533"/>
+<area shape="rect" id="node20" href="class_ms_1_1_text.html" title="Ms::Text" alt="" coords="2557,756,2632,783"/>
+<area shape="rect" id="node3" href="class_ms_1_1_element.html" title="Base class of score layout elements. " alt="" coords="2052,412,2148,439"/>
+<area shape="rect" id="node27" href="class_ms_1_1_measure_base.html" title="Virtual base class for Measure, HBox and VBox. " alt="" coords="2231,1115,2359,1141"/>
+<area shape="rect" id="node31" href="class_ms_1_1_segment.html" title="Ms::Segment" alt="" coords="2245,412,2345,439"/>
+<area shape="rect" id="node36" href="class_ms_1_1_spanner.html" title="Virtual base class for slurs, ties, lines etc. " alt="" coords="207,335,303,361"/>
+<area shape="rect" id="node4" href="class_ms_1_1_score_element.html" title="Ms::ScoreElement" alt="" coords="1757,455,1888,481"/>
+<area shape="rect" id="node5" href="class_ms_1_1_score.html" title="Ms::Score" alt="" coords="1467,721,1550,748"/>
+<area shape="rect" id="node7" href="class_ms_1_1_excerpt.html" title="Ms::Excerpt" alt="" coords="3280,1108,3373,1135"/>
+<area shape="rect" id="node8" href="class_ms_1_1_master_score.html" title="Ms::MasterScore" alt="" coords="3059,604,3181,631"/>
+<area shape="rect" id="node12" href="class_ms_1_1_repeat_list.html" title="Ms::RepeatList" alt="" coords="1767,275,1878,301"/>
+<area shape="rect" id="node30" href="class_ms_1_1_input_state.html" title="Ms::InputState" alt="" coords="1125,503,1233,529"/>
+<area shape="rect" id="node39" href="class_ms_1_1_selection.html" title="Ms::Selection" alt="" coords="2543,908,2646,935"/>
+<area shape="rect" id="node44" href="class_ms_1_1_selection_filter.html" title="Ms::SelectionFilter" alt="" coords="1757,755,1888,781"/>
+<area shape="rect" id="node9" href="class_ms_1_1_omr.html" title="Ms::Omr" alt="" coords="2833,503,2907,529"/>
+<area shape="rect" id="node10" href="class_ms_1_1_cmd_state.html" title="Ms::CmdState" alt="" coords="327,13,433,40"/>
+<area shape="rect" id="node11" href="class_ms_1_1_fraction.html" title="Ms::Fraction" alt="" coords="5,335,100,361"/>
+<area shape="rect" id="node14" href="class_ms_1_1_revisions.html" title="Ms::Revisions" alt="" coords="2817,452,2923,479"/>
+<area shape="rect" id="node15" href="class_ms_1_1_revision.html" title="Ms::Revision" alt="" coords="2545,452,2644,479"/>
+<area shape="rect" id="node16" href="class_ms_1_1_tempo_map.html" title="Ms::TempoMap" alt="" coords="2813,655,2927,681"/>
+<area shape="rect" id="node18" href="class_ms_1_1_movements.html" title="Ms::Movements" alt="" coords="2812,857,2928,884"/>
+<area shape="rect" id="node21" href="class_ms_1_1_m_style.html" title="Ms::MStyle" alt="" coords="1135,977,1224,1004"/>
+<area shape="rect" id="node22" href="class_ms_1_1_chord_list.html" title="Ms::ChordList" alt="" coords="835,977,939,1004"/>
+<area shape="rect" id="node24" href="class_ms_1_1_time_sig_map.html" title="Ms::TimeSigMap" alt="" coords="2809,705,2931,732"/>
+<area shape="rect" id="node26" href="class_ms_1_1_measure_base_list.html" title="Ms::MeasureBaseList" alt="" coords="2520,1013,2669,1040"/>
+<area shape="rect" id="node28" href="class_ms_1_1_element_list.html" title="Ms::ElementList" alt="" coords="2041,1072,2159,1099"/>
+<area shape="rect" id="node32" href="class_ms_1_1_spatium.html" title="Ms::Spatium" alt="" coords="1775,508,1871,535"/>
+<area shape="rect" id="node33" href="class_ms_1_1_t_duration.html" title="Ms::TDuration" alt="" coords="835,452,940,479"/>
+<area shape="rect" id="node34" href="class_ms_1_1_slur.html" title="Ms::Slur" alt="" coords="852,503,923,529"/>
+<area shape="rect" id="node35" href="class_ms_1_1_slur_tie.html" title="Ms::SlurTie" alt="" coords="515,477,604,504"/>
+<area shape="rect" id="node49" href="class_ms_1_1_s_line.html" title="virtual base class for Hairpin, Trill and TextLine " alt="" coords="685,208,767,235"/>
+<area shape="rect" id="node37" href="class_ms_1_1_synthesizer_state.html" title="Ms::SynthesizerState" alt="" coords="1105,693,1253,720"/>
+<area shape="rect" id="node40" href="class_ms_1_1_spanner_map.html" title="Ms::SpannerMap" alt="" coords="1119,744,1240,771"/>
+<area shape="rect" id="node42" href="class_ms_1_1_update_state.html" title="Ms::UpdateState" alt="" coords="1119,845,1240,872"/>
+<area shape="rect" id="node43" href="class_ms_1_1_audio.html" title="Ms::Audio" alt="" coords="1139,795,1220,821"/>
+<area shape="rect" id="node45" href="class_ms_1_1_score_font.html" title="Ms::ScoreFont" alt="" coords="1125,643,1233,669"/>
+<area shape="rect" id="node46" href="class_ms_1_1_linked_elements.html" title="Ms::LinkedElements" alt="" coords="1438,452,1579,479"/>
 </map>
 <center><span class="legend">[<a href="graph_legend.html">legend</a>]</span></center></div>
 <table class="memberdecls">
@@ -180,6 +216,8 @@ Public Member Functions</h2></td></tr>
 <tr class="separator:a7209e607909426379106850b65dafb35"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a3e4c20910bcf20f671d8811129e26ebc"><td class="memItemLeft" align="right" valign="top">virtual QVariant&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ms_1_1_lyrics.html#a3e4c20910bcf20f671d8811129e26ebc">propertyDefault</a> (<a class="el" href="namespace_ms.html#aa0f871cf8181cec31d68d20a39010655">Pid</a> id) const override</td></tr>
 <tr class="separator:a3e4c20910bcf20f671d8811129e26ebc"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae3c42ca02b15cc58c5e7f6a1fbcf6999"><td class="memItemLeft" align="right" valign="top">virtual <a class="el" href="namespace_ms.html#a2bac757437d1a9e364db27de8f9c9e2e">Sid</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ms_1_1_lyrics.html#ae3c42ca02b15cc58c5e7f6a1fbcf6999">getPropertyStyle</a> (<a class="el" href="namespace_ms.html#aa0f871cf8181cec31d68d20a39010655">Pid</a>) const override</td></tr>
+<tr class="separator:ae3c42ca02b15cc58c5e7f6a1fbcf6999"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="inherit_header pub_methods_class_ms_1_1_text_base"><td colspan="2" onclick="javascript:toggleInherit('pub_methods_class_ms_1_1_text_base')"><img src="closed.png" alt="-"/>&#160;Public Member Functions inherited from <a class="el" href="class_ms_1_1_text_base.html">Ms::TextBase</a></td></tr>
 <tr class="memitem:a3fbc27af94a800240ba9906e32695bca inherit pub_methods_class_ms_1_1_text_base"><td class="memItemLeft" align="right" valign="top">const <a class="el" href="namespace_ms.html#ab69e8e4e677a596f2c21790a67c08d09">FontStyle</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ms_1_1_text_base.html#a3fbc27af94a800240ba9906e32695bca">fontStyle</a> () const</td></tr>
 <tr class="separator:a3fbc27af94a800240ba9906e32695bca inherit pub_methods_class_ms_1_1_text_base"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -276,6 +314,12 @@ Public Member Functions</h2></td></tr>
 <tr class="separator:afd11400d179e451b38a149d14ce662d9 inherit pub_methods_class_ms_1_1_text_base"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aeeff8f75da987db9a9ae6b0d7ebf964e inherit pub_methods_class_ms_1_1_text_base"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ms_1_1_text_base.html#aeeff8f75da987db9a9ae6b0d7ebf964e">selectAll</a> (<a class="el" href="class_ms_1_1_text_cursor.html">TextCursor</a> *)</td></tr>
 <tr class="separator:aeeff8f75da987db9a9ae6b0d7ebf964e inherit pub_methods_class_ms_1_1_text_base"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a111eaced88cd37091a38e8d821dd0599 inherit pub_methods_class_ms_1_1_text_base"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ms_1_1_text_base.html#a111eaced88cd37091a38e8d821dd0599">multiClickSelect</a> (<a class="el" href="class_ms_1_1_edit_data.html">EditData</a> &amp;, <a class="el" href="namespace_ms.html#a283239009ba9da1cf776d0449c6f667e">MultiClick</a>)</td></tr>
+<tr class="separator:a111eaced88cd37091a38e8d821dd0599 inherit pub_methods_class_ms_1_1_text_base"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad56fe9230b7f602be509662823b02891 inherit pub_methods_class_ms_1_1_text_base"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ms_1_1_text_base.html#ad56fe9230b7f602be509662823b02891">isPrimed</a> () const</td></tr>
+<tr class="separator:ad56fe9230b7f602be509662823b02891 inherit pub_methods_class_ms_1_1_text_base"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a2b55a1f58cb0410a8f900fe0c0a3d0ac inherit pub_methods_class_ms_1_1_text_base"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ms_1_1_text_base.html#a2b55a1f58cb0410a8f900fe0c0a3d0ac">setPrimed</a> (bool primed)</td></tr>
+<tr class="separator:a2b55a1f58cb0410a8f900fe0c0a3d0ac inherit pub_methods_class_ms_1_1_text_base"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ad5e849aedc19f7c611e84e231aeb6921 inherit pub_methods_class_ms_1_1_text_base"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ms_1_1_text_base.html#ad5e849aedc19f7c611e84e231aeb6921">writeProperties</a> (<a class="el" href="class_ms_1_1_xml_writer.html">XmlWriter</a> &amp;xml) const</td></tr>
 <tr class="separator:ad5e849aedc19f7c611e84e231aeb6921 inherit pub_methods_class_ms_1_1_text_base"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aadd6eb32a1b333105661c04ddc86dd3a inherit pub_methods_class_ms_1_1_text_base"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ms_1_1_text_base.html#aadd6eb32a1b333105661c04ddc86dd3a">writeProperties</a> (<a class="el" href="class_ms_1_1_xml_writer.html">XmlWriter</a> &amp;xml, bool writeText) const</td></tr>
@@ -310,8 +354,6 @@ Public Member Functions</h2></td></tr>
 <tr class="separator:a334267fa1c9a072dced0b25b7a91fb2d inherit pub_methods_class_ms_1_1_text_base"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a35625aaa514b6676c42624c7dc8132cb inherit pub_methods_class_ms_1_1_text_base"><td class="memItemLeft" align="right" valign="top">virtual <a class="el" href="namespace_ms.html#aa0f871cf8181cec31d68d20a39010655">Pid</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ms_1_1_text_base.html#a35625aaa514b6676c42624c7dc8132cb">propertyId</a> (const QStringRef &amp;xmlName) const override</td></tr>
 <tr class="separator:a35625aaa514b6676c42624c7dc8132cb inherit pub_methods_class_ms_1_1_text_base"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a6af0bde9c997870b1bee0ef447a61f78 inherit pub_methods_class_ms_1_1_text_base"><td class="memItemLeft" align="right" valign="top">virtual <a class="el" href="namespace_ms.html#a2bac757437d1a9e364db27de8f9c9e2e">Sid</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ms_1_1_text_base.html#a6af0bde9c997870b1bee0ef447a61f78">getPropertyStyle</a> (<a class="el" href="namespace_ms.html#aa0f871cf8181cec31d68d20a39010655">Pid</a>) const</td></tr>
-<tr class="separator:a6af0bde9c997870b1bee0ef447a61f78 inherit pub_methods_class_ms_1_1_text_base"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a6e115d5a5a25c93b4c890fc07681a10d inherit pub_methods_class_ms_1_1_text_base"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ms_1_1_text_base.html#a6e115d5a5a25c93b4c890fc07681a10d">styleChanged</a> ()</td></tr>
 <tr class="separator:a6e115d5a5a25c93b4c890fc07681a10d inherit pub_methods_class_ms_1_1_text_base"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a8be3af8d6d5d2041cc8aa69c3d568ea1 inherit pub_methods_class_ms_1_1_text_base"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ms_1_1_text_base.html#a8be3af8d6d5d2041cc8aa69c3d568ea1">editInsertText</a> (<a class="el" href="class_ms_1_1_text_cursor.html">TextCursor</a> *, const QString &amp;)</td></tr>
@@ -421,6 +463,14 @@ Public Member Functions</h2></td></tr>
 <tr class="separator:a3679cdb6351e67e9f482fa9a7fb3d466 inherit pub_methods_class_ms_1_1_element"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a6f4204d12e78c77052520492ae4416cd inherit pub_methods_class_ms_1_1_element"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ms_1_1_element.html#a6f4204d12e78c77052520492ae4416cd">setGenerated</a> (bool val)</td></tr>
 <tr class="separator:a6f4204d12e78c77052520492ae4416cd inherit pub_methods_class_ms_1_1_element"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a00b370d217141ef8efe9d32b1f737ce8 inherit pub_methods_class_ms_1_1_element"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_ms_1_1_spatium.html">Spatium</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ms_1_1_element.html#a00b370d217141ef8efe9d32b1f737ce8">minDistance</a> () const</td></tr>
+<tr class="separator:a00b370d217141ef8efe9d32b1f737ce8 inherit pub_methods_class_ms_1_1_element"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a7b5cd12e550c5be0c4399a55c93d1ea9 inherit pub_methods_class_ms_1_1_element"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ms_1_1_element.html#a7b5cd12e550c5be0c4399a55c93d1ea9">setMinDistance</a> (<a class="el" href="class_ms_1_1_spatium.html">Spatium</a> v)</td></tr>
+<tr class="separator:a7b5cd12e550c5be0c4399a55c93d1ea9 inherit pub_methods_class_ms_1_1_element"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad6648a1f597c54d30aa6418dcd4ff64c inherit pub_methods_class_ms_1_1_element"><td class="memItemLeft" align="right" valign="top"><a class="el" href="namespace_ms.html#a48cf14669801f9b0080847f8d7902e5b">OffsetChange</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ms_1_1_element.html#ad6648a1f597c54d30aa6418dcd4ff64c">offsetChanged</a> () const</td></tr>
+<tr class="separator:ad6648a1f597c54d30aa6418dcd4ff64c inherit pub_methods_class_ms_1_1_element"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a432e2033ca1c24ef8179458d1e604509 inherit pub_methods_class_ms_1_1_element"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ms_1_1_element.html#a432e2033ca1c24ef8179458d1e604509">setOffsetChanged</a> (bool v, bool absolute=true, const QPointF &amp;diff=QPointF())</td></tr>
+<tr class="separator:a432e2033ca1c24ef8179458d1e604509 inherit pub_methods_class_ms_1_1_element"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a5f1d010c61f361c3310fd22cd9f65d88 inherit pub_methods_class_ms_1_1_element"><td class="memItemLeft" align="right" valign="top">const QPointF &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ms_1_1_element.html#a5f1d010c61f361c3310fd22cd9f65d88">ipos</a> () const</td></tr>
 <tr class="separator:a5f1d010c61f361c3310fd22cd9f65d88 inherit pub_methods_class_ms_1_1_element"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a19157e811d0d2a0e3c94dc844039ba2f inherit pub_methods_class_ms_1_1_element"><td class="memItemLeft" align="right" valign="top">virtual const QPointF&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ms_1_1_element.html#a19157e811d0d2a0e3c94dc844039ba2f">pos</a> () const</td></tr>
@@ -570,7 +620,7 @@ Public Member Functions</h2></td></tr>
 <tr class="separator:aa9328fefa5648b5bc3f020b6cf481f38 inherit pub_methods_class_ms_1_1_element"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a4033806e37a8a0bd95f75e06fb6d1286 inherit pub_methods_class_ms_1_1_element"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ms_1_1_element.html#a4033806e37a8a0bd95f75e06fb6d1286">undoSetVisible</a> (bool v)</td></tr>
 <tr class="separator:a4033806e37a8a0bd95f75e06fb6d1286 inherit pub_methods_class_ms_1_1_element"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a90f21ba358732f3c471069758d84a76f inherit pub_methods_class_ms_1_1_element"><td class="memItemLeft" align="right" valign="top">QByteArray&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ms_1_1_element.html#a90f21ba358732f3c471069758d84a76f">mimeData</a> (const QPointF &amp;) const</td></tr>
+<tr class="memitem:a90f21ba358732f3c471069758d84a76f inherit pub_methods_class_ms_1_1_element"><td class="memItemLeft" align="right" valign="top">virtual QByteArray&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ms_1_1_element.html#a90f21ba358732f3c471069758d84a76f">mimeData</a> (const QPointF &amp;) const</td></tr>
 <tr class="separator:a90f21ba358732f3c471069758d84a76f inherit pub_methods_class_ms_1_1_element"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aaa90bc751111ad8ec041e2004321fbfe inherit pub_methods_class_ms_1_1_element"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ms_1_1_element.html#aaa90bc751111ad8ec041e2004321fbfe">reset</a> () override</td></tr>
 <tr class="separator:aaa90bc751111ad8ec041e2004321fbfe inherit pub_methods_class_ms_1_1_element"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -622,8 +672,10 @@ Public Member Functions</h2></td></tr>
 <tr class="separator:a9b433e4368d19bc18b9d8cb4c41fe1d4 inherit pub_methods_class_ms_1_1_element"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a36da6a07a74436d96c739f7134873eda inherit pub_methods_class_ms_1_1_element"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ms_1_1_element.html#a36da6a07a74436d96c739f7134873eda">autoplace</a> () const</td></tr>
 <tr class="separator:a36da6a07a74436d96c739f7134873eda inherit pub_methods_class_ms_1_1_element"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ac84d802724c43c8dcec941e8c259ebca inherit pub_methods_class_ms_1_1_element"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ms_1_1_element.html#ac84d802724c43c8dcec941e8c259ebca">setAutoplace</a> (bool v)</td></tr>
-<tr class="separator:ac84d802724c43c8dcec941e8c259ebca inherit pub_methods_class_ms_1_1_element"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a7b231391a59527cb00b7f08bb5279e58 inherit pub_methods_class_ms_1_1_element"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ms_1_1_element.html#a7b231391a59527cb00b7f08bb5279e58">setAutoplace</a> (bool v)</td></tr>
+<tr class="separator:a7b231391a59527cb00b7f08bb5279e58 inherit pub_methods_class_ms_1_1_element"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a6ba0ad4dad0b5de65db725a10fc64278 inherit pub_methods_class_ms_1_1_element"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ms_1_1_element.html#a6ba0ad4dad0b5de65db725a10fc64278">addToSkyline</a> () const</td></tr>
+<tr class="separator:a6ba0ad4dad0b5de65db725a10fc64278 inherit pub_methods_class_ms_1_1_element"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a01a8b01010e449fb1530dd27805ed042 inherit pub_methods_class_ms_1_1_element"><td class="memItemLeft" align="right" valign="top">virtual QString&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ms_1_1_element.html#a01a8b01010e449fb1530dd27805ed042">propertyUserValue</a> (<a class="el" href="namespace_ms.html#aa0f871cf8181cec31d68d20a39010655">Pid</a>) const override</td></tr>
 <tr class="separator:a01a8b01010e449fb1530dd27805ed042 inherit pub_methods_class_ms_1_1_element"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a7450fdfe3875f10243ae5a97883f9d34 inherit pub_methods_class_ms_1_1_element"><td class="memItemLeft" align="right" valign="top">virtual <a class="el" href="class_ms_1_1_element.html">Element</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ms_1_1_element.html#a7450fdfe3875f10243ae5a97883f9d34">propertyDelegate</a> (<a class="el" href="namespace_ms.html#aa0f871cf8181cec31d68d20a39010655">Pid</a>)</td></tr>
@@ -680,10 +732,20 @@ Public Member Functions</h2></td></tr>
 <tr class="separator:ad28416b7cf27aad952ff9e872284ee54 inherit pub_methods_class_ms_1_1_element"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ab28ffe83fb1064fb3c2a6fa648bca688 inherit pub_methods_class_ms_1_1_element"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ms_1_1_element.html#ab28ffe83fb1064fb3c2a6fa648bca688">triggerLayout</a> () const</td></tr>
 <tr class="separator:ab28ffe83fb1064fb3c2a6fa648bca688 inherit pub_methods_class_ms_1_1_element"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:abe38d265cfbe629e27c4a95540745c9b inherit pub_methods_class_ms_1_1_element"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ms_1_1_element.html#abe38d265cfbe629e27c4a95540745c9b">autoplaceSegmentElement</a> (qreal minDistance)</td></tr>
-<tr class="separator:abe38d265cfbe629e27c4a95540745c9b inherit pub_methods_class_ms_1_1_element"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a7369ba8275c097dc0a094d8769f53364 inherit pub_methods_class_ms_1_1_element"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ms_1_1_element.html#a7369ba8275c097dc0a094d8769f53364">autoplaceMeasureElement</a> (qreal minDistance)</td></tr>
-<tr class="separator:a7369ba8275c097dc0a094d8769f53364 inherit pub_methods_class_ms_1_1_element"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab5518cc652f95d5d64ddd2bd7bfc6f6b inherit pub_methods_class_ms_1_1_element"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ms_1_1_element.html#ab5518cc652f95d5d64ddd2bd7bfc6f6b">autoplaceSegmentElement</a> (bool above, bool <a class="el" href="class_ms_1_1_element.html#a6466e3a3ada3e0e7add1d1977bbfda96">add</a>)</td></tr>
+<tr class="separator:ab5518cc652f95d5d64ddd2bd7bfc6f6b inherit pub_methods_class_ms_1_1_element"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a52c2885c7d4e815d5475b1253cc4142f inherit pub_methods_class_ms_1_1_element"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ms_1_1_element.html#a52c2885c7d4e815d5475b1253cc4142f">autoplaceMeasureElement</a> (bool above, bool <a class="el" href="class_ms_1_1_element.html#a6466e3a3ada3e0e7add1d1977bbfda96">add</a>)</td></tr>
+<tr class="separator:a52c2885c7d4e815d5475b1253cc4142f inherit pub_methods_class_ms_1_1_element"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9446e28a4daa9ab0f785ce06ad0a14ab inherit pub_methods_class_ms_1_1_element"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ms_1_1_element.html#a9446e28a4daa9ab0f785ce06ad0a14ab">autoplaceSegmentElement</a> (bool <a class="el" href="class_ms_1_1_element.html#a6466e3a3ada3e0e7add1d1977bbfda96">add</a>=true)</td></tr>
+<tr class="separator:a9446e28a4daa9ab0f785ce06ad0a14ab inherit pub_methods_class_ms_1_1_element"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a59de63838f71ae75bfbbcfd7960b29b5 inherit pub_methods_class_ms_1_1_element"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ms_1_1_element.html#a59de63838f71ae75bfbbcfd7960b29b5">autoplaceMeasureElement</a> (bool <a class="el" href="class_ms_1_1_element.html#a6466e3a3ada3e0e7add1d1977bbfda96">add</a>=true)</td></tr>
+<tr class="separator:a59de63838f71ae75bfbbcfd7960b29b5 inherit pub_methods_class_ms_1_1_element"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab762a021459424295e46ef909a5ab34f inherit pub_methods_class_ms_1_1_element"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ms_1_1_element.html#ab762a021459424295e46ef909a5ab34f">autoplaceCalculateOffset</a> (QRectF &amp;r, qreal <a class="el" href="class_ms_1_1_element.html#a00b370d217141ef8efe9d32b1f737ce8">minDistance</a>)</td></tr>
+<tr class="separator:ab762a021459424295e46ef909a5ab34f inherit pub_methods_class_ms_1_1_element"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a0d9b98767134ff6a72d5ad910fd52e7a inherit pub_methods_class_ms_1_1_element"><td class="memItemLeft" align="right" valign="top">qreal&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ms_1_1_element.html#a0d9b98767134ff6a72d5ad910fd52e7a">rebaseOffset</a> (bool nox=true)</td></tr>
+<tr class="separator:a0d9b98767134ff6a72d5ad910fd52e7a inherit pub_methods_class_ms_1_1_element"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a09df89cf25ff242f9873b6c65c29d29b inherit pub_methods_class_ms_1_1_element"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ms_1_1_element.html#a09df89cf25ff242f9873b6c65c29d29b">rebaseMinDistance</a> (qreal &amp;md, qreal &amp;yd, qreal sp, qreal rebase, bool fix)</td></tr>
+<tr class="separator:a09df89cf25ff242f9873b6c65c29d29b inherit pub_methods_class_ms_1_1_element"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a31f9e63002b9f16ad6b4f35ba7a85bf4 inherit pub_methods_class_ms_1_1_element"><td class="memItemLeft" align="right" valign="top">qreal&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ms_1_1_element.html#a31f9e63002b9f16ad6b4f35ba7a85bf4">styleP</a> (<a class="el" href="namespace_ms.html#a2bac757437d1a9e364db27de8f9c9e2e">Sid</a> idx) const</td></tr>
 <tr class="separator:a31f9e63002b9f16ad6b4f35ba7a85bf4 inherit pub_methods_class_ms_1_1_element"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="inherit_header pub_methods_class_ms_1_1_score_element"><td colspan="2" onclick="javascript:toggleInherit('pub_methods_class_ms_1_1_score_element')"><img src="closed.png" alt="-"/>&#160;Public Member Functions inherited from <a class="el" href="class_ms_1_1_score_element.html">Ms::ScoreElement</a></td></tr>
@@ -940,6 +1002,8 @@ Public Member Functions</h2></td></tr>
 <tr class="separator:a00ae01c9f04bbd8f0d106cc16c946926 inherit pub_methods_class_ms_1_1_score_element"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a8d44fcb04504b1d0dcc847f5ce0a6e2a inherit pub_methods_class_ms_1_1_score_element"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ms_1_1_score_element.html#a8d44fcb04504b1d0dcc847f5ce0a6e2a">isBagpipeEmbellishment</a> () const</td></tr>
 <tr class="separator:a8d44fcb04504b1d0dcc847f5ce0a6e2a inherit pub_methods_class_ms_1_1_score_element"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a07b42f78cd6d09aa89f55bcb59d076da inherit pub_methods_class_ms_1_1_score_element"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ms_1_1_score_element.html#a07b42f78cd6d09aa89f55bcb59d076da">isSticking</a> () const</td></tr>
+<tr class="separator:a07b42f78cd6d09aa89f55bcb59d076da inherit pub_methods_class_ms_1_1_score_element"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:accef1c91df491a43c54e70474deea60c inherit pub_methods_class_ms_1_1_score_element"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ms_1_1_score_element.html#accef1c91df491a43c54e70474deea60c">isChordRest</a> () const</td></tr>
 <tr class="separator:accef1c91df491a43c54e70474deea60c inherit pub_methods_class_ms_1_1_score_element"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a203290a59b13861b957d2943f65a4cf0 inherit pub_methods_class_ms_1_1_score_element"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ms_1_1_score_element.html#a203290a59b13861b957d2943f65a4cf0">isDurationElement</a> () const</td></tr>
@@ -995,12 +1059,29 @@ Protected Attributes</h2></td></tr>
 <tr class="memdesc:a85687d7e7b049c00327023c7306cec14 inherit pro_attribs_class_ms_1_1_element"><td class="mdescLeft">&#160;</td><td class="mdescRight">element color attribute  <a href="class_ms_1_1_element.html#a85687d7e7b049c00327023c7306cec14">More...</a><br /></td></tr>
 <tr class="separator:a85687d7e7b049c00327023c7306cec14 inherit pro_attribs_class_ms_1_1_element"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="inherit_header pro_attribs_class_ms_1_1_score_element"><td colspan="2" onclick="javascript:toggleInherit('pro_attribs_class_ms_1_1_score_element')"><img src="closed.png" alt="-"/>&#160;Protected Attributes inherited from <a class="el" href="class_ms_1_1_score_element.html">Ms::ScoreElement</a></td></tr>
-<tr class="memitem:a648639a58d05aa85412217db5ad40b18 inherit pro_attribs_class_ms_1_1_score_element"><td class="memItemLeft" align="right" valign="top">const <a class="el" href="namespace_ms.html#a51f1f1bcc9058e5497bf1731565e6d0b">ElementStyle</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ms_1_1_score_element.html#a648639a58d05aa85412217db5ad40b18">_elementStyle</a> { &amp;emptyStyle }</td></tr>
+<tr class="memitem:a648639a58d05aa85412217db5ad40b18 inherit pro_attribs_class_ms_1_1_score_element"><td class="memItemLeft" align="right" valign="top">const <a class="el" href="namespace_ms.html#a51f1f1bcc9058e5497bf1731565e6d0b">ElementStyle</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ms_1_1_score_element.html#a648639a58d05aa85412217db5ad40b18">_elementStyle</a> { &amp;<a class="el" href="class_ms_1_1_score_element.html#af69eb6447034434048397f6483df75db">emptyStyle</a> }</td></tr>
 <tr class="separator:a648639a58d05aa85412217db5ad40b18 inherit pro_attribs_class_ms_1_1_score_element"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a6d4b99ddb9e217aaa9f9ae67a76861f3 inherit pro_attribs_class_ms_1_1_score_element"><td class="memItemLeft" align="right" valign="top"><a class="el" href="namespace_ms.html#a56785a0f227cf3d1d0a4891656a35daa">PropertyFlags</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ms_1_1_score_element.html#a6d4b99ddb9e217aaa9f9ae67a76861f3">_propertyFlagsList</a> { 0 }</td></tr>
 <tr class="separator:a6d4b99ddb9e217aaa9f9ae67a76861f3 inherit pro_attribs_class_ms_1_1_score_element"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a405b151c60a010237414678a0e0952af inherit pro_attribs_class_ms_1_1_score_element"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_ms_1_1_linked_elements.html">LinkedElements</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ms_1_1_score_element.html#a405b151c60a010237414678a0e0952af">_links</a> { 0 }</td></tr>
 <tr class="separator:a405b151c60a010237414678a0e0952af inherit pro_attribs_class_ms_1_1_score_element"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pri-methods"></a>
+Private Member Functions</h2></td></tr>
+<tr class="memitem:abe669b92dbfad70fe7b70fec58629ab0"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ms_1_1_lyrics.html#abe669b92dbfad70fe7b70fec58629ab0">isMelisma</a> () const</td></tr>
+<tr class="separator:abe669b92dbfad70fe7b70fec58629ab0"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a73833d7c038e4cbdcf3895d476582e86"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ms_1_1_lyrics.html#a73833d7c038e4cbdcf3895d476582e86">undoChangeProperty</a> (<a class="el" href="namespace_ms.html#aa0f871cf8181cec31d68d20a39010655">Pid</a> id, const QVariant &amp;, <a class="el" href="namespace_ms.html#a56785a0f227cf3d1d0a4891656a35daa">PropertyFlags</a> ps) override</td></tr>
+<tr class="separator:a73833d7c038e4cbdcf3895d476582e86"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pri-attribs"></a>
+Private Attributes</h2></td></tr>
+<tr class="memitem:a821f83210fce1568ace23fff3dfe19d2"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_ms_1_1_fraction.html">Fraction</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ms_1_1_lyrics.html#a821f83210fce1568ace23fff3dfe19d2">_ticks</a></td></tr>
+<tr class="memdesc:a821f83210fce1568ace23fff3dfe19d2"><td class="mdescLeft">&#160;</td><td class="mdescRight">if &gt; 0 then draw an underline to <a class="el" href="class_ms_1_1_element.html#a4cc362a42bad65483b59d3a8e0df374f">tick()</a> + _ticks (melisma)  <a href="#a821f83210fce1568ace23fff3dfe19d2">More...</a><br /></td></tr>
+<tr class="separator:a821f83210fce1568ace23fff3dfe19d2"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a8dc9ad424d1700bdad05a6ebae7305b9"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_ms_1_1_lyrics.html#a45529c72fd6e06fc97d136ffb62e8ab1">Syllabic</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ms_1_1_lyrics.html#a8dc9ad424d1700bdad05a6ebae7305b9">_syllabic</a></td></tr>
+<tr class="separator:a8dc9ad424d1700bdad05a6ebae7305b9"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ada7e1859386322ae29cb98572469857a"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_ms_1_1_lyrics_line.html">LyricsLine</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ms_1_1_lyrics.html#ada7e1859386322ae29cb98572469857a">_separator</a></td></tr>
+<tr class="separator:ada7e1859386322ae29cb98572469857a"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="inherited"></a>
 Additional Inherited Members</h2></td></tr>
@@ -1345,6 +1426,34 @@ Additional Inherited Members</h2></td></tr>
 
 </div>
 </div>
+<a id="ae3c42ca02b15cc58c5e7f6a1fbcf6999"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ae3c42ca02b15cc58c5e7f6a1fbcf6999">&#9670;&nbsp;</a></span>getPropertyStyle()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="namespace_ms.html#a2bac757437d1a9e364db27de8f9c9e2e">Sid</a> Ms::Lyrics::getPropertyStyle </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="namespace_ms.html#aa0f871cf8181cec31d68d20a39010655">Pid</a>&#160;</td>
+          <td class="paramname"><em>pid</em></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">override</span><span class="mlabel">virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Reimplemented from <a class="el" href="class_ms_1_1_text_base.html#a6af0bde9c997870b1bee0ef447a61f78">Ms::TextBase</a>.</p>
+
+</div>
+</div>
 <a id="a36902b34fdfe422cf937809db776832f"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a36902b34fdfe422cf937809db776832f">&#9670;&nbsp;</a></span>isEven()</h2>
 
@@ -1364,6 +1473,31 @@ Additional Inherited Members</h2></td></tr>
   </td>
   <td class="mlabels-right">
 <span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="abe669b92dbfad70fe7b70fec58629ab0"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#abe669b92dbfad70fe7b70fec58629ab0">&#9670;&nbsp;</a></span>isMelisma()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool Ms::Lyrics::isMelisma </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
   </tr>
 </table>
 </div><div class="memdoc">
@@ -1938,6 +2072,50 @@ Additional Inherited Members</h2></td></tr>
 
 </div>
 </div>
+<a id="a73833d7c038e4cbdcf3895d476582e86"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a73833d7c038e4cbdcf3895d476582e86">&#9670;&nbsp;</a></span>undoChangeProperty()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void Ms::Lyrics::undoChangeProperty </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="namespace_ms.html#aa0f871cf8181cec31d68d20a39010655">Pid</a>&#160;</td>
+          <td class="paramname"><em>id</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const QVariant &amp;&#160;</td>
+          <td class="paramname"><em>v</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="namespace_ms.html#a56785a0f227cf3d1d0a4891656a35daa">PropertyFlags</a>&#160;</td>
+          <td class="paramname"><em>ps</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">override</span><span class="mlabel">private</span><span class="mlabel">virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Reimplemented from <a class="el" href="class_ms_1_1_text_base.html#a7aeb5715834bc73b21923e42db600e55">Ms::TextBase</a>.</p>
+
+</div>
+</div>
 <a id="adcf196a85f61983bad6e2ed1b69bf394"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#adcf196a85f61983bad6e2ed1b69bf394">&#9670;&nbsp;</a></span>write()</h2>
 
@@ -2010,6 +2188,74 @@ Additional Inherited Members</h2></td></tr>
 </div><div class="memdoc">
 
 <p>row index </p>
+
+</div>
+</div>
+<a id="ada7e1859386322ae29cb98572469857a"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ada7e1859386322ae29cb98572469857a">&#9670;&nbsp;</a></span>_separator</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="class_ms_1_1_lyrics_line.html">LyricsLine</a>* Ms::Lyrics::_separator</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a8dc9ad424d1700bdad05a6ebae7305b9"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a8dc9ad424d1700bdad05a6ebae7305b9">&#9670;&nbsp;</a></span>_syllabic</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="class_ms_1_1_lyrics.html#a45529c72fd6e06fc97d136ffb62e8ab1">Syllabic</a> Ms::Lyrics::_syllabic</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a821f83210fce1568ace23fff3dfe19d2"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a821f83210fce1568ace23fff3dfe19d2">&#9670;&nbsp;</a></span>_ticks</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="class_ms_1_1_fraction.html">Fraction</a> Ms::Lyrics::_ticks</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>if &gt; 0 then draw an underline to <a class="el" href="class_ms_1_1_element.html#a4cc362a42bad65483b59d3a8e0df374f">tick()</a> + _ticks (melisma) </p>
 
 </div>
 </div>

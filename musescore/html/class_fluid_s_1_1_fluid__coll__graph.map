@@ -1,4 +1,4 @@
 <map id="FluidS::Fluid" name="FluidS::Fluid">
-<area shape="rect" id="node2" href="$class_ms_1_1_synthesizer.html" title="Ms::Synthesizer" alt="" coords="15,171,133,197"/>
-<area shape="rect" id="node3" href="$class_ms_1_1_synthesizer_gui.html" title="Ms::SynthesizerGui" alt="" coords="5,81,143,108"/>
+<area shape="rect" id="node2" href="$class_ms_1_1_synthesizer.html" title="Ms::Synthesizer" alt="" coords="38,5,155,32"/>
+<area shape="rect" id="node3" href="$class_ms_1_1_synthesizer_gui.html" title="Ms::SynthesizerGui" alt="" coords="137,95,275,121"/>
 </map>

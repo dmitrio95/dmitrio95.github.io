@@ -23,9 +23,9 @@
   <td id="projectlogo"><img alt="Logo" src="musescore_logo_full.png"/></td>
   <td id="projectalign" style="padding-left: 0.5em;">
    <div id="projectname">MuseScore
-   &#160;<span id="projectnumber">3.1</span>
+   &#160;<span id="projectnumber">3.2</span>
    </div>
-   <div id="projectbrief">Music compisition and notation</div>
+   <div id="projectbrief">Music composition and notation</div>
   </td>
  </tr>
  </tbody>
@@ -64,6 +64,9 @@ $(function() {
   <div class="summary">
 <a href="#pub-methods">Public Member Functions</a> &#124;
 <a href="#pub-static-methods">Static Public Member Functions</a> &#124;
+<a href="#pri-methods">Private Member Functions</a> &#124;
+<a href="#pri-attribs">Private Attributes</a> &#124;
+<a href="#pri-static-attribs">Static Private Attributes</a> &#124;
 <a href="class_zerberus-members.html">List of all members</a>  </div>
   <div class="headertitle">
 <div class="title">Zerberus Class Reference</div>  </div>
@@ -84,8 +87,18 @@ Collaboration diagram for Zerberus:</div>
 <div class="dyncontent">
 <div class="center"><img src="class_zerberus__coll__graph.png" border="0" usemap="#_zerberus_coll__map" alt="Collaboration graph"/></div>
 <map name="_zerberus_coll__map" id="_zerberus_coll__map">
-<area shape="rect" id="node2" href="class_ms_1_1_synthesizer.html" title="Ms::Synthesizer" alt="" coords="15,171,133,197"/>
-<area shape="rect" id="node3" href="class_ms_1_1_synthesizer_gui.html" title="Ms::SynthesizerGui" alt="" coords="5,81,143,108"/>
+<area shape="rect" id="node5" href="class_voice.html" title="Voice" alt="" coords="367,392,422,419"/>
+<area shape="rect" id="node6" href="class_z_filter.html" title="ZFilter" alt="" coords="173,288,232,315"/>
+<area shape="rect" id="node12" href="class_channel.html" title="Channel" alt="" coords="457,288,527,315"/>
+<area shape="rect" id="node13" href="class_z_instrument.html" title="ZInstrument" alt="" coords="446,184,538,211"/>
+<area shape="rect" id="node2" href="class_ms_1_1_synthesizer.html" title="Ms::Synthesizer" alt="" coords="369,5,487,32"/>
+<area shape="rect" id="node3" href="class_ms_1_1_synthesizer_gui.html" title="Ms::SynthesizerGui" alt="" coords="291,95,429,121"/>
+<area shape="rect" id="node7" href="struct_z_filter_1_1_filter_data.html" title="ZFilter::FilterData" alt="" coords="89,184,213,211"/>
+<area shape="rect" id="node8" href="struct_zone.html" title="Zone" alt="" coords="13,184,64,211"/>
+<area shape="rect" id="node9" href="class_sample.html" title="Sample" alt="" coords="5,95,72,121"/>
+<area shape="rect" id="node10" href="struct_phase.html" title="Phase" alt="" coords="273,288,332,315"/>
+<area shape="rect" id="node11" href="struct_envelope.html" title="Envelope" alt="" coords="357,288,433,315"/>
+<area shape="rect" id="node14" href="class_voice_fifo.html" title="VoiceFifo" alt="" coords="524,5,601,32"/>
 </map>
 <center><span class="legend">[<a href="graph_legend.html">legend</a>]</span></center></div>
 <table class="memberdecls">
@@ -139,8 +152,10 @@ Public Member Functions</h2></td></tr>
 <tr class="separator:af5bfecde358c90505e042de4cd4a8a8b"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a920fba4037e60971292febae6e5e88c6"><td class="memItemLeft" align="right" valign="top">virtual bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_zerberus.html#a920fba4037e60971292febae6e5e88c6">removeSoundFonts</a> (const QStringList &amp;fileNames)</td></tr>
 <tr class="separator:a920fba4037e60971292febae6e5e88c6"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a6217ed9472d75e89d25e2944e8f0e398"><td class="memItemLeft" align="right" valign="top">virtual QStringList&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_zerberus.html#a6217ed9472d75e89d25e2944e8f0e398">soundFonts</a> () const</td></tr>
+<tr class="memitem:a6217ed9472d75e89d25e2944e8f0e398"><td class="memItemLeft" align="right" valign="top">QStringList&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_zerberus.html#a6217ed9472d75e89d25e2944e8f0e398">soundFonts</a> () const</td></tr>
 <tr class="separator:a6217ed9472d75e89d25e2944e8f0e398"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af60d277ba898dcf929190ea2e4b88286"><td class="memItemLeft" align="right" valign="top">std::vector&lt; <a class="el" href="struct_ms_1_1_sound_font_info.html">Ms::SoundFontInfo</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_zerberus.html#af60d277ba898dcf929190ea2e4b88286">soundFontsInfo</a> () const override</td></tr>
+<tr class="separator:af60d277ba898dcf929190ea2e4b88286"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ac0a760264d937d2aecd657b9bf118e07"><td class="memItemLeft" align="right" valign="top">virtual const QList&lt; <a class="el" href="struct_ms_1_1_midi_patch.html">Ms::MidiPatch</a> * &gt; &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_zerberus.html#ac0a760264d937d2aecd657b9bf118e07">getPatchInfo</a> () const override</td></tr>
 <tr class="separator:ac0a760264d937d2aecd657b9bf118e07"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a1bf49bb9c4860992da9ed12dbd43103b"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_zerberus.html#a1bf49bb9c4860992da9ed12dbd43103b">updatePatchList</a> ()</td></tr>
@@ -171,6 +186,49 @@ Public Member Functions</h2></td></tr>
 Static Public Member Functions</h2></td></tr>
 <tr class="memitem:af70f3ce2151afb7fb5f052e784dec813"><td class="memItemLeft" align="right" valign="top">static QFileInfoList&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_zerberus.html#af70f3ce2151afb7fb5f052e784dec813">sfzFiles</a> ()</td></tr>
 <tr class="separator:af70f3ce2151afb7fb5f052e784dec813"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pri-methods"></a>
+Private Member Functions</h2></td></tr>
+<tr class="memitem:a568ce2899f74403f6906f72ecf9a5aa7"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_zerberus.html#a568ce2899f74403f6906f72ecf9a5aa7">programChange</a> (int <a class="el" href="class_zerberus.html#a706c2082216e09088e2264c559308bf1">channel</a>, int program)</td></tr>
+<tr class="separator:a568ce2899f74403f6906f72ecf9a5aa7"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:afb68e0f04504452408ad813b627aef31"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_zerberus.html#afb68e0f04504452408ad813b627aef31">trigger</a> (<a class="el" href="class_channel.html">Channel</a> *, int key, int velo, <a class="el" href="zone_8h.html#aa5716e1177438b51d44201b9556944d5">Trigger</a>, int cc, int ccVal, double durSinceNoteOn)</td></tr>
+<tr class="separator:afb68e0f04504452408ad813b627aef31"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aaa98a923708627d5e12057e4be999f40"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_zerberus.html#aaa98a923708627d5e12057e4be999f40">processNoteOff</a> (<a class="el" href="class_channel.html">Channel</a> *, int pitch)</td></tr>
+<tr class="separator:aaa98a923708627d5e12057e4be999f40"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae05bfcc1c1d0d129960b541fecc96d90"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_zerberus.html#ae05bfcc1c1d0d129960b541fecc96d90">processNoteOn</a> (<a class="el" href="class_channel.html">Channel</a> *cp, int key, int velo)</td></tr>
+<tr class="separator:ae05bfcc1c1d0d129960b541fecc96d90"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pri-attribs"></a>
+Private Attributes</h2></td></tr>
+<tr class="memitem:abb9137274f8ea332188326a741619a3a"><td class="memItemLeft" align="right" valign="top">QList&lt; <a class="el" href="struct_ms_1_1_midi_patch.html">Ms::MidiPatch</a> * &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_zerberus.html#abb9137274f8ea332188326a741619a3a">patches</a></td></tr>
+<tr class="separator:abb9137274f8ea332188326a741619a3a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a2a4a8111f012ce7ac7986a3f091550bb"><td class="memItemLeft" align="right" valign="top">double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_zerberus.html#a2a4a8111f012ce7ac7986a3f091550bb">_masterTuning</a> = 440.0</td></tr>
+<tr class="separator:a2a4a8111f012ce7ac7986a3f091550bb"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aeda7ed8718cc6fe07e58a556b4ccfe00"><td class="memItemLeft" align="right" valign="top">std::atomic&lt; bool &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_zerberus.html#aeda7ed8718cc6fe07e58a556b4ccfe00">busy</a></td></tr>
+<tr class="separator:aeda7ed8718cc6fe07e58a556b4ccfe00"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa11f8ea000118c9df9ed508056590fa6"><td class="memItemLeft" align="right" valign="top">std::list&lt; <a class="el" href="class_z_instrument.html">ZInstrument</a> * &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_zerberus.html#aa11f8ea000118c9df9ed508056590fa6">instruments</a></td></tr>
+<tr class="separator:aa11f8ea000118c9df9ed508056590fa6"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae48c8a881eb69132600d3f060b4ccd0b"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_channel.html">Channel</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_zerberus.html#ae48c8a881eb69132600d3f060b4ccd0b">_channel</a> [MAX_CHANNEL]</td></tr>
+<tr class="separator:ae48c8a881eb69132600d3f060b4ccd0b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a18e0ae264a6e33c630977db050b2e6dd"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_zerberus.html#a18e0ae264a6e33c630977db050b2e6dd">allocatedVoices</a> = 0</td></tr>
+<tr class="separator:a18e0ae264a6e33c630977db050b2e6dd"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a2cd3a452551816ba236cc3868f54a8e0"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_voice_fifo.html">VoiceFifo</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_zerberus.html#a2cd3a452551816ba236cc3868f54a8e0">freeVoices</a></td></tr>
+<tr class="separator:a2cd3a452551816ba236cc3868f54a8e0"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a69c0940c7734e828db5f15ffb3788123"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_voice.html">Voice</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_zerberus.html#a69c0940c7734e828db5f15ffb3788123">activeVoices</a> = 0</td></tr>
+<tr class="separator:a69c0940c7734e828db5f15ffb3788123"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a5d35f1e7443c0da0025d4f6925b5e9a4"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_zerberus.html#a5d35f1e7443c0da0025d4f6925b5e9a4">_loadProgress</a> = 0</td></tr>
+<tr class="separator:a5d35f1e7443c0da0025d4f6925b5e9a4"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a92fd47e1d1bbeeb3b0bc922493df3cfe"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_zerberus.html#a92fd47e1d1bbeeb3b0bc922493df3cfe">_loadWasCanceled</a> = false</td></tr>
+<tr class="separator:a92fd47e1d1bbeeb3b0bc922493df3cfe"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a6591043c9237ac081148c9676fb82997"><td class="memItemLeft" align="right" valign="top">QMutex&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_zerberus.html#a6591043c9237ac081148c9676fb82997">mutex</a></td></tr>
+<tr class="separator:a6591043c9237ac081148c9676fb82997"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pri-static-attribs"></a>
+Static Private Attributes</h2></td></tr>
+<tr class="memitem:a5df140d160af209be604f3aff29264bc"><td class="memItemLeft" align="right" valign="top">static bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_zerberus.html#a5df140d160af209be604f3aff29264bc">initialized</a> = false</td></tr>
+<tr class="separator:a5df140d160af209be604f3aff29264bc"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a3648442b0a88e277a8970baab016e9ce"><td class="memItemLeft" align="right" valign="top">static std::list&lt; <a class="el" href="class_z_instrument.html">ZInstrument</a> * &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_zerberus.html#a3648442b0a88e277a8970baab016e9ce">globalInstruments</a></td></tr>
+<tr class="separator:a3648442b0a88e277a8970baab016e9ce"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="inherited"></a>
 Additional Inherited Members</h2></td></tr>
@@ -677,6 +735,120 @@ Additional Inherited Members</h2></td></tr>
 
 </div>
 </div>
+<a id="aaa98a923708627d5e12057e4be999f40"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aaa98a923708627d5e12057e4be999f40">&#9670;&nbsp;</a></span>processNoteOff()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void Zerberus::processNoteOff </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="class_channel.html">Channel</a> *&#160;</td>
+          <td class="paramname"><em>cp</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>pitch</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="ae05bfcc1c1d0d129960b541fecc96d90"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ae05bfcc1c1d0d129960b541fecc96d90">&#9670;&nbsp;</a></span>processNoteOn()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void Zerberus::processNoteOn </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="class_channel.html">Channel</a> *&#160;</td>
+          <td class="paramname"><em>cp</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>key</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>velo</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a568ce2899f74403f6906f72ecf9a5aa7"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a568ce2899f74403f6906f72ecf9a5aa7">&#9670;&nbsp;</a></span>programChange()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void Zerberus::programChange </td>
+          <td>(</td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>channel</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>program</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
 <a id="a308d61496ec3754b907fcbfcd4e91af8"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a308d61496ec3754b907fcbfcd4e91af8">&#9670;&nbsp;</a></span>removeSoundFont()</h2>
 
@@ -869,9 +1041,6 @@ Additional Inherited Members</h2></td></tr>
 
 <div class="memitem">
 <div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
       <table class="memname">
         <tr>
           <td class="memname">QStringList Zerberus::soundFonts </td>
@@ -880,14 +1049,34 @@ Additional Inherited Members</h2></td></tr>
           <td> const</td>
         </tr>
       </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="af60d277ba898dcf929190ea2e4b88286"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#af60d277ba898dcf929190ea2e4b88286">&#9670;&nbsp;</a></span>soundFontsInfo()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">std::vector&lt; <a class="el" href="struct_ms_1_1_sound_font_info.html">Ms::SoundFontInfo</a> &gt; Zerberus::soundFontsInfo </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
   </td>
   <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">virtual</span></span>  </td>
+<span class="mlabels"><span class="mlabel">override</span><span class="mlabel">virtual</span></span>  </td>
   </tr>
 </table>
 </div><div class="memdoc">
 
-<p>Implements <a class="el" href="class_ms_1_1_synthesizer.html#ac021121461e98b7eb87d1e9042eb2d96">Ms::Synthesizer</a>.</p>
+<p>Implements <a class="el" href="class_ms_1_1_synthesizer.html#a7fbf90521f5d75b6cbec10cbb0e90259">Ms::Synthesizer</a>.</p>
 
 </div>
 </div>
@@ -918,6 +1107,72 @@ Additional Inherited Members</h2></td></tr>
 
 </div>
 </div>
+<a id="afb68e0f04504452408ad813b627aef31"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#afb68e0f04504452408ad813b627aef31">&#9670;&nbsp;</a></span>trigger()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void Zerberus::trigger </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="class_channel.html">Channel</a> *&#160;</td>
+          <td class="paramname"><em>channel</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>key</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>velo</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="zone_8h.html#aa5716e1177438b51d44201b9556944d5">Trigger</a>&#160;</td>
+          <td class="paramname"><em>trigger</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>cc</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>ccVal</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">double&#160;</td>
+          <td class="paramname"><em>durSinceNoteOn</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
 <a id="a1bf49bb9c4860992da9ed12dbd43103b"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a1bf49bb9c4860992da9ed12dbd43103b">&#9670;&nbsp;</a></span>updatePatchList()</h2>
 
@@ -931,6 +1186,293 @@ Additional Inherited Members</h2></td></tr>
           <td></td>
         </tr>
       </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<h2 class="groupheader">Member Data Documentation</h2>
+<a id="ae48c8a881eb69132600d3f060b4ccd0b"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ae48c8a881eb69132600d3f060b4ccd0b">&#9670;&nbsp;</a></span>_channel</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="class_channel.html">Channel</a>* Zerberus::_channel[MAX_CHANNEL]</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a5d35f1e7443c0da0025d4f6925b5e9a4"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a5d35f1e7443c0da0025d4f6925b5e9a4">&#9670;&nbsp;</a></span>_loadProgress</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">int Zerberus::_loadProgress = 0</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a92fd47e1d1bbeeb3b0bc922493df3cfe"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a92fd47e1d1bbeeb3b0bc922493df3cfe">&#9670;&nbsp;</a></span>_loadWasCanceled</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool Zerberus::_loadWasCanceled = false</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a2a4a8111f012ce7ac7986a3f091550bb"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a2a4a8111f012ce7ac7986a3f091550bb">&#9670;&nbsp;</a></span>_masterTuning</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">double Zerberus::_masterTuning = 440.0</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a69c0940c7734e828db5f15ffb3788123"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a69c0940c7734e828db5f15ffb3788123">&#9670;&nbsp;</a></span>activeVoices</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="class_voice.html">Voice</a>* Zerberus::activeVoices = 0</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a18e0ae264a6e33c630977db050b2e6dd"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a18e0ae264a6e33c630977db050b2e6dd">&#9670;&nbsp;</a></span>allocatedVoices</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">int Zerberus::allocatedVoices = 0</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="aeda7ed8718cc6fe07e58a556b4ccfe00"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aeda7ed8718cc6fe07e58a556b4ccfe00">&#9670;&nbsp;</a></span>busy</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">std::atomic&lt;bool&gt; Zerberus::busy</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a2cd3a452551816ba236cc3868f54a8e0"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a2cd3a452551816ba236cc3868f54a8e0">&#9670;&nbsp;</a></span>freeVoices</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="class_voice_fifo.html">VoiceFifo</a> Zerberus::freeVoices</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a3648442b0a88e277a8970baab016e9ce"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a3648442b0a88e277a8970baab016e9ce">&#9670;&nbsp;</a></span>globalInstruments</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">std::list&lt; <a class="el" href="class_z_instrument.html">ZInstrument</a> * &gt; Zerberus::globalInstruments</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a5df140d160af209be604f3aff29264bc"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a5df140d160af209be604f3aff29264bc">&#9670;&nbsp;</a></span>initialized</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool Zerberus::initialized = false</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="aa11f8ea000118c9df9ed508056590fa6"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aa11f8ea000118c9df9ed508056590fa6">&#9670;&nbsp;</a></span>instruments</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">std::list&lt;<a class="el" href="class_z_instrument.html">ZInstrument</a>*&gt; Zerberus::instruments</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a6591043c9237ac081148c9676fb82997"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a6591043c9237ac081148c9676fb82997">&#9670;&nbsp;</a></span>mutex</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">QMutex Zerberus::mutex</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="abb9137274f8ea332188326a741619a3a"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#abb9137274f8ea332188326a741619a3a">&#9670;&nbsp;</a></span>patches</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">QList&lt;<a class="el" href="struct_ms_1_1_midi_patch.html">Ms::MidiPatch</a>*&gt; Zerberus::patches</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
 </div><div class="memdoc">
 
 </div>

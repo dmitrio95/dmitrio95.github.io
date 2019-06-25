@@ -23,9 +23,9 @@
   <td id="projectlogo"><img alt="Logo" src="musescore_logo_full.png"/></td>
   <td id="projectalign" style="padding-left: 0.5em;">
    <div id="projectname">MuseScore
-   &#160;<span id="projectnumber">3.1</span>
+   &#160;<span id="projectnumber">3.2</span>
    </div>
-   <div id="projectbrief">Music compisition and notation</div>
+   <div id="projectbrief">Music composition and notation</div>
   </td>
  </tr>
  </tbody>
@@ -67,6 +67,7 @@ $(function() {
 <div class="header">
   <div class="summary">
 <a href="#pub-methods">Public Member Functions</a> &#124;
+<a href="#pri-attribs">Private Attributes</a> &#124;
 <a href="class_ms_1_1_midi_operations_1_1_track_op-members.html">List of all members</a>  </div>
   <div class="headertitle">
 <div class="title">Ms::MidiOperations::TrackOp&lt; T &gt; Class Template Reference</div>  </div>
@@ -91,6 +92,13 @@ Public Member Functions</h2></td></tr>
 <tr class="separator:a8d1d98ff2679e8143a1364f1d6d7f867"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aeee1abc828fd3377042ba383f9df1e39"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ms_1_1_midi_operations_1_1_track_op.html#aeee1abc828fd3377042ba383f9df1e39">clear</a> ()</td></tr>
 <tr class="separator:aeee1abc828fd3377042ba383f9df1e39"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pri-attribs"></a>
+Private Attributes</h2></td></tr>
+<tr class="memitem:a95bbbd0cbcb88e8b6681e2361f38d361"><td class="memItemLeft" align="right" valign="top">std::map&lt; int, T &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ms_1_1_midi_operations_1_1_track_op.html#a95bbbd0cbcb88e8b6681e2361f38d361">_operation</a></td></tr>
+<tr class="separator:a95bbbd0cbcb88e8b6681e2361f38d361"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a0598a62c3aabcdfbbdfc548cca2fcba7"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ms_1_1_midi_operations_1_1_track_op.html#a0598a62c3aabcdfbbdfc548cca2fcba7">_canRedefineDefaultLater</a></td></tr>
+<tr class="separator:a0598a62c3aabcdfbbdfc548cca2fcba7"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
 <a id="ab6aa3c9fee50dea8184338cbb5a034e1"></a>
@@ -301,6 +309,55 @@ template&lt;typename T&gt; </div>
   </td>
   <td class="mlabels-right">
 <span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<h2 class="groupheader">Member Data Documentation</h2>
+<a id="a0598a62c3aabcdfbbdfc548cca2fcba7"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a0598a62c3aabcdfbbdfc548cca2fcba7">&#9670;&nbsp;</a></span>_canRedefineDefaultLater</h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;typename T&gt; </div>
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool <a class="el" href="class_ms_1_1_midi_operations_1_1_track_op.html">Ms::MidiOperations::TrackOp</a>&lt; T &gt;::_canRedefineDefaultLater</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a95bbbd0cbcb88e8b6681e2361f38d361"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a95bbbd0cbcb88e8b6681e2361f38d361">&#9670;&nbsp;</a></span>_operation</h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;typename T&gt; </div>
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">std::map&lt;int, T&gt; <a class="el" href="class_ms_1_1_midi_operations_1_1_track_op.html">Ms::MidiOperations::TrackOp</a>&lt; T &gt;::_operation</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
   </tr>
 </table>
 </div><div class="memdoc">

@@ -23,9 +23,9 @@
   <td id="projectlogo"><img alt="Logo" src="musescore_logo_full.png"/></td>
   <td id="projectalign" style="padding-left: 0.5em;">
    <div id="projectname">MuseScore
-   &#160;<span id="projectnumber">3.1</span>
+   &#160;<span id="projectnumber">3.2</span>
    </div>
-   <div id="projectbrief">Music compisition and notation</div>
+   <div id="projectbrief">Music composition and notation</div>
   </td>
  </tr>
  </tbody>
@@ -67,6 +67,7 @@ $(function() {
 <div class="header">
   <div class="summary">
 <a href="#pub-methods">Public Member Functions</a> &#124;
+<a href="#pri-attribs">Private Attributes</a> &#124;
 <a href="class_o_v_e_1_1_track_parse-members.html">List of all members</a>  </div>
   <div class="headertitle">
 <div class="title">OVE::TrackParse Class Reference</div>  </div>
@@ -87,10 +88,16 @@ Collaboration diagram for OVE::TrackParse:</div>
 <div class="dyncontent">
 <div class="center"><img src="class_o_v_e_1_1_track_parse__coll__graph.png" border="0" usemap="#_o_v_e_1_1_track_parse_coll__map" alt="Collaboration graph"/></div>
 <map name="_o_v_e_1_1_track_parse_coll__map" id="_o_v_e_1_1_track_parse_coll__map">
-<area shape="rect" id="node2" href="class_o_v_e_1_1_basic_parse.html" title="OVE::BasicParse" alt="" coords="169,95,295,121"/>
-<area shape="rect" id="node3" href="class_o_v_e_1_1_stream_handle.html" title="OVE::StreamHandle" alt="" coords="5,5,147,32"/>
-<area shape="rect" id="node4" href="class_o_v_e_1_1_i_ove_notify.html" title="OVE::IOveNotify" alt="" coords="171,5,293,32"/>
-<area shape="rect" id="node5" href="class_o_v_e_1_1_ove_song.html" title="OVE::OveSong" alt="" coords="317,5,429,32"/>
+<area shape="rect" id="node2" href="class_o_v_e_1_1_basic_parse.html" title="OVE::BasicParse" alt="" coords="245,348,371,375"/>
+<area shape="rect" id="node3" href="class_o_v_e_1_1_stream_handle.html" title="OVE::StreamHandle" alt="" coords="5,259,147,285"/>
+<area shape="rect" id="node4" href="class_o_v_e_1_1_i_ove_notify.html" title="OVE::IOveNotify" alt="" coords="171,259,293,285"/>
+<area shape="rect" id="node5" href="class_o_v_e_1_1_ove_song.html" title="OVE::OveSong" alt="" coords="317,259,429,285"/>
+<area shape="rect" id="node6" href="class_o_v_e_1_1_size_chunk.html" title="OVE::SizeChunk" alt="" coords="437,348,560,375"/>
+<area shape="rect" id="node7" href="class_o_v_e_1_1_chunk.html" title="OVE::Chunk" alt="" coords="512,259,608,285"/>
+<area shape="rect" id="node8" href="class_o_v_e_1_1_name_block.html" title="OVE::NameBlock" alt="" coords="561,157,687,184"/>
+<area shape="rect" id="node9" href="class_o_v_e_1_1_fixed_block.html" title="OVE::FixedBlock" alt="" coords="563,81,685,108"/>
+<area shape="rect" id="node11" href="class_o_v_e_1_1_size_block.html" title="OVE::SizeBlock" alt="" coords="663,208,780,235"/>
+<area shape="rect" id="node10" href="class_o_v_e_1_1_block.html" title="OVE::Block" alt="" coords="437,5,528,32"/>
 </map>
 <center><span class="legend">[<a href="graph_legend.html">legend</a>]</span></center></div>
 <table class="memberdecls">
@@ -111,6 +118,11 @@ Public Member Functions</h2></td></tr>
 <tr class="separator:ae808dfd9d7623e7e3f6f6524d58e0684 inherit pub_methods_class_o_v_e_1_1_basic_parse"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a0acfb80499d02af56d94b28b46b744f0 inherit pub_methods_class_o_v_e_1_1_basic_parse"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_o_v_e_1_1_basic_parse.html#a0acfb80499d02af56d94b28b46b744f0">setNotify</a> (<a class="el" href="class_o_v_e_1_1_i_ove_notify.html">IOveNotify</a> *notify)</td></tr>
 <tr class="separator:a0acfb80499d02af56d94b28b46b744f0 inherit pub_methods_class_o_v_e_1_1_basic_parse"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pri-attribs"></a>
+Private Attributes</h2></td></tr>
+<tr class="memitem:ad755936e21596be1af2964c51764eb23"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_o_v_e_1_1_size_chunk.html">SizeChunk</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_o_v_e_1_1_track_parse.html#ad755936e21596be1af2964c51764eb23">chunk_</a></td></tr>
+<tr class="separator:ad755936e21596be1af2964c51764eb23"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="inherited"></a>
 Additional Inherited Members</h2></td></tr>
@@ -215,6 +227,29 @@ Additional Inherited Members</h2></td></tr>
           <td></td>
         </tr>
       </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<h2 class="groupheader">Member Data Documentation</h2>
+<a id="ad755936e21596be1af2964c51764eb23"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ad755936e21596be1af2964c51764eb23">&#9670;&nbsp;</a></span>chunk_</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="class_o_v_e_1_1_size_chunk.html">SizeChunk</a>* OVE::TrackParse::chunk_</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
 </div><div class="memdoc">
 
 </div>

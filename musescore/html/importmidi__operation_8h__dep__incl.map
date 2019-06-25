@@ -1,9 +1,9 @@
 <map id="mscore/importmidi/importmidi_operation.h" name="mscore/importmidi/importmidi_operation.h">
 <area shape="rect" id="node2" href="$importmidi__quant_8h.html" title="mscore/importmidi/importmidi\l_quant.h" alt="" coords="1118,184,1311,225"/>
 <area shape="rect" id="node12" href="$importmidi__swing_8h.html" title="mscore/importmidi/importmidi\l_swing.h" alt="" coords="265,95,458,136"/>
-<area shape="rect" id="node14" href="$importmidi__inner_8h.html" title="mscore/importmidi/importmidi\l_inner.h" alt="" coords="2146,95,2339,136"/>
+<area shape="rect" id="node14" href="$importmidi__inner_8h.html" title="mscore/importmidi/importmidi\l_inner.h" alt="" coords="2150,95,2343,136"/>
 <area shape="rect" id="node15" href="$importmidi__operations_8h.html" title="mscore/importmidi/importmidi\l_operations.h" alt="" coords="2331,184,2525,225"/>
-<area shape="rect" id="node33" href="$importmidi__voice_8h.html" title="mscore/importmidi/importmidi\l_voice.h" alt="" coords="670,184,863,225"/>
+<area shape="rect" id="node33" href="$importmidi__voice_8h.html" title="mscore/importmidi/importmidi\l_voice.h" alt="" coords="677,184,870,225"/>
 <area shape="rect" id="node3" href="$importmidi_8cpp.html" title="mscore/importmidi/importmidi.cpp" alt="" coords="5,281,224,307"/>
 <area shape="rect" id="node4" href="$importmidi__beat_8cpp.html" title="mscore/importmidi/importmidi\l_beat.cpp" alt="" coords="1335,273,1529,315"/>
 <area shape="rect" id="node5" href="$importmidi__chord_8cpp.html" title="mscore/importmidi/importmidi\l_chord.cpp" alt="" coords="1553,273,1746,315"/>

@@ -23,9 +23,9 @@
   <td id="projectlogo"><img alt="Logo" src="musescore_logo_full.png"/></td>
   <td id="projectalign" style="padding-left: 0.5em;">
    <div id="projectname">MuseScore
-   &#160;<span id="projectnumber">3.1</span>
+   &#160;<span id="projectnumber">3.2</span>
    </div>
-   <div id="projectbrief">Music compisition and notation</div>
+   <div id="projectbrief">Music composition and notation</div>
   </td>
  </tr>
  </tbody>
@@ -64,6 +64,8 @@ $(function() {
   <div class="summary">
 <a href="#pub-slots">Public Slots</a> &#124;
 <a href="#pub-methods">Public Member Functions</a> &#124;
+<a href="#pri-slots">Private Slots</a> &#124;
+<a href="#pri-methods">Private Member Functions</a> &#124;
 <a href="class_aeolus_gui-members.html">List of all members</a>  </div>
   <div class="headertitle">
 <div class="title">AeolusGui Class Reference</div>  </div>
@@ -84,7 +86,8 @@ Collaboration diagram for AeolusGui:</div>
 <div class="dyncontent">
 <div class="center"><img src="class_aeolus_gui__coll__graph.png" border="0" usemap="#_aeolus_gui_coll__map" alt="Collaboration graph"/></div>
 <map name="_aeolus_gui_coll__map" id="_aeolus_gui_coll__map">
-<area shape="rect" id="node2" href="class_ms_1_1_synthesizer_gui.html" title="Ms::SynthesizerGui" alt="" coords="5,80,143,107"/>
+<area shape="rect" id="node2" href="class_ms_1_1_synthesizer_gui.html" title="Ms::SynthesizerGui" alt="" coords="11,81,149,108"/>
+<area shape="rect" id="node4" href="class_ms_1_1_synthesizer.html" title="Ms::Synthesizer" alt="" coords="5,171,123,197"/>
 </map>
 <center><span class="legend">[<a href="graph_legend.html">legend</a>]</span></center></div>
 <table class="memberdecls">
@@ -105,6 +108,16 @@ Public Member Functions</h2></td></tr>
 <tr class="separator:a6355391915462ab1143017b23f431966 inherit pub_methods_class_ms_1_1_synthesizer_gui"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a4d4687fd36933adfa80c0799aacb4dea inherit pub_methods_class_ms_1_1_synthesizer_gui"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_ms_1_1_synthesizer.html">Synthesizer</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ms_1_1_synthesizer_gui.html#a4d4687fd36933adfa80c0799aacb4dea">synthesizer</a> ()</td></tr>
 <tr class="separator:a4d4687fd36933adfa80c0799aacb4dea inherit pub_methods_class_ms_1_1_synthesizer_gui"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pri-slots"></a>
+Private Slots</h2></td></tr>
+<tr class="memitem:a0262d323ca376c7860a8668ba5588ec9"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_aeolus_gui.html#a0262d323ca376c7860a8668ba5588ec9">valueHasChanged</a> (double, int)</td></tr>
+<tr class="separator:a0262d323ca376c7860a8668ba5588ec9"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pri-methods"></a>
+Private Member Functions</h2></td></tr>
+<tr class="memitem:af50ca11df5dbf8a9ca4a3064eba84c91"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_aeolus.html">Aeolus</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_aeolus_gui.html#af50ca11df5dbf8a9ca4a3064eba84c91">aeolus</a> ()</td></tr>
+<tr class="separator:af50ca11df5dbf8a9ca4a3064eba84c91"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="inherited"></a>
 Additional Inherited Members</h2></td></tr>
@@ -134,6 +147,31 @@ Additional Inherited Members</h2></td></tr>
 </div>
 </div>
 <h2 class="groupheader">Member Function Documentation</h2>
+<a id="af50ca11df5dbf8a9ca4a3064eba84c91"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#af50ca11df5dbf8a9ca4a3064eba84c91">&#9670;&nbsp;</a></span>aeolus()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="class_aeolus.html">Aeolus</a>* AeolusGui::aeolus </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
 <a id="a981e45100a5370d3f90e5e6b4acfa463"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a981e45100a5370d3f90e5e6b4acfa463">&#9670;&nbsp;</a></span>synthesizerChanged</h2>
 
@@ -153,6 +191,42 @@ Additional Inherited Members</h2></td></tr>
   </td>
   <td class="mlabels-right">
 <span class="mlabels"><span class="mlabel">virtual</span><span class="mlabel">slot</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a0262d323ca376c7860a8668ba5588ec9"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a0262d323ca376c7860a8668ba5588ec9">&#9670;&nbsp;</a></span>valueHasChanged</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void AeolusGui::valueHasChanged </td>
+          <td>(</td>
+          <td class="paramtype">double&#160;</td>
+          <td class="paramname"><em>val</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>id</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span><span class="mlabel">slot</span></span>  </td>
   </tr>
 </table>
 </div><div class="memdoc">

@@ -23,9 +23,9 @@
   <td id="projectlogo"><img alt="Logo" src="musescore_logo_full.png"/></td>
   <td id="projectalign" style="padding-left: 0.5em;">
    <div id="projectname">MuseScore
-   &#160;<span id="projectnumber">3.1</span>
+   &#160;<span id="projectnumber">3.2</span>
    </div>
-   <div id="projectbrief">Music compisition and notation</div>
+   <div id="projectbrief">Music composition and notation</div>
   </td>
  </tr>
  </tbody>
@@ -68,6 +68,8 @@ $(function() {
   <div class="summary">
 <a href="#signals">Signals</a> &#124;
 <a href="#pub-methods">Public Member Functions</a> &#124;
+<a href="#pri-slots">Private Slots</a> &#124;
+<a href="#pri-attribs">Private Attributes</a> &#124;
 <a href="class_ms_1_1_part_edit-members.html">List of all members</a>  </div>
   <div class="headertitle">
 <div class="title">Ms::PartEdit Class Reference</div>  </div>
@@ -87,6 +89,47 @@ Collaboration diagram for Ms::PartEdit:</div>
 <div class="dyncontent">
 <div class="center"><img src="class_ms_1_1_part_edit__coll__graph.png" border="0" usemap="#_ms_1_1_part_edit_coll__map" alt="Collaboration graph"/></div>
 <map name="_ms_1_1_part_edit_coll__map" id="_ms_1_1_part_edit_coll__map">
+<area shape="rect" id="node4" href="class_ms_1_1_part.html" title="Ms::Part" alt="" coords="1132,61,1204,88"/>
+<area shape="rect" id="node5" href="class_ms_1_1_score_element.html" title="Ms::ScoreElement" alt="" coords="833,215,963,241"/>
+<area shape="rect" id="node6" href="class_ms_1_1_score.html" title="Ms::Score" alt="" coords="2002,467,2085,493"/>
+<area shape="rect" id="node22" href="class_ms_1_1_element.html" title="Base class of score layout elements. " alt="" coords="1120,429,1216,456"/>
+<area shape="rect" id="node8" href="class_ms_1_1_excerpt.html" title="Ms::Excerpt" alt="" coords="2733,272,2827,299"/>
+<area shape="rect" id="node9" href="class_ms_1_1_master_score.html" title="Ms::MasterScore" alt="" coords="2512,664,2635,691"/>
+<area shape="rect" id="node13" href="class_ms_1_1_repeat_list.html" title="Ms::RepeatList" alt="" coords="2270,512,2381,539"/>
+<area shape="rect" id="node25" href="class_ms_1_1_input_state.html" title="Ms::InputState" alt="" coords="2271,941,2379,968"/>
+<area shape="rect" id="node31" href="class_ms_1_1_selection.html" title="Ms::Selection" alt="" coords="2274,613,2377,640"/>
+<area shape="rect" id="node36" href="class_ms_1_1_selection_filter.html" title="Ms::SelectionFilter" alt="" coords="2260,348,2391,375"/>
+<area shape="rect" id="node10" href="class_ms_1_1_omr.html" title="Ms::Omr" alt="" coords="2289,664,2362,691"/>
+<area shape="rect" id="node11" href="class_ms_1_1_cmd_state.html" title="Ms::CmdState" alt="" coords="1553,995,1660,1021"/>
+<area shape="rect" id="node12" href="class_ms_1_1_fraction.html" title="Ms::Fraction" alt="" coords="1121,789,1215,816"/>
+<area shape="rect" id="node21" href="class_ms_1_1_measure_base.html" title="Virtual base class for Measure, HBox and VBox. " alt="" coords="1369,397,1497,424"/>
+<area shape="rect" id="node26" href="class_ms_1_1_segment.html" title="Ms::Segment" alt="" coords="1383,789,1483,816"/>
+<area shape="rect" id="node14" href="class_ms_1_1_revisions.html" title="Ms::Revisions" alt="" coords="2272,840,2379,867"/>
+<area shape="rect" id="node15" href="class_ms_1_1_tempo_map.html" title="Ms::TempoMap" alt="" coords="2269,891,2382,917"/>
+<area shape="rect" id="node16" href="class_ms_1_1_movements.html" title="Ms::Movements" alt="" coords="2120,828,2236,855"/>
+<area shape="rect" id="node17" href="class_ms_1_1_m_style.html" title="Ms::MStyle" alt="" coords="1714,619,1803,645"/>
+<area shape="rect" id="node18" href="class_ms_1_1_chord_list.html" title="Ms::ChordList" alt="" coords="1381,619,1485,645"/>
+<area shape="rect" id="node19" href="class_ms_1_1_time_sig_map.html" title="Ms::TimeSigMap" alt="" coords="2265,399,2386,425"/>
+<area shape="rect" id="node20" href="class_ms_1_1_measure_base_list.html" title="Ms::MeasureBaseList" alt="" coords="1684,416,1833,443"/>
+<area shape="rect" id="node23" href="class_ms_1_1_spatium.html" title="Ms::Spatium" alt="" coords="850,472,946,499"/>
+<area shape="rect" id="node24" href="class_ms_1_1_element_list.html" title="Ms::ElementList" alt="" coords="1109,325,1227,352"/>
+<area shape="rect" id="node27" href="class_ms_1_1_t_duration.html" title="Ms::TDuration" alt="" coords="1991,952,2096,979"/>
+<area shape="rect" id="node28" href="class_ms_1_1_slur.html" title="Ms::Slur" alt="" coords="2008,1003,2079,1029"/>
+<area shape="rect" id="node29" href="class_ms_1_1_synthesizer_state.html" title="Ms::SynthesizerState" alt="" coords="1685,568,1833,595"/>
+<area shape="rect" id="node32" href="class_ms_1_1_spanner_map.html" title="Ms::SpannerMap" alt="" coords="1698,669,1819,696"/>
+<area shape="rect" id="node34" href="class_ms_1_1_update_state.html" title="Ms::UpdateState" alt="" coords="1698,315,1819,341"/>
+<area shape="rect" id="node35" href="class_ms_1_1_audio.html" title="Ms::Audio" alt="" coords="1718,365,1799,392"/>
+<area shape="rect" id="node37" href="class_ms_1_1_score_font.html" title="Ms::ScoreFont" alt="" coords="1705,467,1813,493"/>
+<area shape="rect" id="node38" href="class_ms_1_1_linked_elements.html" title="Ms::LinkedElements" alt="" coords="528,215,669,241"/>
+<area shape="rect" id="node40" href="class_ms_1_1_instrument_list.html" title="Ms::InstrumentList" alt="" coords="833,60,963,87"/>
+<area shape="rect" id="node42" href="class_ms_1_1_instrument.html" title="Ms::Instrument" alt="" coords="543,59,654,85"/>
+<area shape="rect" id="node43" href="struct_ms_1_1_interval.html" title="Ms::Interval" alt="" coords="274,56,365,83"/>
+<area shape="rect" id="node44" href="class_ms_1_1_drumset.html" title="Ms::Drumset" alt="" coords="270,107,369,133"/>
+<area shape="rect" id="node45" href="struct_ms_1_1_drum_instrument.html" title="Ms::DrumInstrument" alt="" coords="5,107,148,133"/>
+<area shape="rect" id="node46" href="class_ms_1_1_string_data.html" title="Ms::StringData" alt="" coords="264,157,375,184"/>
+<area shape="rect" id="node47" href="class_ms_1_1_staff_name_list.html" title="Ms::StaffNameList" alt="" coords="253,5,385,32"/>
+<area shape="rect" id="node49" href="class_ms_1_1_channel.html" title="Ms::Channel" alt="" coords="1120,112,1216,139"/>
+<area shape="rect" id="node50" href="class_ms_1_1_notifier.html" title="Ms::Notifier\&lt; Channel\l::Prop \&gt;" alt="" coords="823,111,973,153"/>
 </map>
 <center><span class="legend">[<a href="graph_legend.html">legend</a>]</span></center></div>
 <table class="memberdecls">
@@ -101,6 +144,42 @@ Public Member Functions</h2></td></tr>
 <tr class="separator:a0c8e05af92ee03110815167ceb83974d"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a73306c700bcc2323af1fcf80fc6a3c1e"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ms_1_1_part_edit.html#a73306c700bcc2323af1fcf80fc6a3c1e">setPart</a> (<a class="el" href="class_ms_1_1_part.html">Part</a> *, <a class="el" href="class_ms_1_1_channel.html">Channel</a> *)</td></tr>
 <tr class="separator:a73306c700bcc2323af1fcf80fc6a3c1e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pri-slots"></a>
+Private Slots</h2></td></tr>
+<tr class="memitem:a8a56f258a6ceb6abd9b21cf782000dae"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ms_1_1_part_edit.html#a8a56f258a6ceb6abd9b21cf782000dae">patchChanged</a> (int, bool syncControls=true)</td></tr>
+<tr class="separator:a8a56f258a6ceb6abd9b21cf782000dae"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa30fbcf191ae7bfd9d0e6a63b3cc1168"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ms_1_1_part_edit.html#aa30fbcf191ae7bfd9d0e6a63b3cc1168">volChanged</a> (double, bool syncControls=true)</td></tr>
+<tr class="separator:aa30fbcf191ae7bfd9d0e6a63b3cc1168"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac143d2284db5869c8661f77b1e5425bc"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ms_1_1_part_edit.html#ac143d2284db5869c8661f77b1e5425bc">panChanged</a> (double, bool syncControls=true)</td></tr>
+<tr class="separator:ac143d2284db5869c8661f77b1e5425bc"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a708a31690ea9e83bc072b13ffa233cc7"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ms_1_1_part_edit.html#a708a31690ea9e83bc072b13ffa233cc7">reverbChanged</a> (double, bool syncControls=true)</td></tr>
+<tr class="separator:a708a31690ea9e83bc072b13ffa233cc7"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a7ed4bd5a16a6c49f021519e9916c3c3c"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ms_1_1_part_edit.html#a7ed4bd5a16a6c49f021519e9916c3c3c">chorusChanged</a> (double, bool syncControls=true)</td></tr>
+<tr class="separator:a7ed4bd5a16a6c49f021519e9916c3c3c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a4c3059462a5f9a47cf13bbe0d39a4680"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ms_1_1_part_edit.html#a4c3059462a5f9a47cf13bbe0d39a4680">muteChanged</a> (bool, bool syncControls=true)</td></tr>
+<tr class="separator:a4c3059462a5f9a47cf13bbe0d39a4680"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a87919160d43938fabcf50c3e030023f9"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ms_1_1_part_edit.html#a87919160d43938fabcf50c3e030023f9">soloToggled</a> (bool, bool syncControls=true)</td></tr>
+<tr class="separator:a87919160d43938fabcf50c3e030023f9"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ace26d87d54b1603a52fa072e448dfd01"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ms_1_1_part_edit.html#ace26d87d54b1603a52fa072e448dfd01">drumsetToggled</a> (bool, bool syncControls=true)</td></tr>
+<tr class="separator:ace26d87d54b1603a52fa072e448dfd01"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a32f56615db2d7cef9c5c032332ba9daf"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ms_1_1_part_edit.html#a32f56615db2d7cef9c5c032332ba9daf">midiChannelChanged</a> (int)</td></tr>
+<tr class="separator:a32f56615db2d7cef9c5c032332ba9daf"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af6cb421ff82237c9431ab5d99b4f6bbb"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ms_1_1_part_edit.html#af6cb421ff82237c9431ab5d99b4f6bbb">sync</a> (bool syncControls)</td></tr>
+<tr class="separator:af6cb421ff82237c9431ab5d99b4f6bbb"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:abf37e0a782fb723b5ce8cff7b3c1bd32"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ms_1_1_part_edit.html#abf37e0a782fb723b5ce8cff7b3c1bd32">expandToggled</a> (bool)</td></tr>
+<tr class="separator:abf37e0a782fb723b5ce8cff7b3c1bd32"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aaac89a8b00693c0e1c58891060309455"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ms_1_1_part_edit.html#aaac89a8b00693c0e1c58891060309455">playbackVoiceChanged</a> ()</td></tr>
+<tr class="separator:aaac89a8b00693c0e1c58891060309455"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pri-attribs"></a>
+Private Attributes</h2></td></tr>
+<tr class="memitem:a4d4350186a52cefe4ebf279720fc5fa5"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_ms_1_1_channel.html">Channel</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ms_1_1_part_edit.html#a4d4350186a52cefe4ebf279720fc5fa5">channel</a></td></tr>
+<tr class="separator:a4d4350186a52cefe4ebf279720fc5fa5"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a16b16ffb07c701582fc552013459d25c"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_ms_1_1_part.html">Part</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ms_1_1_part_edit.html#a16b16ffb07c701582fc552013459d25c">part</a></td></tr>
+<tr class="separator:a16b16ffb07c701582fc552013459d25c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aaf44fbe572fbb60e92cec892649267b6"><td class="memItemLeft" align="right" valign="top">QList&lt; QToolButton * &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ms_1_1_part_edit.html#aaf44fbe572fbb60e92cec892649267b6">voiceButtons</a></td></tr>
+<tr class="separator:aaf44fbe572fbb60e92cec892649267b6"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
 <a id="a0c8e05af92ee03110815167ceb83974d"></a>
@@ -122,6 +201,299 @@ Public Member Functions</h2></td></tr>
 </div>
 </div>
 <h2 class="groupheader">Member Function Documentation</h2>
+<a id="a7ed4bd5a16a6c49f021519e9916c3c3c"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a7ed4bd5a16a6c49f021519e9916c3c3c">&#9670;&nbsp;</a></span>chorusChanged</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void Ms::PartEdit::chorusChanged </td>
+          <td>(</td>
+          <td class="paramtype">double&#160;</td>
+          <td class="paramname"><em>val</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">bool&#160;</td>
+          <td class="paramname"><em>syncControls</em> = <code>true</code>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span><span class="mlabel">slot</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="ace26d87d54b1603a52fa072e448dfd01"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ace26d87d54b1603a52fa072e448dfd01">&#9670;&nbsp;</a></span>drumsetToggled</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void Ms::PartEdit::drumsetToggled </td>
+          <td>(</td>
+          <td class="paramtype">bool&#160;</td>
+          <td class="paramname"><em>val</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">bool&#160;</td>
+          <td class="paramname"><em>syncControls</em> = <code>true</code>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span><span class="mlabel">slot</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="abf37e0a782fb723b5ce8cff7b3c1bd32"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#abf37e0a782fb723b5ce8cff7b3c1bd32">&#9670;&nbsp;</a></span>expandToggled</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void Ms::PartEdit::expandToggled </td>
+          <td>(</td>
+          <td class="paramtype">bool&#160;</td>
+          <td class="paramname"><em>val</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span><span class="mlabel">slot</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a32f56615db2d7cef9c5c032332ba9daf"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a32f56615db2d7cef9c5c032332ba9daf">&#9670;&nbsp;</a></span>midiChannelChanged</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void Ms::PartEdit::midiChannelChanged </td>
+          <td>(</td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span><span class="mlabel">slot</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a4c3059462a5f9a47cf13bbe0d39a4680"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a4c3059462a5f9a47cf13bbe0d39a4680">&#9670;&nbsp;</a></span>muteChanged</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void Ms::PartEdit::muteChanged </td>
+          <td>(</td>
+          <td class="paramtype">bool&#160;</td>
+          <td class="paramname"><em>val</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">bool&#160;</td>
+          <td class="paramname"><em>syncControls</em> = <code>true</code>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span><span class="mlabel">slot</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="ac143d2284db5869c8661f77b1e5425bc"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ac143d2284db5869c8661f77b1e5425bc">&#9670;&nbsp;</a></span>panChanged</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void Ms::PartEdit::panChanged </td>
+          <td>(</td>
+          <td class="paramtype">double&#160;</td>
+          <td class="paramname"><em>val</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">bool&#160;</td>
+          <td class="paramname"><em>syncControls</em> = <code>true</code>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span><span class="mlabel">slot</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a8a56f258a6ceb6abd9b21cf782000dae"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a8a56f258a6ceb6abd9b21cf782000dae">&#9670;&nbsp;</a></span>patchChanged</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void Ms::PartEdit::patchChanged </td>
+          <td>(</td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>n</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">bool&#160;</td>
+          <td class="paramname"><em>syncControls</em> = <code>true</code>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span><span class="mlabel">slot</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="aaac89a8b00693c0e1c58891060309455"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aaac89a8b00693c0e1c58891060309455">&#9670;&nbsp;</a></span>playbackVoiceChanged</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void Ms::PartEdit::playbackVoiceChanged </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span><span class="mlabel">slot</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a708a31690ea9e83bc072b13ffa233cc7"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a708a31690ea9e83bc072b13ffa233cc7">&#9670;&nbsp;</a></span>reverbChanged</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void Ms::PartEdit::reverbChanged </td>
+          <td>(</td>
+          <td class="paramtype">double&#160;</td>
+          <td class="paramname"><em>val</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">bool&#160;</td>
+          <td class="paramname"><em>syncControls</em> = <code>true</code>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span><span class="mlabel">slot</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
 <a id="a73306c700bcc2323af1fcf80fc6a3c1e"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a73306c700bcc2323af1fcf80fc6a3c1e">&#9670;&nbsp;</a></span>setPart()</h2>
 
@@ -170,6 +542,171 @@ Public Member Functions</h2></td></tr>
   </td>
   <td class="mlabels-right">
 <span class="mlabels"><span class="mlabel">signal</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a87919160d43938fabcf50c3e030023f9"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a87919160d43938fabcf50c3e030023f9">&#9670;&nbsp;</a></span>soloToggled</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void Ms::PartEdit::soloToggled </td>
+          <td>(</td>
+          <td class="paramtype">bool&#160;</td>
+          <td class="paramname"><em>val</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">bool&#160;</td>
+          <td class="paramname"><em>syncControls</em> = <code>true</code>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span><span class="mlabel">slot</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="af6cb421ff82237c9431ab5d99b4f6bbb"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#af6cb421ff82237c9431ab5d99b4f6bbb">&#9670;&nbsp;</a></span>sync</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void Ms::PartEdit::sync </td>
+          <td>(</td>
+          <td class="paramtype">bool&#160;</td>
+          <td class="paramname"><em>syncControls</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span><span class="mlabel">slot</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="aa30fbcf191ae7bfd9d0e6a63b3cc1168"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aa30fbcf191ae7bfd9d0e6a63b3cc1168">&#9670;&nbsp;</a></span>volChanged</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void Ms::PartEdit::volChanged </td>
+          <td>(</td>
+          <td class="paramtype">double&#160;</td>
+          <td class="paramname"><em>val</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">bool&#160;</td>
+          <td class="paramname"><em>syncControls</em> = <code>true</code>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span><span class="mlabel">slot</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<h2 class="groupheader">Member Data Documentation</h2>
+<a id="a4d4350186a52cefe4ebf279720fc5fa5"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a4d4350186a52cefe4ebf279720fc5fa5">&#9670;&nbsp;</a></span>channel</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="class_ms_1_1_channel.html">Channel</a>* Ms::PartEdit::channel</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a16b16ffb07c701582fc552013459d25c"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a16b16ffb07c701582fc552013459d25c">&#9670;&nbsp;</a></span>part</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="class_ms_1_1_part.html">Part</a>* Ms::PartEdit::part</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="aaf44fbe572fbb60e92cec892649267b6"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aaf44fbe572fbb60e92cec892649267b6">&#9670;&nbsp;</a></span>voiceButtons</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">QList&lt;QToolButton*&gt; Ms::PartEdit::voiceButtons</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
   </tr>
 </table>
 </div><div class="memdoc">

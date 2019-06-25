@@ -23,9 +23,9 @@
   <td id="projectlogo"><img alt="Logo" src="musescore_logo_full.png"/></td>
   <td id="projectalign" style="padding-left: 0.5em;">
    <div id="projectname">MuseScore
-   &#160;<span id="projectnumber">3.1</span>
+   &#160;<span id="projectnumber">3.2</span>
    </div>
-   <div id="projectbrief">Music compisition and notation</div>
+   <div id="projectbrief">Music composition and notation</div>
   </td>
  </tr>
  </tbody>
@@ -67,6 +67,7 @@ $(function() {
 <div class="header">
   <div class="summary">
 <a href="#pub-methods">Public Member Functions</a> &#124;
+<a href="#pri-attribs">Private Attributes</a> &#124;
 <a href="class_ms_1_1_rms_env-members.html">List of all members</a>  </div>
   <div class="headertitle">
 <div class="title">Ms::RmsEnv Class Reference</div>  </div>
@@ -81,6 +82,15 @@ Public Member Functions</h2></td></tr>
 <tr class="separator:aecfaec568cc403103185e12056ecea80"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a75540710c91cd5626da65682ff4983e8"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ms_1_1_rms_env.html#a75540710c91cd5626da65682ff4983e8">process</a> (const float x)</td></tr>
 <tr class="separator:a75540710c91cd5626da65682ff4983e8"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pri-attribs"></a>
+Private Attributes</h2></td></tr>
+<tr class="memitem:a2e65f2ca3bf523cf18b73596f1485b1c"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ms_1_1_rms_env.html#a2e65f2ca3bf523cf18b73596f1485b1c">buffer</a> [<a class="el" href="compressor_8h.html#a91b7cc356a400cfa8f8397bb9a038f1a">RMS_BUF_SIZE</a>]</td></tr>
+<tr class="separator:a2e65f2ca3bf523cf18b73596f1485b1c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa4e0c7adb6a7320aead6b394f17027b1"><td class="memItemLeft" align="right" valign="top">unsigned int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ms_1_1_rms_env.html#aa4e0c7adb6a7320aead6b394f17027b1">pos</a></td></tr>
+<tr class="separator:aa4e0c7adb6a7320aead6b394f17027b1"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a778c428130a12de8e7758a4eaf354c49"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ms_1_1_rms_env.html#a778c428130a12de8e7758a4eaf354c49">sum</a></td></tr>
+<tr class="separator:a778c428130a12de8e7758a4eaf354c49"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
 <a id="aecfaec568cc403103185e12056ecea80"></a>
@@ -129,6 +139,73 @@ Public Member Functions</h2></td></tr>
   </td>
   <td class="mlabels-right">
 <span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<h2 class="groupheader">Member Data Documentation</h2>
+<a id="a2e65f2ca3bf523cf18b73596f1485b1c"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a2e65f2ca3bf523cf18b73596f1485b1c">&#9670;&nbsp;</a></span>buffer</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">float Ms::RmsEnv::buffer[<a class="el" href="compressor_8h.html#a91b7cc356a400cfa8f8397bb9a038f1a">RMS_BUF_SIZE</a>]</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="aa4e0c7adb6a7320aead6b394f17027b1"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aa4e0c7adb6a7320aead6b394f17027b1">&#9670;&nbsp;</a></span>pos</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">unsigned int Ms::RmsEnv::pos</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a778c428130a12de8e7758a4eaf354c49"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a778c428130a12de8e7758a4eaf354c49">&#9670;&nbsp;</a></span>sum</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">float Ms::RmsEnv::sum</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
   </tr>
 </table>
 </div><div class="memdoc">

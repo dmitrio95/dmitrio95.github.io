@@ -7,7 +7,7 @@
 <area shape="rect" id="node7" href="$globals_8h.html" title="globals.h" alt="" coords="403,155,477,181"/>
 <area shape="rect" id="node15" href="$updatechecker_8h.html" title="updatechecker.h" alt="" coords="1250,155,1369,181"/>
 <area shape="rect" id="node16" href="$musescore_core_8h.html" title="libmscore/musescoreCore.h" alt="" coords="1393,155,1578,181"/>
-<area shape="rect" id="node17" href="$libmscore_2score_8h.html" title="Definition of Score class. " alt="" coords="891,229,1016,256"/>
+<area shape="rect" id="node17" href="$libmscore_2score_8h.html" title="Definition of Score class. " alt="" coords="889,229,1015,256"/>
 <area shape="rect" id="node41" href="$newwizard_8h.html" title="newwizard.h" alt="" coords="1654,155,1749,181"/>
 <area shape="rect" id="node18" href="$input_8h.html" title="input.h" alt="" coords="1377,304,1439,331"/>
 <area shape="rect" id="node24" href="$property_8h.html" title="property.h" alt="" coords="1335,468,1415,495"/>
@@ -27,7 +27,7 @@
 <area shape="rect" id="node28" href="$event_8h.html" title="synthesizer/event.h" alt="" coords="136,386,272,413"/>
 <area shape="rect" id="node29" href="$interval_8h.html" title="interval.h" alt="" coords="296,386,371,413"/>
 <area shape="rect" id="node30" href="$clef_8h.html" title="Definition of classes Clef. " alt="" coords="862,386,917,413"/>
-<area shape="rect" id="node34" href="$pitchspelling_8h.html" title="pitchspelling.h" alt="" coords="605,543,710,569"/>
+<area shape="rect" id="node34" href="$pitchspelling_8h.html" title="pitchspelling.h" alt="" coords="539,543,645,569"/>
 <area shape="rect" id="node45" href="$timesig_8h.html" title="libmscore/timesig.h" alt="" coords="1273,229,1407,256"/>
 <area shape="rect" id="node48" href="$key_8h.html" title="key.h" alt="" coords="1194,229,1249,256"/>
 <area shape="rect" id="node46" href="$sig_8h.html" title="sig.h" alt="" coords="1668,468,1719,495"/>

@@ -1,6 +1,43 @@
 <map id="Ms::InstrumentChange" name="Ms::InstrumentChange">
-<area shape="rect" id="node2" href="$class_ms_1_1_text_base.html" title="Ms::TextBase" alt="" coords="35,323,139,349"/>
-<area shape="rect" id="node3" href="$class_ms_1_1_element.html" title="Base class of score layout elements. " alt="" coords="39,247,135,273"/>
-<area shape="rect" id="node4" href="$class_ms_1_1_score_element.html" title="Ms::ScoreElement" alt="" coords="22,171,153,197"/>
-<area shape="rect" id="node5" href="$class_ms_1_1_linked_elements.html" title="Ms::LinkedElements" alt="" coords="17,81,158,108"/>
+<area shape="rect" id="node2" href="$class_ms_1_1_text_base.html" title="Ms::TextBase" alt="" coords="511,193,615,220"/>
+<area shape="rect" id="node20" href="$class_ms_1_1_text.html" title="Ms::Text" alt="" coords="796,869,871,896"/>
+<area shape="rect" id="node3" href="$class_ms_1_1_element.html" title="Base class of score layout elements. " alt="" coords="2208,135,2304,161"/>
+<area shape="rect" id="node25" href="$class_ms_1_1_measure_base.html" title="Virtual base class for Measure, HBox and VBox. " alt="" coords="2384,903,2512,929"/>
+<area shape="rect" id="node28" href="$class_ms_1_1_segment.html" title="Ms::Segment" alt="" coords="2398,185,2498,212"/>
+<area shape="rect" id="node4" href="$class_ms_1_1_score_element.html" title="Ms::ScoreElement" alt="" coords="2017,364,2148,391"/>
+<area shape="rect" id="node5" href="$class_ms_1_1_score.html" title="Ms::Score" alt="" coords="1745,595,1827,621"/>
+<area shape="rect" id="node7" href="$class_ms_1_1_excerpt.html" title="Ms::Excerpt" alt="" coords="2036,581,2129,608"/>
+<area shape="rect" id="node8" href="$class_ms_1_1_master_score.html" title="Ms::MasterScore" alt="" coords="1395,681,1518,708"/>
+<area shape="rect" id="node12" href="$class_ms_1_1_repeat_list.html" title="Ms::RepeatList" alt="" coords="2027,875,2138,901"/>
+<area shape="rect" id="node27" href="$class_ms_1_1_input_state.html" title="Ms::InputState" alt="" coords="2675,572,2783,599"/>
+<area shape="rect" id="node35" href="$class_ms_1_1_selection.html" title="Ms::Selection" alt="" coords="2678,307,2781,333"/>
+<area shape="rect" id="node40" href="$class_ms_1_1_selection_filter.html" title="Ms::SelectionFilter" alt="" coords="2017,748,2148,775"/>
+<area shape="rect" id="node9" href="$class_ms_1_1_omr.html" title="Ms::Omr" alt="" coords="1108,669,1181,696"/>
+<area shape="rect" id="node10" href="$class_ms_1_1_cmd_state.html" title="Ms::CmdState" alt="" coords="1091,720,1198,747"/>
+<area shape="rect" id="node11" href="$class_ms_1_1_fraction.html" title="Ms::Fraction" alt="" coords="786,519,881,545"/>
+<area shape="rect" id="node14" href="$class_ms_1_1_revisions.html" title="Ms::Revisions" alt="" coords="1091,771,1198,797"/>
+<area shape="rect" id="node15" href="$class_ms_1_1_revision.html" title="Ms::Revision" alt="" coords="784,768,883,795"/>
+<area shape="rect" id="node16" href="$class_ms_1_1_tempo_map.html" title="Ms::TempoMap" alt="" coords="1088,1008,1201,1035"/>
+<area shape="rect" id="node18" href="$class_ms_1_1_movements.html" title="Ms::Movements" alt="" coords="1087,872,1203,899"/>
+<area shape="rect" id="node21" href="$class_ms_1_1_m_style.html" title="Ms::MStyle" alt="" coords="789,939,878,965"/>
+<area shape="rect" id="node22" href="$class_ms_1_1_chord_list.html" title="Ms::ChordList" alt="" coords="511,939,615,965"/>
+<area shape="rect" id="node23" href="$class_ms_1_1_time_sig_map.html" title="Ms::TimeSigMap" alt="" coords="1084,619,1205,645"/>
+<area shape="rect" id="node24" href="$class_ms_1_1_measure_base_list.html" title="Ms::MeasureBaseList" alt="" coords="2655,761,2804,788"/>
+<area shape="rect" id="node26" href="$class_ms_1_1_element_list.html" title="Ms::ElementList" alt="" coords="2197,1028,2315,1055"/>
+<area shape="rect" id="node29" href="$class_ms_1_1_spatium.html" title="Ms::Spatium" alt="" coords="255,68,351,95"/>
+<area shape="rect" id="node30" href="$class_ms_1_1_t_duration.html" title="Ms::TDuration" alt="" coords="2395,673,2501,700"/>
+<area shape="rect" id="node31" href="$class_ms_1_1_slur.html" title="Ms::Slur" alt="" coords="2413,520,2483,547"/>
+<area shape="rect" id="node32" href="$class_ms_1_1_slur_tie.html" title="Ms::SlurTie" alt="" coords="2211,520,2301,547"/>
+<area shape="rect" id="node33" href="$class_ms_1_1_synthesizer_state.html" title="Ms::SynthesizerState" alt="" coords="1383,467,1531,493"/>
+<area shape="rect" id="node36" href="$class_ms_1_1_spanner_map.html" title="Ms::SpannerMap" alt="" coords="1396,517,1517,544"/>
+<area shape="rect" id="node38" href="$class_ms_1_1_update_state.html" title="Ms::UpdateState" alt="" coords="1396,732,1517,759"/>
+<area shape="rect" id="node39" href="$class_ms_1_1_audio.html" title="Ms::Audio" alt="" coords="1416,805,1497,832"/>
+<area shape="rect" id="node41" href="$class_ms_1_1_score_font.html" title="Ms::ScoreFont" alt="" coords="1403,416,1511,443"/>
+<area shape="rect" id="node42" href="$class_ms_1_1_linked_elements.html" title="Ms::LinkedElements" alt="" coords="1715,297,1857,324"/>
+<area shape="rect" id="node44" href="$class_ms_1_1_instrument.html" title="Ms::Instrument" alt="" coords="508,569,619,596"/>
+<area shape="rect" id="node45" href="$struct_ms_1_1_interval.html" title="Ms::Interval" alt="" coords="258,647,349,673"/>
+<area shape="rect" id="node46" href="$class_ms_1_1_drumset.html" title="Ms::Drumset" alt="" coords="254,488,353,515"/>
+<area shape="rect" id="node47" href="$struct_ms_1_1_drum_instrument.html" title="Ms::DrumInstrument" alt="" coords="5,488,148,515"/>
+<area shape="rect" id="node48" href="$class_ms_1_1_string_data.html" title="Ms::StringData" alt="" coords="248,539,359,565"/>
+<area shape="rect" id="node49" href="$class_ms_1_1_staff_name_list.html" title="Ms::StaffNameList" alt="" coords="237,596,369,623"/>
 </map>

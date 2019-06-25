@@ -23,9 +23,9 @@
   <td id="projectlogo"><img alt="Logo" src="musescore_logo_full.png"/></td>
   <td id="projectalign" style="padding-left: 0.5em;">
    <div id="projectname">MuseScore
-   &#160;<span id="projectnumber">3.1</span>
+   &#160;<span id="projectnumber">3.2</span>
    </div>
-   <div id="projectbrief">Music compisition and notation</div>
+   <div id="projectbrief">Music composition and notation</div>
   </td>
  </tr>
  </tbody>
@@ -67,6 +67,8 @@ $(function() {
 <div class="header">
   <div class="summary">
 <a href="#pub-methods">Public Member Functions</a> &#124;
+<a href="#pri-methods">Private Member Functions</a> &#124;
+<a href="#pri-attribs">Private Attributes</a> &#124;
 <a href="class_ms_1_1_tempo_map-members.html">List of all members</a>  </div>
   <div class="headertitle">
 <div class="title">Ms::TempoMap Class Reference</div>  </div>
@@ -123,6 +125,22 @@ Public Member Functions</h2></td></tr>
 <tr class="separator:af5cebddb58ab9a281dd185c07377b4cf"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a6a712b7fa2fa54777e1cff05885f799a"><td class="memItemLeft" align="right" valign="top">qreal&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ms_1_1_tempo_map.html#a6a712b7fa2fa54777e1cff05885f799a">relTempo</a> () const</td></tr>
 <tr class="separator:a6a712b7fa2fa54777e1cff05885f799a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pri-methods"></a>
+Private Member Functions</h2></td></tr>
+<tr class="memitem:af7ef697dcb9f108fc98a1550e2300517"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ms_1_1_tempo_map.html#af7ef697dcb9f108fc98a1550e2300517">normalize</a> ()</td></tr>
+<tr class="separator:af7ef697dcb9f108fc98a1550e2300517"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae589cc2af2baf8e6d4fa6d3517d1f916"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ms_1_1_tempo_map.html#ae589cc2af2baf8e6d4fa6d3517d1f916">del</a> (int tick)</td></tr>
+<tr class="separator:ae589cc2af2baf8e6d4fa6d3517d1f916"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pri-attribs"></a>
+Private Attributes</h2></td></tr>
+<tr class="memitem:a6e1dd1ed1fa1bc7ae721dd759d56a549"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ms_1_1_tempo_map.html#a6e1dd1ed1fa1bc7ae721dd759d56a549">_tempoSN</a></td></tr>
+<tr class="separator:a6e1dd1ed1fa1bc7ae721dd759d56a549"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a4122aa260b93ba8b89b9bd53b2e1bc47"><td class="memItemLeft" align="right" valign="top">qreal&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ms_1_1_tempo_map.html#a4122aa260b93ba8b89b9bd53b2e1bc47">_tempo</a></td></tr>
+<tr class="separator:a4122aa260b93ba8b89b9bd53b2e1bc47"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a68a70aaf1048dd74a7a0501addd435f4"><td class="memItemLeft" align="right" valign="top">qreal&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ms_1_1_tempo_map.html#a68a70aaf1048dd74a7a0501addd435f4">_relTempo</a></td></tr>
+<tr class="separator:a68a70aaf1048dd74a7a0501addd435f4"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
 <a id="a78b4bd97d99146831a3b6f187d393d16"></a>
@@ -188,6 +206,32 @@ Public Member Functions</h2></td></tr>
 
 </div>
 </div>
+<a id="ae589cc2af2baf8e6d4fa6d3517d1f916"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ae589cc2af2baf8e6d4fa6d3517d1f916">&#9670;&nbsp;</a></span>del()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void TempoMap::del </td>
+          <td>(</td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>tick</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
 <a id="a9caacd5955a82aca259389fa3f5c3fa2"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a9caacd5955a82aca259389fa3f5c3fa2">&#9670;&nbsp;</a></span>delTempo()</h2>
 
@@ -219,6 +263,31 @@ Public Member Functions</h2></td></tr>
           <td> const</td>
         </tr>
       </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="af7ef697dcb9f108fc98a1550e2300517"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#af7ef697dcb9f108fc98a1550e2300517">&#9670;&nbsp;</a></span>normalize()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void TempoMap::normalize </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
 </div><div class="memdoc">
 
 </div>
@@ -513,6 +582,73 @@ Public Member Functions</h2></td></tr>
           <td></td><td> const</td>
         </tr>
       </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<h2 class="groupheader">Member Data Documentation</h2>
+<a id="a68a70aaf1048dd74a7a0501addd435f4"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a68a70aaf1048dd74a7a0501addd435f4">&#9670;&nbsp;</a></span>_relTempo</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">qreal Ms::TempoMap::_relTempo</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a4122aa260b93ba8b89b9bd53b2e1bc47"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a4122aa260b93ba8b89b9bd53b2e1bc47">&#9670;&nbsp;</a></span>_tempo</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">qreal Ms::TempoMap::_tempo</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a6e1dd1ed1fa1bc7ae721dd759d56a549"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a6e1dd1ed1fa1bc7ae721dd759d56a549">&#9670;&nbsp;</a></span>_tempoSN</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">int Ms::TempoMap::_tempoSN</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
 </div><div class="memdoc">
 
 </div>

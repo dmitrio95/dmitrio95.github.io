@@ -23,9 +23,9 @@
   <td id="projectlogo"><img alt="Logo" src="musescore_logo_full.png"/></td>
   <td id="projectalign" style="padding-left: 0.5em;">
    <div id="projectname">MuseScore
-   &#160;<span id="projectnumber">3.1</span>
+   &#160;<span id="projectnumber">3.2</span>
    </div>
-   <div id="projectbrief">Music compisition and notation</div>
+   <div id="projectbrief">Music composition and notation</div>
   </td>
  </tr>
  </tbody>
@@ -67,6 +67,7 @@ $(function() {
 <div class="header">
   <div class="summary">
 <a href="#pub-methods">Public Member Functions</a> &#124;
+<a href="#pri-attribs">Private Attributes</a> &#124;
 <a href="class_o_v_e_1_1_pair_ends-members.html">List of all members</a>  </div>
   <div class="headertitle">
 <div class="title">OVE::PairEnds Class Reference</div>  </div>
@@ -89,6 +90,15 @@ Inheritance diagram for OVE::PairEnds:</div>
 <area shape="rect" id="node9" href="class_o_v_e_1_1_tuplet.html" title="OVE::Tuplet" alt="" coords="190,360,285,387"/>
 </map>
 <center><span class="legend">[<a href="graph_legend.html">legend</a>]</span></center></div>
+<div class="dynheader">
+Collaboration diagram for OVE::PairEnds:</div>
+<div class="dyncontent">
+<div class="center"><img src="class_o_v_e_1_1_pair_ends__coll__graph.png" border="0" usemap="#_o_v_e_1_1_pair_ends_coll__map" alt="Collaboration graph"/></div>
+<map name="_o_v_e_1_1_pair_ends_coll__map" id="_o_v_e_1_1_pair_ends_coll__map">
+<area shape="rect" id="node2" href="class_o_v_e_1_1_offset_element.html" title="OVE::OffsetElement" alt="" coords="5,5,148,32"/>
+<area shape="rect" id="node3" href="class_o_v_e_1_1_line_element.html" title="OVE::LineElement" alt="" coords="173,5,303,32"/>
+</map>
+<center><span class="legend">[<a href="graph_legend.html">legend</a>]</span></center></div>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
@@ -104,6 +114,17 @@ Public Member Functions</h2></td></tr>
 <tr class="separator:a6ce83df6bec550623191515b2bfea023"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:adb243afef8a4343eb9d61aeaaec19b90"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_o_v_e_1_1_offset_element.html">OffsetElement</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_o_v_e_1_1_pair_ends.html#adb243afef8a4343eb9d61aeaaec19b90">getRightShoulder</a> () const</td></tr>
 <tr class="separator:adb243afef8a4343eb9d61aeaaec19b90"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pri-attribs"></a>
+Private Attributes</h2></td></tr>
+<tr class="memitem:a64585c46a63e905d43f107e3a4b5dfba"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_o_v_e_1_1_line_element.html">LineElement</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_o_v_e_1_1_pair_ends.html#a64585c46a63e905d43f107e3a4b5dfba">leftLine_</a></td></tr>
+<tr class="separator:a64585c46a63e905d43f107e3a4b5dfba"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a619721985c40e2f5e548a763a03daef4"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_o_v_e_1_1_line_element.html">LineElement</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_o_v_e_1_1_pair_ends.html#a619721985c40e2f5e548a763a03daef4">rightLine_</a></td></tr>
+<tr class="separator:a619721985c40e2f5e548a763a03daef4"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a02e3268ec73d96db26bd55db4bf77229"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_o_v_e_1_1_offset_element.html">OffsetElement</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_o_v_e_1_1_pair_ends.html#a02e3268ec73d96db26bd55db4bf77229">leftShoulder_</a></td></tr>
+<tr class="separator:a02e3268ec73d96db26bd55db4bf77229"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a873b8a510fc1c0f1ef568c2226b5d629"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_o_v_e_1_1_offset_element.html">OffsetElement</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_o_v_e_1_1_pair_ends.html#a873b8a510fc1c0f1ef568c2226b5d629">rightShoulder_</a></td></tr>
+<tr class="separator:a873b8a510fc1c0f1ef568c2226b5d629"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
 <a id="ae41d42811b4c271774800a57f4782d8f"></a>
@@ -213,6 +234,95 @@ Public Member Functions</h2></td></tr>
           <td> const</td>
         </tr>
       </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<h2 class="groupheader">Member Data Documentation</h2>
+<a id="a64585c46a63e905d43f107e3a4b5dfba"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a64585c46a63e905d43f107e3a4b5dfba">&#9670;&nbsp;</a></span>leftLine_</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="class_o_v_e_1_1_line_element.html">LineElement</a>* OVE::PairEnds::leftLine_</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a02e3268ec73d96db26bd55db4bf77229"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a02e3268ec73d96db26bd55db4bf77229">&#9670;&nbsp;</a></span>leftShoulder_</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="class_o_v_e_1_1_offset_element.html">OffsetElement</a>* OVE::PairEnds::leftShoulder_</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a619721985c40e2f5e548a763a03daef4"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a619721985c40e2f5e548a763a03daef4">&#9670;&nbsp;</a></span>rightLine_</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="class_o_v_e_1_1_line_element.html">LineElement</a>* OVE::PairEnds::rightLine_</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a873b8a510fc1c0f1ef568c2226b5d629"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a873b8a510fc1c0f1ef568c2226b5d629">&#9670;&nbsp;</a></span>rightShoulder_</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="class_o_v_e_1_1_offset_element.html">OffsetElement</a>* OVE::PairEnds::rightShoulder_</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
 </div><div class="memdoc">
 
 </div>

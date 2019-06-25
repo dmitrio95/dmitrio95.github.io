@@ -23,9 +23,9 @@
   <td id="projectlogo"><img alt="Logo" src="musescore_logo_full.png"/></td>
   <td id="projectalign" style="padding-left: 0.5em;">
    <div id="projectname">MuseScore
-   &#160;<span id="projectnumber">3.1</span>
+   &#160;<span id="projectnumber">3.2</span>
    </div>
-   <div id="projectbrief">Music compisition and notation</div>
+   <div id="projectbrief">Music composition and notation</div>
   </td>
  </tr>
  </tbody>
@@ -63,6 +63,7 @@ $(function() {
 <div class="header">
   <div class="summary">
 <a href="#pub-methods">Public Member Functions</a> &#124;
+<a href="#pri-attribs">Private Attributes</a> &#124;
 <a href="class_sample-members.html">List of all members</a>  </div>
   <div class="headertitle">
 <div class="title">Sample Class Reference</div>  </div>
@@ -99,6 +100,23 @@ Public Member Functions</h2></td></tr>
 <tr class="separator:af4dc3e5b97702663faa322ca5da45a63"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a4ccae026ac542670bf073d8fdf59877b"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_sample.html#a4ccae026ac542670bf073d8fdf59877b">loopMode</a> ()</td></tr>
 <tr class="separator:a4ccae026ac542670bf073d8fdf59877b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pri-attribs"></a>
+Private Attributes</h2></td></tr>
+<tr class="memitem:a9274f7dcbd193529127ea113d671f757"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_sample.html#a9274f7dcbd193529127ea113d671f757">_channel</a></td></tr>
+<tr class="separator:a9274f7dcbd193529127ea113d671f757"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aed1cb1744d11463da2c8fb3dd18617d7"><td class="memItemLeft" align="right" valign="top">short *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_sample.html#aed1cb1744d11463da2c8fb3dd18617d7">_data</a></td></tr>
+<tr class="separator:aed1cb1744d11463da2c8fb3dd18617d7"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9e58094317f98cb94a21e6950cdbf519"><td class="memItemLeft" align="right" valign="top">long long&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_sample.html#a9e58094317f98cb94a21e6950cdbf519">_frames</a></td></tr>
+<tr class="separator:a9e58094317f98cb94a21e6950cdbf519"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae365c8cfcba401b9f9f1411a95dd090e"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_sample.html#ae365c8cfcba401b9f9f1411a95dd090e">_sampleRate</a></td></tr>
+<tr class="separator:ae365c8cfcba401b9f9f1411a95dd090e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a6abb69fa901972066b2722cc312de4a8"><td class="memItemLeft" align="right" valign="top">long long&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_sample.html#a6abb69fa901972066b2722cc312de4a8">_loopStart</a></td></tr>
+<tr class="separator:a6abb69fa901972066b2722cc312de4a8"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a1b4e402dac244d50096f169e95969e55"><td class="memItemLeft" align="right" valign="top">long long&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_sample.html#a1b4e402dac244d50096f169e95969e55">_loopEnd</a></td></tr>
+<tr class="separator:a1b4e402dac244d50096f169e95969e55"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a52ddbc4a8d23d96bf7e05e9a1327484a"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_sample.html#a52ddbc4a8d23d96bf7e05e9a1327484a">_loopMode</a></td></tr>
+<tr class="separator:a52ddbc4a8d23d96bf7e05e9a1327484a"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
 <a id="aa8cacc4a4aa41ce5e55f609876c9aab5"></a>
@@ -432,6 +450,161 @@ Public Member Functions</h2></td></tr>
   </td>
   <td class="mlabels-right">
 <span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<h2 class="groupheader">Member Data Documentation</h2>
+<a id="a9274f7dcbd193529127ea113d671f757"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a9274f7dcbd193529127ea113d671f757">&#9670;&nbsp;</a></span>_channel</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">int Sample::_channel</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="aed1cb1744d11463da2c8fb3dd18617d7"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aed1cb1744d11463da2c8fb3dd18617d7">&#9670;&nbsp;</a></span>_data</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">short* Sample::_data</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a9e58094317f98cb94a21e6950cdbf519"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a9e58094317f98cb94a21e6950cdbf519">&#9670;&nbsp;</a></span>_frames</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">long long Sample::_frames</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a1b4e402dac244d50096f169e95969e55"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a1b4e402dac244d50096f169e95969e55">&#9670;&nbsp;</a></span>_loopEnd</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">long long Sample::_loopEnd</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a52ddbc4a8d23d96bf7e05e9a1327484a"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a52ddbc4a8d23d96bf7e05e9a1327484a">&#9670;&nbsp;</a></span>_loopMode</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">int Sample::_loopMode</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a6abb69fa901972066b2722cc312de4a8"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a6abb69fa901972066b2722cc312de4a8">&#9670;&nbsp;</a></span>_loopStart</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">long long Sample::_loopStart</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="ae365c8cfcba401b9f9f1411a95dd090e"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ae365c8cfcba401b9f9f1411a95dd090e">&#9670;&nbsp;</a></span>_sampleRate</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">int Sample::_sampleRate</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
   </tr>
 </table>
 </div><div class="memdoc">

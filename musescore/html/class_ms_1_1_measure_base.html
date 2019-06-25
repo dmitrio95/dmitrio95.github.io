@@ -23,9 +23,9 @@
   <td id="projectlogo"><img alt="Logo" src="musescore_logo_full.png"/></td>
   <td id="projectalign" style="padding-left: 0.5em;">
    <div id="projectname">MuseScore
-   &#160;<span id="projectnumber">3.1</span>
+   &#160;<span id="projectnumber">3.2</span>
    </div>
-   <div id="projectbrief">Music compisition and notation</div>
+   <div id="projectbrief">Music composition and notation</div>
   </td>
  </tr>
  </tbody>
@@ -69,6 +69,7 @@ $(function() {
 <a href="#pub-methods">Public Member Functions</a> &#124;
 <a href="#pro-methods">Protected Member Functions</a> &#124;
 <a href="#pro-attribs">Protected Attributes</a> &#124;
+<a href="#pri-attribs">Private Attributes</a> &#124;
 <a href="class_ms_1_1_measure_base-members.html">List of all members</a>  </div>
   <div class="headertitle">
 <div class="title">Ms::MeasureBase Class Reference<span class="mlabels"><span class="mlabel">abstract</span></span></div>  </div>
@@ -99,10 +100,41 @@ Collaboration diagram for Ms::MeasureBase:</div>
 <div class="dyncontent">
 <div class="center"><img src="class_ms_1_1_measure_base__coll__graph.png" border="0" usemap="#_ms_1_1_measure_base_coll__map" alt="Collaboration graph"/></div>
 <map name="_ms_1_1_measure_base_coll__map" id="_ms_1_1_measure_base_coll__map">
-<area shape="rect" id="node2" href="class_ms_1_1_element.html" title="Base class of score layout elements. " alt="" coords="39,247,135,273"/>
-<area shape="rect" id="node3" href="class_ms_1_1_score_element.html" title="Ms::ScoreElement" alt="" coords="22,171,153,197"/>
-<area shape="rect" id="node4" href="class_ms_1_1_linked_elements.html" title="Ms::LinkedElements" alt="" coords="17,81,158,108"/>
-<area shape="rect" id="node6" href="class_ms_1_1_fraction.html" title="Ms::Fraction" alt="" coords="160,247,255,273"/>
+<area shape="rect" id="node27" href="class_ms_1_1_measure_base_list.html" title="Ms::MeasureBaseList" alt="" coords="886,874,1035,900"/>
+<area shape="rect" id="node2" href="class_ms_1_1_element.html" title="Base class of score layout elements. " alt="" coords="1799,1027,1895,1054"/>
+<area shape="rect" id="node20" href="class_ms_1_1_text_base.html" title="Ms::TextBase" alt="" coords="2041,814,2145,840"/>
+<area shape="rect" id="node29" href="class_ms_1_1_segment.html" title="Ms::Segment" alt="" coords="2043,991,2143,1018"/>
+<area shape="rect" id="node33" href="class_ms_1_1_spanner.html" title="Virtual base class for slurs, ties, lines etc. " alt="" coords="2045,1127,2141,1154"/>
+<area shape="rect" id="node3" href="class_ms_1_1_score_element.html" title="Ms::ScoreElement" alt="" coords="1521,955,1652,982"/>
+<area shape="rect" id="node4" href="class_ms_1_1_score.html" title="Ms::Score" alt="" coords="1249,548,1331,575"/>
+<area shape="rect" id="node6" href="class_ms_1_1_excerpt.html" title="Ms::Excerpt" alt="" coords="3079,90,3172,116"/>
+<area shape="rect" id="node7" href="class_ms_1_1_master_score.html" title="Ms::MasterScore" alt="" coords="2857,458,2980,484"/>
+<area shape="rect" id="node11" href="class_ms_1_1_repeat_list.html" title="Ms::RepeatList" alt="" coords="1531,742,1642,768"/>
+<area shape="rect" id="node28" href="class_ms_1_1_input_state.html" title="Ms::InputState" alt="" coords="2865,991,2973,1018"/>
+<area shape="rect" id="node36" href="class_ms_1_1_selection.html" title="Ms::Selection" alt="" coords="2330,931,2433,958"/>
+<area shape="rect" id="node41" href="class_ms_1_1_selection_filter.html" title="Ms::SelectionFilter" alt="" coords="1521,419,1652,446"/>
+<area shape="rect" id="node8" href="class_ms_1_1_omr.html" title="Ms::Omr" alt="" coords="2632,660,2705,687"/>
+<area shape="rect" id="node9" href="class_ms_1_1_cmd_state.html" title="Ms::CmdState" alt="" coords="748,1062,855,1088"/>
+<area shape="rect" id="node10" href="class_ms_1_1_fraction.html" title="Ms::Fraction" alt="" coords="275,1087,369,1114"/>
+<area shape="rect" id="node13" href="class_ms_1_1_revisions.html" title="Ms::Revisions" alt="" coords="2615,214,2722,240"/>
+<area shape="rect" id="node14" href="class_ms_1_1_revision.html" title="Ms::Revision" alt="" coords="2332,204,2431,231"/>
+<area shape="rect" id="node15" href="class_ms_1_1_tempo_map.html" title="Ms::TempoMap" alt="" coords="2612,267,2725,294"/>
+<area shape="rect" id="node17" href="class_ms_1_1_movements.html" title="Ms::Movements" alt="" coords="2611,334,2727,360"/>
+<area shape="rect" id="node19" href="class_ms_1_1_text.html" title="Ms::Text" alt="" coords="2344,559,2419,586"/>
+<area shape="rect" id="node21" href="class_ms_1_1_spatium.html" title="Ms::Spatium" alt="" coords="1539,904,1635,931"/>
+<area shape="rect" id="node22" href="class_ms_1_1_m_style.html" title="Ms::MStyle" alt="" coords="916,59,1005,86"/>
+<area shape="rect" id="node23" href="class_ms_1_1_chord_list.html" title="Ms::ChordList" alt="" coords="575,59,679,86"/>
+<area shape="rect" id="node25" href="class_ms_1_1_time_sig_map.html" title="Ms::TimeSigMap" alt="" coords="2608,559,2729,586"/>
+<area shape="rect" id="node30" href="class_ms_1_1_t_duration.html" title="Ms::TDuration" alt="" coords="2616,1275,2721,1302"/>
+<area shape="rect" id="node31" href="class_ms_1_1_slur.html" title="Ms::Slur" alt="" coords="2633,1140,2704,1167"/>
+<area shape="rect" id="node32" href="class_ms_1_1_slur_tie.html" title="Ms::SlurTie" alt="" coords="2337,1131,2426,1158"/>
+<area shape="rect" id="node34" href="class_ms_1_1_synthesizer_state.html" title="Ms::SynthesizerState" alt="" coords="887,498,1035,524"/>
+<area shape="rect" id="node37" href="class_ms_1_1_spanner_map.html" title="Ms::SpannerMap" alt="" coords="900,548,1021,575"/>
+<area shape="rect" id="node39" href="class_ms_1_1_update_state.html" title="Ms::UpdateState" alt="" coords="900,599,1021,626"/>
+<area shape="rect" id="node40" href="class_ms_1_1_audio.html" title="Ms::Audio" alt="" coords="920,650,1001,676"/>
+<area shape="rect" id="node42" href="class_ms_1_1_score_font.html" title="Ms::ScoreFont" alt="" coords="907,700,1015,727"/>
+<area shape="rect" id="node43" href="class_ms_1_1_linked_elements.html" title="Ms::LinkedElements" alt="" coords="1219,955,1361,982"/>
+<area shape="rect" id="node45" href="class_ms_1_1_element_list.html" title="Ms::ElementList" alt="" coords="263,942,381,968"/>
 </map>
 <center><span class="legend">[<a href="graph_legend.html">legend</a>]</span></center></div>
 <table class="memberdecls">
@@ -307,6 +339,14 @@ Public Member Functions</h2></td></tr>
 <tr class="separator:a3679cdb6351e67e9f482fa9a7fb3d466 inherit pub_methods_class_ms_1_1_element"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a6f4204d12e78c77052520492ae4416cd inherit pub_methods_class_ms_1_1_element"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ms_1_1_element.html#a6f4204d12e78c77052520492ae4416cd">setGenerated</a> (bool val)</td></tr>
 <tr class="separator:a6f4204d12e78c77052520492ae4416cd inherit pub_methods_class_ms_1_1_element"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a00b370d217141ef8efe9d32b1f737ce8 inherit pub_methods_class_ms_1_1_element"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_ms_1_1_spatium.html">Spatium</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ms_1_1_element.html#a00b370d217141ef8efe9d32b1f737ce8">minDistance</a> () const</td></tr>
+<tr class="separator:a00b370d217141ef8efe9d32b1f737ce8 inherit pub_methods_class_ms_1_1_element"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a7b5cd12e550c5be0c4399a55c93d1ea9 inherit pub_methods_class_ms_1_1_element"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ms_1_1_element.html#a7b5cd12e550c5be0c4399a55c93d1ea9">setMinDistance</a> (<a class="el" href="class_ms_1_1_spatium.html">Spatium</a> v)</td></tr>
+<tr class="separator:a7b5cd12e550c5be0c4399a55c93d1ea9 inherit pub_methods_class_ms_1_1_element"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad6648a1f597c54d30aa6418dcd4ff64c inherit pub_methods_class_ms_1_1_element"><td class="memItemLeft" align="right" valign="top"><a class="el" href="namespace_ms.html#a48cf14669801f9b0080847f8d7902e5b">OffsetChange</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ms_1_1_element.html#ad6648a1f597c54d30aa6418dcd4ff64c">offsetChanged</a> () const</td></tr>
+<tr class="separator:ad6648a1f597c54d30aa6418dcd4ff64c inherit pub_methods_class_ms_1_1_element"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a432e2033ca1c24ef8179458d1e604509 inherit pub_methods_class_ms_1_1_element"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ms_1_1_element.html#a432e2033ca1c24ef8179458d1e604509">setOffsetChanged</a> (bool v, bool absolute=true, const QPointF &amp;diff=QPointF())</td></tr>
+<tr class="separator:a432e2033ca1c24ef8179458d1e604509 inherit pub_methods_class_ms_1_1_element"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a5f1d010c61f361c3310fd22cd9f65d88 inherit pub_methods_class_ms_1_1_element"><td class="memItemLeft" align="right" valign="top">const QPointF &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ms_1_1_element.html#a5f1d010c61f361c3310fd22cd9f65d88">ipos</a> () const</td></tr>
 <tr class="separator:a5f1d010c61f361c3310fd22cd9f65d88 inherit pub_methods_class_ms_1_1_element"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a19157e811d0d2a0e3c94dc844039ba2f inherit pub_methods_class_ms_1_1_element"><td class="memItemLeft" align="right" valign="top">virtual const QPointF&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ms_1_1_element.html#a19157e811d0d2a0e3c94dc844039ba2f">pos</a> () const</td></tr>
@@ -476,7 +516,7 @@ Public Member Functions</h2></td></tr>
 <tr class="separator:aa9328fefa5648b5bc3f020b6cf481f38 inherit pub_methods_class_ms_1_1_element"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a4033806e37a8a0bd95f75e06fb6d1286 inherit pub_methods_class_ms_1_1_element"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ms_1_1_element.html#a4033806e37a8a0bd95f75e06fb6d1286">undoSetVisible</a> (bool v)</td></tr>
 <tr class="separator:a4033806e37a8a0bd95f75e06fb6d1286 inherit pub_methods_class_ms_1_1_element"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a90f21ba358732f3c471069758d84a76f inherit pub_methods_class_ms_1_1_element"><td class="memItemLeft" align="right" valign="top">QByteArray&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ms_1_1_element.html#a90f21ba358732f3c471069758d84a76f">mimeData</a> (const QPointF &amp;) const</td></tr>
+<tr class="memitem:a90f21ba358732f3c471069758d84a76f inherit pub_methods_class_ms_1_1_element"><td class="memItemLeft" align="right" valign="top">virtual QByteArray&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ms_1_1_element.html#a90f21ba358732f3c471069758d84a76f">mimeData</a> (const QPointF &amp;) const</td></tr>
 <tr class="separator:a90f21ba358732f3c471069758d84a76f inherit pub_methods_class_ms_1_1_element"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a35614445f0bc2212cbcc75c3f5810543 inherit pub_methods_class_ms_1_1_element"><td class="memItemLeft" align="right" valign="top">virtual bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ms_1_1_element.html#a35614445f0bc2212cbcc75c3f5810543">acceptDrop</a> (<a class="el" href="class_ms_1_1_edit_data.html">EditData</a> &amp;) const</td></tr>
 <tr class="memdesc:a35614445f0bc2212cbcc75c3f5810543 inherit pub_methods_class_ms_1_1_element"><td class="mdescLeft">&#160;</td><td class="mdescRight">Return true if this element accepts a drop at canvas relative <em>pos</em> of given element <em>type</em> and <em>subtype</em>.  <a href="class_ms_1_1_element.html#a35614445f0bc2212cbcc75c3f5810543">More...</a><br /></td></tr>
@@ -537,8 +577,10 @@ Public Member Functions</h2></td></tr>
 <tr class="separator:a9b433e4368d19bc18b9d8cb4c41fe1d4 inherit pub_methods_class_ms_1_1_element"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a36da6a07a74436d96c739f7134873eda inherit pub_methods_class_ms_1_1_element"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ms_1_1_element.html#a36da6a07a74436d96c739f7134873eda">autoplace</a> () const</td></tr>
 <tr class="separator:a36da6a07a74436d96c739f7134873eda inherit pub_methods_class_ms_1_1_element"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ac84d802724c43c8dcec941e8c259ebca inherit pub_methods_class_ms_1_1_element"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ms_1_1_element.html#ac84d802724c43c8dcec941e8c259ebca">setAutoplace</a> (bool v)</td></tr>
-<tr class="separator:ac84d802724c43c8dcec941e8c259ebca inherit pub_methods_class_ms_1_1_element"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a7b231391a59527cb00b7f08bb5279e58 inherit pub_methods_class_ms_1_1_element"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ms_1_1_element.html#a7b231391a59527cb00b7f08bb5279e58">setAutoplace</a> (bool v)</td></tr>
+<tr class="separator:a7b231391a59527cb00b7f08bb5279e58 inherit pub_methods_class_ms_1_1_element"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a6ba0ad4dad0b5de65db725a10fc64278 inherit pub_methods_class_ms_1_1_element"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ms_1_1_element.html#a6ba0ad4dad0b5de65db725a10fc64278">addToSkyline</a> () const</td></tr>
+<tr class="separator:a6ba0ad4dad0b5de65db725a10fc64278 inherit pub_methods_class_ms_1_1_element"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ab3227faba09a745523ba6748d9f94ab5 inherit pub_methods_class_ms_1_1_element"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ms_1_1_element.html#ab3227faba09a745523ba6748d9f94ab5">undoChangeProperty</a> (<a class="el" href="namespace_ms.html#aa0f871cf8181cec31d68d20a39010655">Pid</a> id, const QVariant &amp;, <a class="el" href="namespace_ms.html#a56785a0f227cf3d1d0a4891656a35daa">PropertyFlags</a> ps) override</td></tr>
 <tr class="separator:ab3227faba09a745523ba6748d9f94ab5 inherit pub_methods_class_ms_1_1_element"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a44c16323c852e23c783b8d7362cc9c6a inherit pub_methods_class_ms_1_1_element"><td class="memItemLeft" align="right" valign="top">virtual <a class="el" href="namespace_ms.html#aa0f871cf8181cec31d68d20a39010655">Pid</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ms_1_1_element.html#a44c16323c852e23c783b8d7362cc9c6a">propertyId</a> (const QStringRef &amp;xmlName) const override</td></tr>
@@ -605,10 +647,20 @@ Public Member Functions</h2></td></tr>
 <tr class="separator:ab28ffe83fb1064fb3c2a6fa648bca688 inherit pub_methods_class_ms_1_1_element"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aeacd589786e73e54e81ba2cc9a812126 inherit pub_methods_class_ms_1_1_element"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ms_1_1_element.html#aeacd589786e73e54e81ba2cc9a812126">drawEditMode</a> (QPainter *, <a class="el" href="class_ms_1_1_edit_data.html">EditData</a> &amp;)</td></tr>
 <tr class="separator:aeacd589786e73e54e81ba2cc9a812126 inherit pub_methods_class_ms_1_1_element"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:abe38d265cfbe629e27c4a95540745c9b inherit pub_methods_class_ms_1_1_element"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ms_1_1_element.html#abe38d265cfbe629e27c4a95540745c9b">autoplaceSegmentElement</a> (qreal minDistance)</td></tr>
-<tr class="separator:abe38d265cfbe629e27c4a95540745c9b inherit pub_methods_class_ms_1_1_element"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a7369ba8275c097dc0a094d8769f53364 inherit pub_methods_class_ms_1_1_element"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ms_1_1_element.html#a7369ba8275c097dc0a094d8769f53364">autoplaceMeasureElement</a> (qreal minDistance)</td></tr>
-<tr class="separator:a7369ba8275c097dc0a094d8769f53364 inherit pub_methods_class_ms_1_1_element"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab5518cc652f95d5d64ddd2bd7bfc6f6b inherit pub_methods_class_ms_1_1_element"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ms_1_1_element.html#ab5518cc652f95d5d64ddd2bd7bfc6f6b">autoplaceSegmentElement</a> (bool above, bool <a class="el" href="class_ms_1_1_element.html#a6466e3a3ada3e0e7add1d1977bbfda96">add</a>)</td></tr>
+<tr class="separator:ab5518cc652f95d5d64ddd2bd7bfc6f6b inherit pub_methods_class_ms_1_1_element"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a52c2885c7d4e815d5475b1253cc4142f inherit pub_methods_class_ms_1_1_element"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ms_1_1_element.html#a52c2885c7d4e815d5475b1253cc4142f">autoplaceMeasureElement</a> (bool above, bool <a class="el" href="class_ms_1_1_element.html#a6466e3a3ada3e0e7add1d1977bbfda96">add</a>)</td></tr>
+<tr class="separator:a52c2885c7d4e815d5475b1253cc4142f inherit pub_methods_class_ms_1_1_element"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9446e28a4daa9ab0f785ce06ad0a14ab inherit pub_methods_class_ms_1_1_element"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ms_1_1_element.html#a9446e28a4daa9ab0f785ce06ad0a14ab">autoplaceSegmentElement</a> (bool <a class="el" href="class_ms_1_1_element.html#a6466e3a3ada3e0e7add1d1977bbfda96">add</a>=true)</td></tr>
+<tr class="separator:a9446e28a4daa9ab0f785ce06ad0a14ab inherit pub_methods_class_ms_1_1_element"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a59de63838f71ae75bfbbcfd7960b29b5 inherit pub_methods_class_ms_1_1_element"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ms_1_1_element.html#a59de63838f71ae75bfbbcfd7960b29b5">autoplaceMeasureElement</a> (bool <a class="el" href="class_ms_1_1_element.html#a6466e3a3ada3e0e7add1d1977bbfda96">add</a>=true)</td></tr>
+<tr class="separator:a59de63838f71ae75bfbbcfd7960b29b5 inherit pub_methods_class_ms_1_1_element"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab762a021459424295e46ef909a5ab34f inherit pub_methods_class_ms_1_1_element"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ms_1_1_element.html#ab762a021459424295e46ef909a5ab34f">autoplaceCalculateOffset</a> (QRectF &amp;r, qreal <a class="el" href="class_ms_1_1_element.html#a00b370d217141ef8efe9d32b1f737ce8">minDistance</a>)</td></tr>
+<tr class="separator:ab762a021459424295e46ef909a5ab34f inherit pub_methods_class_ms_1_1_element"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a0d9b98767134ff6a72d5ad910fd52e7a inherit pub_methods_class_ms_1_1_element"><td class="memItemLeft" align="right" valign="top">qreal&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ms_1_1_element.html#a0d9b98767134ff6a72d5ad910fd52e7a">rebaseOffset</a> (bool nox=true)</td></tr>
+<tr class="separator:a0d9b98767134ff6a72d5ad910fd52e7a inherit pub_methods_class_ms_1_1_element"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a09df89cf25ff242f9873b6c65c29d29b inherit pub_methods_class_ms_1_1_element"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ms_1_1_element.html#a09df89cf25ff242f9873b6c65c29d29b">rebaseMinDistance</a> (qreal &amp;md, qreal &amp;yd, qreal sp, qreal rebase, bool fix)</td></tr>
+<tr class="separator:a09df89cf25ff242f9873b6c65c29d29b inherit pub_methods_class_ms_1_1_element"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a31f9e63002b9f16ad6b4f35ba7a85bf4 inherit pub_methods_class_ms_1_1_element"><td class="memItemLeft" align="right" valign="top">qreal&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ms_1_1_element.html#a31f9e63002b9f16ad6b4f35ba7a85bf4">styleP</a> (<a class="el" href="namespace_ms.html#a2bac757437d1a9e364db27de8f9c9e2e">Sid</a> idx) const</td></tr>
 <tr class="separator:a31f9e63002b9f16ad6b4f35ba7a85bf4 inherit pub_methods_class_ms_1_1_element"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="inherit_header pub_methods_class_ms_1_1_score_element"><td colspan="2" onclick="javascript:toggleInherit('pub_methods_class_ms_1_1_score_element')"><img src="closed.png" alt="-"/>&#160;Public Member Functions inherited from <a class="el" href="class_ms_1_1_score_element.html">Ms::ScoreElement</a></td></tr>
@@ -869,6 +921,8 @@ Public Member Functions</h2></td></tr>
 <tr class="separator:a00ae01c9f04bbd8f0d106cc16c946926 inherit pub_methods_class_ms_1_1_score_element"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a8d44fcb04504b1d0dcc847f5ce0a6e2a inherit pub_methods_class_ms_1_1_score_element"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ms_1_1_score_element.html#a8d44fcb04504b1d0dcc847f5ce0a6e2a">isBagpipeEmbellishment</a> () const</td></tr>
 <tr class="separator:a8d44fcb04504b1d0dcc847f5ce0a6e2a inherit pub_methods_class_ms_1_1_score_element"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a07b42f78cd6d09aa89f55bcb59d076da inherit pub_methods_class_ms_1_1_score_element"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ms_1_1_score_element.html#a07b42f78cd6d09aa89f55bcb59d076da">isSticking</a> () const</td></tr>
+<tr class="separator:a07b42f78cd6d09aa89f55bcb59d076da inherit pub_methods_class_ms_1_1_score_element"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:accef1c91df491a43c54e70474deea60c inherit pub_methods_class_ms_1_1_score_element"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ms_1_1_score_element.html#accef1c91df491a43c54e70474deea60c">isChordRest</a> () const</td></tr>
 <tr class="separator:accef1c91df491a43c54e70474deea60c inherit pub_methods_class_ms_1_1_score_element"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a203290a59b13861b957d2943f65a4cf0 inherit pub_methods_class_ms_1_1_score_element"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ms_1_1_score_element.html#a203290a59b13861b957d2943f65a4cf0">isDurationElement</a> () const</td></tr>
@@ -922,12 +976,30 @@ Protected Attributes</h2></td></tr>
 <tr class="memdesc:a85687d7e7b049c00327023c7306cec14 inherit pro_attribs_class_ms_1_1_element"><td class="mdescLeft">&#160;</td><td class="mdescRight">element color attribute  <a href="class_ms_1_1_element.html#a85687d7e7b049c00327023c7306cec14">More...</a><br /></td></tr>
 <tr class="separator:a85687d7e7b049c00327023c7306cec14 inherit pro_attribs_class_ms_1_1_element"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="inherit_header pro_attribs_class_ms_1_1_score_element"><td colspan="2" onclick="javascript:toggleInherit('pro_attribs_class_ms_1_1_score_element')"><img src="closed.png" alt="-"/>&#160;Protected Attributes inherited from <a class="el" href="class_ms_1_1_score_element.html">Ms::ScoreElement</a></td></tr>
-<tr class="memitem:a648639a58d05aa85412217db5ad40b18 inherit pro_attribs_class_ms_1_1_score_element"><td class="memItemLeft" align="right" valign="top">const <a class="el" href="namespace_ms.html#a51f1f1bcc9058e5497bf1731565e6d0b">ElementStyle</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ms_1_1_score_element.html#a648639a58d05aa85412217db5ad40b18">_elementStyle</a> { &amp;emptyStyle }</td></tr>
+<tr class="memitem:a648639a58d05aa85412217db5ad40b18 inherit pro_attribs_class_ms_1_1_score_element"><td class="memItemLeft" align="right" valign="top">const <a class="el" href="namespace_ms.html#a51f1f1bcc9058e5497bf1731565e6d0b">ElementStyle</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ms_1_1_score_element.html#a648639a58d05aa85412217db5ad40b18">_elementStyle</a> { &amp;<a class="el" href="class_ms_1_1_score_element.html#af69eb6447034434048397f6483df75db">emptyStyle</a> }</td></tr>
 <tr class="separator:a648639a58d05aa85412217db5ad40b18 inherit pro_attribs_class_ms_1_1_score_element"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a6d4b99ddb9e217aaa9f9ae67a76861f3 inherit pro_attribs_class_ms_1_1_score_element"><td class="memItemLeft" align="right" valign="top"><a class="el" href="namespace_ms.html#a56785a0f227cf3d1d0a4891656a35daa">PropertyFlags</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ms_1_1_score_element.html#a6d4b99ddb9e217aaa9f9ae67a76861f3">_propertyFlagsList</a> { 0 }</td></tr>
 <tr class="separator:a6d4b99ddb9e217aaa9f9ae67a76861f3 inherit pro_attribs_class_ms_1_1_score_element"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a405b151c60a010237414678a0e0952af inherit pro_attribs_class_ms_1_1_score_element"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_ms_1_1_linked_elements.html">LinkedElements</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ms_1_1_score_element.html#a405b151c60a010237414678a0e0952af">_links</a> { 0 }</td></tr>
 <tr class="separator:a405b151c60a010237414678a0e0952af inherit pro_attribs_class_ms_1_1_score_element"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pri-attribs"></a>
+Private Attributes</h2></td></tr>
+<tr class="memitem:af415ef5b9ab378642b9652e1ae983035"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_ms_1_1_measure_base.html">MeasureBase</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ms_1_1_measure_base.html#af415ef5b9ab378642b9652e1ae983035">_next</a> { 0 }</td></tr>
+<tr class="separator:af415ef5b9ab378642b9652e1ae983035"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad33bb7174b2fdbb16660dfc9953525e9"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_ms_1_1_measure_base.html">MeasureBase</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ms_1_1_measure_base.html#ad33bb7174b2fdbb16660dfc9953525e9">_prev</a> { 0 }</td></tr>
+<tr class="separator:ad33bb7174b2fdbb16660dfc9953525e9"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a260d94b7ffe2bfc532db4319fa6bba6d"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_ms_1_1_element_list.html">ElementList</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ms_1_1_measure_base.html#a260d94b7ffe2bfc532db4319fa6bba6d">_el</a></td></tr>
+<tr class="memdesc:a260d94b7ffe2bfc532db4319fa6bba6d"><td class="mdescLeft">&#160;</td><td class="mdescRight"><a class="el" href="class_ms_1_1_measure.html" title="one measure in a system ">Measure</a>(/tick) relative -elements: with defined start time but outside the staff.  <a href="#a260d94b7ffe2bfc532db4319fa6bba6d">More...</a><br /></td></tr>
+<tr class="separator:a260d94b7ffe2bfc532db4319fa6bba6d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae650e999ba46cf4af0cb68e5ce741442"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_ms_1_1_fraction.html">Fraction</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ms_1_1_measure_base.html#ae650e999ba46cf4af0cb68e5ce741442">_tick</a> { <a class="el" href="class_ms_1_1_fraction.html">Fraction</a>(0, 1) }</td></tr>
+<tr class="separator:ae650e999ba46cf4af0cb68e5ce741442"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab42eae710b1f959b719841780b4e706f"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ms_1_1_measure_base.html#ab42eae710b1f959b719841780b4e706f">_no</a> { 0 }</td></tr>
+<tr class="memdesc:ab42eae710b1f959b719841780b4e706f"><td class="mdescLeft">&#160;</td><td class="mdescRight"><a class="el" href="class_ms_1_1_measure.html" title="one measure in a system ">Measure</a> number, counting from zero.  <a href="#ab42eae710b1f959b719841780b4e706f">More...</a><br /></td></tr>
+<tr class="separator:ab42eae710b1f959b719841780b4e706f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a02fe042d1b5c34a6d7a451bd73ac4663"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ms_1_1_measure_base.html#a02fe042d1b5c34a6d7a451bd73ac4663">_noOffset</a> { 0 }</td></tr>
+<tr class="memdesc:a02fe042d1b5c34a6d7a451bd73ac4663"><td class="mdescLeft">&#160;</td><td class="mdescRight">Offset to measure number.  <a href="#a02fe042d1b5c34a6d7a451bd73ac4663">More...</a><br /></td></tr>
+<tr class="separator:a02fe042d1b5c34a6d7a451bd73ac4663"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="inherited"></a>
 Additional Inherited Members</h2></td></tr>
@@ -1717,7 +1789,7 @@ Additional Inherited Members</h2></td></tr>
 
 <p>Reimplemented from <a class="el" href="class_ms_1_1_element.html#aabedff22ee4d865dea6442fabb6a53a2">Ms::Element</a>.</p>
 
-<p>Reimplemented in <a class="el" href="class_ms_1_1_box.html#a86cb72aa1ef3c3a90334e5eb40645ed8">Ms::Box</a>.</p>
+<p>Reimplemented in <a class="el" href="class_ms_1_1_h_box.html#af70223fbbd29cc96b82960d9c209e906">Ms::HBox</a>, and <a class="el" href="class_ms_1_1_box.html#a86cb72aa1ef3c3a90334e5eb40645ed8">Ms::Box</a>.</p>
 
 </div>
 </div>
@@ -2763,11 +2835,35 @@ Additional Inherited Members</h2></td></tr>
 
 <p>Reimplemented from <a class="el" href="class_ms_1_1_element.html#a6d2d848ec99034b85e1a4e3b33857840">Ms::Element</a>.</p>
 
-<p>Reimplemented in <a class="el" href="class_ms_1_1_box.html#a7046d3e0199cd3dd9a38b0f481048bd0">Ms::Box</a>.</p>
+<p>Reimplemented in <a class="el" href="class_ms_1_1_h_box.html#acdf3baf9d8d8f2fb568e5c6478f8b5e2">Ms::HBox</a>, and <a class="el" href="class_ms_1_1_box.html#a7046d3e0199cd3dd9a38b0f481048bd0">Ms::Box</a>.</p>
 
 </div>
 </div>
 <h2 class="groupheader">Member Data Documentation</h2>
+<a id="a260d94b7ffe2bfc532db4319fa6bba6d"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a260d94b7ffe2bfc532db4319fa6bba6d">&#9670;&nbsp;</a></span>_el</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="class_ms_1_1_element_list.html">ElementList</a> Ms::MeasureBase::_el</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p><a class="el" href="class_ms_1_1_measure.html" title="one measure in a system ">Measure</a>(/tick) relative -elements: with defined start time but outside the staff. </p>
+
+</div>
+</div>
 <a id="a0acc22d02bfbfe8461aeba4d57ab0466"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a0acc22d02bfbfe8461aeba4d57ab0466">&#9670;&nbsp;</a></span>_len</h2>
 
@@ -2789,6 +2885,120 @@ Additional Inherited Members</h2></td></tr>
 </div><div class="memdoc">
 
 <p>actual length of measure </p>
+
+</div>
+</div>
+<a id="af415ef5b9ab378642b9652e1ae983035"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#af415ef5b9ab378642b9652e1ae983035">&#9670;&nbsp;</a></span>_next</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="class_ms_1_1_measure_base.html">MeasureBase</a>* Ms::MeasureBase::_next { 0 }</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="ab42eae710b1f959b719841780b4e706f"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ab42eae710b1f959b719841780b4e706f">&#9670;&nbsp;</a></span>_no</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">int Ms::MeasureBase::_no { 0 }</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p><a class="el" href="class_ms_1_1_measure.html" title="one measure in a system ">Measure</a> number, counting from zero. </p>
+
+</div>
+</div>
+<a id="a02fe042d1b5c34a6d7a451bd73ac4663"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a02fe042d1b5c34a6d7a451bd73ac4663">&#9670;&nbsp;</a></span>_noOffset</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">int Ms::MeasureBase::_noOffset { 0 }</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Offset to measure number. </p>
+
+</div>
+</div>
+<a id="ad33bb7174b2fdbb16660dfc9953525e9"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ad33bb7174b2fdbb16660dfc9953525e9">&#9670;&nbsp;</a></span>_prev</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="class_ms_1_1_measure_base.html">MeasureBase</a>* Ms::MeasureBase::_prev { 0 }</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="ae650e999ba46cf4af0cb68e5ce741442"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ae650e999ba46cf4af0cb68e5ce741442">&#9670;&nbsp;</a></span>_tick</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="class_ms_1_1_fraction.html">Fraction</a> Ms::MeasureBase::_tick { <a class="el" href="class_ms_1_1_fraction.html">Fraction</a>(0, 1) }</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
 
 </div>
 </div>

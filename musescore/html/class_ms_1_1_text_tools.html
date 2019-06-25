@@ -23,9 +23,9 @@
   <td id="projectlogo"><img alt="Logo" src="musescore_logo_full.png"/></td>
   <td id="projectalign" style="padding-left: 0.5em;">
    <div id="projectname">MuseScore
-   &#160;<span id="projectnumber">3.1</span>
+   &#160;<span id="projectnumber">3.2</span>
    </div>
-   <div id="projectbrief">Music compisition and notation</div>
+   <div id="projectbrief">Music composition and notation</div>
   </td>
  </tr>
  </tbody>
@@ -67,6 +67,9 @@ $(function() {
 <div class="header">
   <div class="summary">
 <a href="#pub-methods">Public Member Functions</a> &#124;
+<a href="#pri-slots">Private Slots</a> &#124;
+<a href="#pri-methods">Private Member Functions</a> &#124;
+<a href="#pri-attribs">Private Attributes</a> &#124;
 <a href="class_ms_1_1_text_tools-members.html">List of all members</a>  </div>
   <div class="headertitle">
 <div class="title">Ms::TextTools Class Reference</div>  </div>
@@ -86,6 +89,44 @@ Collaboration diagram for Ms::TextTools:</div>
 <div class="dyncontent">
 <div class="center"><img src="class_ms_1_1_text_tools__coll__graph.png" border="0" usemap="#_ms_1_1_text_tools_coll__map" alt="Collaboration graph"/></div>
 <map name="_ms_1_1_text_tools_coll__map" id="_ms_1_1_text_tools_coll__map">
+<area shape="rect" id="node3" href="class_ms_1_1_text_cursor.html" title="Ms::TextCursor" alt="" coords="615,543,729,569"/>
+<area shape="rect" id="node4" href="class_ms_1_1_char_format.html" title="Ms::CharFormat" alt="" coords="348,160,465,187"/>
+<area shape="rect" id="node5" href="class_ms_1_1_text_base.html" title="Ms::TextBase" alt="" coords="355,543,459,569"/>
+<area shape="rect" id="node23" href="class_ms_1_1_text.html" title="Ms::Text" alt="" coords="635,796,709,823"/>
+<area shape="rect" id="node6" href="class_ms_1_1_element.html" title="Base class of score layout elements. " alt="" coords="2081,85,2177,112"/>
+<area shape="rect" id="node30" href="class_ms_1_1_measure_base.html" title="Virtual base class for Measure, HBox and VBox. " alt="" coords="2321,425,2449,452"/>
+<area shape="rect" id="node34" href="class_ms_1_1_segment.html" title="Ms::Segment" alt="" coords="2335,207,2435,233"/>
+<area shape="rect" id="node39" href="class_ms_1_1_spanner.html" title="Virtual base class for slurs, ties, lines etc. " alt="" coords="2337,95,2433,121"/>
+<area shape="rect" id="node7" href="class_ms_1_1_score_element.html" title="Ms::ScoreElement" alt="" coords="1873,463,2004,489"/>
+<area shape="rect" id="node8" href="class_ms_1_1_score.html" title="Ms::Score" alt="" coords="1583,737,1666,764"/>
+<area shape="rect" id="node10" href="class_ms_1_1_excerpt.html" title="Ms::Excerpt" alt="" coords="1892,572,1985,599"/>
+<area shape="rect" id="node11" href="class_ms_1_1_master_score.html" title="Ms::MasterScore" alt="" coords="1234,789,1357,816"/>
+<area shape="rect" id="node15" href="class_ms_1_1_repeat_list.html" title="Ms::RepeatList" alt="" coords="1883,999,1994,1025"/>
+<area shape="rect" id="node33" href="class_ms_1_1_input_state.html" title="Ms::InputState" alt="" coords="3085,877,3193,904"/>
+<area shape="rect" id="node42" href="class_ms_1_1_selection.html" title="Ms::Selection" alt="" coords="2615,491,2718,517"/>
+<area shape="rect" id="node47" href="class_ms_1_1_selection_filter.html" title="Ms::SelectionFilter" alt="" coords="1873,781,2004,808"/>
+<area shape="rect" id="node12" href="class_ms_1_1_omr.html" title="Ms::Omr" alt="" coords="947,841,1020,868"/>
+<area shape="rect" id="node13" href="class_ms_1_1_cmd_state.html" title="Ms::CmdState" alt="" coords="930,552,1037,579"/>
+<area shape="rect" id="node14" href="class_ms_1_1_fraction.html" title="Ms::Fraction" alt="" coords="625,348,719,375"/>
+<area shape="rect" id="node17" href="class_ms_1_1_revisions.html" title="Ms::Revisions" alt="" coords="930,739,1037,765"/>
+<area shape="rect" id="node18" href="class_ms_1_1_revision.html" title="Ms::Revision" alt="" coords="623,745,721,772"/>
+<area shape="rect" id="node19" href="class_ms_1_1_tempo_map.html" title="Ms::TempoMap" alt="" coords="927,976,1040,1003"/>
+<area shape="rect" id="node21" href="class_ms_1_1_movements.html" title="Ms::Movements" alt="" coords="925,791,1041,817"/>
+<area shape="rect" id="node24" href="class_ms_1_1_m_style.html" title="Ms::MStyle" alt="" coords="627,911,717,937"/>
+<area shape="rect" id="node25" href="class_ms_1_1_chord_list.html" title="Ms::ChordList" alt="" coords="355,911,459,937"/>
+<area shape="rect" id="node27" href="class_ms_1_1_time_sig_map.html" title="Ms::TimeSigMap" alt="" coords="923,603,1044,629"/>
+<area shape="rect" id="node29" href="class_ms_1_1_measure_base_list.html" title="Ms::MeasureBaseList" alt="" coords="2592,595,2741,621"/>
+<area shape="rect" id="node31" href="class_ms_1_1_element_list.html" title="Ms::ElementList" alt="" coords="2071,523,2188,549"/>
+<area shape="rect" id="node35" href="class_ms_1_1_spatium.html" title="Ms::Spatium" alt="" coords="59,109,155,136"/>
+<area shape="rect" id="node36" href="class_ms_1_1_t_duration.html" title="Ms::TDuration" alt="" coords="2875,991,2980,1017"/>
+<area shape="rect" id="node37" href="class_ms_1_1_slur.html" title="Ms::Slur" alt="" coords="2892,156,2963,183"/>
+<area shape="rect" id="node38" href="class_ms_1_1_slur_tie.html" title="Ms::SlurTie" alt="" coords="2622,143,2711,169"/>
+<area shape="rect" id="node40" href="class_ms_1_1_synthesizer_state.html" title="Ms::SynthesizerState" alt="" coords="1221,1117,1369,1144"/>
+<area shape="rect" id="node43" href="class_ms_1_1_spanner_map.html" title="Ms::SpannerMap" alt="" coords="1235,635,1356,661"/>
+<area shape="rect" id="node45" href="class_ms_1_1_update_state.html" title="Ms::UpdateState" alt="" coords="1235,584,1356,611"/>
+<area shape="rect" id="node46" href="class_ms_1_1_audio.html" title="Ms::Audio" alt="" coords="1255,533,1336,560"/>
+<area shape="rect" id="node48" href="class_ms_1_1_score_font.html" title="Ms::ScoreFont" alt="" coords="1241,1067,1349,1093"/>
+<area shape="rect" id="node49" href="class_ms_1_1_linked_elements.html" title="Ms::LinkedElements" alt="" coords="1554,443,1695,469"/>
 </map>
 <center><span class="legend">[<a href="graph_legend.html">legend</a>]</span></center></div>
 <table class="memberdecls">
@@ -105,6 +146,57 @@ Public Member Functions</h2></td></tr>
 <tr class="separator:a2ab0a16d99f7bc2b862bee24b0b696bd"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a5df07cf224731120db5eb52b32ef54d3"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_ms_1_1_text_base.html">TextBase</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ms_1_1_text_tools.html#a5df07cf224731120db5eb52b32ef54d3">textElement</a> ()</td></tr>
 <tr class="separator:a5df07cf224731120db5eb52b32ef54d3"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pri-slots"></a>
+Private Slots</h2></td></tr>
+<tr class="memitem:aea7f042d59b71a3395cb83e0b2434bc2"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ms_1_1_text_tools.html#aea7f042d59b71a3395cb83e0b2434bc2">sizeChanged</a> (double value)</td></tr>
+<tr class="separator:aea7f042d59b71a3395cb83e0b2434bc2"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a279a7469f680f6a938569b94b89c9fa9"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ms_1_1_text_tools.html#a279a7469f680f6a938569b94b89c9fa9">fontChanged</a> (const QFont &amp;)</td></tr>
+<tr class="separator:a279a7469f680f6a938569b94b89c9fa9"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a699098d14f39a1ebc62597574fc14029"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ms_1_1_text_tools.html#a699098d14f39a1ebc62597574fc14029">boldClicked</a> (bool)</td></tr>
+<tr class="separator:a699098d14f39a1ebc62597574fc14029"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a43a066caf2944331e0724b74931c8a01"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ms_1_1_text_tools.html#a43a066caf2944331e0724b74931c8a01">italicClicked</a> (bool)</td></tr>
+<tr class="separator:a43a066caf2944331e0724b74931c8a01"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a551391d396b68df8e1c3e1e55b0b0314"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ms_1_1_text_tools.html#a551391d396b68df8e1c3e1e55b0b0314">underlineClicked</a> (bool)</td></tr>
+<tr class="separator:a551391d396b68df8e1c3e1e55b0b0314"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a274cebf48240c297d9b44b07b49c8fd4"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ms_1_1_text_tools.html#a274cebf48240c297d9b44b07b49c8fd4">subscriptClicked</a> (bool)</td></tr>
+<tr class="separator:a274cebf48240c297d9b44b07b49c8fd4"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a2c98fb62f04f2c990485c10eed768b94"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ms_1_1_text_tools.html#a2c98fb62f04f2c990485c10eed768b94">superscriptClicked</a> (bool)</td></tr>
+<tr class="separator:a2c98fb62f04f2c990485c10eed768b94"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:abe3674de7de24f2e105a747df9027281"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ms_1_1_text_tools.html#abe3674de7de24f2e105a747df9027281">showKeyboardClicked</a> (bool)</td></tr>
+<tr class="separator:abe3674de7de24f2e105a747df9027281"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pri-methods"></a>
+Private Member Functions</h2></td></tr>
+<tr class="memitem:ae26d34484a62d01e9af068b76e07d0f0"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ms_1_1_text_tools.html#ae26d34484a62d01e9af068b76e07d0f0">blockAllSignals</a> (bool val)</td></tr>
+<tr class="separator:ae26d34484a62d01e9af068b76e07d0f0"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af262320c036ad9bc01d583d8d15e6732"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ms_1_1_text_tools.html#af262320c036ad9bc01d583d8d15e6732">updateText</a> ()</td></tr>
+<tr class="separator:af262320c036ad9bc01d583d8d15e6732"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a014687a0ed0dab1d2c69ac5158fb6905"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ms_1_1_text_tools.html#a014687a0ed0dab1d2c69ac5158fb6905">layoutText</a> ()</td></tr>
+<tr class="separator:a014687a0ed0dab1d2c69ac5158fb6905"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pri-attribs"></a>
+Private Attributes</h2></td></tr>
+<tr class="memitem:a56cc803e3f97acf33391fe7884ecaadb"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_ms_1_1_text_base.html">TextBase</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ms_1_1_text_tools.html#a56cc803e3f97acf33391fe7884ecaadb">text</a></td></tr>
+<tr class="separator:a56cc803e3f97acf33391fe7884ecaadb"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a528bbdd65e189c9547b70e829ef3c68f"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_ms_1_1_text_cursor.html">TextCursor</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ms_1_1_text_tools.html#a528bbdd65e189c9547b70e829ef3c68f">cursor</a></td></tr>
+<tr class="separator:a528bbdd65e189c9547b70e829ef3c68f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a53ca194decbf99bd2caf6deed3db3819"><td class="memItemLeft" align="right" valign="top">QDoubleSpinBox *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ms_1_1_text_tools.html#a53ca194decbf99bd2caf6deed3db3819">typefaceSize</a></td></tr>
+<tr class="separator:a53ca194decbf99bd2caf6deed3db3819"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab9f8ad2fc76b66e29b5840e267e8dba8"><td class="memItemLeft" align="right" valign="top">QFontComboBox *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ms_1_1_text_tools.html#ab9f8ad2fc76b66e29b5840e267e8dba8">typefaceFamily</a></td></tr>
+<tr class="separator:ab9f8ad2fc76b66e29b5840e267e8dba8"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a57ffc24b4508e01922bdc1c90fef38c0"><td class="memItemLeft" align="right" valign="top">QAction *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ms_1_1_text_tools.html#a57ffc24b4508e01922bdc1c90fef38c0">typefaceBold</a></td></tr>
+<tr class="separator:a57ffc24b4508e01922bdc1c90fef38c0"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aca918c4b6f67bda14b262e4c8ecb3c39"><td class="memItemLeft" align="right" valign="top">QAction *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ms_1_1_text_tools.html#aca918c4b6f67bda14b262e4c8ecb3c39">typefaceItalic</a></td></tr>
+<tr class="separator:aca918c4b6f67bda14b262e4c8ecb3c39"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a6582dcfb6c4c61b29900f21a1e0d5f72"><td class="memItemLeft" align="right" valign="top">QAction *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ms_1_1_text_tools.html#a6582dcfb6c4c61b29900f21a1e0d5f72">typefaceUnderline</a></td></tr>
+<tr class="separator:a6582dcfb6c4c61b29900f21a1e0d5f72"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aac987a492be28b23a2aff3a2d2eec8be"><td class="memItemLeft" align="right" valign="top">QAction *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ms_1_1_text_tools.html#aac987a492be28b23a2aff3a2d2eec8be">typefaceSubscript</a></td></tr>
+<tr class="separator:aac987a492be28b23a2aff3a2d2eec8be"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a3273dbc5a723f58ddd2a4afde67ee5d8"><td class="memItemLeft" align="right" valign="top">QAction *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ms_1_1_text_tools.html#a3273dbc5a723f58ddd2a4afde67ee5d8">typefaceSuperscript</a></td></tr>
+<tr class="separator:a3273dbc5a723f58ddd2a4afde67ee5d8"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:afb768d5c09e11d456a0a8200a472abcb"><td class="memItemLeft" align="right" valign="top">QAction *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ms_1_1_text_tools.html#afb768d5c09e11d456a0a8200a472abcb">showKeyboard</a></td></tr>
+<tr class="separator:afb768d5c09e11d456a0a8200a472abcb"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
 <a id="a0bd0a7068bf47fd2ad706a173c4be89b"></a>
@@ -126,6 +218,110 @@ Public Member Functions</h2></td></tr>
 </div>
 </div>
 <h2 class="groupheader">Member Function Documentation</h2>
+<a id="ae26d34484a62d01e9af068b76e07d0f0"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ae26d34484a62d01e9af068b76e07d0f0">&#9670;&nbsp;</a></span>blockAllSignals()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void Ms::TextTools::blockAllSignals </td>
+          <td>(</td>
+          <td class="paramtype">bool&#160;</td>
+          <td class="paramname"><em>val</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a699098d14f39a1ebc62597574fc14029"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a699098d14f39a1ebc62597574fc14029">&#9670;&nbsp;</a></span>boldClicked</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void Ms::TextTools::boldClicked </td>
+          <td>(</td>
+          <td class="paramtype">bool&#160;</td>
+          <td class="paramname"><em>val</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span><span class="mlabel">slot</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a279a7469f680f6a938569b94b89c9fa9"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a279a7469f680f6a938569b94b89c9fa9">&#9670;&nbsp;</a></span>fontChanged</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void Ms::TextTools::fontChanged </td>
+          <td>(</td>
+          <td class="paramtype">const QFont &amp;&#160;</td>
+          <td class="paramname"><em>f</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span><span class="mlabel">slot</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a43a066caf2944331e0724b74931c8a01"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a43a066caf2944331e0724b74931c8a01">&#9670;&nbsp;</a></span>italicClicked</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void Ms::TextTools::italicClicked </td>
+          <td>(</td>
+          <td class="paramtype">bool&#160;</td>
+          <td class="paramname"><em>val</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span><span class="mlabel">slot</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
 <a id="a12db21c8d9bdaef68bdb727d64dc0eb9"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a12db21c8d9bdaef68bdb727d64dc0eb9">&#9670;&nbsp;</a></span>kbAction()</h2>
 
@@ -145,6 +341,135 @@ Public Member Functions</h2></td></tr>
   </td>
   <td class="mlabels-right">
 <span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a014687a0ed0dab1d2c69ac5158fb6905"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a014687a0ed0dab1d2c69ac5158fb6905">&#9670;&nbsp;</a></span>layoutText()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void Ms::TextTools::layoutText </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="abe3674de7de24f2e105a747df9027281"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#abe3674de7de24f2e105a747df9027281">&#9670;&nbsp;</a></span>showKeyboardClicked</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void Ms::TextTools::showKeyboardClicked </td>
+          <td>(</td>
+          <td class="paramtype">bool&#160;</td>
+          <td class="paramname"><em>val</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span><span class="mlabel">slot</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="aea7f042d59b71a3395cb83e0b2434bc2"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aea7f042d59b71a3395cb83e0b2434bc2">&#9670;&nbsp;</a></span>sizeChanged</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void Ms::TextTools::sizeChanged </td>
+          <td>(</td>
+          <td class="paramtype">double&#160;</td>
+          <td class="paramname"><em>value</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span><span class="mlabel">slot</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a274cebf48240c297d9b44b07b49c8fd4"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a274cebf48240c297d9b44b07b49c8fd4">&#9670;&nbsp;</a></span>subscriptClicked</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void Ms::TextTools::subscriptClicked </td>
+          <td>(</td>
+          <td class="paramtype">bool&#160;</td>
+          <td class="paramname"><em>val</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span><span class="mlabel">slot</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a2c98fb62f04f2c990485c10eed768b94"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a2c98fb62f04f2c990485c10eed768b94">&#9670;&nbsp;</a></span>superscriptClicked</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void Ms::TextTools::superscriptClicked </td>
+          <td>(</td>
+          <td class="paramtype">bool&#160;</td>
+          <td class="paramname"><em>val</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span><span class="mlabel">slot</span></span>  </td>
   </tr>
 </table>
 </div><div class="memdoc">
@@ -219,6 +544,57 @@ Public Member Functions</h2></td></tr>
 
 </div>
 </div>
+<a id="a551391d396b68df8e1c3e1e55b0b0314"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a551391d396b68df8e1c3e1e55b0b0314">&#9670;&nbsp;</a></span>underlineClicked</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void Ms::TextTools::underlineClicked </td>
+          <td>(</td>
+          <td class="paramtype">bool&#160;</td>
+          <td class="paramname"><em>val</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span><span class="mlabel">slot</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="af262320c036ad9bc01d583d8d15e6732"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#af262320c036ad9bc01d583d8d15e6732">&#9670;&nbsp;</a></span>updateText()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void Ms::TextTools::updateText </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
 <a id="a281f51523ac3a115d25f220328d91c8a"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a281f51523ac3a115d25f220328d91c8a">&#9670;&nbsp;</a></span>updateTools()</h2>
 
@@ -233,6 +609,227 @@ Public Member Functions</h2></td></tr>
           <td></td>
         </tr>
       </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<h2 class="groupheader">Member Data Documentation</h2>
+<a id="a528bbdd65e189c9547b70e829ef3c68f"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a528bbdd65e189c9547b70e829ef3c68f">&#9670;&nbsp;</a></span>cursor</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="class_ms_1_1_text_cursor.html">TextCursor</a>* Ms::TextTools::cursor</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="afb768d5c09e11d456a0a8200a472abcb"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#afb768d5c09e11d456a0a8200a472abcb">&#9670;&nbsp;</a></span>showKeyboard</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">QAction* Ms::TextTools::showKeyboard</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a56cc803e3f97acf33391fe7884ecaadb"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a56cc803e3f97acf33391fe7884ecaadb">&#9670;&nbsp;</a></span>text</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="class_ms_1_1_text_base.html">TextBase</a>* Ms::TextTools::text</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a57ffc24b4508e01922bdc1c90fef38c0"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a57ffc24b4508e01922bdc1c90fef38c0">&#9670;&nbsp;</a></span>typefaceBold</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">QAction* Ms::TextTools::typefaceBold</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="ab9f8ad2fc76b66e29b5840e267e8dba8"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ab9f8ad2fc76b66e29b5840e267e8dba8">&#9670;&nbsp;</a></span>typefaceFamily</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">QFontComboBox* Ms::TextTools::typefaceFamily</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="aca918c4b6f67bda14b262e4c8ecb3c39"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aca918c4b6f67bda14b262e4c8ecb3c39">&#9670;&nbsp;</a></span>typefaceItalic</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">QAction* Ms::TextTools::typefaceItalic</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a53ca194decbf99bd2caf6deed3db3819"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a53ca194decbf99bd2caf6deed3db3819">&#9670;&nbsp;</a></span>typefaceSize</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">QDoubleSpinBox* Ms::TextTools::typefaceSize</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="aac987a492be28b23a2aff3a2d2eec8be"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aac987a492be28b23a2aff3a2d2eec8be">&#9670;&nbsp;</a></span>typefaceSubscript</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">QAction* Ms::TextTools::typefaceSubscript</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a3273dbc5a723f58ddd2a4afde67ee5d8"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a3273dbc5a723f58ddd2a4afde67ee5d8">&#9670;&nbsp;</a></span>typefaceSuperscript</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">QAction* Ms::TextTools::typefaceSuperscript</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a6582dcfb6c4c61b29900f21a1e0d5f72"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a6582dcfb6c4c61b29900f21a1e0d5f72">&#9670;&nbsp;</a></span>typefaceUnderline</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">QAction* Ms::TextTools::typefaceUnderline</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
 </div><div class="memdoc">
 
 </div>

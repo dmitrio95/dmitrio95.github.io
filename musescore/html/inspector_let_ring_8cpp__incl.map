@@ -1,14 +1,13 @@
 <map id="mscore/inspector/inspectorLetRing.cpp" name="mscore/inspector/inspectorLetRing.cpp">
-<area shape="rect" id="node2" href="$inspector_8h.html" title="inspector.h" alt="" coords="3003,95,3089,121"/>
-<area shape="rect" id="node36" href="$inspector_let_ring_8h.html" title="inspectorLetRing.h" alt="" coords="193,95,323,121"/>
-<area shape="rect" id="node39" href="$musescore_8h.html" title="musescore.h" alt="" coords="6476,95,6573,121"/>
-<area shape="rect" id="node49" href="$libmscore_2score_8h.html" title="Definition of Score class. " alt="" coords="5701,169,5826,196"/>
-<area shape="rect" id="node3" href="$inspector_base_8h.html" title="inspectorBase.h" alt="" coords="2639,319,2755,345"/>
-<area shape="rect" id="node4" href="$inspector_element_base_8h.html" title="inspectorElementBase.h" alt="" coords="1681,244,1845,271"/>
-<area shape="rect" id="node5" href="$inspector_text_base_8h.html" title="inspectorTextBase.h" alt="" coords="1789,169,1932,196"/>
-<area shape="rect" id="node37" href="$inspector_text_line_base_8h.html" title="inspectorTextLineBase.h" alt="" coords="175,169,341,196"/>
-<area shape="rect" id="node41" href="$globals_8h.html" title="globals.h" alt="" coords="7286,169,7361,196"/>
-<area shape="rect" id="node47" href="$updatechecker_8h.html" title="updatechecker.h" alt="" coords="6764,169,6883,196"/>
-<area shape="rect" id="node48" href="$musescore_core_8h.html" title="libmscore/musescoreCore.h" alt="" coords="6907,169,7092,196"/>
-<area shape="rect" id="node50" href="$newwizard_8h.html" title="newwizard.h" alt="" coords="7116,169,7211,196"/>
+<area shape="rect" id="node2" href="$inspector_8h.html" title="inspector.h" alt="" coords="3128,95,3215,121"/>
+<area shape="rect" id="node37" href="$inspector_let_ring_8h.html" title="inspectorLetRing.h" alt="" coords="193,95,323,121"/>
+<area shape="rect" id="node40" href="$musescore_8h.html" title="musescore.h" alt="" coords="6565,95,6663,121"/>
+<area shape="rect" id="node50" href="$libmscore_2score_8h.html" title="Definition of Score class. " alt="" coords="5895,169,6021,196"/>
+<area shape="rect" id="node3" href="$inspector_base_8h.html" title="inspectorBase.h" alt="" coords="3060,319,3176,345"/>
+<area shape="rect" id="node4" href="$inspector_element_base_8h.html" title="inspectorElementBase.h" alt="" coords="2219,244,2383,271"/>
+<area shape="rect" id="node5" href="$inspector_text_base_8h.html" title="inspectorTextBase.h" alt="" coords="2327,169,2469,196"/>
+<area shape="rect" id="node38" href="$inspector_text_line_base_8h.html" title="inspectorTextLineBase.h" alt="" coords="175,169,341,196"/>
+<area shape="rect" id="node42" href="$globals_8h.html" title="globals.h" alt="" coords="7362,169,7437,196"/>
+<area shape="rect" id="node48" href="$updatechecker_8h.html" title="updatechecker.h" alt="" coords="6959,169,7077,196"/>
+<area shape="rect" id="node49" href="$musescore_core_8h.html" title="libmscore/musescoreCore.h" alt="" coords="7101,169,7287,196"/>
 </map>

@@ -23,9 +23,9 @@
   <td id="projectlogo"><img alt="Logo" src="musescore_logo_full.png"/></td>
   <td id="projectalign" style="padding-left: 0.5em;">
    <div id="projectname">MuseScore
-   &#160;<span id="projectnumber">3.1</span>
+   &#160;<span id="projectnumber">3.2</span>
    </div>
-   <div id="projectbrief">Music compisition and notation</div>
+   <div id="projectbrief">Music composition and notation</div>
   </td>
  </tr>
  </tbody>
@@ -67,6 +67,7 @@ $(function() {
 <div class="header">
   <div class="summary">
 <a href="#pub-methods">Public Member Functions</a> &#124;
+<a href="#pri-attribs">Private Attributes</a> &#124;
 <a href="class_ms_1_1_char_format-members.html">List of all members</a>  </div>
   <div class="headertitle">
 <div class="title">Ms::CharFormat Class Reference</div>  </div>
@@ -115,6 +116,19 @@ Public Member Functions</h2></td></tr>
 <tr class="separator:aee383b062cb8b0fa603bebcf8bd80407"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a9be26122d40206f79c1bf5bdd5e2dc3a"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ms_1_1_char_format.html#a9be26122d40206f79c1bf5bdd5e2dc3a">setFormat</a> (<a class="el" href="namespace_ms.html#a69eba1766628127a01f8696ae423a508">FormatId</a>, QVariant)</td></tr>
 <tr class="separator:a9be26122d40206f79c1bf5bdd5e2dc3a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pri-attribs"></a>
+Private Attributes</h2></td></tr>
+<tr class="memitem:aee5fcff5e508a85575b8fb8022dd4cc0"><td class="memItemLeft" align="right" valign="top"><a class="el" href="namespace_ms.html#ab69e8e4e677a596f2c21790a67c08d09">FontStyle</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ms_1_1_char_format.html#aee5fcff5e508a85575b8fb8022dd4cc0">_style</a> { <a class="el" href="namespace_ms.html#ab69e8e4e677a596f2c21790a67c08d09a960b44c579bc2f6818d2daaf9e4c16f0">FontStyle::Normal</a> }</td></tr>
+<tr class="separator:aee5fcff5e508a85575b8fb8022dd4cc0"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aea74b77974b33ad3f85d8985d7375b4c"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ms_1_1_char_format.html#aea74b77974b33ad3f85d8985d7375b4c">_preedit</a> { false }</td></tr>
+<tr class="separator:aea74b77974b33ad3f85d8985d7375b4c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a5babee0ae5721655d0e07d9234984a39"><td class="memItemLeft" align="right" valign="top"><a class="el" href="namespace_ms.html#abcee0106b68226d942361c76975f21d7">VerticalAlignment</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ms_1_1_char_format.html#a5babee0ae5721655d0e07d9234984a39">_valign</a> { <a class="el" href="namespace_ms.html#abcee0106b68226d942361c76975f21d7a1edd83e61a85346de360d26f2c3f555b">VerticalAlignment::AlignNormal</a> }</td></tr>
+<tr class="separator:a5babee0ae5721655d0e07d9234984a39"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aeb7d0b76097d8f8da4ce28490ade3508"><td class="memItemLeft" align="right" valign="top">qreal&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ms_1_1_char_format.html#aeb7d0b76097d8f8da4ce28490ade3508">_fontSize</a> { 12.0 }</td></tr>
+<tr class="separator:aeb7d0b76097d8f8da4ce28490ade3508"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad0b6f005ccc4a48e914de26cc5cfdcb4"><td class="memItemLeft" align="right" valign="top">QString&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ms_1_1_char_format.html#ad0b6f005ccc4a48e914de26cc5cfdcb4">_fontFamily</a></td></tr>
+<tr class="separator:ad0b6f005ccc4a48e914de26cc5cfdcb4"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
 <a id="ac53f647018552eabde7ef1cea3abb718"></a>
@@ -591,6 +605,117 @@ Public Member Functions</h2></td></tr>
   </td>
   <td class="mlabels-right">
 <span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<h2 class="groupheader">Member Data Documentation</h2>
+<a id="ad0b6f005ccc4a48e914de26cc5cfdcb4"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ad0b6f005ccc4a48e914de26cc5cfdcb4">&#9670;&nbsp;</a></span>_fontFamily</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">QString Ms::CharFormat::_fontFamily</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="aeb7d0b76097d8f8da4ce28490ade3508"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aeb7d0b76097d8f8da4ce28490ade3508">&#9670;&nbsp;</a></span>_fontSize</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">qreal Ms::CharFormat::_fontSize { 12.0 }</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="aea74b77974b33ad3f85d8985d7375b4c"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aea74b77974b33ad3f85d8985d7375b4c">&#9670;&nbsp;</a></span>_preedit</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool Ms::CharFormat::_preedit { false }</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="aee5fcff5e508a85575b8fb8022dd4cc0"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aee5fcff5e508a85575b8fb8022dd4cc0">&#9670;&nbsp;</a></span>_style</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="namespace_ms.html#ab69e8e4e677a596f2c21790a67c08d09">FontStyle</a> Ms::CharFormat::_style { <a class="el" href="namespace_ms.html#ab69e8e4e677a596f2c21790a67c08d09a960b44c579bc2f6818d2daaf9e4c16f0">FontStyle::Normal</a> }</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a5babee0ae5721655d0e07d9234984a39"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a5babee0ae5721655d0e07d9234984a39">&#9670;&nbsp;</a></span>_valign</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="namespace_ms.html#abcee0106b68226d942361c76975f21d7">VerticalAlignment</a> Ms::CharFormat::_valign { <a class="el" href="namespace_ms.html#abcee0106b68226d942361c76975f21d7a1edd83e61a85346de360d26f2c3f555b">VerticalAlignment::AlignNormal</a> }</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
   </tr>
 </table>
 </div><div class="memdoc">

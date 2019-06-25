@@ -23,9 +23,9 @@
   <td id="projectlogo"><img alt="Logo" src="musescore_logo_full.png"/></td>
   <td id="projectalign" style="padding-left: 0.5em;">
    <div id="projectname">MuseScore
-   &#160;<span id="projectnumber">3.1</span>
+   &#160;<span id="projectnumber">3.2</span>
    </div>
-   <div id="projectbrief">Music compisition and notation</div>
+   <div id="projectbrief">Music composition and notation</div>
   </td>
  </tr>
  </tbody>
@@ -68,6 +68,9 @@ $(function() {
   <div class="summary">
 <a href="#nested-classes">Classes</a> &#124;
 <a href="#pub-methods">Public Member Functions</a> &#124;
+<a href="#pri-methods">Private Member Functions</a> &#124;
+<a href="#pri-attribs">Private Attributes</a> &#124;
+<a href="#pri-static-attribs">Static Private Attributes</a> &#124;
 <a href="class_bww_1_1_ms_sc_writer-members.html">List of all members</a>  </div>
   <div class="headertitle">
 <div class="title">Bww::MsScWriter Class Reference</div>  </div>
@@ -89,10 +92,57 @@ Collaboration diagram for Bww::MsScWriter:</div>
 <div class="dyncontent">
 <div class="center"><img src="class_bww_1_1_ms_sc_writer__coll__graph.png" border="0" usemap="#_bww_1_1_ms_sc_writer_coll__map" alt="Collaboration graph"/></div>
 <map name="_bww_1_1_ms_sc_writer_coll__map" id="_bww_1_1_ms_sc_writer_coll__map">
-<area shape="rect" id="node2" href="class_bww_1_1_writer.html" title="The writer that generates the output. " alt="" coords="22,5,117,32"/>
+<area shape="rect" id="node2" href="class_bww_1_1_writer.html" title="The writer that generates the output. " alt="" coords="1656,283,1751,309"/>
+<area shape="rect" id="node3" href="class_ms_1_1_tuplet.html" title="Example of 1/8 triplet: _baseLen = 1/8 _actualNotes = 3 _normalNotes = 2 (3 notes played in the time ..." alt="" coords="1025,133,1109,160"/>
+<area shape="rect" id="node4" href="class_ms_1_1_duration_element.html" title="Virtual base class for Chord, Rest and Tuplet. " alt="" coords="1301,187,1447,213"/>
+<area shape="rect" id="node5" href="class_ms_1_1_element.html" title="Base class of score layout elements. " alt="" coords="277,824,373,851"/>
+<area shape="rect" id="node22" href="class_ms_1_1_text_base.html" title="Ms::TextBase" alt="" coords="448,849,552,876"/>
+<area shape="rect" id="node28" href="class_ms_1_1_measure_base.html" title="Virtual base class for Measure, HBox and VBox. " alt="" coords="1003,889,1131,916"/>
+<area shape="rect" id="node31" href="class_ms_1_1_segment.html" title="Ms::Segment" alt="" coords="1017,609,1117,636"/>
+<area shape="rect" id="node6" href="class_ms_1_1_score_element.html" title="Ms::ScoreElement" alt="" coords="1936,1260,2067,1287"/>
+<area shape="rect" id="node7" href="class_ms_1_1_score.html" title="Ms::Score" alt="" coords="1662,1003,1745,1029"/>
+<area shape="rect" id="node9" href="class_ms_1_1_excerpt.html" title="Ms::Excerpt" alt="" coords="1955,1095,2048,1121"/>
+<area shape="rect" id="node10" href="class_ms_1_1_master_score.html" title="Ms::MasterScore" alt="" coords="1313,1263,1435,1289"/>
+<area shape="rect" id="node14" href="class_ms_1_1_repeat_list.html" title="Ms::RepeatList" alt="" coords="1946,1407,2057,1433"/>
+<area shape="rect" id="node30" href="class_ms_1_1_input_state.html" title="Ms::InputState" alt="" coords="1947,585,2055,612"/>
+<area shape="rect" id="node37" href="class_ms_1_1_selection.html" title="Ms::Selection" alt="" coords="1950,783,2053,809"/>
+<area shape="rect" id="node42" href="class_ms_1_1_selection_filter.html" title="Ms::SelectionFilter" alt="" coords="1936,936,2067,963"/>
+<area shape="rect" id="node11" href="class_ms_1_1_omr.html" title="Ms::Omr" alt="" coords="1031,1209,1104,1236"/>
+<area shape="rect" id="node12" href="class_ms_1_1_cmd_state.html" title="Ms::CmdState" alt="" coords="1014,1057,1121,1084"/>
+<area shape="rect" id="node13" href="class_ms_1_1_fraction.html" title="Ms::Fraction" alt="" coords="721,609,816,636"/>
+<area shape="rect" id="node46" href="class_ms_1_1_measure.html" title="one measure in a system " alt="" coords="1654,473,1753,500"/>
+<area shape="rect" id="node16" href="class_ms_1_1_revisions.html" title="Ms::Revisions" alt="" coords="1014,1311,1121,1337"/>
+<area shape="rect" id="node17" href="class_ms_1_1_revision.html" title="Ms::Revision" alt="" coords="719,1311,818,1337"/>
+<area shape="rect" id="node18" href="class_ms_1_1_tempo_map.html" title="Ms::TempoMap" alt="" coords="1011,1361,1124,1388"/>
+<area shape="rect" id="node20" href="class_ms_1_1_movements.html" title="Ms::Movements" alt="" coords="1009,1260,1125,1287"/>
+<area shape="rect" id="node21" href="class_ms_1_1_text.html" title="Ms::Text" alt="" coords="731,849,806,876"/>
+<area shape="rect" id="node23" href="class_ms_1_1_spatium.html" title="Ms::Spatium" alt="" coords="5,321,101,348"/>
+<area shape="rect" id="node49" href="class_ms_1_1_text_line_base.html" title="Ms::TextLineBase" alt="" coords="261,47,389,73"/>
+<area shape="rect" id="node24" href="class_ms_1_1_m_style.html" title="Ms::MStyle" alt="" coords="724,1165,813,1192"/>
+<area shape="rect" id="node25" href="class_ms_1_1_chord_list.html" title="Ms::ChordList" alt="" coords="448,1165,552,1192"/>
+<area shape="rect" id="node26" href="class_ms_1_1_time_sig_map.html" title="Ms::TimeSigMap" alt="" coords="1007,1159,1128,1185"/>
+<area shape="rect" id="node27" href="class_ms_1_1_measure_base_list.html" title="Ms::MeasureBaseList" alt="" coords="1299,905,1449,932"/>
+<area shape="rect" id="node29" href="class_ms_1_1_element_list.html" title="Ms::ElementList" alt="" coords="710,900,827,927"/>
+<area shape="rect" id="node47" href="class_ms_1_1_segment_list.html" title="Ms::SegmentList" alt="" coords="1313,473,1435,500"/>
+<area shape="rect" id="node32" href="class_ms_1_1_t_duration.html" title="Ms::TDuration" alt="" coords="716,184,821,211"/>
+<area shape="rect" id="node33" href="class_ms_1_1_slur.html" title="Ms::Slur" alt="" coords="1668,553,1739,580"/>
+<area shape="rect" id="node34" href="class_ms_1_1_slur_tie.html" title="Ms::SlurTie" alt="" coords="1329,575,1419,601"/>
+<area shape="rect" id="node35" href="class_ms_1_1_synthesizer_state.html" title="Ms::SynthesizerState" alt="" coords="1300,1007,1448,1033"/>
+<area shape="rect" id="node38" href="class_ms_1_1_spanner_map.html" title="Ms::SpannerMap" alt="" coords="1313,956,1435,983"/>
+<area shape="rect" id="node40" href="class_ms_1_1_update_state.html" title="Ms::UpdateState" alt="" coords="1313,1159,1435,1185"/>
+<area shape="rect" id="node41" href="class_ms_1_1_audio.html" title="Ms::Audio" alt="" coords="1333,1367,1415,1393"/>
+<area shape="rect" id="node43" href="class_ms_1_1_score_font.html" title="Ms::ScoreFont" alt="" coords="1320,855,1428,881"/>
+<area shape="rect" id="node44" href="class_ms_1_1_linked_elements.html" title="Ms::LinkedElements" alt="" coords="1633,1355,1774,1381"/>
+<area shape="rect" id="node48" href="class_ms_1_1_volta.html" title="Ms::Volta" alt="" coords="585,47,664,73"/>
+<area shape="rect" id="node50" href="class_ms_1_1_s_line.html" title="virtual base class for Hairpin, Trill and TextLine " alt="" coords="13,5,94,32"/>
 </map>
 <center><span class="legend">[<a href="graph_legend.html">legend</a>]</span></center></div>
 <table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="nested-classes"></a>
+Classes</h2></td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_bww_1_1_ms_sc_writer_1_1_step_alter_oct.html">StepAlterOct</a></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
 <tr class="memitem:aebc249aecf32347d49866fdc06edaa6e"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_bww_1_1_ms_sc_writer.html#aebc249aecf32347d49866fdc06edaa6e">MsScWriter</a> ()</td></tr>
@@ -112,7 +162,7 @@ Public Member Functions</h2></td></tr>
 <tr class="separator:a14b90e89cf41fd7590a5ec89411a699f"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a022542fa7a888d53067abea6d4ad5518"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_bww_1_1_ms_sc_writer.html#a022542fa7a888d53067abea6d4ad5518">setScore</a> (<a class="el" href="class_ms_1_1_score.html">Ms::Score</a> *s)</td></tr>
 <tr class="separator:a022542fa7a888d53067abea6d4ad5518"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aa451ddaec741b6174bf43b0b11adf4de"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_bww_1_1_ms_sc_writer.html#aa451ddaec741b6174bf43b0b11adf4de">tsig</a> (const int beats, const int beat)</td></tr>
+<tr class="memitem:aa451ddaec741b6174bf43b0b11adf4de"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_bww_1_1_ms_sc_writer.html#aa451ddaec741b6174bf43b0b11adf4de">tsig</a> (const int <a class="el" href="class_bww_1_1_ms_sc_writer.html#a24ffa6e5052e66b0d0f5f896ca7a3d5e">beats</a>, const int <a class="el" href="class_bww_1_1_ms_sc_writer.html#aa4bb943cf38a92c4efd23af2a736b126">beat</a>)</td></tr>
 <tr class="memdesc:aa451ddaec741b6174bf43b0b11adf4de"><td class="mdescLeft">&#160;</td><td class="mdescRight">Store beats and beat type for later use.  <a href="#aa451ddaec741b6174bf43b0b11adf4de">More...</a><br /></td></tr>
 <tr class="separator:aa451ddaec741b6174bf43b0b11adf4de"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a8dcafaba05ea6dd04f11878e58f53bba"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_bww_1_1_ms_sc_writer.html#a8dcafaba05ea6dd04f11878e58f53bba">trailer</a> ()</td></tr>
@@ -125,6 +175,59 @@ Public Member Functions</h2></td></tr>
 <tr class="separator:af8a76e821a2e66823c0fb8b39821897f inherit pub_methods_class_bww_1_1_writer"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a64dc0f60dda5dbf53dbe2e23b5f48944 inherit pub_methods_class_bww_1_1_writer"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_bww_1_1_writer.html#a64dc0f60dda5dbf53dbe2e23b5f48944">midiProgram</a> () const</td></tr>
 <tr class="separator:a64dc0f60dda5dbf53dbe2e23b5f48944 inherit pub_methods_class_bww_1_1_writer"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pri-methods"></a>
+Private Member Functions</h2></td></tr>
+<tr class="memitem:a53282b4aeeb60d6b2d1bc324ad88b788"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_bww_1_1_ms_sc_writer.html#a53282b4aeeb60d6b2d1bc324ad88b788">doTriplet</a> (<a class="el" href="class_ms_1_1_chord.html">Ms::Chord</a> *cr, <a class="el" href="namespace_bww.html#a3ddfa45d84fdb77807c9e717ef29d682">StartStop</a> triplet=<a class="el" href="namespace_bww.html#a3ddfa45d84fdb77807c9e717ef29d682a71b612eda650c287649cc8973fcec04e">ST_NONE</a>)</td></tr>
+<tr class="memdesc:a53282b4aeeb60d6b2d1bc324ad88b788"><td class="mdescLeft">&#160;</td><td class="mdescRight">Handle the triplet.  <a href="#a53282b4aeeb60d6b2d1bc324ad88b788">More...</a><br /></td></tr>
+<tr class="separator:a53282b4aeeb60d6b2d1bc324ad88b788"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pri-attribs"></a>
+Private Attributes</h2></td></tr>
+<tr class="memitem:ac5c0359f4ebe867a2d755762cab912c1"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_ms_1_1_score.html">Ms::Score</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_bww_1_1_ms_sc_writer.html#ac5c0359f4ebe867a2d755762cab912c1">score</a></td></tr>
+<tr class="memdesc:ac5c0359f4ebe867a2d755762cab912c1"><td class="mdescLeft">&#160;</td><td class="mdescRight">The score.  <a href="#ac5c0359f4ebe867a2d755762cab912c1">More...</a><br /></td></tr>
+<tr class="separator:ac5c0359f4ebe867a2d755762cab912c1"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a24ffa6e5052e66b0d0f5f896ca7a3d5e"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_bww_1_1_ms_sc_writer.html#a24ffa6e5052e66b0d0f5f896ca7a3d5e">beats</a></td></tr>
+<tr class="memdesc:a24ffa6e5052e66b0d0f5f896ca7a3d5e"><td class="mdescLeft">&#160;</td><td class="mdescRight">Number of beats.  <a href="#a24ffa6e5052e66b0d0f5f896ca7a3d5e">More...</a><br /></td></tr>
+<tr class="separator:a24ffa6e5052e66b0d0f5f896ca7a3d5e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa4bb943cf38a92c4efd23af2a736b126"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_bww_1_1_ms_sc_writer.html#aa4bb943cf38a92c4efd23af2a736b126">beat</a></td></tr>
+<tr class="memdesc:aa4bb943cf38a92c4efd23af2a736b126"><td class="mdescLeft">&#160;</td><td class="mdescRight">Beat type.  <a href="#aa4bb943cf38a92c4efd23af2a736b126">More...</a><br /></td></tr>
+<tr class="separator:aa4bb943cf38a92c4efd23af2a736b126"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a5ad966d6bb3cb2845431a5748743941d"><td class="memItemLeft" align="right" valign="top">QMap&lt; QString, <a class="el" href="struct_bww_1_1_ms_sc_writer_1_1_step_alter_oct.html">StepAlterOct</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_bww_1_1_ms_sc_writer.html#a5ad966d6bb3cb2845431a5748743941d">stepAlterOctMap</a></td></tr>
+<tr class="memdesc:a5ad966d6bb3cb2845431a5748743941d"><td class="mdescLeft">&#160;</td><td class="mdescRight">Map bww pitch to step/alter/oct.  <a href="#a5ad966d6bb3cb2845431a5748743941d">More...</a><br /></td></tr>
+<tr class="separator:a5ad966d6bb3cb2845431a5748743941d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a62ce7837fb2586c65ba5674c88b17527"><td class="memItemLeft" align="right" valign="top">QMap&lt; QString, QString &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_bww_1_1_ms_sc_writer.html#a62ce7837fb2586c65ba5674c88b17527">typeMap</a></td></tr>
+<tr class="memdesc:a62ce7837fb2586c65ba5674c88b17527"><td class="mdescLeft">&#160;</td><td class="mdescRight">Map bww note types to MusicXML.  <a href="#a62ce7837fb2586c65ba5674c88b17527">More...</a><br /></td></tr>
+<tr class="separator:a62ce7837fb2586c65ba5674c88b17527"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a74dd45b9af91b745f62fa2f3156c2bf2"><td class="memItemLeft" align="right" valign="top">unsigned int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_bww_1_1_ms_sc_writer.html#a74dd45b9af91b745f62fa2f3156c2bf2">measureNumber</a></td></tr>
+<tr class="memdesc:a74dd45b9af91b745f62fa2f3156c2bf2"><td class="mdescLeft">&#160;</td><td class="mdescRight">Current measure number.  <a href="#a74dd45b9af91b745f62fa2f3156c2bf2">More...</a><br /></td></tr>
+<tr class="separator:a74dd45b9af91b745f62fa2f3156c2bf2"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad5ee1d13c250a4fd5d8cc0b596288631"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_ms_1_1_fraction.html">Ms::Fraction</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_bww_1_1_ms_sc_writer.html#ad5ee1d13c250a4fd5d8cc0b596288631">tick</a></td></tr>
+<tr class="memdesc:ad5ee1d13c250a4fd5d8cc0b596288631"><td class="mdescLeft">&#160;</td><td class="mdescRight">Current tick.  <a href="#ad5ee1d13c250a4fd5d8cc0b596288631">More...</a><br /></td></tr>
+<tr class="separator:ad5ee1d13c250a4fd5d8cc0b596288631"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a02d10eb9c0b7c152b5928052cd229a8d"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_ms_1_1_measure.html">Ms::Measure</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_bww_1_1_ms_sc_writer.html#a02d10eb9c0b7c152b5928052cd229a8d">currentMeasure</a></td></tr>
+<tr class="memdesc:a02d10eb9c0b7c152b5928052cd229a8d"><td class="mdescLeft">&#160;</td><td class="mdescRight">Current measure.  <a href="#a02d10eb9c0b7c152b5928052cd229a8d">More...</a><br /></td></tr>
+<tr class="separator:a02d10eb9c0b7c152b5928052cd229a8d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9dffc95d7de691cbc83919aba74a8824"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_ms_1_1_tuplet.html">Ms::Tuplet</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_bww_1_1_ms_sc_writer.html#a9dffc95d7de691cbc83919aba74a8824">tuplet</a></td></tr>
+<tr class="memdesc:a9dffc95d7de691cbc83919aba74a8824"><td class="mdescLeft">&#160;</td><td class="mdescRight">Current tuplet.  <a href="#a9dffc95d7de691cbc83919aba74a8824">More...</a><br /></td></tr>
+<tr class="separator:a9dffc95d7de691cbc83919aba74a8824"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a3919b6e32cc583b56e06979e0129ecf4"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_ms_1_1_volta.html">Ms::Volta</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_bww_1_1_ms_sc_writer.html#a3919b6e32cc583b56e06979e0129ecf4">lastVolta</a></td></tr>
+<tr class="memdesc:a3919b6e32cc583b56e06979e0129ecf4"><td class="mdescLeft">&#160;</td><td class="mdescRight">Current volta.  <a href="#a3919b6e32cc583b56e06979e0129ecf4">More...</a><br /></td></tr>
+<tr class="separator:a3919b6e32cc583b56e06979e0129ecf4"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a06fe21fddb154fe9882182cce9ed1b23"><td class="memItemLeft" align="right" valign="top">unsigned int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_bww_1_1_ms_sc_writer.html#a06fe21fddb154fe9882182cce9ed1b23">tempo</a></td></tr>
+<tr class="memdesc:a06fe21fddb154fe9882182cce9ed1b23"><td class="mdescLeft">&#160;</td><td class="mdescRight">Tempo (0 = not specified)  <a href="#a06fe21fddb154fe9882182cce9ed1b23">More...</a><br /></td></tr>
+<tr class="separator:a06fe21fddb154fe9882182cce9ed1b23"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae4ef93c7c485ca429903955a27cbb618"><td class="memItemLeft" align="right" valign="top">unsigned int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_bww_1_1_ms_sc_writer.html#ae4ef93c7c485ca429903955a27cbb618">ending</a></td></tr>
+<tr class="memdesc:ae4ef93c7c485ca429903955a27cbb618"><td class="mdescLeft">&#160;</td><td class="mdescRight">Current ending.  <a href="#ae4ef93c7c485ca429903955a27cbb618">More...</a><br /></td></tr>
+<tr class="separator:ae4ef93c7c485ca429903955a27cbb618"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:abe3567c69a91487fe550d8d146dc646f"><td class="memItemLeft" align="right" valign="top">QList&lt; <a class="el" href="class_ms_1_1_chord.html">Ms::Chord</a> * &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_bww_1_1_ms_sc_writer.html#abe3567c69a91487fe550d8d146dc646f">currentGraceNotes</a></td></tr>
+<tr class="separator:abe3567c69a91487fe550d8d146dc646f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pri-static-attribs"></a>
+Static Private Attributes</h2></td></tr>
+<tr class="memitem:a6702ee0b5e587107a65726732283cc8e"><td class="memItemLeft" align="right" valign="top">static const int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_bww_1_1_ms_sc_writer.html#a6702ee0b5e587107a65726732283cc8e">WHOLE_DUR</a> = 64</td></tr>
+<tr class="memdesc:a6702ee0b5e587107a65726732283cc8e"><td class="mdescLeft">&#160;</td><td class="mdescRight">Whole note duration.  <a href="#a6702ee0b5e587107a65726732283cc8e">More...</a><br /></td></tr>
+<tr class="separator:a6702ee0b5e587107a65726732283cc8e"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><p>The writer that imports into MuseScore. </p>
@@ -176,6 +279,44 @@ Public Member Functions</h2></td></tr>
 <p>Begin a new measure. </p>
 
 <p>Implements <a class="el" href="class_bww_1_1_writer.html#a2f2af7af43c06d26494b7daf22da7f6f">Bww::Writer</a>.</p>
+
+</div>
+</div>
+<a id="a53282b4aeeb60d6b2d1bc324ad88b788"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a53282b4aeeb60d6b2d1bc324ad88b788">&#9670;&nbsp;</a></span>doTriplet()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void Bww::MsScWriter::doTriplet </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="class_ms_1_1_chord.html">Ms::Chord</a> *&#160;</td>
+          <td class="paramname"><em>cr</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="namespace_bww.html#a3ddfa45d84fdb77807c9e717ef29d682">StartStop</a>&#160;</td>
+          <td class="paramname"><em>triplet</em> = <code><a class="el" href="namespace_bww.html#a3ddfa45d84fdb77807c9e717ef29d682a71b612eda650c287649cc8973fcec04e">ST_NONE</a></code>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Handle the triplet. </p>
 
 </div>
 </div>
@@ -425,6 +566,341 @@ Public Member Functions</h2></td></tr>
 <p>Store beats and beat type for later use. </p>
 
 <p>Implements <a class="el" href="class_bww_1_1_writer.html#a3bf4eef6a8ecca5e9a61d389704bfc44">Bww::Writer</a>.</p>
+
+</div>
+</div>
+<h2 class="groupheader">Member Data Documentation</h2>
+<a id="aa4bb943cf38a92c4efd23af2a736b126"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aa4bb943cf38a92c4efd23af2a736b126">&#9670;&nbsp;</a></span>beat</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">int Bww::MsScWriter::beat</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Beat type. </p>
+
+</div>
+</div>
+<a id="a24ffa6e5052e66b0d0f5f896ca7a3d5e"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a24ffa6e5052e66b0d0f5f896ca7a3d5e">&#9670;&nbsp;</a></span>beats</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">int Bww::MsScWriter::beats</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Number of beats. </p>
+
+</div>
+</div>
+<a id="abe3567c69a91487fe550d8d146dc646f"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#abe3567c69a91487fe550d8d146dc646f">&#9670;&nbsp;</a></span>currentGraceNotes</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">QList&lt;<a class="el" href="class_ms_1_1_chord.html">Ms::Chord</a>*&gt; Bww::MsScWriter::currentGraceNotes</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a02d10eb9c0b7c152b5928052cd229a8d"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a02d10eb9c0b7c152b5928052cd229a8d">&#9670;&nbsp;</a></span>currentMeasure</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="class_ms_1_1_measure.html">Ms::Measure</a>* Bww::MsScWriter::currentMeasure</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Current measure. </p>
+
+</div>
+</div>
+<a id="ae4ef93c7c485ca429903955a27cbb618"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ae4ef93c7c485ca429903955a27cbb618">&#9670;&nbsp;</a></span>ending</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">unsigned int Bww::MsScWriter::ending</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Current ending. </p>
+
+</div>
+</div>
+<a id="a3919b6e32cc583b56e06979e0129ecf4"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a3919b6e32cc583b56e06979e0129ecf4">&#9670;&nbsp;</a></span>lastVolta</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="class_ms_1_1_volta.html">Ms::Volta</a>* Bww::MsScWriter::lastVolta</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Current volta. </p>
+
+</div>
+</div>
+<a id="a74dd45b9af91b745f62fa2f3156c2bf2"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a74dd45b9af91b745f62fa2f3156c2bf2">&#9670;&nbsp;</a></span>measureNumber</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">unsigned int Bww::MsScWriter::measureNumber</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Current measure number. </p>
+
+</div>
+</div>
+<a id="ac5c0359f4ebe867a2d755762cab912c1"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ac5c0359f4ebe867a2d755762cab912c1">&#9670;&nbsp;</a></span>score</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="class_ms_1_1_score.html">Ms::Score</a>* Bww::MsScWriter::score</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>The score. </p>
+
+</div>
+</div>
+<a id="a5ad966d6bb3cb2845431a5748743941d"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a5ad966d6bb3cb2845431a5748743941d">&#9670;&nbsp;</a></span>stepAlterOctMap</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">QMap&lt;QString, <a class="el" href="struct_bww_1_1_ms_sc_writer_1_1_step_alter_oct.html">StepAlterOct</a>&gt; Bww::MsScWriter::stepAlterOctMap</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Map bww pitch to step/alter/oct. </p>
+
+</div>
+</div>
+<a id="a06fe21fddb154fe9882182cce9ed1b23"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a06fe21fddb154fe9882182cce9ed1b23">&#9670;&nbsp;</a></span>tempo</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">unsigned int Bww::MsScWriter::tempo</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Tempo (0 = not specified) </p>
+
+</div>
+</div>
+<a id="ad5ee1d13c250a4fd5d8cc0b596288631"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ad5ee1d13c250a4fd5d8cc0b596288631">&#9670;&nbsp;</a></span>tick</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="class_ms_1_1_fraction.html">Ms::Fraction</a> Bww::MsScWriter::tick</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Current tick. </p>
+
+</div>
+</div>
+<a id="a9dffc95d7de691cbc83919aba74a8824"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a9dffc95d7de691cbc83919aba74a8824">&#9670;&nbsp;</a></span>tuplet</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="class_ms_1_1_tuplet.html">Ms::Tuplet</a>* Bww::MsScWriter::tuplet</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Current tuplet. </p>
+
+</div>
+</div>
+<a id="a62ce7837fb2586c65ba5674c88b17527"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a62ce7837fb2586c65ba5674c88b17527">&#9670;&nbsp;</a></span>typeMap</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">QMap&lt;QString, QString&gt; Bww::MsScWriter::typeMap</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Map bww note types to MusicXML. </p>
+
+</div>
+</div>
+<a id="a6702ee0b5e587107a65726732283cc8e"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a6702ee0b5e587107a65726732283cc8e">&#9670;&nbsp;</a></span>WHOLE_DUR</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">const int Bww::MsScWriter::WHOLE_DUR = 64</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Whole note duration. </p>
 
 </div>
 </div>

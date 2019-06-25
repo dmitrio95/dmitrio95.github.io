@@ -23,9 +23,9 @@
   <td id="projectlogo"><img alt="Logo" src="musescore_logo_full.png"/></td>
   <td id="projectalign" style="padding-left: 0.5em;">
    <div id="projectname">MuseScore
-   &#160;<span id="projectnumber">3.1</span>
+   &#160;<span id="projectnumber">3.2</span>
    </div>
-   <div id="projectbrief">Music compisition and notation</div>
+   <div id="projectbrief">Music composition and notation</div>
   </td>
  </tr>
  </tbody>
@@ -68,6 +68,8 @@ $(function() {
   <div class="summary">
 <a href="#pub-methods">Public Member Functions</a> &#124;
 <a href="#pub-static-methods">Static Public Member Functions</a> &#124;
+<a href="#pri-methods">Private Member Functions</a> &#124;
+<a href="#pri-attribs">Private Attributes</a> &#124;
 <a href="class_ms_1_1_m_score_text_to_m_x_m_l-members.html">List of all members</a>  </div>
   <div class="headertitle">
 <div class="title">Ms::MScoreTextToMXML Class Reference</div>  </div>
@@ -75,6 +77,14 @@ $(function() {
 <div class="contents">
 
 <p><code>#include &lt;<a class="el" href="musicxmlfonthandler_8h_source.html">musicxmlfonthandler.h</a>&gt;</code></p>
+<div class="dynheader">
+Collaboration diagram for Ms::MScoreTextToMXML:</div>
+<div class="dyncontent">
+<div class="center"><img src="class_ms_1_1_m_score_text_to_m_x_m_l__coll__graph.png" border="0" usemap="#_ms_1_1_m_score_text_to_m_x_m_l_coll__map" alt="Collaboration graph"/></div>
+<map name="_ms_1_1_m_score_text_to_m_x_m_l_coll__map" id="_ms_1_1_m_score_text_to_m_x_m_l_coll__map">
+<area shape="rect" id="node2" href="class_ms_1_1_char_format.html" title="Ms::CharFormat" alt="" coords="33,5,150,32"/>
+</map>
+<center><span class="legend">[<a href="graph_legend.html">legend</a>]</span></center></div>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
@@ -92,6 +102,24 @@ Static Public Member Functions</h2></td></tr>
 <tr class="memitem:aff039b5b1f23a9875231705efb2a69de"><td class="memItemLeft" align="right" valign="top">static bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ms_1_1_m_score_text_to_m_x_m_l.html#aff039b5b1f23a9875231705efb2a69de">split</a> (const QList&lt; <a class="el" href="class_ms_1_1_text_fragment.html">TextFragment</a> &gt; &amp;in, const int pos, const int len, QList&lt; <a class="el" href="class_ms_1_1_text_fragment.html">TextFragment</a> &gt; &amp;left, QList&lt; <a class="el" href="class_ms_1_1_text_fragment.html">TextFragment</a> &gt; &amp;mid, QList&lt; <a class="el" href="class_ms_1_1_text_fragment.html">TextFragment</a> &gt; &amp;right)</td></tr>
 <tr class="memdesc:aff039b5b1f23a9875231705efb2a69de"><td class="mdescLeft">&#160;</td><td class="mdescRight">Split <em>in</em> into <em>left</em>, <em>mid</em> and <em>right</em>.  <a href="#aff039b5b1f23a9875231705efb2a69de">More...</a><br /></td></tr>
 <tr class="separator:aff039b5b1f23a9875231705efb2a69de"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pri-methods"></a>
+Private Member Functions</h2></td></tr>
+<tr class="memitem:a6e1c62e823113c77652caf0cd210527c"><td class="memItemLeft" align="right" valign="top">QString&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ms_1_1_m_score_text_to_m_x_m_l.html#a6e1c62e823113c77652caf0cd210527c">updateFormat</a> ()</td></tr>
+<tr class="separator:a6e1c62e823113c77652caf0cd210527c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pri-attribs"></a>
+Private Attributes</h2></td></tr>
+<tr class="memitem:aa1b85f7669178a66225ee9cec845f029"><td class="memItemLeft" align="right" valign="top">QString&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ms_1_1_m_score_text_to_m_x_m_l.html#aa1b85f7669178a66225ee9cec845f029">attribs</a></td></tr>
+<tr class="separator:aa1b85f7669178a66225ee9cec845f029"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a6068cad984740aa8756290211c296c44"><td class="memItemLeft" align="right" valign="top">QString&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ms_1_1_m_score_text_to_m_x_m_l.html#a6068cad984740aa8756290211c296c44">tagname</a></td></tr>
+<tr class="separator:a6068cad984740aa8756290211c296c44"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a7f370d671f68c26628c9f820aee2b2dc"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_ms_1_1_char_format.html">CharFormat</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ms_1_1_m_score_text_to_m_x_m_l.html#a7f370d671f68c26628c9f820aee2b2dc">oldFormat</a></td></tr>
+<tr class="separator:a7f370d671f68c26628c9f820aee2b2dc"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a826b2a2383672bac1b6f3f96d40eae26"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_ms_1_1_char_format.html">CharFormat</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ms_1_1_m_score_text_to_m_x_m_l.html#a826b2a2383672bac1b6f3f96d40eae26">newFormat</a></td></tr>
+<tr class="separator:a826b2a2383672bac1b6f3f96d40eae26"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:afdba2bbe1246bd5e43d781c2854caf96"><td class="memItemLeft" align="right" valign="top">QString&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ms_1_1_m_score_text_to_m_x_m_l.html#afdba2bbe1246bd5e43d781c2854caf96">musicalTextFont</a></td></tr>
+<tr class="separator:afdba2bbe1246bd5e43d781c2854caf96"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
 <a id="a7de9057da0a3ef84a0191b25aec05f43"></a>
@@ -250,6 +278,31 @@ Static Public Member Functions</h2></td></tr>
 
 </div>
 </div>
+<a id="a6e1c62e823113c77652caf0cd210527c"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a6e1c62e823113c77652caf0cd210527c">&#9670;&nbsp;</a></span>updateFormat()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">QString Ms::MScoreTextToMXML::updateFormat </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
 <a id="a0ab758520878f47131756443a946216a"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a0ab758520878f47131756443a946216a">&#9670;&nbsp;</a></span>writeTextFragments()</h2>
 
@@ -274,6 +327,117 @@ Static Public Member Functions</h2></td></tr>
           <td></td><td></td>
         </tr>
       </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<h2 class="groupheader">Member Data Documentation</h2>
+<a id="aa1b85f7669178a66225ee9cec845f029"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aa1b85f7669178a66225ee9cec845f029">&#9670;&nbsp;</a></span>attribs</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">QString Ms::MScoreTextToMXML::attribs</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="afdba2bbe1246bd5e43d781c2854caf96"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#afdba2bbe1246bd5e43d781c2854caf96">&#9670;&nbsp;</a></span>musicalTextFont</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">QString Ms::MScoreTextToMXML::musicalTextFont</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a826b2a2383672bac1b6f3f96d40eae26"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a826b2a2383672bac1b6f3f96d40eae26">&#9670;&nbsp;</a></span>newFormat</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="class_ms_1_1_char_format.html">CharFormat</a> Ms::MScoreTextToMXML::newFormat</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a7f370d671f68c26628c9f820aee2b2dc"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a7f370d671f68c26628c9f820aee2b2dc">&#9670;&nbsp;</a></span>oldFormat</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="class_ms_1_1_char_format.html">CharFormat</a> Ms::MScoreTextToMXML::oldFormat</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a6068cad984740aa8756290211c296c44"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a6068cad984740aa8756290211c296c44">&#9670;&nbsp;</a></span>tagname</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">QString Ms::MScoreTextToMXML::tagname</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
 </div><div class="memdoc">
 
 </div>

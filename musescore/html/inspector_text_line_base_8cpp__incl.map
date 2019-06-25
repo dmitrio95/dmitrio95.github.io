@@ -1,17 +1,17 @@
 <map id="mscore/inspector/inspectorTextLineBase.cpp" name="mscore/inspector/inspectorTextLineBase.cpp">
-<area shape="rect" id="node2" href="$inspector_8h.html" title="inspector.h" alt="" coords="3186,95,3273,121"/>
-<area shape="rect" id="node42" href="$inspector_text_line_base_8h.html" title="inspectorTextLineBase.h" alt="" coords="418,95,585,121"/>
-<area shape="rect" id="node45" href="$textlinebase_8h.html" title="libmscore/textlinebase.h" alt="" coords="5,169,168,196"/>
-<area shape="rect" id="node50" href="$icons_8h.html" title="icons.h" alt="" coords="3297,95,3361,121"/>
-<area shape="rect" id="node3" href="$inspector_base_8h.html" title="inspectorBase.h" alt="" coords="2279,319,2395,345"/>
-<area shape="rect" id="node9" href="$inspector_element_base_8h.html" title="inspectorElementBase.h" alt="" coords="2255,244,2419,271"/>
-<area shape="rect" id="node11" href="$inspector_text_base_8h.html" title="inspectorTextBase.h" alt="" coords="4071,169,4214,196"/>
-<area shape="rect" id="node4" href="$property_8h.html" title="libmscore/property.h" alt="" coords="1313,393,1453,420"/>
-<area shape="rect" id="node5" href="$style_8h.html" title="libmscore/style.h" alt="" coords="207,393,329,420"/>
-<area shape="rect" id="node6" href="$chordlist_8h.html" title="chordlist.h" alt="" coords="207,468,289,495"/>
-<area shape="rect" id="node7" href="$types_8h.html" title="types.h" alt="" coords="314,468,379,495"/>
-<area shape="rect" id="node46" href="$line_8h.html" title="line.h" alt="" coords="60,244,113,271"/>
-<area shape="rect" id="node47" href="$spanner_8h.html" title="spanner.h" alt="" coords="35,319,114,345"/>
-<area shape="rect" id="node49" href="$mscore_8h.html" title="mscore.h" alt="" coords="138,319,214,345"/>
-<area shape="rect" id="node48" href="$element_8h.html" title="element.h" alt="" coords="35,393,114,420"/>
+<area shape="rect" id="node2" href="$inspector_8h.html" title="inspector.h" alt="" coords="3295,95,3381,121"/>
+<area shape="rect" id="node42" href="$inspector_text_line_base_8h.html" title="inspectorTextLineBase.h" alt="" coords="349,95,516,121"/>
+<area shape="rect" id="node45" href="$textlinebase_8h.html" title="libmscore/textlinebase.h" alt="" coords="14,169,177,196"/>
+<area shape="rect" id="node50" href="$icons_8h.html" title="icons.h" alt="" coords="3406,95,3470,121"/>
+<area shape="rect" id="node3" href="$inspector_base_8h.html" title="inspectorBase.h" alt="" coords="3543,319,3659,345"/>
+<area shape="rect" id="node8" href="$inspector_element_base_8h.html" title="inspectorElementBase.h" alt="" coords="3519,244,3683,271"/>
+<area shape="rect" id="node10" href="$inspector_text_base_8h.html" title="inspectorTextBase.h" alt="" coords="4275,169,4417,196"/>
+<area shape="rect" id="node4" href="$property_8h.html" title="libmscore/property.h" alt="" coords="1580,393,1720,420"/>
+<area shape="rect" id="node5" href="$style_8h.html" title="libmscore/style.h" alt="" coords="161,393,283,420"/>
+<area shape="rect" id="node6" href="$chordlist_8h.html" title="chordlist.h" alt="" coords="131,468,214,495"/>
+<area shape="rect" id="node7" href="$types_8h.html" title="types.h" alt="" coords="239,468,304,495"/>
+<area shape="rect" id="node46" href="$line_8h.html" title="line.h" alt="" coords="69,244,122,271"/>
+<area shape="rect" id="node47" href="$spanner_8h.html" title="spanner.h" alt="" coords="5,319,84,345"/>
+<area shape="rect" id="node49" href="$mscore_8h.html" title="mscore.h" alt="" coords="108,319,184,345"/>
+<area shape="rect" id="node48" href="$element_8h.html" title="element.h" alt="" coords="5,393,84,420"/>
 </map>

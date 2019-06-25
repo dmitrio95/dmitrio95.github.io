@@ -23,9 +23,9 @@
   <td id="projectlogo"><img alt="Logo" src="musescore_logo_full.png"/></td>
   <td id="projectalign" style="padding-left: 0.5em;">
    <div id="projectname">MuseScore
-   &#160;<span id="projectnumber">3.1</span>
+   &#160;<span id="projectnumber">3.2</span>
    </div>
-   <div id="projectbrief">Music compisition and notation</div>
+   <div id="projectbrief">Music composition and notation</div>
   </td>
  </tr>
  </tbody>
@@ -67,6 +67,9 @@ $(function() {
 <div class="header">
   <div class="summary">
 <a href="#pub-methods">Public Member Functions</a> &#124;
+<a href="#pri-slots">Private Slots</a> &#124;
+<a href="#pri-methods">Private Member Functions</a> &#124;
+<a href="#pri-attribs">Private Attributes</a> &#124;
 <a href="class_ms_1_1_measure_properties-members.html">List of all members</a>  </div>
   <div class="headertitle">
 <div class="title">Ms::MeasureProperties Class Reference</div>  </div>
@@ -86,6 +89,43 @@ Collaboration diagram for Ms::MeasureProperties:</div>
 <div class="dyncontent">
 <div class="center"><img src="class_ms_1_1_measure_properties__coll__graph.png" border="0" usemap="#_ms_1_1_measure_properties_coll__map" alt="Collaboration graph"/></div>
 <map name="_ms_1_1_measure_properties_coll__map" id="_ms_1_1_measure_properties_coll__map">
+<area shape="rect" id="node4" href="class_ms_1_1_measure.html" title="one measure in a system " alt="" coords="2603,95,2702,121"/>
+<area shape="rect" id="node5" href="class_ms_1_1_measure_base.html" title="Virtual base class for Measure, HBox and VBox. " alt="" coords="563,207,691,233"/>
+<area shape="rect" id="node29" href="class_ms_1_1_measure_base_list.html" title="Ms::MeasureBaseList" alt="" coords="897,348,1047,375"/>
+<area shape="rect" id="node6" href="class_ms_1_1_element.html" title="Base class of score layout elements. " alt="" coords="1821,287,1917,313"/>
+<area shape="rect" id="node31" href="class_ms_1_1_segment.html" title="Ms::Segment" alt="" coords="2064,361,2164,388"/>
+<area shape="rect" id="node36" href="class_ms_1_1_spanner.html" title="Virtual base class for slurs, ties, lines etc. " alt="" coords="2066,257,2162,284"/>
+<area shape="rect" id="node7" href="class_ms_1_1_score_element.html" title="Ms::ScoreElement" alt="" coords="1544,297,1675,324"/>
+<area shape="rect" id="node8" href="class_ms_1_1_score.html" title="Ms::Score" alt="" coords="1271,617,1354,644"/>
+<area shape="rect" id="node10" href="class_ms_1_1_excerpt.html" title="Ms::Excerpt" alt="" coords="2067,728,2161,755"/>
+<area shape="rect" id="node11" href="class_ms_1_1_master_score.html" title="Ms::MasterScore" alt="" coords="1808,917,1931,944"/>
+<area shape="rect" id="node15" href="class_ms_1_1_repeat_list.html" title="Ms::RepeatList" alt="" coords="1554,704,1665,731"/>
+<area shape="rect" id="node30" href="class_ms_1_1_input_state.html" title="Ms::InputState" alt="" coords="2874,304,2982,331"/>
+<area shape="rect" id="node39" href="class_ms_1_1_selection.html" title="Ms::Selection" alt="" coords="2316,779,2419,805"/>
+<area shape="rect" id="node44" href="class_ms_1_1_selection_filter.html" title="Ms::SelectionFilter" alt="" coords="1544,603,1675,629"/>
+<area shape="rect" id="node12" href="class_ms_1_1_omr.html" title="Ms::Omr" alt="" coords="1573,981,1646,1008"/>
+<area shape="rect" id="node13" href="class_ms_1_1_cmd_state.html" title="Ms::CmdState" alt="" coords="748,987,855,1013"/>
+<area shape="rect" id="node14" href="class_ms_1_1_fraction.html" title="Ms::Fraction" alt="" coords="275,399,369,425"/>
+<area shape="rect" id="node17" href="class_ms_1_1_revisions.html" title="Ms::Revisions" alt="" coords="1556,1083,1663,1109"/>
+<area shape="rect" id="node18" href="class_ms_1_1_revision.html" title="Ms::Revision" alt="" coords="1263,1075,1362,1101"/>
+<area shape="rect" id="node19" href="class_ms_1_1_tempo_map.html" title="Ms::TempoMap" alt="" coords="1553,1133,1666,1160"/>
+<area shape="rect" id="node21" href="class_ms_1_1_movements.html" title="Ms::Movements" alt="" coords="1255,1239,1371,1265"/>
+<area shape="rect" id="node23" href="class_ms_1_1_text.html" title="Ms::Text" alt="" coords="935,1256,1009,1283"/>
+<area shape="rect" id="node24" href="class_ms_1_1_m_style.html" title="Ms::MStyle" alt="" coords="927,1155,1017,1181"/>
+<area shape="rect" id="node25" href="class_ms_1_1_chord_list.html" title="Ms::ChordList" alt="" coords="575,1399,679,1425"/>
+<area shape="rect" id="node27" href="class_ms_1_1_time_sig_map.html" title="Ms::TimeSigMap" alt="" coords="1549,931,1670,957"/>
+<area shape="rect" id="node50" href="class_ms_1_1_segment_list.html" title="Ms::SegmentList" alt="" coords="2307,309,2428,336"/>
+<area shape="rect" id="node32" href="class_ms_1_1_spatium.html" title="Ms::Spatium" alt="" coords="1561,348,1657,375"/>
+<area shape="rect" id="node33" href="class_ms_1_1_t_duration.html" title="Ms::TDuration" alt="" coords="2600,253,2705,280"/>
+<area shape="rect" id="node34" href="class_ms_1_1_slur.html" title="Ms::Slur" alt="" coords="2617,304,2688,331"/>
+<area shape="rect" id="node35" href="class_ms_1_1_slur_tie.html" title="Ms::SlurTie" alt="" coords="2323,259,2412,285"/>
+<area shape="rect" id="node37" href="class_ms_1_1_synthesizer_state.html" title="Ms::SynthesizerState" alt="" coords="898,577,1046,604"/>
+<area shape="rect" id="node40" href="class_ms_1_1_spanner_map.html" title="Ms::SpannerMap" alt="" coords="911,729,1033,756"/>
+<area shape="rect" id="node42" href="class_ms_1_1_update_state.html" title="Ms::UpdateState" alt="" coords="911,628,1033,655"/>
+<area shape="rect" id="node43" href="class_ms_1_1_audio.html" title="Ms::Audio" alt="" coords="931,679,1013,705"/>
+<area shape="rect" id="node45" href="class_ms_1_1_score_font.html" title="Ms::ScoreFont" alt="" coords="918,476,1026,503"/>
+<area shape="rect" id="node46" href="class_ms_1_1_linked_elements.html" title="Ms::LinkedElements" alt="" coords="1242,297,1383,324"/>
+<area shape="rect" id="node48" href="class_ms_1_1_element_list.html" title="Ms::ElementList" alt="" coords="263,60,381,87"/>
 </map>
 <center><span class="legend">[<a href="graph_legend.html">legend</a>]</span></center></div>
 <table class="memberdecls">
@@ -93,6 +133,39 @@ Collaboration diagram for Ms::MeasureProperties:</div>
 Public Member Functions</h2></td></tr>
 <tr class="memitem:a9f6f42e927e53b921474c1e50b4e3b4c"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ms_1_1_measure_properties.html#a9f6f42e927e53b921474c1e50b4e3b4c">MeasureProperties</a> (<a class="el" href="class_ms_1_1_measure.html">Measure</a> *, QWidget *parent=0)</td></tr>
 <tr class="separator:a9f6f42e927e53b921474c1e50b4e3b4c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pri-slots"></a>
+Private Slots</h2></td></tr>
+<tr class="memitem:a85881962a3dbe71f7771981a7205ade5"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ms_1_1_measure_properties.html#a85881962a3dbe71f7771981a7205ade5">bboxClicked</a> (QAbstractButton *button)</td></tr>
+<tr class="separator:a85881962a3dbe71f7771981a7205ade5"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a4ac5f5e0c2f7adb3b90da2cbfe3e733b"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ms_1_1_measure_properties.html#a4ac5f5e0c2f7adb3b90da2cbfe3e733b">gotoNextMeasure</a> ()</td></tr>
+<tr class="separator:a4ac5f5e0c2f7adb3b90da2cbfe3e733b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae095e51e4087fb766cb85d3a71729edc"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ms_1_1_measure_properties.html#ae095e51e4087fb766cb85d3a71729edc">gotoPreviousMeasure</a> ()</td></tr>
+<tr class="separator:ae095e51e4087fb766cb85d3a71729edc"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pri-methods"></a>
+Private Member Functions</h2></td></tr>
+<tr class="memitem:a91e746debc00cf9f0ab6deb546286e47"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ms_1_1_measure_properties.html#a91e746debc00cf9f0ab6deb546286e47">apply</a> ()</td></tr>
+<tr class="separator:a91e746debc00cf9f0ab6deb546286e47"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a28f9493063beb0dd9b278b93e01a979e"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_ms_1_1_fraction.html">Fraction</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ms_1_1_measure_properties.html#a28f9493063beb0dd9b278b93e01a979e">len</a> () const</td></tr>
+<tr class="separator:a28f9493063beb0dd9b278b93e01a979e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aec532d4a08c8feed5d87fac04da95afc"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ms_1_1_measure_properties.html#aec532d4a08c8feed5d87fac04da95afc">isIrregular</a> () const</td></tr>
+<tr class="separator:aec532d4a08c8feed5d87fac04da95afc"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a55393dfbbf22f8f27ed112c9d2370378"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ms_1_1_measure_properties.html#a55393dfbbf22f8f27ed112c9d2370378">repeatCount</a> () const</td></tr>
+<tr class="separator:a55393dfbbf22f8f27ed112c9d2370378"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9df521408f301fa186765b0e34f9356b"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ms_1_1_measure_properties.html#a9df521408f301fa186765b0e34f9356b">visible</a> (int staffIdx)</td></tr>
+<tr class="separator:a9df521408f301fa186765b0e34f9356b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aaf46aacd9a4eec8eb0deb5be4837be2c"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ms_1_1_measure_properties.html#aaf46aacd9a4eec8eb0deb5be4837be2c">slashStyle</a> (int staffIdx)</td></tr>
+<tr class="separator:aaf46aacd9a4eec8eb0deb5be4837be2c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a17e2603dc313e64e2c17baa9cee6c54d"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ms_1_1_measure_properties.html#a17e2603dc313e64e2c17baa9cee6c54d">setMeasure</a> (<a class="el" href="class_ms_1_1_measure.html">Measure</a> *_m)</td></tr>
+<tr class="separator:a17e2603dc313e64e2c17baa9cee6c54d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a7e5277a0e4549bcd5038d311b48c36f1"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ms_1_1_measure_properties.html#a7e5277a0e4549bcd5038d311b48c36f1">hideEvent</a> (QHideEvent *)</td></tr>
+<tr class="separator:a7e5277a0e4549bcd5038d311b48c36f1"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pri-attribs"></a>
+Private Attributes</h2></td></tr>
+<tr class="memitem:ab55810e3800bf25d9d7fe151cc5a9fd8"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_ms_1_1_measure.html">Measure</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ms_1_1_measure_properties.html#ab55810e3800bf25d9d7fe151cc5a9fd8">m</a></td></tr>
+<tr class="separator:ab55810e3800bf25d9d7fe151cc5a9fd8"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
 <a id="a9f6f42e927e53b921474c1e50b4e3b4c"></a>
@@ -119,6 +192,310 @@ Public Member Functions</h2></td></tr>
           <td></td><td></td>
         </tr>
       </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<h2 class="groupheader">Member Function Documentation</h2>
+<a id="a91e746debc00cf9f0ab6deb546286e47"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a91e746debc00cf9f0ab6deb546286e47">&#9670;&nbsp;</a></span>apply()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void Ms::MeasureProperties::apply </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a85881962a3dbe71f7771981a7205ade5"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a85881962a3dbe71f7771981a7205ade5">&#9670;&nbsp;</a></span>bboxClicked</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void Ms::MeasureProperties::bboxClicked </td>
+          <td>(</td>
+          <td class="paramtype">QAbstractButton *&#160;</td>
+          <td class="paramname"><em>button</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span><span class="mlabel">slot</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a4ac5f5e0c2f7adb3b90da2cbfe3e733b"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a4ac5f5e0c2f7adb3b90da2cbfe3e733b">&#9670;&nbsp;</a></span>gotoNextMeasure</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void Ms::MeasureProperties::gotoNextMeasure </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span><span class="mlabel">slot</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="ae095e51e4087fb766cb85d3a71729edc"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ae095e51e4087fb766cb85d3a71729edc">&#9670;&nbsp;</a></span>gotoPreviousMeasure</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void Ms::MeasureProperties::gotoPreviousMeasure </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span><span class="mlabel">slot</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a7e5277a0e4549bcd5038d311b48c36f1"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a7e5277a0e4549bcd5038d311b48c36f1">&#9670;&nbsp;</a></span>hideEvent()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void Ms::MeasureProperties::hideEvent </td>
+          <td>(</td>
+          <td class="paramtype">QHideEvent *&#160;</td>
+          <td class="paramname"><em>event</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span><span class="mlabel">virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="aec532d4a08c8feed5d87fac04da95afc"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aec532d4a08c8feed5d87fac04da95afc">&#9670;&nbsp;</a></span>isIrregular()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool Ms::MeasureProperties::isIrregular </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a28f9493063beb0dd9b278b93e01a979e"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a28f9493063beb0dd9b278b93e01a979e">&#9670;&nbsp;</a></span>len()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="class_ms_1_1_fraction.html">Fraction</a> Ms::MeasureProperties::len </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a55393dfbbf22f8f27ed112c9d2370378"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a55393dfbbf22f8f27ed112c9d2370378">&#9670;&nbsp;</a></span>repeatCount()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">int Ms::MeasureProperties::repeatCount </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a17e2603dc313e64e2c17baa9cee6c54d"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a17e2603dc313e64e2c17baa9cee6c54d">&#9670;&nbsp;</a></span>setMeasure()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void Ms::MeasureProperties::setMeasure </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="class_ms_1_1_measure.html">Measure</a> *&#160;</td>
+          <td class="paramname"><em>_m</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="aaf46aacd9a4eec8eb0deb5be4837be2c"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aaf46aacd9a4eec8eb0deb5be4837be2c">&#9670;&nbsp;</a></span>slashStyle()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool Ms::MeasureProperties::slashStyle </td>
+          <td>(</td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>staffIdx</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a9df521408f301fa186765b0e34f9356b"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a9df521408f301fa186765b0e34f9356b">&#9670;&nbsp;</a></span>visible()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool Ms::MeasureProperties::visible </td>
+          <td>(</td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>staffIdx</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<h2 class="groupheader">Member Data Documentation</h2>
+<a id="ab55810e3800bf25d9d7fe151cc5a9fd8"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ab55810e3800bf25d9d7fe151cc5a9fd8">&#9670;&nbsp;</a></span>m</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="class_ms_1_1_measure.html">Measure</a>* Ms::MeasureProperties::m</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
 </div><div class="memdoc">
 
 </div>

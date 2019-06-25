@@ -23,9 +23,9 @@
   <td id="projectlogo"><img alt="Logo" src="musescore_logo_full.png"/></td>
   <td id="projectalign" style="padding-left: 0.5em;">
    <div id="projectname">MuseScore
-   &#160;<span id="projectnumber">3.1</span>
+   &#160;<span id="projectnumber">3.2</span>
    </div>
-   <div id="projectbrief">Music compisition and notation</div>
+   <div id="projectbrief">Music composition and notation</div>
   </td>
  </tr>
  </tbody>
@@ -67,11 +67,55 @@ $(function() {
 <div class="header">
   <div class="summary">
 <a href="#pub-methods">Public Member Functions</a> &#124;
+<a href="#pri-attribs">Private Attributes</a> &#124;
 <a href="class_ms_1_1_directions_anchor-members.html">List of all members</a>  </div>
   <div class="headertitle">
 <div class="title">Ms::DirectionsAnchor Class Reference</div>  </div>
 </div><!--header-->
 <div class="contents">
+<div class="dynheader">
+Collaboration diagram for Ms::DirectionsAnchor:</div>
+<div class="dyncontent">
+<div class="center"><img src="class_ms_1_1_directions_anchor__coll__graph.png" border="0" usemap="#_ms_1_1_directions_anchor_coll__map" alt="Collaboration graph"/></div>
+<map name="_ms_1_1_directions_anchor_coll__map" id="_ms_1_1_directions_anchor_coll__map">
+<area shape="rect" id="node2" href="class_ms_1_1_fraction.html" title="Ms::Fraction" alt="" coords="600,308,695,335"/>
+<area shape="rect" id="node5" href="class_ms_1_1_score.html" title="Ms::Score" alt="" coords="935,877,1018,904"/>
+<area shape="rect" id="node10" href="class_ms_1_1_cmd_state.html" title="Ms::CmdState" alt="" coords="1091,241,1197,268"/>
+<area shape="rect" id="node28" href="class_ms_1_1_measure_base.html" title="Virtual base class for Measure, HBox and VBox. " alt="" coords="1790,749,1918,776"/>
+<area shape="rect" id="node32" href="class_ms_1_1_segment.html" title="Ms::Segment" alt="" coords="1804,356,1904,383"/>
+<area shape="rect" id="node36" href="class_ms_1_1_spanner.html" title="Virtual base class for slurs, ties, lines etc. " alt="" coords="1806,472,1902,499"/>
+<area shape="rect" id="node39" href="class_ms_1_1_selection.html" title="Ms::Selection" alt="" coords="2113,556,2215,583"/>
+<area shape="rect" id="node3" href="class_ms_1_1_element.html" title="Base class of score layout elements. " alt="" coords="1537,497,1633,524"/>
+<area shape="rect" id="node20" href="class_ms_1_1_text_base.html" title="Ms::TextBase" alt="" coords="1802,544,1906,571"/>
+<area shape="rect" id="node4" href="class_ms_1_1_score_element.html" title="Ms::ScoreElement" alt="" coords="1239,559,1369,585"/>
+<area shape="rect" id="node7" href="class_ms_1_1_excerpt.html" title="Ms::Excerpt" alt="" coords="2861,527,2955,553"/>
+<area shape="rect" id="node8" href="class_ms_1_1_master_score.html" title="Ms::MasterScore" alt="" coords="2640,1217,2763,1244"/>
+<area shape="rect" id="node11" href="class_ms_1_1_repeat_list.html" title="Ms::RepeatList" alt="" coords="1249,1217,1359,1244"/>
+<area shape="rect" id="node31" href="class_ms_1_1_input_state.html" title="Ms::InputState" alt="" coords="2647,388,2755,415"/>
+<area shape="rect" id="node44" href="class_ms_1_1_selection_filter.html" title="Ms::SelectionFilter" alt="" coords="1239,953,1369,980"/>
+<area shape="rect" id="node9" href="class_ms_1_1_omr.html" title="Ms::Omr" alt="" coords="2415,1371,2488,1397"/>
+<area shape="rect" id="node13" href="class_ms_1_1_revisions.html" title="Ms::Revisions" alt="" coords="2398,1320,2505,1347"/>
+<area shape="rect" id="node14" href="class_ms_1_1_revision.html" title="Ms::Revision" alt="" coords="2115,1415,2213,1441"/>
+<area shape="rect" id="node15" href="class_ms_1_1_tempo_map.html" title="Ms::TempoMap" alt="" coords="2395,1432,2508,1459"/>
+<area shape="rect" id="node17" href="class_ms_1_1_movements.html" title="Ms::Movements" alt="" coords="2393,1029,2509,1056"/>
+<area shape="rect" id="node19" href="class_ms_1_1_text.html" title="Ms::Text" alt="" coords="2127,964,2201,991"/>
+<area shape="rect" id="node21" href="class_ms_1_1_spatium.html" title="Ms::Spatium" alt="" coords="1256,497,1352,524"/>
+<area shape="rect" id="node22" href="class_ms_1_1_m_style.html" title="Ms::MStyle" alt="" coords="603,1193,692,1220"/>
+<area shape="rect" id="node23" href="class_ms_1_1_chord_list.html" title="Ms::ChordList" alt="" coords="303,1193,407,1220"/>
+<area shape="rect" id="node25" href="class_ms_1_1_time_sig_map.html" title="Ms::TimeSigMap" alt="" coords="2391,1504,2512,1531"/>
+<area shape="rect" id="node27" href="class_ms_1_1_measure_base_list.html" title="Ms::MeasureBaseList" alt="" coords="2089,1065,2239,1092"/>
+<area shape="rect" id="node29" href="class_ms_1_1_element_list.html" title="Ms::ElementList" alt="" coords="1527,984,1644,1011"/>
+<area shape="rect" id="node33" href="class_ms_1_1_t_duration.html" title="Ms::TDuration" alt="" coords="2399,343,2504,369"/>
+<area shape="rect" id="node34" href="class_ms_1_1_slur.html" title="Ms::Slur" alt="" coords="2416,456,2487,483"/>
+<area shape="rect" id="node35" href="class_ms_1_1_slur_tie.html" title="Ms::SlurTie" alt="" coords="2119,464,2209,491"/>
+<area shape="rect" id="node37" href="class_ms_1_1_synthesizer_state.html" title="Ms::SynthesizerState" alt="" coords="573,877,721,904"/>
+<area shape="rect" id="node40" href="class_ms_1_1_spanner_map.html" title="Ms::SpannerMap" alt="" coords="587,928,708,955"/>
+<area shape="rect" id="node42" href="class_ms_1_1_update_state.html" title="Ms::UpdateState" alt="" coords="587,979,708,1005"/>
+<area shape="rect" id="node43" href="class_ms_1_1_audio.html" title="Ms::Audio" alt="" coords="607,776,688,803"/>
+<area shape="rect" id="node45" href="class_ms_1_1_score_font.html" title="Ms::ScoreFont" alt="" coords="593,827,701,853"/>
+<area shape="rect" id="node46" href="class_ms_1_1_linked_elements.html" title="Ms::LinkedElements" alt="" coords="906,89,1047,116"/>
+</map>
+<center><span class="legend">[<a href="graph_legend.html">legend</a>]</span></center></div>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
@@ -89,6 +133,17 @@ Public Member Functions</h2></td></tr>
 <tr class="separator:af5325238ff4ebe0ab2acc47de228c7ae"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a1a08a3a629e1bae9a10319d804304336"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ms_1_1_directions_anchor.html#a1a08a3a629e1bae9a10319d804304336">setDirect</a> (<a class="el" href="class_ms_1_1_element.html">Element</a> *d)</td></tr>
 <tr class="separator:a1a08a3a629e1bae9a10319d804304336"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pri-attribs"></a>
+Private Attributes</h2></td></tr>
+<tr class="memitem:aa046011f534595f4b9c6a36eacaf03c5"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_ms_1_1_element.html">Element</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ms_1_1_directions_anchor.html#aa046011f534595f4b9c6a36eacaf03c5">direct</a></td></tr>
+<tr class="separator:aa046011f534595f4b9c6a36eacaf03c5"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:add9dc45c66581f30b82c9a02459dcc1c"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_ms_1_1_element.html">Element</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ms_1_1_directions_anchor.html#add9dc45c66581f30b82c9a02459dcc1c">anchor</a></td></tr>
+<tr class="separator:add9dc45c66581f30b82c9a02459dcc1c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aaa6aaa2e642c9b63c0e7c3b6b793980f"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ms_1_1_directions_anchor.html#aaa6aaa2e642c9b63c0e7c3b6b793980f">start</a></td></tr>
+<tr class="separator:aaa6aaa2e642c9b63c0e7c3b6b793980f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a55c233f7bf8afbf6b4306bdba2ba4d5c"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_ms_1_1_fraction.html">Fraction</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ms_1_1_directions_anchor.html#a55c233f7bf8afbf6b4306bdba2ba4d5c">tick</a></td></tr>
+<tr class="separator:a55c233f7bf8afbf6b4306bdba2ba4d5c"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
 <a id="a7d53adf606664943af19e51b30d5811e"></a>
@@ -280,6 +335,95 @@ Public Member Functions</h2></td></tr>
   </td>
   <td class="mlabels-right">
 <span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<h2 class="groupheader">Member Data Documentation</h2>
+<a id="add9dc45c66581f30b82c9a02459dcc1c"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#add9dc45c66581f30b82c9a02459dcc1c">&#9670;&nbsp;</a></span>anchor</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="class_ms_1_1_element.html">Element</a>* Ms::DirectionsAnchor::anchor</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="aa046011f534595f4b9c6a36eacaf03c5"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aa046011f534595f4b9c6a36eacaf03c5">&#9670;&nbsp;</a></span>direct</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="class_ms_1_1_element.html">Element</a>* Ms::DirectionsAnchor::direct</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="aaa6aaa2e642c9b63c0e7c3b6b793980f"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aaa6aaa2e642c9b63c0e7c3b6b793980f">&#9670;&nbsp;</a></span>start</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool Ms::DirectionsAnchor::start</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a55c233f7bf8afbf6b4306bdba2ba4d5c"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a55c233f7bf8afbf6b4306bdba2ba4d5c">&#9670;&nbsp;</a></span>tick</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="class_ms_1_1_fraction.html">Fraction</a> Ms::DirectionsAnchor::tick</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
   </tr>
 </table>
 </div><div class="memdoc">

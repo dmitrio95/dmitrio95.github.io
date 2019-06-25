@@ -23,9 +23,9 @@
   <td id="projectlogo"><img alt="Logo" src="musescore_logo_full.png"/></td>
   <td id="projectalign" style="padding-left: 0.5em;">
    <div id="projectname">MuseScore
-   &#160;<span id="projectnumber">3.1</span>
+   &#160;<span id="projectnumber">3.2</span>
    </div>
-   <div id="projectbrief">Music compisition and notation</div>
+   <div id="projectbrief">Music composition and notation</div>
   </td>
  </tr>
  </tbody>
@@ -67,6 +67,7 @@ $(function() {
 <div class="header">
   <div class="summary">
 <a href="#pub-methods">Public Member Functions</a> &#124;
+<a href="#pri-attribs">Private Attributes</a> &#124;
 <a href="class_ms_1_1_omr_measure-members.html">List of all members</a>  </div>
   <div class="headertitle">
 <div class="title">Ms::OmrMeasure Class Reference</div>  </div>
@@ -74,6 +75,15 @@ $(function() {
 <div class="contents">
 
 <p><code>#include &lt;<a class="el" href="omrpage_8h_source.html">omrpage.h</a>&gt;</code></p>
+<div class="dynheader">
+Collaboration diagram for Ms::OmrMeasure:</div>
+<div class="dyncontent">
+<div class="center"><img src="class_ms_1_1_omr_measure__coll__graph.png" border="0" usemap="#_ms_1_1_omr_measure_coll__map" alt="Collaboration graph"/></div>
+<map name="_ms_1_1_omr_measure_coll__map" id="_ms_1_1_omr_measure_coll__map">
+<area shape="rect" id="node2" href="class_ms_1_1_omr_timesig.html" title="Ms::OmrTimesig" alt="" coords="27,95,145,121"/>
+<area shape="rect" id="node4" href="class_ms_1_1_fraction.html" title="Ms::Fraction" alt="" coords="89,5,184,32"/>
+</map>
+<center><span class="legend">[<a href="graph_legend.html">legend</a>]</span></center></div>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
@@ -93,6 +103,17 @@ Public Member Functions</h2></td></tr>
 <tr class="separator:a91d93ec60836f5ce4b1e3bfd919d1c03"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:adb87f6e0f735bbb98bb9e1a903f9a668"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ms_1_1_omr_measure.html#adb87f6e0f735bbb98bb9e1a903f9a668">setTimesig</a> (<a class="el" href="class_ms_1_1_omr_timesig.html">OmrTimesig</a> *ts)</td></tr>
 <tr class="separator:adb87f6e0f735bbb98bb9e1a903f9a668"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pri-attribs"></a>
+Private Attributes</h2></td></tr>
+<tr class="memitem:a2a9cc5aa745d3403841ae6a2d94eb874"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ms_1_1_omr_measure.html#a2a9cc5aa745d3403841ae6a2d94eb874">_x1</a></td></tr>
+<tr class="separator:a2a9cc5aa745d3403841ae6a2d94eb874"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:acb52f0a75e1e31e25c28ff60c2b01af5"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ms_1_1_omr_measure.html#acb52f0a75e1e31e25c28ff60c2b01af5">_x2</a></td></tr>
+<tr class="separator:acb52f0a75e1e31e25c28ff60c2b01af5"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a7881f1dc7770cabd3a63d7f2cacd90f0"><td class="memItemLeft" align="right" valign="top">QList&lt; QList&lt; <a class="el" href="class_ms_1_1_omr_chord.html">OmrChord</a> &gt; &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ms_1_1_omr_measure.html#a7881f1dc7770cabd3a63d7f2cacd90f0">_chords</a></td></tr>
+<tr class="separator:a7881f1dc7770cabd3a63d7f2cacd90f0"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a499d516183267d09a69930b40b9e6687"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_ms_1_1_omr_timesig.html">OmrTimesig</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ms_1_1_omr_measure.html#a499d516183267d09a69930b40b9e6687">_timesig</a> = 0</td></tr>
+<tr class="separator:a499d516183267d09a69930b40b9e6687"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
 <a id="a4030466b91a77a4881c031716b749258"></a>
@@ -302,6 +323,95 @@ Public Member Functions</h2></td></tr>
   </td>
   <td class="mlabels-right">
 <span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<h2 class="groupheader">Member Data Documentation</h2>
+<a id="a7881f1dc7770cabd3a63d7f2cacd90f0"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a7881f1dc7770cabd3a63d7f2cacd90f0">&#9670;&nbsp;</a></span>_chords</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">QList&lt;QList&lt;<a class="el" href="class_ms_1_1_omr_chord.html">OmrChord</a>&gt; &gt; Ms::OmrMeasure::_chords</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a499d516183267d09a69930b40b9e6687"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a499d516183267d09a69930b40b9e6687">&#9670;&nbsp;</a></span>_timesig</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="class_ms_1_1_omr_timesig.html">OmrTimesig</a>* Ms::OmrMeasure::_timesig = 0</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a2a9cc5aa745d3403841ae6a2d94eb874"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a2a9cc5aa745d3403841ae6a2d94eb874">&#9670;&nbsp;</a></span>_x1</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">int Ms::OmrMeasure::_x1</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="acb52f0a75e1e31e25c28ff60c2b01af5"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#acb52f0a75e1e31e25c28ff60c2b01af5">&#9670;&nbsp;</a></span>_x2</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">int Ms::OmrMeasure::_x2</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
   </tr>
 </table>
 </div><div class="memdoc">

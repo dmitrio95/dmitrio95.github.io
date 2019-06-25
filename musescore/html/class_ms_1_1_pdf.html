@@ -23,9 +23,9 @@
   <td id="projectlogo"><img alt="Logo" src="musescore_logo_full.png"/></td>
   <td id="projectalign" style="padding-left: 0.5em;">
    <div id="projectname">MuseScore
-   &#160;<span id="projectnumber">3.1</span>
+   &#160;<span id="projectnumber">3.2</span>
    </div>
-   <div id="projectbrief">Music compisition and notation</div>
+   <div id="projectbrief">Music composition and notation</div>
   </td>
  </tr>
  </tbody>
@@ -67,6 +67,8 @@ $(function() {
 <div class="header">
   <div class="summary">
 <a href="#pub-methods">Public Member Functions</a> &#124;
+<a href="#pri-attribs">Private Attributes</a> &#124;
+<a href="#pri-static-attribs">Static Private Attributes</a> &#124;
 <a href="class_ms_1_1_pdf-members.html">List of all members</a>  </div>
   <div class="headertitle">
 <div class="title">Ms::Pdf Class Reference</div>  </div>
@@ -89,6 +91,20 @@ Public Member Functions</h2></td></tr>
 <tr class="separator:ab85f6ebfeccb468ef87a51b48f7f5e46"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:add0d407471fd8f83d15a3083ddef92f9"><td class="memItemLeft" align="right" valign="top">QImage&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ms_1_1_pdf.html#add0d407471fd8f83d15a3083ddef92f9">binarization</a> (QImage image)</td></tr>
 <tr class="separator:add0d407471fd8f83d15a3083ddef92f9"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pri-attribs"></a>
+Private Attributes</h2></td></tr>
+<tr class="memitem:aa6d83ab2f157513b9a4ac41e684c9cc5"><td class="memItemLeft" align="right" valign="top">PDFDoc *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ms_1_1_pdf.html#aa6d83ab2f157513b9a4ac41e684c9cc5">_doc</a></td></tr>
+<tr class="separator:aa6d83ab2f157513b9a4ac41e684c9cc5"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a415f245d2e9c5833090cb90284da89c8"><td class="memItemLeft" align="right" valign="top">QImageOutputDev *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ms_1_1_pdf.html#a415f245d2e9c5833090cb90284da89c8">imgOut</a></td></tr>
+<tr class="separator:a415f245d2e9c5833090cb90284da89c8"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aae34ccc5344434980d9ead7fdda904c7"><td class="memItemLeft" align="right" valign="top">Poppler::Document *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ms_1_1_pdf.html#aae34ccc5344434980d9ead7fdda904c7">_document</a></td></tr>
+<tr class="separator:aae34ccc5344434980d9ead7fdda904c7"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pri-static-attribs"></a>
+Static Private Attributes</h2></td></tr>
+<tr class="memitem:aeabe6ddc628d189812f5d83881878e0e"><td class="memItemLeft" align="right" valign="top">static int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ms_1_1_pdf.html#aeabe6ddc628d189812f5d83881878e0e">references</a></td></tr>
+<tr class="separator:aeabe6ddc628d189812f5d83881878e0e"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
 <a id="ac3ea72054e27803b5a644e4621fd8a31"></a>
@@ -193,6 +209,95 @@ Public Member Functions</h2></td></tr>
           <td></td>
         </tr>
       </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<h2 class="groupheader">Member Data Documentation</h2>
+<a id="aa6d83ab2f157513b9a4ac41e684c9cc5"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aa6d83ab2f157513b9a4ac41e684c9cc5">&#9670;&nbsp;</a></span>_doc</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">PDFDoc* Ms::Pdf::_doc</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="aae34ccc5344434980d9ead7fdda904c7"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aae34ccc5344434980d9ead7fdda904c7">&#9670;&nbsp;</a></span>_document</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">Poppler::Document* Ms::Pdf::_document</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a415f245d2e9c5833090cb90284da89c8"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a415f245d2e9c5833090cb90284da89c8">&#9670;&nbsp;</a></span>imgOut</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">QImageOutputDev* Ms::Pdf::imgOut</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="aeabe6ddc628d189812f5d83881878e0e"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aeabe6ddc628d189812f5d83881878e0e">&#9670;&nbsp;</a></span>references</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">int Ms::Pdf::references</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
 </div><div class="memdoc">
 
 </div>

@@ -23,9 +23,9 @@
   <td id="projectlogo"><img alt="Logo" src="musescore_logo_full.png"/></td>
   <td id="projectalign" style="padding-left: 0.5em;">
    <div id="projectname">MuseScore
-   &#160;<span id="projectnumber">3.1</span>
+   &#160;<span id="projectnumber">3.2</span>
    </div>
-   <div id="projectbrief">Music compisition and notation</div>
+   <div id="projectbrief">Music composition and notation</div>
   </td>
  </tr>
  </tbody>
@@ -70,6 +70,9 @@ $(function() {
 <a href="#pub-methods">Public Member Functions</a> &#124;
 <a href="#pub-attribs">Public Attributes</a> &#124;
 <a href="#pro-methods">Protected Member Functions</a> &#124;
+<a href="#pri-methods">Private Member Functions</a> &#124;
+<a href="#pri-attribs">Private Attributes</a> &#124;
+<a href="#pri-static-attribs">Static Private Attributes</a> &#124;
 <a href="class_ms_1_1_capella-members.html">List of all members</a>  </div>
   <div class="headertitle">
 <div class="title">Ms::Capella Class Reference</div>  </div>
@@ -173,6 +176,105 @@ Protected Member Functions</h2></td></tr>
 <tr class="separator:a9e665d644975a89ce1dd05896ea906ac"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a6292ced475c69733be294f85cde57266"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ms_1_1_capella.html#a6292ced475c69733be294f85cde57266">readLayout</a> ()</td></tr>
 <tr class="separator:a6292ced475c69733be294f85cde57266"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pri-methods"></a>
+Private Member Functions</h2></td></tr>
+<tr class="memitem:a4c5855753a04668bb9624443197b73f2"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ms_1_1_capella.html#a4c5855753a04668bb9624443197b73f2">readVoice</a> (<a class="el" href="struct_ms_1_1_cap_staff.html">CapStaff</a> *, int)</td></tr>
+<tr class="separator:a4c5855753a04668bb9624443197b73f2"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a0e93ba969e164824dbbda586501ebfc8"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ms_1_1_capella.html#a0e93ba969e164824dbbda586501ebfc8">readStaff</a> (<a class="el" href="struct_ms_1_1_cap_system.html">CapSystem</a> *)</td></tr>
+<tr class="separator:a0e93ba969e164824dbbda586501ebfc8"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a79a9859151456b1eeb9fc4ba691b1252"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ms_1_1_capella.html#a79a9859151456b1eeb9fc4ba691b1252">readSystem</a> ()</td></tr>
+<tr class="separator:a79a9859151456b1eeb9fc4ba691b1252"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a01cf19d8129293a0e01e379d15ccbeb6"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ms_1_1_capella.html#a01cf19d8129293a0e01e379d15ccbeb6">readCapxVoice</a> (<a class="el" href="class_ms_1_1_xml_reader.html">XmlReader</a> &amp;e, <a class="el" href="struct_ms_1_1_cap_staff.html">CapStaff</a> *, int)</td></tr>
+<tr class="separator:a01cf19d8129293a0e01e379d15ccbeb6"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a1e0f9dac5a83f4f2fcae94fef09e6b4b"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ms_1_1_capella.html#a1e0f9dac5a83f4f2fcae94fef09e6b4b">readCapxStaff</a> (<a class="el" href="class_ms_1_1_xml_reader.html">XmlReader</a> &amp;e, <a class="el" href="struct_ms_1_1_cap_system.html">CapSystem</a> *, int)</td></tr>
+<tr class="separator:a1e0f9dac5a83f4f2fcae94fef09e6b4b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a64f4d208e997c651f3bfc2ce10ad0794"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ms_1_1_capella.html#a64f4d208e997c651f3bfc2ce10ad0794">readCapxSystem</a> (<a class="el" href="class_ms_1_1_xml_reader.html">XmlReader</a> &amp;e)</td></tr>
+<tr class="separator:a64f4d208e997c651f3bfc2ce10ad0794"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a6d379eeda217e9e953f6c10364e3e6b9"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ms_1_1_capella.html#a6d379eeda217e9e953f6c10364e3e6b9">capxSystems</a> (<a class="el" href="class_ms_1_1_xml_reader.html">XmlReader</a> &amp;e)</td></tr>
+<tr class="separator:a6d379eeda217e9e953f6c10364e3e6b9"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a2d9f5bf3efee131f2e62cc4b88ab9004"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ms_1_1_capella.html#a2d9f5bf3efee131f2e62cc4b88ab9004">readCapxStaveLayout</a> (<a class="el" href="class_ms_1_1_xml_reader.html">XmlReader</a> &amp;e, <a class="el" href="struct_ms_1_1_cap_staff_layout.html">CapStaffLayout</a> *, int)</td></tr>
+<tr class="separator:a2d9f5bf3efee131f2e62cc4b88ab9004"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a246b7a7fd5ffb4f753a26d5802346449"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ms_1_1_capella.html#a246b7a7fd5ffb4f753a26d5802346449">capxLayoutStaves</a> (<a class="el" href="class_ms_1_1_xml_reader.html">XmlReader</a> &amp;e)</td></tr>
+<tr class="separator:a246b7a7fd5ffb4f753a26d5802346449"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa5a51482b5202d6014dfed3e1cba80d5"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ms_1_1_capella.html#aa5a51482b5202d6014dfed3e1cba80d5">capxLayout</a> (<a class="el" href="class_ms_1_1_xml_reader.html">XmlReader</a> &amp;e)</td></tr>
+<tr class="separator:aa5a51482b5202d6014dfed3e1cba80d5"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a7554f34a2de4fcf15918034c5611e03d"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ms_1_1_capella.html#a7554f34a2de4fcf15918034c5611e03d">initCapxLayout</a> ()</td></tr>
+<tr class="separator:a7554f34a2de4fcf15918034c5611e03d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pri-attribs"></a>
+Private Attributes</h2></td></tr>
+<tr class="memitem:a6fee2cdcb88d5207c18331da30cc2f54"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ms_1_1_capella.html#a6fee2cdcb88d5207c18331da30cc2f54">curPos</a></td></tr>
+<tr class="separator:a6fee2cdcb88d5207c18331da30cc2f54"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a2909b47273f2adba7dd17cd83bedda39"><td class="memItemLeft" align="right" valign="top">QFile *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ms_1_1_capella.html#a2909b47273f2adba7dd17cd83bedda39">f</a></td></tr>
+<tr class="separator:a2909b47273f2adba7dd17cd83bedda39"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a7b15823832f97dfa45171d85945cd67d"><td class="memItemLeft" align="right" valign="top">char *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ms_1_1_capella.html#a7b15823832f97dfa45171d85945cd67d">author</a></td></tr>
+<tr class="separator:a7b15823832f97dfa45171d85945cd67d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aeaf9a6a31770201283473ec79ead68e4"><td class="memItemLeft" align="right" valign="top">char *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ms_1_1_capella.html#aeaf9a6a31770201283473ec79ead68e4">keywords</a></td></tr>
+<tr class="separator:aeaf9a6a31770201283473ec79ead68e4"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a91a28fa7c2b71f675243fcc23c6d8db7"><td class="memItemLeft" align="right" valign="top">char *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ms_1_1_capella.html#a91a28fa7c2b71f675243fcc23c6d8db7">comment</a></td></tr>
+<tr class="separator:a91a28fa7c2b71f675243fcc23c6d8db7"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a115f4c293fb32dfa6ba03c0e4d18926b"><td class="memItemLeft" align="right" valign="top">unsigned char&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ms_1_1_capella.html#a115f4c293fb32dfa6ba03c0e4d18926b">beamRelMin0</a></td></tr>
+<tr class="separator:a115f4c293fb32dfa6ba03c0e4d18926b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aeb45adb733d13d93d3f26ca6b9bbd4cd"><td class="memItemLeft" align="right" valign="top">unsigned char&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ms_1_1_capella.html#aeb45adb733d13d93d3f26ca6b9bbd4cd">beamRelMin1</a></td></tr>
+<tr class="separator:aeb45adb733d13d93d3f26ca6b9bbd4cd"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a172ec629cfe139747ba62a02c9e1bcae"><td class="memItemLeft" align="right" valign="top">unsigned char&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ms_1_1_capella.html#a172ec629cfe139747ba62a02c9e1bcae">beamRelMax0</a></td></tr>
+<tr class="separator:a172ec629cfe139747ba62a02c9e1bcae"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad75e45022ccf1e3c8c4b3cad61dfe839"><td class="memItemLeft" align="right" valign="top">unsigned char&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ms_1_1_capella.html#ad75e45022ccf1e3c8c4b3cad61dfe839">beamRelMax1</a></td></tr>
+<tr class="separator:ad75e45022ccf1e3c8c4b3cad61dfe839"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a122d4d9a8d323618eead1226cdba2bdf"><td class="memItemLeft" align="right" valign="top">unsigned&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ms_1_1_capella.html#a122d4d9a8d323618eead1226cdba2bdf">nRel</a></td></tr>
+<tr class="separator:a122d4d9a8d323618eead1226cdba2bdf"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a588c9f319406a1766cb7cc9f4c1dd432"><td class="memItemLeft" align="right" valign="top">unsigned&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ms_1_1_capella.html#a588c9f319406a1766cb7cc9f4c1dd432">nAbs</a></td></tr>
+<tr class="separator:a588c9f319406a1766cb7cc9f4c1dd432"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:abe5fbc9cafc4570e8b16d6d4fa7ee0a2"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ms_1_1_capella.html#abe5fbc9cafc4570e8b16d6d4fa7ee0a2">bUseRealSize</a></td></tr>
+<tr class="separator:abe5fbc9cafc4570e8b16d6d4fa7ee0a2"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a46c26a65aba54b7956a317d2d9877df5"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ms_1_1_capella.html#a46c26a65aba54b7956a317d2d9877df5">bAllowCompression</a></td></tr>
+<tr class="separator:a46c26a65aba54b7956a317d2d9877df5"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac8d6d32e722c4d4b24a9c44c462caa84"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ms_1_1_capella.html#ac8d6d32e722c4d4b24a9c44c462caa84">bPrintLandscape</a></td></tr>
+<tr class="separator:ac8d6d32e722c4d4b24a9c44c462caa84"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab9d8c78f1d9aa8b3b7f40bdfe4b73ee6"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ms_1_1_capella.html#ab9d8c78f1d9aa8b3b7f40bdfe4b73ee6">bShowBarCount</a></td></tr>
+<tr class="separator:ab9d8c78f1d9aa8b3b7f40bdfe4b73ee6"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:addc6bfe1f5715c5362ab109a00b5fde5"><td class="memItemLeft" align="right" valign="top">unsigned char&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ms_1_1_capella.html#addc6bfe1f5715c5362ab109a00b5fde5">barNumberFrame</a></td></tr>
+<tr class="separator:addc6bfe1f5715c5362ab109a00b5fde5"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac898d0e2e387a20f2ac846c9d6ee68ee"><td class="memItemLeft" align="right" valign="top">unsigned char&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ms_1_1_capella.html#ac898d0e2e387a20f2ac846c9d6ee68ee">nBarDistX</a></td></tr>
+<tr class="separator:ac898d0e2e387a20f2ac846c9d6ee68ee"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a8fc26790639340a7468bbd0106ac06cc"><td class="memItemLeft" align="right" valign="top">unsigned char&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ms_1_1_capella.html#a8fc26790639340a7468bbd0106ac06cc">nBarDistY</a></td></tr>
+<tr class="separator:a8fc26790639340a7468bbd0106ac06cc"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a7384042272c2c3ae494271bdc3762da0"><td class="memItemLeft" align="right" valign="top">unsigned&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ms_1_1_capella.html#a7384042272c2c3ae494271bdc3762da0">nFirstPage</a></td></tr>
+<tr class="separator:a7384042272c2c3ae494271bdc3762da0"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a6368f4b0d0d3bda2e6cce833cb163a24"><td class="memItemLeft" align="right" valign="top">unsigned&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ms_1_1_capella.html#a6368f4b0d0d3bda2e6cce833cb163a24">leftPageMargins</a></td></tr>
+<tr class="separator:a6368f4b0d0d3bda2e6cce833cb163a24"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a0ec13e036ba98a722f3882635617f73e"><td class="memItemLeft" align="right" valign="top">unsigned&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ms_1_1_capella.html#a0ec13e036ba98a722f3882635617f73e">topPageMargins</a></td></tr>
+<tr class="separator:a0ec13e036ba98a722f3882635617f73e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a7937dc08535b2404bf85c5e32fdcc8e3"><td class="memItemLeft" align="right" valign="top">unsigned&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ms_1_1_capella.html#a7937dc08535b2404bf85c5e32fdcc8e3">rightPageMargins</a></td></tr>
+<tr class="separator:a7937dc08535b2404bf85c5e32fdcc8e3"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af2df2430b779d5e152687772de2cfe38"><td class="memItemLeft" align="right" valign="top">unsigned&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ms_1_1_capella.html#af2df2430b779d5e152687772de2cfe38">btmPageMargins</a></td></tr>
+<tr class="separator:af2df2430b779d5e152687772de2cfe38"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a438b46a21842fe49e6d324a055ae3480"><td class="memItemLeft" align="right" valign="top">QList&lt; QFont &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ms_1_1_capella.html#a438b46a21842fe49e6d324a055ae3480">fonts</a></td></tr>
+<tr class="separator:a438b46a21842fe49e6d324a055ae3480"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae471ac772d74472bebe5d99b37336652"><td class="memItemLeft" align="right" valign="top">QList&lt; <a class="el" href="struct_ms_1_1_cap_staff_layout.html">CapStaffLayout</a> * &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ms_1_1_capella.html#ae471ac772d74472bebe5d99b37336652">_staffLayouts</a></td></tr>
+<tr class="separator:ae471ac772d74472bebe5d99b37336652"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad2860a85ea4b4d5b2f24824ac93e2642"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ms_1_1_capella.html#ad2860a85ea4b4d5b2f24824ac93e2642">interDist</a></td></tr>
+<tr class="separator:ad2860a85ea4b4d5b2f24824ac93e2642"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ada883057e021b584ec4f96859ae0924f"><td class="memItemLeft" align="right" valign="top">unsigned char&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ms_1_1_capella.html#ada883057e021b584ec4f96859ae0924f">txtAlign</a></td></tr>
+<tr class="separator:ada883057e021b584ec4f96859ae0924f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a797c09635442cff23c933bdf1bad35e7"><td class="memItemLeft" align="right" valign="top">unsigned char&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ms_1_1_capella.html#a797c09635442cff23c933bdf1bad35e7">adjustVert</a></td></tr>
+<tr class="separator:a797c09635442cff23c933bdf1bad35e7"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aed043f9b786ec2f0d010fa8467f26471"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ms_1_1_capella.html#aed043f9b786ec2f0d010fa8467f26471">redundantKeys</a></td></tr>
+<tr class="separator:aed043f9b786ec2f0d010fa8467f26471"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a0993155f9826b43ff30b655ec58de3e0"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ms_1_1_capella.html#a0993155f9826b43ff30b655ec58de3e0">modernDoubleNote</a></td></tr>
+<tr class="separator:a0993155f9826b43ff30b655ec58de3e0"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a47a7f370a2aeb06b82d49873cb6d0f2c"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ms_1_1_capella.html#a47a7f370a2aeb06b82d49873cb6d0f2c">bSystemSeparators</a></td></tr>
+<tr class="separator:a47a7f370a2aeb06b82d49873cb6d0f2c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a7f20628365115a4f73f92a9f58d8b8db"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ms_1_1_capella.html#a7f20628365115a4f73f92a9f58d8b8db">nUnnamed</a></td></tr>
+<tr class="separator:a7f20628365115a4f73f92a9f58d8b8db"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae93e7c559c7f20b6ff697aca1484d495"><td class="memItemLeft" align="right" valign="top">QFont&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ms_1_1_capella.html#ae93e7c559c7f20b6ff697aca1484d495">namesFont</a></td></tr>
+<tr class="separator:ae93e7c559c7f20b6ff697aca1484d495"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pri-static-attribs"></a>
+Static Private Attributes</h2></td></tr>
+<tr class="memitem:af5ae0b261ffd36f8e921ddb8a81c22ac"><td class="memItemLeft" align="right" valign="top">static const char *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ms_1_1_capella.html#af5ae0b261ffd36f8e921ddb8a81c22ac">errmsg</a> []</td></tr>
+<tr class="separator:af5ae0b261ffd36f8e921ddb8a81c22ac"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <h2 class="groupheader">Member Enumeration Documentation</h2>
 <a id="aa7b29fa3edf0b7e343d0f145e17631f6"></a>
@@ -241,6 +343,84 @@ Protected Member Functions</h2></td></tr>
 </div>
 </div>
 <h2 class="groupheader">Member Function Documentation</h2>
+<a id="aa5a51482b5202d6014dfed3e1cba80d5"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aa5a51482b5202d6014dfed3e1cba80d5">&#9670;&nbsp;</a></span>capxLayout()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void Ms::Capella::capxLayout </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="class_ms_1_1_xml_reader.html">XmlReader</a> &amp;&#160;</td>
+          <td class="paramname"><em>e</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a246b7a7fd5ffb4f753a26d5802346449"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a246b7a7fd5ffb4f753a26d5802346449">&#9670;&nbsp;</a></span>capxLayoutStaves()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void Ms::Capella::capxLayoutStaves </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="class_ms_1_1_xml_reader.html">XmlReader</a> &amp;&#160;</td>
+          <td class="paramname"><em>e</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a6d379eeda217e9e953f6c10364e3e6b9"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a6d379eeda217e9e953f6c10364e3e6b9">&#9670;&nbsp;</a></span>capxSystems()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void Ms::Capella::capxSystems </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="class_ms_1_1_xml_reader.html">XmlReader</a> &amp;&#160;</td>
+          <td class="paramname"><em>e</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
 <a id="a9f143011804fd2a8652ba085c09db911"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a9f143011804fd2a8652ba085c09db911">&#9670;&nbsp;</a></span>error()</h2>
 
@@ -261,6 +441,31 @@ Protected Member Functions</h2></td></tr>
   </td>
   <td class="mlabels-right">
 <span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a7554f34a2de4fcf15918034c5611e03d"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a7554f34a2de4fcf15918034c5611e03d">&#9670;&nbsp;</a></span>initCapxLayout()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void Ms::Capella::initCapxLayout </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
   </tr>
 </table>
 </div><div class="memdoc">
@@ -362,6 +567,158 @@ Protected Member Functions</h2></td></tr>
           <td></td>
         </tr>
       </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a1e0f9dac5a83f4f2fcae94fef09e6b4b"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a1e0f9dac5a83f4f2fcae94fef09e6b4b">&#9670;&nbsp;</a></span>readCapxStaff()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void Ms::Capella::readCapxStaff </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="class_ms_1_1_xml_reader.html">XmlReader</a> &amp;&#160;</td>
+          <td class="paramname"><em>e</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="struct_ms_1_1_cap_system.html">CapSystem</a> *&#160;</td>
+          <td class="paramname"><em>system</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>iStave</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a2d9f5bf3efee131f2e62cc4b88ab9004"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a2d9f5bf3efee131f2e62cc4b88ab9004">&#9670;&nbsp;</a></span>readCapxStaveLayout()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void Ms::Capella::readCapxStaveLayout </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="class_ms_1_1_xml_reader.html">XmlReader</a> &amp;&#160;</td>
+          <td class="paramname"><em>e</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="struct_ms_1_1_cap_staff_layout.html">CapStaffLayout</a> *&#160;</td>
+          <td class="paramname"><em>sl</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname">&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a64f4d208e997c651f3bfc2ce10ad0794"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a64f4d208e997c651f3bfc2ce10ad0794">&#9670;&nbsp;</a></span>readCapxSystem()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void Ms::Capella::readCapxSystem </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="class_ms_1_1_xml_reader.html">XmlReader</a> &amp;&#160;</td>
+          <td class="paramname"><em>e</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a01cf19d8129293a0e01e379d15ccbeb6"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a01cf19d8129293a0e01e379d15ccbeb6">&#9670;&nbsp;</a></span>readCapxVoice()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void Ms::Capella::readCapxVoice </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="class_ms_1_1_xml_reader.html">XmlReader</a> &amp;&#160;</td>
+          <td class="paramname"><em>e</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="struct_ms_1_1_cap_staff.html">CapStaff</a> *&#160;</td>
+          <td class="paramname"><em>cs</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>idx</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
 </div><div class="memdoc">
 
 </div>
@@ -561,6 +918,32 @@ Protected Member Functions</h2></td></tr>
 
 </div>
 </div>
+<a id="a0e93ba969e164824dbbda586501ebfc8"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a0e93ba969e164824dbbda586501ebfc8">&#9670;&nbsp;</a></span>readStaff()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void Ms::Capella::readStaff </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="struct_ms_1_1_cap_system.html">CapSystem</a> *&#160;</td>
+          <td class="paramname"><em>system</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
 <a id="a9e665d644975a89ce1dd05896ea906ac"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a9e665d644975a89ce1dd05896ea906ac">&#9670;&nbsp;</a></span>readStaveLayout()</h2>
 
@@ -614,6 +997,31 @@ Protected Member Functions</h2></td></tr>
 
 </div>
 </div>
+<a id="a79a9859151456b1eeb9fc4ba691b1252"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a79a9859151456b1eeb9fc4ba691b1252">&#9670;&nbsp;</a></span>readSystem()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void Ms::Capella::readSystem </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
 <a id="a26ee71252d75b6fcccdd915115d538e6"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a26ee71252d75b6fcccdd915115d538e6">&#9670;&nbsp;</a></span>readUnsigned()</h2>
 
@@ -627,6 +1035,42 @@ Protected Member Functions</h2></td></tr>
           <td></td>
         </tr>
       </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a4c5855753a04668bb9624443197b73f2"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a4c5855753a04668bb9624443197b73f2">&#9670;&nbsp;</a></span>readVoice()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void Ms::Capella::readVoice </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="struct_ms_1_1_cap_staff.html">CapStaff</a> *&#160;</td>
+          <td class="paramname"><em>cs</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>idx</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
 </div><div class="memdoc">
 
 </div>
@@ -700,6 +1144,72 @@ Protected Member Functions</h2></td></tr>
 </div>
 </div>
 <h2 class="groupheader">Member Data Documentation</h2>
+<a id="ae471ac772d74472bebe5d99b37336652"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ae471ac772d74472bebe5d99b37336652">&#9670;&nbsp;</a></span>_staffLayouts</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">QList&lt;<a class="el" href="struct_ms_1_1_cap_staff_layout.html">CapStaffLayout</a>*&gt; Ms::Capella::_staffLayouts</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a797c09635442cff23c933bdf1bad35e7"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a797c09635442cff23c933bdf1bad35e7">&#9670;&nbsp;</a></span>adjustVert</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">unsigned char Ms::Capella::adjustVert</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a7b15823832f97dfa45171d85945cd67d"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a7b15823832f97dfa45171d85945cd67d">&#9670;&nbsp;</a></span>author</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">char* Ms::Capella::author</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
 <a id="a15a12143c2f1962fbac02fc02bbfb3dc"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a15a12143c2f1962fbac02fc02bbfb3dc">&#9670;&nbsp;</a></span>backgroundChord</h2>
 
@@ -710,6 +1220,160 @@ Protected Member Functions</h2></td></tr>
           <td class="memname"><a class="el" href="class_ms_1_1_chord_obj.html">ChordObj</a>* Ms::Capella::backgroundChord</td>
         </tr>
       </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a46c26a65aba54b7956a317d2d9877df5"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a46c26a65aba54b7956a317d2d9877df5">&#9670;&nbsp;</a></span>bAllowCompression</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool Ms::Capella::bAllowCompression</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="addc6bfe1f5715c5362ab109a00b5fde5"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#addc6bfe1f5715c5362ab109a00b5fde5">&#9670;&nbsp;</a></span>barNumberFrame</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">unsigned char Ms::Capella::barNumberFrame</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a172ec629cfe139747ba62a02c9e1bcae"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a172ec629cfe139747ba62a02c9e1bcae">&#9670;&nbsp;</a></span>beamRelMax0</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">unsigned char Ms::Capella::beamRelMax0</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="ad75e45022ccf1e3c8c4b3cad61dfe839"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ad75e45022ccf1e3c8c4b3cad61dfe839">&#9670;&nbsp;</a></span>beamRelMax1</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">unsigned char Ms::Capella::beamRelMax1</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a115f4c293fb32dfa6ba03c0e4d18926b"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a115f4c293fb32dfa6ba03c0e4d18926b">&#9670;&nbsp;</a></span>beamRelMin0</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">unsigned char Ms::Capella::beamRelMin0</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="aeb45adb733d13d93d3f26ca6b9bbd4cd"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aeb45adb733d13d93d3f26ca6b9bbd4cd">&#9670;&nbsp;</a></span>beamRelMin1</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">unsigned char Ms::Capella::beamRelMin1</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="ac8d6d32e722c4d4b24a9c44c462caa84"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ac8d6d32e722c4d4b24a9c44c462caa84">&#9670;&nbsp;</a></span>bPrintLandscape</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool Ms::Capella::bPrintLandscape</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
 </div><div class="memdoc">
 
 </div>
@@ -728,6 +1392,402 @@ Protected Member Functions</h2></td></tr>
 
 </div>
 </div>
+<a id="ab9d8c78f1d9aa8b3b7f40bdfe4b73ee6"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ab9d8c78f1d9aa8b3b7f40bdfe4b73ee6">&#9670;&nbsp;</a></span>bShowBarCount</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool Ms::Capella::bShowBarCount</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a47a7f370a2aeb06b82d49873cb6d0f2c"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a47a7f370a2aeb06b82d49873cb6d0f2c">&#9670;&nbsp;</a></span>bSystemSeparators</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool Ms::Capella::bSystemSeparators</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="af2df2430b779d5e152687772de2cfe38"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#af2df2430b779d5e152687772de2cfe38">&#9670;&nbsp;</a></span>btmPageMargins</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">unsigned Ms::Capella::btmPageMargins</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="abe5fbc9cafc4570e8b16d6d4fa7ee0a2"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#abe5fbc9cafc4570e8b16d6d4fa7ee0a2">&#9670;&nbsp;</a></span>bUseRealSize</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool Ms::Capella::bUseRealSize</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a91a28fa7c2b71f675243fcc23c6d8db7"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a91a28fa7c2b71f675243fcc23c6d8db7">&#9670;&nbsp;</a></span>comment</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">char* Ms::Capella::comment</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a6fee2cdcb88d5207c18331da30cc2f54"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a6fee2cdcb88d5207c18331da30cc2f54">&#9670;&nbsp;</a></span>curPos</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">int Ms::Capella::curPos</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="af5ae0b261ffd36f8e921ddb8a81c22ac"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#af5ae0b261ffd36f8e921ddb8a81c22ac">&#9670;&nbsp;</a></span>errmsg</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">const char * Ms::Capella::errmsg</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<b>Initial value:</b><div class="fragment"><div class="line">= {</div><div class="line">      <span class="stringliteral">&quot;no error&quot;</span>,</div><div class="line">      <span class="stringliteral">&quot;bad file signature, no Capella file or not from version 2000 (3.0) or later?&quot;</span>,</div><div class="line">      <span class="stringliteral">&quot;unexpected end of file&quot;</span>,</div><div class="line">      <span class="stringliteral">&quot;bad voice signature&quot;</span>,</div><div class="line">      <span class="stringliteral">&quot;bad staff signature&quot;</span>,</div><div class="line">      <span class="stringliteral">&quot;bad system signature&quot;</span>,</div><div class="line">      }</div></div><!-- fragment -->
+</div>
+</div>
+<a id="a2909b47273f2adba7dd17cd83bedda39"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a2909b47273f2adba7dd17cd83bedda39">&#9670;&nbsp;</a></span>f</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">QFile* Ms::Capella::f</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a438b46a21842fe49e6d324a055ae3480"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a438b46a21842fe49e6d324a055ae3480">&#9670;&nbsp;</a></span>fonts</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">QList&lt;QFont&gt; Ms::Capella::fonts</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="ad2860a85ea4b4d5b2f24824ac93e2642"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ad2860a85ea4b4d5b2f24824ac93e2642">&#9670;&nbsp;</a></span>interDist</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">int Ms::Capella::interDist</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="aeaf9a6a31770201283473ec79ead68e4"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aeaf9a6a31770201283473ec79ead68e4">&#9670;&nbsp;</a></span>keywords</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">char* Ms::Capella::keywords</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a6368f4b0d0d3bda2e6cce833cb163a24"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a6368f4b0d0d3bda2e6cce833cb163a24">&#9670;&nbsp;</a></span>leftPageMargins</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">unsigned Ms::Capella::leftPageMargins</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a0993155f9826b43ff30b655ec58de3e0"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a0993155f9826b43ff30b655ec58de3e0">&#9670;&nbsp;</a></span>modernDoubleNote</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool Ms::Capella::modernDoubleNote</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a588c9f319406a1766cb7cc9f4c1dd432"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a588c9f319406a1766cb7cc9f4c1dd432">&#9670;&nbsp;</a></span>nAbs</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">unsigned Ms::Capella::nAbs</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="ae93e7c559c7f20b6ff697aca1484d495"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ae93e7c559c7f20b6ff697aca1484d495">&#9670;&nbsp;</a></span>namesFont</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">QFont Ms::Capella::namesFont</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="ac898d0e2e387a20f2ac846c9d6ee68ee"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ac898d0e2e387a20f2ac846c9d6ee68ee">&#9670;&nbsp;</a></span>nBarDistX</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">unsigned char Ms::Capella::nBarDistX</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a8fc26790639340a7468bbd0106ac06cc"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a8fc26790639340a7468bbd0106ac06cc">&#9670;&nbsp;</a></span>nBarDistY</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">unsigned char Ms::Capella::nBarDistY</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a7384042272c2c3ae494271bdc3762da0"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a7384042272c2c3ae494271bdc3762da0">&#9670;&nbsp;</a></span>nFirstPage</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">unsigned Ms::Capella::nFirstPage</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
 <a id="a30e6d22d1211aab6d7fb0404d7b52577"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a30e6d22d1211aab6d7fb0404d7b52577">&#9670;&nbsp;</a></span>normalLineDist</h2>
 
@@ -738,6 +1798,94 @@ Protected Member Functions</h2></td></tr>
           <td class="memname">double Ms::Capella::normalLineDist</td>
         </tr>
       </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a122d4d9a8d323618eead1226cdba2bdf"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a122d4d9a8d323618eead1226cdba2bdf">&#9670;&nbsp;</a></span>nRel</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">unsigned Ms::Capella::nRel</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a7f20628365115a4f73f92a9f58d8b8db"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a7f20628365115a4f73f92a9f58d8b8db">&#9670;&nbsp;</a></span>nUnnamed</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">int Ms::Capella::nUnnamed</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="aed043f9b786ec2f0d010fa8467f26471"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aed043f9b786ec2f0d010fa8467f26471">&#9670;&nbsp;</a></span>redundantKeys</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool Ms::Capella::redundantKeys</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a7937dc08535b2404bf85c5e32fdcc8e3"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a7937dc08535b2404bf85c5e32fdcc8e3">&#9670;&nbsp;</a></span>rightPageMargins</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">unsigned Ms::Capella::rightPageMargins</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
 </div><div class="memdoc">
 
 </div>
@@ -780,6 +1928,50 @@ Protected Member Functions</h2></td></tr>
           <td class="memname">int Ms::Capella::topDist</td>
         </tr>
       </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a0ec13e036ba98a722f3882635617f73e"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a0ec13e036ba98a722f3882635617f73e">&#9670;&nbsp;</a></span>topPageMargins</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">unsigned Ms::Capella::topPageMargins</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="ada883057e021b584ec4f96859ae0924f"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ada883057e021b584ec4f96859ae0924f">&#9670;&nbsp;</a></span>txtAlign</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">unsigned char Ms::Capella::txtAlign</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
 </div><div class="memdoc">
 
 </div>

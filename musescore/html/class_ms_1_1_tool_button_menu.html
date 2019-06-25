@@ -23,9 +23,9 @@
   <td id="projectlogo"><img alt="Logo" src="musescore_logo_full.png"/></td>
   <td id="projectalign" style="padding-left: 0.5em;">
    <div id="projectname">MuseScore
-   &#160;<span id="projectnumber">3.1</span>
+   &#160;<span id="projectnumber">3.2</span>
    </div>
-   <div id="projectbrief">Music compisition and notation</div>
+   <div id="projectbrief">Music composition and notation</div>
   </td>
  </tr>
  </tbody>
@@ -69,6 +69,9 @@ $(function() {
 <a href="#pub-types">Public Types</a> &#124;
 <a href="#pub-methods">Public Member Functions</a> &#124;
 <a href="#pro-methods">Protected Member Functions</a> &#124;
+<a href="#pri-slots">Private Slots</a> &#124;
+<a href="#pri-methods">Private Member Functions</a> &#124;
+<a href="#pri-attribs">Private Attributes</a> &#124;
 <a href="class_ms_1_1_tool_button_menu-members.html">List of all members</a>  </div>
   <div class="headertitle">
 <div class="title">Ms::ToolButtonMenu Class Reference</div>  </div>
@@ -125,6 +128,23 @@ Public Member Functions</h2></td></tr>
 Protected Member Functions</h2></td></tr>
 <tr class="memitem:adc94aa9fcf44ba226140058ab8d84c0c"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ms_1_1_tool_button_menu.html#adc94aa9fcf44ba226140058ab8d84c0c">changeIcon</a> (QAction *a)</td></tr>
 <tr class="separator:adc94aa9fcf44ba226140058ab8d84c0c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pri-slots"></a>
+Private Slots</h2></td></tr>
+<tr class="memitem:a8bf4e9ce9ebcd8799eeb2392cd9242be"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ms_1_1_tool_button_menu.html#a8bf4e9ce9ebcd8799eeb2392cd9242be">handleAlternativeAction</a> (QAction *a)</td></tr>
+<tr class="separator:a8bf4e9ce9ebcd8799eeb2392cd9242be"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pri-methods"></a>
+Private Member Functions</h2></td></tr>
+<tr class="memitem:aeaec22948e6c8590a687acc798c20bc2"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ms_1_1_tool_button_menu.html#aeaec22948e6c8590a687acc798c20bc2">switchIcon</a> (QAction *a)</td></tr>
+<tr class="separator:aeaec22948e6c8590a687acc798c20bc2"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pri-attribs"></a>
+Private Attributes</h2></td></tr>
+<tr class="memitem:acf81db204a1635424d37101238d039e5"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_ms_1_1_tool_button_menu.html#a5617357b1b3ccdc97e79c8e5105ee925">TYPES</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ms_1_1_tool_button_menu.html#acf81db204a1635424d37101238d039e5">_type</a></td></tr>
+<tr class="separator:acf81db204a1635424d37101238d039e5"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:afb4c6bd3299ce4c5100b715bf1b98e4b"><td class="memItemLeft" align="right" valign="top">QActionGroup *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ms_1_1_tool_button_menu.html#afb4c6bd3299ce4c5100b715bf1b98e4b">_alternativeActions</a></td></tr>
+<tr class="separator:afb4c6bd3299ce4c5100b715bf1b98e4b"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <h2 class="groupheader">Member Enumeration Documentation</h2>
 <a id="a5617357b1b3ccdc97e79c8e5105ee925"></a>
@@ -299,6 +319,103 @@ Protected Member Functions</h2></td></tr>
   </td>
   <td class="mlabels-right">
 <span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">protected</span><span class="mlabel">virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a8bf4e9ce9ebcd8799eeb2392cd9242be"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a8bf4e9ce9ebcd8799eeb2392cd9242be">&#9670;&nbsp;</a></span>handleAlternativeAction</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void Ms::ToolButtonMenu::handleAlternativeAction </td>
+          <td>(</td>
+          <td class="paramtype">QAction *&#160;</td>
+          <td class="paramname"><em>a</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span><span class="mlabel">slot</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="aeaec22948e6c8590a687acc798c20bc2"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aeaec22948e6c8590a687acc798c20bc2">&#9670;&nbsp;</a></span>switchIcon()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void Ms::ToolButtonMenu::switchIcon </td>
+          <td>(</td>
+          <td class="paramtype">QAction *&#160;</td>
+          <td class="paramname"><em>a</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<h2 class="groupheader">Member Data Documentation</h2>
+<a id="afb4c6bd3299ce4c5100b715bf1b98e4b"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#afb4c6bd3299ce4c5100b715bf1b98e4b">&#9670;&nbsp;</a></span>_alternativeActions</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">QActionGroup* Ms::ToolButtonMenu::_alternativeActions</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="acf81db204a1635424d37101238d039e5"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#acf81db204a1635424d37101238d039e5">&#9670;&nbsp;</a></span>_type</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="class_ms_1_1_tool_button_menu.html#a5617357b1b3ccdc97e79c8e5105ee925">TYPES</a> Ms::ToolButtonMenu::_type</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
   </tr>
 </table>
 </div><div class="memdoc">

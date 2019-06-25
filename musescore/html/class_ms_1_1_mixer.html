@@ -23,9 +23,9 @@
   <td id="projectlogo"><img alt="Logo" src="musescore_logo_full.png"/></td>
   <td id="projectalign" style="padding-left: 0.5em;">
    <div id="projectname">MuseScore
-   &#160;<span id="projectnumber">3.1</span>
+   &#160;<span id="projectnumber">3.2</span>
    </div>
-   <div id="projectbrief">Music compisition and notation</div>
+   <div id="projectbrief">Music composition and notation</div>
   </td>
  </tr>
  </tbody>
@@ -70,6 +70,9 @@ $(function() {
 <a href="#signals">Signals</a> &#124;
 <a href="#pub-methods">Public Member Functions</a> &#124;
 <a href="#pro-methods">Protected Member Functions</a> &#124;
+<a href="#pri-slots">Private Slots</a> &#124;
+<a href="#pri-methods">Private Member Functions</a> &#124;
+<a href="#pri-attribs">Private Attributes</a> &#124;
 <a href="class_ms_1_1_mixer-members.html">List of all members</a>  </div>
   <div class="headertitle">
 <div class="title">Ms::Mixer Class Reference</div>  </div>
@@ -90,7 +93,45 @@ Collaboration diagram for Ms::Mixer:</div>
 <div class="dyncontent">
 <div class="center"><img src="class_ms_1_1_mixer__coll__graph.png" border="0" usemap="#_ms_1_1_mixer_coll__map" alt="Collaboration graph"/></div>
 <map name="_ms_1_1_mixer_coll__map" id="_ms_1_1_mixer_coll__map">
-<area shape="rect" id="node4" href="class_ms_1_1_mixer_track_group.html" title="Ms::MixerTrackGroup" alt="" coords="233,5,381,32"/>
+<area shape="rect" id="node4" href="class_ms_1_1_mixer_track_group.html" title="Ms::MixerTrackGroup" alt="" coords="899,107,1047,133"/>
+<area shape="rect" id="node5" href="class_ms_1_1_mixer_details.html" title="Ms::MixerDetails" alt="" coords="912,157,1033,184"/>
+<area shape="rect" id="node8" href="class_ms_1_1_channel_listener.html" title="Ms::ChannelListener" alt="" coords="572,208,715,235"/>
+<area shape="rect" id="node9" href="class_ms_1_1_listener.html" title="Ms::Listener\&lt; Channel\l::Prop \&gt;" alt="" coords="274,201,429,242"/>
+<area shape="rect" id="node10" href="class_ms_1_1_notifier.html" title="Ms::Notifier\&lt; Channel\l::Prop \&gt;" alt="" coords="5,201,156,242"/>
+<area shape="rect" id="node11" href="class_ms_1_1_score.html" title="Ms::Score" alt="" coords="931,915,1014,941"/>
+<area shape="rect" id="node13" href="class_ms_1_1_score_element.html" title="Ms::ScoreElement" alt="" coords="1227,1255,1357,1281"/>
+<area shape="rect" id="node16" href="class_ms_1_1_excerpt.html" title="Ms::Excerpt" alt="" coords="1733,780,1827,807"/>
+<area shape="rect" id="node17" href="class_ms_1_1_master_score.html" title="Ms::MasterScore" alt="" coords="1495,576,1617,603"/>
+<area shape="rect" id="node21" href="class_ms_1_1_repeat_list.html" title="Ms::RepeatList" alt="" coords="1237,637,1347,664"/>
+<area shape="rect" id="node36" href="class_ms_1_1_input_state.html" title="Ms::InputState" alt="" coords="2007,1067,2115,1093"/>
+<area shape="rect" id="node43" href="class_ms_1_1_selection.html" title="Ms::Selection" alt="" coords="2010,1485,2113,1512"/>
+<area shape="rect" id="node48" href="class_ms_1_1_selection_filter.html" title="Ms::SelectionFilter" alt="" coords="1227,688,1357,715"/>
+<area shape="rect" id="node33" href="class_ms_1_1_element.html" title="Base class of score layout elements. " alt="" coords="1508,1292,1604,1319"/>
+<area shape="rect" id="node14" href="class_ms_1_1_linked_elements.html" title="Ms::LinkedElements" alt="" coords="902,1453,1043,1480"/>
+<area shape="rect" id="node18" href="class_ms_1_1_omr.html" title="Ms::Omr" alt="" coords="1255,739,1329,765"/>
+<area shape="rect" id="node19" href="class_ms_1_1_cmd_state.html" title="Ms::CmdState" alt="" coords="1091,729,1198,756"/>
+<area shape="rect" id="node20" href="class_ms_1_1_fraction.html" title="Ms::Fraction" alt="" coords="596,1504,691,1531"/>
+<area shape="rect" id="node32" href="class_ms_1_1_measure_base.html" title="Virtual base class for Measure, HBox and VBox. " alt="" coords="1716,1272,1844,1299"/>
+<area shape="rect" id="node37" href="class_ms_1_1_segment.html" title="Ms::Segment" alt="" coords="1730,1376,1830,1403"/>
+<area shape="rect" id="node23" href="class_ms_1_1_revisions.html" title="Ms::Revisions" alt="" coords="1239,360,1345,387"/>
+<area shape="rect" id="node24" href="class_ms_1_1_revision.html" title="Ms::Revision" alt="" coords="923,349,1022,376"/>
+<area shape="rect" id="node25" href="class_ms_1_1_tempo_map.html" title="Ms::TempoMap" alt="" coords="1235,411,1349,437"/>
+<area shape="rect" id="node27" href="class_ms_1_1_movements.html" title="Ms::Movements" alt="" coords="1087,488,1203,515"/>
+<area shape="rect" id="node28" href="class_ms_1_1_m_style.html" title="Ms::MStyle" alt="" coords="599,584,688,611"/>
+<area shape="rect" id="node29" href="class_ms_1_1_chord_list.html" title="Ms::ChordList" alt="" coords="299,584,403,611"/>
+<area shape="rect" id="node30" href="class_ms_1_1_time_sig_map.html" title="Ms::TimeSigMap" alt="" coords="1231,309,1353,336"/>
+<area shape="rect" id="node31" href="class_ms_1_1_measure_base_list.html" title="Ms::MeasureBaseList" alt="" coords="1987,1211,2136,1237"/>
+<area shape="rect" id="node34" href="class_ms_1_1_spatium.html" title="Ms::Spatium" alt="" coords="1244,1313,1340,1340"/>
+<area shape="rect" id="node35" href="class_ms_1_1_element_list.html" title="Ms::ElementList" alt="" coords="1497,1203,1615,1229"/>
+<area shape="rect" id="node38" href="class_ms_1_1_t_duration.html" title="Ms::TDuration" alt="" coords="1727,1117,1833,1144"/>
+<area shape="rect" id="node39" href="class_ms_1_1_slur.html" title="Ms::Slur" alt="" coords="1745,965,1815,992"/>
+<area shape="rect" id="node40" href="class_ms_1_1_slur_tie.html" title="Ms::SlurTie" alt="" coords="1511,964,1601,991"/>
+<area shape="rect" id="node41" href="class_ms_1_1_synthesizer_state.html" title="Ms::SynthesizerState" alt="" coords="569,809,717,836"/>
+<area shape="rect" id="node44" href="class_ms_1_1_spanner_map.html" title="Ms::SpannerMap" alt="" coords="583,864,704,891"/>
+<area shape="rect" id="node46" href="class_ms_1_1_update_state.html" title="Ms::UpdateState" alt="" coords="583,915,704,941"/>
+<area shape="rect" id="node47" href="class_ms_1_1_audio.html" title="Ms::Audio" alt="" coords="603,965,684,992"/>
+<area shape="rect" id="node49" href="class_ms_1_1_score_font.html" title="Ms::ScoreFont" alt="" coords="589,1016,697,1043"/>
+<area shape="rect" id="node50" href="class_ms_1_1_enable_play_for_widget.html" title="Ms::EnablePlayForWidget" alt="" coords="885,208,1060,235"/>
 </map>
 <center><span class="legend">[<a href="graph_legend.html">legend</a>]</span></center></div>
 <table class="memberdecls">
@@ -122,8 +163,6 @@ Public Member Functions</h2></td></tr>
 <tr class="separator:a50dcbf496960dcdc2aa0fb7d182f0233"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a6df44fd6aead27a5dc856933772a53b0"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_ms_1_1_part_edit.html">PartEdit</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ms_1_1_mixer.html#a6df44fd6aead27a5dc856933772a53b0">getPartAtIndex</a> (int index)</td></tr>
 <tr class="separator:a6df44fd6aead27a5dc856933772a53b0"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ac6a41f9627ae6c7bcefda5fee21a4eac"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ms_1_1_mixer.html#ac6a41f9627ae6c7bcefda5fee21a4eac">writeSettings</a> ()</td></tr>
-<tr class="separator:ac6a41f9627ae6c7bcefda5fee21a4eac"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a72b691fa841099aded8cfb5ee36b22e4"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ms_1_1_mixer.html#a72b691fa841099aded8cfb5ee36b22e4">expandToggled</a> (<a class="el" href="class_ms_1_1_part.html">Part</a> *part, bool expanded) override</td></tr>
 <tr class="separator:a72b691fa841099aded8cfb5ee36b22e4"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a52dc9104c68ffaeeffc92fed5cffbae2"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ms_1_1_mixer.html#a52dc9104c68ffaeeffc92fed5cffbae2">notifyTrackSelected</a> (<a class="el" href="class_ms_1_1_mixer_track.html">MixerTrack</a> *track) override</td></tr>
@@ -140,6 +179,55 @@ Protected Member Functions</h2></td></tr>
 <tr class="separator:a5ffa74ead538983d28fb45eba621b7b0"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aa565f3ecdf27a59b4374b42e7635f550"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ms_1_1_mixer.html#aa565f3ecdf27a59b4374b42e7635f550">retranslate</a> (bool firstTime=false)</td></tr>
 <tr class="separator:aa565f3ecdf27a59b4374b42e7635f550"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pri-slots"></a>
+Private Slots</h2></td></tr>
+<tr class="memitem:aa325a01294babd414bdc42e7878b6ad9"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ms_1_1_mixer.html#aa325a01294babd414bdc42e7878b6ad9">on_partOnlyCheckBox_toggled</a> (bool checked)</td></tr>
+<tr class="separator:aa325a01294babd414bdc42e7878b6ad9"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pri-methods"></a>
+Private Member Functions</h2></td></tr>
+<tr class="memitem:a5dc17b6dd0ab5d3d74ceabb060cea13a"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ms_1_1_mixer.html#a5dc17b6dd0ab5d3d74ceabb060cea13a">closeEvent</a> (QCloseEvent *) override</td></tr>
+<tr class="separator:a5dc17b6dd0ab5d3d74ceabb060cea13a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa52ea8ab317802effcc737182ccdc6fd"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ms_1_1_mixer.html#aa52ea8ab317802effcc737182ccdc6fd">showEvent</a> (QShowEvent *) override</td></tr>
+<tr class="separator:aa52ea8ab317802effcc737182ccdc6fd"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aeae57d9cea3edda119969d5c1bfb8020"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ms_1_1_mixer.html#aeae57d9cea3edda119969d5c1bfb8020">hideEvent</a> (QHideEvent *) override</td></tr>
+<tr class="separator:aeae57d9cea3edda119969d5c1bfb8020"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af692cb0aae862ade6d5e4106fbe9d91f"><td class="memItemLeft" align="right" valign="top">virtual bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ms_1_1_mixer.html#af692cb0aae862ade6d5e4106fbe9d91f">eventFilter</a> (QObject *, QEvent *) override</td></tr>
+<tr class="separator:af692cb0aae862ade6d5e4106fbe9d91f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:adb91e8d9dad4e98a066b729d26a13593"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ms_1_1_mixer.html#adb91e8d9dad4e98a066b729d26a13593">keyPressEvent</a> (QKeyEvent *) override</td></tr>
+<tr class="separator:adb91e8d9dad4e98a066b729d26a13593"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a6212dac5916052b3382d0b260db204f6"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ms_1_1_mixer.html#a6212dac5916052b3382d0b260db204f6">keepScrollPosition</a> ()</td></tr>
+<tr class="separator:a6212dac5916052b3382d0b260db204f6"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a1b9c61dc7fbbb11f3bbdf58e90578996"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ms_1_1_mixer.html#a1b9c61dc7fbbb11f3bbdf58e90578996">setPlaybackScore</a> (<a class="el" href="class_ms_1_1_score.html">Score</a> *)</td></tr>
+<tr class="separator:a1b9c61dc7fbbb11f3bbdf58e90578996"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pri-attribs"></a>
+Private Attributes</h2></td></tr>
+<tr class="memitem:ab57f662852ccaf487d431a0f57be0fe2"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_ms_1_1_score.html">Score</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ms_1_1_mixer.html#ab57f662852ccaf487d431a0f57be0fe2">_score</a> = nullptr</td></tr>
+<tr class="separator:ab57f662852ccaf487d431a0f57be0fe2"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a15974b1b7ed655269a6fff492acd5a40"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_ms_1_1_score.html">Score</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ms_1_1_mixer.html#a15974b1b7ed655269a6fff492acd5a40">_activeScore</a> = nullptr</td></tr>
+<tr class="separator:a15974b1b7ed655269a6fff492acd5a40"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:afc089dc8c8e77100117b58ae0730d90f"><td class="memItemLeft" align="right" valign="top">QHBoxLayout *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ms_1_1_mixer.html#afc089dc8c8e77100117b58ae0730d90f">trackAreaLayout</a></td></tr>
+<tr class="separator:afc089dc8c8e77100117b58ae0730d90f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a267289160d973ea31afe951a76a6bf78"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_ms_1_1_enable_play_for_widget.html">EnablePlayForWidget</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ms_1_1_mixer.html#a267289160d973ea31afe951a76a6bf78">enablePlay</a></td></tr>
+<tr class="separator:a267289160d973ea31afe951a76a6bf78"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af466bba4a625283aeb37b25ef65aba8f"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_ms_1_1_mixer_details.html">MixerDetails</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ms_1_1_mixer.html#af466bba4a625283aeb37b25ef65aba8f">mixerDetails</a></td></tr>
+<tr class="separator:af466bba4a625283aeb37b25ef65aba8f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a144cbcc66275bb350b74a73b8a1eabad"><td class="memItemLeft" align="right" valign="top">QGridLayout *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ms_1_1_mixer.html#a144cbcc66275bb350b74a73b8a1eabad">detailsLayout</a></td></tr>
+<tr class="separator:a144cbcc66275bb350b74a73b8a1eabad"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:acea6430398f4b85f40c1fb508c278a69"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ms_1_1_mixer.html#acea6430398f4b85f40c1fb508c278a69">showDetails</a></td></tr>
+<tr class="separator:acea6430398f4b85f40c1fb508c278a69"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac6e79c8d2637edab7449620b32b1e519"><td class="memItemLeft" align="right" valign="top">QSet&lt; <a class="el" href="class_ms_1_1_part.html">Part</a> * &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ms_1_1_mixer.html#ac6e79c8d2637edab7449620b32b1e519">expandedParts</a></td></tr>
+<tr class="separator:ac6e79c8d2637edab7449620b32b1e519"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a1fb22935e03d79e84875fbb09bb144da"><td class="memItemLeft" align="right" valign="top">QWidget *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ms_1_1_mixer.html#a1fb22935e03d79e84875fbb09bb144da">trackHolder</a></td></tr>
+<tr class="separator:a1fb22935e03d79e84875fbb09bb144da"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a5a4ed116780d351f51b56bac74ffc5e6"><td class="memItemLeft" align="right" valign="top">QList&lt; <a class="el" href="class_ms_1_1_mixer_track.html">MixerTrack</a> * &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ms_1_1_mixer.html#a5a4ed116780d351f51b56bac74ffc5e6">trackList</a></td></tr>
+<tr class="separator:a5a4ed116780d351f51b56bac74ffc5e6"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab99a1cd5d49fbb433d3b975c3f124a9b"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ms_1_1_mixer.html#ab99a1cd5d49fbb433d3b975c3f124a9b">_scrollPosition</a> = 0</td></tr>
+<tr class="separator:ab99a1cd5d49fbb433d3b975c3f124a9b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a7d2b84078222ba85bf06b6d7dc476d99"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ms_1_1_mixer.html#a7d2b84078222ba85bf06b6d7dc476d99">_needToKeepScrollPosition</a> = false</td></tr>
+<tr class="separator:a7d2b84078222ba85bf06b6d7dc476d99"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
 <a id="ab353ec74d259b15de0fd1b164e7bb16c"></a>
@@ -275,6 +363,68 @@ Protected Member Functions</h2></td></tr>
 
 </div>
 </div>
+<a id="a5dc17b6dd0ab5d3d74ceabb060cea13a"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a5dc17b6dd0ab5d3d74ceabb060cea13a">&#9670;&nbsp;</a></span>closeEvent()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void Ms::Mixer::closeEvent </td>
+          <td>(</td>
+          <td class="paramtype">QCloseEvent *&#160;</td>
+          <td class="paramname"><em>ev</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">override</span><span class="mlabel">private</span><span class="mlabel">virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="af692cb0aae862ade6d5e4106fbe9d91f"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#af692cb0aae862ade6d5e4106fbe9d91f">&#9670;&nbsp;</a></span>eventFilter()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool Ms::Mixer::eventFilter </td>
+          <td>(</td>
+          <td class="paramtype">QObject *&#160;</td>
+          <td class="paramname"><em>obj</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">QEvent *&#160;</td>
+          <td class="paramname"><em>e</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">override</span><span class="mlabel">private</span><span class="mlabel">virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
 <a id="a72b691fa841099aded8cfb5ee36b22e4"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a72b691fa841099aded8cfb5ee36b22e4">&#9670;&nbsp;</a></span>expandToggled()</h2>
 
@@ -327,6 +477,83 @@ Protected Member Functions</h2></td></tr>
           <td></td>
         </tr>
       </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="aeae57d9cea3edda119969d5c1bfb8020"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aeae57d9cea3edda119969d5c1bfb8020">&#9670;&nbsp;</a></span>hideEvent()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void Ms::Mixer::hideEvent </td>
+          <td>(</td>
+          <td class="paramtype">QHideEvent *&#160;</td>
+          <td class="paramname"><em>e</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">override</span><span class="mlabel">private</span><span class="mlabel">virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a6212dac5916052b3382d0b260db204f6"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a6212dac5916052b3382d0b260db204f6">&#9670;&nbsp;</a></span>keepScrollPosition()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void Ms::Mixer::keepScrollPosition </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="adb91e8d9dad4e98a066b729d26a13593"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#adb91e8d9dad4e98a066b729d26a13593">&#9670;&nbsp;</a></span>keyPressEvent()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void Ms::Mixer::keyPressEvent </td>
+          <td>(</td>
+          <td class="paramtype">QKeyEvent *&#160;</td>
+          <td class="paramname"><em>ev</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">override</span><span class="mlabel">private</span><span class="mlabel">virtual</span></span>  </td>
+  </tr>
+</table>
 </div><div class="memdoc">
 
 </div>
@@ -411,6 +638,32 @@ Protected Member Functions</h2></td></tr>
 
 </div>
 </div>
+<a id="aa325a01294babd414bdc42e7878b6ad9"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aa325a01294babd414bdc42e7878b6ad9">&#9670;&nbsp;</a></span>on_partOnlyCheckBox_toggled</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void Ms::Mixer::on_partOnlyCheckBox_toggled </td>
+          <td>(</td>
+          <td class="paramtype">bool&#160;</td>
+          <td class="paramname"><em>checked</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span><span class="mlabel">slot</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
 <a id="aa565f3ecdf27a59b4374b42e7635f550"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#aa565f3ecdf27a59b4374b42e7635f550">&#9670;&nbsp;</a></span>retranslate()</h2>
 
@@ -431,6 +684,32 @@ Protected Member Functions</h2></td></tr>
   </td>
   <td class="mlabels-right">
 <span class="mlabels"><span class="mlabel">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a1b9c61dc7fbbb11f3bbdf58e90578996"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a1b9c61dc7fbbb11f3bbdf58e90578996">&#9670;&nbsp;</a></span>setPlaybackScore()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void Ms::Mixer::setPlaybackScore </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="class_ms_1_1_score.html">Score</a> *&#160;</td>
+          <td class="paramname"><em>score</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
   </tr>
 </table>
 </div><div class="memdoc">
@@ -469,6 +748,32 @@ Protected Member Functions</h2></td></tr>
           <td></td>
         </tr>
       </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="aa52ea8ab317802effcc737182ccdc6fd"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aa52ea8ab317802effcc737182ccdc6fd">&#9670;&nbsp;</a></span>showEvent()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void Ms::Mixer::showEvent </td>
+          <td>(</td>
+          <td class="paramtype">QShowEvent *&#160;</td>
+          <td class="paramname"><em>e</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">override</span><span class="mlabel">private</span><span class="mlabel">virtual</span></span>  </td>
+  </tr>
+</table>
 </div><div class="memdoc">
 
 </div>
@@ -524,19 +829,267 @@ Protected Member Functions</h2></td></tr>
 
 </div>
 </div>
-<a id="ac6a41f9627ae6c7bcefda5fee21a4eac"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ac6a41f9627ae6c7bcefda5fee21a4eac">&#9670;&nbsp;</a></span>writeSettings()</h2>
+<h2 class="groupheader">Member Data Documentation</h2>
+<a id="a15974b1b7ed655269a6fff492acd5a40"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a15974b1b7ed655269a6fff492acd5a40">&#9670;&nbsp;</a></span>_activeScore</h2>
 
 <div class="memitem">
 <div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">void Ms::Mixer::writeSettings </td>
-          <td>(</td>
-          <td class="paramname"></td><td>)</td>
-          <td></td>
+          <td class="memname"><a class="el" href="class_ms_1_1_score.html">Score</a>* Ms::Mixer::_activeScore = nullptr</td>
         </tr>
       </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a7d2b84078222ba85bf06b6d7dc476d99"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a7d2b84078222ba85bf06b6d7dc476d99">&#9670;&nbsp;</a></span>_needToKeepScrollPosition</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool Ms::Mixer::_needToKeepScrollPosition = false</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="ab57f662852ccaf487d431a0f57be0fe2"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ab57f662852ccaf487d431a0f57be0fe2">&#9670;&nbsp;</a></span>_score</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="class_ms_1_1_score.html">Score</a>* Ms::Mixer::_score = nullptr</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="ab99a1cd5d49fbb433d3b975c3f124a9b"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ab99a1cd5d49fbb433d3b975c3f124a9b">&#9670;&nbsp;</a></span>_scrollPosition</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">int Ms::Mixer::_scrollPosition = 0</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a144cbcc66275bb350b74a73b8a1eabad"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a144cbcc66275bb350b74a73b8a1eabad">&#9670;&nbsp;</a></span>detailsLayout</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">QGridLayout* Ms::Mixer::detailsLayout</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a267289160d973ea31afe951a76a6bf78"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a267289160d973ea31afe951a76a6bf78">&#9670;&nbsp;</a></span>enablePlay</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="class_ms_1_1_enable_play_for_widget.html">EnablePlayForWidget</a>* Ms::Mixer::enablePlay</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="ac6e79c8d2637edab7449620b32b1e519"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ac6e79c8d2637edab7449620b32b1e519">&#9670;&nbsp;</a></span>expandedParts</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">QSet&lt;<a class="el" href="class_ms_1_1_part.html">Part</a>*&gt; Ms::Mixer::expandedParts</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="af466bba4a625283aeb37b25ef65aba8f"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#af466bba4a625283aeb37b25ef65aba8f">&#9670;&nbsp;</a></span>mixerDetails</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="class_ms_1_1_mixer_details.html">MixerDetails</a>* Ms::Mixer::mixerDetails</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="acea6430398f4b85f40c1fb508c278a69"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#acea6430398f4b85f40c1fb508c278a69">&#9670;&nbsp;</a></span>showDetails</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool Ms::Mixer::showDetails</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="afc089dc8c8e77100117b58ae0730d90f"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#afc089dc8c8e77100117b58ae0730d90f">&#9670;&nbsp;</a></span>trackAreaLayout</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">QHBoxLayout* Ms::Mixer::trackAreaLayout</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a1fb22935e03d79e84875fbb09bb144da"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a1fb22935e03d79e84875fbb09bb144da">&#9670;&nbsp;</a></span>trackHolder</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">QWidget* Ms::Mixer::trackHolder</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a5a4ed116780d351f51b56bac74ffc5e6"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a5a4ed116780d351f51b56bac74ffc5e6">&#9670;&nbsp;</a></span>trackList</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">QList&lt;<a class="el" href="class_ms_1_1_mixer_track.html">MixerTrack</a>*&gt; Ms::Mixer::trackList</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
 </div><div class="memdoc">
 
 </div>

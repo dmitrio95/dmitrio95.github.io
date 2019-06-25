@@ -23,9 +23,9 @@
   <td id="projectlogo"><img alt="Logo" src="musescore_logo_full.png"/></td>
   <td id="projectalign" style="padding-left: 0.5em;">
    <div id="projectname">MuseScore
-   &#160;<span id="projectnumber">3.1</span>
+   &#160;<span id="projectnumber">3.2</span>
    </div>
-   <div id="projectbrief">Music compisition and notation</div>
+   <div id="projectbrief">Music composition and notation</div>
   </td>
  </tr>
  </tbody>
@@ -68,6 +68,7 @@ $(function() {
   <div class="summary">
 <a href="#pub-slots">Public Slots</a> &#124;
 <a href="#pub-methods">Public Member Functions</a> &#124;
+<a href="#pri-attribs">Private Attributes</a> &#124;
 <a href="class_ms_1_1_mixer_details_voice_button_handler-members.html">List of all members</a>  </div>
   <div class="headertitle">
 <div class="title">Ms::MixerDetailsVoiceButtonHandler Class Reference</div>  </div>
@@ -87,6 +88,10 @@ Collaboration diagram for Ms::MixerDetailsVoiceButtonHandler:</div>
 <div class="dyncontent">
 <div class="center"><img src="class_ms_1_1_mixer_details_voice_button_handler__coll__graph.png" border="0" usemap="#_ms_1_1_mixer_details_voice_button_handler_coll__map" alt="Collaboration graph"/></div>
 <map name="_ms_1_1_mixer_details_voice_button_handler_coll__map" id="_ms_1_1_mixer_details_voice_button_handler_coll__map">
+<area shape="rect" id="node3" href="class_ms_1_1_mixer_details.html" title="Ms::MixerDetails" alt="" coords="121,276,242,303"/>
+<area shape="rect" id="node6" href="class_ms_1_1_channel_listener.html" title="Ms::ChannelListener" alt="" coords="263,200,406,227"/>
+<area shape="rect" id="node7" href="class_ms_1_1_listener.html" title="Ms::Listener\&lt; Channel\l::Prop \&gt;" alt="" coords="257,109,412,151"/>
+<area shape="rect" id="node8" href="class_ms_1_1_notifier.html" title="Ms::Notifier\&lt; Channel\l::Prop \&gt;" alt="" coords="259,5,410,47"/>
 </map>
 <center><span class="legend">[<a href="graph_legend.html">legend</a>]</span></center></div>
 <table class="memberdecls">
@@ -99,6 +104,15 @@ Public Slots</h2></td></tr>
 Public Member Functions</h2></td></tr>
 <tr class="memitem:a5610b770c4754f37dfb98ab4c3eeaeaf"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ms_1_1_mixer_details_voice_button_handler.html#a5610b770c4754f37dfb98ab4c3eeaeaf">MixerDetailsVoiceButtonHandler</a> (<a class="el" href="class_ms_1_1_mixer_details.html">MixerDetails</a> *mixerDetails, int staff, int voice, QObject *parent=nullptr)</td></tr>
 <tr class="separator:a5610b770c4754f37dfb98ab4c3eeaeaf"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pri-attribs"></a>
+Private Attributes</h2></td></tr>
+<tr class="memitem:a3a3059f90df81b277f2886be3e2503f2"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_ms_1_1_mixer_details.html">MixerDetails</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ms_1_1_mixer_details_voice_button_handler.html#a3a3059f90df81b277f2886be3e2503f2">_mixerDetails</a></td></tr>
+<tr class="separator:a3a3059f90df81b277f2886be3e2503f2"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae37e2ed7c4c4bb42be323a39bf6b27fb"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ms_1_1_mixer_details_voice_button_handler.html#ae37e2ed7c4c4bb42be323a39bf6b27fb">_staff</a></td></tr>
+<tr class="separator:ae37e2ed7c4c4bb42be323a39bf6b27fb"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab4b630fad29f7d9db932b93d7bf6d7e3"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ms_1_1_mixer_details_voice_button_handler.html#ab4b630fad29f7d9db932b93d7bf6d7e3">_voice</a></td></tr>
+<tr class="separator:ab4b630fad29f7d9db932b93d7bf6d7e3"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
 <a id="a5610b770c4754f37dfb98ab4c3eeaeaf"></a>
@@ -170,6 +184,73 @@ Public Member Functions</h2></td></tr>
   </td>
   <td class="mlabels-right">
 <span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">slot</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<h2 class="groupheader">Member Data Documentation</h2>
+<a id="a3a3059f90df81b277f2886be3e2503f2"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a3a3059f90df81b277f2886be3e2503f2">&#9670;&nbsp;</a></span>_mixerDetails</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="class_ms_1_1_mixer_details.html">MixerDetails</a>* Ms::MixerDetailsVoiceButtonHandler::_mixerDetails</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="ae37e2ed7c4c4bb42be323a39bf6b27fb"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ae37e2ed7c4c4bb42be323a39bf6b27fb">&#9670;&nbsp;</a></span>_staff</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">int Ms::MixerDetailsVoiceButtonHandler::_staff</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="ab4b630fad29f7d9db932b93d7bf6d7e3"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ab4b630fad29f7d9db932b93d7bf6d7e3">&#9670;&nbsp;</a></span>_voice</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">int Ms::MixerDetailsVoiceButtonHandler::_voice</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
   </tr>
 </table>
 </div><div class="memdoc">

@@ -23,9 +23,9 @@
   <td id="projectlogo"><img alt="Logo" src="musescore_logo_full.png"/></td>
   <td id="projectalign" style="padding-left: 0.5em;">
    <div id="projectname">MuseScore
-   &#160;<span id="projectnumber">3.1</span>
+   &#160;<span id="projectnumber">3.2</span>
    </div>
-   <div id="projectbrief">Music compisition and notation</div>
+   <div id="projectbrief">Music composition and notation</div>
   </td>
  </tr>
  </tbody>
@@ -68,6 +68,9 @@ $(function() {
   <div class="summary">
 <a href="#signals">Signals</a> &#124;
 <a href="#pub-methods">Public Member Functions</a> &#124;
+<a href="#pri-slots">Private Slots</a> &#124;
+<a href="#pri-methods">Private Member Functions</a> &#124;
+<a href="#pri-attribs">Private Attributes</a> &#124;
 <a href="class_ms_1_1_plugin_manager-members.html">List of all members</a>  </div>
   <div class="headertitle">
 <div class="title">Ms::PluginManager Class Reference</div>  </div>
@@ -113,6 +116,39 @@ Public Member Functions</h2></td></tr>
 <tr class="separator:a0e9b07523c51ff1800990f6b43f5a232"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a8744580d6f970a05d0ca8a2c09346145"><td class="memItemLeft" align="right" valign="top"><a class="el" href="struct_ms_1_1_plugin_description.html">PluginDescription</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ms_1_1_plugin_manager.html#a8744580d6f970a05d0ca8a2c09346145">getPluginDescription</a> (int idx)</td></tr>
 <tr class="separator:a8744580d6f970a05d0ca8a2c09346145"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pri-slots"></a>
+Private Slots</h2></td></tr>
+<tr class="memitem:a89d78ecd27b416334634194f2c6c8416"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ms_1_1_plugin_manager.html#a89d78ecd27b416334634194f2c6c8416">definePluginShortcutClicked</a> ()</td></tr>
+<tr class="separator:a89d78ecd27b416334634194f2c6c8416"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a36dfd40d5d7a92c055a53d374a7bd07a"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ms_1_1_plugin_manager.html#a36dfd40d5d7a92c055a53d374a7bd07a">clearPluginShortcutClicked</a> ()</td></tr>
+<tr class="separator:a36dfd40d5d7a92c055a53d374a7bd07a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:adf6b031a32b9edce8ad846255f5d22f6"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ms_1_1_plugin_manager.html#adf6b031a32b9edce8ad846255f5d22f6">pluginListWidgetItemChanged</a> (QListWidgetItem *, QListWidgetItem *)</td></tr>
+<tr class="separator:adf6b031a32b9edce8ad846255f5d22f6"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a1a1db68e2353bec7076b5a9ea726e6fb"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ms_1_1_plugin_manager.html#a1a1db68e2353bec7076b5a9ea726e6fb">pluginLoadToggled</a> (QListWidgetItem *)</td></tr>
+<tr class="separator:a1a1db68e2353bec7076b5a9ea726e6fb"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a4ec828aae2f38454217be6b81f13c66f"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ms_1_1_plugin_manager.html#a4ec828aae2f38454217be6b81f13c66f">reloadPluginsClicked</a> ()</td></tr>
+<tr class="separator:a4ec828aae2f38454217be6b81f13c66f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pri-methods"></a>
+Private Member Functions</h2></td></tr>
+<tr class="memitem:a47b57a6b62291f91d8509fe531615cf4"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ms_1_1_plugin_manager.html#a47b57a6b62291f91d8509fe531615cf4">readSettings</a> ()</td></tr>
+<tr class="separator:a47b57a6b62291f91d8509fe531615cf4"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9c15c950476fab9acec626e490d6e62c"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ms_1_1_plugin_manager.html#a9c15c950476fab9acec626e490d6e62c">loadList</a> (bool forceRefresh)</td></tr>
+<tr class="separator:a9c15c950476fab9acec626e490d6e62c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab26fcb1cc0a6389982a0b91f2491f776"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ms_1_1_plugin_manager.html#ab26fcb1cc0a6389982a0b91f2491f776">closeEvent</a> (QCloseEvent *)</td></tr>
+<tr class="separator:ab26fcb1cc0a6389982a0b91f2491f776"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a0d7a739776f41d0e51d964c460011b45"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ms_1_1_plugin_manager.html#a0d7a739776f41d0e51d964c460011b45">accept</a> ()</td></tr>
+<tr class="separator:a0d7a739776f41d0e51d964c460011b45"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pri-attribs"></a>
+Private Attributes</h2></td></tr>
+<tr class="memitem:a09b5994fd44a19fe877376a7725e798c"><td class="memItemLeft" align="right" valign="top">QMap&lt; QString, <a class="el" href="class_ms_1_1_shortcut.html">Shortcut</a> * &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ms_1_1_plugin_manager.html#a09b5994fd44a19fe877376a7725e798c">localShortcuts</a></td></tr>
+<tr class="separator:a09b5994fd44a19fe877376a7725e798c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a7b244c20a2c8977f0da6208ae7cd2799"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ms_1_1_plugin_manager.html#a7b244c20a2c8977f0da6208ae7cd2799">shortcutsChanged</a></td></tr>
+<tr class="separator:a7b244c20a2c8977f0da6208ae7cd2799"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a287ba9df0c18dfa5280f0a7ee335a844"><td class="memItemLeft" align="right" valign="top">QList&lt; <a class="el" href="struct_ms_1_1_plugin_description.html">PluginDescription</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ms_1_1_plugin_manager.html#a287ba9df0c18dfa5280f0a7ee335a844">_pluginList</a></td></tr>
+<tr class="separator:a287ba9df0c18dfa5280f0a7ee335a844"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
 <a id="a26355a667fa4cd736d0b67ab1a0f3340"></a>
@@ -134,6 +170,56 @@ Public Member Functions</h2></td></tr>
 </div>
 </div>
 <h2 class="groupheader">Member Function Documentation</h2>
+<a id="a0d7a739776f41d0e51d964c460011b45"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a0d7a739776f41d0e51d964c460011b45">&#9670;&nbsp;</a></span>accept()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void Ms::PluginManager::accept </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span><span class="mlabel">virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a36dfd40d5d7a92c055a53d374a7bd07a"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a36dfd40d5d7a92c055a53d374a7bd07a">&#9670;&nbsp;</a></span>clearPluginShortcutClicked</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void Ms::PluginManager::clearPluginShortcutClicked </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span><span class="mlabel">slot</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
 <a id="ac6a5e8697011bda54b30cb7d1293ebfc"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#ac6a5e8697011bda54b30cb7d1293ebfc">&#9670;&nbsp;</a></span>closed</h2>
 
@@ -154,6 +240,57 @@ Public Member Functions</h2></td></tr>
   </td>
   <td class="mlabels-right">
 <span class="mlabels"><span class="mlabel">signal</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="ab26fcb1cc0a6389982a0b91f2491f776"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ab26fcb1cc0a6389982a0b91f2491f776">&#9670;&nbsp;</a></span>closeEvent()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void Ms::PluginManager::closeEvent </td>
+          <td>(</td>
+          <td class="paramtype">QCloseEvent *&#160;</td>
+          <td class="paramname"><em>ev</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span><span class="mlabel">virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a89d78ecd27b416334634194f2c6c8416"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a89d78ecd27b416334634194f2c6c8416">&#9670;&nbsp;</a></span>definePluginShortcutClicked</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void Ms::PluginManager::definePluginShortcutClicked </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span><span class="mlabel">slot</span></span>  </td>
   </tr>
 </table>
 </div><div class="memdoc">
@@ -203,6 +340,32 @@ Public Member Functions</h2></td></tr>
 
 </div>
 </div>
+<a id="a9c15c950476fab9acec626e490d6e62c"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a9c15c950476fab9acec626e490d6e62c">&#9670;&nbsp;</a></span>loadList()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void Ms::PluginManager::loadList </td>
+          <td>(</td>
+          <td class="paramtype">bool&#160;</td>
+          <td class="paramname"><em>forceRefresh</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
 <a id="a0e9b07523c51ff1800990f6b43f5a232"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a0e9b07523c51ff1800990f6b43f5a232">&#9670;&nbsp;</a></span>pluginCount()</h2>
 
@@ -228,6 +391,68 @@ Public Member Functions</h2></td></tr>
 
 </div>
 </div>
+<a id="adf6b031a32b9edce8ad846255f5d22f6"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#adf6b031a32b9edce8ad846255f5d22f6">&#9670;&nbsp;</a></span>pluginListWidgetItemChanged</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void Ms::PluginManager::pluginListWidgetItemChanged </td>
+          <td>(</td>
+          <td class="paramtype">QListWidgetItem *&#160;</td>
+          <td class="paramname"><em>item</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">QListWidgetItem *&#160;</td>
+          <td class="paramname">&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span><span class="mlabel">slot</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a1a1db68e2353bec7076b5a9ea726e6fb"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a1a1db68e2353bec7076b5a9ea726e6fb">&#9670;&nbsp;</a></span>pluginLoadToggled</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void Ms::PluginManager::pluginLoadToggled </td>
+          <td>(</td>
+          <td class="paramtype">QListWidgetItem *&#160;</td>
+          <td class="paramname"><em>item</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span><span class="mlabel">slot</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
 <a id="a5fad64597c973814969a35910a46aa34"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a5fad64597c973814969a35910a46aa34">&#9670;&nbsp;</a></span>readPluginList()</h2>
 
@@ -241,6 +466,56 @@ Public Member Functions</h2></td></tr>
           <td></td>
         </tr>
       </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a47b57a6b62291f91d8509fe531615cf4"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a47b57a6b62291f91d8509fe531615cf4">&#9670;&nbsp;</a></span>readSettings()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void Ms::PluginManager::readSettings </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a4ec828aae2f38454217be6b81f13c66f"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a4ec828aae2f38454217be6b81f13c66f">&#9670;&nbsp;</a></span>reloadPluginsClicked</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void Ms::PluginManager::reloadPluginsClicked </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span><span class="mlabel">slot</span></span>  </td>
+  </tr>
+</table>
 </div><div class="memdoc">
 
 </div>
@@ -293,6 +568,73 @@ Public Member Functions</h2></td></tr>
           <td></td>
         </tr>
       </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<h2 class="groupheader">Member Data Documentation</h2>
+<a id="a287ba9df0c18dfa5280f0a7ee335a844"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a287ba9df0c18dfa5280f0a7ee335a844">&#9670;&nbsp;</a></span>_pluginList</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">QList&lt;<a class="el" href="struct_ms_1_1_plugin_description.html">PluginDescription</a>&gt; Ms::PluginManager::_pluginList</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a09b5994fd44a19fe877376a7725e798c"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a09b5994fd44a19fe877376a7725e798c">&#9670;&nbsp;</a></span>localShortcuts</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">QMap&lt;QString, <a class="el" href="class_ms_1_1_shortcut.html">Shortcut</a>*&gt; Ms::PluginManager::localShortcuts</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a7b244c20a2c8977f0da6208ae7cd2799"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a7b244c20a2c8977f0da6208ae7cd2799">&#9670;&nbsp;</a></span>shortcutsChanged</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool Ms::PluginManager::shortcutsChanged</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
 </div><div class="memdoc">
 
 </div>

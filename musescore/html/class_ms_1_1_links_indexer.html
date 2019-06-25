@@ -23,9 +23,9 @@
   <td id="projectlogo"><img alt="Logo" src="musescore_logo_full.png"/></td>
   <td id="projectalign" style="padding-left: 0.5em;">
    <div id="projectname">MuseScore
-   &#160;<span id="projectnumber">3.1</span>
+   &#160;<span id="projectnumber">3.2</span>
    </div>
-   <div id="projectbrief">Music compisition and notation</div>
+   <div id="projectbrief">Music composition and notation</div>
   </td>
  </tr>
  </tbody>
@@ -67,6 +67,7 @@ $(function() {
 <div class="header">
   <div class="summary">
 <a href="#pub-methods">Public Member Functions</a> &#124;
+<a href="#pri-attribs">Private Attributes</a> &#124;
 <a href="class_ms_1_1_links_indexer-members.html">List of all members</a>  </div>
   <div class="headertitle">
 <div class="title">Ms::LinksIndexer Class Reference</div>  </div>
@@ -74,11 +75,27 @@ $(function() {
 <div class="contents">
 
 <p><code>#include &lt;<a class="el" href="xml_8h_source.html">xml.h</a>&gt;</code></p>
+<div class="dynheader">
+Collaboration diagram for Ms::LinksIndexer:</div>
+<div class="dyncontent">
+<div class="center"><img src="class_ms_1_1_links_indexer__coll__graph.png" border="0" usemap="#_ms_1_1_links_indexer_coll__map" alt="Collaboration graph"/></div>
+<map name="_ms_1_1_links_indexer_coll__map" id="_ms_1_1_links_indexer_coll__map">
+<area shape="rect" id="node2" href="class_ms_1_1_location.html" title="Ms::Location" alt="" coords="18,95,115,121"/>
+<area shape="rect" id="node3" href="class_ms_1_1_fraction.html" title="Ms::Fraction" alt="" coords="19,5,114,32"/>
+</map>
+<center><span class="legend">[<a href="graph_legend.html">legend</a>]</span></center></div>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
 <tr class="memitem:abe66a53678ccad068ff2afeea13a33b5"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ms_1_1_links_indexer.html#abe66a53678ccad068ff2afeea13a33b5">assignLocalIndex</a> (const <a class="el" href="class_ms_1_1_location.html">Location</a> &amp;mainElementInfo)</td></tr>
 <tr class="separator:abe66a53678ccad068ff2afeea13a33b5"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pri-attribs"></a>
+Private Attributes</h2></td></tr>
+<tr class="memitem:ab8c5936a7843abe0c4eb6b8c35cba67c"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ms_1_1_links_indexer.html#ab8c5936a7843abe0c4eb6b8c35cba67c">_lastLocalIndex</a> { -1 }</td></tr>
+<tr class="separator:ab8c5936a7843abe0c4eb6b8c35cba67c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af1bf365abfb9992c26c58ce0f0136e3d"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_ms_1_1_location.html">Location</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ms_1_1_links_indexer.html#af1bf365abfb9992c26c58ce0f0136e3d">_lastLinkedElementLoc</a> { <a class="el" href="class_ms_1_1_location.html#ab22a638c5b1577bf0988533a2a6103ea">Location::absolute</a>() }</td></tr>
+<tr class="separator:af1bf365abfb9992c26c58ce0f0136e3d"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <h2 class="groupheader">Member Function Documentation</h2>
 <a id="abe66a53678ccad068ff2afeea13a33b5"></a>
@@ -99,9 +116,55 @@ Public Member Functions</h2></td></tr>
 
 </div>
 </div>
+<h2 class="groupheader">Member Data Documentation</h2>
+<a id="af1bf365abfb9992c26c58ce0f0136e3d"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#af1bf365abfb9992c26c58ce0f0136e3d">&#9670;&nbsp;</a></span>_lastLinkedElementLoc</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="class_ms_1_1_location.html">Location</a> Ms::LinksIndexer::_lastLinkedElementLoc { <a class="el" href="class_ms_1_1_location.html#ab22a638c5b1577bf0988533a2a6103ea">Location::absolute</a>() }</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="ab8c5936a7843abe0c4eb6b8c35cba67c"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ab8c5936a7843abe0c4eb6b8c35cba67c">&#9670;&nbsp;</a></span>_lastLocalIndex</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">int Ms::LinksIndexer::_lastLocalIndex { -1 }</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
 <hr/>The documentation for this class was generated from the following files:<ul>
 <li>libmscore/<a class="el" href="xml_8h_source.html">xml.h</a></li>
 <li>libmscore/<a class="el" href="libmscore_2xmlreader_8cpp.html">xmlreader.cpp</a></li>
+<li>libmscore/<a class="el" href="xmlreader__frac_8cpp.html">xmlreader_frac.cpp</a></li>
 </ul>
 </div><!-- contents -->
 <!-- start footer part -->

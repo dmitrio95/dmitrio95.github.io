@@ -23,9 +23,9 @@
   <td id="projectlogo"><img alt="Logo" src="musescore_logo_full.png"/></td>
   <td id="projectalign" style="padding-left: 0.5em;">
    <div id="projectname">MuseScore
-   &#160;<span id="projectnumber">3.1</span>
+   &#160;<span id="projectnumber">3.2</span>
    </div>
-   <div id="projectbrief">Music compisition and notation</div>
+   <div id="projectbrief">Music composition and notation</div>
   </td>
  </tr>
  </tbody>
@@ -68,6 +68,7 @@ $(function() {
   <div class="summary">
 <a href="#pub-methods">Public Member Functions</a> &#124;
 <a href="#pub-attribs">Public Attributes</a> &#124;
+<a href="#pri-attribs">Private Attributes</a> &#124;
 <a href="class_ms_1_1_rest_obj-members.html">List of all members</a>  </div>
   <div class="headertitle">
 <div class="title">Ms::RestObj Class Reference</div>  </div>
@@ -90,11 +91,11 @@ Collaboration diagram for Ms::RestObj:</div>
 <div class="dyncontent">
 <div class="center"><img src="class_ms_1_1_rest_obj__coll__graph.png" border="0" usemap="#_ms_1_1_rest_obj_coll__map" alt="Collaboration graph"/></div>
 <map name="_ms_1_1_rest_obj_coll__map" id="_ms_1_1_rest_obj_coll__map">
-<area shape="rect" id="node2" href="class_ms_1_1_basic_durational_obj.html" title="Ms::BasicDurationalObj" alt="" coords="11,5,171,32"/>
-<area shape="rect" id="node5" href="class_ms_1_1_chord_obj.html" title="Ms::ChordObj" alt="" coords="67,81,170,108"/>
+<area shape="rect" id="node2" href="class_ms_1_1_basic_durational_obj.html" title="Ms::BasicDurationalObj" alt="" coords="21,5,181,32"/>
+<area shape="rect" id="node5" href="class_ms_1_1_chord_obj.html" title="Ms::ChordObj" alt="" coords="78,81,181,108"/>
 <area shape="rect" id="node3" href="class_ms_1_1_capella_obj.html" title="Ms::CapellaObj" alt="" coords="5,260,117,287"/>
-<area shape="rect" id="node4" href="class_ms_1_1_capella.html" title="Ms::Capella" alt="" coords="69,171,161,197"/>
-<area shape="rect" id="node6" href="class_ms_1_1_note_obj.html" title="Ms::NoteObj" alt="" coords="195,5,291,32"/>
+<area shape="rect" id="node4" href="class_ms_1_1_capella.html" title="Ms::Capella" alt="" coords="81,171,173,197"/>
+<area shape="rect" id="node6" href="class_ms_1_1_note_obj.html" title="Ms::NoteObj" alt="" coords="205,5,301,32"/>
 </map>
 <center><span class="legend">[<a href="graph_legend.html">legend</a>]</span></center></div>
 <table class="memberdecls">
@@ -160,6 +161,13 @@ Public Attributes</h2></td></tr>
 <tr class="memitem:a29abae23d2dae4783a88f375c7419623 inherit pub_attribs_class_ms_1_1_basic_durational_obj"><td class="memItemLeft" align="right" valign="top">QList&lt; <a class="el" href="class_ms_1_1_basic_draw_obj.html">BasicDrawObj</a> * &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ms_1_1_basic_durational_obj.html#a29abae23d2dae4783a88f375c7419623">objects</a></td></tr>
 <tr class="separator:a29abae23d2dae4783a88f375c7419623 inherit pub_attribs_class_ms_1_1_basic_durational_obj"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pri-attribs"></a>
+Private Attributes</h2></td></tr>
+<tr class="memitem:af687e15f8f680693f1193061cb1d4e2f"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ms_1_1_rest_obj.html#af687e15f8f680693f1193061cb1d4e2f">bVerticalCentered</a></td></tr>
+<tr class="separator:af687e15f8f680693f1193061cb1d4e2f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af0db7d3c1b173d66370d703473460eb8"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ms_1_1_rest_obj.html#af0db7d3c1b173d66370d703473460eb8">vertShift</a></td></tr>
+<tr class="separator:af0db7d3c1b173d66370d703473460eb8"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="inherited"></a>
 Additional Inherited Members</h2></td></tr>
 <tr class="inherit_header pro_attribs_class_ms_1_1_capella_obj"><td colspan="2" onclick="javascript:toggleInherit('pro_attribs_class_ms_1_1_capella_obj')"><img src="closed.png" alt="-"/>&#160;Protected Attributes inherited from <a class="el" href="class_ms_1_1_capella_obj.html">Ms::CapellaObj</a></td></tr>
@@ -222,6 +230,28 @@ Additional Inherited Members</h2></td></tr>
 </div>
 </div>
 <h2 class="groupheader">Member Data Documentation</h2>
+<a id="af687e15f8f680693f1193061cb1d4e2f"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#af687e15f8f680693f1193061cb1d4e2f">&#9670;&nbsp;</a></span>bVerticalCentered</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool Ms::RestObj::bVerticalCentered</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
 <a id="ab24a5a2567781bcdc3f6acdc2b53d5ba"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#ab24a5a2567781bcdc3f6acdc2b53d5ba">&#9670;&nbsp;</a></span>fullMeasures</h2>
 
@@ -232,6 +262,28 @@ Additional Inherited Members</h2></td></tr>
           <td class="memname">unsigned Ms::RestObj::fullMeasures</td>
         </tr>
       </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="af0db7d3c1b173d66370d703473460eb8"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#af0db7d3c1b173d66370d703473460eb8">&#9670;&nbsp;</a></span>vertShift</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">int Ms::RestObj::vertShift</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
 </div><div class="memdoc">
 
 </div>

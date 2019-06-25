@@ -23,9 +23,9 @@
   <td id="projectlogo"><img alt="Logo" src="musescore_logo_full.png"/></td>
   <td id="projectalign" style="padding-left: 0.5em;">
    <div id="projectname">MuseScore
-   &#160;<span id="projectnumber">3.1</span>
+   &#160;<span id="projectnumber">3.2</span>
    </div>
-   <div id="projectbrief">Music compisition and notation</div>
+   <div id="projectbrief">Music composition and notation</div>
   </td>
  </tr>
  </tbody>
@@ -68,6 +68,8 @@ $(function() {
   <div class="summary">
 <a href="#pub-slots">Public Slots</a> &#124;
 <a href="#pub-methods">Public Member Functions</a> &#124;
+<a href="#pri-methods">Private Member Functions</a> &#124;
+<a href="#pri-attribs">Private Attributes</a> &#124;
 <a href="class_ms_1_1_mixer_details-members.html">List of all members</a>  </div>
   <div class="headertitle">
 <div class="title">Ms::MixerDetails Class Reference</div>  </div>
@@ -89,8 +91,9 @@ Collaboration diagram for Ms::MixerDetails:</div>
 <div class="dyncontent">
 <div class="center"><img src="class_ms_1_1_mixer_details__coll__graph.png" border="0" usemap="#_ms_1_1_mixer_details_coll__map" alt="Collaboration graph"/></div>
 <map name="_ms_1_1_mixer_details_coll__map" id="_ms_1_1_mixer_details_coll__map">
-<area shape="rect" id="node4" href="class_ms_1_1_channel_listener.html" title="Ms::ChannelListener" alt="" coords="243,95,385,121"/>
-<area shape="rect" id="node5" href="class_ms_1_1_listener.html" title="Ms::Listener\&lt; Channel\l::Prop \&gt;" alt="" coords="237,5,391,47"/>
+<area shape="rect" id="node4" href="class_ms_1_1_channel_listener.html" title="Ms::ChannelListener" alt="" coords="243,200,385,227"/>
+<area shape="rect" id="node5" href="class_ms_1_1_listener.html" title="Ms::Listener\&lt; Channel\l::Prop \&gt;" alt="" coords="237,109,391,151"/>
+<area shape="rect" id="node6" href="class_ms_1_1_notifier.html" title="Ms::Notifier\&lt; Channel\l::Prop \&gt;" alt="" coords="239,5,389,47"/>
 </map>
 <center><span class="legend">[<a href="graph_legend.html">legend</a>]</span></center></div>
 <table class="memberdecls">
@@ -137,8 +140,12 @@ Public Member Functions</h2></td></tr>
 <tr class="separator:ae00cc588e083ac2af9e191b88d910c3b inherit pub_methods_class_ms_1_1_listener"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ae1b80168bd04dd8f627fe6bcf8ce5860 inherit pub_methods_class_ms_1_1_listener"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ms_1_1_listener.html#ae1b80168bd04dd8f627fe6bcf8ce5860">Listener</a> (const <a class="el" href="class_ms_1_1_listener.html">Listener</a>&lt; <a class="el" href="class_ms_1_1_channel.html#afc15270bc2c3de90473f7db58428a5b0">Channel::Prop</a> &gt; &amp;)</td></tr>
 <tr class="separator:ae1b80168bd04dd8f627fe6bcf8ce5860 inherit pub_methods_class_ms_1_1_listener"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a055013096ac5f7bf48c38b9495b694cf inherit pub_methods_class_ms_1_1_listener"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ms_1_1_listener.html#a055013096ac5f7bf48c38b9495b694cf">Listener</a> (<a class="el" href="class_ms_1_1_listener.html">Listener</a>&lt; <a class="el" href="class_ms_1_1_channel.html#afc15270bc2c3de90473f7db58428a5b0">Channel::Prop</a> &gt; &amp;&amp;)</td></tr>
+<tr class="separator:a055013096ac5f7bf48c38b9495b694cf inherit pub_methods_class_ms_1_1_listener"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a099a52a70938915e238eeecebb8e06af inherit pub_methods_class_ms_1_1_listener"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_ms_1_1_listener.html">Listener</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ms_1_1_listener.html#a099a52a70938915e238eeecebb8e06af">operator=</a> (const <a class="el" href="class_ms_1_1_listener.html">Listener</a>&lt; <a class="el" href="class_ms_1_1_channel.html#afc15270bc2c3de90473f7db58428a5b0">Channel::Prop</a> &gt; &amp;)</td></tr>
 <tr class="separator:a099a52a70938915e238eeecebb8e06af inherit pub_methods_class_ms_1_1_listener"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa3bfed53b0219bb4645967c1f40a8b66 inherit pub_methods_class_ms_1_1_listener"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_ms_1_1_listener.html">Listener</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ms_1_1_listener.html#aa3bfed53b0219bb4645967c1f40a8b66">operator=</a> (<a class="el" href="class_ms_1_1_listener.html">Listener</a> &amp;&amp;)</td></tr>
+<tr class="separator:aa3bfed53b0219bb4645967c1f40a8b66 inherit pub_methods_class_ms_1_1_listener"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a434530e00cfc637bcc0e88a7cccac633 inherit pub_methods_class_ms_1_1_listener"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ms_1_1_listener.html#a434530e00cfc637bcc0e88a7cccac633">~Listener</a> ()</td></tr>
 <tr class="separator:a434530e00cfc637bcc0e88a7cccac633 inherit pub_methods_class_ms_1_1_listener"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a571f3641f1abb1bff8d78797e808f6f0 inherit pub_methods_class_ms_1_1_listener"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ms_1_1_listener.html#a571f3641f1abb1bff8d78797e808f6f0">setNotifier</a> (<a class="el" href="class_ms_1_1_notifier.html">Notifier</a>&lt; <a class="el" href="class_ms_1_1_channel.html#afc15270bc2c3de90473f7db58428a5b0">Channel::Prop</a> &gt; *n)</td></tr>
@@ -149,6 +156,22 @@ Public Member Functions</h2></td></tr>
 <tr class="separator:a3093e9163e24a8945ced1a00e3195ac9 inherit pub_methods_class_ms_1_1_listener"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a324335090b5c131f947b3216c7be8815 inherit pub_methods_class_ms_1_1_listener"><td class="memItemLeft" align="right" valign="top">const <a class="el" href="class_ms_1_1_notifier.html">Notifier</a>&lt; <a class="el" href="class_ms_1_1_channel.html#afc15270bc2c3de90473f7db58428a5b0">Channel::Prop</a> &gt; *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ms_1_1_listener.html#a324335090b5c131f947b3216c7be8815">notifier</a> () const</td></tr>
 <tr class="separator:a324335090b5c131f947b3216c7be8815 inherit pub_methods_class_ms_1_1_listener"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pri-methods"></a>
+Private Member Functions</h2></td></tr>
+<tr class="memitem:a663432f2c69fb9a5d0b9b8d7f8674aef"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ms_1_1_mixer_details.html#a663432f2c69fb9a5d0b9b8d7f8674aef">updateFromTrack</a> ()</td></tr>
+<tr class="separator:a663432f2c69fb9a5d0b9b8d7f8674aef"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pri-attribs"></a>
+Private Attributes</h2></td></tr>
+<tr class="memitem:a87445478a9bbc23df7c822944c6e3058"><td class="memItemLeft" align="right" valign="top"><a class="el" href="namespace_ms.html#a833d7d7542236c6f2fa4c81bec7d840b">MixerTrackItemPtr</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ms_1_1_mixer_details.html#a87445478a9bbc23df7c822944c6e3058">_mti</a></td></tr>
+<tr class="separator:a87445478a9bbc23df7c822944c6e3058"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a7c85bc974b9a88c3f627aff6c2c501fd"><td class="memItemLeft" align="right" valign="top">QWidget *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ms_1_1_mixer_details.html#a7c85bc974b9a88c3f627aff6c2c501fd">mutePerVoiceHolder</a></td></tr>
+<tr class="separator:a7c85bc974b9a88c3f627aff6c2c501fd"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a1e762670bed4ed335c68c89591b926d2"><td class="memItemLeft" align="right" valign="top">QGridLayout *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ms_1_1_mixer_details.html#a1e762670bed4ed335c68c89591b926d2">mutePerVoiceGrid</a></td></tr>
+<tr class="separator:a1e762670bed4ed335c68c89591b926d2"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa5159e86855354994712ae6f8741541f"><td class="memItemLeft" align="right" valign="top">QList&lt; QPushButton * &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ms_1_1_mixer_details.html#aa5159e86855354994712ae6f8741541f">voiceButtons</a></td></tr>
+<tr class="separator:aa5159e86855354994712ae6f8741541f"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
 <a id="a5182091e3811b909c0bf623b2beb9c1c"></a>
@@ -490,6 +513,31 @@ Public Member Functions</h2></td></tr>
 
 </div>
 </div>
+<a id="a663432f2c69fb9a5d0b9b8d7f8674aef"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a663432f2c69fb9a5d0b9b8d7f8674aef">&#9670;&nbsp;</a></span>updateFromTrack()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void Ms::MixerDetails::updateFromTrack </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
 <a id="a5dc8051a91a22475990961f2c680bf79"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a5dc8051a91a22475990961f2c680bf79">&#9670;&nbsp;</a></span>volumeChanged</h2>
 
@@ -510,6 +558,95 @@ Public Member Functions</h2></td></tr>
   </td>
   <td class="mlabels-right">
 <span class="mlabels"><span class="mlabel">slot</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<h2 class="groupheader">Member Data Documentation</h2>
+<a id="a87445478a9bbc23df7c822944c6e3058"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a87445478a9bbc23df7c822944c6e3058">&#9670;&nbsp;</a></span>_mti</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="namespace_ms.html#a833d7d7542236c6f2fa4c81bec7d840b">MixerTrackItemPtr</a> Ms::MixerDetails::_mti</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a1e762670bed4ed335c68c89591b926d2"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a1e762670bed4ed335c68c89591b926d2">&#9670;&nbsp;</a></span>mutePerVoiceGrid</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">QGridLayout* Ms::MixerDetails::mutePerVoiceGrid</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a7c85bc974b9a88c3f627aff6c2c501fd"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a7c85bc974b9a88c3f627aff6c2c501fd">&#9670;&nbsp;</a></span>mutePerVoiceHolder</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">QWidget* Ms::MixerDetails::mutePerVoiceHolder</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="aa5159e86855354994712ae6f8741541f"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aa5159e86855354994712ae6f8741541f">&#9670;&nbsp;</a></span>voiceButtons</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">QList&lt;QPushButton*&gt; Ms::MixerDetails::voiceButtons</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
   </tr>
 </table>
 </div><div class="memdoc">

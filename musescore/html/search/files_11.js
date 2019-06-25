@@ -15,6 +15,7 @@ var searchData=
   ['rehearsalmark_2ecpp',['rehearsalmark.cpp',['../rehearsalmark_8cpp.html',1,'']]],
   ['rehearsalmark_2eh',['rehearsalmark.h',['../rehearsalmark_8h.html',1,'']]],
   ['rendermidi_2ecpp',['rendermidi.cpp',['../rendermidi_8cpp.html',1,'']]],
+  ['rendermidi_2eh',['rendermidi.h',['../rendermidi_8h.html',1,'']]],
   ['repeat_2ecpp',['repeat.cpp',['../repeat_8cpp.html',1,'']]],
   ['repeat_2eh',['repeat.h',['../repeat_8h.html',1,'']]],
   ['repeatlist_2ecpp',['repeatlist.cpp',['../repeatlist_8cpp.html',1,'']]],

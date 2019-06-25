@@ -23,9 +23,9 @@
   <td id="projectlogo"><img alt="Logo" src="musescore_logo_full.png"/></td>
   <td id="projectalign" style="padding-left: 0.5em;">
    <div id="projectname">MuseScore
-   &#160;<span id="projectnumber">3.1</span>
+   &#160;<span id="projectnumber">3.2</span>
    </div>
-   <div id="projectbrief">Music compisition and notation</div>
+   <div id="projectbrief">Music composition and notation</div>
   </td>
  </tr>
  </tbody>
@@ -68,6 +68,7 @@ $(function() {
   <div class="summary">
 <a href="#pub-methods">Public Member Functions</a> &#124;
 <a href="#pub-static-methods">Static Public Member Functions</a> &#124;
+<a href="#pri-attribs">Private Attributes</a> &#124;
 <a href="class_ms_1_1_m_style-members.html">List of all members</a>  </div>
   <div class="headertitle">
 <div class="title">Ms::MStyle Class Reference</div>  </div>
@@ -75,6 +76,14 @@ $(function() {
 <div class="contents">
 
 <p><code>#include &lt;<a class="el" href="style_8h_source.html">style.h</a>&gt;</code></p>
+<div class="dynheader">
+Collaboration diagram for Ms::MStyle:</div>
+<div class="dyncontent">
+<div class="center"><img src="class_ms_1_1_m_style__coll__graph.png" border="0" usemap="#_ms_1_1_m_style_coll__map" alt="Collaboration graph"/></div>
+<map name="_ms_1_1_m_style_coll__map" id="_ms_1_1_m_style_coll__map">
+<area shape="rect" id="node2" href="class_ms_1_1_chord_list.html" title="Ms::ChordList" alt="" coords="55,81,159,108"/>
+</map>
+<center><span class="legend">[<a href="graph_legend.html">legend</a>]</span></center></div>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
@@ -98,8 +107,10 @@ Public Member Functions</h2></td></tr>
 <tr class="separator:ab2eb4a85f31f93a984220e30a555a561"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a8d7aebd5bd379ef2fc5f949448f417f1"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ms_1_1_m_style.html#a8d7aebd5bd379ef2fc5f949448f417f1">setCustomChordList</a> (bool t)</td></tr>
 <tr class="separator:a8d7aebd5bd379ef2fc5f949448f417f1"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a63e09dc10c60e687fb791a2fbab41f77"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ms_1_1_m_style.html#a63e09dc10c60e687fb791a2fbab41f77">load</a> (QFile *qf)</td></tr>
-<tr class="separator:a63e09dc10c60e687fb791a2fbab41f77"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a11e8b9af663f70f4cb4ac52331b144f3"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ms_1_1_m_style.html#a11e8b9af663f70f4cb4ac52331b144f3">checkChordList</a> ()</td></tr>
+<tr class="separator:a11e8b9af663f70f4cb4ac52331b144f3"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a7a6a084ab84a7d86be4a25f3e16a3151"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ms_1_1_m_style.html#a7a6a084ab84a7d86be4a25f3e16a3151">load</a> (QFile *qf, bool ignore=false)</td></tr>
+<tr class="separator:a7a6a084ab84a7d86be4a25f3e16a3151"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a04a9dbbf8528694b309516952d3fcb83"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ms_1_1_m_style.html#a04a9dbbf8528694b309516952d3fcb83">load</a> (<a class="el" href="class_ms_1_1_xml_reader.html">XmlReader</a> &amp;e)</td></tr>
 <tr class="separator:a04a9dbbf8528694b309516952d3fcb83"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a2a2d58a811603b8c38d9ceed2c3086f5"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ms_1_1_m_style.html#a2a2d58a811603b8c38d9ceed2c3086f5">save</a> (<a class="el" href="class_ms_1_1_xml_writer.html">XmlWriter</a> &amp;xml, bool optimize)</td></tr>
@@ -121,6 +132,17 @@ Static Public Member Functions</h2></td></tr>
 <tr class="separator:a361449e66df4698b79765ea95fad2895"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aaec8b369d5c956cfd1e44072893c1024"><td class="memItemLeft" align="right" valign="top">static <a class="el" href="namespace_ms.html#a2bac757437d1a9e364db27de8f9c9e2e">Sid</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ms_1_1_m_style.html#aaec8b369d5c956cfd1e44072893c1024">styleIdx</a> (const QString &amp;name)</td></tr>
 <tr class="separator:aaec8b369d5c956cfd1e44072893c1024"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pri-attribs"></a>
+Private Attributes</h2></td></tr>
+<tr class="memitem:a4e43d135a27df9afb1627fbc53d71817"><td class="memItemLeft" align="right" valign="top">std::array&lt; QVariant, int(<a class="el" href="namespace_ms.html#a2bac757437d1a9e364db27de8f9c9e2eacccf23c84c66078e81759742c8785ae4">Sid::STYLES</a>)&gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ms_1_1_m_style.html#a4e43d135a27df9afb1627fbc53d71817">_values</a></td></tr>
+<tr class="separator:a4e43d135a27df9afb1627fbc53d71817"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a770700540d383f25cd475ac63e81dd80"><td class="memItemLeft" align="right" valign="top">std::array&lt; qreal, int(<a class="el" href="namespace_ms.html#a2bac757437d1a9e364db27de8f9c9e2eacccf23c84c66078e81759742c8785ae4">Sid::STYLES</a>)&gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ms_1_1_m_style.html#a770700540d383f25cd475ac63e81dd80">_precomputedValues</a></td></tr>
+<tr class="separator:a770700540d383f25cd475ac63e81dd80"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a45c02722309772b794ec8ff7f1901329"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_ms_1_1_chord_list.html">ChordList</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ms_1_1_m_style.html#a45c02722309772b794ec8ff7f1901329">_chordList</a></td></tr>
+<tr class="separator:a45c02722309772b794ec8ff7f1901329"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae6dc188010872eff1d80c1affaaf198c"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ms_1_1_m_style.html#ae6dc188010872eff1d80c1affaaf198c">_customChordList</a></td></tr>
+<tr class="separator:ae6dc188010872eff1d80c1affaaf198c"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
 <a id="acb8c0680b5ebb10fc5e05281fdfd3fa7"></a>
@@ -141,6 +163,23 @@ Static Public Member Functions</h2></td></tr>
 </div>
 </div>
 <h2 class="groupheader">Member Function Documentation</h2>
+<a id="a11e8b9af663f70f4cb4ac52331b144f3"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a11e8b9af663f70f4cb4ac52331b144f3">&#9670;&nbsp;</a></span>checkChordList()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void Ms::MStyle::checkChordList </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
 <a id="aef94465bcce4c922f843e6a035749502"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#aef94465bcce4c922f843e6a035749502">&#9670;&nbsp;</a></span>chordDescription()</h2>
 
@@ -202,8 +241,8 @@ Static Public Member Functions</h2></td></tr>
 
 </div>
 </div>
-<a id="a63e09dc10c60e687fb791a2fbab41f77"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a63e09dc10c60e687fb791a2fbab41f77">&#9670;&nbsp;</a></span>load() <span class="overload">[1/2]</span></h2>
+<a id="a7a6a084ab84a7d86be4a25f3e16a3151"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a7a6a084ab84a7d86be4a25f3e16a3151">&#9670;&nbsp;</a></span>load() <span class="overload">[1/2]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -212,8 +251,18 @@ Static Public Member Functions</h2></td></tr>
           <td class="memname">bool Ms::MStyle::load </td>
           <td>(</td>
           <td class="paramtype">QFile *&#160;</td>
-          <td class="paramname"><em>qf</em></td><td>)</td>
+          <td class="paramname"><em>qf</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
           <td></td>
+          <td class="paramtype">bool&#160;</td>
+          <td class="paramname"><em>ignore</em> = <code>false</code>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -553,6 +602,95 @@ Static Public Member Functions</h2></td></tr>
   </td>
   <td class="mlabels-right">
 <span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<h2 class="groupheader">Member Data Documentation</h2>
+<a id="a45c02722309772b794ec8ff7f1901329"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a45c02722309772b794ec8ff7f1901329">&#9670;&nbsp;</a></span>_chordList</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="class_ms_1_1_chord_list.html">ChordList</a> Ms::MStyle::_chordList</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="ae6dc188010872eff1d80c1affaaf198c"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ae6dc188010872eff1d80c1affaaf198c">&#9670;&nbsp;</a></span>_customChordList</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool Ms::MStyle::_customChordList</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a770700540d383f25cd475ac63e81dd80"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a770700540d383f25cd475ac63e81dd80">&#9670;&nbsp;</a></span>_precomputedValues</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">std::array&lt;qreal, int(<a class="el" href="namespace_ms.html#a2bac757437d1a9e364db27de8f9c9e2eacccf23c84c66078e81759742c8785ae4">Sid::STYLES</a>)&gt; Ms::MStyle::_precomputedValues</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a4e43d135a27df9afb1627fbc53d71817"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a4e43d135a27df9afb1627fbc53d71817">&#9670;&nbsp;</a></span>_values</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">std::array&lt;QVariant, int(<a class="el" href="namespace_ms.html#a2bac757437d1a9e364db27de8f9c9e2eacccf23c84c66078e81759742c8785ae4">Sid::STYLES</a>)&gt; Ms::MStyle::_values</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
   </tr>
 </table>
 </div><div class="memdoc">

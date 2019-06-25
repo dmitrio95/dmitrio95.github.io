@@ -23,9 +23,9 @@
   <td id="projectlogo"><img alt="Logo" src="musescore_logo_full.png"/></td>
   <td id="projectalign" style="padding-left: 0.5em;">
    <div id="projectname">MuseScore
-   &#160;<span id="projectnumber">3.1</span>
+   &#160;<span id="projectnumber">3.2</span>
    </div>
-   <div id="projectbrief">Music compisition and notation</div>
+   <div id="projectbrief">Music composition and notation</div>
   </td>
  </tr>
  </tbody>
@@ -70,6 +70,10 @@ $(function() {
 <a href="#pub-methods">Public Member Functions</a> &#124;
 <a href="#pub-static-methods">Static Public Member Functions</a> &#124;
 <a href="#pub-static-attribs">Static Public Attributes</a> &#124;
+<a href="#pri-methods">Private Member Functions</a> &#124;
+<a href="#pri-static-methods">Static Private Member Functions</a> &#124;
+<a href="#pri-attribs">Private Attributes</a> &#124;
+<a href="#pri-static-attribs">Static Private Attributes</a> &#124;
 <a href="class_ms_1_1_workspace-members.html">List of all members</a>  </div>
   <div class="headertitle">
 <div class="title">Ms::Workspace Class Reference</div>  </div>
@@ -175,6 +179,66 @@ Static Public Attributes</h2></td></tr>
 <tr class="separator:af51698404dc5563355632bc2dabdd192"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a291a93e6625c7cd95c0c8620e8f6e6f3"><td class="memItemLeft" align="right" valign="top">static bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ms_1_1_workspace.html#a291a93e6625c7cd95c0c8620e8f6e6f3">workspacesRead</a> = false</td></tr>
 <tr class="separator:a291a93e6625c7cd95c0c8620e8f6e6f3"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pri-methods"></a>
+Private Member Functions</h2></td></tr>
+<tr class="memitem:a47e5e7f2c24c78ad401005ca3a1b0836"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ms_1_1_workspace.html#a47e5e7f2c24c78ad401005ca3a1b0836">readMenu</a> (<a class="el" href="class_ms_1_1_xml_reader.html">XmlReader</a> &amp;e, QMenu *menu)</td></tr>
+<tr class="separator:a47e5e7f2c24c78ad401005ca3a1b0836"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae0066592aaba3e2ed17951e7a42a9f42"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ms_1_1_workspace.html#ae0066592aaba3e2ed17951e7a42a9f42">readGlobalToolBar</a> ()</td></tr>
+<tr class="separator:ae0066592aaba3e2ed17951e7a42a9f42"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9a3e769882a0f5529f117bc88cd6d25d"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ms_1_1_workspace.html#a9a3e769882a0f5529f117bc88cd6d25d">readGlobalMenuBar</a> ()</td></tr>
+<tr class="separator:a9a3e769882a0f5529f117bc88cd6d25d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a31e58d076ee8d553236a7369020411d5"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ms_1_1_workspace.html#a31e58d076ee8d553236a7369020411d5">readGlobalGUIState</a> ()</td></tr>
+<tr class="separator:a31e58d076ee8d553236a7369020411d5"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pri-static-methods"></a>
+Static Private Member Functions</h2></td></tr>
+<tr class="memitem:add58de22ecfc316fcaa346a6c31f40e7"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ms_1_1_workspace.html#add58de22ecfc316fcaa346a6c31f40e7">writeMenuBar</a> (<a class="el" href="class_ms_1_1_xml_writer.html">XmlWriter</a> &amp;xml, QMenuBar *mb=0)</td></tr>
+<tr class="separator:add58de22ecfc316fcaa346a6c31f40e7"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9dabf883c211c0e1a97a5ed347a94949"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ms_1_1_workspace.html#a9dabf883c211c0e1a97a5ed347a94949">writeMenu</a> (<a class="el" href="class_ms_1_1_xml_writer.html">XmlWriter</a> &amp;xml, QMenu *menu)</td></tr>
+<tr class="separator:a9dabf883c211c0e1a97a5ed347a94949"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ace7553af3debd6707515e9947c03e25c"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ms_1_1_workspace.html#ace7553af3debd6707515e9947c03e25c">addRemainingFromMenu</a> (QMenu *menu)</td></tr>
+<tr class="separator:ace7553af3debd6707515e9947c03e25c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a00daf858e3bbc2dba964719186e20bb1"><td class="memItemLeft" align="right" valign="top">static QString&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ms_1_1_workspace.html#a00daf858e3bbc2dba964719186e20bb1">findStringFromAction</a> (QAction *action)</td></tr>
+<tr class="separator:a00daf858e3bbc2dba964719186e20bb1"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a5cc700402a57bbd53fc4955189f05168"><td class="memItemLeft" align="right" valign="top">static QAction *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ms_1_1_workspace.html#a5cc700402a57bbd53fc4955189f05168">findActionFromString</a> (QString string)</td></tr>
+<tr class="separator:a5cc700402a57bbd53fc4955189f05168"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a6ba1d0be885eb331331cc3e87d115d2a"><td class="memItemLeft" align="right" valign="top">static QMenu *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ms_1_1_workspace.html#a6ba1d0be885eb331331cc3e87d115d2a">findMenuFromString</a> (QString string)</td></tr>
+<tr class="separator:a6ba1d0be885eb331331cc3e87d115d2a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a651cfab053f6083f7830d450f3f22a54"><td class="memItemLeft" align="right" valign="top">static QString&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ms_1_1_workspace.html#a651cfab053f6083f7830d450f3f22a54">findStringFromMenu</a> (QMenu *menu)</td></tr>
+<tr class="separator:a651cfab053f6083f7830d450f3f22a54"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pri-attribs"></a>
+Private Attributes</h2></td></tr>
+<tr class="memitem:a954fe209434bb433d3a38b67bdc3ea9c"><td class="memItemLeft" align="right" valign="top">QString&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ms_1_1_workspace.html#a954fe209434bb433d3a38b67bdc3ea9c">_name</a></td></tr>
+<tr class="separator:a954fe209434bb433d3a38b67bdc3ea9c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a5722607bb6cc64b1723670bb30d5d13d"><td class="memItemLeft" align="right" valign="top">QString&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ms_1_1_workspace.html#a5722607bb6cc64b1723670bb30d5d13d">_translatableName</a></td></tr>
+<tr class="separator:a5722607bb6cc64b1723670bb30d5d13d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a2692049507290b5098034d81a044fbbe"><td class="memItemLeft" align="right" valign="top">QString&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ms_1_1_workspace.html#a2692049507290b5098034d81a044fbbe">_path</a></td></tr>
+<tr class="separator:a2692049507290b5098034d81a044fbbe"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:afc99c5268b495f8b2ad083dc1ee6bfa1"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ms_1_1_workspace.html#afc99c5268b495f8b2ad083dc1ee6bfa1">_dirty</a></td></tr>
+<tr class="separator:afc99c5268b495f8b2ad083dc1ee6bfa1"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a6e599a46766799d59ebe39646fc94dcf"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ms_1_1_workspace.html#a6e599a46766799d59ebe39646fc94dcf">_readOnly</a></td></tr>
+<tr class="separator:a6e599a46766799d59ebe39646fc94dcf"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a36ffaa31bdbb1ad7275a7a44e936ebaa"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ms_1_1_workspace.html#a36ffaa31bdbb1ad7275a7a44e936ebaa">saveComponents</a></td></tr>
+<tr class="separator:a36ffaa31bdbb1ad7275a7a44e936ebaa"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a85e7430a083fb4d2a7c86e8f5b7c8020"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ms_1_1_workspace.html#a85e7430a083fb4d2a7c86e8f5b7c8020">saveToolbars</a></td></tr>
+<tr class="separator:a85e7430a083fb4d2a7c86e8f5b7c8020"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:adb10148804cd5e8c7e5ef14744308337"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ms_1_1_workspace.html#adb10148804cd5e8c7e5ef14744308337">saveMenuBar</a></td></tr>
+<tr class="separator:adb10148804cd5e8c7e5ef14744308337"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pri-static-attribs"></a>
+Static Private Attributes</h2></td></tr>
+<tr class="memitem:ae4067d916f7deda59c5713c981edbf8e"><td class="memItemLeft" align="right" valign="top">static const char *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ms_1_1_workspace.html#ae4067d916f7deda59c5713c981edbf8e">advancedWorkspaceTranslatableName</a> { QT_TRANSLATE_NOOP(&quot;Ms::Workspace&quot;, &quot;Advanced&quot;) }</td></tr>
+<tr class="separator:ae4067d916f7deda59c5713c981edbf8e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a357800e2fd5ade614cd27f40484c6ebc"><td class="memItemLeft" align="right" valign="top">static const char *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ms_1_1_workspace.html#a357800e2fd5ade614cd27f40484c6ebc">basicWorkspaceTranslatableName</a> { QT_TRANSLATE_NOOP(&quot;Ms::Workspace&quot;, &quot;Basic&quot;) }</td></tr>
+<tr class="separator:a357800e2fd5ade614cd27f40484c6ebc"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab3241091fdcfcb279f3057937e198e7b"><td class="memItemLeft" align="right" valign="top">static QList&lt; <a class="el" href="class_ms_1_1_workspace.html">Workspace</a> * &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ms_1_1_workspace.html#ab3241091fdcfcb279f3057937e198e7b">_workspaces</a> {}</td></tr>
+<tr class="separator:ab3241091fdcfcb279f3057937e198e7b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:abf71c4c4ab81ec0dbb1415a43546a2f9"><td class="memItemLeft" align="right" valign="top">static QList&lt; QPair&lt; QAction *, QString &gt; &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ms_1_1_workspace.html#abf71c4c4ab81ec0dbb1415a43546a2f9">actionToStringList</a> {}</td></tr>
+<tr class="separator:abf71c4c4ab81ec0dbb1415a43546a2f9"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a91216a7236d3b26bb932d1ec1373e184"><td class="memItemLeft" align="right" valign="top">static QList&lt; QPair&lt; QMenu *, QString &gt; &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ms_1_1_workspace.html#a91216a7236d3b26bb932d1ec1373e184">menuToStringList</a> {}</td></tr>
+<tr class="separator:a91216a7236d3b26bb932d1ec1373e184"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
 <a id="a4dc3e7faeac7c328dd8dec9582bff46c"></a>
@@ -315,6 +379,32 @@ Static Public Attributes</h2></td></tr>
 
 </div>
 </div>
+<a id="ace7553af3debd6707515e9947c03e25c"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ace7553af3debd6707515e9947c03e25c">&#9670;&nbsp;</a></span>addRemainingFromMenu()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void Ms::Workspace::addRemainingFromMenu </td>
+          <td>(</td>
+          <td class="paramtype">QMenu *&#160;</td>
+          <td class="paramname"><em>menu</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
 <a id="af6583e20f8f08baa9217de063231b9d3"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#af6583e20f8f08baa9217de063231b9d3">&#9670;&nbsp;</a></span>addRemainingFromMenuBar()</h2>
 
@@ -386,6 +476,110 @@ Static Public Attributes</h2></td></tr>
   </td>
   <td class="mlabels-right">
 <span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a5cc700402a57bbd53fc4955189f05168"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a5cc700402a57bbd53fc4955189f05168">&#9670;&nbsp;</a></span>findActionFromString()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">QAction * Ms::Workspace::findActionFromString </td>
+          <td>(</td>
+          <td class="paramtype">QString&#160;</td>
+          <td class="paramname"><em>string</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a6ba1d0be885eb331331cc3e87d115d2a"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a6ba1d0be885eb331331cc3e87d115d2a">&#9670;&nbsp;</a></span>findMenuFromString()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">QMenu * Ms::Workspace::findMenuFromString </td>
+          <td>(</td>
+          <td class="paramtype">QString&#160;</td>
+          <td class="paramname"><em>string</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a00daf858e3bbc2dba964719186e20bb1"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a00daf858e3bbc2dba964719186e20bb1">&#9670;&nbsp;</a></span>findStringFromAction()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">QString Ms::Workspace::findStringFromAction </td>
+          <td>(</td>
+          <td class="paramtype">QAction *&#160;</td>
+          <td class="paramname"><em>action</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a651cfab053f6083f7830d450f3f22a54"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a651cfab053f6083f7830d450f3f22a54">&#9670;&nbsp;</a></span>findStringFromMenu()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">QString Ms::Workspace::findStringFromMenu </td>
+          <td>(</td>
+          <td class="paramtype">QMenu *&#160;</td>
+          <td class="paramname"><em>menu</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span><span class="mlabel">private</span></span>  </td>
   </tr>
 </table>
 </div><div class="memdoc">
@@ -573,6 +767,117 @@ Static Public Attributes</h2></td></tr>
           <td></td>
         </tr>
       </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a31e58d076ee8d553236a7369020411d5"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a31e58d076ee8d553236a7369020411d5">&#9670;&nbsp;</a></span>readGlobalGUIState()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void Ms::Workspace::readGlobalGUIState </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a9a3e769882a0f5529f117bc88cd6d25d"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a9a3e769882a0f5529f117bc88cd6d25d">&#9670;&nbsp;</a></span>readGlobalMenuBar()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void Ms::Workspace::readGlobalMenuBar </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="ae0066592aaba3e2ed17951e7a42a9f42"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ae0066592aaba3e2ed17951e7a42a9f42">&#9670;&nbsp;</a></span>readGlobalToolBar()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void Ms::Workspace::readGlobalToolBar </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a47e5e7f2c24c78ad401005ca3a1b0836"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a47e5e7f2c24c78ad401005ca3a1b0836">&#9670;&nbsp;</a></span>readMenu()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void Ms::Workspace::readMenu </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="class_ms_1_1_xml_reader.html">XmlReader</a> &amp;&#160;</td>
+          <td class="paramname"><em>e</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">QMenu *&#160;</td>
+          <td class="paramname"><em>menu</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
 </div><div class="memdoc">
 
 </div>
@@ -1039,7 +1344,277 @@ Static Public Attributes</h2></td></tr>
 
 </div>
 </div>
+<a id="a9dabf883c211c0e1a97a5ed347a94949"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a9dabf883c211c0e1a97a5ed347a94949">&#9670;&nbsp;</a></span>writeMenu()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void Ms::Workspace::writeMenu </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="class_ms_1_1_xml_writer.html">XmlWriter</a> &amp;&#160;</td>
+          <td class="paramname"><em>xml</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">QMenu *&#160;</td>
+          <td class="paramname"><em>menu</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="add58de22ecfc316fcaa346a6c31f40e7"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#add58de22ecfc316fcaa346a6c31f40e7">&#9670;&nbsp;</a></span>writeMenuBar()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void Ms::Workspace::writeMenuBar </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="class_ms_1_1_xml_writer.html">XmlWriter</a> &amp;&#160;</td>
+          <td class="paramname"><em>xml</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">QMenuBar *&#160;</td>
+          <td class="paramname"><em>mb</em> = <code>0</code>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
 <h2 class="groupheader">Member Data Documentation</h2>
+<a id="afc99c5268b495f8b2ad083dc1ee6bfa1"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#afc99c5268b495f8b2ad083dc1ee6bfa1">&#9670;&nbsp;</a></span>_dirty</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool Ms::Workspace::_dirty</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a954fe209434bb433d3a38b67bdc3ea9c"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a954fe209434bb433d3a38b67bdc3ea9c">&#9670;&nbsp;</a></span>_name</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">QString Ms::Workspace::_name</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a2692049507290b5098034d81a044fbbe"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a2692049507290b5098034d81a044fbbe">&#9670;&nbsp;</a></span>_path</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">QString Ms::Workspace::_path</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a6e599a46766799d59ebe39646fc94dcf"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a6e599a46766799d59ebe39646fc94dcf">&#9670;&nbsp;</a></span>_readOnly</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool Ms::Workspace::_readOnly</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a5722607bb6cc64b1723670bb30d5d13d"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a5722607bb6cc64b1723670bb30d5d13d">&#9670;&nbsp;</a></span>_translatableName</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">QString Ms::Workspace::_translatableName</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="ab3241091fdcfcb279f3057937e198e7b"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ab3241091fdcfcb279f3057937e198e7b">&#9670;&nbsp;</a></span>_workspaces</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">QList&lt; <a class="el" href="class_ms_1_1_workspace.html">Workspace</a> * &gt; Ms::Workspace::_workspaces {}</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="abf71c4c4ab81ec0dbb1415a43546a2f9"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#abf71c4c4ab81ec0dbb1415a43546a2f9">&#9670;&nbsp;</a></span>actionToStringList</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">QList&lt; QPair&lt; QAction *, QString &gt; &gt; Ms::Workspace::actionToStringList {}</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="ae4067d916f7deda59c5713c981edbf8e"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ae4067d916f7deda59c5713c981edbf8e">&#9670;&nbsp;</a></span>advancedWorkspaceTranslatableName</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">const char * Ms::Workspace::advancedWorkspaceTranslatableName { QT_TRANSLATE_NOOP(&quot;Ms::Workspace&quot;, &quot;Advanced&quot;) }</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a357800e2fd5ade614cd27f40484c6ebc"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a357800e2fd5ade614cd27f40484c6ebc">&#9670;&nbsp;</a></span>basicWorkspaceTranslatableName</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">const char * Ms::Workspace::basicWorkspaceTranslatableName { QT_TRANSLATE_NOOP(&quot;Ms::Workspace&quot;, &quot;Basic&quot;) }</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
 <a id="af51698404dc5563355632bc2dabdd192"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#af51698404dc5563355632bc2dabdd192">&#9670;&nbsp;</a></span>currentWorkspace</h2>
 
@@ -1056,6 +1631,94 @@ Static Public Attributes</h2></td></tr>
   </td>
   <td class="mlabels-right">
 <span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a91216a7236d3b26bb932d1ec1373e184"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a91216a7236d3b26bb932d1ec1373e184">&#9670;&nbsp;</a></span>menuToStringList</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">QList&lt; QPair&lt; QMenu *, QString &gt; &gt; Ms::Workspace::menuToStringList {}</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a36ffaa31bdbb1ad7275a7a44e936ebaa"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a36ffaa31bdbb1ad7275a7a44e936ebaa">&#9670;&nbsp;</a></span>saveComponents</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool Ms::Workspace::saveComponents</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="adb10148804cd5e8c7e5ef14744308337"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#adb10148804cd5e8c7e5ef14744308337">&#9670;&nbsp;</a></span>saveMenuBar</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool Ms::Workspace::saveMenuBar</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a85e7430a083fb4d2a7c86e8f5b7c8020"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a85e7430a083fb4d2a7c86e8f5b7c8020">&#9670;&nbsp;</a></span>saveToolbars</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool Ms::Workspace::saveToolbars</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
   </tr>
 </table>
 </div><div class="memdoc">

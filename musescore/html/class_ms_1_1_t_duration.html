@@ -23,9 +23,9 @@
   <td id="projectlogo"><img alt="Logo" src="musescore_logo_full.png"/></td>
   <td id="projectalign" style="padding-left: 0.5em;">
    <div id="projectname">MuseScore
-   &#160;<span id="projectnumber">3.1</span>
+   &#160;<span id="projectnumber">3.2</span>
    </div>
-   <div id="projectbrief">Music compisition and notation</div>
+   <div id="projectbrief">Music composition and notation</div>
   </td>
  </tr>
  </tbody>
@@ -69,6 +69,8 @@ $(function() {
 <a href="#pub-types">Public Types</a> &#124;
 <a href="#pub-methods">Public Member Functions</a> &#124;
 <a href="#pub-static-methods">Static Public Member Functions</a> &#124;
+<a href="#pri-methods">Private Member Functions</a> &#124;
+<a href="#pri-attribs">Private Attributes</a> &#124;
 <a href="class_ms_1_1_t_duration-members.html">List of all members</a>  </div>
   <div class="headertitle">
 <div class="title">Ms::TDuration Class Reference</div>  </div>
@@ -176,6 +178,22 @@ Public Member Functions</h2></td></tr>
 Static Public Member Functions</h2></td></tr>
 <tr class="memitem:a58b7d65bbf6052edf7448bdc65ecab8c"><td class="memItemLeft" align="right" valign="top">static bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ms_1_1_t_duration.html#a58b7d65bbf6052edf7448bdc65ecab8c">isValid</a> (<a class="el" href="class_ms_1_1_fraction.html">Fraction</a> f)</td></tr>
 <tr class="separator:a58b7d65bbf6052edf7448bdc65ecab8c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pri-methods"></a>
+Private Member Functions</h2></td></tr>
+<tr class="memitem:aeb2ea4a891dc43d5f98b9bd5ea2b9446"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ms_1_1_t_duration.html#aeb2ea4a891dc43d5f98b9bd5ea2b9446">shiftType</a> (int nSteps, bool stepDotted=false)</td></tr>
+<tr class="separator:aeb2ea4a891dc43d5f98b9bd5ea2b9446"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a40a3e37805563d0efa045fff46ac6900"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ms_1_1_t_duration.html#a40a3e37805563d0efa045fff46ac6900">truncateToFraction</a> (const <a class="el" href="class_ms_1_1_fraction.html">Fraction</a> &amp;l, int maxDots)</td></tr>
+<tr class="separator:a40a3e37805563d0efa045fff46ac6900"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a4a58c1bf4f0c1008b1375ddeec3cbb05"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ms_1_1_t_duration.html#a4a58c1bf4f0c1008b1375ddeec3cbb05">setDotsToFitFraction</a> (const <a class="el" href="class_ms_1_1_fraction.html">Fraction</a> &amp;l, int maxDots)</td></tr>
+<tr class="separator:a4a58c1bf4f0c1008b1375ddeec3cbb05"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pri-attribs"></a>
+Private Attributes</h2></td></tr>
+<tr class="memitem:a6ef5ad1f523dc5061ff77957a6141bec"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_ms_1_1_t_duration.html#ad9263bf173856b77421e83a48a7bf68c">DurationType</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ms_1_1_t_duration.html#a6ef5ad1f523dc5061ff77957a6141bec">_val</a></td></tr>
+<tr class="separator:a6ef5ad1f523dc5061ff77957a6141bec"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aeb537b7fca2fe3f1a10db56bb9569938"><td class="memItemLeft" align="right" valign="top">char&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ms_1_1_t_duration.html#aeb537b7fca2fe3f1a10db56bb9569938">_dots</a></td></tr>
+<tr class="separator:aeb537b7fca2fe3f1a10db56bb9569938"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <h2 class="groupheader">Member Enumeration Documentation</h2>
 <a id="ad9263bf173856b77421e83a48a7bf68c"></a>
@@ -813,6 +831,42 @@ Static Public Member Functions</h2></td></tr>
 
 </div>
 </div>
+<a id="a4a58c1bf4f0c1008b1375ddeec3cbb05"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a4a58c1bf4f0c1008b1375ddeec3cbb05">&#9670;&nbsp;</a></span>setDotsToFitFraction()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool Ms::TDuration::setDotsToFitFraction </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="class_ms_1_1_fraction.html">Fraction</a> &amp;&#160;</td>
+          <td class="paramname"><em>l</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>maxDots</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
 <a id="a5d60b0c53d2079c187f1b363aaac62a8"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a5d60b0c53d2079c187f1b363aaac62a8">&#9670;&nbsp;</a></span>setType() <span class="overload">[1/2]</span></h2>
 
@@ -929,6 +983,42 @@ Static Public Member Functions</h2></td></tr>
 
 </div>
 </div>
+<a id="aeb2ea4a891dc43d5f98b9bd5ea2b9446"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aeb2ea4a891dc43d5f98b9bd5ea2b9446">&#9670;&nbsp;</a></span>shiftType()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void Ms::TDuration::shiftType </td>
+          <td>(</td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>nSteps</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">bool&#160;</td>
+          <td class="paramname"><em>stepDotted</em> = <code>false</code>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
 <a id="aa00a9e53b1d7ac9bf5db6f1d626f3cb5"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#aa00a9e53b1d7ac9bf5db6f1d626f3cb5">&#9670;&nbsp;</a></span>ticks()</h2>
 
@@ -942,6 +1032,42 @@ Static Public Member Functions</h2></td></tr>
           <td> const</td>
         </tr>
       </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a40a3e37805563d0efa045fff46ac6900"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a40a3e37805563d0efa045fff46ac6900">&#9670;&nbsp;</a></span>truncateToFraction()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void Ms::TDuration::truncateToFraction </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="class_ms_1_1_fraction.html">Fraction</a> &amp;&#160;</td>
+          <td class="paramname"><em>l</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>maxDots</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
 </div><div class="memdoc">
 
 </div>
@@ -965,6 +1091,51 @@ Static Public Member Functions</h2></td></tr>
   </td>
   <td class="mlabels-right">
 <span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<h2 class="groupheader">Member Data Documentation</h2>
+<a id="aeb537b7fca2fe3f1a10db56bb9569938"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aeb537b7fca2fe3f1a10db56bb9569938">&#9670;&nbsp;</a></span>_dots</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">char Ms::TDuration::_dots</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a6ef5ad1f523dc5061ff77957a6141bec"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a6ef5ad1f523dc5061ff77957a6141bec">&#9670;&nbsp;</a></span>_val</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="class_ms_1_1_t_duration.html#ad9263bf173856b77421e83a48a7bf68c">DurationType</a> Ms::TDuration::_val</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
   </tr>
 </table>
 </div><div class="memdoc">

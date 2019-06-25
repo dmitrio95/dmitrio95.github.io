@@ -23,9 +23,9 @@
   <td id="projectlogo"><img alt="Logo" src="musescore_logo_full.png"/></td>
   <td id="projectalign" style="padding-left: 0.5em;">
    <div id="projectname">MuseScore
-   &#160;<span id="projectnumber">3.1</span>
+   &#160;<span id="projectnumber">3.2</span>
    </div>
-   <div id="projectbrief">Music compisition and notation</div>
+   <div id="projectbrief">Music composition and notation</div>
   </td>
  </tr>
  </tbody>
@@ -71,6 +71,8 @@ $(function() {
 <a href="#pro-slots">Protected Slots</a> &#124;
 <a href="#pro-methods">Protected Member Functions</a> &#124;
 <a href="#pro-attribs">Protected Attributes</a> &#124;
+<a href="#pri-slots">Private Slots</a> &#124;
+<a href="#pri-methods">Private Member Functions</a> &#124;
 <a href="#friends">Friends</a> &#124;
 <a href="class_ms_1_1_inspector_base-members.html">List of all members</a>  </div>
   <div class="headertitle">
@@ -84,17 +86,17 @@ Inheritance diagram for Ms::InspectorBase:</div>
 <div class="dyncontent">
 <div class="center"><img src="class_ms_1_1_inspector_base__inherit__graph.png" border="0" usemap="#_ms_1_1_inspector_base_inherit__map" alt="Inheritance graph"/></div>
 <map name="_ms_1_1_inspector_base_inherit__map" id="_ms_1_1_inspector_base_inherit__map">
-<area shape="rect" id="node3" href="class_ms_1_1_inspector_bracket.html" title="Ms::InspectorBracket" alt="" coords="335,563,482,589"/>
-<area shape="rect" id="node4" href="class_ms_1_1_inspector_break.html" title="Ms::InspectorBreak" alt="" coords="341,613,477,640"/>
-<area shape="rect" id="node5" href="class_ms_1_1_inspector_element_base.html" title="Ms::InspectorElementBase" alt="" coords="319,664,499,691"/>
-<area shape="rect" id="node42" href="class_ms_1_1_inspector_empty.html" title="Ms::InspectorEmpty" alt="" coords="339,715,479,741"/>
-<area shape="rect" id="node43" href="class_ms_1_1_inspector_group_element.html" title="Ms::InspectorGroupElement" alt="" coords="316,765,501,792"/>
-<area shape="rect" id="node44" href="class_ms_1_1_inspector_h_box.html" title="Ms::InspectorHBox" alt="" coords="341,816,476,843"/>
-<area shape="rect" id="node45" href="class_ms_1_1_inspector_lasso.html" title="Ms::InspectorLasso" alt="" coords="340,867,477,893"/>
-<area shape="rect" id="node46" href="class_ms_1_1_inspector_spacer.html" title="Ms::InspectorSpacer" alt="" coords="337,917,480,944"/>
-<area shape="rect" id="node47" href="class_ms_1_1_inspector_staff_type_change.html" title="Ms::InspectorStaffTypeChange" alt="" coords="307,968,511,995"/>
-<area shape="rect" id="node48" href="class_ms_1_1_inspector_t_box.html" title="Ms::InspectorTBox" alt="" coords="342,1019,475,1045"/>
-<area shape="rect" id="node49" href="class_ms_1_1_inspector_v_box.html" title="Ms::InspectorVBox" alt="" coords="341,1069,476,1096"/>
+<area shape="rect" id="node3" href="class_ms_1_1_inspector_bracket.html" title="Ms::InspectorBracket" alt="" coords="335,588,482,615"/>
+<area shape="rect" id="node4" href="class_ms_1_1_inspector_break.html" title="Ms::InspectorBreak" alt="" coords="341,639,477,665"/>
+<area shape="rect" id="node5" href="class_ms_1_1_inspector_element_base.html" title="Ms::InspectorElementBase" alt="" coords="319,689,499,716"/>
+<area shape="rect" id="node42" href="class_ms_1_1_inspector_empty.html" title="Ms::InspectorEmpty" alt="" coords="339,740,479,767"/>
+<area shape="rect" id="node43" href="class_ms_1_1_inspector_group_element.html" title="Ms::InspectorGroupElement" alt="" coords="316,791,501,817"/>
+<area shape="rect" id="node44" href="class_ms_1_1_inspector_h_box.html" title="Ms::InspectorHBox" alt="" coords="341,841,476,868"/>
+<area shape="rect" id="node45" href="class_ms_1_1_inspector_lasso.html" title="Ms::InspectorLasso" alt="" coords="340,892,477,919"/>
+<area shape="rect" id="node46" href="class_ms_1_1_inspector_spacer.html" title="Ms::InspectorSpacer" alt="" coords="337,943,480,969"/>
+<area shape="rect" id="node47" href="class_ms_1_1_inspector_staff_type_change.html" title="Ms::InspectorStaffTypeChange" alt="" coords="307,993,511,1020"/>
+<area shape="rect" id="node48" href="class_ms_1_1_inspector_t_box.html" title="Ms::InspectorTBox" alt="" coords="342,1044,475,1071"/>
+<area shape="rect" id="node49" href="class_ms_1_1_inspector_v_box.html" title="Ms::InspectorVBox" alt="" coords="341,1095,476,1121"/>
 <area shape="rect" id="node6" href="class_ms_1_1_inspector_accidental.html" title="Ms::InspectorAccidental" alt="" coords="569,5,731,32"/>
 <area shape="rect" id="node7" href="class_ms_1_1_inspector_ambitus.html" title="Ms::InspectorAmbitus" alt="" coords="575,56,725,83"/>
 <area shape="rect" id="node8" href="class_ms_1_1_inspector_arpeggio.html" title="Ms::InspectorArpeggio" alt="" coords="573,107,727,133"/>
@@ -116,21 +118,21 @@ Inheritance diagram for Ms::InspectorBase:</div>
 <area shape="rect" id="node24" href="class_ms_1_1_inspector_slur_tie.html" title="Ms::InspectorSlurTie" alt="" coords="579,917,721,944"/>
 <area shape="rect" id="node25" href="class_ms_1_1_inspector_stem.html" title="Ms::InspectorStem" alt="" coords="583,968,717,995"/>
 <area shape="rect" id="node26" href="class_ms_1_1_inspector_text_base.html" title="Ms::InspectorTextBase" alt="" coords="571,1019,729,1045"/>
-<area shape="rect" id="node36" href="class_ms_1_1_inspector_text_line_base.html" title="Ms::InspectorTextLineBase" alt="" coords="559,1069,741,1096"/>
-<area shape="rect" id="node37" href="class_ms_1_1_inspector_time_sig.html" title="Ms::InspectorTimeSig" alt="" coords="575,1120,725,1147"/>
-<area shape="rect" id="node38" href="class_ms_1_1_inspector_tremolo_bar.html" title="Ms::InspectorTremoloBar" alt="" coords="565,1171,735,1197"/>
-<area shape="rect" id="node39" href="class_ms_1_1_inspector_trill.html" title="Ms::InspectorTrill" alt="" coords="589,1221,711,1248"/>
-<area shape="rect" id="node40" href="class_ms_1_1_inspector_tuplet.html" title="Ms::InspectorTuplet" alt="" coords="581,1272,719,1299"/>
-<area shape="rect" id="node41" href="class_ms_1_1_inspector_vibrato.html" title="Ms::InspectorVibrato" alt="" coords="579,1323,721,1349"/>
-<area shape="rect" id="node27" href="class_ms_1_1_inspector_dynamic.html" title="Ms::InspectorDynamic" alt="" coords="817,816,971,843"/>
-<area shape="rect" id="node28" href="class_ms_1_1_inspector_harmony.html" title="Ms::InspectorHarmony" alt="" coords="817,867,971,893"/>
-<area shape="rect" id="node29" href="class_ms_1_1_inspector_iname.html" title="Ms::InspectorIname" alt="" coords="825,917,963,944"/>
-<area shape="rect" id="node30" href="class_ms_1_1_inspector_instrument_change.html" title="Ms::InspectorInstrumentChange" alt="" coords="789,968,999,995"/>
-<area shape="rect" id="node31" href="class_ms_1_1_inspector_jump.html" title="Ms::InspectorJump" alt="" coords="827,1019,961,1045"/>
-<area shape="rect" id="node32" href="class_ms_1_1_inspector_lyric.html" title="Ms::InspectorLyric" alt="" coords="829,1069,959,1096"/>
-<area shape="rect" id="node33" href="class_ms_1_1_inspector_marker.html" title="Ms::InspectorMarker" alt="" coords="823,1120,965,1147"/>
-<area shape="rect" id="node34" href="class_ms_1_1_inspector_measure_number.html" title="Ms::InspectorMeasureNumber" alt="" coords="795,1171,993,1197"/>
-<area shape="rect" id="node35" href="class_ms_1_1_inspector_staff_text.html" title="Ms::InspectorStaffText" alt="" coords="816,1221,972,1248"/>
+<area shape="rect" id="node35" href="class_ms_1_1_inspector_text_line_base.html" title="Ms::InspectorTextLineBase" alt="" coords="559,1069,741,1096"/>
+<area shape="rect" id="node36" href="class_ms_1_1_inspector_time_sig.html" title="Ms::InspectorTimeSig" alt="" coords="575,1120,725,1147"/>
+<area shape="rect" id="node37" href="class_ms_1_1_inspector_tremolo.html" title="Ms::InspectorTremolo" alt="" coords="575,1171,725,1197"/>
+<area shape="rect" id="node38" href="class_ms_1_1_inspector_tremolo_bar.html" title="Ms::InspectorTremoloBar" alt="" coords="565,1221,735,1248"/>
+<area shape="rect" id="node39" href="class_ms_1_1_inspector_trill.html" title="Ms::InspectorTrill" alt="" coords="589,1272,711,1299"/>
+<area shape="rect" id="node40" href="class_ms_1_1_inspector_tuplet.html" title="Ms::InspectorTuplet" alt="" coords="581,1323,719,1349"/>
+<area shape="rect" id="node41" href="class_ms_1_1_inspector_vibrato.html" title="Ms::InspectorVibrato" alt="" coords="579,1373,721,1400"/>
+<area shape="rect" id="node27" href="class_ms_1_1_inspector_dynamic.html" title="Ms::InspectorDynamic" alt="" coords="817,841,971,868"/>
+<area shape="rect" id="node28" href="class_ms_1_1_inspector_harmony.html" title="Ms::InspectorHarmony" alt="" coords="817,892,971,919"/>
+<area shape="rect" id="node29" href="class_ms_1_1_inspector_iname.html" title="Ms::InspectorIname" alt="" coords="825,943,963,969"/>
+<area shape="rect" id="node30" href="class_ms_1_1_inspector_instrument_change.html" title="Ms::InspectorInstrumentChange" alt="" coords="789,993,999,1020"/>
+<area shape="rect" id="node31" href="class_ms_1_1_inspector_jump.html" title="Ms::InspectorJump" alt="" coords="827,1044,961,1071"/>
+<area shape="rect" id="node32" href="class_ms_1_1_inspector_lyric.html" title="Ms::InspectorLyric" alt="" coords="829,1095,959,1121"/>
+<area shape="rect" id="node33" href="class_ms_1_1_inspector_marker.html" title="Ms::InspectorMarker" alt="" coords="823,1145,965,1172"/>
+<area shape="rect" id="node34" href="class_ms_1_1_inspector_measure_number.html" title="Ms::InspectorMeasureNumber" alt="" coords="795,1196,993,1223"/>
 </map>
 <center><span class="legend">[<a href="graph_legend.html">legend</a>]</span></center></div>
 <div class="dynheader">
@@ -138,7 +140,43 @@ Collaboration diagram for Ms::InspectorBase:</div>
 <div class="dyncontent">
 <div class="center"><img src="class_ms_1_1_inspector_base__coll__graph.png" border="0" usemap="#_ms_1_1_inspector_base_coll__map" alt="Collaboration graph"/></div>
 <map name="_ms_1_1_inspector_base_coll__map" id="_ms_1_1_inspector_base_coll__map">
-<area shape="rect" id="node3" href="class_ms_1_1_inspector.html" title="Ms::Inspector" alt="" coords="103,81,205,108"/>
+<area shape="rect" id="node3" href="class_ms_1_1_inspector.html" title="Ms::Inspector" alt="" coords="1802,80,1905,107"/>
+<area shape="rect" id="node5" href="class_ms_1_1_score.html" title="Ms::Score" alt="" coords="935,928,1018,955"/>
+<area shape="rect" id="node7" href="class_ms_1_1_score_element.html" title="Ms::ScoreElement" alt="" coords="1239,624,1369,651"/>
+<area shape="rect" id="node10" href="class_ms_1_1_excerpt.html" title="Ms::Excerpt" alt="" coords="2851,1360,2944,1387"/>
+<area shape="rect" id="node11" href="class_ms_1_1_master_score.html" title="Ms::MasterScore" alt="" coords="2629,1233,2752,1260"/>
+<area shape="rect" id="node15" href="class_ms_1_1_repeat_list.html" title="Ms::RepeatList" alt="" coords="1249,1367,1359,1393"/>
+<area shape="rect" id="node36" href="class_ms_1_1_input_state.html" title="Ms::InputState" alt="" coords="2637,669,2745,696"/>
+<area shape="rect" id="node44" href="class_ms_1_1_selection.html" title="Ms::Selection" alt="" coords="2102,596,2205,623"/>
+<area shape="rect" id="node49" href="class_ms_1_1_selection_filter.html" title="Ms::SelectionFilter" alt="" coords="1239,776,1369,803"/>
+<area shape="rect" id="node25" href="class_ms_1_1_element.html" title="Base class of score layout elements. " alt="" coords="1542,503,1638,529"/>
+<area shape="rect" id="node8" href="class_ms_1_1_linked_elements.html" title="Ms::LinkedElements" alt="" coords="906,613,1047,640"/>
+<area shape="rect" id="node12" href="class_ms_1_1_omr.html" title="Ms::Omr" alt="" coords="2404,1335,2477,1361"/>
+<area shape="rect" id="node13" href="class_ms_1_1_cmd_state.html" title="Ms::CmdState" alt="" coords="1091,539,1197,565"/>
+<area shape="rect" id="node14" href="class_ms_1_1_fraction.html" title="Ms::Fraction" alt="" coords="600,437,695,464"/>
+<area shape="rect" id="node33" href="class_ms_1_1_measure_base.html" title="Virtual base class for Measure, HBox and VBox. " alt="" coords="1789,612,1917,639"/>
+<area shape="rect" id="node37" href="class_ms_1_1_segment.html" title="Ms::Segment" alt="" coords="1803,343,1903,369"/>
+<area shape="rect" id="node41" href="class_ms_1_1_spanner.html" title="Virtual base class for slurs, ties, lines etc. " alt="" coords="1805,457,1901,484"/>
+<area shape="rect" id="node17" href="class_ms_1_1_revisions.html" title="Ms::Revisions" alt="" coords="2387,1385,2494,1412"/>
+<area shape="rect" id="node18" href="class_ms_1_1_revision.html" title="Ms::Revision" alt="" coords="2104,1385,2203,1412"/>
+<area shape="rect" id="node19" href="class_ms_1_1_tempo_map.html" title="Ms::TempoMap" alt="" coords="2384,1436,2497,1463"/>
+<area shape="rect" id="node21" href="class_ms_1_1_movements.html" title="Ms::Movements" alt="" coords="2383,995,2499,1021"/>
+<area shape="rect" id="node23" href="class_ms_1_1_text.html" title="Ms::Text" alt="" coords="2116,777,2191,804"/>
+<area shape="rect" id="node24" href="class_ms_1_1_text_base.html" title="Ms::TextBase" alt="" coords="1801,508,1905,535"/>
+<area shape="rect" id="node26" href="class_ms_1_1_spatium.html" title="Ms::Spatium" alt="" coords="1256,445,1352,472"/>
+<area shape="rect" id="node27" href="class_ms_1_1_m_style.html" title="Ms::MStyle" alt="" coords="603,1255,692,1281"/>
+<area shape="rect" id="node28" href="class_ms_1_1_chord_list.html" title="Ms::ChordList" alt="" coords="303,1255,407,1281"/>
+<area shape="rect" id="node30" href="class_ms_1_1_time_sig_map.html" title="Ms::TimeSigMap" alt="" coords="2380,1132,2501,1159"/>
+<area shape="rect" id="node32" href="class_ms_1_1_measure_base_list.html" title="Ms::MeasureBaseList" alt="" coords="2079,879,2228,905"/>
+<area shape="rect" id="node34" href="class_ms_1_1_element_list.html" title="Ms::ElementList" alt="" coords="1531,687,1649,713"/>
+<area shape="rect" id="node38" href="class_ms_1_1_t_duration.html" title="Ms::TDuration" alt="" coords="2388,669,2493,696"/>
+<area shape="rect" id="node39" href="class_ms_1_1_slur.html" title="Ms::Slur" alt="" coords="2405,577,2476,604"/>
+<area shape="rect" id="node40" href="class_ms_1_1_slur_tie.html" title="Ms::SlurTie" alt="" coords="2109,487,2198,513"/>
+<area shape="rect" id="node42" href="class_ms_1_1_synthesizer_state.html" title="Ms::SynthesizerState" alt="" coords="573,979,721,1005"/>
+<area shape="rect" id="node45" href="class_ms_1_1_spanner_map.html" title="Ms::SpannerMap" alt="" coords="587,1033,708,1060"/>
+<area shape="rect" id="node47" href="class_ms_1_1_update_state.html" title="Ms::UpdateState" alt="" coords="587,827,708,853"/>
+<area shape="rect" id="node48" href="class_ms_1_1_audio.html" title="Ms::Audio" alt="" coords="607,877,688,904"/>
+<area shape="rect" id="node50" href="class_ms_1_1_score_font.html" title="Ms::ScoreFont" alt="" coords="593,928,701,955"/>
 </map>
 <center><span class="legend">[<a href="graph_legend.html">legend</a>]</span></center></div>
 <table class="memberdecls">
@@ -193,6 +231,22 @@ Protected Attributes</h2></td></tr>
 <tr class="memitem:ac793b8e7c02cab776213d0aa48df9fad"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_ms_1_1_inspector.html">Inspector</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ms_1_1_inspector_base.html#ac793b8e7c02cab776213d0aa48df9fad">inspector</a></td></tr>
 <tr class="separator:ac793b8e7c02cab776213d0aa48df9fad"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pri-slots"></a>
+Private Slots</h2></td></tr>
+<tr class="memitem:a46966d2963dd29bdb2699e22c37e30a3"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ms_1_1_inspector_base.html#a46966d2963dd29bdb2699e22c37e30a3">resetToStyle</a> ()</td></tr>
+<tr class="separator:a46966d2963dd29bdb2699e22c37e30a3"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pri-methods"></a>
+Private Member Functions</h2></td></tr>
+<tr class="memitem:ac5df844802ca1704138a6610eac15e07"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ms_1_1_inspector_base.html#ac5df844802ca1704138a6610eac15e07">dirty</a> () const</td></tr>
+<tr class="separator:ac5df844802ca1704138a6610eac15e07"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a6b6cd01cd8dfab4d6578002b51db1062"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ms_1_1_inspector_base.html#a6b6cd01cd8dfab4d6578002b51db1062">checkDifferentValues</a> (const <a class="el" href="struct_ms_1_1_inspector_item.html">InspectorItem</a> &amp;)</td></tr>
+<tr class="separator:a6b6cd01cd8dfab4d6578002b51db1062"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af427e9ec5375721c4764751c5545f16c"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ms_1_1_inspector_base.html#af427e9ec5375721c4764751c5545f16c">compareValues</a> (const <a class="el" href="struct_ms_1_1_inspector_item.html">InspectorItem</a> &amp;ii, QVariant a, QVariant b)</td></tr>
+<tr class="separator:af427e9ec5375721c4764751c5545f16c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a80c65766c3f08563cebe4bddaf30311d"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_ms_1_1_element.html">Element</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ms_1_1_inspector_base.html#a80c65766c3f08563cebe4bddaf30311d">effectiveElement</a> (const <a class="el" href="struct_ms_1_1_inspector_item.html">InspectorItem</a> &amp;) const</td></tr>
+<tr class="separator:a80c65766c3f08563cebe4bddaf30311d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="friends"></a>
 Friends</h2></td></tr>
 <tr class="memitem:ad1fdaf4a4ce5fef53a6a0706250d1d71"><td class="memItemLeft" align="right" valign="top">class&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ms_1_1_inspector_base.html#ad1fdaf4a4ce5fef53a6a0706250d1d71">InspectorScriptEntry</a></td></tr>
@@ -231,6 +285,125 @@ Friends</h2></td></tr>
           <td></td>
         </tr>
       </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a6b6cd01cd8dfab4d6578002b51db1062"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a6b6cd01cd8dfab4d6578002b51db1062">&#9670;&nbsp;</a></span>checkDifferentValues()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void Ms::InspectorBase::checkDifferentValues </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="struct_ms_1_1_inspector_item.html">InspectorItem</a> &amp;&#160;</td>
+          <td class="paramname"><em>ii</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="af427e9ec5375721c4764751c5545f16c"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#af427e9ec5375721c4764751c5545f16c">&#9670;&nbsp;</a></span>compareValues()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool Ms::InspectorBase::compareValues </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="struct_ms_1_1_inspector_item.html">InspectorItem</a> &amp;&#160;</td>
+          <td class="paramname"><em>ii</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">QVariant&#160;</td>
+          <td class="paramname"><em>a</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">QVariant&#160;</td>
+          <td class="paramname"><em>b</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="ac5df844802ca1704138a6610eac15e07"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ac5df844802ca1704138a6610eac15e07">&#9670;&nbsp;</a></span>dirty()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool Ms::InspectorBase::dirty </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a80c65766c3f08563cebe4bddaf30311d"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a80c65766c3f08563cebe4bddaf30311d">&#9670;&nbsp;</a></span>effectiveElement()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="class_ms_1_1_element.html">Element</a> * Ms::InspectorBase::effectiveElement </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="struct_ms_1_1_inspector_item.html">InspectorItem</a> &amp;&#160;</td>
+          <td class="paramname"><em>ii</em></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
 </div><div class="memdoc">
 
 </div>
@@ -371,7 +544,7 @@ Friends</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Reimplemented in <a class="el" href="class_ms_1_1_inspector_tempo_text.html#ad597ce05e6ec0bcd88fba9e0b47dad2d">Ms::InspectorTempoText</a>, and <a class="el" href="class_ms_1_1_inspector_hairpin.html#a08b88bb7d295b21f2bcfdf7e7c4705ca">Ms::InspectorHairpin</a>.</p>
+<p>Reimplemented in <a class="el" href="class_ms_1_1_inspector_tempo_text.html#ad597ce05e6ec0bcd88fba9e0b47dad2d">Ms::InspectorTempoText</a>, <a class="el" href="class_ms_1_1_inspector_hairpin.html#a08b88bb7d295b21f2bcfdf7e7c4705ca">Ms::InspectorHairpin</a>, and <a class="el" href="class_ms_1_1_inspector_image.html#ae40ae5428e26eb1468eda5bf973b345e">Ms::InspectorImage</a>.</p>
 
 </div>
 </div>
@@ -401,6 +574,31 @@ Friends</h2></td></tr>
 
 </div>
 </div>
+<a id="a46966d2963dd29bdb2699e22c37e30a3"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a46966d2963dd29bdb2699e22c37e30a3">&#9670;&nbsp;</a></span>resetToStyle</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void Ms::InspectorBase::resetToStyle </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span><span class="mlabel">slot</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
 <a id="afef6efffb31822432b0e14023ebbfbda"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#afef6efffb31822432b0e14023ebbfbda">&#9670;&nbsp;</a></span>setElement()</h2>
 
@@ -424,7 +622,7 @@ Friends</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Reimplemented in <a class="el" href="class_ms_1_1_inspector_key_sig.html#adedbbf92b8102173bc2ecb98c8bf9891">Ms::InspectorKeySig</a>, <a class="el" href="class_ms_1_1_inspector_time_sig.html#a59598f99a178377e4f5d135671924319">Ms::InspectorTimeSig</a>, <a class="el" href="class_ms_1_1_inspector_clef.html#a649b51ab570cfd7d82561841ea575632">Ms::InspectorClef</a>, <a class="el" href="class_ms_1_1_inspector_rest.html#a209b91b1e53176c17ec9bf64650184d9">Ms::InspectorRest</a>, <a class="el" href="class_ms_1_1_inspector_note.html#a39a607fee424548226a22a0c29abf13c">Ms::InspectorNote</a>, <a class="el" href="class_ms_1_1_inspector_bar_line.html#a7dbe4a49705c2e509d3f48c4c5c7dde9">Ms::InspectorBarLine</a>, <a class="el" href="class_ms_1_1_inspector_element_base.html#af3a1245fa8eb1aaf0db98478712d6bf9">Ms::InspectorElementBase</a>, <a class="el" href="class_ms_1_1_inspector_text_line_base.html#a8901efeb1d5e50ee8d70fd7dff29cc42">Ms::InspectorTextLineBase</a>, and <a class="el" href="class_ms_1_1_inspector_text_base.html#ae9305d5456647cc72ac7e705091513da">Ms::InspectorTextBase</a>.</p>
+<p>Reimplemented in <a class="el" href="class_ms_1_1_inspector_key_sig.html#adedbbf92b8102173bc2ecb98c8bf9891">Ms::InspectorKeySig</a>, <a class="el" href="class_ms_1_1_inspector_time_sig.html#a59598f99a178377e4f5d135671924319">Ms::InspectorTimeSig</a>, <a class="el" href="class_ms_1_1_inspector_clef.html#a649b51ab570cfd7d82561841ea575632">Ms::InspectorClef</a>, <a class="el" href="class_ms_1_1_inspector_rest.html#a209b91b1e53176c17ec9bf64650184d9">Ms::InspectorRest</a>, <a class="el" href="class_ms_1_1_inspector_note.html#a39a607fee424548226a22a0c29abf13c">Ms::InspectorNote</a>, <a class="el" href="class_ms_1_1_inspector_bar_line.html#a7dbe4a49705c2e509d3f48c4c5c7dde9">Ms::InspectorBarLine</a>, <a class="el" href="class_ms_1_1_inspector_element_base.html#af3a1245fa8eb1aaf0db98478712d6bf9">Ms::InspectorElementBase</a>, <a class="el" href="class_ms_1_1_inspector_text_line_base.html#a8901efeb1d5e50ee8d70fd7dff29cc42">Ms::InspectorTextLineBase</a>, <a class="el" href="class_ms_1_1_inspector_hairpin.html#abc08af3418480fc3cbdc588d3bc58cfd">Ms::InspectorHairpin</a>, <a class="el" href="class_ms_1_1_inspector_text_base.html#ae9305d5456647cc72ac7e705091513da">Ms::InspectorTextBase</a>, and <a class="el" href="class_ms_1_1_inspector_fret_diagram.html#a228f1250ae277d5e106add7dd6d59c0d">Ms::InspectorFretDiagram</a>.</p>
 
 </div>
 </div>
@@ -552,7 +750,7 @@ Friends</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Reimplemented in <a class="el" href="class_ms_1_1_inspector_text_base.html#a6b59f4850df6c12e7b03d21149b0cfb8">Ms::InspectorTextBase</a>.</p>
+<p>Reimplemented in <a class="el" href="class_ms_1_1_inspector_text_base.html#a6b59f4850df6c12e7b03d21149b0cfb8">Ms::InspectorTextBase</a>, and <a class="el" href="class_ms_1_1_inspector_dynamic.html#a4e00de11dee2b534e55ada488931b722">Ms::InspectorDynamic</a>.</p>
 
 </div>
 </div>
@@ -580,7 +778,7 @@ Friends</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Reimplemented in <a class="el" href="class_ms_1_1_inspector_text_line_base.html#a66997691bb5f058358b2106f978f92a6">Ms::InspectorTextLineBase</a>.</p>
+<p>Reimplemented in <a class="el" href="class_ms_1_1_inspector_text_line_base.html#a66997691bb5f058358b2106f978f92a6">Ms::InspectorTextLineBase</a>, and <a class="el" href="class_ms_1_1_inspector_hairpin.html#a772458fad48e00c51be741460cfc1e66">Ms::InspectorHairpin</a>.</p>
 
 </div>
 </div>

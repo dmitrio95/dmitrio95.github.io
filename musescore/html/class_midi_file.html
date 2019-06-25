@@ -23,9 +23,9 @@
   <td id="projectlogo"><img alt="Logo" src="musescore_logo_full.png"/></td>
   <td id="projectalign" style="padding-left: 0.5em;">
    <div id="projectname">MuseScore
-   &#160;<span id="projectnumber">3.1</span>
+   &#160;<span id="projectnumber">3.2</span>
    </div>
-   <div id="projectbrief">Music compisition and notation</div>
+   <div id="projectbrief">Music composition and notation</div>
   </td>
  </tr>
  </tbody>
@@ -64,6 +64,7 @@ $(function() {
   <div class="summary">
 <a href="#pub-methods">Public Member Functions</a> &#124;
 <a href="#pro-methods">Protected Member Functions</a> &#124;
+<a href="#pri-attribs">Private Attributes</a> &#124;
 <a href="class_midi_file-members.html">List of all members</a>  </div>
   <div class="headertitle">
 <div class="title">MidiFile Class Reference</div>  </div>
@@ -71,6 +72,14 @@ $(function() {
 <div class="contents">
 
 <p><code>#include &lt;<a class="el" href="ools_2midifile_8h_source.html">midifile.h</a>&gt;</code></p>
+<div class="dynheader">
+Collaboration diagram for MidiFile:</div>
+<div class="dyncontent">
+<div class="center"><img src="class_midi_file__coll__graph.png" border="0" usemap="#_midi_file_coll__map" alt="Collaboration graph"/></div>
+<map name="_midi_file_coll__map" id="_midi_file_coll__map">
+<area shape="rect" id="node2" href="class_tempo_map.html" title="TempoMap" alt="" coords="41,81,127,108"/>
+</map>
+<center><span class="legend">[<a href="graph_legend.html">legend</a>]</span></center></div>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
@@ -133,6 +142,32 @@ Protected Member Functions</h2></td></tr>
 <tr class="separator:ab9f67f681e39817a250015f8428d8f84"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a42abc6c1a00e6d83cbf17aa768808f51"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_midi_file.html#a42abc6c1a00e6d83cbf17aa768808f51">resetRunningStatus</a> ()</td></tr>
 <tr class="separator:a42abc6c1a00e6d83cbf17aa768808f51"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pri-attribs"></a>
+Private Attributes</h2></td></tr>
+<tr class="memitem:ad7ca83c6ddeb2762c72e4a14ed38901a"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_tempo_map.html">TempoMap</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_midi_file.html#ad7ca83c6ddeb2762c72e4a14ed38901a">_tempoMap</a></td></tr>
+<tr class="separator:ad7ca83c6ddeb2762c72e4a14ed38901a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a17db0e99b5f6537a0db11acf726109a9"><td class="memItemLeft" align="right" valign="top">QIODevice *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_midi_file.html#a17db0e99b5f6537a0db11acf726109a9">fp</a></td></tr>
+<tr class="separator:a17db0e99b5f6537a0db11acf726109a9"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9015d7144b7c62e19f357f0e25e3bc8a"><td class="memItemLeft" align="right" valign="top">std::list&lt; <a class="el" href="class_midi_track.html">MidiTrack</a> * &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_midi_file.html#a9015d7144b7c62e19f357f0e25e3bc8a">_tracks</a></td></tr>
+<tr class="separator:a9015d7144b7c62e19f357f0e25e3bc8a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa77430e039445383487312601b268a41"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_midi_file.html#aa77430e039445383487312601b268a41">_division</a></td></tr>
+<tr class="separator:aa77430e039445383487312601b268a41"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a77e697571c78b49e3905e9481d35827b"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_midi_file.html#a77e697571c78b49e3905e9481d35827b">_format</a></td></tr>
+<tr class="memdesc:a77e697571c78b49e3905e9481d35827b"><td class="mdescLeft">&#160;</td><td class="mdescRight">midi file format (0-2)  <a href="#a77e697571c78b49e3905e9481d35827b">More...</a><br /></td></tr>
+<tr class="separator:a77e697571c78b49e3905e9481d35827b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a2de9a61174635e1d8b856a20bb5443d0"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_midi_file.html#a2de9a61174635e1d8b856a20bb5443d0">status</a></td></tr>
+<tr class="memdesc:a2de9a61174635e1d8b856a20bb5443d0"><td class="mdescLeft">&#160;</td><td class="mdescRight">running status  <a href="#a2de9a61174635e1d8b856a20bb5443d0">More...</a><br /></td></tr>
+<tr class="separator:a2de9a61174635e1d8b856a20bb5443d0"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a2a551bf8ca46becd1190ba29d384b782"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_midi_file.html#a2a551bf8ca46becd1190ba29d384b782">sstatus</a></td></tr>
+<tr class="memdesc:a2a551bf8ca46becd1190ba29d384b782"><td class="mdescLeft">&#160;</td><td class="mdescRight">running status (not reset after meta or sysex events)  <a href="#a2a551bf8ca46becd1190ba29d384b782">More...</a><br /></td></tr>
+<tr class="separator:a2a551bf8ca46becd1190ba29d384b782"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae169a88fb2d9d408ecf3e683404216ca"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_midi_file.html#ae169a88fb2d9d408ecf3e683404216ca">click</a></td></tr>
+<tr class="memdesc:ae169a88fb2d9d408ecf3e683404216ca"><td class="mdescLeft">&#160;</td><td class="mdescRight">current tick position in file  <a href="#ae169a88fb2d9d408ecf3e683404216ca">More...</a><br /></td></tr>
+<tr class="separator:ae169a88fb2d9d408ecf3e683404216ca"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a628077a07cb34469cf02e424dc0f87df"><td class="memItemLeft" align="right" valign="top">qint64&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_midi_file.html#a628077a07cb34469cf02e424dc0f87df">curPos</a></td></tr>
+<tr class="memdesc:a628077a07cb34469cf02e424dc0f87df"><td class="mdescLeft">&#160;</td><td class="mdescRight">current file byte position  <a href="#a628077a07cb34469cf02e424dc0f87df">More...</a><br /></td></tr>
+<tr class="separator:a628077a07cb34469cf02e424dc0f87df"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
 <a id="a989fec6d479c0ebf68ef72224e58e894"></a>
@@ -840,6 +875,215 @@ Protected Member Functions</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
+
+</div>
+</div>
+<h2 class="groupheader">Member Data Documentation</h2>
+<a id="aa77430e039445383487312601b268a41"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aa77430e039445383487312601b268a41">&#9670;&nbsp;</a></span>_division</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">int MidiFile::_division</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a77e697571c78b49e3905e9481d35827b"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a77e697571c78b49e3905e9481d35827b">&#9670;&nbsp;</a></span>_format</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">int MidiFile::_format</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>midi file format (0-2) </p>
+
+</div>
+</div>
+<a id="ad7ca83c6ddeb2762c72e4a14ed38901a"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ad7ca83c6ddeb2762c72e4a14ed38901a">&#9670;&nbsp;</a></span>_tempoMap</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="class_tempo_map.html">TempoMap</a> MidiFile::_tempoMap</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a9015d7144b7c62e19f357f0e25e3bc8a"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a9015d7144b7c62e19f357f0e25e3bc8a">&#9670;&nbsp;</a></span>_tracks</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">std::list&lt;<a class="el" href="class_midi_track.html">MidiTrack</a>*&gt; MidiFile::_tracks</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="ae169a88fb2d9d408ecf3e683404216ca"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ae169a88fb2d9d408ecf3e683404216ca">&#9670;&nbsp;</a></span>click</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">int MidiFile::click</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>current tick position in file </p>
+
+</div>
+</div>
+<a id="a628077a07cb34469cf02e424dc0f87df"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a628077a07cb34469cf02e424dc0f87df">&#9670;&nbsp;</a></span>curPos</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">qint64 MidiFile::curPos</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>current file byte position </p>
+
+</div>
+</div>
+<a id="a17db0e99b5f6537a0db11acf726109a9"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a17db0e99b5f6537a0db11acf726109a9">&#9670;&nbsp;</a></span>fp</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">QIODevice* MidiFile::fp</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a2a551bf8ca46becd1190ba29d384b782"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a2a551bf8ca46becd1190ba29d384b782">&#9670;&nbsp;</a></span>sstatus</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">int MidiFile::sstatus</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>running status (not reset after meta or sysex events) </p>
+
+</div>
+</div>
+<a id="a2de9a61174635e1d8b856a20bb5443d0"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a2de9a61174635e1d8b856a20bb5443d0">&#9670;&nbsp;</a></span>status</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">int MidiFile::status</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>running status </p>
 
 </div>
 </div>

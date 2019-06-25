@@ -1,9 +1,10 @@
 var searchData=
 [
-  ['tabdurationsymbol',['TabDurationSymbol',['../class_ms_1_1_staff_type.html#a4215a50824ae165c2aaf4e2a8a825393',1,'Ms::StaffType']]],
-  ['textblock',['TextBlock',['../class_ms_1_1_text_base.html#a10941693a31766eabb041642470df529',1,'Ms::TextBase']]],
-  ['textcursor',['TextCursor',['../class_ms_1_1_text_base.html#add8fbfbe3835b4f8103aafc56815b187',1,'Ms::TextBase']]],
-  ['textfragment',['TextFragment',['../class_ms_1_1_text_base.html#a8b4f9a4b0426c3f63d04756154377b4b',1,'Ms::TextBase']]],
-  ['textlinebasesegment',['TextLineBaseSegment',['../class_ms_1_1_text_line_base.html#a1877234adade48115e20f6c6a9b195b8',1,'Ms::TextLineBase']]],
-  ['tracklist',['TrackList',['../class_ms_1_1_score_range.html#a1116d86962c5a12bd869eb106010b791',1,'Ms::ScoreRange']]]
+  ['score',['Score',['../class_ms_1_1_editor.html#afbfd5f68477a4cb5ab4b75ad70b04a95',1,'Ms::Editor']]],
+  ['scorefont',['ScoreFont',['../class_ms_1_1_sym.html#a8314df6d28308a54e8863dc21ff395a4',1,'Ms::Sym']]],
+  ['sline',['SLine',['../class_ms_1_1_line_segment.html#a69b89916c4577a4a9afa37bdec81bfee',1,'Ms::LineSegment']]],
+  ['spannersegment',['SpannerSegment',['../class_ms_1_1_spanner.html#a99ed65b91996904d928afe2e94e18b86',1,'Ms::Spanner']]],
+  ['svggenerator',['SvgGenerator',['../class_svg_paint_engine.html#aef20980cfa801ec1158d9af75b421385',1,'SvgPaintEngine']]],
+  ['swap',['swap',['../class_ms_1_1_part_channel_settings_link.html#a344c593ff100b41c6425d1607647a3d9',1,'Ms::PartChannelSettingsLink::swap()'],['../class_ms_1_1_listener.html#ac9bb898865096537df79e154335e88f8',1,'Ms::Listener::swap()']]],
+  ['syntiparameter',['SyntiParameter',['../class_synti_parameter_data.html#a44b403b430169377c482bba228728265',1,'SyntiParameterData']]]
 ];

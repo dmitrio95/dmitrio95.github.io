@@ -23,9 +23,9 @@
   <td id="projectlogo"><img alt="Logo" src="musescore_logo_full.png"/></td>
   <td id="projectalign" style="padding-left: 0.5em;">
    <div id="projectname">MuseScore
-   &#160;<span id="projectnumber">3.1</span>
+   &#160;<span id="projectnumber">3.2</span>
    </div>
-   <div id="projectbrief">Music compisition and notation</div>
+   <div id="projectbrief">Music composition and notation</div>
   </td>
  </tr>
  </tbody>
@@ -69,6 +69,9 @@ $(function() {
 <a href="#pub-slots">Public Slots</a> &#124;
 <a href="#signals">Signals</a> &#124;
 <a href="#pub-methods">Public Member Functions</a> &#124;
+<a href="#pri-methods">Private Member Functions</a> &#124;
+<a href="#pri-attribs">Private Attributes</a> &#124;
+<a href="#pri-static-attribs">Static Private Attributes</a> &#124;
 <a href="class_ms_1_1_piano-members.html">List of all members</a>  </div>
   <div class="headertitle">
 <div class="title">Ms::Piano Class Reference</div>  </div>
@@ -115,6 +118,51 @@ Public Member Functions</h2></td></tr>
 <tr class="separator:afb87e02d9e510fdc991ce6d59186435c"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a3bff111dcd541d2444b8898fc869a097"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ms_1_1_piano.html#a3bff111dcd541d2444b8898fc869a097">setOrientation</a> (<a class="el" href="namespace_ms.html#a996781f6cd7dad24e8117958002bb8ee">PianoOrientation</a>)</td></tr>
 <tr class="separator:a3bff111dcd541d2444b8898fc869a097"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pri-methods"></a>
+Private Member Functions</h2></td></tr>
+<tr class="memitem:ac9764412fa111977dc94a1596e6a59e6"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ms_1_1_piano.html#ac9764412fa111977dc94a1596e6a59e6">paintEvent</a> (QPaintEvent *)</td></tr>
+<tr class="separator:ac9764412fa111977dc94a1596e6a59e6"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aff11dfa9ad821c5d81f18598ecab6402"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ms_1_1_piano.html#aff11dfa9ad821c5d81f18598ecab6402">mousePressEvent</a> (QMouseEvent *)</td></tr>
+<tr class="separator:aff11dfa9ad821c5d81f18598ecab6402"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9b9dc281ec20c49dbcaca63f0c15bf5a"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ms_1_1_piano.html#a9b9dc281ec20c49dbcaca63f0c15bf5a">mouseReleaseEvent</a> (QMouseEvent *)</td></tr>
+<tr class="separator:a9b9dc281ec20c49dbcaca63f0c15bf5a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a42e976e6ce9a4d7ad8cfdb0f298375b9"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ms_1_1_piano.html#a42e976e6ce9a4d7ad8cfdb0f298375b9">mouseMoveEvent</a> (QMouseEvent *event)</td></tr>
+<tr class="separator:a42e976e6ce9a4d7ad8cfdb0f298375b9"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a741cf5322275f4a3863767ccd1cd8673"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ms_1_1_piano.html#a741cf5322275f4a3863767ccd1cd8673">leaveEvent</a> (QEvent *)</td></tr>
+<tr class="separator:a741cf5322275f4a3863767ccd1cd8673"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a8464edc393bf8d43f176803f0dc8748d"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ms_1_1_piano.html#a8464edc393bf8d43f176803f0dc8748d">pitch2y</a> (int pitch) const</td></tr>
+<tr class="separator:a8464edc393bf8d43f176803f0dc8748d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae1f018e0598bd22f37cb0cd4c0fd9868"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ms_1_1_piano.html#ae1f018e0598bd22f37cb0cd4c0fd9868">y2pitch</a> (int y) const</td></tr>
+<tr class="separator:ae1f018e0598bd22f37cb0cd4c0fd9868"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pri-attribs"></a>
+Private Attributes</h2></td></tr>
+<tr class="memitem:afc8df3fe798063b709e80c277b80e1c6"><td class="memItemLeft" align="right" valign="top"><a class="el" href="namespace_ms.html#a996781f6cd7dad24e8117958002bb8ee">PianoOrientation</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ms_1_1_piano.html#afc8df3fe798063b709e80c277b80e1c6">_orientation</a></td></tr>
+<tr class="separator:afc8df3fe798063b709e80c277b80e1c6"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aeb7009c84ad5dce414c1e1a48dd1fae1"><td class="memItemLeft" align="right" valign="top">double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ms_1_1_piano.html#aeb7009c84ad5dce414c1e1a48dd1fae1">_ymag</a></td></tr>
+<tr class="separator:aeb7009c84ad5dce414c1e1a48dd1fae1"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a4bd0f3c3af99cafe7c59ba5174638beb"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ms_1_1_piano.html#a4bd0f3c3af99cafe7c59ba5174638beb">_ypos</a></td></tr>
+<tr class="separator:a4bd0f3c3af99cafe7c59ba5174638beb"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a4e76d5e736731af299e237c48c969338"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ms_1_1_piano.html#a4e76d5e736731af299e237c48c969338">yRange</a></td></tr>
+<tr class="separator:a4e76d5e736731af299e237c48c969338"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a8d1c50025ce77407a6d13b744103a6d9"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ms_1_1_piano.html#a8d1c50025ce77407a6d13b744103a6d9">curPitch</a></td></tr>
+<tr class="separator:a8d1c50025ce77407a6d13b744103a6d9"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:acdfd593bde775be105d84f00e54f5b4f"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ms_1_1_piano.html#acdfd593bde775be105d84f00e54f5b4f">curKeyPressed</a></td></tr>
+<tr class="separator:acdfd593bde775be105d84f00e54f5b4f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pri-static-attribs"></a>
+Static Private Attributes</h2></td></tr>
+<tr class="memitem:a55ff7d9395084ce74fd345d73fc86213"><td class="memItemLeft" align="right" valign="top">static QPixmap *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ms_1_1_piano.html#a55ff7d9395084ce74fd345d73fc86213">octave</a></td></tr>
+<tr class="separator:a55ff7d9395084ce74fd345d73fc86213"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab6176409c6870dbdc2ad54b9c557d257"><td class="memItemLeft" align="right" valign="top">static QPixmap *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ms_1_1_piano.html#ab6176409c6870dbdc2ad54b9c557d257">mk1</a></td></tr>
+<tr class="separator:ab6176409c6870dbdc2ad54b9c557d257"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad7cd1e0c36612f2a09d5ed8df59ea1e3"><td class="memItemLeft" align="right" valign="top">static QPixmap *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ms_1_1_piano.html#ad7cd1e0c36612f2a09d5ed8df59ea1e3">mk2</a></td></tr>
+<tr class="separator:ad7cd1e0c36612f2a09d5ed8df59ea1e3"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af2fb74124e04d7f920b16191084c7dd6"><td class="memItemLeft" align="right" valign="top">static QPixmap *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ms_1_1_piano.html#af2fb74124e04d7f920b16191084c7dd6">mk3</a></td></tr>
+<tr class="separator:af2fb74124e04d7f920b16191084c7dd6"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a031f96294a58752676cc73fc609e68f2"><td class="memItemLeft" align="right" valign="top">static QPixmap *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ms_1_1_piano.html#a031f96294a58752676cc73fc609e68f2">mk4</a></td></tr>
+<tr class="separator:a031f96294a58752676cc73fc609e68f2"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
 <a id="afb87e02d9e510fdc991ce6d59186435c"></a>
@@ -182,6 +230,162 @@ Public Member Functions</h2></td></tr>
   </td>
   <td class="mlabels-right">
 <span class="mlabels"><span class="mlabel">signal</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a741cf5322275f4a3863767ccd1cd8673"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a741cf5322275f4a3863767ccd1cd8673">&#9670;&nbsp;</a></span>leaveEvent()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void Ms::Piano::leaveEvent </td>
+          <td>(</td>
+          <td class="paramtype">QEvent *&#160;</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span><span class="mlabel">virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a42e976e6ce9a4d7ad8cfdb0f298375b9"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a42e976e6ce9a4d7ad8cfdb0f298375b9">&#9670;&nbsp;</a></span>mouseMoveEvent()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void Ms::Piano::mouseMoveEvent </td>
+          <td>(</td>
+          <td class="paramtype">QMouseEvent *&#160;</td>
+          <td class="paramname"><em>event</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span><span class="mlabel">virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="aff11dfa9ad821c5d81f18598ecab6402"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aff11dfa9ad821c5d81f18598ecab6402">&#9670;&nbsp;</a></span>mousePressEvent()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void Ms::Piano::mousePressEvent </td>
+          <td>(</td>
+          <td class="paramtype">QMouseEvent *&#160;</td>
+          <td class="paramname"><em>event</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span><span class="mlabel">virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a9b9dc281ec20c49dbcaca63f0c15bf5a"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a9b9dc281ec20c49dbcaca63f0c15bf5a">&#9670;&nbsp;</a></span>mouseReleaseEvent()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void Ms::Piano::mouseReleaseEvent </td>
+          <td>(</td>
+          <td class="paramtype">QMouseEvent *&#160;</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span><span class="mlabel">virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="ac9764412fa111977dc94a1596e6a59e6"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ac9764412fa111977dc94a1596e6a59e6">&#9670;&nbsp;</a></span>paintEvent()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void Ms::Piano::paintEvent </td>
+          <td>(</td>
+          <td class="paramtype">QPaintEvent *&#160;</td>
+          <td class="paramname"><em>event</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span><span class="mlabel">virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a8464edc393bf8d43f176803f0dc8748d"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a8464edc393bf8d43f176803f0dc8748d">&#9670;&nbsp;</a></span>pitch2y()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">int Ms::Piano::pitch2y </td>
+          <td>(</td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>pitch</em></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
   </tr>
 </table>
 </div><div class="memdoc">
@@ -314,6 +518,275 @@ Public Member Functions</h2></td></tr>
   </td>
   <td class="mlabels-right">
 <span class="mlabels"><span class="mlabel">slot</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="ae1f018e0598bd22f37cb0cd4c0fd9868"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ae1f018e0598bd22f37cb0cd4c0fd9868">&#9670;&nbsp;</a></span>y2pitch()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">int Ms::Piano::y2pitch </td>
+          <td>(</td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>y</em></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<h2 class="groupheader">Member Data Documentation</h2>
+<a id="afc8df3fe798063b709e80c277b80e1c6"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#afc8df3fe798063b709e80c277b80e1c6">&#9670;&nbsp;</a></span>_orientation</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="namespace_ms.html#a996781f6cd7dad24e8117958002bb8ee">PianoOrientation</a> Ms::Piano::_orientation</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="aeb7009c84ad5dce414c1e1a48dd1fae1"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aeb7009c84ad5dce414c1e1a48dd1fae1">&#9670;&nbsp;</a></span>_ymag</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">double Ms::Piano::_ymag</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a4bd0f3c3af99cafe7c59ba5174638beb"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a4bd0f3c3af99cafe7c59ba5174638beb">&#9670;&nbsp;</a></span>_ypos</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">int Ms::Piano::_ypos</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="acdfd593bde775be105d84f00e54f5b4f"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#acdfd593bde775be105d84f00e54f5b4f">&#9670;&nbsp;</a></span>curKeyPressed</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">int Ms::Piano::curKeyPressed</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a8d1c50025ce77407a6d13b744103a6d9"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a8d1c50025ce77407a6d13b744103a6d9">&#9670;&nbsp;</a></span>curPitch</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">int Ms::Piano::curPitch</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="ab6176409c6870dbdc2ad54b9c557d257"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ab6176409c6870dbdc2ad54b9c557d257">&#9670;&nbsp;</a></span>mk1</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">QPixmap * Ms::Piano::mk1</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="ad7cd1e0c36612f2a09d5ed8df59ea1e3"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ad7cd1e0c36612f2a09d5ed8df59ea1e3">&#9670;&nbsp;</a></span>mk2</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">QPixmap * Ms::Piano::mk2</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="af2fb74124e04d7f920b16191084c7dd6"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#af2fb74124e04d7f920b16191084c7dd6">&#9670;&nbsp;</a></span>mk3</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">QPixmap * Ms::Piano::mk3</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a031f96294a58752676cc73fc609e68f2"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a031f96294a58752676cc73fc609e68f2">&#9670;&nbsp;</a></span>mk4</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">QPixmap * Ms::Piano::mk4</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a55ff7d9395084ce74fd345d73fc86213"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a55ff7d9395084ce74fd345d73fc86213">&#9670;&nbsp;</a></span>octave</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">QPixmap * Ms::Piano::octave</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a4e76d5e736731af299e237c48c969338"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a4e76d5e736731af299e237c48c969338">&#9670;&nbsp;</a></span>yRange</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">int Ms::Piano::yRange</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
   </tr>
 </table>
 </div><div class="memdoc">

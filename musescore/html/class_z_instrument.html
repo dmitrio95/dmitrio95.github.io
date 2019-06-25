@@ -23,9 +23,9 @@
   <td id="projectlogo"><img alt="Logo" src="musescore_logo_full.png"/></td>
   <td id="projectalign" style="padding-left: 0.5em;">
    <div id="projectname">MuseScore
-   &#160;<span id="projectnumber">3.1</span>
+   &#160;<span id="projectnumber">3.2</span>
    </div>
-   <div id="projectbrief">Music compisition and notation</div>
+   <div id="projectbrief">Music composition and notation</div>
   </td>
  </tr>
  </tbody>
@@ -64,6 +64,8 @@ $(function() {
   <div class="summary">
 <a href="#pub-methods">Public Member Functions</a> &#124;
 <a href="#pub-static-attribs">Static Public Attributes</a> &#124;
+<a href="#pri-methods">Private Member Functions</a> &#124;
+<a href="#pri-attribs">Private Attributes</a> &#124;
 <a href="class_z_instrument-members.html">List of all members</a>  </div>
   <div class="headertitle">
 <div class="title">ZInstrument Class Reference</div>  </div>
@@ -71,6 +73,25 @@ $(function() {
 <div class="contents">
 
 <p><code>#include &lt;<a class="el" href="zerberus_2instrument_8h_source.html">instrument.h</a>&gt;</code></p>
+<div class="dynheader">
+Collaboration diagram for ZInstrument:</div>
+<div class="dyncontent">
+<div class="center"><img src="class_z_instrument__coll__graph.png" border="0" usemap="#_z_instrument_coll__map" alt="Collaboration graph"/></div>
+<map name="_z_instrument_coll__map" id="_z_instrument_coll__map">
+<area shape="rect" id="node13" href="class_channel.html" title="Channel" alt="" coords="15,95,85,121"/>
+<area shape="rect" id="node2" href="class_zerberus.html" title="Zerberus" alt="" coords="140,184,213,211"/>
+<area shape="rect" id="node6" href="class_voice.html" title="Voice" alt="" coords="261,392,316,419"/>
+<area shape="rect" id="node7" href="class_z_filter.html" title="ZFilter" alt="" coords="259,288,318,315"/>
+<area shape="rect" id="node3" href="class_ms_1_1_synthesizer.html" title="Ms::Synthesizer" alt="" coords="457,95,574,121"/>
+<area shape="rect" id="node4" href="class_ms_1_1_synthesizer_gui.html" title="Ms::SynthesizerGui" alt="" coords="505,184,643,211"/>
+<area shape="rect" id="node8" href="struct_z_filter_1_1_filter_data.html" title="ZFilter::FilterData" alt="" coords="241,184,365,211"/>
+<area shape="rect" id="node9" href="struct_zone.html" title="Zone" alt="" coords="390,184,441,211"/>
+<area shape="rect" id="node10" href="class_sample.html" title="Sample" alt="" coords="366,95,433,121"/>
+<area shape="rect" id="node11" href="struct_phase.html" title="Phase" alt="" coords="342,288,401,315"/>
+<area shape="rect" id="node12" href="struct_envelope.html" title="Envelope" alt="" coords="425,288,501,315"/>
+<area shape="rect" id="node14" href="class_voice_fifo.html" title="VoiceFifo" alt="" coords="147,95,225,121"/>
+</map>
+<center><span class="legend">[<a href="graph_legend.html">legend</a>]</span></center></div>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
@@ -109,6 +130,34 @@ Static Public Attributes</h2></td></tr>
 <tr class="separator:a333bb2345fe4525e6b6b91db7af0844e"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a5ebde6ef526551565b80e1018c0c57ab"><td class="memItemLeft" align="right" valign="top">static int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_z_instrument.html#a5ebde6ef526551565b80e1018c0c57ab">idx</a></td></tr>
 <tr class="separator:a5ebde6ef526551565b80e1018c0c57ab"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pri-methods"></a>
+Private Member Functions</h2></td></tr>
+<tr class="memitem:a9668dba97818cb18e3743aec08e6e086"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_z_instrument.html#a9668dba97818cb18e3743aec08e6e086">loadFromFile</a> (const QString &amp;)</td></tr>
+<tr class="separator:a9668dba97818cb18e3743aec08e6e086"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a1c176697fc5dc645eeca3669d2eccd66"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_z_instrument.html#a1c176697fc5dc645eeca3669d2eccd66">loadSfz</a> (const QString &amp;)</td></tr>
+<tr class="separator:a1c176697fc5dc645eeca3669d2eccd66"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a874046d80ade6b760ac2df00e71494ed"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_z_instrument.html#a874046d80ade6b760ac2df00e71494ed">loadFromDir</a> (const QString &amp;)</td></tr>
+<tr class="separator:a874046d80ade6b760ac2df00e71494ed"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae920151185e3ee550537180e3a668ce3"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_z_instrument.html#ae920151185e3ee550537180e3a668ce3">read</a> (const QByteArray &amp;, MQZipReader *, const QString &amp;<a class="el" href="class_z_instrument.html#ab2c149a7706f01ba2869b8f4b1c16c49">path</a>)</td></tr>
+<tr class="separator:ae920151185e3ee550537180e3a668ce3"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pri-attribs"></a>
+Private Attributes</h2></td></tr>
+<tr class="memitem:ac1eb15472d12c216cd52fc4ceb4c2314"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_zerberus.html">Zerberus</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_z_instrument.html#ac1eb15472d12c216cd52fc4ceb4c2314">zerberus</a></td></tr>
+<tr class="separator:ac1eb15472d12c216cd52fc4ceb4c2314"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a62fbcd1d0557780fc7c6d4f44303a3e1"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_z_instrument.html#a62fbcd1d0557780fc7c6d4f44303a3e1">_refCount</a></td></tr>
+<tr class="separator:a62fbcd1d0557780fc7c6d4f44303a3e1"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a62080e0556d4e1518991f1cc809615b2"><td class="memItemLeft" align="right" valign="top">QString&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_z_instrument.html#a62080e0556d4e1518991f1cc809615b2">_name</a></td></tr>
+<tr class="separator:a62080e0556d4e1518991f1cc809615b2"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa45ac3c473539072dbba0c79d1499cc7"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_z_instrument.html#aa45ac3c473539072dbba0c79d1499cc7">_program</a></td></tr>
+<tr class="separator:aa45ac3c473539072dbba0c79d1499cc7"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a1b18d00c0b0ab1ea164d96bd8470cc58"><td class="memItemLeft" align="right" valign="top">QString&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_z_instrument.html#a1b18d00c0b0ab1ea164d96bd8470cc58">instrumentPath</a></td></tr>
+<tr class="separator:a1b18d00c0b0ab1ea164d96bd8470cc58"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a67329e213c5845a82df82b13e9c246da"><td class="memItemLeft" align="right" valign="top">std::list&lt; <a class="el" href="struct_zone.html">Zone</a> * &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_z_instrument.html#a67329e213c5845a82df82b13e9c246da">_zones</a></td></tr>
+<tr class="separator:a67329e213c5845a82df82b13e9c246da"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae1548432d18782b8e6095ed7eda818c1"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_z_instrument.html#ae1548432d18782b8e6095ed7eda818c1">_setcc</a> [128]</td></tr>
+<tr class="separator:ae1548432d18782b8e6095ed7eda818c1"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
 <a id="ae3c01b4b90a147c1e466b75bdd21afb9"></a>
@@ -235,6 +284,84 @@ Static Public Attributes</h2></td></tr>
 
 </div>
 </div>
+<a id="a874046d80ade6b760ac2df00e71494ed"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a874046d80ade6b760ac2df00e71494ed">&#9670;&nbsp;</a></span>loadFromDir()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool ZInstrument::loadFromDir </td>
+          <td>(</td>
+          <td class="paramtype">const QString &amp;&#160;</td>
+          <td class="paramname"><em>s</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a9668dba97818cb18e3743aec08e6e086"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a9668dba97818cb18e3743aec08e6e086">&#9670;&nbsp;</a></span>loadFromFile()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool ZInstrument::loadFromFile </td>
+          <td>(</td>
+          <td class="paramtype">const QString &amp;&#160;</td>
+          <td class="paramname"><em>path</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a1c176697fc5dc645eeca3669d2eccd66"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a1c176697fc5dc645eeca3669d2eccd66">&#9670;&nbsp;</a></span>loadSfz()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool ZInstrument::loadSfz </td>
+          <td>(</td>
+          <td class="paramtype">const QString &amp;&#160;</td>
+          <td class="paramname"><em>s</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
 <a id="aa0097743ee7f8f0bbd9eccf9cb5c6f85"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#aa0097743ee7f8f0bbd9eccf9cb5c6f85">&#9670;&nbsp;</a></span>name()</h2>
 
@@ -304,6 +431,48 @@ Static Public Attributes</h2></td></tr>
   </td>
   <td class="mlabels-right">
 <span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="ae920151185e3ee550537180e3a668ce3"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ae920151185e3ee550537180e3a668ce3">&#9670;&nbsp;</a></span>read()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool ZInstrument::read </td>
+          <td>(</td>
+          <td class="paramtype">const QByteArray &amp;&#160;</td>
+          <td class="paramname"><em>buff</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">MQZipReader *&#160;</td>
+          <td class="paramname">, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const QString &amp;&#160;</td>
+          <td class="paramname"><em>path</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
   </tr>
 </table>
 </div><div class="memdoc">
@@ -440,6 +609,116 @@ Static Public Attributes</h2></td></tr>
 </div>
 </div>
 <h2 class="groupheader">Member Data Documentation</h2>
+<a id="a62080e0556d4e1518991f1cc809615b2"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a62080e0556d4e1518991f1cc809615b2">&#9670;&nbsp;</a></span>_name</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">QString ZInstrument::_name</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="aa45ac3c473539072dbba0c79d1499cc7"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aa45ac3c473539072dbba0c79d1499cc7">&#9670;&nbsp;</a></span>_program</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">int ZInstrument::_program</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a62fbcd1d0557780fc7c6d4f44303a3e1"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a62fbcd1d0557780fc7c6d4f44303a3e1">&#9670;&nbsp;</a></span>_refCount</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">int ZInstrument::_refCount</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="ae1548432d18782b8e6095ed7eda818c1"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ae1548432d18782b8e6095ed7eda818c1">&#9670;&nbsp;</a></span>_setcc</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">int ZInstrument::_setcc[128]</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a67329e213c5845a82df82b13e9c246da"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a67329e213c5845a82df82b13e9c246da">&#9670;&nbsp;</a></span>_zones</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">std::list&lt;<a class="el" href="struct_zone.html">Zone</a>*&gt; ZInstrument::_zones</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
 <a id="a333bb2345fe4525e6b6b91db7af0844e"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a333bb2345fe4525e6b6b91db7af0844e">&#9670;&nbsp;</a></span>buf</h2>
 
@@ -478,6 +757,50 @@ Static Public Attributes</h2></td></tr>
   </td>
   <td class="mlabels-right">
 <span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a1b18d00c0b0ab1ea164d96bd8470cc58"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a1b18d00c0b0ab1ea164d96bd8470cc58">&#9670;&nbsp;</a></span>instrumentPath</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">QString ZInstrument::instrumentPath</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="ac1eb15472d12c216cd52fc4ceb4c2314"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ac1eb15472d12c216cd52fc4ceb4c2314">&#9670;&nbsp;</a></span>zerberus</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="class_zerberus.html">Zerberus</a>* ZInstrument::zerberus</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
   </tr>
 </table>
 </div><div class="memdoc">

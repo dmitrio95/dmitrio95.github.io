@@ -23,9 +23,9 @@
   <td id="projectlogo"><img alt="Logo" src="musescore_logo_full.png"/></td>
   <td id="projectalign" style="padding-left: 0.5em;">
    <div id="projectname">MuseScore
-   &#160;<span id="projectnumber">3.1</span>
+   &#160;<span id="projectnumber">3.2</span>
    </div>
-   <div id="projectbrief">Music compisition and notation</div>
+   <div id="projectbrief">Music composition and notation</div>
   </td>
  </tr>
  </tbody>
@@ -72,7 +72,13 @@ $(function() {
 
 <p>This is the complete list of members for <a class="el" href="class_ms_1_1_track_list.html">Ms::TrackList</a>, including all inherited members.</p>
 <table class="directory">
+  <tr class="even"><td class="entry"><a class="el" href="class_ms_1_1_track_list.html#aa309a55bc4ef08ea695428c191133942">_duration</a></td><td class="entry"><a class="el" href="class_ms_1_1_track_list.html">Ms::TrackList</a></td><td class="entry"><span class="mlabel">private</span></td></tr>
+  <tr><td class="entry"><a class="el" href="class_ms_1_1_track_list.html#a8fa5361caf367f41cba0841397eb0bc1">_range</a></td><td class="entry"><a class="el" href="class_ms_1_1_track_list.html">Ms::TrackList</a></td><td class="entry"><span class="mlabel">private</span></td></tr>
+  <tr class="even"><td class="entry"><a class="el" href="class_ms_1_1_track_list.html#acaa3aee41711f361d15eb18ccd4a8eb9">_track</a></td><td class="entry"><a class="el" href="class_ms_1_1_track_list.html">Ms::TrackList</a></td><td class="entry"><span class="mlabel">private</span></td></tr>
+  <tr><td class="entry"><a class="el" href="class_ms_1_1_track_list.html#ad368c3c737233bce1765cce7bd15a14f">append</a>(Element *)</td><td class="entry"><a class="el" href="class_ms_1_1_track_list.html">Ms::TrackList</a></td><td class="entry"><span class="mlabel">private</span></td></tr>
   <tr class="even"><td class="entry"><a class="el" href="class_ms_1_1_track_list.html#a05eb747fc82faded2710a673e79e0481">appendGap</a>(const Fraction &amp;)</td><td class="entry"><a class="el" href="class_ms_1_1_track_list.html">Ms::TrackList</a></td><td class="entry"></td></tr>
+  <tr><td class="entry"><a class="el" href="class_ms_1_1_track_list.html#a1b06d4b2220f4cc482e9f1415fc178fa">appendTuplet</a>(Tuplet *srcTuplet, Tuplet *dstTuplet)</td><td class="entry"><a class="el" href="class_ms_1_1_track_list.html">Ms::TrackList</a></td><td class="entry"><span class="mlabel">private</span></td></tr>
+  <tr class="even"><td class="entry"><a class="el" href="class_ms_1_1_track_list.html#a8e9c35c3f2f2b1feb476a32035d2ffe5">combineTuplet</a>(Tuplet *dst, Tuplet *src)</td><td class="entry"><a class="el" href="class_ms_1_1_track_list.html">Ms::TrackList</a></td><td class="entry"><span class="mlabel">private</span></td></tr>
   <tr><td class="entry"><a class="el" href="class_ms_1_1_track_list.html#af6ed76a59f90eda048de2e8839628b08">dump</a>() const</td><td class="entry"><a class="el" href="class_ms_1_1_track_list.html">Ms::TrackList</a></td><td class="entry"></td></tr>
   <tr class="even"><td class="entry"><a class="el" href="class_ms_1_1_track_list.html#a7fb653b8b7a1e5c461b809c19ce86315">range</a>() const</td><td class="entry"><a class="el" href="class_ms_1_1_track_list.html">Ms::TrackList</a></td><td class="entry"><span class="mlabel">inline</span></td></tr>
   <tr><td class="entry"><a class="el" href="class_ms_1_1_track_list.html#ac7ef7280b312b54e3cbcc36ec8b70ab9">read</a>(const Segment *fs, const Segment *ls)</td><td class="entry"><a class="el" href="class_ms_1_1_track_list.html">Ms::TrackList</a></td><td class="entry"></td></tr>
@@ -82,7 +88,8 @@ $(function() {
   <tr><td class="entry"><a class="el" href="class_ms_1_1_track_list.html#a16605575a0a7f36b35644564f1b9ba64">TrackList</a>(ScoreRange *r)</td><td class="entry"><a class="el" href="class_ms_1_1_track_list.html">Ms::TrackList</a></td><td class="entry"><span class="mlabel">inline</span></td></tr>
   <tr class="even"><td class="entry"><a class="el" href="class_ms_1_1_track_list.html#af60a02013ce74f108b528afc16d60341">truncate</a>(const Fraction &amp;)</td><td class="entry"><a class="el" href="class_ms_1_1_track_list.html">Ms::TrackList</a></td><td class="entry"></td></tr>
   <tr><td class="entry"><a class="el" href="class_ms_1_1_track_list.html#adecfcc7782691f5cc9f04b7ed71363b7">write</a>(Score *, const Fraction &amp;) const</td><td class="entry"><a class="el" href="class_ms_1_1_track_list.html">Ms::TrackList</a></td><td class="entry"></td></tr>
-  <tr class="even"><td class="entry"><a class="el" href="class_ms_1_1_track_list.html#afef8df55247d075843453494abaca31a">~TrackList</a>()</td><td class="entry"><a class="el" href="class_ms_1_1_track_list.html">Ms::TrackList</a></td><td class="entry"></td></tr>
+  <tr class="even"><td class="entry"><a class="el" href="class_ms_1_1_track_list.html#a938f10b4e4432f9a63e4ee6e32419462">writeTuplet</a>(Tuplet *parent, Tuplet *tuplet, Measure *&amp;measure, Fraction &amp;rest) const</td><td class="entry"><a class="el" href="class_ms_1_1_track_list.html">Ms::TrackList</a></td><td class="entry"><span class="mlabel">private</span></td></tr>
+  <tr><td class="entry"><a class="el" href="class_ms_1_1_track_list.html#afef8df55247d075843453494abaca31a">~TrackList</a>()</td><td class="entry"><a class="el" href="class_ms_1_1_track_list.html">Ms::TrackList</a></td><td class="entry"></td></tr>
 </table></div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>

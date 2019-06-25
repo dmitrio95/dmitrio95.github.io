@@ -23,9 +23,9 @@
   <td id="projectlogo"><img alt="Logo" src="musescore_logo_full.png"/></td>
   <td id="projectalign" style="padding-left: 0.5em;">
    <div id="projectname">MuseScore
-   &#160;<span id="projectnumber">3.1</span>
+   &#160;<span id="projectnumber">3.2</span>
    </div>
-   <div id="projectbrief">Music compisition and notation</div>
+   <div id="projectbrief">Music composition and notation</div>
   </td>
  </tr>
  </tbody>
@@ -69,6 +69,8 @@ $(function() {
 <a href="#pub-slots">Public Slots</a> &#124;
 <a href="#pub-methods">Public Member Functions</a> &#124;
 <a href="#pub-static-methods">Static Public Member Functions</a> &#124;
+<a href="#pri-methods">Private Member Functions</a> &#124;
+<a href="#pri-attribs">Private Attributes</a> &#124;
 <a href="class_ms_1_1_accessible_search_box-members.html">List of all members</a>  </div>
   <div class="headertitle">
 <div class="title">Ms::AccessibleSearchBox Class Reference</div>  </div>
@@ -88,6 +90,7 @@ Collaboration diagram for Ms::AccessibleSearchBox:</div>
 <div class="dyncontent">
 <div class="center"><img src="class_ms_1_1_accessible_search_box__coll__graph.png" border="0" usemap="#_ms_1_1_accessible_search_box_coll__map" alt="Collaboration graph"/></div>
 <map name="_ms_1_1_accessible_search_box_coll__map" id="_ms_1_1_accessible_search_box_coll__map">
+<area shape="rect" id="node4" href="class_ms_1_1_search_combo_box.html" title="Ms::SearchComboBox" alt="" coords="262,81,417,108"/>
 </map>
 <center><span class="legend">[<a href="graph_legend.html">legend</a>]</span></center></div>
 <table class="memberdecls">
@@ -105,6 +108,16 @@ Public Member Functions</h2></td></tr>
 Static Public Member Functions</h2></td></tr>
 <tr class="memitem:a8b0e2ecd875fb26f75818ae47410fd85"><td class="memItemLeft" align="right" valign="top">static QAccessibleInterface *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ms_1_1_accessible_search_box.html#a8b0e2ecd875fb26f75818ae47410fd85">SearchBoxFactory</a> (const QString &amp;classname, QObject *object)</td></tr>
 <tr class="separator:a8b0e2ecd875fb26f75818ae47410fd85"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pri-methods"></a>
+Private Member Functions</h2></td></tr>
+<tr class="memitem:a6d004bf82134bb0050dc0c588a4a6d7e"><td class="memItemLeft" align="right" valign="top">QString&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ms_1_1_accessible_search_box.html#a6d004bf82134bb0050dc0c588a4a6d7e">text</a> (QAccessible::Text t) const Q_DECL_OVERRIDE</td></tr>
+<tr class="separator:a6d004bf82134bb0050dc0c588a4a6d7e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pri-attribs"></a>
+Private Attributes</h2></td></tr>
+<tr class="memitem:adc0d26a355afb1dc11cf19e179a07630"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_ms_1_1_search_combo_box.html">SearchComboBox</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ms_1_1_accessible_search_box.html#adc0d26a355afb1dc11cf19e179a07630">searchBox</a></td></tr>
+<tr class="separator:adc0d26a355afb1dc11cf19e179a07630"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
 <a id="a9ed256ecaafed7409f584d13b4d935b2"></a>
@@ -181,6 +194,55 @@ Static Public Member Functions</h2></td></tr>
   </td>
   <td class="mlabels-right">
 <span class="mlabels"><span class="mlabel">slot</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a6d004bf82134bb0050dc0c588a4a6d7e"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a6d004bf82134bb0050dc0c588a4a6d7e">&#9670;&nbsp;</a></span>text()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">QString Ms::AccessibleSearchBox::text </td>
+          <td>(</td>
+          <td class="paramtype">QAccessible::Text&#160;</td>
+          <td class="paramname"><em>t</em></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<h2 class="groupheader">Member Data Documentation</h2>
+<a id="adc0d26a355afb1dc11cf19e179a07630"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#adc0d26a355afb1dc11cf19e179a07630">&#9670;&nbsp;</a></span>searchBox</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="class_ms_1_1_search_combo_box.html">SearchComboBox</a>* Ms::AccessibleSearchBox::searchBox</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
   </tr>
 </table>
 </div><div class="memdoc">

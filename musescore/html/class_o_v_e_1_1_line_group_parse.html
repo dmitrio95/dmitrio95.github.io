@@ -23,9 +23,9 @@
   <td id="projectlogo"><img alt="Logo" src="musescore_logo_full.png"/></td>
   <td id="projectalign" style="padding-left: 0.5em;">
    <div id="projectname">MuseScore
-   &#160;<span id="projectnumber">3.1</span>
+   &#160;<span id="projectnumber">3.2</span>
    </div>
-   <div id="projectbrief">Music compisition and notation</div>
+   <div id="projectbrief">Music composition and notation</div>
   </td>
  </tr>
  </tbody>
@@ -67,6 +67,8 @@ $(function() {
 <div class="header">
   <div class="summary">
 <a href="#pub-methods">Public Member Functions</a> &#124;
+<a href="#pri-methods">Private Member Functions</a> &#124;
+<a href="#pri-attribs">Private Attributes</a> &#124;
 <a href="class_o_v_e_1_1_line_group_parse-members.html">List of all members</a>  </div>
   <div class="headertitle">
 <div class="title">OVE::LineGroupParse Class Reference</div>  </div>
@@ -87,10 +89,16 @@ Collaboration diagram for OVE::LineGroupParse:</div>
 <div class="dyncontent">
 <div class="center"><img src="class_o_v_e_1_1_line_group_parse__coll__graph.png" border="0" usemap="#_o_v_e_1_1_line_group_parse_coll__map" alt="Collaboration graph"/></div>
 <map name="_o_v_e_1_1_line_group_parse_coll__map" id="_o_v_e_1_1_line_group_parse_coll__map">
-<area shape="rect" id="node2" href="class_o_v_e_1_1_basic_parse.html" title="OVE::BasicParse" alt="" coords="169,95,295,121"/>
-<area shape="rect" id="node3" href="class_o_v_e_1_1_stream_handle.html" title="OVE::StreamHandle" alt="" coords="5,5,147,32"/>
-<area shape="rect" id="node4" href="class_o_v_e_1_1_i_ove_notify.html" title="OVE::IOveNotify" alt="" coords="171,5,293,32"/>
-<area shape="rect" id="node5" href="class_o_v_e_1_1_ove_song.html" title="OVE::OveSong" alt="" coords="317,5,429,32"/>
+<area shape="rect" id="node2" href="class_o_v_e_1_1_basic_parse.html" title="OVE::BasicParse" alt="" coords="228,348,353,375"/>
+<area shape="rect" id="node3" href="class_o_v_e_1_1_stream_handle.html" title="OVE::StreamHandle" alt="" coords="5,259,147,285"/>
+<area shape="rect" id="node4" href="class_o_v_e_1_1_i_ove_notify.html" title="OVE::IOveNotify" alt="" coords="171,259,293,285"/>
+<area shape="rect" id="node5" href="class_o_v_e_1_1_ove_song.html" title="OVE::OveSong" alt="" coords="317,259,429,285"/>
+<area shape="rect" id="node6" href="class_o_v_e_1_1_group_chunk.html" title="OVE::GroupChunk" alt="" coords="436,348,567,375"/>
+<area shape="rect" id="node7" href="class_o_v_e_1_1_chunk.html" title="OVE::Chunk" alt="" coords="453,259,549,285"/>
+<area shape="rect" id="node8" href="class_o_v_e_1_1_name_block.html" title="OVE::NameBlock" alt="" coords="447,157,574,184"/>
+<area shape="rect" id="node9" href="class_o_v_e_1_1_fixed_block.html" title="OVE::FixedBlock" alt="" coords="505,81,628,108"/>
+<area shape="rect" id="node11" href="class_o_v_e_1_1_count_block.html" title="OVE::CountBlock" alt="" coords="573,208,699,235"/>
+<area shape="rect" id="node10" href="class_o_v_e_1_1_block.html" title="OVE::Block" alt="" coords="521,5,612,32"/>
 </map>
 <center><span class="legend">[<a href="graph_legend.html">legend</a>]</span></center></div>
 <table class="memberdecls">
@@ -115,6 +123,22 @@ Public Member Functions</h2></td></tr>
 <tr class="separator:ae808dfd9d7623e7e3f6f6524d58e0684 inherit pub_methods_class_o_v_e_1_1_basic_parse"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a0acfb80499d02af56d94b28b46b744f0 inherit pub_methods_class_o_v_e_1_1_basic_parse"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_o_v_e_1_1_basic_parse.html#a0acfb80499d02af56d94b28b46b744f0">setNotify</a> (<a class="el" href="class_o_v_e_1_1_i_ove_notify.html">IOveNotify</a> *notify)</td></tr>
 <tr class="separator:a0acfb80499d02af56d94b28b46b744f0 inherit pub_methods_class_o_v_e_1_1_basic_parse"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pri-methods"></a>
+Private Member Functions</h2></td></tr>
+<tr class="memitem:adde4d09a7ce9ad8b5bd65eb87e5dfcef"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_o_v_e_1_1_line_group_parse.html#adde4d09a7ce9ad8b5bd65eb87e5dfcef">parseLine</a> (<a class="el" href="class_o_v_e_1_1_size_chunk.html">SizeChunk</a> *chunk, <a class="el" href="class_o_v_e_1_1_line.html">Line</a> *line)</td></tr>
+<tr class="separator:adde4d09a7ce9ad8b5bd65eb87e5dfcef"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a4cfdeacf0420fe084a0ccb0484d71dd4"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_o_v_e_1_1_line_group_parse.html#a4cfdeacf0420fe084a0ccb0484d71dd4">parseStaff</a> (<a class="el" href="class_o_v_e_1_1_size_chunk.html">SizeChunk</a> *chunk, <a class="el" href="class_o_v_e_1_1_staff.html">Staff</a> *staff)</td></tr>
+<tr class="separator:a4cfdeacf0420fe084a0ccb0484d71dd4"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pri-attribs"></a>
+Private Attributes</h2></td></tr>
+<tr class="memitem:a254f4fb4db5fee4afb9d909250259fb0"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_o_v_e_1_1_group_chunk.html">GroupChunk</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_o_v_e_1_1_line_group_parse.html#a254f4fb4db5fee4afb9d909250259fb0">chunk_</a></td></tr>
+<tr class="separator:a254f4fb4db5fee4afb9d909250259fb0"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:abd59ebc089c8d7f1d9fadfb851b74963"><td class="memItemLeft" align="right" valign="top">QList&lt; <a class="el" href="class_o_v_e_1_1_size_chunk.html">SizeChunk</a> * &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_o_v_e_1_1_line_group_parse.html#abd59ebc089c8d7f1d9fadfb851b74963">lineChunks_</a></td></tr>
+<tr class="separator:abd59ebc089c8d7f1d9fadfb851b74963"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a4eced0987f645fcd8735653d2e850dc0"><td class="memItemLeft" align="right" valign="top">QList&lt; <a class="el" href="class_o_v_e_1_1_size_chunk.html">SizeChunk</a> * &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_o_v_e_1_1_line_group_parse.html#a4eced0987f645fcd8735653d2e850dc0">staffChunks_</a></td></tr>
+<tr class="separator:a4eced0987f645fcd8735653d2e850dc0"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="inherited"></a>
 Additional Inherited Members</h2></td></tr>
@@ -241,6 +265,78 @@ Additional Inherited Members</h2></td></tr>
 
 </div>
 </div>
+<a id="adde4d09a7ce9ad8b5bd65eb87e5dfcef"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#adde4d09a7ce9ad8b5bd65eb87e5dfcef">&#9670;&nbsp;</a></span>parseLine()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool OVE::LineGroupParse::parseLine </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="class_o_v_e_1_1_size_chunk.html">SizeChunk</a> *&#160;</td>
+          <td class="paramname"><em>chunk</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="class_o_v_e_1_1_line.html">Line</a> *&#160;</td>
+          <td class="paramname"><em>line</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a4cfdeacf0420fe084a0ccb0484d71dd4"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a4cfdeacf0420fe084a0ccb0484d71dd4">&#9670;&nbsp;</a></span>parseStaff()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool OVE::LineGroupParse::parseStaff </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="class_o_v_e_1_1_size_chunk.html">SizeChunk</a> *&#160;</td>
+          <td class="paramname"><em>chunk</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="class_o_v_e_1_1_staff.html">Staff</a> *&#160;</td>
+          <td class="paramname"><em>staff</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
 <a id="a4e384c3f4e34854ac8168bcbefa9effd"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a4e384c3f4e34854ac8168bcbefa9effd">&#9670;&nbsp;</a></span>setLineGroup()</h2>
 
@@ -255,6 +351,73 @@ Additional Inherited Members</h2></td></tr>
           <td></td>
         </tr>
       </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<h2 class="groupheader">Member Data Documentation</h2>
+<a id="a254f4fb4db5fee4afb9d909250259fb0"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a254f4fb4db5fee4afb9d909250259fb0">&#9670;&nbsp;</a></span>chunk_</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="class_o_v_e_1_1_group_chunk.html">GroupChunk</a>* OVE::LineGroupParse::chunk_</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="abd59ebc089c8d7f1d9fadfb851b74963"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#abd59ebc089c8d7f1d9fadfb851b74963">&#9670;&nbsp;</a></span>lineChunks_</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">QList&lt;<a class="el" href="class_o_v_e_1_1_size_chunk.html">SizeChunk</a>*&gt; OVE::LineGroupParse::lineChunks_</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a4eced0987f645fcd8735653d2e850dc0"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a4eced0987f645fcd8735653d2e850dc0">&#9670;&nbsp;</a></span>staffChunks_</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">QList&lt;<a class="el" href="class_o_v_e_1_1_size_chunk.html">SizeChunk</a>*&gt; OVE::LineGroupParse::staffChunks_</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
 </div><div class="memdoc">
 
 </div>

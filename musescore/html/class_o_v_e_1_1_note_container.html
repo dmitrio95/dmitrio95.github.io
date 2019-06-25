@@ -23,9 +23,9 @@
   <td id="projectlogo"><img alt="Logo" src="musescore_logo_full.png"/></td>
   <td id="projectalign" style="padding-left: 0.5em;">
    <div id="projectname">MuseScore
-   &#160;<span id="projectnumber">3.1</span>
+   &#160;<span id="projectnumber">3.2</span>
    </div>
-   <div id="projectbrief">Music compisition and notation</div>
+   <div id="projectbrief">Music composition and notation</div>
   </td>
  </tr>
  </tbody>
@@ -67,6 +67,7 @@ $(function() {
 <div class="header">
   <div class="summary">
 <a href="#pub-methods">Public Member Functions</a> &#124;
+<a href="#pri-attribs">Private Attributes</a> &#124;
 <a href="class_o_v_e_1_1_note_container-members.html">List of all members</a>  </div>
   <div class="headertitle">
 <div class="title">OVE::NoteContainer Class Reference</div>  </div>
@@ -91,11 +92,12 @@ Collaboration diagram for OVE::NoteContainer:</div>
 <div class="dyncontent">
 <div class="center"><img src="class_o_v_e_1_1_note_container__coll__graph.png" border="0" usemap="#_o_v_e_1_1_note_container_coll__map" alt="Collaboration graph"/></div>
 <map name="_o_v_e_1_1_note_container_coll__map" id="_o_v_e_1_1_note_container_coll__map">
-<area shape="rect" id="node2" href="class_o_v_e_1_1_music_data.html" title="OVE::MusicData" alt="" coords="165,80,286,107"/>
-<area shape="rect" id="node3" href="class_o_v_e_1_1_tick_element.html" title="OVE::TickElement" alt="" coords="5,5,136,32"/>
-<area shape="rect" id="node4" href="class_o_v_e_1_1_pair_element.html" title="OVE::PairElement" alt="" coords="161,5,290,32"/>
-<area shape="rect" id="node5" href="class_o_v_e_1_1_offset_element.html" title="OVE::OffsetElement" alt="" coords="314,5,457,32"/>
-<area shape="rect" id="node6" href="class_o_v_e_1_1_length_element.html" title="OVE::LengthElement" alt="" coords="310,80,455,107"/>
+<area shape="rect" id="node2" href="class_o_v_e_1_1_music_data.html" title="OVE::MusicData" alt="" coords="165,185,286,212"/>
+<area shape="rect" id="node3" href="class_o_v_e_1_1_tick_element.html" title="OVE::TickElement" alt="" coords="5,109,136,136"/>
+<area shape="rect" id="node4" href="class_o_v_e_1_1_pair_element.html" title="OVE::PairElement" alt="" coords="161,109,290,136"/>
+<area shape="rect" id="node5" href="class_o_v_e_1_1_measure_pos.html" title="OVE::MeasurePos" alt="" coords="160,5,291,32"/>
+<area shape="rect" id="node6" href="class_o_v_e_1_1_offset_element.html" title="OVE::OffsetElement" alt="" coords="314,109,457,136"/>
+<area shape="rect" id="node7" href="class_o_v_e_1_1_length_element.html" title="OVE::LengthElement" alt="" coords="310,185,455,212"/>
 </map>
 <center><span class="legend">[<a href="graph_legend.html">legend</a>]</span></center></div>
 <table class="memberdecls">
@@ -234,6 +236,41 @@ Public Member Functions</h2></td></tr>
 <tr class="separator:ae0d16286bc38391a7baf50d4073cd216 inherit pub_methods_class_o_v_e_1_1_length_element"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a414f40ab988dbc5a4cfcbf8732bbc3df inherit pub_methods_class_o_v_e_1_1_length_element"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_o_v_e_1_1_length_element.html#a414f40ab988dbc5a4cfcbf8732bbc3df">getLength</a> () const</td></tr>
 <tr class="separator:a414f40ab988dbc5a4cfcbf8732bbc3df inherit pub_methods_class_o_v_e_1_1_length_element"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pri-attribs"></a>
+Private Attributes</h2></td></tr>
+<tr class="memitem:a6c05799396b94c5f515f9f0cb7a62ea6"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_o_v_e_1_1_note_container.html#a6c05799396b94c5f515f9f0cb7a62ea6">grace_</a></td></tr>
+<tr class="separator:a6c05799396b94c5f515f9f0cb7a62ea6"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae3c23e6e82d888294b41eddbb33ab2e0"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_o_v_e_1_1_note_container.html#ae3c23e6e82d888294b41eddbb33ab2e0">cue_</a></td></tr>
+<tr class="separator:ae3c23e6e82d888294b41eddbb33ab2e0"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a3086b1da089a20dc19bab40076abd992"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_o_v_e_1_1_note_container.html#a3086b1da089a20dc19bab40076abd992">rest_</a></td></tr>
+<tr class="separator:a3086b1da089a20dc19bab40076abd992"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab36bcddf2a56ae282ebfd0f69dd993ce"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_o_v_e_1_1_note_container.html#ab36bcddf2a56ae282ebfd0f69dd993ce">raw_</a></td></tr>
+<tr class="separator:ab36bcddf2a56ae282ebfd0f69dd993ce"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa849d3bca4ab90b2717e0dd048b842c6"><td class="memItemLeft" align="right" valign="top"><a class="el" href="namespace_o_v_e.html#ab7a0f62d35f2bd049afbad7c8582c259">NoteType</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_o_v_e_1_1_note_container.html#aa849d3bca4ab90b2717e0dd048b842c6">noteType_</a></td></tr>
+<tr class="separator:aa849d3bca4ab90b2717e0dd048b842c6"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a5165a03bea6c76b394a30c9dcd4a61e0"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_o_v_e_1_1_note_container.html#a5165a03bea6c76b394a30c9dcd4a61e0">dot_</a></td></tr>
+<tr class="separator:a5165a03bea6c76b394a30c9dcd4a61e0"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a0d1cdd917fa5a8e8098e83acd74b201f"><td class="memItemLeft" align="right" valign="top"><a class="el" href="namespace_o_v_e.html#ab7a0f62d35f2bd049afbad7c8582c259">NoteType</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_o_v_e_1_1_note_container.html#a0d1cdd917fa5a8e8098e83acd74b201f">graceNoteType_</a></td></tr>
+<tr class="separator:a0d1cdd917fa5a8e8098e83acd74b201f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a33d3837b2cf1e34615a4a7708f448eec"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_o_v_e_1_1_note_container.html#a33d3837b2cf1e34615a4a7708f448eec">tuplet_</a></td></tr>
+<tr class="separator:a33d3837b2cf1e34615a4a7708f448eec"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a1802a6d7e41cc104bd7e2545c5868bac"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_o_v_e_1_1_note_container.html#a1802a6d7e41cc104bd7e2545c5868bac">space_</a></td></tr>
+<tr class="separator:a1802a6d7e41cc104bd7e2545c5868bac"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a23337056df20cf9b42cb550dae99cf8d"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_o_v_e_1_1_note_container.html#a23337056df20cf9b42cb550dae99cf8d">inBeam_</a></td></tr>
+<tr class="separator:a23337056df20cf9b42cb550dae99cf8d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a97e0e58bfc46fc8e9a2eb8a5e7409414"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_o_v_e_1_1_note_container.html#a97e0e58bfc46fc8e9a2eb8a5e7409414">stemUp_</a></td></tr>
+<tr class="separator:a97e0e58bfc46fc8e9a2eb8a5e7409414"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a4a0fdce1dd534f5fb279fccff2cee370"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_o_v_e_1_1_note_container.html#a4a0fdce1dd534f5fb279fccff2cee370">showStem_</a></td></tr>
+<tr class="separator:a4a0fdce1dd534f5fb279fccff2cee370"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a5e926f289d5904f3c946f0a5ce1720c6"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_o_v_e_1_1_note_container.html#a5e926f289d5904f3c946f0a5ce1720c6">stemLength_</a></td></tr>
+<tr class="separator:a5e926f289d5904f3c946f0a5ce1720c6"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa1e6488abd28d4d160cc08d79ca75118"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_o_v_e_1_1_note_container.html#aa1e6488abd28d4d160cc08d79ca75118">noteShift_</a></td></tr>
+<tr class="separator:aa1e6488abd28d4d160cc08d79ca75118"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af04b73529c2452e88b64401899f97a5b"><td class="memItemLeft" align="right" valign="top">QList&lt; <a class="el" href="class_o_v_e_1_1_note.html">Note</a> * &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_o_v_e_1_1_note_container.html#af04b73529c2452e88b64401899f97a5b">notes_</a></td></tr>
+<tr class="separator:af04b73529c2452e88b64401899f97a5b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a2141da62dd3f83abe6a0e027228faab3"><td class="memItemLeft" align="right" valign="top">QList&lt; <a class="el" href="class_o_v_e_1_1_articulation.html">Articulation</a> * &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_o_v_e_1_1_note_container.html#a2141da62dd3f83abe6a0e027228faab3">articulations_</a></td></tr>
+<tr class="separator:a2141da62dd3f83abe6a0e027228faab3"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="inherited"></a>
 Additional Inherited Members</h2></td></tr>
@@ -890,6 +927,359 @@ Additional Inherited Members</h2></td></tr>
           <td></td>
         </tr>
       </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<h2 class="groupheader">Member Data Documentation</h2>
+<a id="a2141da62dd3f83abe6a0e027228faab3"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a2141da62dd3f83abe6a0e027228faab3">&#9670;&nbsp;</a></span>articulations_</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">QList&lt;<a class="el" href="class_o_v_e_1_1_articulation.html">Articulation</a>*&gt; OVE::NoteContainer::articulations_</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="ae3c23e6e82d888294b41eddbb33ab2e0"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ae3c23e6e82d888294b41eddbb33ab2e0">&#9670;&nbsp;</a></span>cue_</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool OVE::NoteContainer::cue_</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a5165a03bea6c76b394a30c9dcd4a61e0"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a5165a03bea6c76b394a30c9dcd4a61e0">&#9670;&nbsp;</a></span>dot_</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">int OVE::NoteContainer::dot_</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a6c05799396b94c5f515f9f0cb7a62ea6"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a6c05799396b94c5f515f9f0cb7a62ea6">&#9670;&nbsp;</a></span>grace_</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool OVE::NoteContainer::grace_</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a0d1cdd917fa5a8e8098e83acd74b201f"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a0d1cdd917fa5a8e8098e83acd74b201f">&#9670;&nbsp;</a></span>graceNoteType_</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="namespace_o_v_e.html#ab7a0f62d35f2bd049afbad7c8582c259">NoteType</a> OVE::NoteContainer::graceNoteType_</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a23337056df20cf9b42cb550dae99cf8d"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a23337056df20cf9b42cb550dae99cf8d">&#9670;&nbsp;</a></span>inBeam_</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool OVE::NoteContainer::inBeam_</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="af04b73529c2452e88b64401899f97a5b"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#af04b73529c2452e88b64401899f97a5b">&#9670;&nbsp;</a></span>notes_</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">QList&lt;<a class="el" href="class_o_v_e_1_1_note.html">Note</a>*&gt; OVE::NoteContainer::notes_</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="aa1e6488abd28d4d160cc08d79ca75118"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aa1e6488abd28d4d160cc08d79ca75118">&#9670;&nbsp;</a></span>noteShift_</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">int OVE::NoteContainer::noteShift_</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="aa849d3bca4ab90b2717e0dd048b842c6"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aa849d3bca4ab90b2717e0dd048b842c6">&#9670;&nbsp;</a></span>noteType_</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="namespace_o_v_e.html#ab7a0f62d35f2bd049afbad7c8582c259">NoteType</a> OVE::NoteContainer::noteType_</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="ab36bcddf2a56ae282ebfd0f69dd993ce"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ab36bcddf2a56ae282ebfd0f69dd993ce">&#9670;&nbsp;</a></span>raw_</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool OVE::NoteContainer::raw_</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a3086b1da089a20dc19bab40076abd992"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a3086b1da089a20dc19bab40076abd992">&#9670;&nbsp;</a></span>rest_</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool OVE::NoteContainer::rest_</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a4a0fdce1dd534f5fb279fccff2cee370"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a4a0fdce1dd534f5fb279fccff2cee370">&#9670;&nbsp;</a></span>showStem_</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool OVE::NoteContainer::showStem_</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a1802a6d7e41cc104bd7e2545c5868bac"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a1802a6d7e41cc104bd7e2545c5868bac">&#9670;&nbsp;</a></span>space_</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">int OVE::NoteContainer::space_</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a5e926f289d5904f3c946f0a5ce1720c6"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a5e926f289d5904f3c946f0a5ce1720c6">&#9670;&nbsp;</a></span>stemLength_</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">int OVE::NoteContainer::stemLength_</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a97e0e58bfc46fc8e9a2eb8a5e7409414"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a97e0e58bfc46fc8e9a2eb8a5e7409414">&#9670;&nbsp;</a></span>stemUp_</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool OVE::NoteContainer::stemUp_</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a33d3837b2cf1e34615a4a7708f448eec"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a33d3837b2cf1e34615a4a7708f448eec">&#9670;&nbsp;</a></span>tuplet_</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">int OVE::NoteContainer::tuplet_</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
 </div><div class="memdoc">
 
 </div>

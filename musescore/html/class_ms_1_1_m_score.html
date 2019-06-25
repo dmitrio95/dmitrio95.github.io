@@ -23,9 +23,9 @@
   <td id="projectlogo"><img alt="Logo" src="musescore_logo_full.png"/></td>
   <td id="projectalign" style="padding-left: 0.5em;">
    <div id="projectname">MuseScore
-   &#160;<span id="projectnumber">3.1</span>
+   &#160;<span id="projectnumber">3.2</span>
    </div>
-   <div id="projectbrief">Music compisition and notation</div>
+   <div id="projectbrief">Music composition and notation</div>
   </td>
  </tr>
  </tbody>
@@ -69,6 +69,7 @@ $(function() {
 <a href="#pub-types">Public Types</a> &#124;
 <a href="#pub-static-methods">Static Public Member Functions</a> &#124;
 <a href="#pub-static-attribs">Static Public Attributes</a> &#124;
+<a href="#pri-static-attribs">Static Private Attributes</a> &#124;
 <a href="class_ms_1_1_m_score-members.html">List of all members</a>  </div>
   <div class="headertitle">
 <div class="title">Ms::MScore Struct Reference</div>  </div>
@@ -81,7 +82,10 @@ Collaboration diagram for Ms::MScore:</div>
 <div class="dyncontent">
 <div class="center"><img src="class_ms_1_1_m_score__coll__graph.png" border="0" usemap="#_ms_1_1_m_score_coll__map" alt="Collaboration graph"/></div>
 <map name="_ms_1_1_m_score_coll__map" id="_ms_1_1_m_score_coll__map">
-<area shape="rect" id="node2" href="class_ms_1_1_sequencer.html" title="Ms::Sequencer" alt="" coords="5,5,116,32"/>
+<area shape="rect" id="node2" href="class_ms_1_1_m_paint_device.html" title="Ms::MPaintDevice" alt="" coords="5,171,136,197"/>
+<area shape="rect" id="node4" href="class_ms_1_1_sequencer.html" title="Ms::Sequencer" alt="" coords="161,171,271,197"/>
+<area shape="rect" id="node5" href="class_ms_1_1_m_style.html" title="Ms::MStyle" alt="" coords="295,171,385,197"/>
+<area shape="rect" id="node6" href="class_ms_1_1_chord_list.html" title="Ms::ChordList" alt="" coords="288,81,392,108"/>
 </map>
 <center><span class="legend">[<a href="graph_legend.html">legend</a>]</span></center></div>
 <table class="memberdecls">
@@ -196,8 +200,6 @@ Static Public Attributes</h2></td></tr>
 <tr class="separator:a6dad4596647775c77a597679fb98cb45"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a8ced5e60a13414aea24dc6d2259c554d"><td class="memItemLeft" align="right" valign="top">static bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ms_1_1_m_score.html#a8ced5e60a13414aea24dc6d2259c554d">useFallbackFont</a> = true</td></tr>
 <tr class="separator:a8ced5e60a13414aea24dc6d2259c554d"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a249a4158026a609f4e42b273a9917cae"><td class="memItemLeft" align="right" valign="top">static bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ms_1_1_m_score.html#a249a4158026a609f4e42b273a9917cae">autoplaceSlurs</a> = true</td></tr>
-<tr class="separator:a249a4158026a609f4e42b273a9917cae"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a58e52c0bece662fbd932efcee0ebdb67"><td class="memItemLeft" align="right" valign="top">static bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ms_1_1_m_score.html#a58e52c0bece662fbd932efcee0ebdb67">debugMode</a> = false</td></tr>
 <tr class="separator:a58e52c0bece662fbd932efcee0ebdb67"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ad93fd73fac085b5e2bb5c582ba427e3a"><td class="memItemLeft" align="right" valign="top">static bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ms_1_1_m_score.html#ad93fd73fac085b5e2bb5c582ba427e3a">testMode</a> = false</td></tr>
@@ -230,6 +232,25 @@ Static Public Attributes</h2></td></tr>
 <tr class="separator:ac9d042a7decd57dbcea04544594b33c1"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a4869cc8207f7c0ad6772120a1ec78c56"><td class="memItemLeft" align="right" valign="top">static qreal&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ms_1_1_m_score.html#a4869cc8207f7c0ad6772120a1ec78c56">horizontalPageGapOdd</a> = 50.0</td></tr>
 <tr class="separator:a4869cc8207f7c0ad6772120a1ec78c56"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pri-static-attribs"></a>
+Static Private Attributes</h2></td></tr>
+<tr class="memitem:a6501be89e3fec5b20be52158754aeff1"><td class="memItemLeft" align="right" valign="top">static Q_GADGET <a class="el" href="class_ms_1_1_m_style.html">MStyle</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ms_1_1_m_score.html#a6501be89e3fec5b20be52158754aeff1">_baseStyle</a></td></tr>
+<tr class="separator:a6501be89e3fec5b20be52158754aeff1"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a4d2456a44f505283d5307f09cdf1d8ff"><td class="memItemLeft" align="right" valign="top">static <a class="el" href="class_ms_1_1_m_style.html">MStyle</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ms_1_1_m_score.html#a4d2456a44f505283d5307f09cdf1d8ff">_defaultStyle</a></td></tr>
+<tr class="separator:a4d2456a44f505283d5307f09cdf1d8ff"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a0fa6cdc0d2439f2b40bef39c167b0b30"><td class="memItemLeft" align="right" valign="top">static <a class="el" href="class_ms_1_1_m_style.html">MStyle</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ms_1_1_m_score.html#a0fa6cdc0d2439f2b40bef39c167b0b30">_defaultStyleForParts</a></td></tr>
+<tr class="separator:a0fa6cdc0d2439f2b40bef39c167b0b30"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae262561a436b6c076f0f2d989fcaf10a"><td class="memItemLeft" align="right" valign="top">static QString&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ms_1_1_m_score.html#ae262561a436b6c076f0f2d989fcaf10a">_globalShare</a></td></tr>
+<tr class="separator:ae262561a436b6c076f0f2d989fcaf10a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a8100f20da29961329ca5a16cca424b14"><td class="memItemLeft" align="right" valign="top">static int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ms_1_1_m_score.html#a8100f20da29961329ca5a16cca424b14">_hRaster</a></td></tr>
+<tr class="separator:a8100f20da29961329ca5a16cca424b14"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9059d17d5617838dd22bba662ae12794"><td class="memItemLeft" align="right" valign="top">static int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ms_1_1_m_score.html#a9059d17d5617838dd22bba662ae12794">_vRaster</a></td></tr>
+<tr class="separator:a9059d17d5617838dd22bba662ae12794"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a0abfdf8062a3eb8aa674c40bfb2168d3"><td class="memItemLeft" align="right" valign="top">static bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ms_1_1_m_score.html#a0abfdf8062a3eb8aa674c40bfb2168d3">_verticalOrientation</a> = false</td></tr>
+<tr class="separator:a0abfdf8062a3eb8aa674c40bfb2168d3"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a251eb12c6e2786aab402f9041dc8ada3"><td class="memItemLeft" align="right" valign="top">static <a class="el" href="class_ms_1_1_m_paint_device.html">MPaintDevice</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ms_1_1_m_score.html#a251eb12c6e2786aab402f9041dc8ada3">_paintDevice</a></td></tr>
+<tr class="separator:a251eb12c6e2786aab402f9041dc8ada3"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <h2 class="groupheader">Member Enumeration Documentation</h2>
 <a id="ac1a0c95bfede9e37dd3fd910905092b8"></a>
@@ -846,6 +867,72 @@ Static Public Attributes</h2></td></tr>
 </div>
 </div>
 <h2 class="groupheader">Member Data Documentation</h2>
+<a id="a6501be89e3fec5b20be52158754aeff1"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a6501be89e3fec5b20be52158754aeff1">&#9670;&nbsp;</a></span>_baseStyle</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="class_ms_1_1_m_style.html">MStyle</a> Ms::MScore::_baseStyle</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a4d2456a44f505283d5307f09cdf1d8ff"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a4d2456a44f505283d5307f09cdf1d8ff">&#9670;&nbsp;</a></span>_defaultStyle</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="class_ms_1_1_m_style.html">MStyle</a> Ms::MScore::_defaultStyle</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a0fa6cdc0d2439f2b40bef39c167b0b30"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a0fa6cdc0d2439f2b40bef39c167b0b30">&#9670;&nbsp;</a></span>_defaultStyleForParts</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="class_ms_1_1_m_style.html">MStyle</a> * Ms::MScore::_defaultStyleForParts</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
 <a id="a7490ecd88338d8ff3ffc39f5545171a4"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a7490ecd88338d8ff3ffc39f5545171a4">&#9670;&nbsp;</a></span>_error</h2>
 
@@ -868,8 +955,8 @@ Static Public Attributes</h2></td></tr>
 
 </div>
 </div>
-<a id="a249a4158026a609f4e42b273a9917cae"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a249a4158026a609f4e42b273a9917cae">&#9670;&nbsp;</a></span>autoplaceSlurs</h2>
+<a id="ae262561a436b6c076f0f2d989fcaf10a"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ae262561a436b6c076f0f2d989fcaf10a">&#9670;&nbsp;</a></span>_globalShare</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -878,12 +965,100 @@ Static Public Attributes</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">bool Ms::MScore::autoplaceSlurs = true</td>
+          <td class="memname">QString Ms::MScore::_globalShare</td>
         </tr>
       </table>
   </td>
   <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+<span class="mlabels"><span class="mlabel">static</span><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a8100f20da29961329ca5a16cca424b14"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a8100f20da29961329ca5a16cca424b14">&#9670;&nbsp;</a></span>_hRaster</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">int Ms::MScore::_hRaster</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a251eb12c6e2786aab402f9041dc8ada3"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a251eb12c6e2786aab402f9041dc8ada3">&#9670;&nbsp;</a></span>_paintDevice</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="class_ms_1_1_m_paint_device.html">MPaintDevice</a> * Ms::MScore::_paintDevice</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a0abfdf8062a3eb8aa674c40bfb2168d3"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a0abfdf8062a3eb8aa674c40bfb2168d3">&#9670;&nbsp;</a></span>_verticalOrientation</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool Ms::MScore::_verticalOrientation = false</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a9059d17d5617838dd22bba662ae12794"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a9059d17d5617838dd22bba662ae12794">&#9670;&nbsp;</a></span>_vRaster</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">int Ms::MScore::_vRaster</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span><span class="mlabel">private</span></span>  </td>
   </tr>
 </table>
 </div><div class="memdoc">
@@ -1041,7 +1216,7 @@ Static Public Attributes</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
-<b>Initial value:</b><div class="fragment"><div class="line">{</div><div class="line">      { <a class="code" href="namespace_ms.html#ad1b1585b0038ede29126efd627daae91ad34256405b037dd4a85817fbea2430fa">MS_NO_ERROR</a>,                     0,    0                                                                           },</div><div class="line"></div><div class="line">      { <a class="code" href="namespace_ms.html#ad1b1585b0038ede29126efd627daae91ae03e2e9d4acbd099f9b19ed7e2ae71e2">NO_NOTE_SELECTED</a>,                <span class="stringliteral">&quot;s1&quot;</span>, <a class="code" href="clef_8cpp.html#a061ab1f0d3b6440b7052f059abb41a60">TR</a>(<span class="stringliteral">&quot;No note selected:\nPlease select a note and retry\n&quot;</span>)                   },</div><div class="line">      { <a class="code" href="namespace_ms.html#ad1b1585b0038ede29126efd627daae91ab90cb5808ab539112c7b40d55db99535">NO_CHORD_REST_SELECTED</a>,          <span class="stringliteral">&quot;s2&quot;</span>, <a class="code" href="clef_8cpp.html#a061ab1f0d3b6440b7052f059abb41a60">TR</a>(<span class="stringliteral">&quot;No chord/rest selected:\nPlease select a chord or rest and retry&quot;</span>)      },</div><div class="line">      { <a class="code" href="namespace_ms.html#ad1b1585b0038ede29126efd627daae91a089d83eb0ffc82cd9defe07666ff204f">NO_LYRICS_SELECTED</a>,              <span class="stringliteral">&quot;s3&quot;</span>, <a class="code" href="clef_8cpp.html#a061ab1f0d3b6440b7052f059abb41a60">TR</a>(<span class="stringliteral">&quot;No note or lyrics selected:\nPlease select a note or lyrics and retry&quot;</span>) },</div><div class="line">      { <a class="code" href="namespace_ms.html#ad1b1585b0038ede29126efd627daae91abf04672d9e8653c94485707fdb77fb35">NO_NOTE_REST_SELECTED</a>,           <span class="stringliteral">&quot;s4&quot;</span>, <a class="code" href="clef_8cpp.html#a061ab1f0d3b6440b7052f059abb41a60">TR</a>(<span class="stringliteral">&quot;No note or rest selected:\nPlease select a note or rest and retry&quot;</span>)     },</div><div class="line">      { <a class="code" href="namespace_ms.html#ad1b1585b0038ede29126efd627daae91a78742b64ff1eab7a9e096d03b4d7fb4d">NO_NOTE_SLUR_SELECTED</a>,           <span class="stringliteral">&quot;s5&quot;</span>, <a class="code" href="clef_8cpp.html#a061ab1f0d3b6440b7052f059abb41a60">TR</a>(<span class="stringliteral">&quot;No note or slur selected:\nPlease select a note or slur and retry&quot;</span>)     },</div><div class="line">      { <a class="code" href="namespace_ms.html#ad1b1585b0038ede29126efd627daae91ad4602e9358ff5731f59c2ee7a82eab42">NO_STAFF_SELECTED</a>,               <span class="stringliteral">&quot;s6&quot;</span>, <a class="code" href="clef_8cpp.html#a061ab1f0d3b6440b7052f059abb41a60">TR</a>(<span class="stringliteral">&quot;No staff selected:\nPlease select one or more staves and retry\n&quot;</span>)      },</div><div class="line">      { <a class="code" href="namespace_ms.html#ad1b1585b0038ede29126efd627daae91a075f0c061aa7e98e99b2b7025806b44e">NO_NOTE_FIGUREDBASS_SELECTED</a>,    <span class="stringliteral">&quot;s7&quot;</span>, <a class="code" href="clef_8cpp.html#a061ab1f0d3b6440b7052f059abb41a60">TR</a>(<span class="stringliteral">&quot;No note or figured bass selected:\nPlease select a note or figured bass and retry&quot;</span>) },</div><div class="line"></div><div class="line">      { <a class="code" href="namespace_ms.html#ad1b1585b0038ede29126efd627daae91a3eb2369b66e7eeb0b5f0e10687769624">CANNOT_INSERT_TUPLET</a>,            <span class="stringliteral">&quot;t1&quot;</span>, <a class="code" href="clef_8cpp.html#a061ab1f0d3b6440b7052f059abb41a60">TR</a>(<span class="stringliteral">&quot;Cannot insert chord/rest in tuplet&quot;</span>)                                    },</div><div class="line">      { <a class="code" href="namespace_ms.html#ad1b1585b0038ede29126efd627daae91ac9fdebc93f3e8742a510a4b8d4d34e05">CANNOT_SPLIT_TUPLET</a>,             <span class="stringliteral">&quot;t2&quot;</span>, <a class="code" href="clef_8cpp.html#a061ab1f0d3b6440b7052f059abb41a60">TR</a>(<span class="stringliteral">&quot;Cannot split tuplet&quot;</span>)                                                   },</div><div class="line">      { <a class="code" href="namespace_ms.html#ad1b1585b0038ede29126efd627daae91a3dbec8aad6db7dfd013cae161b4de944">CANNOT_SPLIT_MEASURE_FIRST_BEAT</a>, <span class="stringliteral">&quot;m1&quot;</span>, <a class="code" href="clef_8cpp.html#a061ab1f0d3b6440b7052f059abb41a60">TR</a>(<span class="stringliteral">&quot;Cannot split measure here:\n&quot;</span> <span class="stringliteral">&quot;First beat of measure&quot;</span>)                  },</div><div class="line">      { <a class="code" href="namespace_ms.html#ad1b1585b0038ede29126efd627daae91a1ff6a85b8d1101966ae89a46896764f4">CANNOT_SPLIT_MEASURE_TUPLET</a>,     <span class="stringliteral">&quot;m2&quot;</span>, <a class="code" href="clef_8cpp.html#a061ab1f0d3b6440b7052f059abb41a60">TR</a>(<span class="stringliteral">&quot;Cannot split measure here:\n&quot;</span> <span class="stringliteral">&quot;Cannot split tuplet&quot;</span>)                    },</div><div class="line"></div><div class="line">      { <a class="code" href="namespace_ms.html#ad1b1585b0038ede29126efd627daae91aca546494c1fbf58875361fd335f5b519">NO_DEST</a>,                         <span class="stringliteral">&quot;p1&quot;</span>, <a class="code" href="clef_8cpp.html#a061ab1f0d3b6440b7052f059abb41a60">TR</a>(<span class="stringliteral">&quot;No destination to paste&quot;</span>)                                               },</div><div class="line">      { <a class="code" href="namespace_ms.html#ad1b1585b0038ede29126efd627daae91ade99bb1e680868ca8011859d6eedcf09">DEST_TUPLET</a>,                     <span class="stringliteral">&quot;p2&quot;</span>, <a class="code" href="clef_8cpp.html#a061ab1f0d3b6440b7052f059abb41a60">TR</a>(<span class="stringliteral">&quot;Cannot paste into tuplet&quot;</span>)                                              },</div><div class="line">      { <a class="code" href="namespace_ms.html#ad1b1585b0038ede29126efd627daae91a600d5f812d2f1d2b7b8f2c9359de2a22">TUPLET_CROSSES_BAR</a>,              <span class="stringliteral">&quot;p3&quot;</span>, <a class="code" href="clef_8cpp.html#a061ab1f0d3b6440b7052f059abb41a60">TR</a>(<span class="stringliteral">&quot;Tuplet cannot cross barlines&quot;</span>)                                          },</div><div class="line">      { <a class="code" href="namespace_ms.html#ad1b1585b0038ede29126efd627daae91adb5a76e963316b256336bb5af399f1fb">DEST_LOCAL_TIME_SIGNATURE</a>,       <span class="stringliteral">&quot;p4&quot;</span>, <a class="code" href="clef_8cpp.html#a061ab1f0d3b6440b7052f059abb41a60">TR</a>(<span class="stringliteral">&quot;Cannot paste in local time signature&quot;</span>)                                  },</div><div class="line">      { <a class="code" href="namespace_ms.html#ad1b1585b0038ede29126efd627daae91a42c81fd98364a7b97bf94c18fb4ca29c">DEST_TREMOLO</a>,                    <span class="stringliteral">&quot;p5&quot;</span>, <a class="code" href="clef_8cpp.html#a061ab1f0d3b6440b7052f059abb41a60">TR</a>(<span class="stringliteral">&quot;Cannot paste in tremolo&quot;</span>)                                               },</div><div class="line">      { <a class="code" href="namespace_ms.html#ad1b1585b0038ede29126efd627daae91a9b34920c2e0cb0c1d1557a4aa4c09b31">NO_MIME</a>,                         <span class="stringliteral">&quot;p6&quot;</span>, <a class="code" href="clef_8cpp.html#a061ab1f0d3b6440b7052f059abb41a60">TR</a>(<span class="stringliteral">&quot;Nothing to paste&quot;</span>)                                                      },</div><div class="line">      { <a class="code" href="namespace_ms.html#ad1b1585b0038ede29126efd627daae91a4701699bba973d5a5fc99f0c3ce995e4">DEST_NO_CR</a>,                      <span class="stringliteral">&quot;p7&quot;</span>, <a class="code" href="clef_8cpp.html#a061ab1f0d3b6440b7052f059abb41a60">TR</a>(<span class="stringliteral">&quot;Destination is not a chord or rest&quot;</span>)                                    },</div><div class="line">      { <a class="code" href="namespace_ms.html#ad1b1585b0038ede29126efd627daae91aa0ff3f40bb5768d613a85f76c06a87a9">CANNOT_CHANGE_LOCAL_TIMESIG</a>,     <span class="stringliteral">&quot;l1&quot;</span>, <a class="code" href="clef_8cpp.html#a061ab1f0d3b6440b7052f059abb41a60">TR</a>(<span class="stringliteral">&quot;Cannot change local time signature:\nMeasure is not empty&quot;</span>)             },</div><div class="line">      }</div></div><!-- fragment -->
+<b>Initial value:</b><div class="fragment"><div class="line">{</div><div class="line">      { <a class="code" href="namespace_ms.html#ad1b1585b0038ede29126efd627daae91ad34256405b037dd4a85817fbea2430fa">MS_NO_ERROR</a>,                     0,    0                                                                           },</div><div class="line"></div><div class="line">      { <a class="code" href="namespace_ms.html#ad1b1585b0038ede29126efd627daae91ae03e2e9d4acbd099f9b19ed7e2ae71e2">NO_NOTE_SELECTED</a>,                <span class="stringliteral">&quot;s1&quot;</span>, QT_TRANSLATE_NOOP(<span class="stringliteral">&quot;error&quot;</span>, <span class="stringliteral">&quot;No note selected:\nPlease select a note and retry\n&quot;</span>)                   },</div><div class="line">      { <a class="code" href="namespace_ms.html#ad1b1585b0038ede29126efd627daae91ab90cb5808ab539112c7b40d55db99535">NO_CHORD_REST_SELECTED</a>,          <span class="stringliteral">&quot;s2&quot;</span>, QT_TRANSLATE_NOOP(<span class="stringliteral">&quot;error&quot;</span>, <span class="stringliteral">&quot;No chord/rest selected:\nPlease select a chord or rest and retry&quot;</span>)      },</div><div class="line">      { <a class="code" href="namespace_ms.html#ad1b1585b0038ede29126efd627daae91a089d83eb0ffc82cd9defe07666ff204f">NO_LYRICS_SELECTED</a>,              <span class="stringliteral">&quot;s3&quot;</span>, QT_TRANSLATE_NOOP(<span class="stringliteral">&quot;error&quot;</span>, <span class="stringliteral">&quot;No note or lyrics selected:\nPlease select a note or lyrics and retry&quot;</span>) },</div><div class="line">      { <a class="code" href="namespace_ms.html#ad1b1585b0038ede29126efd627daae91abf04672d9e8653c94485707fdb77fb35">NO_NOTE_REST_SELECTED</a>,           <span class="stringliteral">&quot;s4&quot;</span>, QT_TRANSLATE_NOOP(<span class="stringliteral">&quot;error&quot;</span>, <span class="stringliteral">&quot;No note or rest selected:\nPlease select a note or rest and retry&quot;</span>)     },</div><div class="line">      { <a class="code" href="namespace_ms.html#ad1b1585b0038ede29126efd627daae91a78742b64ff1eab7a9e096d03b4d7fb4d">NO_NOTE_SLUR_SELECTED</a>,           <span class="stringliteral">&quot;s5&quot;</span>, QT_TRANSLATE_NOOP(<span class="stringliteral">&quot;error&quot;</span>, <span class="stringliteral">&quot;No note or slur selected:\nPlease select a note or slur and retry&quot;</span>)     },</div><div class="line">      { <a class="code" href="namespace_ms.html#ad1b1585b0038ede29126efd627daae91ad4602e9358ff5731f59c2ee7a82eab42">NO_STAFF_SELECTED</a>,               <span class="stringliteral">&quot;s6&quot;</span>, QT_TRANSLATE_NOOP(<span class="stringliteral">&quot;error&quot;</span>, <span class="stringliteral">&quot;No staff selected:\nPlease select one or more staves and retry\n&quot;</span>)      },</div><div class="line">      { <a class="code" href="namespace_ms.html#ad1b1585b0038ede29126efd627daae91a075f0c061aa7e98e99b2b7025806b44e">NO_NOTE_FIGUREDBASS_SELECTED</a>,    <span class="stringliteral">&quot;s7&quot;</span>, QT_TRANSLATE_NOOP(<span class="stringliteral">&quot;error&quot;</span>, <span class="stringliteral">&quot;No note or figured bass selected:\nPlease select a note or figured bass and retry&quot;</span>) },</div><div class="line"></div><div class="line">      { <a class="code" href="namespace_ms.html#ad1b1585b0038ede29126efd627daae91a3eb2369b66e7eeb0b5f0e10687769624">CANNOT_INSERT_TUPLET</a>,            <span class="stringliteral">&quot;t1&quot;</span>, QT_TRANSLATE_NOOP(<span class="stringliteral">&quot;error&quot;</span>, <span class="stringliteral">&quot;Cannot insert chord/rest in tuplet&quot;</span>)                                    },</div><div class="line">      { <a class="code" href="namespace_ms.html#ad1b1585b0038ede29126efd627daae91ac9fdebc93f3e8742a510a4b8d4d34e05">CANNOT_SPLIT_TUPLET</a>,             <span class="stringliteral">&quot;t2&quot;</span>, QT_TRANSLATE_NOOP(<span class="stringliteral">&quot;error&quot;</span>, <span class="stringliteral">&quot;Cannot split tuplet&quot;</span>)                                                   },</div><div class="line">      { <a class="code" href="namespace_ms.html#ad1b1585b0038ede29126efd627daae91a3dbec8aad6db7dfd013cae161b4de944">CANNOT_SPLIT_MEASURE_FIRST_BEAT</a>, <span class="stringliteral">&quot;m1&quot;</span>, QT_TRANSLATE_NOOP(<span class="stringliteral">&quot;error&quot;</span>, <span class="stringliteral">&quot;Cannot split measure here:\n&quot;</span> <span class="stringliteral">&quot;First beat of measure&quot;</span>)                  },</div><div class="line">      { <a class="code" href="namespace_ms.html#ad1b1585b0038ede29126efd627daae91a1ff6a85b8d1101966ae89a46896764f4">CANNOT_SPLIT_MEASURE_TUPLET</a>,     <span class="stringliteral">&quot;m2&quot;</span>, QT_TRANSLATE_NOOP(<span class="stringliteral">&quot;error&quot;</span>, <span class="stringliteral">&quot;Cannot split measure here:\n&quot;</span> <span class="stringliteral">&quot;Cannot split tuplet&quot;</span>)                    },</div><div class="line"></div><div class="line">      { <a class="code" href="namespace_ms.html#ad1b1585b0038ede29126efd627daae91aca546494c1fbf58875361fd335f5b519">NO_DEST</a>,                         <span class="stringliteral">&quot;p1&quot;</span>, QT_TRANSLATE_NOOP(<span class="stringliteral">&quot;error&quot;</span>, <span class="stringliteral">&quot;No destination to paste&quot;</span>)                                               },</div><div class="line">      { <a class="code" href="namespace_ms.html#ad1b1585b0038ede29126efd627daae91ade99bb1e680868ca8011859d6eedcf09">DEST_TUPLET</a>,                     <span class="stringliteral">&quot;p2&quot;</span>, QT_TRANSLATE_NOOP(<span class="stringliteral">&quot;error&quot;</span>, <span class="stringliteral">&quot;Cannot paste into tuplet&quot;</span>)                                              },</div><div class="line">      { <a class="code" href="namespace_ms.html#ad1b1585b0038ede29126efd627daae91a600d5f812d2f1d2b7b8f2c9359de2a22">TUPLET_CROSSES_BAR</a>,              <span class="stringliteral">&quot;p3&quot;</span>, QT_TRANSLATE_NOOP(<span class="stringliteral">&quot;error&quot;</span>, <span class="stringliteral">&quot;Tuplet cannot cross barlines&quot;</span>)                                          },</div><div class="line">      { <a class="code" href="namespace_ms.html#ad1b1585b0038ede29126efd627daae91adb5a76e963316b256336bb5af399f1fb">DEST_LOCAL_TIME_SIGNATURE</a>,       <span class="stringliteral">&quot;p4&quot;</span>, QT_TRANSLATE_NOOP(<span class="stringliteral">&quot;error&quot;</span>, <span class="stringliteral">&quot;Cannot paste in local time signature&quot;</span>)                                  },</div><div class="line">      { <a class="code" href="namespace_ms.html#ad1b1585b0038ede29126efd627daae91a42c81fd98364a7b97bf94c18fb4ca29c">DEST_TREMOLO</a>,                    <span class="stringliteral">&quot;p5&quot;</span>, QT_TRANSLATE_NOOP(<span class="stringliteral">&quot;error&quot;</span>, <span class="stringliteral">&quot;Cannot paste in tremolo&quot;</span>)                                               },</div><div class="line">      { <a class="code" href="namespace_ms.html#ad1b1585b0038ede29126efd627daae91a9b34920c2e0cb0c1d1557a4aa4c09b31">NO_MIME</a>,                         <span class="stringliteral">&quot;p6&quot;</span>, QT_TRANSLATE_NOOP(<span class="stringliteral">&quot;error&quot;</span>, <span class="stringliteral">&quot;Nothing to paste&quot;</span>)                                                      },</div><div class="line">      { <a class="code" href="namespace_ms.html#ad1b1585b0038ede29126efd627daae91a4701699bba973d5a5fc99f0c3ce995e4">DEST_NO_CR</a>,                      <span class="stringliteral">&quot;p7&quot;</span>, QT_TRANSLATE_NOOP(<span class="stringliteral">&quot;error&quot;</span>, <span class="stringliteral">&quot;Destination is not a chord or rest&quot;</span>)                                    },</div><div class="line">      { <a class="code" href="namespace_ms.html#ad1b1585b0038ede29126efd627daae91aa0ff3f40bb5768d613a85f76c06a87a9">CANNOT_CHANGE_LOCAL_TIMESIG</a>,     <span class="stringliteral">&quot;l1&quot;</span>, QT_TRANSLATE_NOOP(<span class="stringliteral">&quot;error&quot;</span>, <span class="stringliteral">&quot;Cannot change local time signature:\nMeasure is not empty&quot;</span>)             },</div><div class="line">      }</div></div><!-- fragment -->
 </div>
 </div>
 <a id="ab56667808f0d632f2f7d6bfd1093e1f0"></a>

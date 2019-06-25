@@ -23,9 +23,9 @@
   <td id="projectlogo"><img alt="Logo" src="musescore_logo_full.png"/></td>
   <td id="projectalign" style="padding-left: 0.5em;">
    <div id="projectname">MuseScore
-   &#160;<span id="projectnumber">3.1</span>
+   &#160;<span id="projectnumber">3.2</span>
    </div>
-   <div id="projectbrief">Music compisition and notation</div>
+   <div id="projectbrief">Music composition and notation</div>
   </td>
  </tr>
  </tbody>
@@ -68,6 +68,9 @@ $(function() {
   <div class="summary">
 <a href="#signals">Signals</a> &#124;
 <a href="#pub-methods">Public Member Functions</a> &#124;
+<a href="#pri-slots">Private Slots</a> &#124;
+<a href="#pri-methods">Private Member Functions</a> &#124;
+<a href="#pri-attribs">Private Attributes</a> &#124;
 <a href="class_ms_1_1_template_browser-members.html">List of all members</a>  </div>
   <div class="headertitle">
 <div class="title">Ms::TemplateBrowser Class Reference</div>  </div>
@@ -109,6 +112,27 @@ Public Member Functions</h2></td></tr>
 <tr class="separator:aa1ae4ae6dd08e5b562078425d847ef3e"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aa17aa78680d93012d81f37db66d54ace"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ms_1_1_template_browser.html#aa17aa78680d93012d81f37db66d54ace">filter</a> (const QString &amp;)</td></tr>
 <tr class="separator:aa17aa78680d93012d81f37db66d54ace"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pri-slots"></a>
+Private Slots</h2></td></tr>
+<tr class="memitem:a5ee31d3a28e5ab6f969754e94a2c5659"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ms_1_1_template_browser.html#a5ee31d3a28e5ab6f969754e94a2c5659">scoreClicked</a> ()</td></tr>
+<tr class="separator:a5ee31d3a28e5ab6f969754e94a2c5659"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a0affbec678f2ff9b26088b9bbdd9cf9b"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ms_1_1_template_browser.html#a0affbec678f2ff9b26088b9bbdd9cf9b">handleItemActivated</a> (QTreeWidgetItem *item)</td></tr>
+<tr class="separator:a0affbec678f2ff9b26088b9bbdd9cf9b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pri-methods"></a>
+Private Member Functions</h2></td></tr>
+<tr class="memitem:a3875d2f84ed6cd8961ed49ee2295f325"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_ms_1_1_template_item.html">TemplateItem</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ms_1_1_template_browser.html#a3875d2f84ed6cd8961ed49ee2295f325">genTemplateItem</a> (QTreeWidgetItem *, const QFileInfo &amp;)</td></tr>
+<tr class="separator:a3875d2f84ed6cd8961ed49ee2295f325"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pri-attribs"></a>
+Private Attributes</h2></td></tr>
+<tr class="memitem:a5923fea7b96100c56c555ff489751cc4"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ms_1_1_template_browser.html#a5923fea7b96100c56c555ff489751cc4">_stripNumbers</a> { false }</td></tr>
+<tr class="separator:a5923fea7b96100c56c555ff489751cc4"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad7f7c2788a7c9dc78fe18527e3d04072"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ms_1_1_template_browser.html#ad7f7c2788a7c9dc78fe18527e3d04072">_showPreview</a> { true }</td></tr>
+<tr class="separator:ad7f7c2788a7c9dc78fe18527e3d04072"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a09f4bb22cbecbe4cd754e4f4f891b2c2"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ms_1_1_template_browser.html#a09f4bb22cbecbe4cd754e4f4f891b2c2">_showCustomCategory</a> { false }</td></tr>
+<tr class="separator:a09f4bb22cbecbe4cd754e4f4f891b2c2"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
 <a id="a88002e729d0c8640b70258721a8261aa"></a>
@@ -144,6 +168,68 @@ Public Member Functions</h2></td></tr>
           <td></td>
         </tr>
       </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a3875d2f84ed6cd8961ed49ee2295f325"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a3875d2f84ed6cd8961ed49ee2295f325">&#9670;&nbsp;</a></span>genTemplateItem()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="class_ms_1_1_template_item.html">TemplateItem</a> * Ms::TemplateBrowser::genTemplateItem </td>
+          <td>(</td>
+          <td class="paramtype">QTreeWidgetItem *&#160;</td>
+          <td class="paramname"><em>p</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const QFileInfo &amp;&#160;</td>
+          <td class="paramname"><em>fi</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a0affbec678f2ff9b26088b9bbdd9cf9b"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a0affbec678f2ff9b26088b9bbdd9cf9b">&#9670;&nbsp;</a></span>handleItemActivated</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void Ms::TemplateBrowser::handleItemActivated </td>
+          <td>(</td>
+          <td class="paramtype">QTreeWidgetItem *&#160;</td>
+          <td class="paramname"><em>item</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span><span class="mlabel">slot</span></span>  </td>
+  </tr>
+</table>
 </div><div class="memdoc">
 
 </div>
@@ -193,6 +279,31 @@ Public Member Functions</h2></td></tr>
   </td>
   <td class="mlabels-right">
 <span class="mlabels"><span class="mlabel">signal</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a5ee31d3a28e5ab6f969754e94a2c5659"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a5ee31d3a28e5ab6f969754e94a2c5659">&#9670;&nbsp;</a></span>scoreClicked</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void Ms::TemplateBrowser::scoreClicked </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span><span class="mlabel">slot</span></span>  </td>
   </tr>
 </table>
 </div><div class="memdoc">
@@ -263,6 +374,73 @@ Public Member Functions</h2></td></tr>
   </td>
   <td class="mlabels-right">
 <span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<h2 class="groupheader">Member Data Documentation</h2>
+<a id="a09f4bb22cbecbe4cd754e4f4f891b2c2"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a09f4bb22cbecbe4cd754e4f4f891b2c2">&#9670;&nbsp;</a></span>_showCustomCategory</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool Ms::TemplateBrowser::_showCustomCategory { false }</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="ad7f7c2788a7c9dc78fe18527e3d04072"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ad7f7c2788a7c9dc78fe18527e3d04072">&#9670;&nbsp;</a></span>_showPreview</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool Ms::TemplateBrowser::_showPreview { true }</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a5923fea7b96100c56c555ff489751cc4"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a5923fea7b96100c56c555ff489751cc4">&#9670;&nbsp;</a></span>_stripNumbers</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool Ms::TemplateBrowser::_stripNumbers { false }</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
   </tr>
 </table>
 </div><div class="memdoc">

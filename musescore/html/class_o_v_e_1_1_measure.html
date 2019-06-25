@@ -23,9 +23,9 @@
   <td id="projectlogo"><img alt="Logo" src="musescore_logo_full.png"/></td>
   <td id="projectalign" style="padding-left: 0.5em;">
    <div id="projectname">MuseScore
-   &#160;<span id="projectnumber">3.1</span>
+   &#160;<span id="projectnumber">3.2</span>
    </div>
-   <div id="projectbrief">Music compisition and notation</div>
+   <div id="projectbrief">Music composition and notation</div>
   </td>
  </tr>
  </tbody>
@@ -67,6 +67,8 @@ $(function() {
 <div class="header">
   <div class="summary">
 <a href="#pub-methods">Public Member Functions</a> &#124;
+<a href="#pri-methods">Private Member Functions</a> &#124;
+<a href="#pri-attribs">Private Attributes</a> &#124;
 <a href="class_o_v_e_1_1_measure-members.html">List of all members</a>  </div>
   <div class="headertitle">
 <div class="title">OVE::Measure Class Reference</div>  </div>
@@ -87,7 +89,14 @@ Collaboration diagram for OVE::Measure:</div>
 <div class="dyncontent">
 <div class="center"><img src="class_o_v_e_1_1_measure__coll__graph.png" border="0" usemap="#_o_v_e_1_1_measure_coll__map" alt="Collaboration graph"/></div>
 <map name="_o_v_e_1_1_measure_coll__map" id="_o_v_e_1_1_measure_coll__map">
-<area shape="rect" id="node2" href="class_o_v_e_1_1_length_element.html" title="OVE::LengthElement" alt="" coords="5,5,151,32"/>
+<area shape="rect" id="node2" href="class_o_v_e_1_1_length_element.html" title="OVE::LengthElement" alt="" coords="5,261,151,288"/>
+<area shape="rect" id="node3" href="class_o_v_e_1_1_bar_number.html" title="OVE::BarNumber" alt="" coords="175,261,299,288"/>
+<area shape="rect" id="node4" href="class_o_v_e_1_1_music_data.html" title="OVE::MusicData" alt="" coords="253,185,375,212"/>
+<area shape="rect" id="node9" href="class_o_v_e_1_1_time_signature.html" title="OVE::TimeSignature" alt="" coords="323,261,465,288"/>
+<area shape="rect" id="node5" href="class_o_v_e_1_1_tick_element.html" title="OVE::TickElement" alt="" coords="94,109,225,136"/>
+<area shape="rect" id="node6" href="class_o_v_e_1_1_pair_element.html" title="OVE::PairElement" alt="" coords="249,109,379,136"/>
+<area shape="rect" id="node7" href="class_o_v_e_1_1_measure_pos.html" title="OVE::MeasurePos" alt="" coords="249,5,379,32"/>
+<area shape="rect" id="node8" href="class_o_v_e_1_1_offset_element.html" title="OVE::OffsetElement" alt="" coords="403,109,545,136"/>
 </map>
 <center><span class="legend">[<a href="graph_legend.html">legend</a>]</span></center></div>
 <table class="memberdecls">
@@ -138,10 +147,38 @@ Public Member Functions</h2></td></tr>
 <tr class="separator:ae0d16286bc38391a7baf50d4073cd216 inherit pub_methods_class_o_v_e_1_1_length_element"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a414f40ab988dbc5a4cfcbf8732bbc3df inherit pub_methods_class_o_v_e_1_1_length_element"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_o_v_e_1_1_length_element.html#a414f40ab988dbc5a4cfcbf8732bbc3df">getLength</a> () const</td></tr>
 <tr class="separator:a414f40ab988dbc5a4cfcbf8732bbc3df inherit pub_methods_class_o_v_e_1_1_length_element"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pri-methods"></a>
+Private Member Functions</h2></td></tr>
+<tr class="memitem:af61bbf45db402373ad99bbf0ede6e495"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_o_v_e_1_1_measure.html#af61bbf45db402373ad99bbf0ede6e495">Measure</a> ()</td></tr>
+<tr class="separator:af61bbf45db402373ad99bbf0ede6e495"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a4c2515cf704556b8547eb7b30161b144"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_o_v_e_1_1_measure.html#a4c2515cf704556b8547eb7b30161b144">clear</a> ()</td></tr>
+<tr class="separator:a4c2515cf704556b8547eb7b30161b144"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pri-attribs"></a>
+Private Attributes</h2></td></tr>
+<tr class="memitem:a7a3d92cf94a8c3fabad5d75b1bc17649"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_o_v_e_1_1_bar_number.html">BarNumber</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_o_v_e_1_1_measure.html#a7a3d92cf94a8c3fabad5d75b1bc17649">barNumber_</a></td></tr>
+<tr class="separator:a7a3d92cf94a8c3fabad5d75b1bc17649"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aea9739c8a25215f92b24cb1bbf09b30e"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_o_v_e_1_1_time_signature.html">TimeSignature</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_o_v_e_1_1_measure.html#aea9739c8a25215f92b24cb1bbf09b30e">time_</a></td></tr>
+<tr class="separator:aea9739c8a25215f92b24cb1bbf09b30e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa87c6a5146121eabdabf105d38eb3961"><td class="memItemLeft" align="right" valign="top"><a class="el" href="namespace_o_v_e.html#a0c4d6a3b672ce1ba52215c3d62919fb4">BarLineType</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_o_v_e_1_1_measure.html#aa87c6a5146121eabdabf105d38eb3961">leftBarline_</a></td></tr>
+<tr class="separator:aa87c6a5146121eabdabf105d38eb3961"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:afc5580299b1bbb860e2e91f048e80b10"><td class="memItemLeft" align="right" valign="top"><a class="el" href="namespace_o_v_e.html#a0c4d6a3b672ce1ba52215c3d62919fb4">BarLineType</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_o_v_e_1_1_measure.html#afc5580299b1bbb860e2e91f048e80b10">rightBarline_</a></td></tr>
+<tr class="separator:afc5580299b1bbb860e2e91f048e80b10"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa92b95bba13153ce4127c67d6f235887"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_o_v_e_1_1_measure.html#aa92b95bba13153ce4127c67d6f235887">repeatCount_</a></td></tr>
+<tr class="separator:aa92b95bba13153ce4127c67d6f235887"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aaac401d86cc4c013616cc823d75063d5"><td class="memItemLeft" align="right" valign="top">double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_o_v_e_1_1_measure.html#aaac401d86cc4c013616cc823d75063d5">typeTempo_</a></td></tr>
+<tr class="separator:aaac401d86cc4c013616cc823d75063d5"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a87fecf177144c171918e12daa3586c17"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_o_v_e_1_1_measure.html#a87fecf177144c171918e12daa3586c17">pickup_</a></td></tr>
+<tr class="separator:a87fecf177144c171918e12daa3586c17"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa7c42660fd326f6d5a37b6fb8ee3f203"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_o_v_e_1_1_measure.html#aa7c42660fd326f6d5a37b6fb8ee3f203">multiMeasureRest_</a></td></tr>
+<tr class="separator:aa7c42660fd326f6d5a37b6fb8ee3f203"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a140131a9fd976756cd2354c7d9c9bd69"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_o_v_e_1_1_measure.html#a140131a9fd976756cd2354c7d9c9bd69">multiMeasureRestCount_</a></td></tr>
+<tr class="separator:a140131a9fd976756cd2354c7d9c9bd69"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
 <a id="a9a390c390a79cae01b20d9b921232237"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a9a390c390a79cae01b20d9b921232237">&#9670;&nbsp;</a></span>Measure()</h2>
+<h2 class="memtitle"><span class="permalink"><a href="#a9a390c390a79cae01b20d9b921232237">&#9670;&nbsp;</a></span>Measure() <span class="overload">[1/2]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -183,7 +220,58 @@ Public Member Functions</h2></td></tr>
 
 </div>
 </div>
+<a id="af61bbf45db402373ad99bbf0ede6e495"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#af61bbf45db402373ad99bbf0ede6e495">&#9670;&nbsp;</a></span>Measure() <span class="overload">[2/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">OVE::Measure::Measure </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
 <h2 class="groupheader">Member Function Documentation</h2>
+<a id="a4c2515cf704556b8547eb7b30161b144"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a4c2515cf704556b8547eb7b30161b144">&#9670;&nbsp;</a></span>clear()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void OVE::Measure::clear </td>
+          <td>(</td>
+          <td class="paramtype">void&#160;</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
 <a id="aceba347873b260f81c0fc8426fb81822"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#aceba347873b260f81c0fc8426fb81822">&#9670;&nbsp;</a></span>getBackwardRepeatCount()</h2>
 
@@ -459,6 +547,205 @@ Public Member Functions</h2></td></tr>
           <td></td>
         </tr>
       </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<h2 class="groupheader">Member Data Documentation</h2>
+<a id="a7a3d92cf94a8c3fabad5d75b1bc17649"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a7a3d92cf94a8c3fabad5d75b1bc17649">&#9670;&nbsp;</a></span>barNumber_</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="class_o_v_e_1_1_bar_number.html">BarNumber</a>* OVE::Measure::barNumber_</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="aa87c6a5146121eabdabf105d38eb3961"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aa87c6a5146121eabdabf105d38eb3961">&#9670;&nbsp;</a></span>leftBarline_</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="namespace_o_v_e.html#a0c4d6a3b672ce1ba52215c3d62919fb4">BarLineType</a> OVE::Measure::leftBarline_</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="aa7c42660fd326f6d5a37b6fb8ee3f203"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aa7c42660fd326f6d5a37b6fb8ee3f203">&#9670;&nbsp;</a></span>multiMeasureRest_</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool OVE::Measure::multiMeasureRest_</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a140131a9fd976756cd2354c7d9c9bd69"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a140131a9fd976756cd2354c7d9c9bd69">&#9670;&nbsp;</a></span>multiMeasureRestCount_</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">int OVE::Measure::multiMeasureRestCount_</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a87fecf177144c171918e12daa3586c17"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a87fecf177144c171918e12daa3586c17">&#9670;&nbsp;</a></span>pickup_</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool OVE::Measure::pickup_</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="aa92b95bba13153ce4127c67d6f235887"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aa92b95bba13153ce4127c67d6f235887">&#9670;&nbsp;</a></span>repeatCount_</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">int OVE::Measure::repeatCount_</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="afc5580299b1bbb860e2e91f048e80b10"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#afc5580299b1bbb860e2e91f048e80b10">&#9670;&nbsp;</a></span>rightBarline_</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="namespace_o_v_e.html#a0c4d6a3b672ce1ba52215c3d62919fb4">BarLineType</a> OVE::Measure::rightBarline_</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="aea9739c8a25215f92b24cb1bbf09b30e"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aea9739c8a25215f92b24cb1bbf09b30e">&#9670;&nbsp;</a></span>time_</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="class_o_v_e_1_1_time_signature.html">TimeSignature</a>* OVE::Measure::time_</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="aaac401d86cc4c013616cc823d75063d5"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aaac401d86cc4c013616cc823d75063d5">&#9670;&nbsp;</a></span>typeTempo_</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">double OVE::Measure::typeTempo_</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
 </div><div class="memdoc">
 
 </div>

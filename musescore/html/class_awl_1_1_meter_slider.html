@@ -23,9 +23,9 @@
   <td id="projectlogo"><img alt="Logo" src="musescore_logo_full.png"/></td>
   <td id="projectalign" style="padding-left: 0.5em;">
    <div id="projectname">MuseScore
-   &#160;<span id="projectnumber">3.1</span>
+   &#160;<span id="projectnumber">3.2</span>
    </div>
-   <div id="projectbrief">Music compisition and notation</div>
+   <div id="projectbrief">Music composition and notation</div>
   </td>
  </tr>
  </tbody>
@@ -70,6 +70,8 @@ $(function() {
 <a href="#signals">Signals</a> &#124;
 <a href="#pub-methods">Public Member Functions</a> &#124;
 <a href="#properties">Properties</a> &#124;
+<a href="#pri-methods">Private Member Functions</a> &#124;
+<a href="#pri-attribs">Private Attributes</a> &#124;
 <a href="class_awl_1_1_meter_slider-members.html">List of all members</a>  </div>
   <div class="headertitle">
 <div class="title">Awl::MeterSlider Class Reference</div>  </div>
@@ -280,6 +282,34 @@ Properties</h2></td></tr>
 <tr class="memitem:a16100821bc00d050954b5cd08428d848 inherit properties_class_awl_1_1_abstract_slider"><td class="memItemLeft" align="right" valign="top">double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_awl_1_1_abstract_slider.html#a16100821bc00d050954b5cd08428d848">dclickValue2</a></td></tr>
 <tr class="separator:a16100821bc00d050954b5cd08428d848 inherit properties_class_awl_1_1_abstract_slider"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pri-methods"></a>
+Private Member Functions</h2></td></tr>
+<tr class="memitem:a862b020d4d14c381b77e3bb97b3a5108"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_awl_1_1_meter_slider.html#a862b020d4d14c381b77e3bb97b3a5108">mousePressEvent</a> (QMouseEvent *)</td></tr>
+<tr class="separator:a862b020d4d14c381b77e3bb97b3a5108"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a62fbd293ddbe18d83f5e9978539fdc5e"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_awl_1_1_meter_slider.html#a62fbd293ddbe18d83f5e9978539fdc5e">paintEvent</a> (QPaintEvent *)</td></tr>
+<tr class="separator:a62fbd293ddbe18d83f5e9978539fdc5e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a40001392994c72744fe08d4ca4ecd570"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_awl_1_1_meter_slider.html#a40001392994c72744fe08d4ca4ecd570">resizeEvent</a> (QResizeEvent *)</td></tr>
+<tr class="separator:a40001392994c72744fe08d4ca4ecd570"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pri-attribs"></a>
+Private Attributes</h2></td></tr>
+<tr class="memitem:a43d67e27e972d47576d5e8470d96d44c"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_awl_1_1_meter_slider.html#a43d67e27e972d47576d5e8470d96d44c">_channel</a></td></tr>
+<tr class="separator:a43d67e27e972d47576d5e8470d96d44c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aed82b7050eed82936bceb54e624f332f"><td class="memItemLeft" align="right" valign="top">std::vector&lt; double &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_awl_1_1_meter_slider.html#aed82b7050eed82936bceb54e624f332f">meterval</a></td></tr>
+<tr class="separator:aed82b7050eed82936bceb54e624f332f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a55cbac01f7b4da2ec10ab1179c6bd1ac"><td class="memItemLeft" align="right" valign="top">std::vector&lt; double &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_awl_1_1_meter_slider.html#a55cbac01f7b4da2ec10ab1179c6bd1ac">meterPeak</a></td></tr>
+<tr class="separator:a55cbac01f7b4da2ec10ab1179c6bd1ac"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af423f4ee0c4c19932d0c7b77882520e2"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_awl_1_1_meter_slider.html#af423f4ee0c4c19932d0c7b77882520e2">yellowScale</a></td></tr>
+<tr class="separator:af423f4ee0c4c19932d0c7b77882520e2"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a7b8968663f16450c26bdbf42950f5513"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_awl_1_1_meter_slider.html#a7b8968663f16450c26bdbf42950f5513">redScale</a></td></tr>
+<tr class="separator:a7b8968663f16450c26bdbf42950f5513"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a7c23c19761a31a9c10e419e134f5cd59"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_awl_1_1_meter_slider.html#a7c23c19761a31a9c10e419e134f5cd59">_meterWidth</a></td></tr>
+<tr class="separator:a7c23c19761a31a9c10e419e134f5cd59"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa2ff56d68a8a348797b2de90515c5837"><td class="memItemLeft" align="right" valign="top">QPixmap&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_awl_1_1_meter_slider.html#aa2ff56d68a8a348797b2de90515c5837">onPm</a></td></tr>
+<tr class="separator:aa2ff56d68a8a348797b2de90515c5837"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac28eccf8d700aaddce35de799a54d94e"><td class="memItemLeft" align="right" valign="top">QPixmap&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_awl_1_1_meter_slider.html#ac28eccf8d700aaddce35de799a54d94e">offPm</a></td></tr>
+<tr class="separator:ac28eccf8d700aaddce35de799a54d94e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="inherited"></a>
 Additional Inherited Members</h2></td></tr>
 <tr class="inherit_header pro_methods_class_awl_1_1_abstract_slider"><td colspan="2" onclick="javascript:toggleInherit('pro_methods_class_awl_1_1_abstract_slider')"><img src="closed.png" alt="-"/>&#160;Protected Member Functions inherited from <a class="el" href="class_awl_1_1_abstract_slider.html">Awl::AbstractSlider</a></td></tr>
@@ -425,6 +455,62 @@ Additional Inherited Members</h2></td></tr>
 
 </div>
 </div>
+<a id="a862b020d4d14c381b77e3bb97b3a5108"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a862b020d4d14c381b77e3bb97b3a5108">&#9670;&nbsp;</a></span>mousePressEvent()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void Awl::MeterSlider::mousePressEvent </td>
+          <td>(</td>
+          <td class="paramtype">QMouseEvent *&#160;</td>
+          <td class="paramname"><em>ev</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span><span class="mlabel">virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Reimplemented from <a class="el" href="class_awl_1_1_slider.html#a4823e6bb2d01a48e9a007d018e6185fc">Awl::Slider</a>.</p>
+
+</div>
+</div>
+<a id="a62fbd293ddbe18d83f5e9978539fdc5e"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a62fbd293ddbe18d83f5e9978539fdc5e">&#9670;&nbsp;</a></span>paintEvent()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void Awl::MeterSlider::paintEvent </td>
+          <td>(</td>
+          <td class="paramtype">QPaintEvent *&#160;</td>
+          <td class="paramname"><em>ev</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span><span class="mlabel">virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Reimplemented from <a class="el" href="class_awl_1_1_slider.html#a1f0eec6e30ddab9217c8fb781f4d8f85">Awl::Slider</a>.</p>
+
+</div>
+</div>
 <a id="ae4ccb6a711edc79537fddadfdaf236cd"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#ae4ccb6a711edc79537fddadfdaf236cd">&#9670;&nbsp;</a></span>resetPeaks</h2>
 
@@ -444,6 +530,32 @@ Additional Inherited Members</h2></td></tr>
   </td>
   <td class="mlabels-right">
 <span class="mlabels"><span class="mlabel">slot</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a40001392994c72744fe08d4ca4ecd570"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a40001392994c72744fe08d4ca4ecd570">&#9670;&nbsp;</a></span>resizeEvent()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void Awl::MeterSlider::resizeEvent </td>
+          <td>(</td>
+          <td class="paramtype">QResizeEvent *&#160;</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span><span class="mlabel">virtual</span></span>  </td>
   </tr>
 </table>
 </div><div class="memdoc">
@@ -560,6 +672,183 @@ Additional Inherited Members</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Reimplemented from <a class="el" href="class_awl_1_1_slider.html#aa942e4e53bfb6d71e732557e5679d0df">Awl::Slider</a>.</p>
+
+</div>
+</div>
+<h2 class="groupheader">Member Data Documentation</h2>
+<a id="a43d67e27e972d47576d5e8470d96d44c"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a43d67e27e972d47576d5e8470d96d44c">&#9670;&nbsp;</a></span>_channel</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">int Awl::MeterSlider::_channel</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a7c23c19761a31a9c10e419e134f5cd59"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a7c23c19761a31a9c10e419e134f5cd59">&#9670;&nbsp;</a></span>_meterWidth</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">int Awl::MeterSlider::_meterWidth</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a55cbac01f7b4da2ec10ab1179c6bd1ac"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a55cbac01f7b4da2ec10ab1179c6bd1ac">&#9670;&nbsp;</a></span>meterPeak</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">std::vector&lt;double&gt; Awl::MeterSlider::meterPeak</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="aed82b7050eed82936bceb54e624f332f"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aed82b7050eed82936bceb54e624f332f">&#9670;&nbsp;</a></span>meterval</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">std::vector&lt;double&gt; Awl::MeterSlider::meterval</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="ac28eccf8d700aaddce35de799a54d94e"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ac28eccf8d700aaddce35de799a54d94e">&#9670;&nbsp;</a></span>offPm</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">QPixmap Awl::MeterSlider::offPm</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="aa2ff56d68a8a348797b2de90515c5837"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aa2ff56d68a8a348797b2de90515c5837">&#9670;&nbsp;</a></span>onPm</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">QPixmap Awl::MeterSlider::onPm</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a7b8968663f16450c26bdbf42950f5513"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a7b8968663f16450c26bdbf42950f5513">&#9670;&nbsp;</a></span>redScale</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">int Awl::MeterSlider::redScale</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="af423f4ee0c4c19932d0c7b77882520e2"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#af423f4ee0c4c19932d0c7b77882520e2">&#9670;&nbsp;</a></span>yellowScale</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">int Awl::MeterSlider::yellowScale</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
 
 </div>
 </div>

@@ -23,9 +23,9 @@
   <td id="projectlogo"><img alt="Logo" src="musescore_logo_full.png"/></td>
   <td id="projectalign" style="padding-left: 0.5em;">
    <div id="projectname">MuseScore
-   &#160;<span id="projectnumber">3.1</span>
+   &#160;<span id="projectnumber">3.2</span>
    </div>
-   <div id="projectbrief">Music compisition and notation</div>
+   <div id="projectbrief">Music composition and notation</div>
   </td>
  </tr>
  </tbody>
@@ -67,6 +67,8 @@ $(function() {
 <div class="header">
   <div class="summary">
 <a href="#pub-methods">Public Member Functions</a> &#124;
+<a href="#pri-methods">Private Member Functions</a> &#124;
+<a href="#pri-attribs">Private Attributes</a> &#124;
 <a href="class_ms_1_1_music_x_m_l_parser_pass1-members.html">List of all members</a>  </div>
   <div class="headertitle">
 <div class="title">Ms::MusicXMLParserPass1 Class Reference</div>  </div>
@@ -74,6 +76,50 @@ $(function() {
 <div class="contents">
 
 <p><code>#include &lt;<a class="el" href="importmxmlpass1_8h_source.html">importmxmlpass1.h</a>&gt;</code></p>
+<div class="dynheader">
+Collaboration diagram for Ms::MusicXMLParserPass1:</div>
+<div class="dyncontent">
+<div class="center"><img src="class_ms_1_1_music_x_m_l_parser_pass1__coll__graph.png" border="0" usemap="#_ms_1_1_music_x_m_l_parser_pass1_coll__map" alt="Collaboration graph"/></div>
+<map name="_ms_1_1_music_x_m_l_parser_pass1_coll__map" id="_ms_1_1_music_x_m_l_parser_pass1_coll__map">
+<area shape="rect" id="node2" href="class_ms_1_1_score.html" title="Ms::Score" alt="" coords="935,833,1018,860"/>
+<area shape="rect" id="node4" href="class_ms_1_1_score_element.html" title="Ms::ScoreElement" alt="" coords="1249,715,1379,741"/>
+<area shape="rect" id="node7" href="class_ms_1_1_excerpt.html" title="Ms::Excerpt" alt="" coords="2861,520,2955,547"/>
+<area shape="rect" id="node8" href="class_ms_1_1_master_score.html" title="Ms::MasterScore" alt="" coords="2640,1140,2763,1167"/>
+<area shape="rect" id="node12" href="class_ms_1_1_repeat_list.html" title="Ms::RepeatList" alt="" coords="1259,1203,1369,1229"/>
+<area shape="rect" id="node33" href="class_ms_1_1_input_state.html" title="Ms::InputState" alt="" coords="2647,364,2755,391"/>
+<area shape="rect" id="node41" href="class_ms_1_1_selection.html" title="Ms::Selection" alt="" coords="2113,440,2215,467"/>
+<area shape="rect" id="node46" href="class_ms_1_1_selection_filter.html" title="Ms::SelectionFilter" alt="" coords="1249,867,1379,893"/>
+<area shape="rect" id="node22" href="class_ms_1_1_element.html" title="Base class of score layout elements. " alt="" coords="1557,637,1653,664"/>
+<area shape="rect" id="node5" href="class_ms_1_1_linked_elements.html" title="Ms::LinkedElements" alt="" coords="906,407,1047,433"/>
+<area shape="rect" id="node9" href="class_ms_1_1_omr.html" title="Ms::Omr" alt="" coords="2415,1241,2488,1268"/>
+<area shape="rect" id="node10" href="class_ms_1_1_cmd_state.html" title="Ms::CmdState" alt="" coords="1091,339,1197,365"/>
+<area shape="rect" id="node11" href="class_ms_1_1_fraction.html" title="Ms::Fraction" alt="" coords="600,275,695,301"/>
+<area shape="rect" id="node30" href="class_ms_1_1_measure_base.html" title="Virtual base class for Measure, HBox and VBox. " alt="" coords="1800,981,1928,1008"/>
+<area shape="rect" id="node34" href="class_ms_1_1_segment.html" title="Ms::Segment" alt="" coords="1814,421,1914,448"/>
+<area shape="rect" id="node38" href="class_ms_1_1_spanner.html" title="Virtual base class for slurs, ties, lines etc. " alt="" coords="1816,605,1912,632"/>
+<area shape="rect" id="node14" href="class_ms_1_1_revisions.html" title="Ms::Revisions" alt="" coords="2398,1292,2505,1319"/>
+<area shape="rect" id="node15" href="class_ms_1_1_revision.html" title="Ms::Revision" alt="" coords="2115,1280,2213,1307"/>
+<area shape="rect" id="node16" href="class_ms_1_1_tempo_map.html" title="Ms::TempoMap" alt="" coords="2395,1039,2508,1065"/>
+<area shape="rect" id="node18" href="class_ms_1_1_movements.html" title="Ms::Movements" alt="" coords="2393,1412,2509,1439"/>
+<area shape="rect" id="node20" href="class_ms_1_1_text.html" title="Ms::Text" alt="" coords="2127,1381,2201,1408"/>
+<area shape="rect" id="node21" href="class_ms_1_1_text_base.html" title="Ms::TextBase" alt="" coords="1812,701,1916,728"/>
+<area shape="rect" id="node23" href="class_ms_1_1_spatium.html" title="Ms::Spatium" alt="" coords="1266,613,1362,640"/>
+<area shape="rect" id="node24" href="class_ms_1_1_m_style.html" title="Ms::MStyle" alt="" coords="603,1427,692,1453"/>
+<area shape="rect" id="node25" href="class_ms_1_1_chord_list.html" title="Ms::ChordList" alt="" coords="303,1427,407,1453"/>
+<area shape="rect" id="node27" href="class_ms_1_1_time_sig_map.html" title="Ms::TimeSigMap" alt="" coords="2391,952,2512,979"/>
+<area shape="rect" id="node29" href="class_ms_1_1_measure_base_list.html" title="Ms::MeasureBaseList" alt="" coords="2089,988,2239,1015"/>
+<area shape="rect" id="node31" href="class_ms_1_1_element_list.html" title="Ms::ElementList" alt="" coords="1547,983,1664,1009"/>
+<area shape="rect" id="node35" href="class_ms_1_1_t_duration.html" title="Ms::TDuration" alt="" coords="2399,313,2504,340"/>
+<area shape="rect" id="node36" href="class_ms_1_1_slur.html" title="Ms::Slur" alt="" coords="2416,459,2487,485"/>
+<area shape="rect" id="node37" href="class_ms_1_1_slur_tie.html" title="Ms::SlurTie" alt="" coords="2119,503,2209,529"/>
+<area shape="rect" id="node39" href="class_ms_1_1_synthesizer_state.html" title="Ms::SynthesizerState" alt="" coords="573,1057,721,1084"/>
+<area shape="rect" id="node42" href="class_ms_1_1_spanner_map.html" title="Ms::SpannerMap" alt="" coords="587,1112,708,1139"/>
+<area shape="rect" id="node44" href="class_ms_1_1_update_state.html" title="Ms::UpdateState" alt="" coords="587,808,708,835"/>
+<area shape="rect" id="node45" href="class_ms_1_1_audio.html" title="Ms::Audio" alt="" coords="607,859,688,885"/>
+<area shape="rect" id="node47" href="class_ms_1_1_score_font.html" title="Ms::ScoreFont" alt="" coords="593,1007,701,1033"/>
+<area shape="rect" id="node48" href="class_ms_1_1_mxml_logger.html" title="Ms::MxmlLogger" alt="" coords="917,43,1036,69"/>
+</map>
+<center><span class="legend">[<a href="graph_legend.html">legend</a>]</span></center></div>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
@@ -206,6 +252,52 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:a0c2e8987c30de0d646eef05e6ea7b7ec"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ms_1_1_music_x_m_l_parser_pass1.html#a0c2e8987c30de0d646eef05e6ea7b7ec">octaveShift</a> (const QString &amp;id, const int staff, const <a class="el" href="class_ms_1_1_fraction.html">Fraction</a> f) const</td></tr>
 <tr class="memdesc:a0c2e8987c30de0d646eef05e6ea7b7ec"><td class="mdescLeft">&#160;</td><td class="mdescRight">Return the octave shift for part <em>id</em> in <em>staff</em> at <em>f</em>.  <a href="#a0c2e8987c30de0d646eef05e6ea7b7ec">More...</a><br /></td></tr>
 <tr class="separator:a0c2e8987c30de0d646eef05e6ea7b7ec"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pri-methods"></a>
+Private Member Functions</h2></td></tr>
+<tr class="memitem:a290aca71630d98ad06e87dc0211933e7"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ms_1_1_music_x_m_l_parser_pass1.html#a290aca71630d98ad06e87dc0211933e7">setFirstInstr</a> (const QString &amp;id, const <a class="el" href="class_ms_1_1_fraction.html">Fraction</a> stime)</td></tr>
+<tr class="separator:a290aca71630d98ad06e87dc0211933e7"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pri-attribs"></a>
+Private Attributes</h2></td></tr>
+<tr class="memitem:af2a60eebf99439a6cf732d4ad0e12577"><td class="memItemLeft" align="right" valign="top">QXmlStreamReader&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ms_1_1_music_x_m_l_parser_pass1.html#af2a60eebf99439a6cf732d4ad0e12577">_e</a></td></tr>
+<tr class="separator:af2a60eebf99439a6cf732d4ad0e12577"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af56d0e4639d32bc3f0c64cacae5be66d"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ms_1_1_music_x_m_l_parser_pass1.html#af56d0e4639d32bc3f0c64cacae5be66d">_divs</a></td></tr>
+<tr class="memdesc:af56d0e4639d32bc3f0c64cacae5be66d"><td class="mdescLeft">&#160;</td><td class="mdescRight">Current MusicXML divisions value.  <a href="#af56d0e4639d32bc3f0c64cacae5be66d">More...</a><br /></td></tr>
+<tr class="separator:af56d0e4639d32bc3f0c64cacae5be66d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa0ff366c234d4bb4856b9a9cb4d9dc1a"><td class="memItemLeft" align="right" valign="top">QMap&lt; QString, <a class="el" href="class_ms_1_1_music_xml_part.html">MusicXmlPart</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ms_1_1_music_x_m_l_parser_pass1.html#aa0ff366c234d4bb4856b9a9cb4d9dc1a">_parts</a></td></tr>
+<tr class="memdesc:aa0ff366c234d4bb4856b9a9cb4d9dc1a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Parts data, mapped on part id.  <a href="#aa0ff366c234d4bb4856b9a9cb4d9dc1a">More...</a><br /></td></tr>
+<tr class="separator:aa0ff366c234d4bb4856b9a9cb4d9dc1a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a0ab388b61275406959da4744cd3c22b3"><td class="memItemLeft" align="right" valign="top">QVector&lt; <a class="el" href="class_ms_1_1_fraction.html">Fraction</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ms_1_1_music_x_m_l_parser_pass1.html#a0ab388b61275406959da4744cd3c22b3">_measureLength</a></td></tr>
+<tr class="memdesc:a0ab388b61275406959da4744cd3c22b3"><td class="mdescLeft">&#160;</td><td class="mdescRight">Length of each measure.  <a href="#a0ab388b61275406959da4744cd3c22b3">More...</a><br /></td></tr>
+<tr class="separator:a0ab388b61275406959da4744cd3c22b3"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a36c54882c9488a0e88dc277def5eccac"><td class="memItemLeft" align="right" valign="top">QVector&lt; <a class="el" href="class_ms_1_1_fraction.html">Fraction</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ms_1_1_music_x_m_l_parser_pass1.html#a36c54882c9488a0e88dc277def5eccac">_measureStart</a></td></tr>
+<tr class="memdesc:a36c54882c9488a0e88dc277def5eccac"><td class="mdescLeft">&#160;</td><td class="mdescRight">Start time of each measure.  <a href="#a36c54882c9488a0e88dc277def5eccac">More...</a><br /></td></tr>
+<tr class="separator:a36c54882c9488a0e88dc277def5eccac"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a40a9008c0c51ad71c90f8e384e88f866"><td class="memItemLeft" align="right" valign="top"><a class="el" href="namespace_ms.html#a4cbd5ed5c2686caeabaf14374b7ea9a7">PartMap</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ms_1_1_music_x_m_l_parser_pass1.html#a40a9008c0c51ad71c90f8e384e88f866">_partMap</a></td></tr>
+<tr class="memdesc:a40a9008c0c51ad71c90f8e384e88f866"><td class="mdescLeft">&#160;</td><td class="mdescRight">TODO merge into <a class="el" href="class_ms_1_1_music_xml_part.html">MusicXmlPart</a> ??  <a href="#a40a9008c0c51ad71c90f8e384e88f866">More...</a><br /></td></tr>
+<tr class="separator:a40a9008c0c51ad71c90f8e384e88f866"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:afd2f52ef3f6220ebf64a8ce880bae56f"><td class="memItemLeft" align="right" valign="top">QMap&lt; QString, <a class="el" href="namespace_ms.html#a568bb2597ab1d23e4660f255997223c2">MusicXMLDrumset</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ms_1_1_music_x_m_l_parser_pass1.html#afd2f52ef3f6220ebf64a8ce880bae56f">_drumsets</a></td></tr>
+<tr class="memdesc:afd2f52ef3f6220ebf64a8ce880bae56f"><td class="mdescLeft">&#160;</td><td class="mdescRight"><a class="el" href="class_ms_1_1_drumset.html">Drumset</a> for each part, mapped on part id.  <a href="#afd2f52ef3f6220ebf64a8ce880bae56f">More...</a><br /></td></tr>
+<tr class="separator:afd2f52ef3f6220ebf64a8ce880bae56f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a3df7ca97b65c3ea253e16e51db2b6e6a"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_ms_1_1_score.html">Score</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ms_1_1_music_x_m_l_parser_pass1.html#a3df7ca97b65c3ea253e16e51db2b6e6a">_score</a></td></tr>
+<tr class="memdesc:a3df7ca97b65c3ea253e16e51db2b6e6a"><td class="mdescLeft">&#160;</td><td class="mdescRight"><a class="el" href="class_ms_1_1_muse_score.html">MuseScore</a> score.  <a href="#a3df7ca97b65c3ea253e16e51db2b6e6a">More...</a><br /></td></tr>
+<tr class="separator:a3df7ca97b65c3ea253e16e51db2b6e6a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aafe0e0741be0c34c0cfc2557a3d0aee7"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_ms_1_1_mxml_logger.html">MxmlLogger</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ms_1_1_music_x_m_l_parser_pass1.html#aafe0e0741be0c34c0cfc2557a3d0aee7">_logger</a></td></tr>
+<tr class="memdesc:aafe0e0741be0c34c0cfc2557a3d0aee7"><td class="mdescLeft">&#160;</td><td class="mdescRight">Error logger.  <a href="#aafe0e0741be0c34c0cfc2557a3d0aee7">More...</a><br /></td></tr>
+<tr class="separator:aafe0e0741be0c34c0cfc2557a3d0aee7"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a7afb6034f9e4c8149d03e447d2d53036"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_ms_1_1_fraction.html">Fraction</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ms_1_1_music_x_m_l_parser_pass1.html#a7afb6034f9e4c8149d03e447d2d53036">_timeSigDura</a></td></tr>
+<tr class="memdesc:a7afb6034f9e4c8149d03e447d2d53036"><td class="mdescLeft">&#160;</td><td class="mdescRight"><a class="el" href="class_ms_1_1_measure.html" title="one measure in a system ">Measure</a> duration according to last timesig read.  <a href="#a7afb6034f9e4c8149d03e447d2d53036">More...</a><br /></td></tr>
+<tr class="separator:a7afb6034f9e4c8149d03e447d2d53036"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:afb3504f38d5ccc240134eef356b77b26"><td class="memItemLeft" align="right" valign="top">QMap&lt; int, <a class="el" href="struct_ms_1_1_mxml_octave_shift_desc.html">MxmlOctaveShiftDesc</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ms_1_1_music_x_m_l_parser_pass1.html#afb3504f38d5ccc240134eef356b77b26">_octaveShifts</a></td></tr>
+<tr class="memdesc:afb3504f38d5ccc240134eef356b77b26"><td class="mdescLeft">&#160;</td><td class="mdescRight">Pending octave-shifts.  <a href="#afb3504f38d5ccc240134eef356b77b26">More...</a><br /></td></tr>
+<tr class="separator:afb3504f38d5ccc240134eef356b77b26"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a1ec4ee8fbbaf5c8aa6b7bab3b77fa036"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_ms_1_1_fraction.html">Fraction</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ms_1_1_music_x_m_l_parser_pass1.html#a1ec4ee8fbbaf5c8aa6b7bab3b77fa036">_firstInstrSTime</a></td></tr>
+<tr class="memdesc:a1ec4ee8fbbaf5c8aa6b7bab3b77fa036"><td class="mdescLeft">&#160;</td><td class="mdescRight">First instrument start time.  <a href="#a1ec4ee8fbbaf5c8aa6b7bab3b77fa036">More...</a><br /></td></tr>
+<tr class="separator:a1ec4ee8fbbaf5c8aa6b7bab3b77fa036"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac6069537a12db54cddf92fe30fd3c85e"><td class="memItemLeft" align="right" valign="top">QString&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ms_1_1_music_x_m_l_parser_pass1.html#ac6069537a12db54cddf92fe30fd3c85e">_firstInstrId</a></td></tr>
+<tr class="memdesc:ac6069537a12db54cddf92fe30fd3c85e"><td class="mdescLeft">&#160;</td><td class="mdescRight">First instrument id.  <a href="#ac6069537a12db54cddf92fe30fd3c85e">More...</a><br /></td></tr>
+<tr class="separator:ac6069537a12db54cddf92fe30fd3c85e"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
 <a id="aa4cf9558a71af0d8deb27415417a361c"></a>
@@ -1280,6 +1372,42 @@ Public Member Functions</h2></td></tr>
 
 </div>
 </div>
+<a id="a290aca71630d98ad06e87dc0211933e7"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a290aca71630d98ad06e87dc0211933e7">&#9670;&nbsp;</a></span>setFirstInstr()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void Ms::MusicXMLParserPass1::setFirstInstr </td>
+          <td>(</td>
+          <td class="paramtype">const QString &amp;&#160;</td>
+          <td class="paramname"><em>id</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="class_ms_1_1_fraction.html">Fraction</a>&#160;</td>
+          <td class="paramname"><em>stime</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
 <a id="a82c648499fd4e880204c669a7ee3cc20"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a82c648499fd4e880204c669a7ee3cc20">&#9670;&nbsp;</a></span>skipLogCurrElem()</h2>
 
@@ -1376,6 +1504,317 @@ Public Member Functions</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Return the (score relative) track number for the first staff of part <em>id</em>. </p>
+
+</div>
+</div>
+<h2 class="groupheader">Member Data Documentation</h2>
+<a id="af56d0e4639d32bc3f0c64cacae5be66d"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#af56d0e4639d32bc3f0c64cacae5be66d">&#9670;&nbsp;</a></span>_divs</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">int Ms::MusicXMLParserPass1::_divs</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Current MusicXML divisions value. </p>
+
+</div>
+</div>
+<a id="afd2f52ef3f6220ebf64a8ce880bae56f"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#afd2f52ef3f6220ebf64a8ce880bae56f">&#9670;&nbsp;</a></span>_drumsets</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">QMap&lt;QString, <a class="el" href="namespace_ms.html#a568bb2597ab1d23e4660f255997223c2">MusicXMLDrumset</a>&gt; Ms::MusicXMLParserPass1::_drumsets</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p><a class="el" href="class_ms_1_1_drumset.html">Drumset</a> for each part, mapped on part id. </p>
+
+</div>
+</div>
+<a id="af2a60eebf99439a6cf732d4ad0e12577"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#af2a60eebf99439a6cf732d4ad0e12577">&#9670;&nbsp;</a></span>_e</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">QXmlStreamReader Ms::MusicXMLParserPass1::_e</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="ac6069537a12db54cddf92fe30fd3c85e"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ac6069537a12db54cddf92fe30fd3c85e">&#9670;&nbsp;</a></span>_firstInstrId</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">QString Ms::MusicXMLParserPass1::_firstInstrId</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>First instrument id. </p>
+
+</div>
+</div>
+<a id="a1ec4ee8fbbaf5c8aa6b7bab3b77fa036"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a1ec4ee8fbbaf5c8aa6b7bab3b77fa036">&#9670;&nbsp;</a></span>_firstInstrSTime</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="class_ms_1_1_fraction.html">Fraction</a> Ms::MusicXMLParserPass1::_firstInstrSTime</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>First instrument start time. </p>
+
+</div>
+</div>
+<a id="aafe0e0741be0c34c0cfc2557a3d0aee7"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aafe0e0741be0c34c0cfc2557a3d0aee7">&#9670;&nbsp;</a></span>_logger</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="class_ms_1_1_mxml_logger.html">MxmlLogger</a>* Ms::MusicXMLParserPass1::_logger</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Error logger. </p>
+
+</div>
+</div>
+<a id="a0ab388b61275406959da4744cd3c22b3"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a0ab388b61275406959da4744cd3c22b3">&#9670;&nbsp;</a></span>_measureLength</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">QVector&lt;<a class="el" href="class_ms_1_1_fraction.html">Fraction</a>&gt; Ms::MusicXMLParserPass1::_measureLength</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Length of each measure. </p>
+
+</div>
+</div>
+<a id="a36c54882c9488a0e88dc277def5eccac"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a36c54882c9488a0e88dc277def5eccac">&#9670;&nbsp;</a></span>_measureStart</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">QVector&lt;<a class="el" href="class_ms_1_1_fraction.html">Fraction</a>&gt; Ms::MusicXMLParserPass1::_measureStart</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Start time of each measure. </p>
+
+</div>
+</div>
+<a id="afb3504f38d5ccc240134eef356b77b26"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#afb3504f38d5ccc240134eef356b77b26">&#9670;&nbsp;</a></span>_octaveShifts</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">QMap&lt;int, <a class="el" href="struct_ms_1_1_mxml_octave_shift_desc.html">MxmlOctaveShiftDesc</a>&gt; Ms::MusicXMLParserPass1::_octaveShifts</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Pending octave-shifts. </p>
+
+</div>
+</div>
+<a id="a40a9008c0c51ad71c90f8e384e88f866"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a40a9008c0c51ad71c90f8e384e88f866">&#9670;&nbsp;</a></span>_partMap</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="namespace_ms.html#a4cbd5ed5c2686caeabaf14374b7ea9a7">PartMap</a> Ms::MusicXMLParserPass1::_partMap</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>TODO merge into <a class="el" href="class_ms_1_1_music_xml_part.html">MusicXmlPart</a> ?? </p>
+
+</div>
+</div>
+<a id="aa0ff366c234d4bb4856b9a9cb4d9dc1a"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aa0ff366c234d4bb4856b9a9cb4d9dc1a">&#9670;&nbsp;</a></span>_parts</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">QMap&lt;QString, <a class="el" href="class_ms_1_1_music_xml_part.html">MusicXmlPart</a>&gt; Ms::MusicXMLParserPass1::_parts</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Parts data, mapped on part id. </p>
+
+</div>
+</div>
+<a id="a3df7ca97b65c3ea253e16e51db2b6e6a"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a3df7ca97b65c3ea253e16e51db2b6e6a">&#9670;&nbsp;</a></span>_score</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="class_ms_1_1_score.html">Score</a>* Ms::MusicXMLParserPass1::_score</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p><a class="el" href="class_ms_1_1_muse_score.html">MuseScore</a> score. </p>
+
+</div>
+</div>
+<a id="a7afb6034f9e4c8149d03e447d2d53036"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a7afb6034f9e4c8149d03e447d2d53036">&#9670;&nbsp;</a></span>_timeSigDura</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="class_ms_1_1_fraction.html">Fraction</a> Ms::MusicXMLParserPass1::_timeSigDura</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p><a class="el" href="class_ms_1_1_measure.html" title="one measure in a system ">Measure</a> duration according to last timesig read. </p>
 
 </div>
 </div>

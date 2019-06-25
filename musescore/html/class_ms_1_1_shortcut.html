@@ -23,9 +23,9 @@
   <td id="projectlogo"><img alt="Logo" src="musescore_logo_full.png"/></td>
   <td id="projectalign" style="padding-left: 0.5em;">
    <div id="projectname">MuseScore
-   &#160;<span id="projectnumber">3.1</span>
+   &#160;<span id="projectnumber">3.2</span>
    </div>
-   <div id="projectbrief">Music compisition and notation</div>
+   <div id="projectbrief">Music composition and notation</div>
   </td>
  </tr>
  </tbody>
@@ -69,6 +69,9 @@ $(function() {
 <a href="#pub-methods">Public Member Functions</a> &#124;
 <a href="#pub-static-methods">Static Public Member Functions</a> &#124;
 <a href="#pub-static-attribs">Static Public Attributes</a> &#124;
+<a href="#pri-methods">Private Member Functions</a> &#124;
+<a href="#pri-attribs">Private Attributes</a> &#124;
+<a href="#pri-static-attribs">Static Private Attributes</a> &#124;
 <a href="class_ms_1_1_shortcut-members.html">List of all members</a>  </div>
   <div class="headertitle">
 <div class="title">Ms::Shortcut Class Reference</div>  </div>
@@ -76,6 +79,13 @@ $(function() {
 <div class="contents">
 
 <p><code>#include &lt;<a class="el" href="shortcut_8h_source.html">shortcut.h</a>&gt;</code></p>
+<div class="dynheader">
+Collaboration diagram for Ms::Shortcut:</div>
+<div class="dyncontent">
+<div class="center"><img src="class_ms_1_1_shortcut__coll__graph.png" border="0" usemap="#_ms_1_1_shortcut_coll__map" alt="Collaboration graph"/></div>
+<map name="_ms_1_1_shortcut_coll__map" id="_ms_1_1_shortcut_coll__map">
+</map>
+<center><span class="legend">[<a href="graph_legend.html">legend</a>]</span></center></div>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
@@ -166,8 +176,8 @@ Static Public Member Functions</h2></td></tr>
 <tr class="separator:a58dac1af998c313c5c4eaf2e799c881a"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a8dc99f344e7e8869183f39d9ae06a7cb"><td class="memItemLeft" align="right" valign="top">static QActionGroup *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ms_1_1_shortcut.html#a8dc99f344e7e8869183f39d9ae06a7cb">getActionGroupForWidget</a> (<a class="el" href="namespace_ms.html#acda789a7ce54e21bde18a328a272ac6a">MsWidget</a> w, Qt::ShortcutContext newShortcutContext)</td></tr>
 <tr class="separator:a8dc99f344e7e8869183f39d9ae06a7cb"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a530d626310ce0f7dd9d1c5a40e8ba844"><td class="memItemLeft" align="right" valign="top">static QString&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ms_1_1_shortcut.html#a530d626310ce0f7dd9d1c5a40e8ba844">keySeqToString</a> (const QKeySequence &amp;keySeq, QKeySequence::SequenceFormat fmt)</td></tr>
-<tr class="separator:a530d626310ce0f7dd9d1c5a40e8ba844"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a6c485d61a6b44bf70f6b3abf5d99fa6b"><td class="memItemLeft" align="right" valign="top">static QString&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ms_1_1_shortcut.html#a6c485d61a6b44bf70f6b3abf5d99fa6b">keySeqToString</a> (const QKeySequence &amp;keySeq, QKeySequence::SequenceFormat fmt, bool escapeKeyStr=false)</td></tr>
+<tr class="separator:a6c485d61a6b44bf70f6b3abf5d99fa6b"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:afe8559f810c10944a40cabe73244da2b"><td class="memItemLeft" align="right" valign="top">static QKeySequence&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ms_1_1_shortcut.html#afe8559f810c10944a40cabe73244da2b">keySeqFromString</a> (const QString &amp;str, QKeySequence::SequenceFormat fmt)</td></tr>
 <tr class="separator:afe8559f810c10944a40cabe73244da2b"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
@@ -177,6 +187,55 @@ Static Public Attributes</h2></td></tr>
 <tr class="separator:aed36522a2c31d11383cf797b262356d3"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a1fe029ce2a539182c9cc94aadfdc7ed8"><td class="memItemLeft" align="right" valign="top">static bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ms_1_1_shortcut.html#a1fe029ce2a539182c9cc94aadfdc7ed8">dirty</a> = false</td></tr>
 <tr class="separator:a1fe029ce2a539182c9cc94aadfdc7ed8"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pri-methods"></a>
+Private Member Functions</h2></td></tr>
+<tr class="memitem:a4af282fed74f5d4569530accaa3af507"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ms_1_1_shortcut.html#a4af282fed74f5d4569530accaa3af507">translateAction</a> (QAction *<a class="el" href="class_ms_1_1_shortcut.html#ac0c61a55d63d4387fcad2c9fefb4f341">action</a>) const</td></tr>
+<tr class="separator:a4af282fed74f5d4569530accaa3af507"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pri-attribs"></a>
+Private Attributes</h2></td></tr>
+<tr class="memitem:abd4c500a80e558f427024a92f59ba231"><td class="memItemLeft" align="right" valign="top"><a class="el" href="namespace_ms.html#acda789a7ce54e21bde18a328a272ac6a">MsWidget</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ms_1_1_shortcut.html#abd4c500a80e558f427024a92f59ba231">_assignedWidget</a></td></tr>
+<tr class="separator:abd4c500a80e558f427024a92f59ba231"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aae1481b60ad8cb89fc20b71f33dc61e9"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ms_1_1_shortcut.html#aae1481b60ad8cb89fc20b71f33dc61e9">_state</a> { 0 }</td></tr>
+<tr class="memdesc:aae1481b60ad8cb89fc20b71f33dc61e9"><td class="mdescLeft">&#160;</td><td class="mdescRight">the widget where the action will be assigned  <a href="#aae1481b60ad8cb89fc20b71f33dc61e9">More...</a><br /></td></tr>
+<tr class="separator:aae1481b60ad8cb89fc20b71f33dc61e9"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aeab9dab68654f69f5178309dda455baa"><td class="memItemLeft" align="right" valign="top">QByteArray&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ms_1_1_shortcut.html#aeab9dab68654f69f5178309dda455baa">_key</a></td></tr>
+<tr class="memdesc:aeab9dab68654f69f5178309dda455baa"><td class="mdescLeft">&#160;</td><td class="mdescRight">shortcut is valid in this Mscore state  <a href="#aeab9dab68654f69f5178309dda455baa">More...</a><br /></td></tr>
+<tr class="separator:aeab9dab68654f69f5178309dda455baa"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a5be4e9ce7cf3c17604c60a2770e14e60"><td class="memItemLeft" align="right" valign="top">QByteArray&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ms_1_1_shortcut.html#a5be4e9ce7cf3c17604c60a2770e14e60">_descr</a></td></tr>
+<tr class="memdesc:a5be4e9ce7cf3c17604c60a2770e14e60"><td class="mdescLeft">&#160;</td><td class="mdescRight">xml tag name for configuration file  <a href="#a5be4e9ce7cf3c17604c60a2770e14e60">More...</a><br /></td></tr>
+<tr class="separator:a5be4e9ce7cf3c17604c60a2770e14e60"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:adbda4022aeb934540e4f2643ab7de6fb"><td class="memItemLeft" align="right" valign="top">QByteArray&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ms_1_1_shortcut.html#adbda4022aeb934540e4f2643ab7de6fb">_text</a></td></tr>
+<tr class="memdesc:adbda4022aeb934540e4f2643ab7de6fb"><td class="mdescLeft">&#160;</td><td class="mdescRight">descriptor, shown in editor  <a href="#adbda4022aeb934540e4f2643ab7de6fb">More...</a><br /></td></tr>
+<tr class="separator:adbda4022aeb934540e4f2643ab7de6fb"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a62a7e9efefd3321ab6493c0dc4ae96b3"><td class="memItemLeft" align="right" valign="top">QByteArray&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ms_1_1_shortcut.html#a62a7e9efefd3321ab6493c0dc4ae96b3">_help</a></td></tr>
+<tr class="memdesc:a62a7e9efefd3321ab6493c0dc4ae96b3"><td class="mdescLeft">&#160;</td><td class="mdescRight">text as shown on buttons or menus  <a href="#a62a7e9efefd3321ab6493c0dc4ae96b3">More...</a><br /></td></tr>
+<tr class="separator:a62a7e9efefd3321ab6493c0dc4ae96b3"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a1aabeec6a8679333aeae2ff3470fc0d5"><td class="memItemLeft" align="right" valign="top"><a class="el" href="namespace_ms.html#ad8a05c457f7be5498653632d7b7f625e">Icons</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ms_1_1_shortcut.html#a1aabeec6a8679333aeae2ff3470fc0d5">_icon</a> { <a class="el" href="namespace_ms.html#ad8a05c457f7be5498653632d7b7f625ea6f0a26b56a77003e1a4f0dd84664f069">Icons::Invalid_ICON</a> }</td></tr>
+<tr class="memdesc:a1aabeec6a8679333aeae2ff3470fc0d5"><td class="mdescLeft">&#160;</td><td class="mdescRight">ballon help (or'd list of states)  <a href="#a1aabeec6a8679333aeae2ff3470fc0d5">More...</a><br /></td></tr>
+<tr class="separator:a1aabeec6a8679333aeae2ff3470fc0d5"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a2ac2b55532a7a418d74514e08949bd1f"><td class="memItemLeft" align="right" valign="top">Qt::ShortcutContext&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ms_1_1_shortcut.html#a2ac2b55532a7a418d74514e08949bd1f">_context</a> { Qt::WindowShortcut }</td></tr>
+<tr class="separator:a2ac2b55532a7a418d74514e08949bd1f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:affe6f2e35754c8d886b218a2849fd7b3"><td class="memItemLeft" align="right" valign="top"><a class="el" href="namespace_ms.html#ab9a8d1d74d4bb9854910ced8634a0582">ShortcutFlags</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ms_1_1_shortcut.html#affe6f2e35754c8d886b218a2849fd7b3">_flags</a> { <a class="el" href="namespace_ms.html#ab9a8d1d74d4bb9854910ced8634a0582ab50339a10e1de285ac99d4c3990b8693">ShortcutFlags::NONE</a> }</td></tr>
+<tr class="separator:affe6f2e35754c8d886b218a2849fd7b3"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac21d9680eeccb0d9ef4a431f10db47e1"><td class="memItemLeft" align="right" valign="top">QList&lt; QKeySequence &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ms_1_1_shortcut.html#ac21d9680eeccb0d9ef4a431f10db47e1">_keys</a></td></tr>
+<tr class="separator:ac21d9680eeccb0d9ef4a431f10db47e1"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:afb5e570fb11552939aed80ed2c0e4664"><td class="memItemLeft" align="right" valign="top">QKeySequence::StandardKey&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ms_1_1_shortcut.html#afb5e570fb11552939aed80ed2c0e4664">_standardKey</a> { QKeySequence::UnknownKey }</td></tr>
+<tr class="memdesc:afb5e570fb11552939aed80ed2c0e4664"><td class="mdescLeft">&#160;</td><td class="mdescRight">shortcut list  <a href="#afb5e570fb11552939aed80ed2c0e4664">More...</a><br /></td></tr>
+<tr class="separator:afb5e570fb11552939aed80ed2c0e4664"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a1e9146bf1ab7a6a4d2a26bad80b2d050"><td class="memItemLeft" align="right" valign="top">QAction *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ms_1_1_shortcut.html#a1e9146bf1ab7a6a4d2a26bad80b2d050">_action</a> { 0 }</td></tr>
+<tr class="separator:a1e9146bf1ab7a6a4d2a26bad80b2d050"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pri-static-attribs"></a>
+Static Private Attributes</h2></td></tr>
+<tr class="memitem:af5f7fedaeacdb2e5074731ef9f8e76ad"><td class="memItemLeft" align="right" valign="top">static QString&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ms_1_1_shortcut.html#af5f7fedaeacdb2e5074731ef9f8e76ad">source</a></td></tr>
+<tr class="memdesc:af5f7fedaeacdb2e5074731ef9f8e76ad"><td class="mdescLeft">&#160;</td><td class="mdescRight">cached action  <a href="#af5f7fedaeacdb2e5074731ef9f8e76ad">More...</a><br /></td></tr>
+<tr class="separator:af5f7fedaeacdb2e5074731ef9f8e76ad"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:abe45dbc3ebf402b401460f9745ae3b0e"><td class="memItemLeft" align="right" valign="top">static <a class="el" href="class_ms_1_1_shortcut.html">Shortcut</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ms_1_1_shortcut.html#abe45dbc3ebf402b401460f9745ae3b0e">_sc</a> []</td></tr>
+<tr class="separator:abe45dbc3ebf402b401460f9745ae3b0e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aea066a660808d7d73301b20133c76e1c"><td class="memItemLeft" align="right" valign="top">static QHash&lt; QByteArray, <a class="el" href="class_ms_1_1_shortcut.html">Shortcut</a> * &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ms_1_1_shortcut.html#aea066a660808d7d73301b20133c76e1c">_shortcuts</a></td></tr>
+<tr class="separator:aea066a660808d7d73301b20133c76e1c"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
 <a id="a3cc695f93b872104cf5f4cf1e18046bf"></a>
@@ -757,8 +816,8 @@ Static Public Attributes</h2></td></tr>
 
 </div>
 </div>
-<a id="a530d626310ce0f7dd9d1c5a40e8ba844"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a530d626310ce0f7dd9d1c5a40e8ba844">&#9670;&nbsp;</a></span>keySeqToString()</h2>
+<a id="a6c485d61a6b44bf70f6b3abf5d99fa6b"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a6c485d61a6b44bf70f6b3abf5d99fa6b">&#9670;&nbsp;</a></span>keySeqToString()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -776,7 +835,13 @@ Static Public Attributes</h2></td></tr>
           <td class="paramkey"></td>
           <td></td>
           <td class="paramtype">QKeySequence::SequenceFormat&#160;</td>
-          <td class="paramname"><em>fmt</em>&#160;</td>
+          <td class="paramname"><em>fmt</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">bool&#160;</td>
+          <td class="paramname"><em>escapeKeyStr</em> = <code>false</code>&#160;</td>
         </tr>
         <tr>
           <td></td>
@@ -1222,6 +1287,32 @@ Static Public Attributes</h2></td></tr>
 
 </div>
 </div>
+<a id="a4af282fed74f5d4569530accaa3af507"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a4af282fed74f5d4569530accaa3af507">&#9670;&nbsp;</a></span>translateAction()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void Ms::Shortcut::translateAction </td>
+          <td>(</td>
+          <td class="paramtype">QAction *&#160;</td>
+          <td class="paramname"><em>action</em></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
 <a id="a9de9ecb525a8f0f2fc143071bbb53ff5"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a9de9ecb525a8f0f2fc143071bbb53ff5">&#9670;&nbsp;</a></span>write()</h2>
 
@@ -1241,6 +1332,328 @@ Static Public Attributes</h2></td></tr>
 </div>
 </div>
 <h2 class="groupheader">Member Data Documentation</h2>
+<a id="a1e9146bf1ab7a6a4d2a26bad80b2d050"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a1e9146bf1ab7a6a4d2a26bad80b2d050">&#9670;&nbsp;</a></span>_action</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">QAction* Ms::Shortcut::_action { 0 }</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">mutable</span><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="abd4c500a80e558f427024a92f59ba231"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#abd4c500a80e558f427024a92f59ba231">&#9670;&nbsp;</a></span>_assignedWidget</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="namespace_ms.html#acda789a7ce54e21bde18a328a272ac6a">MsWidget</a> Ms::Shortcut::_assignedWidget</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a2ac2b55532a7a418d74514e08949bd1f"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a2ac2b55532a7a418d74514e08949bd1f">&#9670;&nbsp;</a></span>_context</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">Qt::ShortcutContext Ms::Shortcut::_context { Qt::WindowShortcut }</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a5be4e9ce7cf3c17604c60a2770e14e60"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a5be4e9ce7cf3c17604c60a2770e14e60">&#9670;&nbsp;</a></span>_descr</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">QByteArray Ms::Shortcut::_descr</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>xml tag name for configuration file </p>
+
+</div>
+</div>
+<a id="affe6f2e35754c8d886b218a2849fd7b3"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#affe6f2e35754c8d886b218a2849fd7b3">&#9670;&nbsp;</a></span>_flags</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="namespace_ms.html#ab9a8d1d74d4bb9854910ced8634a0582">ShortcutFlags</a> Ms::Shortcut::_flags { <a class="el" href="namespace_ms.html#ab9a8d1d74d4bb9854910ced8634a0582ab50339a10e1de285ac99d4c3990b8693">ShortcutFlags::NONE</a> }</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a62a7e9efefd3321ab6493c0dc4ae96b3"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a62a7e9efefd3321ab6493c0dc4ae96b3">&#9670;&nbsp;</a></span>_help</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">QByteArray Ms::Shortcut::_help</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>text as shown on buttons or menus </p>
+
+</div>
+</div>
+<a id="a1aabeec6a8679333aeae2ff3470fc0d5"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a1aabeec6a8679333aeae2ff3470fc0d5">&#9670;&nbsp;</a></span>_icon</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="namespace_ms.html#ad8a05c457f7be5498653632d7b7f625e">Icons</a> Ms::Shortcut::_icon { <a class="el" href="namespace_ms.html#ad8a05c457f7be5498653632d7b7f625ea6f0a26b56a77003e1a4f0dd84664f069">Icons::Invalid_ICON</a> }</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>ballon help (or'd list of states) </p>
+
+</div>
+</div>
+<a id="aeab9dab68654f69f5178309dda455baa"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aeab9dab68654f69f5178309dda455baa">&#9670;&nbsp;</a></span>_key</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">QByteArray Ms::Shortcut::_key</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>shortcut is valid in this Mscore state </p>
+
+</div>
+</div>
+<a id="ac21d9680eeccb0d9ef4a431f10db47e1"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ac21d9680eeccb0d9ef4a431f10db47e1">&#9670;&nbsp;</a></span>_keys</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">QList&lt;QKeySequence&gt; Ms::Shortcut::_keys</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="abe45dbc3ebf402b401460f9745ae3b0e"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#abe45dbc3ebf402b401460f9745ae3b0e">&#9670;&nbsp;</a></span>_sc</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="class_ms_1_1_shortcut.html">Shortcut</a> Ms::Shortcut::_sc</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="aea066a660808d7d73301b20133c76e1c"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aea066a660808d7d73301b20133c76e1c">&#9670;&nbsp;</a></span>_shortcuts</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">QHash&lt; QByteArray, <a class="el" href="class_ms_1_1_shortcut.html">Shortcut</a> * &gt; Ms::Shortcut::_shortcuts</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="afb5e570fb11552939aed80ed2c0e4664"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#afb5e570fb11552939aed80ed2c0e4664">&#9670;&nbsp;</a></span>_standardKey</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">QKeySequence::StandardKey Ms::Shortcut::_standardKey { QKeySequence::UnknownKey }</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>shortcut list </p>
+
+</div>
+</div>
+<a id="aae1481b60ad8cb89fc20b71f33dc61e9"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aae1481b60ad8cb89fc20b71f33dc61e9">&#9670;&nbsp;</a></span>_state</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">int Ms::Shortcut::_state { 0 }</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>the widget where the action will be assigned </p>
+
+</div>
+</div>
+<a id="adbda4022aeb934540e4f2643ab7de6fb"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#adbda4022aeb934540e4f2643ab7de6fb">&#9670;&nbsp;</a></span>_text</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">QByteArray Ms::Shortcut::_text</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>descriptor, shown in editor </p>
+
+</div>
+</div>
 <a id="aed36522a2c31d11383cf797b262356d3"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#aed36522a2c31d11383cf797b262356d3">&#9670;&nbsp;</a></span>defaultFileName</h2>
 
@@ -1282,6 +1695,30 @@ Static Public Attributes</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
+
+</div>
+</div>
+<a id="af5f7fedaeacdb2e5074731ef9f8e76ad"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#af5f7fedaeacdb2e5074731ef9f8e76ad">&#9670;&nbsp;</a></span>source</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">QString Ms::Shortcut::source</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>cached action </p>
 
 </div>
 </div>

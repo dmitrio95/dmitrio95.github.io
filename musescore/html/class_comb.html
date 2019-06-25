@@ -23,9 +23,9 @@
   <td id="projectlogo"><img alt="Logo" src="musescore_logo_full.png"/></td>
   <td id="projectalign" style="padding-left: 0.5em;">
    <div id="projectname">MuseScore
-   &#160;<span id="projectnumber">3.1</span>
+   &#160;<span id="projectnumber">3.2</span>
    </div>
-   <div id="projectbrief">Music compisition and notation</div>
+   <div id="projectbrief">Music composition and notation</div>
   </td>
  </tr>
  </tbody>
@@ -63,6 +63,7 @@ $(function() {
 <div class="header">
   <div class="summary">
 <a href="#pub-methods">Public Member Functions</a> &#124;
+<a href="#pri-attribs">Private Attributes</a> &#124;
 <a href="class_comb-members.html">List of all members</a>  </div>
   <div class="headertitle">
 <div class="title">Comb Class Reference</div>  </div>
@@ -85,6 +86,23 @@ Public Member Functions</h2></td></tr>
 <tr class="separator:a4896b3bd762f0e1fb62b7bf3062023d7"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a9da61492b60a9163903040ba0f8bfa08"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_comb.html#a9da61492b60a9163903040ba0f8bfa08">process</a> (float input)</td></tr>
 <tr class="separator:a9da61492b60a9163903040ba0f8bfa08"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pri-attribs"></a>
+Private Attributes</h2></td></tr>
+<tr class="memitem:a87b0a351152afd75b1a1de4b6a21cd79"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_comb.html#a87b0a351152afd75b1a1de4b6a21cd79">feedback</a></td></tr>
+<tr class="separator:a87b0a351152afd75b1a1de4b6a21cd79"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a58a619535d642832b63a3eb263552d34"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_comb.html#a58a619535d642832b63a3eb263552d34">filterstore</a></td></tr>
+<tr class="separator:a58a619535d642832b63a3eb263552d34"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac6f654496fde0cd2182b9904dfb4b18a"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_comb.html#ac6f654496fde0cd2182b9904dfb4b18a">damp1</a></td></tr>
+<tr class="separator:ac6f654496fde0cd2182b9904dfb4b18a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a4e2e9c0097d33d30431d2af88b71a0a4"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_comb.html#a4e2e9c0097d33d30431d2af88b71a0a4">damp2</a></td></tr>
+<tr class="separator:a4e2e9c0097d33d30431d2af88b71a0a4"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a37bad57768718960cfac6d3aab40558b"><td class="memItemLeft" align="right" valign="top">float *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_comb.html#a37bad57768718960cfac6d3aab40558b">buffer</a></td></tr>
+<tr class="separator:a37bad57768718960cfac6d3aab40558b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a4e4447ddab15245451bacd6141844fab"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_comb.html#a4e4447ddab15245451bacd6141844fab">bufsize</a></td></tr>
+<tr class="separator:a4e4447ddab15245451bacd6141844fab"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a605ca1a4e291c3a710806594b84bfd63"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_comb.html#a605ca1a4e291c3a710806594b84bfd63">bufidx</a></td></tr>
+<tr class="separator:a605ca1a4e291c3a710806594b84bfd63"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <h2 class="groupheader">Member Function Documentation</h2>
 <a id="aedf3204770be9d09261e9d9d2dd78e76"></a>
@@ -219,6 +237,161 @@ Public Member Functions</h2></td></tr>
   </td>
   <td class="mlabels-right">
 <span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<h2 class="groupheader">Member Data Documentation</h2>
+<a id="a37bad57768718960cfac6d3aab40558b"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a37bad57768718960cfac6d3aab40558b">&#9670;&nbsp;</a></span>buffer</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">float* Comb::buffer</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a605ca1a4e291c3a710806594b84bfd63"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a605ca1a4e291c3a710806594b84bfd63">&#9670;&nbsp;</a></span>bufidx</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">int Comb::bufidx</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a4e4447ddab15245451bacd6141844fab"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a4e4447ddab15245451bacd6141844fab">&#9670;&nbsp;</a></span>bufsize</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">int Comb::bufsize</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="ac6f654496fde0cd2182b9904dfb4b18a"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ac6f654496fde0cd2182b9904dfb4b18a">&#9670;&nbsp;</a></span>damp1</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">float Comb::damp1</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a4e2e9c0097d33d30431d2af88b71a0a4"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a4e2e9c0097d33d30431d2af88b71a0a4">&#9670;&nbsp;</a></span>damp2</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">float Comb::damp2</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a87b0a351152afd75b1a1de4b6a21cd79"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a87b0a351152afd75b1a1de4b6a21cd79">&#9670;&nbsp;</a></span>feedback</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">float Comb::feedback</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a58a619535d642832b63a3eb263552d34"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a58a619535d642832b63a3eb263552d34">&#9670;&nbsp;</a></span>filterstore</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">float Comb::filterstore</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
   </tr>
 </table>
 </div><div class="memdoc">

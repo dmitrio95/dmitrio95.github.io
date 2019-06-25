@@ -23,9 +23,9 @@
   <td id="projectlogo"><img alt="Logo" src="musescore_logo_full.png"/></td>
   <td id="projectalign" style="padding-left: 0.5em;">
    <div id="projectname">MuseScore
-   &#160;<span id="projectnumber">3.1</span>
+   &#160;<span id="projectnumber">3.2</span>
    </div>
-   <div id="projectbrief">Music compisition and notation</div>
+   <div id="projectbrief">Music composition and notation</div>
   </td>
  </tr>
  </tbody>
@@ -67,6 +67,8 @@ $(function() {
 <div class="header">
   <div class="summary">
 <a href="#pub-methods">Public Member Functions</a> &#124;
+<a href="#pri-slots">Private Slots</a> &#124;
+<a href="#pri-methods">Private Member Functions</a> &#124;
 <a href="class_ms_1_1_instruments_dialog-members.html">List of all members</a>  </div>
   <div class="headertitle">
 <div class="title">Ms::InstrumentsDialog Class Reference</div>  </div>
@@ -103,6 +105,20 @@ Public Member Functions</h2></td></tr>
 <tr class="separator:a00102f7ea3dd0712b380663073336c06"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a29c3c99878615457e8106ea967219b73"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ms_1_1_instruments_dialog.html#a29c3c99878615457e8106ea967219b73">buildInstrumentsList</a> ()</td></tr>
 <tr class="separator:a29c3c99878615457e8106ea967219b73"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pri-slots"></a>
+Private Slots</h2></td></tr>
+<tr class="memitem:ab0dc1bd59bff5b2a5f9af4ff69648a9e"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ms_1_1_instruments_dialog.html#ab0dc1bd59bff5b2a5f9af4ff69648a9e">accept</a> ()</td></tr>
+<tr class="separator:ab0dc1bd59bff5b2a5f9af4ff69648a9e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab0755f68913f0679e571e262e9db5f2a"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ms_1_1_instruments_dialog.html#ab0755f68913f0679e571e262e9db5f2a">on_saveButton_clicked</a> ()</td></tr>
+<tr class="separator:ab0755f68913f0679e571e262e9db5f2a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a5d11b8db7f2a676c2b26408a645115e1"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ms_1_1_instruments_dialog.html#a5d11b8db7f2a676c2b26408a645115e1">on_loadButton_clicked</a> ()</td></tr>
+<tr class="separator:a5d11b8db7f2a676c2b26408a645115e1"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pri-methods"></a>
+Private Member Functions</h2></td></tr>
+<tr class="memitem:abef87f46801bb7960346978ad5c38aa2"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ms_1_1_instruments_dialog.html#abef87f46801bb7960346978ad5c38aa2">readSettings</a> ()</td></tr>
+<tr class="separator:abef87f46801bb7960346978ad5c38aa2"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
 <a id="a2c61277c123d14e33489c1e2e7503ab5"></a>
@@ -124,6 +140,31 @@ Public Member Functions</h2></td></tr>
 </div>
 </div>
 <h2 class="groupheader">Member Function Documentation</h2>
+<a id="ab0dc1bd59bff5b2a5f9af4ff69648a9e"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ab0dc1bd59bff5b2a5f9af4ff69648a9e">&#9670;&nbsp;</a></span>accept</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void Ms::InstrumentsDialog::accept </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span><span class="mlabel">virtual</span><span class="mlabel">slot</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
 <a id="a29c3c99878615457e8106ea967219b73"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a29c3c99878615457e8106ea967219b73">&#9670;&nbsp;</a></span>buildInstrumentsList()</h2>
 
@@ -176,6 +217,56 @@ Public Member Functions</h2></td></tr>
 
 </div>
 </div>
+<a id="a5d11b8db7f2a676c2b26408a645115e1"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a5d11b8db7f2a676c2b26408a645115e1">&#9670;&nbsp;</a></span>on_loadButton_clicked</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void Ms::InstrumentsDialog::on_loadButton_clicked </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span><span class="mlabel">slot</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="ab0755f68913f0679e571e262e9db5f2a"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ab0755f68913f0679e571e262e9db5f2a">&#9670;&nbsp;</a></span>on_saveButton_clicked</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void Ms::InstrumentsDialog::on_saveButton_clicked </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span><span class="mlabel">slot</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
 <a id="a00102f7ea3dd0712b380663073336c06"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a00102f7ea3dd0712b380663073336c06">&#9670;&nbsp;</a></span>partiturList()</h2>
 
@@ -189,6 +280,31 @@ Public Member Functions</h2></td></tr>
           <td></td>
         </tr>
       </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="abef87f46801bb7960346978ad5c38aa2"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#abef87f46801bb7960346978ad5c38aa2">&#9670;&nbsp;</a></span>readSettings()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void Ms::InstrumentsDialog::readSettings </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
 </div><div class="memdoc">
 
 </div>

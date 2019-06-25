@@ -23,9 +23,9 @@
   <td id="projectlogo"><img alt="Logo" src="musescore_logo_full.png"/></td>
   <td id="projectalign" style="padding-left: 0.5em;">
    <div id="projectname">MuseScore
-   &#160;<span id="projectnumber">3.1</span>
+   &#160;<span id="projectnumber">3.2</span>
    </div>
-   <div id="projectbrief">Music compisition and notation</div>
+   <div id="projectbrief">Music composition and notation</div>
   </td>
  </tr>
  </tbody>
@@ -72,6 +72,8 @@ $(function() {
 
 <p>This is the complete list of members for <a class="el" href="class_ms_1_1_t_duration.html">Ms::TDuration</a>, including all inherited members.</p>
 <table class="directory">
+  <tr class="even"><td class="entry"><a class="el" href="class_ms_1_1_t_duration.html#aeb537b7fca2fe3f1a10db56bb9569938">_dots</a></td><td class="entry"><a class="el" href="class_ms_1_1_t_duration.html">Ms::TDuration</a></td><td class="entry"><span class="mlabel">private</span></td></tr>
+  <tr><td class="entry"><a class="el" href="class_ms_1_1_t_duration.html#a6ef5ad1f523dc5061ff77957a6141bec">_val</a></td><td class="entry"><a class="el" href="class_ms_1_1_t_duration.html">Ms::TDuration</a></td><td class="entry"><span class="mlabel">private</span></td></tr>
   <tr class="even"><td class="entry"><a class="el" href="class_ms_1_1_t_duration.html#af124a72ad48a794523039afbcdd9e695">dots</a>() const</td><td class="entry"><a class="el" href="class_ms_1_1_t_duration.html">Ms::TDuration</a></td><td class="entry"><span class="mlabel">inline</span></td></tr>
   <tr><td class="entry"><a class="el" href="class_ms_1_1_t_duration.html#ad9263bf173856b77421e83a48a7bf68c">DurationType</a> enum name</td><td class="entry"><a class="el" href="class_ms_1_1_t_duration.html">Ms::TDuration</a></td><td class="entry"></td></tr>
   <tr class="even"><td class="entry"><a class="el" href="class_ms_1_1_t_duration.html#a1d7fa0f0375914c8813b599e84993a10">durationTypeUserName</a>() const</td><td class="entry"><a class="el" href="class_ms_1_1_t_duration.html">Ms::TDuration</a></td><td class="entry"></td></tr>
@@ -96,17 +98,20 @@ $(function() {
   <tr><td class="entry"><a class="el" href="class_ms_1_1_t_duration.html#a304cbe8aadc3f7e57ad5760b33ca1ff1">operator&gt;</a>(const TDuration &amp;t) const</td><td class="entry"><a class="el" href="class_ms_1_1_t_duration.html">Ms::TDuration</a></td><td class="entry"></td></tr>
   <tr class="even"><td class="entry"><a class="el" href="class_ms_1_1_t_duration.html#a8a3508a81a68750380d5624e9d7e82a1">operator&gt;=</a>(const TDuration &amp;t) const</td><td class="entry"><a class="el" href="class_ms_1_1_t_duration.html">Ms::TDuration</a></td><td class="entry"></td></tr>
   <tr><td class="entry"><a class="el" href="class_ms_1_1_t_duration.html#af111928e25b26476ec35a3300aed2eec">setDots</a>(int v)</td><td class="entry"><a class="el" href="class_ms_1_1_t_duration.html">Ms::TDuration</a></td><td class="entry"></td></tr>
-  <tr class="even"><td class="entry"><a class="el" href="class_ms_1_1_t_duration.html#a5d60b0c53d2079c187f1b363aaac62a8">setType</a>(DurationType t)</td><td class="entry"><a class="el" href="class_ms_1_1_t_duration.html">Ms::TDuration</a></td><td class="entry"></td></tr>
-  <tr><td class="entry"><a class="el" href="class_ms_1_1_t_duration.html#ae78980e0f91d9cf4f5b692e96e56dea4">setType</a>(const QString &amp;)</td><td class="entry"><a class="el" href="class_ms_1_1_t_duration.html">Ms::TDuration</a></td><td class="entry"></td></tr>
-  <tr class="even"><td class="entry"><a class="el" href="class_ms_1_1_t_duration.html#a483e05e4243d28b0a2d263da4cb5b135">setVal</a>(int tick)</td><td class="entry"><a class="el" href="class_ms_1_1_t_duration.html">Ms::TDuration</a></td><td class="entry"></td></tr>
-  <tr><td class="entry"><a class="el" href="class_ms_1_1_t_duration.html#af3a0508526f75ba00001668f5be9c91a">shift</a>(int nSteps) const</td><td class="entry"><a class="el" href="class_ms_1_1_t_duration.html">Ms::TDuration</a></td><td class="entry"><span class="mlabel">inline</span></td></tr>
-  <tr class="even"><td class="entry"><a class="el" href="class_ms_1_1_t_duration.html#a31e4de8148fea5214921f533b468eb88">shiftRetainDots</a>(int nSteps, bool stepDotted=false)</td><td class="entry"><a class="el" href="class_ms_1_1_t_duration.html">Ms::TDuration</a></td><td class="entry"><span class="mlabel">inline</span></td></tr>
+  <tr class="even"><td class="entry"><a class="el" href="class_ms_1_1_t_duration.html#a4a58c1bf4f0c1008b1375ddeec3cbb05">setDotsToFitFraction</a>(const Fraction &amp;l, int maxDots)</td><td class="entry"><a class="el" href="class_ms_1_1_t_duration.html">Ms::TDuration</a></td><td class="entry"><span class="mlabel">private</span></td></tr>
+  <tr><td class="entry"><a class="el" href="class_ms_1_1_t_duration.html#a5d60b0c53d2079c187f1b363aaac62a8">setType</a>(DurationType t)</td><td class="entry"><a class="el" href="class_ms_1_1_t_duration.html">Ms::TDuration</a></td><td class="entry"></td></tr>
+  <tr class="even"><td class="entry"><a class="el" href="class_ms_1_1_t_duration.html#ae78980e0f91d9cf4f5b692e96e56dea4">setType</a>(const QString &amp;)</td><td class="entry"><a class="el" href="class_ms_1_1_t_duration.html">Ms::TDuration</a></td><td class="entry"></td></tr>
+  <tr><td class="entry"><a class="el" href="class_ms_1_1_t_duration.html#a483e05e4243d28b0a2d263da4cb5b135">setVal</a>(int tick)</td><td class="entry"><a class="el" href="class_ms_1_1_t_duration.html">Ms::TDuration</a></td><td class="entry"></td></tr>
+  <tr class="even"><td class="entry"><a class="el" href="class_ms_1_1_t_duration.html#af3a0508526f75ba00001668f5be9c91a">shift</a>(int nSteps) const</td><td class="entry"><a class="el" href="class_ms_1_1_t_duration.html">Ms::TDuration</a></td><td class="entry"><span class="mlabel">inline</span></td></tr>
+  <tr><td class="entry"><a class="el" href="class_ms_1_1_t_duration.html#a31e4de8148fea5214921f533b468eb88">shiftRetainDots</a>(int nSteps, bool stepDotted=false)</td><td class="entry"><a class="el" href="class_ms_1_1_t_duration.html">Ms::TDuration</a></td><td class="entry"><span class="mlabel">inline</span></td></tr>
+  <tr class="even"><td class="entry"><a class="el" href="class_ms_1_1_t_duration.html#aeb2ea4a891dc43d5f98b9bd5ea2b9446">shiftType</a>(int nSteps, bool stepDotted=false)</td><td class="entry"><a class="el" href="class_ms_1_1_t_duration.html">Ms::TDuration</a></td><td class="entry"><span class="mlabel">private</span></td></tr>
   <tr><td class="entry"><a class="el" href="class_ms_1_1_t_duration.html#a61f1f604209d5f8106a5aeb6bfb67709">TDuration</a>()</td><td class="entry"><a class="el" href="class_ms_1_1_t_duration.html">Ms::TDuration</a></td><td class="entry"><span class="mlabel">inline</span></td></tr>
   <tr class="even"><td class="entry"><a class="el" href="class_ms_1_1_t_duration.html#adb3faec4e8e5e9240dabbee9f64743a9">TDuration</a>(const Fraction &amp;l, bool truncate=false, int maxDots=4, DurationType maxType=DurationType::V_LONG)</td><td class="entry"><a class="el" href="class_ms_1_1_t_duration.html">Ms::TDuration</a></td><td class="entry"></td></tr>
   <tr><td class="entry"><a class="el" href="class_ms_1_1_t_duration.html#a129df212071da4adedd578a71f0992d5">TDuration</a>(const QString &amp;)</td><td class="entry"><a class="el" href="class_ms_1_1_t_duration.html">Ms::TDuration</a></td><td class="entry"></td></tr>
   <tr class="even"><td class="entry"><a class="el" href="class_ms_1_1_t_duration.html#a110bb4a79c182b4456c3bcae3c227ee6">TDuration</a>(DurationType t)</td><td class="entry"><a class="el" href="class_ms_1_1_t_duration.html">Ms::TDuration</a></td><td class="entry"><span class="mlabel">inline</span></td></tr>
   <tr><td class="entry"><a class="el" href="class_ms_1_1_t_duration.html#aa00a9e53b1d7ac9bf5db6f1d626f3cb5">ticks</a>() const</td><td class="entry"><a class="el" href="class_ms_1_1_t_duration.html">Ms::TDuration</a></td><td class="entry"></td></tr>
-  <tr class="even"><td class="entry"><a class="el" href="class_ms_1_1_t_duration.html#a123168fe235332a63c716e041fc3ddd5">type</a>() const</td><td class="entry"><a class="el" href="class_ms_1_1_t_duration.html">Ms::TDuration</a></td><td class="entry"><span class="mlabel">inline</span></td></tr>
+  <tr class="even"><td class="entry"><a class="el" href="class_ms_1_1_t_duration.html#a40a3e37805563d0efa045fff46ac6900">truncateToFraction</a>(const Fraction &amp;l, int maxDots)</td><td class="entry"><a class="el" href="class_ms_1_1_t_duration.html">Ms::TDuration</a></td><td class="entry"><span class="mlabel">private</span></td></tr>
+  <tr><td class="entry"><a class="el" href="class_ms_1_1_t_duration.html#a123168fe235332a63c716e041fc3ddd5">type</a>() const</td><td class="entry"><a class="el" href="class_ms_1_1_t_duration.html">Ms::TDuration</a></td><td class="entry"><span class="mlabel">inline</span></td></tr>
 </table></div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>

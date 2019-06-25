@@ -23,9 +23,9 @@
   <td id="projectlogo"><img alt="Logo" src="musescore_logo_full.png"/></td>
   <td id="projectalign" style="padding-left: 0.5em;">
    <div id="projectname">MuseScore
-   &#160;<span id="projectnumber">3.1</span>
+   &#160;<span id="projectnumber">3.2</span>
    </div>
-   <div id="projectbrief">Music compisition and notation</div>
+   <div id="projectbrief">Music composition and notation</div>
   </td>
  </tr>
  </tbody>
@@ -68,6 +68,9 @@ $(function() {
   <div class="summary">
 <a href="#pub-methods">Public Member Functions</a> &#124;
 <a href="#pub-static-methods">Static Public Member Functions</a> &#124;
+<a href="#pri-methods">Private Member Functions</a> &#124;
+<a href="#pri-attribs">Private Attributes</a> &#124;
+<a href="#pri-static-attribs">Static Private Attributes</a> &#124;
 <a href="#friends">Friends</a> &#124;
 <a href="class_ms_1_1_score_font-members.html">List of all members</a>  </div>
   <div class="headertitle">
@@ -166,6 +169,45 @@ Static Public Member Functions</h2></td></tr>
 <tr class="separator:a9a0c36d65062dafafa932714bc43c494"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a70ef0bddfb98a377d009a2467a5c19e6"><td class="memItemLeft" align="right" valign="top">static QJsonObject&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ms_1_1_score_font.html#a70ef0bddfb98a377d009a2467a5c19e6">initGlyphNamesJson</a> ()</td></tr>
 <tr class="separator:a70ef0bddfb98a377d009a2467a5c19e6"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pri-methods"></a>
+Private Member Functions</h2></td></tr>
+<tr class="memitem:ad2446b7c166a2f88df160e09244dcaf8"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ms_1_1_score_font.html#ad2446b7c166a2f88df160e09244dcaf8">load</a> ()</td></tr>
+<tr class="separator:ad2446b7c166a2f88df160e09244dcaf8"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a2691e5a1380e4d30e07a6f4e15475a1d"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ms_1_1_score_font.html#a2691e5a1380e4d30e07a6f4e15475a1d">computeMetrics</a> (<a class="el" href="class_ms_1_1_sym.html">Sym</a> *<a class="el" href="class_ms_1_1_score_font.html#a76f8b3c7161c6561165b6971abd21611">sym</a>, int code)</td></tr>
+<tr class="separator:a2691e5a1380e4d30e07a6f4e15475a1d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pri-attribs"></a>
+Private Attributes</h2></td></tr>
+<tr class="memitem:aa054530c2abb964970486fc5163d49ca"><td class="memItemLeft" align="right" valign="top">FT_Face&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ms_1_1_score_font.html#aa054530c2abb964970486fc5163d49ca">face</a> = 0</td></tr>
+<tr class="separator:aa054530c2abb964970486fc5163d49ca"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac4b99c9c23ef6989cf8d08bf08d95699"><td class="memItemLeft" align="right" valign="top">QVector&lt; <a class="el" href="class_ms_1_1_sym.html">Sym</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ms_1_1_score_font.html#ac4b99c9c23ef6989cf8d08bf08d95699">_symbols</a></td></tr>
+<tr class="separator:ac4b99c9c23ef6989cf8d08bf08d95699"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a409f61605f1337555bdbc655b3e9790c"><td class="memItemLeft" align="right" valign="top">QString&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ms_1_1_score_font.html#a409f61605f1337555bdbc655b3e9790c">_name</a></td></tr>
+<tr class="separator:a409f61605f1337555bdbc655b3e9790c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a73ca7e8212bacfe804df4b39fd2d6e45"><td class="memItemLeft" align="right" valign="top">QString&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ms_1_1_score_font.html#a73ca7e8212bacfe804df4b39fd2d6e45">_family</a></td></tr>
+<tr class="separator:a73ca7e8212bacfe804df4b39fd2d6e45"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af4957fa154eae9613743450f40ca516e"><td class="memItemLeft" align="right" valign="top">QString&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ms_1_1_score_font.html#af4957fa154eae9613743450f40ca516e">_fontPath</a></td></tr>
+<tr class="separator:af4957fa154eae9613743450f40ca516e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a84e436c5f99a84aa104a39a97c039346"><td class="memItemLeft" align="right" valign="top">QString&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ms_1_1_score_font.html#a84e436c5f99a84aa104a39a97c039346">_filename</a></td></tr>
+<tr class="separator:a84e436c5f99a84aa104a39a97c039346"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac7334e32ce2a9a048bb111b4dffeec1a"><td class="memItemLeft" align="right" valign="top">QByteArray&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ms_1_1_score_font.html#ac7334e32ce2a9a048bb111b4dffeec1a">fontImage</a></td></tr>
+<tr class="separator:ac7334e32ce2a9a048bb111b4dffeec1a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a83848ac7ba585a96c5c9bd7853b84e39"><td class="memItemLeft" align="right" valign="top">QCache&lt; <a class="el" href="struct_ms_1_1_glyph_key.html">GlyphKey</a>, <a class="el" href="struct_ms_1_1_glyph_pixmap.html">GlyphPixmap</a> &gt; *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ms_1_1_score_font.html#a83848ac7ba585a96c5c9bd7853b84e39">cache</a> { 0 }</td></tr>
+<tr class="separator:a83848ac7ba585a96c5c9bd7853b84e39"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a5d81383bf3b125c282c273a0b29bf77e"><td class="memItemLeft" align="right" valign="top">std::list&lt; std::pair&lt; <a class="el" href="namespace_ms.html#a2bac757437d1a9e364db27de8f9c9e2e">Sid</a>, QVariant &gt; &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ms_1_1_score_font.html#a5d81383bf3b125c282c273a0b29bf77e">_engravingDefaults</a></td></tr>
+<tr class="separator:a5d81383bf3b125c282c273a0b29bf77e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af9dfe42253c0345b428ae63a3fe344ee"><td class="memItemLeft" align="right" valign="top">double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ms_1_1_score_font.html#af9dfe42253c0345b428ae63a3fe344ee">_textEnclosureThickness</a> = 0</td></tr>
+<tr class="separator:af9dfe42253c0345b428ae63a3fe344ee"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a86adb0d55a8c5f308d8b9139812751b2"><td class="memItemLeft" align="right" valign="top">QFont *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ms_1_1_score_font.html#a86adb0d55a8c5f308d8b9139812751b2">font</a> { 0 }</td></tr>
+<tr class="separator:a86adb0d55a8c5f308d8b9139812751b2"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pri-static-attribs"></a>
+Static Private Attributes</h2></td></tr>
+<tr class="memitem:ae86c03d4b6a95b28d904ce9b99473462"><td class="memItemLeft" align="right" valign="top">static QVector&lt; <a class="el" href="class_ms_1_1_score_font.html">ScoreFont</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ms_1_1_score_font.html#ae86c03d4b6a95b28d904ce9b99473462">_scoreFonts</a></td></tr>
+<tr class="separator:ae86c03d4b6a95b28d904ce9b99473462"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a6af8b96486751f8e8af315999f1bcdd0"><td class="memItemLeft" align="right" valign="top">static std::array&lt; uint, size_t(<a class="el" href="namespace_ms.html#a602ef082ffbbe2c4b11e2375cc4aa794a4c15241ae864ab76c7c3e83fbd793646">SymId::lastSym</a>)+1 &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ms_1_1_score_font.html#a6af8b96486751f8e8af315999f1bcdd0">_mainSymCodeTable</a> { 0 }</td></tr>
+<tr class="separator:a6af8b96486751f8e8af315999f1bcdd0"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="friends"></a>
 Friends</h2></td></tr>
@@ -418,6 +460,42 @@ Friends</h2></td></tr>
           <td></td><td> const</td>
         </tr>
       </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a2691e5a1380e4d30e07a6f4e15475a1d"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a2691e5a1380e4d30e07a6f4e15475a1d">&#9670;&nbsp;</a></span>computeMetrics()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void Ms::ScoreFont::computeMetrics </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="class_ms_1_1_sym.html">Sym</a> *&#160;</td>
+          <td class="paramname"><em>sym</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>code</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
 </div><div class="memdoc">
 
 </div>
@@ -1162,6 +1240,31 @@ Friends</h2></td></tr>
 
 </div>
 </div>
+<a id="ad2446b7c166a2f88df160e09244dcaf8"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ad2446b7c166a2f88df160e09244dcaf8">&#9670;&nbsp;</a></span>load()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void Ms::ScoreFont::load </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
 <a id="a503d4583237625b3e7979ba158d9b6c8"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a503d4583237625b3e7979ba158d9b6c8">&#9670;&nbsp;</a></span>name()</h2>
 
@@ -1475,6 +1578,293 @@ Friends</h2></td></tr>
   </td>
   <td class="mlabels-right">
 <span class="mlabels"><span class="mlabel">friend</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<h2 class="groupheader">Member Data Documentation</h2>
+<a id="a5d81383bf3b125c282c273a0b29bf77e"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a5d81383bf3b125c282c273a0b29bf77e">&#9670;&nbsp;</a></span>_engravingDefaults</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">std::list&lt;std::pair&lt;<a class="el" href="namespace_ms.html#a2bac757437d1a9e364db27de8f9c9e2e">Sid</a>, QVariant&gt; &gt; Ms::ScoreFont::_engravingDefaults</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a73ca7e8212bacfe804df4b39fd2d6e45"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a73ca7e8212bacfe804df4b39fd2d6e45">&#9670;&nbsp;</a></span>_family</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">QString Ms::ScoreFont::_family</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a84e436c5f99a84aa104a39a97c039346"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a84e436c5f99a84aa104a39a97c039346">&#9670;&nbsp;</a></span>_filename</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">QString Ms::ScoreFont::_filename</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="af4957fa154eae9613743450f40ca516e"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#af4957fa154eae9613743450f40ca516e">&#9670;&nbsp;</a></span>_fontPath</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">QString Ms::ScoreFont::_fontPath</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a6af8b96486751f8e8af315999f1bcdd0"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a6af8b96486751f8e8af315999f1bcdd0">&#9670;&nbsp;</a></span>_mainSymCodeTable</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">std::array&lt; uint, size_t(<a class="el" href="namespace_ms.html#a602ef082ffbbe2c4b11e2375cc4aa794a4c15241ae864ab76c7c3e83fbd793646">SymId::lastSym</a>)+1 &gt; Ms::ScoreFont::_mainSymCodeTable { 0 }</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a409f61605f1337555bdbc655b3e9790c"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a409f61605f1337555bdbc655b3e9790c">&#9670;&nbsp;</a></span>_name</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">QString Ms::ScoreFont::_name</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="ae86c03d4b6a95b28d904ce9b99473462"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ae86c03d4b6a95b28d904ce9b99473462">&#9670;&nbsp;</a></span>_scoreFonts</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">QVector&lt; <a class="el" href="class_ms_1_1_score_font.html">ScoreFont</a> &gt; Ms::ScoreFont::_scoreFonts</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<b>Initial value:</b><div class="fragment"><div class="line">{</div><div class="line">      <a class="code" href="class_ms_1_1_score_font.html#a230e06a05776a59189c1cff16c49aa9f">ScoreFont</a>(<span class="stringliteral">&quot;Bravura&quot;</span>,    <span class="stringliteral">&quot;Bravura&quot;</span>,     <span class="stringliteral">&quot;:/fonts/bravura/&quot;</span>,   <span class="stringliteral">&quot;Bravura.otf&quot;</span>  ),</div><div class="line">      <a class="code" href="class_ms_1_1_score_font.html#a230e06a05776a59189c1cff16c49aa9f">ScoreFont</a>(<span class="stringliteral">&quot;Emmentaler&quot;</span>, <span class="stringliteral">&quot;MScore&quot;</span>,      <span class="stringliteral">&quot;:/fonts/mscore/&quot;</span>,    <span class="stringliteral">&quot;mscore.ttf&quot;</span>   ),</div><div class="line">      <a class="code" href="class_ms_1_1_score_font.html#a230e06a05776a59189c1cff16c49aa9f">ScoreFont</a>(<span class="stringliteral">&quot;Gonville&quot;</span>,   <span class="stringliteral">&quot;Gootville&quot;</span>,   <span class="stringliteral">&quot;:/fonts/gootville/&quot;</span>, <span class="stringliteral">&quot;Gootville.otf&quot;</span> ),</div><div class="line">      <a class="code" href="class_ms_1_1_score_font.html#a230e06a05776a59189c1cff16c49aa9f">ScoreFont</a>(<span class="stringliteral">&quot;MuseJazz&quot;</span>,   <span class="stringliteral">&quot;MuseJazz&quot;</span>,     <span class="stringliteral">&quot;:/fonts/musejazz/&quot;</span>, <span class="stringliteral">&quot;MuseJazz.otf&quot;</span> ),</div><div class="line">      }</div></div><!-- fragment -->
+</div>
+</div>
+<a id="ac4b99c9c23ef6989cf8d08bf08d95699"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ac4b99c9c23ef6989cf8d08bf08d95699">&#9670;&nbsp;</a></span>_symbols</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">QVector&lt;<a class="el" href="class_ms_1_1_sym.html">Sym</a>&gt; Ms::ScoreFont::_symbols</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="af9dfe42253c0345b428ae63a3fe344ee"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#af9dfe42253c0345b428ae63a3fe344ee">&#9670;&nbsp;</a></span>_textEnclosureThickness</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">double Ms::ScoreFont::_textEnclosureThickness = 0</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a83848ac7ba585a96c5c9bd7853b84e39"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a83848ac7ba585a96c5c9bd7853b84e39">&#9670;&nbsp;</a></span>cache</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">QCache&lt;<a class="el" href="struct_ms_1_1_glyph_key.html">GlyphKey</a>, <a class="el" href="struct_ms_1_1_glyph_pixmap.html">GlyphPixmap</a>&gt;* Ms::ScoreFont::cache { 0 }</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="aa054530c2abb964970486fc5163d49ca"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aa054530c2abb964970486fc5163d49ca">&#9670;&nbsp;</a></span>face</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">FT_Face Ms::ScoreFont::face = 0</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a86adb0d55a8c5f308d8b9139812751b2"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a86adb0d55a8c5f308d8b9139812751b2">&#9670;&nbsp;</a></span>font</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">QFont* Ms::ScoreFont::font { 0 }</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">mutable</span><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="ac7334e32ce2a9a048bb111b4dffeec1a"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ac7334e32ce2a9a048bb111b4dffeec1a">&#9670;&nbsp;</a></span>fontImage</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">QByteArray Ms::ScoreFont::fontImage</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
   </tr>
 </table>
 </div><div class="memdoc">

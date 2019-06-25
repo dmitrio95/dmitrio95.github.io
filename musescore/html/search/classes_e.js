@@ -10,7 +10,7 @@ var searchData=
   ['newwizardkeysigpage',['NewWizardKeysigPage',['../class_ms_1_1_new_wizard_keysig_page.html',1,'Ms']]],
   ['newwizardtemplatepage',['NewWizardTemplatePage',['../class_ms_1_1_new_wizard_template_page.html',1,'Ms']]],
   ['newwizardtimesigpage',['NewWizardTimesigPage',['../class_ms_1_1_new_wizard_timesig_page.html',1,'Ms']]],
-  ['node',['Node',['../struct_ms_1_1_meter_1_1_node.html',1,'Ms::Meter::Node'],['../struct_ms_1_1_bsp_tree_1_1_node.html',1,'Ms::BspTree::Node']]],
+  ['node',['Node',['../struct_ms_1_1_bsp_tree_1_1_node.html',1,'Ms::BspTree::Node'],['../struct_ms_1_1_meter_1_1_node.html',1,'Ms::Meter::Node']]],
   ['noeffect',['NoEffect',['../class_ms_1_1_no_effect.html',1,'Ms']]],
   ['noeffectgui',['NoEffectGui',['../class_ms_1_1_no_effect_gui.html',1,'Ms']]],
   ['notation',['Notation',['../class_ms_1_1_notation.html',1,'Ms']]],

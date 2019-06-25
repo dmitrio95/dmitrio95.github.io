@@ -9,6 +9,5 @@ var searchData=
   ['tfreq_5fmin',['TFREQ_MIN',['../global_8h.html#a6f45f99386463de34ee7d6defe8520b3',1,'global.h']]],
   ['tmodd_5fdef',['TMODD_DEF',['../global_8h.html#acede644d6a92cd8ca556eb744bdbc73d',1,'global.h']]],
   ['tmodd_5fmax',['TMODD_MAX',['../global_8h.html#a80d3e1e82124907818c2271a3fa3ac9c',1,'global.h']]],
-  ['tmodd_5fmin',['TMODD_MIN',['../global_8h.html#af5b40ddf9518c95eca011df513b34714',1,'global.h']]],
-  ['tr',['TR',['../clef_8cpp.html#a061ab1f0d3b6440b7052f059abb41a60',1,'TR():&#160;clef.cpp'],['../mscore_8cpp.html#a061ab1f0d3b6440b7052f059abb41a60',1,'TR():&#160;mscore.cpp']]]
+  ['tmodd_5fmin',['TMODD_MIN',['../global_8h.html#af5b40ddf9518c95eca011df513b34714',1,'global.h']]]
 ];
