@@ -23,7 +23,7 @@
   <td id="projectlogo"><img alt="Logo" src="musescore_logo_full.png"/></td>
   <td id="projectalign" style="padding-left: 0.5em;">
    <div id="projectname">MuseScore Plugins
-   &#160;<span id="projectnumber">3.2</span>
+   &#160;<span id="projectnumber">3.2.2</span>
    </div>
    <div id="projectbrief">Plugins API for MuseScore</div>
   </td>
@@ -216,13 +216,23 @@ $(function() {
 
 <h3><a id="index_h"></a>- h -</h3><ul>
 <li>harmonyCount
-: <a class="el" href="class_ms_1_1_plugin_a_p_i_1_1_score.html#acb5f572451e3137e0ee879a8cb848f79">Score</a>
+: <a class="el" href="class_ms_1_1_plugin_a_p_i_1_1_part.html#acb5f572451e3137e0ee879a8cb848f79">Part</a>
+, <a class="el" href="class_ms_1_1_plugin_a_p_i_1_1_score.html#acb5f572451e3137e0ee879a8cb848f79">Score</a>
+</li>
+<li>hasDrumStaff
+: <a class="el" href="class_ms_1_1_plugin_a_p_i_1_1_part.html#a4bcec852e9f7e72a40f4f40385364b3e">Part</a>
 </li>
 <li>hasHarmonies
 : <a class="el" href="class_ms_1_1_plugin_a_p_i_1_1_score.html#a2aa7517fa56f8551e0a9552f6634b9e6">Score</a>
 </li>
 <li>hasLyrics
 : <a class="el" href="class_ms_1_1_plugin_a_p_i_1_1_score.html#aff1da8286793da740affad2b2910a42b">Score</a>
+</li>
+<li>hasPitchedStaff
+: <a class="el" href="class_ms_1_1_plugin_a_p_i_1_1_part.html#aa71bc5c580284204c3692332c79c9bdc">Part</a>
+</li>
+<li>hasTabStaff
+: <a class="el" href="class_ms_1_1_plugin_a_p_i_1_1_part.html#a155df99636c08093e8c9857944588b16">Part</a>
 </li>
 <li>headGroup
 : <a class="el" href="class_ms_1_1_plugin_a_p_i_1_1_element.html#a95add92f58dd941a9d05b79f5f02c65a">Element</a>
@@ -270,8 +280,12 @@ $(function() {
 <li>LINE
 : <a class="el" href="class_ms_1_1_layout_break.html#a1d1cfd8ffb84e947f82999c682b666a7ab023460c84f774a219d46ccf4665994c">LayoutBreak</a>
 </li>
+<li>longName
+: <a class="el" href="class_ms_1_1_plugin_a_p_i_1_1_part.html#aaa84a14238226ec69a761d4ca8333fed">Part</a>
+</li>
 <li>lyricCount
-: <a class="el" href="class_ms_1_1_plugin_a_p_i_1_1_score.html#a2bc8da42cbf20a2d39cdb606be9e416e">Score</a>
+: <a class="el" href="class_ms_1_1_plugin_a_p_i_1_1_part.html#a2bc8da42cbf20a2d39cdb606be9e416e">Part</a>
+, <a class="el" href="class_ms_1_1_plugin_a_p_i_1_1_score.html#a2bc8da42cbf20a2d39cdb606be9e416e">Score</a>
 </li>
 <li>lyricist
 : <a class="el" href="class_ms_1_1_plugin_a_p_i_1_1_score.html#a8fa708acffe790a9dd1b3c802a2b48f0">Score</a>
@@ -291,6 +305,12 @@ $(function() {
 </li>
 <li>metaTag()
 : <a class="el" href="class_ms_1_1_plugin_a_p_i_1_1_score.html#aa5a03a2f8872b6e501046d5ef6eac3b7">Score</a>
+</li>
+<li>midiChannel
+: <a class="el" href="class_ms_1_1_plugin_a_p_i_1_1_part.html#aa7d9728ac8a774a923e79270f3663b14">Part</a>
+</li>
+<li>midiProgram
+: <a class="el" href="class_ms_1_1_plugin_a_p_i_1_1_part.html#ae5ae49bb9a87ce8861887a52bb901d52">Part</a>
 </li>
 <li>Mode
 : <a class="el" href="class_ms_1_1_beam.html#a0ccea95d282337f770c60f9cac1193b4">Beam</a>
@@ -352,6 +372,13 @@ $(function() {
 <li>NoteHeadType
 : <a class="el" href="class_ms_1_1_plugin_a_p_i_1_1_plugin_a_p_i.html#a4d6cbc451e545a8e2ab7b6bd7da00fd2">PluginAPI</a>
 </li>
+<li>noteType
+: <a class="el" href="class_ms_1_1_plugin_a_p_i_1_1_chord.html#aa7bbaa20492af8cb403f6a59b36666e7">Chord</a>
+, <a class="el" href="class_ms_1_1_plugin_a_p_i_1_1_note.html#aa7bbaa20492af8cb403f6a59b36666e7">Note</a>
+</li>
+<li>NoteType
+: <a class="el" href="class_ms_1_1_plugin_a_p_i_1_1_plugin_a_p_i.html#a35f8aa10c93fd69dff22bf378c3ed934">PluginAPI</a>
+</li>
 <li>NoteValueType
 : <a class="el" href="class_ms_1_1_plugin_a_p_i_1_1_plugin_a_p_i.html#ab5d7e7b87c502d7cc1938a2ca80edf77">PluginAPI</a>
 </li>
@@ -393,6 +420,9 @@ $(function() {
 </li>
 <li>pagePos()
 : <a class="el" href="class_ms_1_1_beam.html#a1ee0fd20d552c104d79c8ed86c6c537e">Beam</a>
+</li>
+<li>partName
+: <a class="el" href="class_ms_1_1_plugin_a_p_i_1_1_part.html#a7d96d07f660516149ffd29540216682d">Part</a>
 </li>
 <li>parts
 : <a class="el" href="class_ms_1_1_plugin_a_p_i_1_1_score.html#abb2af6f29c22c5ab14fbb60aa9ea2f13">Score</a>
@@ -485,6 +515,12 @@ $(function() {
 </li>
 <li>setMetaTag()
 : <a class="el" href="class_ms_1_1_plugin_a_p_i_1_1_score.html#a6bd38868a449f9c2ce44acef7574c58e">Score</a>
+</li>
+<li>shortName
+: <a class="el" href="class_ms_1_1_plugin_a_p_i_1_1_part.html#ad4f59e6d3678a53ae5dee40045720219">Part</a>
+</li>
+<li>show
+: <a class="el" href="class_ms_1_1_plugin_a_p_i_1_1_part.html#a5bafc98f16f9fd53e0f929fe20b17e1c">Part</a>
 </li>
 <li>source
 : <a class="el" href="class_ms_1_1_plugin_a_p_i_1_1_file_i_o.html#abd9014a22b25db02c88cee98da0c20e2">FileIO</a>

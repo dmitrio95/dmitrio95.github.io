@@ -1,5 +1,4 @@
 var searchData=
 [
-  ['segmenttype',['SegmentType',['../namespace_ms.html#a45f8c604b4008a278fe9bde5156489ee',1,'Ms']]],
-  ['syllabic',['Syllabic',['../class_ms_1_1_lyrics.html#abde22ff6047b7fa33e45f16c37217154',1,'Ms::Lyrics']]]
+  ['rewindmode',['RewindMode',['../class_ms_1_1_plugin_a_p_i_1_1_cursor.html#a44441ecb09579acd4a2a27bd8c96b704',1,'Ms::PluginAPI::Cursor']]]
 ];

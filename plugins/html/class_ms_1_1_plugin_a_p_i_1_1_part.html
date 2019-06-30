@@ -23,7 +23,7 @@
   <td id="projectlogo"><img alt="Logo" src="musescore_logo_full.png"/></td>
   <td id="projectalign" style="padding-left: 0.5em;">
    <div id="projectname">MuseScore Plugins
-   &#160;<span id="projectnumber">3.2</span>
+   &#160;<span id="projectnumber">3.2.2</span>
    </div>
    <div id="projectbrief">Plugins API for MuseScore</div>
   </td>
@@ -100,6 +100,39 @@ int&#160;</td><td class="memItemRight" valign="bottom"><b>endTrack</b></td></tr>
 <tr class="memitem:aa866d95e37c558e73e242eebddda847e"><td class="memItemLeft" align="right" valign="top">QString&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ms_1_1_plugin_a_p_i_1_1_part.html#aa866d95e37c558e73e242eebddda847e">instrumentId</a></td></tr>
 <tr class="memdesc:aa866d95e37c558e73e242eebddda847e"><td class="mdescLeft">&#160;</td><td class="mdescRight">The string identifier for the current instrument.  <a href="#aa866d95e37c558e73e242eebddda847e">More...</a><br /></td></tr>
 <tr class="separator:aa866d95e37c558e73e242eebddda847e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:acb5f572451e3137e0ee879a8cb848f79"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ms_1_1_plugin_a_p_i_1_1_part.html#acb5f572451e3137e0ee879a8cb848f79">harmonyCount</a></td></tr>
+<tr class="memdesc:acb5f572451e3137e0ee879a8cb848f79"><td class="mdescLeft">&#160;</td><td class="mdescRight">The number of <a class="el" href="class_ms_1_1_plugin_a_p_i_1_1_chord.html">Chord</a> Symbols.  <a href="#acb5f572451e3137e0ee879a8cb848f79">More...</a><br /></td></tr>
+<tr class="separator:acb5f572451e3137e0ee879a8cb848f79"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a4bcec852e9f7e72a40f4f40385364b3e"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ms_1_1_plugin_a_p_i_1_1_part.html#a4bcec852e9f7e72a40f4f40385364b3e">hasDrumStaff</a></td></tr>
+<tr class="memdesc:a4bcec852e9f7e72a40f4f40385364b3e"><td class="mdescLeft">&#160;</td><td class="mdescRight">Whether it is a percussion staff.  <a href="#a4bcec852e9f7e72a40f4f40385364b3e">More...</a><br /></td></tr>
+<tr class="separator:a4bcec852e9f7e72a40f4f40385364b3e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa71bc5c580284204c3692332c79c9bdc"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ms_1_1_plugin_a_p_i_1_1_part.html#aa71bc5c580284204c3692332c79c9bdc">hasPitchedStaff</a></td></tr>
+<tr class="memdesc:aa71bc5c580284204c3692332c79c9bdc"><td class="mdescLeft">&#160;</td><td class="mdescRight">Whether it is a 'normal' staff with notes.  <a href="#aa71bc5c580284204c3692332c79c9bdc">More...</a><br /></td></tr>
+<tr class="separator:aa71bc5c580284204c3692332c79c9bdc"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a155df99636c08093e8c9857944588b16"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ms_1_1_plugin_a_p_i_1_1_part.html#a155df99636c08093e8c9857944588b16">hasTabStaff</a></td></tr>
+<tr class="memdesc:a155df99636c08093e8c9857944588b16"><td class="mdescLeft">&#160;</td><td class="mdescRight">Whether it is a tablature staff.  <a href="#a155df99636c08093e8c9857944588b16">More...</a><br /></td></tr>
+<tr class="separator:a155df99636c08093e8c9857944588b16"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a2bc8da42cbf20a2d39cdb606be9e416e"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ms_1_1_plugin_a_p_i_1_1_part.html#a2bc8da42cbf20a2d39cdb606be9e416e">lyricCount</a></td></tr>
+<tr class="memdesc:a2bc8da42cbf20a2d39cdb606be9e416e"><td class="mdescLeft">&#160;</td><td class="mdescRight">The number of lyrics syllables.  <a href="#a2bc8da42cbf20a2d39cdb606be9e416e">More...</a><br /></td></tr>
+<tr class="separator:a2bc8da42cbf20a2d39cdb606be9e416e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa7d9728ac8a774a923e79270f3663b14"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ms_1_1_plugin_a_p_i_1_1_part.html#aa7d9728ac8a774a923e79270f3663b14">midiChannel</a></td></tr>
+<tr class="memdesc:aa7d9728ac8a774a923e79270f3663b14"><td class="mdescLeft">&#160;</td><td class="mdescRight">One of 16 music channels that can be assigned an instrument.  <a href="#aa7d9728ac8a774a923e79270f3663b14">More...</a><br /></td></tr>
+<tr class="separator:aa7d9728ac8a774a923e79270f3663b14"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae5ae49bb9a87ce8861887a52bb901d52"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ms_1_1_plugin_a_p_i_1_1_part.html#ae5ae49bb9a87ce8861887a52bb901d52">midiProgram</a></td></tr>
+<tr class="memdesc:ae5ae49bb9a87ce8861887a52bb901d52"><td class="mdescLeft">&#160;</td><td class="mdescRight">One of the 128 different instruments in General MIDI.  <a href="#ae5ae49bb9a87ce8861887a52bb901d52">More...</a><br /></td></tr>
+<tr class="separator:ae5ae49bb9a87ce8861887a52bb901d52"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aaa84a14238226ec69a761d4ca8333fed"><td class="memItemLeft" align="right" valign="top">QString&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ms_1_1_plugin_a_p_i_1_1_part.html#aaa84a14238226ec69a761d4ca8333fed">longName</a></td></tr>
+<tr class="memdesc:aaa84a14238226ec69a761d4ca8333fed"><td class="mdescLeft">&#160;</td><td class="mdescRight">The long name for the current instrument.  <a href="#aaa84a14238226ec69a761d4ca8333fed">More...</a><br /></td></tr>
+<tr class="separator:aaa84a14238226ec69a761d4ca8333fed"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad4f59e6d3678a53ae5dee40045720219"><td class="memItemLeft" align="right" valign="top">QString&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ms_1_1_plugin_a_p_i_1_1_part.html#ad4f59e6d3678a53ae5dee40045720219">shortName</a></td></tr>
+<tr class="memdesc:ad4f59e6d3678a53ae5dee40045720219"><td class="mdescLeft">&#160;</td><td class="mdescRight">The short name for the current instrument.  <a href="#ad4f59e6d3678a53ae5dee40045720219">More...</a><br /></td></tr>
+<tr class="separator:ad4f59e6d3678a53ae5dee40045720219"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a7d96d07f660516149ffd29540216682d"><td class="memItemLeft" align="right" valign="top">QString&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ms_1_1_plugin_a_p_i_1_1_part.html#a7d96d07f660516149ffd29540216682d">partName</a></td></tr>
+<tr class="memdesc:a7d96d07f660516149ffd29540216682d"><td class="mdescLeft">&#160;</td><td class="mdescRight">The name of the current part of music.  <a href="#a7d96d07f660516149ffd29540216682d">More...</a><br /></td></tr>
+<tr class="separator:a7d96d07f660516149ffd29540216682d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a5bafc98f16f9fd53e0f929fe20b17e1c"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ms_1_1_plugin_a_p_i_1_1_part.html#a5bafc98f16f9fd53e0f929fe20b17e1c">show</a></td></tr>
+<tr class="memdesc:a5bafc98f16f9fd53e0f929fe20b17e1c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Whether part is shown or hidden.  <a href="#a5bafc98f16f9fd53e0f929fe20b17e1c">More...</a><br /></td></tr>
+<tr class="separator:a5bafc98f16f9fd53e0f929fe20b17e1c"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="inherit_header properties_class_ms_1_1_plugin_a_p_i_1_1_score_element"><td colspan="2" onclick="javascript:toggleInherit('properties_class_ms_1_1_plugin_a_p_i_1_1_score_element')"><img src="closed.png" alt="-"/>&#160;Properties inherited from <a class="el" href="class_ms_1_1_plugin_a_p_i_1_1_score_element.html">ScoreElement</a></td></tr>
 <tr class="memitem:ac765329451135abec74c45e1897abf26 inherit properties_class_ms_1_1_plugin_a_p_i_1_1_score_element"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ms_1_1_plugin_a_p_i_1_1_score_element.html#ac765329451135abec74c45e1897abf26">type</a></td></tr>
 <tr class="memdesc:ac765329451135abec74c45e1897abf26 inherit properties_class_ms_1_1_plugin_a_p_i_1_1_score_element"><td class="mdescLeft">&#160;</td><td class="mdescRight">Type of this element.  <a href="class_ms_1_1_plugin_a_p_i_1_1_score_element.html#ac765329451135abec74c45e1897abf26">More...</a><br /></td></tr>
@@ -109,6 +142,106 @@ int&#160;</td><td class="memItemRight" valign="bottom"><b>endTrack</b></td></tr>
 <tr class="separator:abc29e461e01cc0c712944f8f47f91331 inherit properties_class_ms_1_1_plugin_a_p_i_1_1_score_element"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <h2 class="groupheader">Property Documentation</h2>
+<a id="acb5f572451e3137e0ee879a8cb848f79"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#acb5f572451e3137e0ee879a8cb848f79">&#9670;&nbsp;</a></span>harmonyCount</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">int harmonyCount</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">read</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>The number of <a class="el" href="class_ms_1_1_plugin_a_p_i_1_1_chord.html">Chord</a> Symbols. </p>
+<dl class="section since"><dt>Since</dt><dd>MuseScore 3.2.1 </dd></dl>
+
+</div>
+</div>
+<a id="a4bcec852e9f7e72a40f4f40385364b3e"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a4bcec852e9f7e72a40f4f40385364b3e">&#9670;&nbsp;</a></span>hasDrumStaff</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool hasDrumStaff</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">read</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Whether it is a percussion staff. </p>
+<dl class="section since"><dt>Since</dt><dd>MuseScore 3.2.1 </dd></dl>
+
+</div>
+</div>
+<a id="aa71bc5c580284204c3692332c79c9bdc"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aa71bc5c580284204c3692332c79c9bdc">&#9670;&nbsp;</a></span>hasPitchedStaff</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool hasPitchedStaff</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">read</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Whether it is a 'normal' staff with notes. </p>
+<dl class="section since"><dt>Since</dt><dd>MuseScore 3.2.1 </dd></dl>
+
+</div>
+</div>
+<a id="a155df99636c08093e8c9857944588b16"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a155df99636c08093e8c9857944588b16">&#9670;&nbsp;</a></span>hasTabStaff</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool hasTabStaff</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">read</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Whether it is a tablature staff. </p>
+<dl class="section since"><dt>Since</dt><dd>MuseScore 3.2.1 </dd></dl>
+
+</div>
+</div>
 <a id="aa866d95e37c558e73e242eebddda847e"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#aa866d95e37c558e73e242eebddda847e">&#9670;&nbsp;</a></span>instrumentId</h2>
 
@@ -131,6 +264,182 @@ int&#160;</td><td class="memItemRight" valign="bottom"><b>endTrack</b></td></tr>
 
 <p>The string identifier for the current instrument. </p>
 <dl class="section since"><dt>Since</dt><dd>MuseScore 3.2 </dd></dl>
+
+</div>
+</div>
+<a id="aaa84a14238226ec69a761d4ca8333fed"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aaa84a14238226ec69a761d4ca8333fed">&#9670;&nbsp;</a></span>longName</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">QString longName</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">read</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>The long name for the current instrument. </p>
+<p><a class="el" href="class_ms_1_1_plugin_a_p_i_1_1_note.html">Note</a> that this property was writeable in MuseScore v2.x </p><dl class="section since"><dt>Since</dt><dd>MuseScore 3.2.1 </dd></dl>
+
+</div>
+</div>
+<a id="a2bc8da42cbf20a2d39cdb606be9e416e"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a2bc8da42cbf20a2d39cdb606be9e416e">&#9670;&nbsp;</a></span>lyricCount</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">int lyricCount</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">read</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>The number of lyrics syllables. </p>
+<dl class="section since"><dt>Since</dt><dd>MuseScore 3.2.1 </dd></dl>
+
+</div>
+</div>
+<a id="aa7d9728ac8a774a923e79270f3663b14"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aa7d9728ac8a774a923e79270f3663b14">&#9670;&nbsp;</a></span>midiChannel</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">int midiChannel</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">read</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>One of 16 music channels that can be assigned an instrument. </p>
+<dl class="section since"><dt>Since</dt><dd>MuseScore 3.2.1 </dd></dl>
+
+</div>
+</div>
+<a id="ae5ae49bb9a87ce8861887a52bb901d52"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ae5ae49bb9a87ce8861887a52bb901d52">&#9670;&nbsp;</a></span>midiProgram</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">int midiProgram</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">read</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>One of the 128 different instruments in General MIDI. </p>
+<dl class="section since"><dt>Since</dt><dd>MuseScore 3.2.1 </dd></dl>
+
+</div>
+</div>
+<a id="a7d96d07f660516149ffd29540216682d"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a7d96d07f660516149ffd29540216682d">&#9670;&nbsp;</a></span>partName</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">QString partName</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">read</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>The name of the current part of music. </p>
+<p>It is shown in Mixer.</p>
+<p><a class="el" href="class_ms_1_1_plugin_a_p_i_1_1_note.html">Note</a> that this property was writeable in MuseScore v2.x </p><dl class="section since"><dt>Since</dt><dd>MuseScore 3.2.1 </dd></dl>
+
+</div>
+</div>
+<a id="ad4f59e6d3678a53ae5dee40045720219"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ad4f59e6d3678a53ae5dee40045720219">&#9670;&nbsp;</a></span>shortName</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">QString shortName</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">read</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>The short name for the current instrument. </p>
+<p><a class="el" href="class_ms_1_1_plugin_a_p_i_1_1_note.html">Note</a> that this property was writeable in MuseScore v2.x </p><dl class="section since"><dt>Since</dt><dd>MuseScore 3.2.1 </dd></dl>
+
+</div>
+</div>
+<a id="a5bafc98f16f9fd53e0f929fe20b17e1c"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a5bafc98f16f9fd53e0f929fe20b17e1c">&#9670;&nbsp;</a></span>show</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool show</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">read</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Whether part is shown or hidden. </p>
+<p><a class="el" href="class_ms_1_1_plugin_a_p_i_1_1_note.html">Note</a> that this property was writeable in MuseScore v2.x </p><dl class="section since"><dt>Since</dt><dd>MuseScore 3.2.1 </dd></dl>
 
 </div>
 </div>

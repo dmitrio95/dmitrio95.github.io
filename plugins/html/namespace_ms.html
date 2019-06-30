@@ -23,7 +23,7 @@
   <td id="projectlogo"><img alt="Logo" src="musescore_logo_full.png"/></td>
   <td id="projectalign" style="padding-left: 0.5em;">
    <div id="projectname">MuseScore Plugins
-   &#160;<span id="projectnumber">3.2</span>
+   &#160;<span id="projectnumber">3.2.2</span>
    </div>
    <div id="projectbrief">Plugins API for MuseScore</div>
   </td>
@@ -331,6 +331,22 @@ Enumerations</h2></td></tr>
 <br />
  }</td></tr>
 <tr class="separator:afefcf6e1958b07c3c8d7c832a8fdf2df"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a0e0de7dc7864c9c2e738e017dce974be"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_ms.html#a0e0de7dc7864c9c2e738e017dce974be">NoteType</a> { <br />
+&#160;&#160;<a class="el" href="namespace_ms.html#a0e0de7dc7864c9c2e738e017dce974bea1e23852820b9154316c7c06e2b7ba051">NORMAL</a> = 0, 
+<a class="el" href="namespace_ms.html#a0e0de7dc7864c9c2e738e017dce974beae039fd845669d8f1ba177be951be17c8">ACCIACCATURA</a> = 0x1, 
+<a class="el" href="namespace_ms.html#a0e0de7dc7864c9c2e738e017dce974bea2a1dc26af8b64e2f3f230090d918837c">APPOGGIATURA</a> = 0x2, 
+<a class="el" href="namespace_ms.html#a0e0de7dc7864c9c2e738e017dce974beae80cb44d4b8a0b53e5156a914e54f062">GRACE4</a> = 0x4, 
+<br />
+&#160;&#160;<a class="el" href="namespace_ms.html#a0e0de7dc7864c9c2e738e017dce974bea0753b2cda2bb413db134fa6acc0b60c2">GRACE16</a> = 0x8, 
+<a class="el" href="namespace_ms.html#a0e0de7dc7864c9c2e738e017dce974bea041a6576108c698d49d54b7603d34271">GRACE32</a> = 0x10, 
+<a class="el" href="namespace_ms.html#a0e0de7dc7864c9c2e738e017dce974bea19a7279a0e29931de860939b2edf8845">GRACE8_AFTER</a> = 0x20, 
+<a class="el" href="namespace_ms.html#a0e0de7dc7864c9c2e738e017dce974bea4f51b3dfd7d5aa76dcac592ed95e3370">GRACE16_AFTER</a> = 0x40, 
+<br />
+&#160;&#160;<a class="el" href="namespace_ms.html#a0e0de7dc7864c9c2e738e017dce974beaf58b08678e3a4828ca3fdae016ff814b">GRACE32_AFTER</a> = 0x80, 
+<a class="el" href="namespace_ms.html#a0e0de7dc7864c9c2e738e017dce974beaccc0377a8afbf50e7094f5c23a8af223">INVALID</a> = 0xFF
+<br />
+ }</td></tr>
+<tr class="separator:a0e0de7dc7864c9c2e738e017dce974be"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a224b9163917ac32fc95a60d8c1eec3aa"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_ms.html#a224b9163917ac32fc95a60d8c1eec3aa">Direction</a> { <a class="el" href="namespace_ms.html#a224b9163917ac32fc95a60d8c1eec3aaae1f2d5134ed2543d38a0de9751cf75d9">AUTO</a>, 
 <a class="el" href="namespace_ms.html#a224b9163917ac32fc95a60d8c1eec3aaafbaedde498cdead4f2780217646e9ba1">UP</a>, 
 <a class="el" href="namespace_ms.html#a224b9163917ac32fc95a60d8c1eec3aaac4e0e4e3118472beeb2ae75827450f1f">DOWN</a>
@@ -506,22 +522,6 @@ Enumerations</h2></td></tr>
 <b>ADD</b>
  }</td></tr>
 <tr class="separator:a1084637ad27a00d23b1e8ba75e4c1577"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ad90d5733dc2d436a8c3c8fd651ba69c8"><td class="memItemLeft" align="right" valign="top"><a id="ad90d5733dc2d436a8c3c8fd651ba69c8"></a>enum &#160;</td><td class="memItemRight" valign="bottom"><b>NoteType</b> : unsigned char { <br />
-&#160;&#160;<b>NORMAL</b> = 0, 
-<b>ACCIACCATURA</b> = 0x1, 
-<b>APPOGGIATURA</b> = 0x2, 
-<b>GRACE4</b> = 0x4, 
-<br />
-&#160;&#160;<b>GRACE16</b> = 0x8, 
-<b>GRACE32</b> = 0x10, 
-<b>GRACE8_AFTER</b> = 0x20, 
-<b>GRACE16_AFTER</b> = 0x40, 
-<br />
-&#160;&#160;<b>GRACE32_AFTER</b> = 0x80, 
-<b>INVALID</b> = 0xFF
-<br />
- }</td></tr>
-<tr class="separator:ad90d5733dc2d436a8c3c8fd651ba69c8"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:affdb0535e1d1dc9bdc2d17d129579ab3"><td class="memItemLeft" align="right" valign="top"><a id="affdb0535e1d1dc9bdc2d17d129579ab3"></a>enum &#160;</td><td class="memItemRight" valign="bottom"><b>AccidentalVal</b> : signed char { <br />
 &#160;&#160;<b>SHARP2</b> = 2, 
 <b>SHARP</b> = 1, 
@@ -640,6 +640,12 @@ Enumerations</h2></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="func-members"></a>
 Functions</h2></td></tr>
+<tr class="memitem:a7d18d6b9ea51bf024b0a66e28ae79901"><td class="memItemLeft" align="right" valign="top"><a id="a7d18d6b9ea51bf024b0a66e28ae79901"></a>
+constexpr <a class="el" href="namespace_ms.html#a0e0de7dc7864c9c2e738e017dce974be">NoteType</a>&#160;</td><td class="memItemRight" valign="bottom"><b>operator|</b> (<a class="el" href="namespace_ms.html#a0e0de7dc7864c9c2e738e017dce974be">NoteType</a> t1, <a class="el" href="namespace_ms.html#a0e0de7dc7864c9c2e738e017dce974be">NoteType</a> t2)</td></tr>
+<tr class="separator:a7d18d6b9ea51bf024b0a66e28ae79901"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a62f564c18dd516263a4d6a0f195153ac"><td class="memItemLeft" align="right" valign="top"><a id="a62f564c18dd516263a4d6a0f195153ac"></a>
+constexpr bool&#160;</td><td class="memItemRight" valign="bottom"><b>operator &amp;</b> (<a class="el" href="namespace_ms.html#a0e0de7dc7864c9c2e738e017dce974be">NoteType</a> t1, <a class="el" href="namespace_ms.html#a0e0de7dc7864c9c2e738e017dce974be">NoteType</a> t2)</td></tr>
+<tr class="separator:a62f564c18dd516263a4d6a0f195153ac"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a5b007971a3bcba64c36bb0afddff940e"><td class="memItemLeft" align="right" valign="top"><a id="a5b007971a3bcba64c36bb0afddff940e"></a>
 constexpr <a class="el" href="namespace_ms.html#a45f8c604b4008a278fe9bde5156489ee">SegmentType</a>&#160;</td><td class="memItemRight" valign="bottom"><b>operator|</b> (const <a class="el" href="namespace_ms.html#a45f8c604b4008a278fe9bde5156489ee">SegmentType</a> t1, const <a class="el" href="namespace_ms.html#a45f8c604b4008a278fe9bde5156489ee">SegmentType</a> t2)</td></tr>
 <tr class="separator:a5b007971a3bcba64c36bb0afddff940e"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -688,12 +694,6 @@ int&#160;</td><td class="memItemRight" valign="bottom"><b>track2voice</b> (int t
 <tr class="memitem:a469dd00a292aca0acb3e57ad0222715f"><td class="memItemLeft" align="right" valign="top"><a id="a469dd00a292aca0acb3e57ad0222715f"></a>
 int&#160;</td><td class="memItemRight" valign="bottom"><b>trackZeroVoice</b> (int track)</td></tr>
 <tr class="separator:a469dd00a292aca0acb3e57ad0222715f"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a7d18d6b9ea51bf024b0a66e28ae79901"><td class="memItemLeft" align="right" valign="top"><a id="a7d18d6b9ea51bf024b0a66e28ae79901"></a>
-constexpr NoteType&#160;</td><td class="memItemRight" valign="bottom"><b>operator|</b> (NoteType t1, NoteType t2)</td></tr>
-<tr class="separator:a7d18d6b9ea51bf024b0a66e28ae79901"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a62f564c18dd516263a4d6a0f195153ac"><td class="memItemLeft" align="right" valign="top"><a id="a62f564c18dd516263a4d6a0f195153ac"></a>
-constexpr bool&#160;</td><td class="memItemRight" valign="bottom"><b>operator &amp;</b> (NoteType t1, NoteType t2)</td></tr>
-<tr class="separator:a62f564c18dd516263a4d6a0f195153ac"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aa00bfb1a87fc49003be0466630041823"><td class="memItemLeft" align="right" valign="top"><a id="aa00bfb1a87fc49003be0466630041823"></a>
 constexpr BarLineType&#160;</td><td class="memItemRight" valign="bottom"><b>operator|</b> (BarLineType t1, BarLineType t2)</td></tr>
 <tr class="separator:aa00bfb1a87fc49003be0466630041823"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -1016,6 +1016,40 @@ const int&#160;</td><td class="memItemRight" valign="bottom"><b>STAFF_GROUP_MAX<
 <table class="fieldtable">
 <tr><th colspan="2">Enumerator</th></tr><tr><td class="fieldname"><a id="a80ae4ac7d0dfa9de7aecce4f0ddee69ca8c5e50fab3748e9c53a6863b3dce1401"></a>STRAIGHT&#160;</td><td class="fielddoc"></td></tr>
 <tr><td class="fieldname"><a id="a80ae4ac7d0dfa9de7aecce4f0ddee69cae6212babd08728ecd04037e59dc74a3c"></a>WAVY&#160;</td><td class="fielddoc"></td></tr>
+</table>
+
+</div>
+</div>
+<a id="a0e0de7dc7864c9c2e738e017dce974be"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a0e0de7dc7864c9c2e738e017dce974be">&#9670;&nbsp;</a></span>NoteType</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">enum <a class="el" href="namespace_ms.html#a0e0de7dc7864c9c2e738e017dce974be">NoteType</a></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">strong</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<table class="fieldtable">
+<tr><th colspan="2">Enumerator</th></tr><tr><td class="fieldname"><a id="a0e0de7dc7864c9c2e738e017dce974bea1e23852820b9154316c7c06e2b7ba051"></a>NORMAL&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a0e0de7dc7864c9c2e738e017dce974beae039fd845669d8f1ba177be951be17c8"></a>ACCIACCATURA&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a0e0de7dc7864c9c2e738e017dce974bea2a1dc26af8b64e2f3f230090d918837c"></a>APPOGGIATURA&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a0e0de7dc7864c9c2e738e017dce974beae80cb44d4b8a0b53e5156a914e54f062"></a>GRACE4&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a0e0de7dc7864c9c2e738e017dce974bea0753b2cda2bb413db134fa6acc0b60c2"></a>GRACE16&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a0e0de7dc7864c9c2e738e017dce974bea041a6576108c698d49d54b7603d34271"></a>GRACE32&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a0e0de7dc7864c9c2e738e017dce974bea19a7279a0e29931de860939b2edf8845"></a>GRACE8_AFTER&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a0e0de7dc7864c9c2e738e017dce974bea4f51b3dfd7d5aa76dcac592ed95e3370"></a>GRACE16_AFTER&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a0e0de7dc7864c9c2e738e017dce974beaf58b08678e3a4828ca3fdae016ff814b"></a>GRACE32_AFTER&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a0e0de7dc7864c9c2e738e017dce974beaccc0377a8afbf50e7094f5c23a8af223"></a>INVALID&#160;</td><td class="fielddoc"></td></tr>
 </table>
 
 </div>

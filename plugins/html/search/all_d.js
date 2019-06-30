@@ -10,6 +10,8 @@ var searchData=
   ['metronome',['METRONOME',['../namespace_ms.html#aa46ffb71b1b0cd634b2054fa59ec5f90ad65e1ae74e765c6173ca34d7c014b42f',1,'Ms']]],
   ['mid',['MID',['../class_ms_1_1_beam.html#a0ccea95d282337f770c60f9cac1193b4a18e48bbdf6d326bd88d3ebb99ad7515d',1,'Ms::Beam']]],
   ['middle',['MIDDLE',['../class_ms_1_1_lyrics.html#abde22ff6047b7fa33e45f16c37217154a43eedd8685eb86592022f8da962e3474',1,'Ms::Lyrics']]],
+  ['midichannel',['midiChannel',['../class_ms_1_1_plugin_a_p_i_1_1_part.html#aa7d9728ac8a774a923e79270f3663b14',1,'Ms::PluginAPI::Part']]],
+  ['midiprogram',['midiProgram',['../class_ms_1_1_plugin_a_p_i_1_1_part.html#ae5ae49bb9a87ce8861887a52bb901d52',1,'Ms::PluginAPI::Part']]],
   ['mirrored_5fflat',['MIRRORED_FLAT',['../namespace_ms.html#afefcf6e1958b07c3c8d7c832a8fdf2dfa33926e01381286657bc6cad3c5cd718e',1,'Ms']]],
   ['mirrored_5fflat2',['MIRRORED_FLAT2',['../namespace_ms.html#afefcf6e1958b07c3c8d7c832a8fdf2dfa39963b9a78fe8bb81ca3b1fa3aca9cb0',1,'Ms']]],
   ['mode',['Mode',['../class_ms_1_1_beam.html#a0ccea95d282337f770c60f9cac1193b4',1,'Ms::Beam']]],

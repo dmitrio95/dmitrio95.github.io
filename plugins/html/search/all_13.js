@@ -34,6 +34,8 @@ var searchData=
   ['sharp_5fthree_5farrows_5fup',['SHARP_THREE_ARROWS_UP',['../namespace_ms.html#afefcf6e1958b07c3c8d7c832a8fdf2dfa4d03da22579c2f740a38f90eeb94d7ff',1,'Ms']]],
   ['sharp_5ftwo_5farrows_5fdown',['SHARP_TWO_ARROWS_DOWN',['../namespace_ms.html#afefcf6e1958b07c3c8d7c832a8fdf2dfa6b944d3facb9b624ab4e822b2dac427f',1,'Ms']]],
   ['sharp_5ftwo_5farrows_5fup',['SHARP_TWO_ARROWS_UP',['../namespace_ms.html#afefcf6e1958b07c3c8d7c832a8fdf2dfa65c9cca2a8f70559f93811248486841c',1,'Ms']]],
+  ['shortname',['shortName',['../class_ms_1_1_plugin_a_p_i_1_1_part.html#ad4f59e6d3678a53ae5dee40045720219',1,'Ms::PluginAPI::Part']]],
+  ['show',['show',['../class_ms_1_1_plugin_a_p_i_1_1_part.html#a5bafc98f16f9fd53e0f929fe20b17e1c',1,'Ms::PluginAPI::Part']]],
   ['single',['SINGLE',['../class_ms_1_1_lyrics.html#abde22ff6047b7fa33e45f16c37217154a0679273e201afd0bf57af3961f8a23b8',1,'Ms::Lyrics']]],
   ['slur',['SLUR',['../namespace_ms.html#a16b11be27a8e9362dd122c4d879e01aea6583855a84bb2092bdedabd25e5bc4e7',1,'Ms']]],
   ['slur_5fsegment',['SLUR_SEGMENT',['../namespace_ms.html#a16b11be27a8e9362dd122c4d879e01aead109e83750643c68685b2ad8b669d136',1,'Ms']]],

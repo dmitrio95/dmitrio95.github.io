@@ -5,6 +5,7 @@ var searchData=
   ['palm_5fmute',['PALM_MUTE',['../namespace_ms.html#a16b11be27a8e9362dd122c4d879e01aea4386bbe5c5d47bf69c55c835995f31ec',1,'Ms::PALM_MUTE()'],['../namespace_ms.html#aa46ffb71b1b0cd634b2054fa59ec5f90a4386bbe5c5d47bf69c55c835995f31ec',1,'Ms::PALM_MUTE()']]],
   ['palm_5fmute_5fsegment',['PALM_MUTE_SEGMENT',['../namespace_ms.html#a16b11be27a8e9362dd122c4d879e01aea50320b8b560090aab8ebf946d7b4d370',1,'Ms']]],
   ['part',['Part',['../class_ms_1_1_plugin_a_p_i_1_1_part.html',1,'Part'],['../namespace_ms.html#a16b11be27a8e9362dd122c4d879e01aea9be203cdfef8628939c9942fb61fdae3',1,'Ms::PART()']]],
+  ['partname',['partName',['../class_ms_1_1_plugin_a_p_i_1_1_part.html#a7d96d07f660516149ffd29540216682d',1,'Ms::PluginAPI::Part']]],
   ['parts',['parts',['../class_ms_1_1_plugin_a_p_i_1_1_score.html#abb2af6f29c22c5ab14fbb60aa9ea2f13',1,'Ms::PluginAPI::Score']]],
   ['partscore',['partScore',['../class_ms_1_1_plugin_a_p_i_1_1_excerpt.html#a7751fbea19c29c4858c8a5b9afcacbb9',1,'Ms::PluginAPI::Excerpt']]],
   ['pedal',['PEDAL',['../namespace_ms.html#a16b11be27a8e9362dd122c4d879e01aeaba60b1145173d4871c57f86ef8f35aca',1,'Ms::PEDAL()'],['../namespace_ms.html#aa46ffb71b1b0cd634b2054fa59ec5f90aba60b1145173d4871c57f86ef8f35aca',1,'Ms::PEDAL()']]],
