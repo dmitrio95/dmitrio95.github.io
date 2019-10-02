@@ -23,7 +23,7 @@
   <td id="projectlogo"><img alt="Logo" src="musescore_logo_full.png"/></td>
   <td id="projectalign" style="padding-left: 0.5em;">
    <div id="projectname">MuseScore Plugins
-   &#160;<span id="projectnumber">3.2.2</span>
+   &#160;<span id="projectnumber">3.3 Release Candidate</span>
    </div>
    <div id="projectbrief">Plugins API for MuseScore</div>
   </td>
@@ -97,6 +97,9 @@ Signals</h2></td></tr>
 <tr class="memitem:a13a43e6d814de94978c515cb084873b1"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ms_1_1_plugin_a_p_i_1_1_plugin_a_p_i.html#a13a43e6d814de94978c515cb084873b1">run</a> ()</td></tr>
 <tr class="memdesc:a13a43e6d814de94978c515cb084873b1"><td class="mdescLeft">&#160;</td><td class="mdescRight">Indicates that the plugin was launched.  <a href="#a13a43e6d814de94978c515cb084873b1">More...</a><br /></td></tr>
 <tr class="separator:a13a43e6d814de94978c515cb084873b1"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:abae35457be10104c7e74a13320e75946"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ms_1_1_plugin_a_p_i_1_1_plugin_a_p_i.html#abae35457be10104c7e74a13320e75946">scoreStateChanged</a> (const QMap&lt; QString, QVariant &gt; &amp;state)</td></tr>
+<tr class="memdesc:abae35457be10104c7e74a13320e75946"><td class="mdescLeft">&#160;</td><td class="mdescRight">Notifies plugin about changes in score state.  <a href="#abae35457be10104c7e74a13320e75946">More...</a><br /></td></tr>
+<tr class="separator:abae35457be10104c7e74a13320e75946"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
@@ -106,6 +109,9 @@ Q_INVOKABLE <a class="el" href="class_ms_1_1_plugin_a_p_i_1_1_score.html">Ms::Pl
 <tr class="memitem:a3e20d3539a463dc9e56883ee8730154d"><td class="memItemLeft" align="right" valign="top">Q_INVOKABLE <a class="el" href="class_ms_1_1_plugin_a_p_i_1_1_element.html">Ms::PluginAPI::Element</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ms_1_1_plugin_a_p_i_1_1_plugin_a_p_i.html#a3e20d3539a463dc9e56883ee8730154d">newElement</a> (int)</td></tr>
 <tr class="memdesc:a3e20d3539a463dc9e56883ee8730154d"><td class="mdescLeft">&#160;</td><td class="mdescRight">Creates a new element with the given type.  <a href="#a3e20d3539a463dc9e56883ee8730154d">More...</a><br /></td></tr>
 <tr class="separator:a3e20d3539a463dc9e56883ee8730154d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a558a35762499012a0e32f411bc782fc0"><td class="memItemLeft" align="right" valign="top">Q_INVOKABLE void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ms_1_1_plugin_a_p_i_1_1_plugin_a_p_i.html#a558a35762499012a0e32f411bc782fc0">removeElement</a> (<a class="el" href="class_ms_1_1_plugin_a_p_i_1_1_element.html">Ms::PluginAPI::Element</a> *wrapped)</td></tr>
+<tr class="memdesc:a558a35762499012a0e32f411bc782fc0"><td class="mdescLeft">&#160;</td><td class="mdescRight">Disposes of an <a class="el" href="class_ms_1_1_plugin_a_p_i_1_1_element.html">Element</a> and its children.  <a href="#a558a35762499012a0e32f411bc782fc0">More...</a><br /></td></tr>
+<tr class="separator:a558a35762499012a0e32f411bc782fc0"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a79c2c8b2f1571a4c7db74352a237fa46"><td class="memItemLeft" align="right" valign="top"><a id="a79c2c8b2f1571a4c7db74352a237fa46"></a>
 Q_INVOKABLE void&#160;</td><td class="memItemRight" valign="bottom"><b>cmd</b> (const QString &amp;)</td></tr>
 <tr class="separator:a79c2c8b2f1571a4c7db74352a237fa46"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -240,9 +246,15 @@ qreal&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="cla
 <tr class="memitem:a08c40a3baac4c548cfc0e7e21d2c5a65"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_ms_1_1_plugin_a_p_i_1_1_enum.html">Ms::PluginAPI::Enum</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ms_1_1_plugin_a_p_i_1_1_plugin_a_p_i.html#a08c40a3baac4c548cfc0e7e21d2c5a65">Tid</a></td></tr>
 <tr class="memdesc:a08c40a3baac4c548cfc0e7e21d2c5a65"><td class="mdescLeft">&#160;</td><td class="mdescRight">Contains <a class="el" href="namespace_ms.html#aa46ffb71b1b0cd634b2054fa59ec5f90" title="Enumerates the list of built-in text substyles. ">Ms::Tid</a> enumeration values.  <a href="#a08c40a3baac4c548cfc0e7e21d2c5a65">More...</a><br /></td></tr>
 <tr class="separator:a08c40a3baac4c548cfc0e7e21d2c5a65"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a2ab59388b035db44211b4a49644d4d06"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_ms_1_1_plugin_a_p_i_1_1_enum.html">Ms::PluginAPI::Enum</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ms_1_1_plugin_a_p_i_1_1_plugin_a_p_i.html#a2ab59388b035db44211b4a49644d4d06">Align</a></td></tr>
+<tr class="memdesc:a2ab59388b035db44211b4a49644d4d06"><td class="mdescLeft">&#160;</td><td class="mdescRight">Contains <a class="el" href="namespace_ms.html#a7389e8334b14f39b20860d98e7ccb82e">Ms::Align</a> enumeration values.  <a href="#a2ab59388b035db44211b4a49644d4d06">More...</a><br /></td></tr>
+<tr class="separator:a2ab59388b035db44211b4a49644d4d06"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a35f8aa10c93fd69dff22bf378c3ed934"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_ms_1_1_plugin_a_p_i_1_1_enum.html">Ms::PluginAPI::Enum</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ms_1_1_plugin_a_p_i_1_1_plugin_a_p_i.html#a35f8aa10c93fd69dff22bf378c3ed934">NoteType</a></td></tr>
 <tr class="memdesc:a35f8aa10c93fd69dff22bf378c3ed934"><td class="mdescLeft">&#160;</td><td class="mdescRight">Contains <a class="el" href="namespace_ms.html#a0e0de7dc7864c9c2e738e017dce974be">Ms::NoteType</a> enumeration values.  <a href="#a35f8aa10c93fd69dff22bf378c3ed934">More...</a><br /></td></tr>
 <tr class="separator:a35f8aa10c93fd69dff22bf378c3ed934"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a036fc62dbe597b14fd9f2ac6c5812744"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_ms_1_1_plugin_a_p_i_1_1_enum.html">Ms::PluginAPI::Enum</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ms_1_1_plugin_a_p_i_1_1_plugin_a_p_i.html#a036fc62dbe597b14fd9f2ac6c5812744">PlayEventType</a></td></tr>
+<tr class="memdesc:a036fc62dbe597b14fd9f2ac6c5812744"><td class="mdescLeft">&#160;</td><td class="mdescRight">Contains <a class="el" href="namespace_ms.html#a63be7958ccbae662af2c77fc134178cd" title="Determines whether oranaments are automatically generated when playing a score and whether the PlayEv...">Ms::PlayEventType</a> enumeration values.  <a href="#a036fc62dbe597b14fd9f2ac6c5812744">More...</a><br /></td></tr>
+<tr class="separator:a036fc62dbe597b14fd9f2ac6c5812744"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a4d6cbc451e545a8e2ab7b6bd7da00fd2"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_ms_1_1_plugin_a_p_i_1_1_enum.html">Ms::PluginAPI::Enum</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ms_1_1_plugin_a_p_i_1_1_plugin_a_p_i.html#a4d6cbc451e545a8e2ab7b6bd7da00fd2">NoteHeadType</a></td></tr>
 <tr class="memdesc:a4d6cbc451e545a8e2ab7b6bd7da00fd2"><td class="mdescLeft">&#160;</td><td class="mdescRight">Contains <a class="el" href="class_ms_1_1_note_head.html#ac2c13fb451406ca2dc4d0e787d211136">Ms::NoteHead::Type</a> enumeration values.  <a href="#a4d6cbc451e545a8e2ab7b6bd7da00fd2">More...</a><br /></td></tr>
 <tr class="separator:a4d6cbc451e545a8e2ab7b6bd7da00fd2"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -328,6 +340,33 @@ changes" dialog on closing a score that is either imported or was created with a
 
 </div>
 </div>
+<a id="a558a35762499012a0e32f411bc782fc0"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a558a35762499012a0e32f411bc782fc0">&#9670;&nbsp;</a></span>removeElement()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void removeElement </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="class_ms_1_1_plugin_a_p_i_1_1_element.html">Ms::PluginAPI::Element</a> *&#160;</td>
+          <td class="paramname"><em>wrapped</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Disposes of an <a class="el" href="class_ms_1_1_plugin_a_p_i_1_1_element.html">Element</a> and its children. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname"><a class="el" href="class_ms_1_1_plugin_a_p_i_1_1_element.html">Element</a></td><td>type. </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section since"><dt>Since</dt><dd>MuseScore 3.3 </dd></dl>
+
+</div>
+</div>
 <a id="a13a43e6d814de94978c515cb084873b1"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a13a43e6d814de94978c515cb084873b1">&#9670;&nbsp;</a></span>run</h2>
 
@@ -353,6 +392,47 @@ changes" dialog on closing a score that is either imported or was created with a
 
 <p>Indicates that the plugin was launched. </p>
 <p>Implement <code>onRun()</code> function in your plugin to handle this signal. </p>
+
+</div>
+</div>
+<a id="abae35457be10104c7e74a13320e75946"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#abae35457be10104c7e74a13320e75946">&#9670;&nbsp;</a></span>scoreStateChanged</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void scoreStateChanged </td>
+          <td>(</td>
+          <td class="paramtype">const QMap&lt; QString, QVariant &gt; &amp;&#160;</td>
+          <td class="paramname"><em>state</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">signal</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Notifies plugin about changes in score state. </p>
+<p>Called after each user (or plugin) action which may have changed a score. Implement <code>onScoreStateChanged()</code> function in your plugin to handle this signal.</p>
+<p><code>state</code> variable is available within the handler with following fields:</p>
+<ul>
+<li><code>selectionChanged</code> </li>
+<li><code>excerptsChanged</code> </li>
+<li><code>instrumentsChanged</code> </li>
+</ul>
+<p>If a plugin modifies score in this handler, then it should:</p><ol type="1">
+<li>enclose all modifications within <a class="el" href="class_ms_1_1_plugin_a_p_i_1_1_score.html#abf31b1d2e931e0fabffa12b13de8d40e" title="For &quot;dock&quot; type plugins: to be used before score modifications to make them undoable. ">Score::startCmd()</a> / <a class="el" href="class_ms_1_1_plugin_a_p_i_1_1_score.html#a9970862e902ca3c0747c5aedf95b8407" title="For &quot;dock&quot; type plugins: to be used after score modifications to make them undoable. ">Score::endCmd()</a></li>
+<li>take care of preventing an infinite recursion, as plugin-originated changes will trigger this signal again after calling <a class="el" href="class_ms_1_1_plugin_a_p_i_1_1_score.html#a9970862e902ca3c0747c5aedf95b8407" title="For &quot;dock&quot; type plugins: to be used after score modifications to make them undoable. ">Score::endCmd()</a></li>
+</ol>
+<p>Example: </p><div class="fragment"><div class="line"><span class="keyword">import</span> QtQuick 2.0</div><div class="line">import MuseScore 3.0</div><div class="line"></div><div class="line">MuseScore {</div><div class="line">    <a class="code" href="class_ms_1_1_plugin_a_p_i_1_1_plugin_a_p_i.html#afb6a06fc30328be2f07f33be372b3319">menuPath</a>: <span class="stringliteral">&quot;Plugins.selectionChangeExample&quot;</span></div><div class="line">    <a class="code" href="class_ms_1_1_plugin_a_p_i_1_1_plugin_a_p_i.html#a5fac96ae051a9f09f99b423019783fdc">pluginType</a>: <span class="stringliteral">&quot;dock&quot;</span></div><div class="line">    <a class="code" href="class_ms_1_1_plugin_a_p_i_1_1_plugin_a_p_i.html#a8b8992cd6edd00adf65252b962db3156">dockArea</a>:   <span class="stringliteral">&quot;left&quot;</span></div><div class="line">    implicitHeight: 75 <span class="comment">// necessary for dock widget to appear with nonzero height</span></div><div class="line">    implicitWidth: 150</div><div class="line"></div><div class="line">    Text {</div><div class="line">       <span class="comment">// A label which will display pitch of the currently selected note</span></div><div class="line">       id: pitchLabel</div><div class="line">       anchors.fill: parent</div><div class="line">    }</div><div class="line"></div><div class="line">    onScoreStateChanged: {</div><div class="line">        <span class="keywordflow">if</span> (state.selectionChanged) {</div><div class="line">            var el = <a class="code" href="class_ms_1_1_plugin_a_p_i_1_1_plugin_a_p_i.html#ad2e45485dcc2ae3a54703c7b5e35aa63">curScore</a> ? <a class="code" href="class_ms_1_1_plugin_a_p_i_1_1_plugin_a_p_i.html#ad2e45485dcc2ae3a54703c7b5e35aa63">curScore</a>.<a class="code" href="class_ms_1_1_plugin_a_p_i_1_1_score.html#a03c42d849f61a07a11f4db791917442e">selection</a>.<a class="code" href="class_ms_1_1_plugin_a_p_i_1_1_selection.html#a57b9543b1da324db238953503fa4d32a">elements</a>[0] : null;</div><div class="line">            <span class="keywordflow">if</span> (el &amp;&amp; el.type == <a class="code" href="class_ms_1_1_plugin_a_p_i_1_1_plugin_a_p_i.html#a5fcfe46c56901e9f3998a72a458e66dc">Element</a>.NOTE)</div><div class="line">                pitchLabel.text = el.pitch;</div><div class="line">            <span class="keywordflow">else</span></div><div class="line">                pitchLabel.text = <span class="stringliteral">&quot;no note selected&quot;</span>;</div><div class="line">        }</div><div class="line">    }</div><div class="line">}</div></div><!-- fragment --> <dl class="section warning"><dt>Warning</dt><dd>This functionality is considered experimental. This API may change in future versions of MuseScore. </dd></dl>
+<dl class="section since"><dt>Since</dt><dd>MuseScore 3.3 </dd></dl>
 
 </div>
 </div>
@@ -401,6 +481,31 @@ changes" dialog on closing a score that is either imported or was created with a
 </div>
 </div>
 <h2 class="groupheader">Property Documentation</h2>
+<a id="a2ab59388b035db44211b4a49644d4d06"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a2ab59388b035db44211b4a49644d4d06">&#9670;&nbsp;</a></span>Align</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="class_ms_1_1_plugin_a_p_i_1_1_enum.html">Ms::PluginAPI::Enum</a> <a class="el" href="namespace_ms.html#a7389e8334b14f39b20860d98e7ccb82e">Align</a></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">read</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Contains <a class="el" href="namespace_ms.html#a7389e8334b14f39b20860d98e7ccb82e">Ms::Align</a> enumeration values. </p>
+<dl class="section since"><dt>Since</dt><dd>MuseScore 3.3 </dd></dl>
+
+</div>
+</div>
 <a id="a5c559d9fe68133d2f9370af630a28ae9"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a5c559d9fe68133d2f9370af630a28ae9">&#9670;&nbsp;</a></span>Direction</h2>
 
@@ -447,7 +552,7 @@ changes" dialog on closing a score that is either imported or was created with a
 </div><div class="memdoc">
 
 <p>Contains <a class="el" href="class_ms_1_1_m_score.html#a2f50471e3aa54ba4c0603b20d5423ade">Ms::MScore::DirectionH</a> enumeration values. </p>
-<dl class="section note"><dt>Note</dt><dd>In MuseScore 2.X this enumeration was available as MScore.LEFT, MScore.RIGHT, <a class="el" href="namespace_ms.html#a224b9163917ac32fc95a60d8c1eec3aaae1f2d5134ed2543d38a0de9751cf75d9">MScore.AUTO</a>. </dd></dl>
+<dl class="section note"><dt>Note</dt><dd>In MuseScore 2.X this enumeration was available as <a class="el" href="namespace_ms.html#a7389e8334b14f39b20860d98e7ccb82ea684d325a7303f52e64011467ff5c5758">MScore.LEFT</a>, <a class="el" href="namespace_ms.html#a7389e8334b14f39b20860d98e7ccb82ea21507b40c80068eda19865706fdc2403">MScore.RIGHT</a>, <a class="el" href="namespace_ms.html#a224b9163917ac32fc95a60d8c1eec3aaae1f2d5134ed2543d38a0de9751cf75d9">MScore.AUTO</a>. </dd></dl>
 
 </div>
 </div>
@@ -648,6 +753,31 @@ changes" dialog on closing a score that is either imported or was created with a
 
 <p>Contains <a class="el" href="namespace_ms.html#a78ae2875d3a179065c4033152d3eeb53">Ms::Placement</a> enumeration values. </p>
 <dl class="section note"><dt>Note</dt><dd>In MuseScore 2.X this enumeration was available as <a class="el" href="namespace_ms.html#a78ae2875d3a179065c4033152d3eeb53ac2d92b81beeac9bfc89fb870c1a20767">Element.ABOVE</a> and <a class="el" href="namespace_ms.html#a78ae2875d3a179065c4033152d3eeb53aa25949e21299b84cc33c4b00c740f08f">Element.BELOW</a>. </dd></dl>
+
+</div>
+</div>
+<a id="a036fc62dbe597b14fd9f2ac6c5812744"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a036fc62dbe597b14fd9f2ac6c5812744">&#9670;&nbsp;</a></span>PlayEventType</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="class_ms_1_1_plugin_a_p_i_1_1_enum.html">Ms::PluginAPI::Enum</a> <a class="el" href="namespace_ms.html#a63be7958ccbae662af2c77fc134178cd">PlayEventType</a></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">read</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Contains <a class="el" href="namespace_ms.html#a63be7958ccbae662af2c77fc134178cd" title="Determines whether oranaments are automatically generated when playing a score and whether the PlayEv...">Ms::PlayEventType</a> enumeration values. </p>
+<dl class="section since"><dt>Since</dt><dd>MuseScore 3.3 </dd></dl>
 
 </div>
 </div>

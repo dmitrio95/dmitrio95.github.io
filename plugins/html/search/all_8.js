@@ -5,6 +5,8 @@ var searchData=
   ['harmony',['HARMONY',['../namespace_ms.html#a16b11be27a8e9362dd122c4d879e01aea9c6a910141dd674271df4ebacccaeed0',1,'Ms']]],
   ['harmony_5fa',['HARMONY_A',['../namespace_ms.html#aa46ffb71b1b0cd634b2054fa59ec5f90acdb2c35e62e62e3e0bc0e85b89fe7369',1,'Ms']]],
   ['harmony_5fb',['HARMONY_B',['../namespace_ms.html#aa46ffb71b1b0cd634b2054fa59ec5f90a674c64f6c5069b3c47fe4ff9a2ef2292',1,'Ms']]],
+  ['harmony_5fnashville',['HARMONY_NASHVILLE',['../namespace_ms.html#aa46ffb71b1b0cd634b2054fa59ec5f90a47905e457772645dbf5bd9105eb7c542',1,'Ms']]],
+  ['harmony_5froman',['HARMONY_ROMAN',['../namespace_ms.html#aa46ffb71b1b0cd634b2054fa59ec5f90ab4db4092d8310dda3ff69809fc0453a7',1,'Ms']]],
   ['harmonycount',['harmonyCount',['../class_ms_1_1_plugin_a_p_i_1_1_part.html#acb5f572451e3137e0ee879a8cb848f79',1,'Ms::PluginAPI::Part::harmonyCount()'],['../class_ms_1_1_plugin_a_p_i_1_1_score.html#acb5f572451e3137e0ee879a8cb848f79',1,'Ms::PluginAPI::Score::harmonyCount()']]],
   ['hasdrumstaff',['hasDrumStaff',['../class_ms_1_1_plugin_a_p_i_1_1_part.html#a4bcec852e9f7e72a40f4f40385364b3e',1,'Ms::PluginAPI::Part']]],
   ['hasharmonies',['hasHarmonies',['../class_ms_1_1_plugin_a_p_i_1_1_score.html#a2aa7517fa56f8551e0a9552f6634b9e6',1,'Ms::PluginAPI::Score']]],
@@ -12,6 +14,7 @@ var searchData=
   ['haspitchedstaff',['hasPitchedStaff',['../class_ms_1_1_plugin_a_p_i_1_1_part.html#aa71bc5c580284204c3692332c79c9bdc',1,'Ms::PluginAPI::Part']]],
   ['hastabstaff',['hasTabStaff',['../class_ms_1_1_plugin_a_p_i_1_1_part.html#a155df99636c08093e8c9857944588b16',1,'Ms::PluginAPI::Part']]],
   ['hbox',['HBOX',['../namespace_ms.html#a16b11be27a8e9362dd122c4d879e01aea2c1e7e81a01ed3fa8c227e344c4f6662',1,'Ms']]],
+  ['hcenter',['HCENTER',['../namespace_ms.html#a7389e8334b14f39b20860d98e7ccb82eaa89a2d9898adc5ccd56542caef672d6d',1,'Ms']]],
   ['head_5fa',['HEAD_A',['../class_ms_1_1_note_head.html#ab53aba6e9e88c687bf66290251c84c53aea8e80fd5c6fd5d7961de493104e7e2d',1,'Ms::NoteHead']]],
   ['head_5fa_5fflat',['HEAD_A_FLAT',['../class_ms_1_1_note_head.html#ab53aba6e9e88c687bf66290251c84c53a2f2ee2dc491a3331644b1664ed26fef5',1,'Ms::NoteHead']]],
   ['head_5fa_5fsharp',['HEAD_A_SHARP',['../class_ms_1_1_note_head.html#ab53aba6e9e88c687bf66290251c84c53ac3ccc573abdcc1a12d7f858c94964899',1,'Ms::NoteHead']]],
@@ -85,6 +88,7 @@ var searchData=
   ['headerclef',['HeaderClef',['../namespace_ms.html#a45f8c604b4008a278fe9bde5156489eeaf69392a2ebed1af02428c867f81fed3f',1,'Ms']]],
   ['headgroup',['headGroup',['../class_ms_1_1_plugin_a_p_i_1_1_element.html#a95add92f58dd941a9d05b79f5f02c65a',1,'Ms::PluginAPI::Element']]],
   ['headtype',['headType',['../class_ms_1_1_plugin_a_p_i_1_1_element.html#a04dd26feca1aabf77e3933edc0afd6a3',1,'Ms::PluginAPI::Element']]],
+  ['hmask',['HMASK',['../namespace_ms.html#a7389e8334b14f39b20860d98e7ccb82ea96c168d56ecd3e45821455754db92db7',1,'Ms']]],
   ['homepath',['homePath',['../class_ms_1_1_plugin_a_p_i_1_1_file_i_o.html#a74ebed75818e3a99035e65e610883a74',1,'Ms::PluginAPI::FileIO']]],
   ['hook',['HOOK',['../namespace_ms.html#a16b11be27a8e9362dd122c4d879e01aea4fc7c674d2aacbcda1284deb756f8490',1,'Ms']]]
 ];

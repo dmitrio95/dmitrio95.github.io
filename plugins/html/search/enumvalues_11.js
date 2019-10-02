@@ -10,5 +10,5 @@ var searchData=
   ['repeat_5fright',['REPEAT_RIGHT',['../namespace_ms.html#aa46ffb71b1b0cd634b2054fa59ec5f90a692b1163bc1ca407a6a9e8c5f647911e',1,'Ms']]],
   ['rest',['REST',['../namespace_ms.html#a16b11be27a8e9362dd122c4d879e01aea50780f47f6839d47d60bc4555ee00c3f',1,'Ms']]],
   ['rh_5fguitar_5ffingering',['RH_GUITAR_FINGERING',['../namespace_ms.html#aa46ffb71b1b0cd634b2054fa59ec5f90ab8f375d174a8caa14d48dda0ee15e49a',1,'Ms']]],
-  ['right',['RIGHT',['../class_ms_1_1_m_score.html#a2f50471e3aa54ba4c0603b20d5423adea21507b40c80068eda19865706fdc2403',1,'Ms::MScore']]]
+  ['right',['RIGHT',['../class_ms_1_1_m_score.html#a2f50471e3aa54ba4c0603b20d5423adea21507b40c80068eda19865706fdc2403',1,'Ms::MScore::RIGHT()'],['../namespace_ms.html#a7389e8334b14f39b20860d98e7ccb82ea21507b40c80068eda19865706fdc2403',1,'Ms::RIGHT()']]]
 ];

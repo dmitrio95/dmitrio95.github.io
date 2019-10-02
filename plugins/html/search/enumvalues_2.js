@@ -1,5 +1,6 @@
 var searchData=
 [
+  ['center',['CENTER',['../namespace_ms.html#a7389e8334b14f39b20860d98e7ccb82eac397289ee45877be0cd49811fe245b4e',1,'Ms']]],
   ['chord',['CHORD',['../namespace_ms.html#a16b11be27a8e9362dd122c4d879e01aea45d886b842022787183a308e0200d336',1,'Ms']]],
   ['chordline',['CHORDLINE',['../namespace_ms.html#a16b11be27a8e9362dd122c4d879e01aeace00c7704ec09c488a4557c123a23119',1,'Ms']]],
   ['chordrest',['ChordRest',['../namespace_ms.html#a45f8c604b4008a278fe9bde5156489eea7884fad7b22d960efd4e9d84e61e7fe0',1,'Ms']]],

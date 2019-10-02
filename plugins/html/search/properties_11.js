@@ -4,6 +4,8 @@ var searchData=
   ['tick',['tick',['../class_ms_1_1_plugin_a_p_i_1_1_cursor.html#ad4e0bbc0cc0ffb91120206fb4de60261',1,'Ms::PluginAPI::Cursor']]],
   ['ticks',['ticks',['../class_ms_1_1_plugin_a_p_i_1_1_fraction_wrapper.html#a8d0065299615176169ceac2c65f38365',1,'Ms::PluginAPI::FractionWrapper']]],
   ['tid',['Tid',['../class_ms_1_1_plugin_a_p_i_1_1_plugin_a_p_i.html#a08c40a3baac4c548cfc0e7e21d2c5a65',1,'Ms::PluginAPI::PluginAPI']]],
+  ['tieback',['tieBack',['../class_ms_1_1_plugin_a_p_i_1_1_note.html#ac639c672fd70c51a056330ebdc95ffa4',1,'Ms::PluginAPI::Note']]],
+  ['tieforward',['tieForward',['../class_ms_1_1_plugin_a_p_i_1_1_note.html#a0e80d5ecfd748259f86ea2c037a16091',1,'Ms::PluginAPI::Note']]],
   ['time',['time',['../class_ms_1_1_plugin_a_p_i_1_1_cursor.html#ab2d5aa7fce1a14d8bddfb2c333ea9679',1,'Ms::PluginAPI::Cursor']]],
   ['title',['title',['../class_ms_1_1_plugin_a_p_i_1_1_excerpt.html#aa93d37c468bf6aea9c9823eb74bd1a48',1,'Ms::PluginAPI::Excerpt::title()'],['../class_ms_1_1_plugin_a_p_i_1_1_score.html#aa93d37c468bf6aea9c9823eb74bd1a48',1,'Ms::PluginAPI::Score::title()']]],
   ['tpc',['tpc',['../class_ms_1_1_plugin_a_p_i_1_1_note.html#a1221408187603cfe2d55a2774570ed4b',1,'Ms::PluginAPI::Note']]],

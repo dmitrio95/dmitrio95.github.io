@@ -22,7 +22,7 @@ var searchData=
   ['nobreak',['NOBREAK',['../class_ms_1_1_layout_break.html#a1d1cfd8ffb84e947f82999c682b666a7afaa8ac3c6d2b3a4c380ffdb8ece777e9',1,'Ms::LayoutBreak']]],
   ['none',['NONE',['../class_ms_1_1_beam.html#a0ccea95d282337f770c60f9cac1193b4ab50339a10e1de285ac99d4c3990b8693',1,'Ms::Beam::NONE()'],['../namespace_ms.html#afefcf6e1958b07c3c8d7c832a8fdf2dfab50339a10e1de285ac99d4c3990b8693',1,'Ms::NONE()']]],
   ['normal',['NORMAL',['../namespace_ms.html#a0e0de7dc7864c9c2e738e017dce974bea1e23852820b9154316c7c06e2b7ba051',1,'Ms']]],
-  ['note',['Note',['../class_ms_1_1_note.html',1,'Note'],['../class_ms_1_1_plugin_a_p_i_1_1_note.html',1,'Note'],['../namespace_ms.html#a16b11be27a8e9362dd122c4d879e01aea10de4bc81f754b19b0d27246a0589c05',1,'Ms::NOTE()']]],
+  ['note',['Note',['../class_ms_1_1_plugin_a_p_i_1_1_note.html',1,'Note'],['../class_ms_1_1_note.html',1,'Note'],['../namespace_ms.html#a16b11be27a8e9362dd122c4d879e01aea10de4bc81f754b19b0d27246a0589c05',1,'Ms::NOTE()']]],
   ['note_2eh',['note.h',['../note_8h.html',1,'']]],
   ['notedot',['NOTEDOT',['../namespace_ms.html#a16b11be27a8e9362dd122c4d879e01aeaaa8453bcc6cf9cdd8d59eed1ae92759d',1,'Ms']]],
   ['notehead',['NoteHead',['../class_ms_1_1_note_head.html',1,'NoteHead'],['../namespace_ms.html#a16b11be27a8e9362dd122c4d879e01aea7dd76995bc164cfa7b9a099a1f751435',1,'Ms::NOTEHEAD()']]],

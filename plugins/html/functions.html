@@ -23,7 +23,7 @@
   <td id="projectlogo"><img alt="Logo" src="musescore_logo_full.png"/></td>
   <td id="projectalign" style="padding-left: 0.5em;">
    <div id="projectname">MuseScore Plugins
-   &#160;<span id="projectnumber">3.2.2</span>
+   &#160;<span id="projectnumber">3.3 Release Candidate</span>
    </div>
    <div id="projectbrief">Plugins API for MuseScore</div>
   </td>
@@ -78,13 +78,17 @@ $(function() {
 : <a class="el" href="class_ms_1_1_plugin_a_p_i_1_1_plugin_a_p_i.html#af74a2a39923311e439d2dfdc474ffbec">PluginAPI</a>
 </li>
 <li>add()
-: <a class="el" href="class_ms_1_1_plugin_a_p_i_1_1_cursor.html#ad648841187c29afcf273a4037d2cb4ba">Cursor</a>
+: <a class="el" href="class_ms_1_1_plugin_a_p_i_1_1_chord.html#a6f12b506368bb928ae4b2c7761ba2a56">Chord</a>
+, <a class="el" href="class_ms_1_1_plugin_a_p_i_1_1_cursor.html#ad648841187c29afcf273a4037d2cb4ba">Cursor</a>
 </li>
 <li>addNote()
 : <a class="el" href="class_ms_1_1_plugin_a_p_i_1_1_cursor.html#a4231eff7a9a006b0cd5d96e2f43df9f9">Cursor</a>
 </li>
 <li>addText()
 : <a class="el" href="class_ms_1_1_plugin_a_p_i_1_1_score.html#a64012576ca644ffcddde78a87054267f">Score</a>
+</li>
+<li>Align
+: <a class="el" href="class_ms_1_1_plugin_a_p_i_1_1_plugin_a_p_i.html#a2ab59388b035db44211b4a49644d4d06">PluginAPI</a>
 </li>
 <li>annotations
 : <a class="el" href="class_ms_1_1_plugin_a_p_i_1_1_segment.html#a7debc2bde4a3d63b02a279e32ed1cfe1">Segment</a>
@@ -118,6 +122,12 @@ $(function() {
 </li>
 <li>composer
 : <a class="el" href="class_ms_1_1_plugin_a_p_i_1_1_score.html#a5f329ba72e9ec0ba5dcc837e2fed1c17">Score</a>
+</li>
+<li>createPlayEvent()
+: <a class="el" href="class_ms_1_1_plugin_a_p_i_1_1_note.html#ada50f2444384d69d1cba5c6505ed2ee2">Note</a>
+</li>
+<li>createPlayEvents()
+: <a class="el" href="class_ms_1_1_plugin_a_p_i_1_1_score.html#a9186fa1152c3a7cfa31e3f0dee779eb5">Score</a>
 </li>
 <li>curScore
 : <a class="el" href="class_ms_1_1_plugin_a_p_i_1_1_plugin_a_p_i.html#ad2e45485dcc2ae3a54703c7b5e35aa63">PluginAPI</a>
@@ -161,8 +171,15 @@ $(function() {
 <li>elementAt()
 : <a class="el" href="class_ms_1_1_plugin_a_p_i_1_1_segment.html#a6572c76e2a0da32ae31c45c971954680">Segment</a>
 </li>
+<li>elements
+: <a class="el" href="class_ms_1_1_plugin_a_p_i_1_1_measure.html#a57b9543b1da324db238953503fa4d32a">Measure</a>
+, <a class="el" href="class_ms_1_1_plugin_a_p_i_1_1_selection.html#a57b9543b1da324db238953503fa4d32a">Selection</a>
+</li>
 <li>endCmd()
 : <a class="el" href="class_ms_1_1_plugin_a_p_i_1_1_score.html#a9970862e902ca3c0747c5aedf95b8407">Score</a>
+</li>
+<li>endNote
+: <a class="el" href="class_ms_1_1_plugin_a_p_i_1_1_tie.html#acc9b8bc78784f85c397c6e1acabc9dc1">Tie</a>
 </li>
 <li>epitch()
 : <a class="el" href="class_ms_1_1_note.html#a944a035aa3eda31dc4badb2854aab850">Note</a>
@@ -194,6 +211,9 @@ $(function() {
 </li>
 <li>firstSegment
 : <a class="el" href="class_ms_1_1_plugin_a_p_i_1_1_measure.html#a7b0f01a3fd035dc50372bafe8560e122">Measure</a>
+</li>
+<li>firstTiedNote
+: <a class="el" href="class_ms_1_1_plugin_a_p_i_1_1_note.html#af643933e288bf9d61a353864a0b139f6">Note</a>
 </li>
 <li>fraction()
 : <a class="el" href="class_ms_1_1_plugin_a_p_i_1_1_plugin_a_p_i.html#a7056cbff5ffe90ee1f5d3bfac134e137">PluginAPI</a>
@@ -250,6 +270,10 @@ $(function() {
 <li>instrumentId
 : <a class="el" href="class_ms_1_1_plugin_a_p_i_1_1_part.html#aa866d95e37c558e73e242eebddda847e">Part</a>
 </li>
+<li>is()
+: <a class="el" href="class_ms_1_1_plugin_a_p_i_1_1_excerpt.html#a2e2f6e9aa3a93903f908e1948b586a17">Excerpt</a>
+, <a class="el" href="class_ms_1_1_plugin_a_p_i_1_1_score_element.html#a1e927b19c2df8bbf42356944eda5eb19">ScoreElement</a>
+</li>
 </ul>
 
 
@@ -274,8 +298,14 @@ $(function() {
 : <a class="el" href="class_ms_1_1_plugin_a_p_i_1_1_measure.html#aead042cf36f384906716d0c9af12d0e0">Measure</a>
 , <a class="el" href="class_ms_1_1_plugin_a_p_i_1_1_score.html#a663cc974a37e0c9404b4cc9fb1d429f6">Score</a>
 </li>
+<li>lastTiedNote
+: <a class="el" href="class_ms_1_1_plugin_a_p_i_1_1_note.html#ad4ad84f4312bc63477582bf2c09cc46b">Note</a>
+</li>
 <li>LayoutBreak
 : <a class="el" href="class_ms_1_1_plugin_a_p_i_1_1_plugin_a_p_i.html#a7bb4ebc37a7c80e5d7409f34b5b9246b">PluginAPI</a>
+</li>
+<li>len
+: <a class="el" href="class_ms_1_1_plugin_a_p_i_1_1_play_event.html#afed088663f8704004425cdae2120b9b3">PlayEvent</a>
 </li>
 <li>LINE
 : <a class="el" href="class_ms_1_1_layout_break.html#a1d1cfd8ffb84e947f82999c682b666a7ab023460c84f774a219d46ccf4665994c">LayoutBreak</a>
@@ -407,6 +437,12 @@ $(function() {
 <li>offsetY
 : <a class="el" href="class_ms_1_1_plugin_a_p_i_1_1_element.html#aa3a3428649a29793651843147a216e7e">Element</a>
 </li>
+<li>offtime
+: <a class="el" href="class_ms_1_1_plugin_a_p_i_1_1_play_event.html#a64d269d2a9680e3ae439b97da4079e87">PlayEvent</a>
+</li>
+<li>ontime
+: <a class="el" href="class_ms_1_1_plugin_a_p_i_1_1_play_event.html#acf69b9a700c74ee1b34d97e88a37792a">PlayEvent</a>
+</li>
 <li>OrnamentStyle
 : <a class="el" href="class_ms_1_1_m_score.html#a75ce800262bbec6597c8af6908c624ac">MScore</a>
 , <a class="el" href="class_ms_1_1_plugin_a_p_i_1_1_plugin_a_p_i.html#ae02b31ff19d1a70aa1168b5ca76f41c7">PluginAPI</a>
@@ -421,6 +457,9 @@ $(function() {
 <li>pagePos()
 : <a class="el" href="class_ms_1_1_beam.html#a1ee0fd20d552c104d79c8ed86c6c537e">Beam</a>
 </li>
+<li>parent
+: <a class="el" href="class_ms_1_1_plugin_a_p_i_1_1_element.html#a8c11810ecd428c581ea05d5bec3563de">Element</a>
+</li>
 <li>partName
 : <a class="el" href="class_ms_1_1_plugin_a_p_i_1_1_part.html#a7d96d07f660516149ffd29540216682d">Part</a>
 </li>
@@ -432,12 +471,28 @@ $(function() {
 </li>
 <li>pitch
 : <a class="el" href="class_ms_1_1_plugin_a_p_i_1_1_note.html#a05c8b22d2905f7a52fa31b13f85c70f3">Note</a>
+, <a class="el" href="class_ms_1_1_plugin_a_p_i_1_1_play_event.html#a05c8b22d2905f7a52fa31b13f85c70f3">PlayEvent</a>
 </li>
 <li>Placement
 : <a class="el" href="class_ms_1_1_plugin_a_p_i_1_1_plugin_a_p_i.html#aa1b11fe3ca98acfc9ceb86bcf0de3f1c">PluginAPI</a>
 </li>
+<li>playEvents
+: <a class="el" href="class_ms_1_1_plugin_a_p_i_1_1_note.html#a92f8b5e37b6a64985424d9e388d5b07c">Note</a>
+</li>
+<li>playEventType
+: <a class="el" href="class_ms_1_1_plugin_a_p_i_1_1_chord.html#a06498ea3766f7af2e86cb65548153509">Chord</a>
+</li>
+<li>PlayEventType
+: <a class="el" href="class_ms_1_1_plugin_a_p_i_1_1_plugin_a_p_i.html#a036fc62dbe597b14fd9f2ac6c5812744">PluginAPI</a>
+</li>
 <li>pluginType
 : <a class="el" href="class_ms_1_1_plugin_a_p_i_1_1_plugin_a_p_i.html#a5fac96ae051a9f09f99b423019783fdc">PluginAPI</a>
+</li>
+<li>posX
+: <a class="el" href="class_ms_1_1_plugin_a_p_i_1_1_element.html#ae3d717cd280914de7e52ecfd7fad241b">Element</a>
+</li>
+<li>posY
+: <a class="el" href="class_ms_1_1_plugin_a_p_i_1_1_element.html#aee30677d84b882b999c1fd5c86a46954">Element</a>
 </li>
 <li>ppitch()
 : <a class="el" href="class_ms_1_1_note.html#ab14e40eef799a875fb65faf5ff6b28db">Note</a>
@@ -459,7 +514,11 @@ $(function() {
 : <a class="el" href="class_ms_1_1_plugin_a_p_i_1_1_plugin_a_p_i.html#a6b23334a7d21e52116c99bee56048cf5">PluginAPI</a>
 </li>
 <li>remove()
-: <a class="el" href="class_ms_1_1_plugin_a_p_i_1_1_file_i_o.html#a1f9c4a4bd47b7cd9beb431504c5ae46c">FileIO</a>
+: <a class="el" href="class_ms_1_1_plugin_a_p_i_1_1_chord.html#a14653acfc726dd9b82cbd61db0a0be28">Chord</a>
+, <a class="el" href="class_ms_1_1_plugin_a_p_i_1_1_file_i_o.html#a1f9c4a4bd47b7cd9beb431504c5ae46c">FileIO</a>
+</li>
+<li>removeElement()
+: <a class="el" href="class_ms_1_1_plugin_a_p_i_1_1_plugin_a_p_i.html#a558a35762499012a0e32f411bc782fc0">PluginAPI</a>
 </li>
 <li>requiresScore
 : <a class="el" href="class_ms_1_1_plugin_a_p_i_1_1_plugin_a_p_i.html#a1e7fbe5c604cc0e143f744e0b0988222">PluginAPI</a>
@@ -492,6 +551,9 @@ $(function() {
 <li>scores
 : <a class="el" href="class_ms_1_1_plugin_a_p_i_1_1_plugin_a_p_i.html#a47865b59955f589d183f2f8c5e98f89b">PluginAPI</a>
 </li>
+<li>scoreStateChanged()
+: <a class="el" href="class_ms_1_1_plugin_a_p_i_1_1_plugin_a_p_i.html#abae35457be10104c7e74a13320e75946">PluginAPI</a>
+</li>
 <li>SECTION
 : <a class="el" href="class_ms_1_1_layout_break.html#a1d1cfd8ffb84e947f82999c682b666a7acb7227be6a36b93e485b62e3acddae51">LayoutBreak</a>
 </li>
@@ -503,6 +565,9 @@ $(function() {
 </li>
 <li>segmentType
 : <a class="el" href="class_ms_1_1_plugin_a_p_i_1_1_segment.html#a337e196a5cd5639413c13f33f3b55c65">Segment</a>
+</li>
+<li>selection
+: <a class="el" href="class_ms_1_1_plugin_a_p_i_1_1_score.html#a03c42d849f61a07a11f4db791917442e">Score</a>
 </li>
 <li>SELECTION_END
 : <a class="el" href="class_ms_1_1_plugin_a_p_i_1_1_cursor.html#a44441ecb09579acd4a2a27bd8c96b704abaf4793c5487ed4663ae151cb4d5e03f">Cursor</a>
@@ -531,6 +596,9 @@ $(function() {
 <li>startCmd()
 : <a class="el" href="class_ms_1_1_plugin_a_p_i_1_1_score.html#abf31b1d2e931e0fabffa12b13de8d40e">Score</a>
 </li>
+<li>startNote
+: <a class="el" href="class_ms_1_1_plugin_a_p_i_1_1_tie.html#a30daf679315a7ff3acf62e2b46a164c4">Tie</a>
+</li>
 <li>str
 : <a class="el" href="class_ms_1_1_plugin_a_p_i_1_1_fraction_wrapper.html#a288b834f8b483958be715bc77558bf46">FractionWrapper</a>
 </li>
@@ -555,6 +623,12 @@ $(function() {
 </li>
 <li>Tid
 : <a class="el" href="class_ms_1_1_plugin_a_p_i_1_1_plugin_a_p_i.html#a08c40a3baac4c548cfc0e7e21d2c5a65">PluginAPI</a>
+</li>
+<li>tieBack
+: <a class="el" href="class_ms_1_1_plugin_a_p_i_1_1_note.html#ac639c672fd70c51a056330ebdc95ffa4">Note</a>
+</li>
+<li>tieForward
+: <a class="el" href="class_ms_1_1_plugin_a_p_i_1_1_note.html#a0e80d5ecfd748259f86ea2c037a16091">Note</a>
 </li>
 <li>time
 : <a class="el" href="class_ms_1_1_plugin_a_p_i_1_1_cursor.html#ab2d5aa7fce1a14d8bddfb2c333ea9679">Cursor</a>
@@ -581,6 +655,13 @@ $(function() {
 </li>
 <li>type
 : <a class="el" href="class_ms_1_1_plugin_a_p_i_1_1_score_element.html#ac765329451135abec74c45e1897abf26">ScoreElement</a>
+</li>
+</ul>
+
+
+<h3><a id="index_u"></a>- u -</h3><ul>
+<li>userName()
+: <a class="el" href="class_ms_1_1_plugin_a_p_i_1_1_score_element.html#ab98a3e86cd8eb65f0b380dba1bd4976d">ScoreElement</a>
 </li>
 </ul>
 

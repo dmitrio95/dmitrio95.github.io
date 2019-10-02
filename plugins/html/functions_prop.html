@@ -23,7 +23,7 @@
   <td id="projectlogo"><img alt="Logo" src="musescore_logo_full.png"/></td>
   <td id="projectalign" style="padding-left: 0.5em;">
    <div id="projectname">MuseScore Plugins
-   &#160;<span id="projectnumber">3.2.2</span>
+   &#160;<span id="projectnumber">3.3 Release Candidate</span>
    </div>
    <div id="projectbrief">Plugins API for MuseScore</div>
   </td>
@@ -66,6 +66,9 @@ $(function() {
 <h3><a id="index_a"></a>- a -</h3><ul>
 <li>Accidental
 : <a class="el" href="class_ms_1_1_plugin_a_p_i_1_1_plugin_a_p_i.html#af74a2a39923311e439d2dfdc474ffbec">PluginAPI</a>
+</li>
+<li>Align
+: <a class="el" href="class_ms_1_1_plugin_a_p_i_1_1_plugin_a_p_i.html#a2ab59388b035db44211b4a49644d4d06">PluginAPI</a>
 </li>
 <li>annotations
 : <a class="el" href="class_ms_1_1_plugin_a_p_i_1_1_segment.html#a7debc2bde4a3d63b02a279e32ed1cfe1">Segment</a>
@@ -129,6 +132,13 @@ $(function() {
 <li>Element
 : <a class="el" href="class_ms_1_1_plugin_a_p_i_1_1_plugin_a_p_i.html#a5fcfe46c56901e9f3998a72a458e66dc">PluginAPI</a>
 </li>
+<li>elements
+: <a class="el" href="class_ms_1_1_plugin_a_p_i_1_1_measure.html#a57b9543b1da324db238953503fa4d32a">Measure</a>
+, <a class="el" href="class_ms_1_1_plugin_a_p_i_1_1_selection.html#a57b9543b1da324db238953503fa4d32a">Selection</a>
+</li>
+<li>endNote
+: <a class="el" href="class_ms_1_1_plugin_a_p_i_1_1_tie.html#acc9b8bc78784f85c397c6e1acabc9dc1">Tie</a>
+</li>
 <li>excerpts
 : <a class="el" href="class_ms_1_1_plugin_a_p_i_1_1_score.html#a5f1d61829e4b9314767d9bbca61e9032">Score</a>
 </li>
@@ -150,6 +160,9 @@ $(function() {
 </li>
 <li>firstSegment
 : <a class="el" href="class_ms_1_1_plugin_a_p_i_1_1_measure.html#a7b0f01a3fd035dc50372bafe8560e122">Measure</a>
+</li>
+<li>firstTiedNote
+: <a class="el" href="class_ms_1_1_plugin_a_p_i_1_1_note.html#af643933e288bf9d61a353864a0b139f6">Note</a>
 </li>
 </ul>
 
@@ -221,8 +234,14 @@ $(function() {
 : <a class="el" href="class_ms_1_1_plugin_a_p_i_1_1_measure.html#aead042cf36f384906716d0c9af12d0e0">Measure</a>
 , <a class="el" href="class_ms_1_1_plugin_a_p_i_1_1_score.html#a663cc974a37e0c9404b4cc9fb1d429f6">Score</a>
 </li>
+<li>lastTiedNote
+: <a class="el" href="class_ms_1_1_plugin_a_p_i_1_1_note.html#ad4ad84f4312bc63477582bf2c09cc46b">Note</a>
+</li>
 <li>LayoutBreak
 : <a class="el" href="class_ms_1_1_plugin_a_p_i_1_1_plugin_a_p_i.html#a7bb4ebc37a7c80e5d7409f34b5b9246b">PluginAPI</a>
+</li>
+<li>len
+: <a class="el" href="class_ms_1_1_plugin_a_p_i_1_1_play_event.html#afed088663f8704004425cdae2120b9b3">PlayEvent</a>
 </li>
 <li>longName
 : <a class="el" href="class_ms_1_1_plugin_a_p_i_1_1_part.html#aaa84a14238226ec69a761d4ca8333fed">Part</a>
@@ -329,6 +348,12 @@ $(function() {
 <li>offsetY
 : <a class="el" href="class_ms_1_1_plugin_a_p_i_1_1_element.html#aa3a3428649a29793651843147a216e7e">Element</a>
 </li>
+<li>offtime
+: <a class="el" href="class_ms_1_1_plugin_a_p_i_1_1_play_event.html#a64d269d2a9680e3ae439b97da4079e87">PlayEvent</a>
+</li>
+<li>ontime
+: <a class="el" href="class_ms_1_1_plugin_a_p_i_1_1_play_event.html#acf69b9a700c74ee1b34d97e88a37792a">PlayEvent</a>
+</li>
 <li>OrnamentStyle
 : <a class="el" href="class_ms_1_1_plugin_a_p_i_1_1_plugin_a_p_i.html#ae02b31ff19d1a70aa1168b5ca76f41c7">PluginAPI</a>
 </li>
@@ -336,6 +361,9 @@ $(function() {
 
 
 <h3><a id="index_p"></a>- p -</h3><ul>
+<li>parent
+: <a class="el" href="class_ms_1_1_plugin_a_p_i_1_1_element.html#a8c11810ecd428c581ea05d5bec3563de">Element</a>
+</li>
 <li>partName
 : <a class="el" href="class_ms_1_1_plugin_a_p_i_1_1_part.html#a7d96d07f660516149ffd29540216682d">Part</a>
 </li>
@@ -347,12 +375,28 @@ $(function() {
 </li>
 <li>pitch
 : <a class="el" href="class_ms_1_1_plugin_a_p_i_1_1_note.html#a05c8b22d2905f7a52fa31b13f85c70f3">Note</a>
+, <a class="el" href="class_ms_1_1_plugin_a_p_i_1_1_play_event.html#a05c8b22d2905f7a52fa31b13f85c70f3">PlayEvent</a>
 </li>
 <li>Placement
 : <a class="el" href="class_ms_1_1_plugin_a_p_i_1_1_plugin_a_p_i.html#aa1b11fe3ca98acfc9ceb86bcf0de3f1c">PluginAPI</a>
 </li>
+<li>playEvents
+: <a class="el" href="class_ms_1_1_plugin_a_p_i_1_1_note.html#a92f8b5e37b6a64985424d9e388d5b07c">Note</a>
+</li>
+<li>playEventType
+: <a class="el" href="class_ms_1_1_plugin_a_p_i_1_1_chord.html#a06498ea3766f7af2e86cb65548153509">Chord</a>
+</li>
+<li>PlayEventType
+: <a class="el" href="class_ms_1_1_plugin_a_p_i_1_1_plugin_a_p_i.html#a036fc62dbe597b14fd9f2ac6c5812744">PluginAPI</a>
+</li>
 <li>pluginType
 : <a class="el" href="class_ms_1_1_plugin_a_p_i_1_1_plugin_a_p_i.html#a5fac96ae051a9f09f99b423019783fdc">PluginAPI</a>
+</li>
+<li>posX
+: <a class="el" href="class_ms_1_1_plugin_a_p_i_1_1_element.html#ae3d717cd280914de7e52ecfd7fad241b">Element</a>
+</li>
+<li>posY
+: <a class="el" href="class_ms_1_1_plugin_a_p_i_1_1_element.html#aee30677d84b882b999c1fd5c86a46954">Element</a>
 </li>
 <li>prev
 : <a class="el" href="class_ms_1_1_plugin_a_p_i_1_1_segment.html#a39426da9d0c8896c0ef886c3967d90f1">Segment</a>
@@ -392,6 +436,9 @@ $(function() {
 <li>segmentType
 : <a class="el" href="class_ms_1_1_plugin_a_p_i_1_1_segment.html#a337e196a5cd5639413c13f33f3b55c65">Segment</a>
 </li>
+<li>selection
+: <a class="el" href="class_ms_1_1_plugin_a_p_i_1_1_score.html#a03c42d849f61a07a11f4db791917442e">Score</a>
+</li>
 <li>shortName
 : <a class="el" href="class_ms_1_1_plugin_a_p_i_1_1_part.html#ad4f59e6d3678a53ae5dee40045720219">Part</a>
 </li>
@@ -403,6 +450,9 @@ $(function() {
 </li>
 <li>staffIdx
 : <a class="el" href="class_ms_1_1_plugin_a_p_i_1_1_cursor.html#aee268d42c7c97eef8cab06b361fe230a">Cursor</a>
+</li>
+<li>startNote
+: <a class="el" href="class_ms_1_1_plugin_a_p_i_1_1_tie.html#a30daf679315a7ff3acf62e2b46a164c4">Tie</a>
 </li>
 <li>str
 : <a class="el" href="class_ms_1_1_plugin_a_p_i_1_1_fraction_wrapper.html#a288b834f8b483958be715bc77558bf46">FractionWrapper</a>
@@ -422,6 +472,12 @@ $(function() {
 </li>
 <li>Tid
 : <a class="el" href="class_ms_1_1_plugin_a_p_i_1_1_plugin_a_p_i.html#a08c40a3baac4c548cfc0e7e21d2c5a65">PluginAPI</a>
+</li>
+<li>tieBack
+: <a class="el" href="class_ms_1_1_plugin_a_p_i_1_1_note.html#ac639c672fd70c51a056330ebdc95ffa4">Note</a>
+</li>
+<li>tieForward
+: <a class="el" href="class_ms_1_1_plugin_a_p_i_1_1_note.html#a0e80d5ecfd748259f86ea2c037a16091">Note</a>
 </li>
 <li>time
 : <a class="el" href="class_ms_1_1_plugin_a_p_i_1_1_cursor.html#ab2d5aa7fce1a14d8bddfb2c333ea9679">Cursor</a>
