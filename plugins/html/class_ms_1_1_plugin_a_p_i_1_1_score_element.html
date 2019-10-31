@@ -66,6 +66,7 @@ $(function() {
 </div><!-- top -->
 <div class="header">
   <div class="summary">
+<a href="#pub-methods">Public Member Functions</a> &#124;
 <a href="#properties">Properties</a> &#124;
 <a href="class_ms_1_1_plugin_a_p_i_1_1_score_element-members.html">List of all members</a>  </div>
   <div class="headertitle">
@@ -98,6 +99,15 @@ Collaboration diagram for ScoreElement:</div>
 </map>
 <center><span class="legend">[<a href="graph_legend.html">legend</a>]</span></center></div>
 <table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
+Public Member Functions</h2></td></tr>
+<tr class="memitem:ab98a3e86cd8eb65f0b380dba1bd4976d"><td class="memItemLeft" align="right" valign="top">Q_INVOKABLE QString&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ms_1_1_plugin_a_p_i_1_1_score_element.html#ab98a3e86cd8eb65f0b380dba1bd4976d">userName</a> () const</td></tr>
+<tr class="memdesc:ab98a3e86cd8eb65f0b380dba1bd4976d"><td class="mdescLeft">&#160;</td><td class="mdescRight">Human-readable element type name.  <a href="#ab98a3e86cd8eb65f0b380dba1bd4976d">More...</a><br /></td></tr>
+<tr class="separator:ab98a3e86cd8eb65f0b380dba1bd4976d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a1e927b19c2df8bbf42356944eda5eb19"><td class="memItemLeft" align="right" valign="top">Q_INVOKABLE bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ms_1_1_plugin_a_p_i_1_1_score_element.html#a1e927b19c2df8bbf42356944eda5eb19">is</a> (<a class="el" href="class_ms_1_1_plugin_a_p_i_1_1_score_element.html">Ms::PluginAPI::ScoreElement</a> *other)</td></tr>
+<tr class="memdesc:a1e927b19c2df8bbf42356944eda5eb19"><td class="mdescLeft">&#160;</td><td class="mdescRight">Checks whether two variables represent the same object.  <a href="#a1e927b19c2df8bbf42356944eda5eb19">More...</a><br /></td></tr>
+<tr class="separator:a1e927b19c2df8bbf42356944eda5eb19"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="properties"></a>
 Properties</h2></td></tr>
 <tr class="memitem:ac765329451135abec74c45e1897abf26"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ms_1_1_plugin_a_p_i_1_1_score_element.html#ac765329451135abec74c45e1897abf26">type</a></td></tr>
@@ -109,7 +119,57 @@ Properties</h2></td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><p>Base class for most of object wrappers exposed to QML. </p>
-</div><h2 class="groupheader">Property Documentation</h2>
+</div><h2 class="groupheader">Member Function Documentation</h2>
+<a id="a1e927b19c2df8bbf42356944eda5eb19"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a1e927b19c2df8bbf42356944eda5eb19">&#9670;&nbsp;</a></span>is()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">Q_INVOKABLE bool is </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="class_ms_1_1_plugin_a_p_i_1_1_score_element.html">Ms::PluginAPI::ScoreElement</a> *&#160;</td>
+          <td class="paramname"><em>other</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Checks whether two variables represent the same object. </p>
+<dl class="section since"><dt>Since</dt><dd>MuseScore 3.3 </dd></dl>
+
+</div>
+</div>
+<a id="ab98a3e86cd8eb65f0b380dba1bd4976d"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ab98a3e86cd8eb65f0b380dba1bd4976d">&#9670;&nbsp;</a></span>userName()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">QString userName </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Human-readable element type name. </p>
+<dl class="section return"><dt>Returns</dt><dd>Name of the element type, translated according to the current MuseScore locale settings. </dd></dl>
+
+</div>
+</div>
+<h2 class="groupheader">Property Documentation</h2>
 <a id="abc29e461e01cc0c712944f8f47f91331"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#abc29e461e01cc0c712944f8f47f91331">&#9670;&nbsp;</a></span>name</h2>
 
@@ -131,7 +191,7 @@ Properties</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Name of this element's type, not localized. </p>
-<p>Use ScoreElement::userName() to obtain a localized element name suitable for usage in a user interface. </p>
+<p>Use <a class="el" href="class_ms_1_1_plugin_a_p_i_1_1_score_element.html#ab98a3e86cd8eb65f0b380dba1bd4976d" title="Human-readable element type name. ">ScoreElement::userName()</a> to obtain a localized element name suitable for usage in a user interface. </p>
 
 </div>
 </div>

@@ -7,5 +7,6 @@ var searchData=
   ['user3',['USER3',['../namespace_ms.html#aa46ffb71b1b0cd634b2054fa59ec5f90ac5b111077f75f96c354597ce99437fa8',1,'Ms']]],
   ['user4',['USER4',['../namespace_ms.html#aa46ffb71b1b0cd634b2054fa59ec5f90addfba1f666f3f4fbfb597e0d42bff4bd',1,'Ms']]],
   ['user5',['USER5',['../namespace_ms.html#aa46ffb71b1b0cd634b2054fa59ec5f90a69754ab7990c71b7725a42a41c0922d7',1,'Ms']]],
-  ['user6',['USER6',['../namespace_ms.html#aa46ffb71b1b0cd634b2054fa59ec5f90ac12b152e68b6937084505a135f2dd0fb',1,'Ms']]]
+  ['user6',['USER6',['../namespace_ms.html#aa46ffb71b1b0cd634b2054fa59ec5f90ac12b152e68b6937084505a135f2dd0fb',1,'Ms']]],
+  ['username',['userName',['../class_ms_1_1_plugin_a_p_i_1_1_score_element.html#ab98a3e86cd8eb65f0b380dba1bd4976d',1,'Ms::PluginAPI::ScoreElement']]]
 ];
