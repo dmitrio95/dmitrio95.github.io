@@ -15,7 +15,7 @@ var searchData=
   ['noeffectgui',['NoEffectGui',['../class_ms_1_1_no_effect_gui.html',1,'Ms']]],
   ['notation',['Notation',['../class_ms_1_1_notation.html',1,'Ms']]],
   ['notations',['Notations',['../class_ms_1_1_notations.html',1,'Ms']]],
-  ['note',['Note',['../class_ms_1_1_note.html',1,'Ms::Note'],['../class_o_v_e_1_1_note.html',1,'OVE::Note'],['../class_ms_1_1_plugin_a_p_i_1_1_note.html',1,'Ms::PluginAPI::Note']]],
+  ['note',['Note',['../class_ms_1_1_plugin_a_p_i_1_1_note.html',1,'Ms::PluginAPI::Note'],['../class_ms_1_1_note.html',1,'Ms::Note'],['../class_o_v_e_1_1_note.html',1,'OVE::Note']]],
   ['notecontainer',['NoteContainer',['../class_o_v_e_1_1_note_container.html',1,'OVE']]],
   ['notedescription',['NoteDescription',['../struct_bww_1_1_note_description.html',1,'Bww']]],
   ['notedot',['NoteDot',['../class_ms_1_1_note_dot.html',1,'Ms']]],

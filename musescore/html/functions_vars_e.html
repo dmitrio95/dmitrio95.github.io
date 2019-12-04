@@ -23,7 +23,7 @@
   <td id="projectlogo"><img alt="Logo" src="musescore_logo_full.png"/></td>
   <td id="projectalign" style="padding-left: 0.5em;">
    <div id="projectname">MuseScore
-   &#160;<span id="projectnumber">3.2</span>
+   &#160;<span id="projectnumber">3.3.4</span>
    </div>
    <div id="projectbrief">Music composition and notation</div>
   </td>
@@ -70,7 +70,7 @@ $(function() {
 , <a class="el" href="class_ms_1_1_element_list_widget_item.html#a890d4f447b77561b29d8181fa6d4fad7">Ms::ElementListWidgetItem</a>
 , <a class="el" href="class_ms_1_1_inspector_element_base.html#ac1a8d9ba7965dfd23d7cb81f4390ff5a">Ms::InspectorElementBase</a>
 , <a class="el" href="class_ms_1_1_inspector_empty.html#a4da86cd5100089bcb7dc9e72efbb547d">Ms::InspectorEmpty</a>
-, <a class="el" href="struct_ms_1_1_palette_cell_info.html#a2108333789c2112bc0e3c53e1346cc06">Ms::PaletteCellInfo</a>
+, <a class="el" href="class_ms_1_1_link_unlink.html#a2178d45cd76417c859cd1a0fd4d66c59">Ms::LinkUnlink</a>
 , <a class="el" href="class_ms_1_1_plugin_a_p_i_1_1_excerpt.html#a19ee1c023644d0bcced434588130b117">Ms::PluginAPI::Excerpt</a>
 , <a class="el" href="class_ms_1_1_plugin_a_p_i_1_1_score_element.html#a3ad8025a6672e836034d8e1a4fe017fe">Ms::PluginAPI::ScoreElement</a>
 , <a class="el" href="class_ms_1_1_select_dialog.html#ac25f8ad63cd5a6362111f0d8e56860f4">Ms::SelectDialog</a>
@@ -80,9 +80,6 @@ $(function() {
 </li>
 <li>edgeLevel
 : <a class="el" href="struct_ms_1_1_meter_1_1_node.html#a97ef932a4d9b8f7a363a371f4db10cc0">Ms::Meter::Node</a>
-</li>
-<li>editAction
-: <a class="el" href="class_ms_1_1_palette_box_button.html#ab3fd82ceffcd6096b3e73502a54d49f3">Ms::PaletteBoxButton</a>
 </li>
 <li>editButton
 : <a class="el" href="class_ms_1_1_drum_tools.html#a2fcbefd29ffa4aa97402fc909befafcf">Ms::DrumTools</a>
@@ -187,13 +184,18 @@ $(function() {
 , <a class="el" href="class_ms_1_1_show_element_base.html#afa809070ce7b553c862a466dca44b2b7">Ms::ShowElementBase</a>
 </li>
 <li>element
-: <a class="el" href="class_ms_1_1_edit_data.html#a07230d29679583b1e4e23a7bfa4078ec">Ms::EditData</a>
-, <a class="el" href="struct_ms_1_1_palette_cell.html#a0096af214a1201535a6707a7233dfbef">Ms::PaletteCell</a>
+: <a class="el" href="class_ms_1_1_add_element.html#a99c2d0fa14ca1d50f1108ce491da9a59">Ms::AddElement</a>
+, <a class="el" href="class_ms_1_1_change_parent.html#aa1245289024b39492d1f4d6e45472b3e">Ms::ChangeParent</a>
+, <a class="el" href="class_ms_1_1_change_property.html#aa5bab62e7b0858a29571d8d41a041fee">Ms::ChangeProperty</a>
+, <a class="el" href="class_ms_1_1_edit_data.html#a07230d29679583b1e4e23a7bfa4078ec">Ms::EditData</a>
+, <a class="el" href="struct_ms_1_1_palette_cell.html#a0c2dca29b8cb90614ce6ef3197a9c5fd">Ms::PaletteCell</a>
+, <a class="el" href="class_ms_1_1_remove_element.html#ac12db6001add93cb8e496b2df3ec9be0">Ms::RemoveElement</a>
 </li>
 <li>elements
 : <a class="el" href="class_ms_1_1_compound.html#aaeac4b3ff1337b943fc88b9a80eac7b2">Ms::Compound</a>
 , <a class="el" href="struct_ms_1_1_midi_tuplet_1_1_tuplet_data.html#aaaf81a1ecd117fd1ff7a77204bf173a0">Ms::MidiTuplet::TupletData</a>
 , <a class="el" href="class_ms_1_1_swing_1_1_swing_detector.html#a740c68e90a3274155b78d1888172b866">Ms::Swing::SwingDetector</a>
+, <a class="el" href="struct_ms_1_1_undo_macro_1_1_selection_info.html#ae4c2cd7e94b48ba8f4354e252a8618ac">Ms::UndoMacro::SelectionInfo</a>
 </li>
 <li>elementTypeEnum
 : <a class="el" href="class_ms_1_1_plugin_a_p_i_1_1_plugin_a_p_i.html#ad056d444e811c6654426e7e630ba5260">Ms::PluginAPI::PluginAPI</a>
@@ -215,8 +217,15 @@ $(function() {
 <li>end
 : <a class="el" href="class_fluid_s_1_1_sample.html#ac987d6e06245fe5e8ed6d31dbb9d5959">FluidS::Sample</a>
 , <a class="el" href="class_fluid_s_1_1_voice.html#acfde1281267ab38e410ec947ae1877a0">FluidS::Voice</a>
+, <a class="el" href="class_ms_1_1_change_start_end_spanner.html#a77df38564a10881133b03bad3c5ee2eb">Ms::ChangeStartEndSpanner</a>
 , <a class="el" href="struct_ms_1_1_ottava_e.html#aba76c026f08914f03f3bc299bb37da41">Ms::OttavaE</a>
 , <a class="el" href="struct_ms_1_1_text_diff.html#aa38ac5eacb6fbb023e5d6689a445dc85">Ms::TextDiff</a>
+</li>
+<li>endCmdInfo
+: <a class="el" href="class_ms_1_1_qml_plugin_engine.html#a4f304cdf5d0c8f27bc1ba63dfea9c64c">Ms::QmlPluginEngine</a>
+</li>
+<li>endElement
+: <a class="el" href="class_ms_1_1_change_spanner_elements.html#a1a298c2c9c85b5fac768eaca00659d3f">Ms::ChangeSpannerElements</a>
 </li>
 <li>ending
 : <a class="el" href="class_bww_1_1_ms_sc_writer.html#ae4ef93c7c485ca429903955a27cbb618">Bww::MsScWriter</a>
@@ -248,7 +257,8 @@ $(function() {
 : <a class="el" href="class_ms_1_1_seq.html#a8b512e4561231e8c8990137fd5bf84a1">Ms::Seq</a>
 </li>
 <li>engine
-: <a class="el" href="class_svg_generator_private.html#a9f033b3e4123c2ab6265086de8520707">SvgGeneratorPrivate</a>
+: <a class="el" href="class_ms_1_1_qml_dock_widget.html#aac0a995b833ed0c3c48946266ad1ec88">Ms::QmlDockWidget</a>
+, <a class="el" href="class_svg_generator_private.html#a9f033b3e4123c2ab6265086de8520707">SvgGeneratorPrivate</a>
 </li>
 <li>enters
 : <a class="el" href="struct_ms_1_1_power_tab_1_1pt_beat.html#a74d7acbeceafef1c046c867efdaeb8fc">Ms::PowerTab::ptBeat</a>
@@ -300,14 +310,27 @@ $(function() {
 : <a class="el" href="class_ms_1_1_page_format.html#a024e6b7e2158ffd4915a2e285701f1d3">Ms::PageFormat</a>
 </li>
 <li>events
-: <a class="el" href="struct_ms_1_1_named_event_list.html#ab4008cdda5e1d7e265afa68e4d4e109a">Ms::NamedEventList</a>
+: <a class="el" href="class_ms_1_1_change_chord_play_event_type.html#a402a3a94714c584d085bee57a53556a7">Ms::ChangeChordPlayEventType</a>
+, <a class="el" href="class_ms_1_1_change_note_events.html#a2ca8206cbbb127184b9d8867f061c0d6">Ms::ChangeNoteEvents</a>
+, <a class="el" href="struct_ms_1_1_named_event_list.html#ab4008cdda5e1d7e265afa68e4d4e109a">Ms::NamedEventList</a>
 , <a class="el" href="class_ms_1_1_seq.html#aaf1d655ec7b1aa1de03a7cf1d4c7699c">Ms::Seq</a>
 </li>
 <li>eventsEnd
 : <a class="el" href="class_ms_1_1_seq.html#a0cd99e98041fe33d20fbe8fbf6ea36fc">Ms::Seq</a>
 </li>
+<li>evtInStaff
+: <a class="el" href="class_ms_1_1_change_key_sig.html#ae4be4589adebd6a1d9785b12166de372">Ms::ChangeKeySig</a>
+</li>
+<li>excerpt
+: <a class="el" href="class_ms_1_1_add_excerpt.html#a5f33aeeee532176e67b1c1ea95962e1f">Ms::AddExcerpt</a>
+, <a class="el" href="class_ms_1_1_change_excerpt_title.html#a1017b7326eff97460bdedb892985081a">Ms::ChangeExcerptTitle</a>
+, <a class="el" href="class_ms_1_1_remove_excerpt.html#a08b37cc566b9bcc8605da13be4903d4e">Ms::RemoveExcerpt</a>
+</li>
 <li>excerptProperties
 : <a class="el" href="class_ms_1_1_part_channel_settings_link.html#aeb73cbd6e53847599a311437aa3aeab4">Ms::PartChannelSettingsLink</a>
+</li>
+<li>excludePanel
+: <a class="el" href="class_ms_1_1_exclude_palette_cell_filter.html#af787a3b28bd81deca1c302ab7cbc5717">Ms::ExcludePaletteCellFilter</a>
 </li>
 <li>expandedParts
 : <a class="el" href="class_ms_1_1_mixer.html#ac6e79c8d2637edab7449620b32b1e519">Ms::Mixer</a>

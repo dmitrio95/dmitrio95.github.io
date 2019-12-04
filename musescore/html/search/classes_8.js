@@ -4,7 +4,7 @@ var searchData=
   ['hairpin',['Hairpin',['../class_ms_1_1_hairpin.html',1,'Ms']]],
   ['hairpinsegment',['HairpinSegment',['../class_ms_1_1_hairpin_segment.html',1,'Ms']]],
   ['hairpinview',['HairpinView',['../class_ms_1_1_hairpin_view.html',1,'Ms']]],
-  ['harmony',['Harmony',['../class_o_v_e_1_1_harmony.html',1,'OVE::Harmony'],['../class_ms_1_1_harmony.html',1,'Ms::Harmony']]],
+  ['harmony',['Harmony',['../class_ms_1_1_harmony.html',1,'Ms::Harmony'],['../class_o_v_e_1_1_harmony.html',1,'OVE::Harmony']]],
   ['harmonycanvas',['HarmonyCanvas',['../class_ms_1_1_harmony_canvas.html',1,'Ms']]],
   ['harmonyview',['HarmonyView',['../class_ms_1_1_harmony_view.html',1,'Ms']]],
   ['harppedal',['HarpPedal',['../class_o_v_e_1_1_harp_pedal.html',1,'OVE']]],

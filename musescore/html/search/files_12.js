@@ -49,6 +49,8 @@ var searchData=
   ['select_2eh',['select.h',['../select_8h.html',1,'']]],
   ['selectdialog_2ecpp',['selectdialog.cpp',['../selectdialog_8cpp.html',1,'']]],
   ['selectdialog_2eh',['selectdialog.h',['../selectdialog_8h.html',1,'']]],
+  ['selection_2ecpp',['selection.cpp',['../selection_8cpp.html',1,'']]],
+  ['selection_2eh',['selection.h',['../selection_8h.html',1,'']]],
   ['selectionwindow_2ecpp',['selectionwindow.cpp',['../selectionwindow_8cpp.html',1,'']]],
   ['selectionwindow_2eh',['selectionwindow.h',['../selectionwindow_8h.html',1,'']]],
   ['selectnotedialog_2ecpp',['selectnotedialog.cpp',['../selectnotedialog_8cpp.html',1,'']]],

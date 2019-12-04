@@ -23,7 +23,7 @@
   <td id="projectlogo"><img alt="Logo" src="musescore_logo_full.png"/></td>
   <td id="projectalign" style="padding-left: 0.5em;">
    <div id="projectname">MuseScore
-   &#160;<span id="projectnumber">3.2</span>
+   &#160;<span id="projectnumber">3.3.4</span>
    </div>
    <div id="projectbrief">Music composition and notation</div>
   </td>
@@ -72,7 +72,9 @@ $(function() {
 <div class="title">importmxmlpass2.cpp File Reference</div>  </div>
 </div><!--header-->
 <div class="contents">
-<div class="textblock"><code>#include &quot;<a class="el" href="arpeggio_8h_source.html">libmscore/arpeggio.h</a>&quot;</code><br />
+<div class="textblock"><code>#include &lt;memory&gt;</code><br />
+<code>#include &lt;utility&gt;</code><br />
+<code>#include &quot;<a class="el" href="arpeggio_8h_source.html">libmscore/arpeggio.h</a>&quot;</code><br />
 <code>#include &quot;<a class="el" href="accidental_8h_source.html">libmscore/accidental.h</a>&quot;</code><br />
 <code>#include &quot;<a class="el" href="breath_8h_source.html">libmscore/breath.h</a>&quot;</code><br />
 <code>#include &quot;<a class="el" href="chord_8h_source.html">libmscore/chord.h</a>&quot;</code><br />
@@ -105,7 +107,7 @@ $(function() {
 <code>#include &quot;<a class="el" href="stafftext_8h_source.html">libmscore/stafftext.h</a>&quot;</code><br />
 <code>#include &quot;<a class="el" href="sym_8h_source.html">libmscore/sym.h</a>&quot;</code><br />
 <code>#include &quot;<a class="el" href="tempotext_8h_source.html">libmscore/tempotext.h</a>&quot;</code><br />
-<code>#include &quot;<a class="el" href="tie_8h_source.html">libmscore/tie.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="libmscore_2tie_8h_source.html">libmscore/tie.h</a>&quot;</code><br />
 <code>#include &quot;<a class="el" href="timesig_8h_source.html">libmscore/timesig.h</a>&quot;</code><br />
 <code>#include &quot;<a class="el" href="tremolo_8h_source.html">libmscore/tremolo.h</a>&quot;</code><br />
 <code>#include &quot;<a class="el" href="trill_8h_source.html">libmscore/trill.h</a>&quot;</code><br />
@@ -133,9 +135,6 @@ Namespaces</h2></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="func-members"></a>
 Functions</h2></td></tr>
-<tr class="memitem:ab9a5f9ffb33e7efbe4fd1ab0273bcb2c"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_ms.html#ab9a5f9ffb33e7efbe4fd1ab0273bcb2c">Ms::addTupletToChord</a> (ChordRest *cr, Tuplet *&amp;tuplet, bool &amp;tuplImpl, const Fraction &amp;timeMod, const MusicXmlTupletDesc &amp;tupletDesc, const TDuration normalType)</td></tr>
-<tr class="memdesc:ab9a5f9ffb33e7efbe4fd1ab0273bcb2c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Handle tuplet(s) using parse result tupletDesc Tuplets with &lt;actual-notes&gt; and &lt;normal-notes&gt; but without &lt;tuplet&gt; are handled correctly.  <a href="namespace_ms.html#ab9a5f9ffb33e7efbe4fd1ab0273bcb2c">More...</a><br /></td></tr>
-<tr class="separator:ab9a5f9ffb33e7efbe4fd1ab0273bcb2c"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a908ed99fa32e69b3a26094a7809abf99"><td class="memItemLeft" align="right" valign="top">NoteType&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_ms.html#a908ed99fa32e69b3a26094a7809abf99">Ms::graceNoteType</a> (const TDuration duration, const bool slash)</td></tr>
 <tr class="memdesc:a908ed99fa32e69b3a26094a7809abf99"><td class="mdescLeft">&#160;</td><td class="mdescRight">convert duration and slash to grace note type  <a href="namespace_ms.html#a908ed99fa32e69b3a26094a7809abf99">More...</a><br /></td></tr>
 <tr class="separator:a908ed99fa32e69b3a26094a7809abf99"><td class="memSeparator" colspan="2">&#160;</td></tr>

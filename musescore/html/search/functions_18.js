@@ -1,6 +1,6 @@
 var searchData=
 [
-  ['x',['x',['../class_ms_1_1_element.html#a6f850cd0581c46bee4661210b7a7777c',1,'Ms::Element::x()'],['../class_ms_1_1_segment.html#a51315f172c11346e052b282b5053f453',1,'Ms::Segment::x()']]],
+  ['x',['x',['../class_ms_1_1_element.html#a6f850cd0581c46bee4661210b7a7777c',1,'Ms::Element::x()'],['../class_ms_1_1_segment.html#a51315f172c11346e052b282b5053f453',1,'Ms::Segment::x()'],['../class_ms_1_1_qml_native_menu.html#ae0022fb8b84100bef064647738f7ed74',1,'Ms::QmlNativeMenu::x()']]],
   ['x1',['x1',['../class_ms_1_1_omr_measure.html#aba923e55a35d4dba29c23252bb5d6ed6',1,'Ms::OmrMeasure']]],
   ['x2',['x2',['../class_ms_1_1_omr_measure.html#a7f9609246e09f4deb8ecb24be9e1b947',1,'Ms::OmrMeasure']]],
   ['xmag',['xmag',['../class_ms_1_1_ruler.html#a3e0d477702a5c74611ea70375e5e2f21',1,'Ms::Ruler']]],
@@ -15,6 +15,7 @@ var searchData=
   ['xmltext',['xmlText',['../class_ms_1_1_parsed_chord.html#a99b1289be066cf374aee7a15994ef494',1,'Ms::ParsedChord::xmlText()'],['../class_ms_1_1_text_base.html#ac950431355f0bc6b27c2fc4f93e1482c',1,'Ms::TextBase::xmlText()']]],
   ['xmlwriter',['XmlWriter',['../class_ms_1_1_xml_writer.html#a839d94b5bdd5f0b1b5e684823fa2171e',1,'Ms::XmlWriter::XmlWriter(Score *)'],['../class_ms_1_1_xml_writer.html#a0a6c4bec6444dade78d4a7bbd10e5a8e',1,'Ms::XmlWriter::XmlWriter(Score *s, QIODevice *dev)'],['../class_xml_writer.html#a3ae3a8d1e9142ef3b17b7fe9af38c1c8',1,'XmlWriter::XmlWriter(QIODevice *dev)'],['../class_xml_writer.html#ae3462f88219ba977efe6bf4f671d6083',1,'XmlWriter::XmlWriter()']]],
   ['xoffset',['xoffset',['../class_ms_1_1_score_view.html#affd680e8fef37423dcd00caa17d375e5',1,'Ms::ScoreView']]],
+  ['xoffsetchanged',['xOffsetChanged',['../class_ms_1_1_palette_cell_properties_dialog.html#a568258012fe5cd163184138bd816d272',1,'Ms::PaletteCellPropertiesDialog']]],
   ['xover',['xover',['../class_ms_1_1_zita_reverb.html#a190e5f084b3c5edbee884bfe21f7bc6a',1,'Ms::ZitaReverb']]],
   ['xpos',['xpos',['../class_ms_1_1_text_block.html#aad7defcceaa79985f42046738e2a71e2',1,'Ms::TextBlock::xpos()'],['../class_ms_1_1_piano_levels.html#a04ef33ccadd2c9d16519033d870f1c77',1,'Ms::PianoLevels::xpos()'],['../class_ms_1_1_piano_ruler.html#a738a53146574976d27b87ac3901758b4',1,'Ms::PianoRuler::xpos()'],['../class_ms_1_1_ruler.html#ac1039ea139135e19fc9d0fc2650f01dc',1,'Ms::Ruler::xpos()']]],
   ['xposchanged',['xPosChanged',['../class_ms_1_1_omr_view.html#afefcf8c21f4eec0c42c28efaaf4edcc6',1,'Ms::OmrView::xPosChanged()'],['../class_ms_1_1_chord_view.html#aca1d9bc4d282cd6909d67656a1fca62c',1,'Ms::ChordView::xposChanged()'],['../class_ms_1_1_drum_view.html#a274c44de549de37e1de5f1202a4dbc43',1,'Ms::DrumView::xposChanged()']]],

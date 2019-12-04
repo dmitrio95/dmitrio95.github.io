@@ -16,5 +16,6 @@ var searchData=
   ['musescorestyletype',['MuseScoreStyleType',['../namespace_ms.html#a7f5b4597f7a0bd39841ef9e5b578c0f1',1,'Ms']]],
   ['musicdatatype',['MusicDataType',['../namespace_o_v_e.html#a9a8ab7516c8888d011d85712083f2a37',1,'OVE']]],
   ['musicxmlexportbreaks',['MusicxmlExportBreaks',['../namespace_ms.html#a75ce3d0172d5655cd4eaef11ba6fbbb0',1,'Ms']]],
-  ['mxmlstartstop',['MxmlStartStop',['../namespace_ms.html#a11797c297638aad676a2b18ad413cad9',1,'Ms']]]
+  ['mxmlstartstop',['MxmlStartStop',['../namespace_ms.html#a11797c297638aad676a2b18ad413cad9',1,'Ms']]],
+  ['mxmltupletflag',['MxmlTupletFlag',['../namespace_ms.html#a56948ed7259853decaeb4bb65485bbc8',1,'Ms']]]
 ];

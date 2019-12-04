@@ -23,7 +23,7 @@
   <td id="projectlogo"><img alt="Logo" src="musescore_logo_full.png"/></td>
   <td id="projectalign" style="padding-left: 0.5em;">
    <div id="projectname">MuseScore
-   &#160;<span id="projectnumber">3.2</span>
+   &#160;<span id="projectnumber">3.3.4</span>
    </div>
    <div id="projectbrief">Music composition and notation</div>
   </td>
@@ -65,12 +65,14 @@ $(function() {
 
 <h3><a id="index_b"></a>- b -</h3><ul>
 <li>b
-: <a class="el" href="class_ms_1_1_inspector_bar_line.html#afdfc728b034097d12aea3f4ad66cbccb">Ms::InspectorBarLine</a>
+: <a class="el" href="class_ms_1_1_insert_staves.html#ae62c755732eb9a3e75176b926d29e5db">Ms::InsertStaves</a>
+, <a class="el" href="class_ms_1_1_inspector_bar_line.html#afdfc728b034097d12aea3f4ad66cbccb">Ms::InspectorBarLine</a>
 , <a class="el" href="class_ms_1_1_inspector_beam.html#a6e3a05e20a15afcd798bf7769766eff5">Ms::InspectorBeam</a>
 , <a class="el" href="class_ms_1_1_inspector_bracket.html#ae0828c209bb0acc73cb896785f3cfdad">Ms::InspectorBracket</a>
 , <a class="el" href="class_ms_1_1_inspector_break.html#ad52cf75fe8cfce48391c00267e80ec92">Ms::InspectorBreak</a>
 , <a class="el" href="class_ms_1_1_inspector_image.html#ac79a3f886fbeb2ba94622867e1548c0d">Ms::InspectorImage</a>
 , <a class="el" href="class_ms_1_1_inspector_lasso.html#aae7e95a3b05f4dee92e639178af668d9">Ms::InspectorLasso</a>
+, <a class="el" href="class_ms_1_1_remove_staves.html#aa2bf0c8bed2922dd23a5f222b74b9b84">Ms::RemoveStaves</a>
 , <a class="el" href="class_ms_1_1_transposable_obj.html#aab243e7920676545d220d98508686525">Ms::TransposableObj</a>
 </li>
 <li>b0
@@ -201,11 +203,11 @@ $(function() {
 <li>base
 : <a class="el" href="class_ms_1_1_key_canvas.html#a55fb4f88c94e270da38e5725cc65c8e8">Ms::KeyCanvas</a>
 </li>
+<li>baseTpc
+: <a class="el" href="class_ms_1_1_transpose_harmony.html#a92317d24d31b22d73a91ae90f96852b3">Ms::TransposeHarmony</a>
+</li>
 <li>basic
 : <a class="el" href="struct_ms_1_1_tempo_pattern.html#af35ce6e4e972c09c2d94710287f7621a">Ms::TempoPattern</a>
-</li>
-<li>basicWorkspaceTranslatableName
-: <a class="el" href="class_ms_1_1_workspace.html#a357800e2fd5ade614cd27f40484c6ebc">Ms::Workspace</a>
 </li>
 <li>bass
 : <a class="el" href="struct_ms_1_1_b_b_chord.html#acdba98b6d558b7758791fcea41cd66ec">Ms::BBChord</a>
@@ -374,6 +376,8 @@ $(function() {
 </li>
 <li>bend
 : <a class="el" href="class_ms_1_1_bend_properties.html#ab4f8758cfa8d6078bccb0decedc09548">Ms::BendProperties</a>
+, <a class="el" href="class_ms_1_1_change_bend.html#aa7beaac2dfb5dcd4f5d710f3e59225f5">Ms::ChangeBend</a>
+, <a class="el" href="class_ms_1_1_change_tremolo_bar.html#a8080f126c50806d139210df375dba3a4">Ms::ChangeTremoloBar</a>
 , <a class="el" href="struct_ms_1_1_power_tab_1_1pt_note.html#a0fc7f4d4101547ed2a9da172f8d97c23">Ms::PowerTab::ptNote</a>
 , <a class="el" href="class_ms_1_1_tremolo_bar_properties.html#a865df72b0c4a957e96ea4b07bfdef5b9">Ms::TremoloBarProperties</a>
 </li>
@@ -410,6 +414,9 @@ $(function() {
 <li>bLeft
 : <a class="el" href="class_ms_1_1_volta_obj.html#a73e331019b9a8d9d830c8c7b0f1d5d86">Ms::VoltaObj</a>
 </li>
+<li>blockUpdateWorkspaces
+: <a class="el" href="class_ms_1_1_workspace_combo_box.html#a621e484654dabe4d48091fd0a730f1b5">Ms::WorkspaceComboBox</a>
+</li>
 <li>body
 : <a class="el" href="struct_ms_1_1_ornament_excursion.html#a628d5656122bf2f6c4e25d7d15e24347">Ms::OrnamentExcursion</a>
 , <a class="el" href="class_svg_paint_engine_private.html#a3a225db0714a90a3a815ccfc9d8730be">SvgPaintEnginePrivate</a>
@@ -445,7 +452,8 @@ $(function() {
 : <a class="el" href="struct_ms_1_1_export_ly_1_1lybrackets.html#a38996e6b60ee47f7d67d7a67e3fab08e">Ms::ExportLy::lybrackets</a>
 </li>
 <li>bracket
-: <a class="el" href="class_ms_1_1_instrument_template.html#a384eb2474d6f8ca51a06dbc081824eb9">Ms::InstrumentTemplate</a>
+: <a class="el" href="class_ms_1_1_change_bracket_type.html#ad87d5d090c9fb3495aac280203a5fca6">Ms::ChangeBracketType</a>
+, <a class="el" href="class_ms_1_1_instrument_template.html#a384eb2474d6f8ca51a06dbc081824eb9">Ms::InstrumentTemplate</a>
 , <a class="el" href="struct_ms_1_1_music_xml_tuplet_desc.html#acf68b4653d089100b23d194906cdae05">Ms::MusicXmlTupletDesc</a>
 </li>
 <li>bracketL

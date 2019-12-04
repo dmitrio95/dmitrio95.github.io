@@ -23,7 +23,7 @@
   <td id="projectlogo"><img alt="Logo" src="musescore_logo_full.png"/></td>
   <td id="projectalign" style="padding-left: 0.5em;">
    <div id="projectname">MuseScore
-   &#160;<span id="projectnumber">3.2</span>
+   &#160;<span id="projectnumber">3.3.4</span>
    </div>
    <div id="projectbrief">Music composition and notation</div>
   </td>
@@ -66,7 +66,9 @@ $(function() {
 </div><!-- top -->
 <div class="header">
   <div class="summary">
-<a href="#func-members">Functions</a>  </div>
+<a href="#namespaces">Namespaces</a> &#124;
+<a href="#func-members">Functions</a> &#124;
+<a href="#var-members">Variables</a>  </div>
   <div class="headertitle">
 <div class="title">musescore.cpp File Reference</div>  </div>
 </div><!--header-->
@@ -75,7 +77,6 @@ $(function() {
 <code>#include &quot;<a class="el" href="loginmanager_8h_source.html">network/loginmanager.h</a>&quot;</code><br />
 <code>#include &quot;<a class="el" href="uploadscoredialog_8h_source.html">uploadscoredialog.h</a>&quot;</code><br />
 <code>#include &lt;QStyleFactory&gt;</code><br />
-<code>#include &quot;<a class="el" href="palettebox_8h_source.html">palettebox.h</a>&quot;</code><br />
 <code>#include &quot;config.h&quot;</code><br />
 <code>#include &quot;<a class="el" href="musescore_8h_source.html">musescore.h</a>&quot;</code><br />
 <code>#include &quot;<a class="el" href="scoreview_8h_source.html">scoreview.h</a>&quot;</code><br />
@@ -97,6 +98,9 @@ $(function() {
 <code>#include &quot;<a class="el" href="mixer_8h_source.html">mixer.h</a>&quot;</code><br />
 <code>#include &quot;<a class="el" href="selectionwindow_8h_source.html">selectionwindow.h</a>&quot;</code><br />
 <code>#include &quot;<a class="el" href="palette_8h_source.html">palette.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="palettemodel_8h_source.html">palette/palettemodel.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="palettewidget_8h_source.html">palette/palettewidget.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="paletteworkspace_8h_source.html">palette/paletteworkspace.h</a>&quot;</code><br />
 <code>#include &quot;<a class="el" href="libmscore_2part_8h_source.html">libmscore/part.h</a>&quot;</code><br />
 <code>#include &quot;<a class="el" href="drumset_8h_source.html">libmscore/drumset.h</a>&quot;</code><br />
 <code>#include &quot;<a class="el" href="instrtemplate_8h_source.html">libmscore/instrtemplate.h</a>&quot;</code><br />
@@ -128,6 +132,7 @@ $(function() {
 <code>#include &quot;<a class="el" href="pianotools_8h_source.html">pianotools.h</a>&quot;</code><br />
 <code>#include &quot;<a class="el" href="mediadialog_8h_source.html">mediadialog.h</a>&quot;</code><br />
 <code>#include &quot;<a class="el" href="workspace_8h_source.html">workspace.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="workspacecombobox_8h_source.html">workspacecombobox.h</a>&quot;</code><br />
 <code>#include &quot;<a class="el" href="selectdialog_8h_source.html">selectdialog.h</a>&quot;</code><br />
 <code>#include &quot;<a class="el" href="selectnotedialog_8h_source.html">selectnotedialog.h</a>&quot;</code><br />
 <code>#include &quot;<a class="el" href="transposedialog_8h_source.html">transposedialog.h</a>&quot;</code><br />
@@ -172,12 +177,63 @@ $(function() {
 <code>#include &quot;thirdparty/qzip/qzipreader_p.h&quot;</code><br />
 <code>#include &quot;<a class="el" href="auto_updater_8h_source.html">sparkle/autoUpdater.h</a>&quot;</code><br />
 </div><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="namespaces"></a>
+Namespaces</h2></td></tr>
+<tr class="memitem:namespace_ms"><td class="memItemLeft" align="right" valign="top"> &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_ms.html">Ms</a></td></tr>
+<tr class="memdesc:namespace_ms"><td class="mdescLeft">&#160;</td><td class="mdescRight"><br /></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="func-members"></a>
 Functions</h2></td></tr>
-<tr class="memitem:af8f9444c9fa41c9766b70a86926ee3b8"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="musescore_8cpp.html#af8f9444c9fa41c9766b70a86926ee3b8">Q_LOGGING_CATEGORY</a> (undoRedo, &quot;undoRedo&quot;, QtCriticalMsg) namespace Ms</td></tr>
-<tr class="separator:af8f9444c9fa41c9766b70a86926ee3b8"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a3b761dbd6229b853d4c07c660fa9f289"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="musescore_8cpp.html#a3b761dbd6229b853d4c07c660fa9f289">Q_LOGGING_CATEGORY</a> (undoRedo, &quot;undoRedo&quot;, QtCriticalMsg)</td></tr>
+<tr class="separator:a3b761dbd6229b853d4c07c660fa9f289"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab06eb03041a386b66a6dcb7f858294b6"><td class="memItemLeft" align="right" valign="top">QString&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_ms.html#ab06eb03041a386b66a6dcb7f858294b6">Ms::getSharePath</a> ()</td></tr>
+<tr class="separator:ab06eb03041a386b66a6dcb7f858294b6"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a8f4795f41dfe1192e44fc499cff56018"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_ms.html#a8f4795f41dfe1192e44fc499cff56018">Ms::updateExternalValuesFromPreferences</a> ()</td></tr>
+<tr class="separator:a8f4795f41dfe1192e44fc499cff56018"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a7779ff1bbc50459c3781e1a8a43010ef"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_ms.html#a7779ff1bbc50459c3781e1a8a43010ef">Ms::loadTranslation</a> (QString filename, QString _localeName)</td></tr>
+<tr class="separator:a7779ff1bbc50459c3781e1a8a43010ef"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9377d7e042b62b84d61fe593ab3dc1ce"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_ms.html#a9377d7e042b62b84d61fe593ab3dc1ce">Ms::setMscoreLocale</a> (QString _localeName)</td></tr>
+<tr class="separator:a9377d7e042b62b84d61fe593ab3dc1ce"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a463a6d7e3bf053a648b899c8c1ba2621"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_ms_1_1_master_synthesizer.html">MasterSynthesizer</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_ms.html#a463a6d7e3bf053a648b899c8c1ba2621">Ms::synthesizerFactory</a> ()</td></tr>
+<tr class="separator:a463a6d7e3bf053a648b899c8c1ba2621"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad1ad21ee88aedd25d4bf1766c69895d4"><td class="memItemLeft" align="right" valign="top">const char *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_ms.html#ad1ad21ee88aedd25d4bf1766c69895d4">Ms::stateName</a> (<a class="el" href="namespace_ms.html#aba304e35acf732434f3c3d8b72562885">ScoreState</a>)</td></tr>
+<tr class="separator:ad1ad21ee88aedd25d4bf1766c69895d4"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a1f566bc5a26db034c377e662d44f7809"><td class="memItemLeft" align="right" valign="top">QRectF&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_ms.html#a1f566bc5a26db034c377e662d44f7809">Ms::drawHandle</a> (QPainter &amp;p, const QPointF &amp;pos, bool active)</td></tr>
+<tr class="separator:a1f566bc5a26db034c377e662d44f7809"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ac00d4b4a051a1916f9cb7d686f2a0012"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="musescore_8cpp.html#ac00d4b4a051a1916f9cb7d686f2a0012">main</a> (int argc, char *av[])</td></tr>
 <tr class="separator:ac00d4b4a051a1916f9cb7d686f2a0012"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="var-members"></a>
+Variables</h2></td></tr>
+<tr class="memitem:ac7073386f0fcf23e13acd48424729284"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_ms.html#ac7073386f0fcf23e13acd48424729284">Ms::processJob</a> = false</td></tr>
+<tr class="separator:ac7073386f0fcf23e13acd48424729284"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a44fe5e98b0807a1b73ab67296f299e28"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_ms.html#a44fe5e98b0807a1b73ab67296f299e28">Ms::externalIcons</a> = false</td></tr>
+<tr class="separator:a44fe5e98b0807a1b73ab67296f299e28"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac5459107b7f0fb741b79c9783d8edc20"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_ms.html#ac5459107b7f0fb741b79c9783d8edc20">Ms::exportScoreParts</a> = false</td></tr>
+<tr class="separator:ac5459107b7f0fb741b79c9783d8edc20"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:acf5f1626fc291c9732ffef67fd8f240d"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_ms.html#acf5f1626fc291c9732ffef67fd8f240d">Ms::exportScoreMedia</a> = false</td></tr>
+<tr class="separator:acf5f1626fc291c9732ffef67fd8f240d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af5b1c76cde7dba13f1c98872f0273243"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_ms.html#af5b1c76cde7dba13f1c98872f0273243">Ms::exportScoreMeta</a> = false</td></tr>
+<tr class="separator:af5b1c76cde7dba13f1c98872f0273243"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:adef8a1ad246bfbf639e6b613b5afd5ed"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_ms.html#adef8a1ad246bfbf639e6b613b5afd5ed">Ms::exportScoreMp3</a> = false</td></tr>
+<tr class="separator:adef8a1ad246bfbf639e6b613b5afd5ed"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad46070d3757688094ff3bec5d450769d"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_ms.html#ad46070d3757688094ff3bec5d450769d">Ms::exportScorePartsPdf</a> = false</td></tr>
+<tr class="separator:ad46070d3757688094ff3bec5d450769d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a646aa42b020e5180f7274372e9e32b24"><td class="memItemLeft" align="right" valign="top">QString&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_ms.html#a646aa42b020e5180f7274372e9e32b24">Ms::localeName</a></td></tr>
+<tr class="separator:a646aa42b020e5180f7274372e9e32b24"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a2f2b472d6bffb39bd876a7ca6b58cbd3"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_ms.html#a2f2b472d6bffb39bd876a7ca6b58cbd3">Ms::deletePreferences</a> = false</td></tr>
+<tr class="separator:a2f2b472d6bffb39bd876a7ca6b58cbd3"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a2d30054a5debd42236450014fb1a7d8a"><td class="memItemLeft" align="right" valign="top">QString&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_ms.html#a2d30054a5debd42236450014fb1a7d8a">Ms::styleName</a></td></tr>
+<tr class="separator:a2d30054a5debd42236450014fb1a7d8a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:addc0c1c84493b29580209e7a22110c30"><td class="memItemLeft" align="right" valign="top">QErrorMessage *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_ms.html#addc0c1c84493b29580209e7a22110c30">Ms::errorMessage</a></td></tr>
+<tr class="separator:addc0c1c84493b29580209e7a22110c30"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:afc86ab68fbdf770193f6be4a9f43f4c0"><td class="memItemLeft" align="right" valign="top">const char *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_ms.html#afc86ab68fbdf770193f6be4a9f43f4c0">Ms::voiceActions</a> [] = { &quot;voice-1&quot;, &quot;voice-2&quot;, &quot;voice-3&quot;, &quot;voice-4&quot; }</td></tr>
+<tr class="separator:afc86ab68fbdf770193f6be4a9f43f4c0"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a64c53cd6f48515f6fb54f8f0483256a9"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_ms.html#a64c53cd6f48515f6fb54f8f0483256a9">Ms::mscoreFirstStart</a> = false</td></tr>
+<tr class="separator:a64c53cd6f48515f6fb54f8f0483256a9"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a6b39fe243d359623fd8bca0bee88023c"><td class="memItemLeft" align="right" valign="top">TextPalette *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_ms.html#a6b39fe243d359623fd8bca0bee88023c">Ms::textPalette</a></td></tr>
+<tr class="separator:a6b39fe243d359623fd8bca0bee88023c"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <h2 class="groupheader">Function Documentation</h2>
 <a id="ac00d4b4a051a1916f9cb7d686f2a0012"></a>
@@ -208,8 +264,8 @@ Functions</h2></td></tr>
 
 </div>
 </div>
-<a id="af8f9444c9fa41c9766b70a86926ee3b8"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#af8f9444c9fa41c9766b70a86926ee3b8">&#9670;&nbsp;</a></span>Q_LOGGING_CATEGORY()</h2>
+<a id="a3b761dbd6229b853d4c07c660fa9f289"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a3b761dbd6229b853d4c07c660fa9f289">&#9670;&nbsp;</a></span>Q_LOGGING_CATEGORY()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -239,7 +295,6 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>used from javascript in start center webview </p>
 
 </div>
 </div>

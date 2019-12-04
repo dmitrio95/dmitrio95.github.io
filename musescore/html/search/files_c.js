@@ -59,6 +59,8 @@ var searchData=
   ['mscoreview_2eh',['mscoreview.h',['../mscoreview_8h.html',1,'']]],
   ['mslider_2ecpp',['mslider.cpp',['../mslider_8cpp.html',1,'']]],
   ['mslider_2eh',['mslider.h',['../mslider_8h.html',1,'']]],
+  ['msqmlengine_2ecpp',['msqmlengine.cpp',['../msqmlengine_8cpp.html',1,'']]],
+  ['msqmlengine_2eh',['msqmlengine.h',['../msqmlengine_8h.html',1,'']]],
   ['msynthesizer_2ecpp',['msynthesizer.cpp',['../msynthesizer_8cpp.html',1,'']]],
   ['msynthesizer_2eh',['msynthesizer.h',['../msynthesizer_8h.html',1,'']]],
   ['musedata_2ecpp',['musedata.cpp',['../musedata_8cpp.html',1,'']]],

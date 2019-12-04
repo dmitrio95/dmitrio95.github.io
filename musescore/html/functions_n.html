@@ -23,7 +23,7 @@
   <td id="projectlogo"><img alt="Logo" src="musescore_logo_full.png"/></td>
   <td id="projectalign" style="padding-left: 0.5em;">
    <div id="projectname">MuseScore
-   &#160;<span id="projectnumber">3.2</span>
+   &#160;<span id="projectnumber">3.3.4</span>
    </div>
    <div id="projectbrief">Music composition and notation</div>
   </td>
@@ -68,7 +68,7 @@ $(function() {
 : <a class="el" href="class_ms_1_1_inspector_note.html#a498a446d5cc1bdb035fbdf85b94a1125">Ms::InspectorNote</a>
 </li>
 <li>N
-: <a class="el" href="class_ms_1_1_play_panel.html#ab0843da65dfafd3b78363afa3120050d">Ms::PlayPanel</a>
+: <a class="el" href="class_ms_1_1_master_synthesizer.html#ae5387c942956e061414ebe087b076a28">Ms::MasterSynthesizer</a>
 </li>
 <li>n
 : <a class="el" href="class_ms_1_1_select_note_dialog.html#affdcb5da4e6badde6fb04dba14cda4d3">Ms::SelectNoteDialog</a>
@@ -104,6 +104,7 @@ $(function() {
 , <a class="el" href="class_meter_slider_plugin.html#ab5bba5bd785cc1f419547adee556314f">MeterSliderPlugin</a>
 , <a class="el" href="struct_midi_instrument.html#a8ce822492a03c9033b1ed71fd47f70d6">MidiInstrument</a>
 , <a class="el" href="class_midi_pan_knob_plugin.html#acb098c71e4b3e01166245fa77fd62a27">MidiPanKnobPlugin</a>
+, <a class="el" href="class_ms_1_1_add_element.html#a2179741699322a5dec8cc748f8132359">Ms::AddElement</a>
 , <a class="el" href="struct_ms_1_1_bagpipe_embellishment_info.html#a49ab47e6204558027f6c6e0d5476be5a">Ms::BagpipeEmbellishmentInfo</a>
 , <a class="el" href="struct_ms_1_1_bagpipe_note_info.html#aaf6f3286fbd8d438128c6ec4dc8c7744">Ms::BagpipeNoteInfo</a>
 , <a class="el" href="struct_ms_1_1_bar_line_table_item.html#add06e8be15d69dfe5c1c79c13dced826">Ms::BarLineTableItem</a>
@@ -146,6 +147,7 @@ $(function() {
 , <a class="el" href="struct_ms_1_1_ottava_default.html#a5bf90b7b1d4f398f363d644494672255">Ms::OttavaDefault</a>
 , <a class="el" href="class_ms_1_1_palette.html#a9c192041ca702452de352663b3eb980d">Ms::Palette</a>
 , <a class="el" href="struct_ms_1_1_palette_cell.html#a2d0ea85093da6087588ff34fdf9fe678">Ms::PaletteCell</a>
+, <a class="el" href="class_ms_1_1_palette_panel.html#a297df05dc760b53216f26790bcce2024">Ms::PalettePanel</a>
 , <a class="el" href="struct_ms_1_1_paper_size.html#a02f4d709356b6b7f5e4d78bde07fec93">Ms::PaperSize</a>
 , <a class="el" href="struct_ms_1_1_par_descr.html#a3520ee20e9d3a2774d8e39bc45a723ba">Ms::ParDescr</a>
 , <a class="el" href="class_ms_1_1_parsed_chord.html#a3f92697450baff01a4cc21e45e592f6a">Ms::ParsedChord</a>
@@ -161,6 +163,7 @@ $(function() {
 , <a class="el" href="struct_ms_1_1_power_tab_1_1_track_info.html#a2c357e0060e1cffedfec94646969216b">Ms::PowerTab::TrackInfo</a>
 , <a class="el" href="class_ms_1_1_preference_item.html#ae46765f0ccf1052dcb9f562441c610be">Ms::PreferenceItem</a>
 , <a class="el" href="struct_ms_1_1_property_meta_data.html#a1598c8223dc3a4019fe0ff14f9588631">Ms::PropertyMetaData</a>
+, <a class="el" href="class_ms_1_1_remove_element.html#a45261e472b3646a2b99b1dbade4e0146">Ms::RemoveElement</a>
 , <a class="el" href="class_ms_1_1_score_element.html#ad80dda73306d6b784b0cac4626f797d4">Ms::ScoreElement</a>
 , <a class="el" href="class_ms_1_1_score_font.html#a503d4583237625b3e7979ba158d9b6c8">Ms::ScoreFont</a>
 , <a class="el" href="struct_ms_1_1_score_version.html#ab95863e851527c4ede354cf166eb5b90">Ms::ScoreVersion</a>
@@ -173,6 +176,7 @@ $(function() {
 , <a class="el" href="struct_ms_1_1_text_style_map.html#aa1b1834c69199abc0de76f989ace645f">Ms::TextStyleMap</a>
 , <a class="el" href="struct_ms_1_1_text_style_name.html#a9ec4ab425dc9bb85ee620d3cc519000c">Ms::TextStyleName</a>
 , <a class="el" href="struct_ms_1_1_trill_table_item.html#a917033cb35784be61ab148334deb9630">Ms::TrillTableItem</a>
+, <a class="el" href="class_ms_1_1_undo_command.html#acdd15da86ef5878bc98ef2be084cc4be">Ms::UndoCommand</a>
 , <a class="el" href="struct_ms_1_1_vibrato_table_item.html#ad9ce73b6d26f14bfd5b1fce70faf0a16">Ms::VibratoTableItem</a>
 , <a class="el" href="class_ms_1_1_workspace.html#a74db7fb48dd6656eb5f097a0ddfca43e">Ms::Workspace</a>
 , <a class="el" href="class_ms_1_1_zita_reverb.html#a726f57e72aba996c0956bdb692105990">Ms::ZitaReverb</a>
@@ -224,6 +228,8 @@ $(function() {
 </li>
 <li>nameChanged()
 : <a class="el" href="class_ms_1_1_edit_drumset.html#a2e756adda7434027dc2e13d678139685">Ms::EditDrumset</a>
+, <a class="el" href="class_ms_1_1_palette_cell_properties_dialog.html#a761a3de4cfce2828c910f5c4137eefef">Ms::PaletteCellPropertiesDialog</a>
+, <a class="el" href="class_ms_1_1_palette_properties_dialog.html#a7a9e5cc7b61fef2400c35bb2ced048be">Ms::PalettePropertiesDialog</a>
 </li>
 <li>nameEdited()
 : <a class="el" href="class_ms_1_1_edit_staff_type.html#a0157b5612c82e5d446ebce2884d03632">Ms::EditStaffType</a>
@@ -250,11 +256,8 @@ $(function() {
 <li>nameToWidget
 : <a class="el" href="class_ms_1_1_tour.html#aba95c572867b4ea361b66660522565fa">Ms::Tour</a>
 </li>
-<li>navigation()
-: <a class="el" href="class_ms_1_1_palette_box.html#affac0510358be3fb692066011a65dcac">Ms::PaletteBox</a>
-</li>
 <li>navigator()
-: <a class="el" href="class_ms_1_1_muse_score.html#aa778c7ec5b3b6328bac8ca4d32bea257">Ms::MuseScore</a>
+: <a class="el" href="class_ms_1_1_muse_score.html#a05b9c9538fb6ba3a280fbc52504aef1c">Ms::MuseScore</a>
 </li>
 <li>Navigator()
 : <a class="el" href="class_ms_1_1_navigator.html#af8f08e876a931dd292da1b1961bad68f">Ms::Navigator</a>
@@ -274,6 +277,9 @@ $(function() {
 <li>nBarDistY
 : <a class="el" href="class_ms_1_1_capella.html#a8fc26790639340a7468bbd0106ac06cc">Ms::Capella</a>
 </li>
+<li>ncells()
+: <a class="el" href="class_ms_1_1_palette_panel.html#ae667a906d3b8231502a539127f4077de">Ms::PalettePanel</a>
+</li>
 <li>nChanged()
 : <a class="el" href="class_ms_1_1_time_dialog.html#aa839ae8a9b0b9e284614b3201f0c5ea6">Ms::TimeDialog</a>
 </li>
@@ -288,6 +294,9 @@ $(function() {
 </li>
 <li>nDrumset
 : <a class="el" href="class_ms_1_1_edit_drumset.html#ad50f55bed753f23028c073da2772b063">Ms::EditDrumset</a>
+</li>
+<li>ne
+: <a class="el" href="class_ms_1_1_plugin_a_p_i_1_1_play_event.html#a3cddbc2493ba888703df8bdb6b36bd17">Ms::PluginAPI::PlayEvent</a>
 </li>
 <li>needCommit
 : <a class="el" href="class_ms_1_1_editor.html#a5ed01bd72ab0a6bece50f90280370e21">Ms::Editor</a>
@@ -315,7 +324,7 @@ $(function() {
 : <a class="el" href="class_ms_1_1_muse_score.html#a4db7b0d464b6b1f3d8d68dbd3e557fb2">Ms::MuseScore</a>
 </li>
 <li>networkManager()
-: <a class="el" href="class_ms_1_1_muse_score.html#ade0c20f8e47211a9ba72d577d5245774">Ms::MuseScore</a>
+: <a class="el" href="class_ms_1_1_muse_score.html#a0da1b3d9701edd39f5f79f70346fa02e">Ms::MuseScore</a>
 , <a class="el" href="class_ms_1_1_plugin_a_p_i_1_1_score_view.html#a50708be279ec3faab737abb26bdfb5d9">Ms::PluginAPI::ScoreView</a>
 </li>
 <li>new_toolbars
@@ -324,8 +333,14 @@ $(function() {
 <li>newAccidentalsPalette()
 : <a class="el" href="class_ms_1_1_muse_score.html#a1db0d757ea23b5b045d093a9ca76f31c">Ms::MuseScore</a>
 </li>
+<li>newAccidentalsPalettePanel()
+: <a class="el" href="class_ms_1_1_muse_score.html#aef2a2d18fc422072628295c3e71b4f6f">Ms::MuseScore</a>
+</li>
 <li>newAccordionPalette()
 : <a class="el" href="class_ms_1_1_muse_score.html#a355b29f1de3142856d115006d0fff885">Ms::MuseScore</a>
+</li>
+<li>newAccordionPalettePanel()
+: <a class="el" href="class_ms_1_1_muse_score.html#a8170b0cc0da93644385b21cebe2803bd">Ms::MuseScore</a>
 </li>
 <li>newAllClicked()
 : <a class="el" href="class_ms_1_1_excerpts_dialog.html#ade382c20bc50b55ac23ea92bd86b20b0">Ms::ExcerptsDialog</a>
@@ -333,29 +348,56 @@ $(function() {
 <li>newArpeggioPalette()
 : <a class="el" href="class_ms_1_1_muse_score.html#a1c63c1a71fad10a098bf6739a7f87607">Ms::MuseScore</a>
 </li>
+<li>newArpeggioPalettePanel()
+: <a class="el" href="class_ms_1_1_muse_score.html#a476e73543898011b899732cb026709f8">Ms::MuseScore</a>
+</li>
 <li>newArticulationsPalette()
 : <a class="el" href="class_ms_1_1_muse_score.html#a738d9cad7b56703fb4ab9c8173529ecf">Ms::MuseScore</a>
+</li>
+<li>newArticulationsPalettePanel()
+: <a class="el" href="class_ms_1_1_muse_score.html#a831b378697c532a1e1d46f39d9861474">Ms::MuseScore</a>
 </li>
 <li>newBagpipeEmbellishmentPalette()
 : <a class="el" href="class_ms_1_1_muse_score.html#a0581af5ec17bdc065767b9ca0a8bda4d">Ms::MuseScore</a>
 </li>
+<li>newBagpipeEmbellishmentPalettePanel()
+: <a class="el" href="class_ms_1_1_muse_score.html#a87a694166d519af50117dcd9c6a7f41b">Ms::MuseScore</a>
+</li>
 <li>newBarLinePalette()
 : <a class="el" href="class_ms_1_1_muse_score.html#a20edd1fe42d2c4db78d98ebae49e932b">Ms::MuseScore</a>
+</li>
+<li>newBarLinePalettePanel()
+: <a class="el" href="class_ms_1_1_muse_score.html#aadadff817c7793ba8f433c008c703162">Ms::MuseScore</a>
 </li>
 <li>newBeamPalette()
 : <a class="el" href="class_ms_1_1_muse_score.html#ae5396bf5f94e7682a90a76a4d5c39b3f">Ms::MuseScore</a>
 </li>
+<li>newBeamPalettePanel()
+: <a class="el" href="class_ms_1_1_muse_score.html#abdaa1375f8053d0ca42955c9df810e7f">Ms::MuseScore</a>
+</li>
 <li>newBracketsPalette()
 : <a class="el" href="class_ms_1_1_muse_score.html#adde4f3542cf2cdd2cdecae846e11be2e">Ms::MuseScore</a>
+</li>
+<li>newBracketsPalettePanel()
+: <a class="el" href="class_ms_1_1_muse_score.html#ae1b0ece13d9ad5242c0ae083c6943f1d">Ms::MuseScore</a>
 </li>
 <li>newBreaksPalette()
 : <a class="el" href="class_ms_1_1_muse_score.html#a6fe163ba79ef9ed4a39c4bb1908411a1">Ms::MuseScore</a>
 </li>
+<li>newBreaksPalettePanel()
+: <a class="el" href="class_ms_1_1_muse_score.html#ae45fc09cfffda03e79418a140c0c9d94">Ms::MuseScore</a>
+</li>
 <li>newBreathPalette()
 : <a class="el" href="class_ms_1_1_muse_score.html#a952e3c25db9aa0603f54b09a3ede4088">Ms::MuseScore</a>
 </li>
+<li>newBreathPalettePanel()
+: <a class="el" href="class_ms_1_1_muse_score.html#aadcd353a95726da67ba6784f826739c9">Ms::MuseScore</a>
+</li>
 <li>newClefsPalette()
 : <a class="el" href="class_ms_1_1_muse_score.html#a5a0ba4f61e35083a220092f44ef5477b">Ms::MuseScore</a>
+</li>
+<li>newClefsPalettePanel()
+: <a class="el" href="class_ms_1_1_muse_score.html#a989f1f65fa1d64ef6ea083fbabfeaeee">Ms::MuseScore</a>
 </li>
 <li>newClicked()
 : <a class="el" href="class_ms_1_1_excerpts_dialog.html#a1f2a2d7cb290f98fe2835bb3a072ed9f">Ms::ExcerptsDialog</a>
@@ -373,8 +415,18 @@ $(function() {
 <li>newDynamicsPalette()
 : <a class="el" href="class_ms_1_1_muse_score.html#a30d540a8ba406abb373af345669c5205">Ms::MuseScore</a>
 </li>
-<li>newElement()
-: <a class="el" href="class_ms_1_1_plugin_a_p_i_1_1_plugin_a_p_i.html#a240fc1e40f7cd268583bc5ae6bfb7e5b">Ms::PluginAPI::PluginAPI</a>
+<li>newDynamicsPalettePanel()
+: <a class="el" href="class_ms_1_1_muse_score.html#a7ad49cd2c753222f490b10dc4db27daf">Ms::MuseScore</a>
+</li>
+<li>newElement
+: <a class="el" href="class_ms_1_1_change_element.html#a747f4173bd120ed92596f4b1142c35d0">Ms::ChangeElement</a>
+, <a class="el" href="class_ms_1_1_plugin_a_p_i_1_1_plugin_a_p_i.html#a240fc1e40f7cd268583bc5ae6bfb7e5b">Ms::PluginAPI::PluginAPI</a>
+</li>
+<li>newEvent
+: <a class="el" href="class_ms_1_1_change_note_event.html#a9a357bf7a24273ceb7b9d94797311287">Ms::ChangeNoteEvent</a>
+</li>
+<li>newEvents
+: <a class="el" href="class_ms_1_1_change_note_event_list.html#a9fe2cb16e00108774d0e44cdb65b0fc4">Ms::ChangeNoteEventList</a>
 </li>
 <li>newFile()
 : <a class="el" href="class_ms_1_1_muse_score.html#abd7b80c152d6709b965c4bc72b50efb3">Ms::MuseScore</a>
@@ -382,26 +434,47 @@ $(function() {
 <li>newFingeringPalette()
 : <a class="el" href="class_ms_1_1_muse_score.html#a866e520c18da0a7095d46d43c0b2d6cb">Ms::MuseScore</a>
 </li>
+<li>newFingeringPalettePanel()
+: <a class="el" href="class_ms_1_1_muse_score.html#ac77aa64030ad63eda8b0da7b4e621006">Ms::MuseScore</a>
+</li>
 <li>newFormat
 : <a class="el" href="class_ms_1_1_m_score_text_to_m_x_m_l.html#a826b2a2383672bac1b6f3f96d40eae26">Ms::MScoreTextToMXML</a>
 </li>
 <li>newFramePalette()
 : <a class="el" href="class_ms_1_1_muse_score.html#a2e4a00a04ddcef47711b465a64b94ee5">Ms::MuseScore</a>
 </li>
+<li>newFramePalettePanel()
+: <a class="el" href="class_ms_1_1_muse_score.html#aa27ec61ba05857e044c71ec376dfca09">Ms::MuseScore</a>
+</li>
 <li>newFretboardDiagramPalette()
 : <a class="el" href="class_ms_1_1_muse_score.html#a32aea3585e1d4587c495579f3de1d351">Ms::MuseScore</a>
+</li>
+<li>newFretboardDiagramPalettePanel()
+: <a class="el" href="class_ms_1_1_muse_score.html#a0610f799d81616b6a3c64fcf21e9f462">Ms::MuseScore</a>
 </li>
 <li>newGraceNotePalette()
 : <a class="el" href="class_ms_1_1_muse_score.html#ab8bdea0a55754e1d5a970913b5a5935e">Ms::MuseScore</a>
 </li>
+<li>newGraceNotePalettePanel()
+: <a class="el" href="class_ms_1_1_muse_score.html#a7365c0a941a4f2996743fc6be0209651">Ms::MuseScore</a>
+</li>
 <li>newKeySigPalette()
 : <a class="el" href="class_ms_1_1_muse_score.html#a1e37a75622aae8bdc6dcc5878b9e5b4f">Ms::MuseScore</a>
+</li>
+<li>newKeySigPalettePanel()
+: <a class="el" href="class_ms_1_1_muse_score.html#a25fa3e3b7c191c2e16a344d0952d57df">Ms::MuseScore</a>
 </li>
 <li>newLinesPalette()
 : <a class="el" href="class_ms_1_1_muse_score.html#a05d0056ce3f36d654495c1439623d6a0">Ms::MuseScore</a>
 </li>
+<li>newLinesPalettePanel()
+: <a class="el" href="class_ms_1_1_muse_score.html#ace5b26e67fcd7ac59b7f7c0c8c648b41">Ms::MuseScore</a>
+</li>
 <li>newLyricsRecord()
 : <a class="el" href="class_ms_1_1_export_ly.html#a91f25f9f25a2bee13811286a5c2c0172">Ms::ExportLy</a>
+</li>
+<li>newMasterPaletteTree()
+: <a class="el" href="class_ms_1_1_muse_score.html#a05b386b22a916e8760c5f62fcc8b6edb">Ms::MuseScore</a>
 </li>
 <li>newMeasure()
 : <a class="el" href="class_ms_1_1_voice_overlap_detector.html#a1b990818138615d53a4129fb0b405f0d">Ms::VoiceOverlapDetector</a>
@@ -409,17 +482,24 @@ $(function() {
 <li>newNoteHeadsPalette()
 : <a class="el" href="class_ms_1_1_muse_score.html#ac5d15ed1e77250fdcb1e90213c8c42c7">Ms::MuseScore</a>
 </li>
+<li>newNoteHeadsPalettePanel()
+: <a class="el" href="class_ms_1_1_muse_score.html#ac66adbb24997d0a457bd98f4d3f8edff">Ms::MuseScore</a>
+</li>
 <li>newOmrView()
 : <a class="el" href="class_ms_1_1_omr.html#a7bf6135d63dda2dc397ca0572fd4c7db">Ms::Omr</a>
 </li>
 <li>newOrnamentsPalette()
 : <a class="el" href="class_ms_1_1_muse_score.html#a8cb97a9c04fd4d81adb7e0d14dc23819">Ms::MuseScore</a>
 </li>
-<li>newPalette()
-: <a class="el" href="class_ms_1_1_palette_box.html#a6f65ebac21d70bac67a0fc6cf95f4f7d">Ms::PaletteBox</a>
+<li>newOrnamentsPalettePanel()
+: <a class="el" href="class_ms_1_1_muse_score.html#aeeb5dc3a4ff0e1e6ca7a72480dccec9b">Ms::MuseScore</a>
 </li>
 <li>newParent()
 : <a class="el" href="class_ms_1_1_overlay_widget.html#ae1509a5f07c9986c8d897a994cf6cf03">Ms::OverlayWidget</a>
+</li>
+<li>newPetype
+: <a class="el" href="class_ms_1_1_change_note_event.html#a98d086fd101947c1e10a30ee5a775db8">Ms::ChangeNoteEvent</a>
+, <a class="el" href="class_ms_1_1_change_note_event_list.html#a3a1817669abdce88ec3be0ef4739bfe2">Ms::ChangeNoteEventList</a>
 </li>
 <li>newPlugin()
 : <a class="el" href="class_ms_1_1_plugin_creator.html#add7e44c01cc4de9d326715302fd62951">Ms::PluginCreator</a>
@@ -429,6 +509,9 @@ $(function() {
 </li>
 <li>newRepeatsPalette()
 : <a class="el" href="class_ms_1_1_muse_score.html#ad6d0ef136e2bb3d90a8efe9c69f51040">Ms::MuseScore</a>
+</li>
+<li>newRepeatsPalettePanel()
+: <a class="el" href="class_ms_1_1_muse_score.html#a93a85e45b2b250b303058c3a5b74d224">Ms::MuseScore</a>
 </li>
 <li>newRoomsize
 : <a class="el" href="class_freeverb.html#a18a160e597f1a2e23896909adb06472a">Freeverb</a>
@@ -451,17 +534,26 @@ $(function() {
 <li>newTempoPalette()
 : <a class="el" href="class_ms_1_1_muse_score.html#a44a854c77861c4ba94f3a5a1da311581">Ms::MuseScore</a>
 </li>
+<li>newTempoPalettePanel()
+: <a class="el" href="class_ms_1_1_muse_score.html#a934499c7dfaa2dc9244635d3a04b83f0">Ms::MuseScore</a>
+</li>
 <li>newTextPalette()
 : <a class="el" href="class_ms_1_1_muse_score.html#af7bafe7cc9b5361a1b003502cedce32e">Ms::MuseScore</a>
+</li>
+<li>newTextPalettePanel()
+: <a class="el" href="class_ms_1_1_muse_score.html#a7271492818b314f700005c0d73fb1f26">Ms::MuseScore</a>
 </li>
 <li>newTimePalette()
 : <a class="el" href="class_ms_1_1_muse_score.html#a915854cc925d55c63148d45a3ebc2af2">Ms::MuseScore</a>
 </li>
+<li>newTimePalettePanel()
+: <a class="el" href="class_ms_1_1_muse_score.html#a8b564a9f8409d44b07ba8b98ceb01013">Ms::MuseScore</a>
+</li>
 <li>newTremoloPalette()
 : <a class="el" href="class_ms_1_1_muse_score.html#af6126708c3e0ad9048b54942bed7e5a3">Ms::MuseScore</a>
 </li>
-<li>newTriggered()
-: <a class="el" href="class_ms_1_1_palette_box_button.html#a414ca3d9f926c301adebb7c77302bd68">Ms::PaletteBoxButton</a>
+<li>newTremoloPalettePanel()
+: <a class="el" href="class_ms_1_1_muse_score.html#a0c7a0e677b4a23e3bac80dcc46165fe7">Ms::MuseScore</a>
 </li>
 <li>newWet
 : <a class="el" href="class_freeverb.html#a928f1aac87502d1d3cce77029de6c328">Freeverb</a>
@@ -489,9 +581,6 @@ $(function() {
 </li>
 <li>NewWizardTimesigPage()
 : <a class="el" href="class_ms_1_1_new_wizard_timesig_page.html#aa58acea17ea81dc14b5b81b4989d4de3">Ms::NewWizardTimesigPage</a>
-</li>
-<li>newWorkspaceClicked()
-: <a class="el" href="class_ms_1_1_palette_box.html#a68606f316be165901be9544b73bb93ba">Ms::PaletteBox</a>
 </li>
 <li>next
 : <a class="el" href="struct_ms_1_1_ac_el.html#a567a45827d8c039061ba10ecbccbfe2c">Ms::AcEl</a>
@@ -655,6 +744,9 @@ $(function() {
 <li>nextSpanner()
 : <a class="el" href="class_ms_1_1_spanner.html#afcc9ea7d39c76f388a6dfd08563c92fe">Ms::Spanner</a>
 </li>
+<li>nextState
+: <a class="el" href="class_ms_1_1_undo_stack.html#a7ecf3566ef661b07b1bb7a0885eaa883">Ms::UndoStack</a>
+</li>
 <li>nextTiedChord()
 : <a class="el" href="class_ms_1_1_chord.html#ab446d5ec17c723bb50077547e4789885">Ms::Chord</a>
 </li>
@@ -714,6 +806,9 @@ $(function() {
 <li>nochord
 : <a class="el" href="class_ms_1_1_export_ly.html#af62b5f0eb9e4095d10f3073afb6bb1ae">Ms::ExportLy</a>
 </li>
+<li>NoConfirmation
+: <a class="el" href="class_ms_1_1_user_palette_controller.html#aafb98c6a54057fd7700e6bf936642c57af279232495a5c5090111c5b23de93434">Ms::UserPaletteController</a>
+</li>
 <li>Node()
 : <a class="el" href="struct_ms_1_1_meter_1_1_node.html#a69fb959aed6e09ab202c62a6d525e71b">Ms::Meter::Node</a>
 </li>
@@ -743,6 +838,12 @@ $(function() {
 </li>
 <li>nominal()
 : <a class="el" href="class_ms_1_1_sig_event.html#a2c69ec55023fadeede2bb10cdcbfba9e">Ms::SigEvent</a>
+</li>
+<li>nominalAdjust()
+: <a class="el" href="class_ms_1_1_chord_list.html#a616986beba0c889488ab9f860fce0806">Ms::ChordList</a>
+</li>
+<li>nominalMag()
+: <a class="el" href="class_ms_1_1_chord_list.html#a74fdded2af370f9ce7c564a73845c342">Ms::ChordList</a>
 </li>
 <li>none
 : <a class="el" href="class_ms_1_1_export_ly.html#aceab6e87dd145c270793bf3ea03d5e34ac5c1df15aa15bcebebfdcc65192c4dff">Ms::ExportLy</a>
@@ -802,9 +903,6 @@ $(function() {
 <li>noScore()
 : <a class="el" href="class_ms_1_1_muse_score.html#a9b75b87ca1b923d53d0f60a3208406d7">Ms::MuseScore</a>
 </li>
-<li>noSelection()
-: <a class="el" href="class_ms_1_1_palette_box.html#a414140f9f0afd4ab668b1d83c1732eee">Ms::PaletteBox</a>
-</li>
 <li>noSlope()
 : <a class="el" href="class_ms_1_1_beam.html#a80b114ecbafa3b0f61ad0baeb596fcd1">Ms::Beam</a>
 </li>
@@ -817,6 +915,9 @@ $(function() {
 </li>
 <li>Notation()
 : <a class="el" href="class_ms_1_1_notation.html#ae3a3736cfa586602358c0ab7786e60e8">Ms::Notation</a>
+</li>
+<li>notations()
+: <a class="el" href="class_ms_1_1_music_x_m_l_parser_pass1.html#ab63db9731d7c6ef055f4f89009bb4a3d">Ms::MusicXMLParserPass1</a>
 </li>
 <li>Notations()
 : <a class="el" href="class_ms_1_1_notations.html#a24e3912dcf405bb82421a41f29ff5305">Ms::Notations</a>
@@ -839,12 +940,18 @@ $(function() {
 , <a class="el" href="class_bww_1_1_writer.html#a1aeecae72bec20c8946f25683da39e7e">Bww::Writer</a>
 , <a class="el" href="class_ms_1_1_accidental.html#a995a4d148a23411af038e4e748373435">Ms::Accidental</a>
 , <a class="el" href="struct_ms_1_1_ac_el.html#af0d82c4a09a3e996e4c753bc573c203b">Ms::AcEl</a>
+, <a class="el" href="class_ms_1_1_change_fretting.html#afb74e96e137ad22e9aa7b40600079590">Ms::ChangeFretting</a>
+, <a class="el" href="class_ms_1_1_change_note_event.html#ac36a1264c50df43d239055f8c084a746">Ms::ChangeNoteEvent</a>
+, <a class="el" href="class_ms_1_1_change_note_event_list.html#a5f439dbbca07cbf377935ae5ab4ab891">Ms::ChangeNoteEventList</a>
+, <a class="el" href="class_ms_1_1_change_pitch.html#a519c0cd2ae4571237e36f2c45828af91">Ms::ChangePitch</a>
+, <a class="el" href="class_ms_1_1_change_velocity.html#a382ae0e7c893fdc6b6a0657dee48a163">Ms::ChangeVelocity</a>
 , <a class="el" href="class_ms_1_1_chord_item.html#a2d5d00c1c67e320af82dbc92db588cf6">Ms::ChordItem</a>
 , <a class="el" href="class_ms_1_1_event.html#aab209fee54d85fada100d76102d2b37c">Ms::Event</a>
 , <a class="el" href="class_ms_1_1_fingering.html#ac7628ca88b364fbb19a5e840e0da4639">Ms::Fingering</a>
-, <a class="el" href="class_ms_1_1_location.html#a9bc90b67259cc6690fddfeffcff40024">Ms::Location</a>
-, <a class="el" href="class_ms_1_1_music_x_m_l_parser_pass1.html#ad4313551e5931ebeaf8abd78502ece9d">Ms::MusicXMLParserPass1</a>
-, <a class="el" href="class_ms_1_1_music_x_m_l_parser_pass2.html#acc37a226f30b5759c9ce8306b780b2fc">Ms::MusicXMLParserPass2</a>
+, <a class="el" href="class_ms_1_1_input_state.html#a3443c816af2ace41f9b8343c68a63e2c">Ms::InputState</a>
+, <a class="el" href="class_ms_1_1_location.html#a9f74c1d22fd6414e6f786ce893956c63">Ms::Location</a>
+, <a class="el" href="class_ms_1_1_music_x_m_l_parser_pass1.html#a77ab70c2ee1a6331df7ae6192b20083c">Ms::MusicXMLParserPass1</a>
+, <a class="el" href="class_ms_1_1_music_x_m_l_parser_pass2.html#a468ae4b013749cc85f4a381671b87c0c">Ms::MusicXMLParserPass2</a>
 </li>
 <li>Note()
 : <a class="el" href="class_ms_1_1_note.html#acacaa498757f9823da9fe48345270314">Ms::Note</a>
@@ -857,7 +964,13 @@ $(function() {
 </li>
 <li>Note()
 : <a class="el" href="class_ms_1_1_plugin_a_p_i_1_1_note.html#a60c5e0d48fb3a0a52b3eaeb8a2eb6c93">Ms::PluginAPI::Note</a>
-, <a class="el" href="struct_ms_1_1_power_tab_1_1pt_component.html#a789fe1286ca24a5805e0eebf29ff2b53a7f838cb69c80762bd07a2dfff5c14d3c">Ms::PowerTab::ptComponent</a>
+</li>
+<li>note()
+: <a class="el" href="class_ms_1_1_plugin_a_p_i_1_1_note.html#a03cc910d4e6f32be9a698019b534d243">Ms::PluginAPI::Note</a>
+, <a class="el" href="class_ms_1_1_plugin_a_p_i_1_1_play_event.html#a2a667c54d49b8593448338a5980ad138">Ms::PluginAPI::PlayEvent</a>
+</li>
+<li>Note
+: <a class="el" href="struct_ms_1_1_power_tab_1_1pt_component.html#a789fe1286ca24a5805e0eebf29ff2b53a7f838cb69c80762bd07a2dfff5c14d3c">Ms::PowerTab::ptComponent</a>
 , <a class="el" href="class_o_v_e_1_1_note.html#a97657175e27da5aa055a0b690d359890">OVE::Note</a>
 </li>
 <li>note_
@@ -1049,14 +1162,14 @@ $(function() {
 <li>notes
 : <a class="el" href="struct_bww_1_1_measure_description.html#aa7f4e690886e3bd7a6cce4ff4e1291bb">Bww::MeasureDescription</a>
 , <a class="el" href="struct_ms_1_1_bagpipe_embellishment_info.html#aec27eea76bb05ff5717e8c741a073b50">Ms::BagpipeEmbellishmentInfo</a>
-, <a class="el" href="class_ms_1_1_chord.html#a77eab400665dc934f24de11fc7ac1c4e">Ms::Chord</a>
+, <a class="el" href="class_ms_1_1_chord.html#a21007e7098e9dbb2b9ad24df98806dcb">Ms::Chord</a>
 , <a class="el" href="class_ms_1_1_chord_obj.html#acc47f2823e76321b96b73f921bb59e50">Ms::ChordObj</a>
 , <a class="el" href="class_ms_1_1_event.html#ae8cb1b2e18a000e982a697d9507c0901">Ms::Event</a>
 , <a class="el" href="struct_ms_1_1_guitar_pro6_1_1_g_p_part_info.html#aa572c591e36a48eb728ecc313037d62d">Ms::GuitarPro6::GPPartInfo</a>
 , <a class="el" href="class_ms_1_1_inspector_group_element.html#adbfbca35335d2774123c5acdb5c0c0bb">Ms::InspectorGroupElement</a>
 , <a class="el" href="class_ms_1_1_midi_chord.html#ac44803fcf358dffffb2155abbe1c60f4">Ms::MidiChord</a>
 , <a class="el" href="class_ms_1_1_omr_chord.html#a9eabb2bb4db2a89ffa4c9f296d2a7fd8">Ms::OmrChord</a>
-, <a class="el" href="class_ms_1_1_omr_staff.html#a4015665c1388734595ac40c77d45e5c9">Ms::OmrStaff</a>
+, <a class="el" href="class_ms_1_1_omr_staff.html#a73e151af52dea6d13d1ee35b70940f2e">Ms::OmrStaff</a>
 , <a class="el" href="class_ms_1_1_plugin_a_p_i_1_1_chord.html#a3d0b35c3dd859746ec590074eb28f92e">Ms::PluginAPI::Chord</a>
 , <a class="el" href="struct_ms_1_1_power_tab_1_1pt_beat.html#ae9fecfddbf689fbe92f3cee8658fa1d6">Ms::PowerTab::ptBeat</a>
 </li>
@@ -1089,10 +1202,18 @@ $(function() {
 : <a class="el" href="class_ms_1_1_chord.html#a480cf37fc1ac8fe3b97381dd8035552e">Ms::Chord</a>
 , <a class="el" href="class_ms_1_1_input_state.html#a6512a42a4fb2eb7479e8cac67583584c">Ms::InputState</a>
 , <a class="el" href="class_ms_1_1_note.html#a81e05b2d7fcba75ead327cac571a2cae">Ms::Note</a>
+, <a class="el" href="class_ms_1_1_plugin_a_p_i_1_1_chord.html#a3dbed0ff865b24eb009c1fa54096b908">Ms::PluginAPI::Chord</a>
+, <a class="el" href="class_ms_1_1_plugin_a_p_i_1_1_note.html#ad61ec4b597c4e550b40fb91f6c7c8ce1">Ms::PluginAPI::Note</a>
+</li>
+<li>NoteType
+: <a class="el" href="class_ms_1_1_plugin_a_p_i_1_1_plugin_a_p_i.html#a1ad76d896494cb374eebfc6473473e49">Ms::PluginAPI::PluginAPI</a>
 </li>
 <li>noteType_
 : <a class="el" href="class_o_v_e_1_1_note_container.html#aa849d3bca4ab90b2717e0dd048b842c6">OVE::NoteContainer</a>
 , <a class="el" href="class_o_v_e_1_1_tuplet.html#a74eb9a78c0b27d22dc3afb0391eb5af9">OVE::Tuplet</a>
+</li>
+<li>noteTypeEnum
+: <a class="el" href="class_ms_1_1_plugin_a_p_i_1_1_plugin_a_p_i.html#a30007e3bf358744087d0c6f647b6cafd">Ms::PluginAPI::PluginAPI</a>
 </li>
 <li>noteTypeToFraction()
 : <a class="el" href="class_ms_1_1_mxml_support.html#ab9182c04357874bc351f1e8c30c1a942">Ms::MxmlSupport</a>
@@ -1104,10 +1225,10 @@ $(function() {
 : <a class="el" href="class_ms_1_1_note.html#ac79b136dce8b0d5507183a5b1e4ab24a">Ms::Note</a>
 </li>
 <li>NoteVal()
-: <a class="el" href="struct_ms_1_1_note_val.html#a26b90f1c70b0cf49d27a63fbfb11dd67">Ms::NoteVal</a>
+: <a class="el" href="struct_ms_1_1_note_val.html#ace84d82b4d870df423ba388ee99b698a">Ms::NoteVal</a>
 </li>
 <li>noteValForPosition()
-: <a class="el" href="class_ms_1_1_score.html#af4c3ed969255d787cda474d8bdca57cd">Ms::Score</a>
+: <a class="el" href="class_ms_1_1_score.html#aedc0a91bb1412e5e8199e0f68a5a6205">Ms::Score</a>
 </li>
 <li>NoteValueType
 : <a class="el" href="class_ms_1_1_plugin_a_p_i_1_1_plugin_a_p_i.html#a524aaee918011418f0f3bec33f6f6c91">Ms::PluginAPI::PluginAPI</a>
@@ -1138,6 +1259,11 @@ $(function() {
 <li>notifyAllApplied()
 : <a class="el" href="class_ms_1_1_tracks_model.html#af46348d3c5906e06395b816cba241eae">Ms::TracksModel</a>
 </li>
+<li>notifyElementDraggedToScoreView()
+: <a class="el" href="class_ms_1_1_muse_score.html#a1dd07b000001aaa2307b956c10f308e7">Ms::MuseScore</a>
+, <a class="el" href="class_ms_1_1_palette_qml_interface.html#a477bd83b8bf5fa55bc7020d602fe0be2">Ms::PaletteQmlInterface</a>
+, <a class="el" href="class_ms_1_1_palette_widget.html#ac16c4472fff28b5939756d2ab347f783">Ms::PaletteWidget</a>
+</li>
 <li>notifyTrackSelected()
 : <a class="el" href="class_ms_1_1_mixer.html#a52dc9104c68ffaeeffc92fed5cffbae2">Ms::Mixer</a>
 , <a class="el" href="class_ms_1_1_mixer_track_group.html#ada236f8f218603bd573f19e52f26782e">Ms::MixerTrackGroup</a>
@@ -1158,7 +1284,7 @@ $(function() {
 : <a class="el" href="class_divis.html#ab2ff31c6d2cd891aec1a5ee47fe173b6a129e79ffc80284f5cec09c27c907951e">Divis</a>
 </li>
 <li>NPlayEvent()
-: <a class="el" href="class_ms_1_1_n_play_event.html#a35c5bca6872f5f40dab64dde29569939">Ms::NPlayEvent</a>
+: <a class="el" href="class_ms_1_1_n_play_event.html#a60c0ca433c9550525ea673002b3f401b">Ms::NPlayEvent</a>
 </li>
 <li>npoints
 : <a class="el" href="class_ms_1_1_text_line_base_segment.html#a8cd1940b1b350b2a67b9702a1b492d87">Ms::TextLineBaseSegment</a>
@@ -1167,9 +1293,6 @@ $(function() {
 : <a class="el" href="class_ladspa___c_s__chorus1.html#a83a74a525acd7efa4df2abdb8311b14face19bad6fa68d842b336390dd4211421">Ladspa_CS_chorus1</a>
 , <a class="el" href="class_ladspa___c_s__chorus2.html#a367af539982cff94b8c84348b28f5e6bad56b591c27264177d6b8103a6bc653dd">Ladspa_CS_chorus2</a>
 , <a class="el" href="class_ladspa___c_s__chorus3.html#aff49d68d5e96dc4a9c49eacd4eb18ff8aab824049e8f3289acb9012c3d5543f7c">Ladspa_CS_chorus3</a>
-</li>
-<li>nr
-: <a class="el" href="struct_ms_1_1_music_xml_spanner_desc.html#a0cfaf4172eaf1f0dda3d548d0a6025c2">Ms::MusicXmlSpannerDesc</a>
 </li>
 <li>NRANK
 : <a class="el" href="class_divis.html#a9e9aeed01285329d4210fbfd93a88692abe80d1d436da03b06db27f67063d81a8">Divis</a>
@@ -1201,7 +1324,7 @@ $(function() {
 <li>nstaves()
 : <a class="el" href="class_ms_1_1_instrument_template.html#abd1f4604a95127a0780a49ada8af9795">Ms::InstrumentTemplate</a>
 , <a class="el" href="class_ms_1_1_part.html#ac0d6f1ee40e54d54510e2c2b56a7ec5c">Ms::Part</a>
-, <a class="el" href="class_ms_1_1_plugin_a_p_i_1_1_score.html#ad4cc643f4098f7ea070f1ada0b0c853d">Ms::PluginAPI::Score</a>
+, <a class="el" href="class_ms_1_1_plugin_a_p_i_1_1_score.html#a0db8e5ab9dc3061b04f2cfa0cdabe493">Ms::PluginAPI::Score</a>
 , <a class="el" href="class_ms_1_1_score.html#ab39888225a9fe0533558a379b1545cb1">Ms::Score</a>
 , <a class="el" href="class_ms_1_1_timeline.html#ae2c7a3d835c2c03a3bb0226f67172da7">Ms::Timeline</a>
 </li>
@@ -1209,8 +1332,8 @@ $(function() {
 : <a class="el" href="class_ms_1_1_xml_writer.html#ab186b744386262c7312d662c010ce188">Ms::XmlWriter</a>
 , <a class="el" href="class_xml_writer.html#ab186b744386262c7312d662c010ce188">XmlWriter</a>
 </li>
-<li>ntracks()
-: <a class="el" href="class_ms_1_1_plugin_a_p_i_1_1_score.html#a82974ed227778aefbe313e4b03a5033a">Ms::PluginAPI::Score</a>
+<li>ntracks
+: <a class="el" href="class_ms_1_1_plugin_a_p_i_1_1_score.html#a10add92fd7f30f0f18c4660dd3051496">Ms::PluginAPI::Score</a>
 , <a class="el" href="class_ms_1_1_score.html#aa7ea8f4f050ba44ed0cf95ad4f5d3c06">Ms::Score</a>
 </li>
 <li>nTremoloBars
@@ -1278,7 +1401,7 @@ $(function() {
 : <a class="el" href="class_ms_1_1_cap_meter.html#a8308030dddc8abf14736c474a1f27d4d">Ms::CapMeter</a>
 , <a class="el" href="struct_ms_1_1_cap_staff.html#a7aef497605fa97fa04201e64ddb66962">Ms::CapStaff</a>
 , <a class="el" href="class_ms_1_1_fraction.html#ac96ad0e3adbd7cac5e8f7264702178ff">Ms::Fraction</a>
-, <a class="el" href="class_ms_1_1_plugin_a_p_i_1_1_fraction_wrapper.html#a8b734db3b7812d2af068ed3d7f47c280">Ms::PluginAPI::FractionWrapper</a>
+, <a class="el" href="class_ms_1_1_plugin_a_p_i_1_1_fraction_wrapper.html#abb9da509d3cfdefa365a6b2932696a5e">Ms::PluginAPI::FractionWrapper</a>
 , <a class="el" href="struct_ms_1_1_power_tab_1_1pt_bar.html#aebb3ae93a015a70bcc0c4c82992f7628">Ms::PowerTab::ptBar</a>
 , <a class="el" href="class_ms_1_1_reduced_fraction.html#ac86b64648ec6b1d630cd1f428e07101b">Ms::ReducedFraction</a>
 , <a class="el" href="class_ms_1_1_time_sig.html#aefe81a6a27ea87de028d45ebe3ec45b9">Ms::TimeSig</a>

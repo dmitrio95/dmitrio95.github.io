@@ -23,7 +23,7 @@
   <td id="projectlogo"><img alt="Logo" src="musescore_logo_full.png"/></td>
   <td id="projectalign" style="padding-left: 0.5em;">
    <div id="projectname">MuseScore
-   &#160;<span id="projectnumber">3.2</span>
+   &#160;<span id="projectnumber">3.3.4</span>
    </div>
    <div id="projectbrief">Music composition and notation</div>
   </td>
@@ -69,7 +69,7 @@ $(function() {
 <a href="#pub-slots">Public Slots</a> &#124;
 <a href="#pub-methods">Public Member Functions</a> &#124;
 <a href="#pub-static-methods">Static Public Member Functions</a> &#124;
-<a href="#pub-static-attribs">Static Public Attributes</a> &#124;
+<a href="#pri-slots">Private Slots</a> &#124;
 <a href="#pri-methods">Private Member Functions</a> &#124;
 <a href="#pri-static-methods">Static Private Member Functions</a> &#124;
 <a href="#pri-attribs">Private Attributes</a> &#124;
@@ -98,8 +98,10 @@ Collaboration diagram for Ms::Workspace:</div>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-slots"></a>
 Public Slots</h2></td></tr>
-<tr class="memitem:a68d1a1e913353b1103b8ba26685d9f7c"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ms_1_1_workspace.html#a68d1a1e913353b1103b8ba26685d9f7c">setDirty</a> (bool val=true)</td></tr>
-<tr class="separator:a68d1a1e913353b1103b8ba26685d9f7c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a0faa4e20f7006372960d9511ecbf30c1"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ms_1_1_workspace.html#a0faa4e20f7006372960d9511ecbf30c1">setDirty</a> (bool val)</td></tr>
+<tr class="separator:a0faa4e20f7006372960d9511ecbf30c1"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae31a5dea5ba362bc678f1e526843bd8f"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ms_1_1_workspace.html#ae31a5dea5ba362bc678f1e526843bd8f">setDirty</a> ()</td></tr>
+<tr class="separator:ae31a5dea5ba362bc678f1e526843bd8f"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
@@ -135,6 +137,17 @@ Public Member Functions</h2></td></tr>
 <tr class="separator:af033716f87176dca203b22008e31d4ae"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ad1f887c89e54c942ec6e713e75012b5d"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ms_1_1_workspace.html#ad1f887c89e54c942ec6e713e75012b5d">setReadOnly</a> (bool val)</td></tr>
 <tr class="separator:ad1f887c89e54c942ec6e713e75012b5d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa5bc75b59fc5f42b084899024a4807ed"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ms_1_1_workspace.html#aa5bc75b59fc5f42b084899024a4807ed">reset</a> ()</td></tr>
+<tr class="memdesc:aa5bc75b59fc5f42b084899024a4807ed"><td class="mdescLeft">&#160;</td><td class="mdescRight">Reset the workspace to the state of the source workspace.  <a href="#aa5bc75b59fc5f42b084899024a4807ed">More...</a><br /></td></tr>
+<tr class="separator:aa5bc75b59fc5f42b084899024a4807ed"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:afb9f40bc430a85009a508c83459d184b"><td class="memItemLeft" align="right" valign="top">const <a class="el" href="class_ms_1_1_workspace.html">Workspace</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ms_1_1_workspace.html#afb9f40bc430a85009a508c83459d184b">sourceWorkspace</a> () const</td></tr>
+<tr class="separator:afb9f40bc430a85009a508c83459d184b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac57839b54a8d6fadccbafe785d2498fd"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ms_1_1_workspace.html#ac57839b54a8d6fadccbafe785d2498fd">setSourceWorkspaceName</a> (const QString &amp;<a class="el" href="class_ms_1_1_workspace.html#af807b2a37a8e446a8ee274c242c10c9a">sourceWorkspaceName</a>)</td></tr>
+<tr class="separator:ac57839b54a8d6fadccbafe785d2498fd"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af807b2a37a8e446a8ee274c242c10c9a"><td class="memItemLeft" align="right" valign="top">QString&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ms_1_1_workspace.html#af807b2a37a8e446a8ee274c242c10c9a">sourceWorkspaceName</a> ()</td></tr>
+<tr class="separator:af807b2a37a8e446a8ee274c242c10c9a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac9b44e3cb0457c016f086f9802aa21fa"><td class="memItemLeft" align="right" valign="top">std::unique_ptr&lt; <a class="el" href="struct_ms_1_1_palette_tree.html">PaletteTree</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ms_1_1_workspace.html#ac9b44e3cb0457c016f086f9802aa21fa">getPaletteTree</a> () const</td></tr>
+<tr class="separator:ac9b44e3cb0457c016f086f9802aa21fa"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a8e49c14d9655cfed99e5d57316cb7bce"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ms_1_1_workspace.html#a8e49c14d9655cfed99e5d57316cb7bce">getSaveComponents</a> ()</td></tr>
 <tr class="separator:a8e49c14d9655cfed99e5d57316cb7bce"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a027537ef404fa3065659d0e612eea574"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ms_1_1_workspace.html#a027537ef404fa3065659d0e612eea574">setSaveComponents</a> (bool s)</td></tr>
@@ -150,35 +163,25 @@ Public Member Functions</h2></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-static-methods"></a>
 Static Public Member Functions</h2></td></tr>
-<tr class="memitem:aba0b49e8c929c69dacf9c97f38a8f5a3"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ms_1_1_workspace.html#aba0b49e8c929c69dacf9c97f38a8f5a3">initWorkspace</a> ()</td></tr>
-<tr class="separator:aba0b49e8c929c69dacf9c97f38a8f5a3"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a367f2002749954916eaf692c60575a11"><td class="memItemLeft" align="right" valign="top">static QList&lt; <a class="el" href="class_ms_1_1_workspace.html">Workspace</a> * &gt; &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ms_1_1_workspace.html#a367f2002749954916eaf692c60575a11">workspaces</a> ()</td></tr>
-<tr class="separator:a367f2002749954916eaf692c60575a11"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ac48bf23ee00075671dc6f31842c79668"><td class="memItemLeft" align="right" valign="top">static <a class="el" href="class_ms_1_1_workspace.html">Workspace</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ms_1_1_workspace.html#ac48bf23ee00075671dc6f31842c79668">createNewWorkspace</a> (const QString &amp;<a class="el" href="class_ms_1_1_workspace.html#a74db7fb48dd6656eb5f097a0ddfca43e">name</a>)</td></tr>
-<tr class="separator:ac48bf23ee00075671dc6f31842c79668"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a66f86625b1096d95ad5308b4434d2a42"><td class="memItemLeft" align="right" valign="top">static QList&lt; <a class="el" href="class_ms_1_1_workspace.html">Workspace</a> * &gt; &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ms_1_1_workspace.html#a66f86625b1096d95ad5308b4434d2a42">refreshWorkspaces</a> ()</td></tr>
-<tr class="separator:a66f86625b1096d95ad5308b4434d2a42"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aa59b2550f5ff7231b274e34ea00b5c1c"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ms_1_1_workspace.html#aa59b2550f5ff7231b274e34ea00b5c1c">addActionAndString</a> (QAction *action, QString string)</td></tr>
 <tr class="separator:aa59b2550f5ff7231b274e34ea00b5c1c"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:af6583e20f8f08baa9217de063231b9d3"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ms_1_1_workspace.html#af6583e20f8f08baa9217de063231b9d3">addRemainingFromMenuBar</a> (QMenuBar *mb)</td></tr>
 <tr class="separator:af6583e20f8f08baa9217de063231b9d3"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:afda751f408782a4e8dce1a32381fae54"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ms_1_1_workspace.html#afda751f408782a4e8dce1a32381fae54">addMenuAndString</a> (QMenu *menu, QString string)</td></tr>
 <tr class="separator:afda751f408782a4e8dce1a32381fae54"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a6ba1d0be885eb331331cc3e87d115d2a"><td class="memItemLeft" align="right" valign="top">static QMenu *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ms_1_1_workspace.html#a6ba1d0be885eb331331cc3e87d115d2a">findMenuFromString</a> (QString string)</td></tr>
+<tr class="separator:a6ba1d0be885eb331331cc3e87d115d2a"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a32c337b351de30a3dc9e3ddf9fed06b6"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ms_1_1_workspace.html#a32c337b351de30a3dc9e3ddf9fed06b6">writeGlobalMenuBar</a> (QMenuBar *mb)</td></tr>
 <tr class="separator:a32c337b351de30a3dc9e3ddf9fed06b6"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aac30dc2fb275cf34ed3e3c5c848a95b0"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ms_1_1_workspace.html#aac30dc2fb275cf34ed3e3c5c848a95b0">writeGlobalToolBar</a> ()</td></tr>
 <tr class="separator:aac30dc2fb275cf34ed3e3c5c848a95b0"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aa3e2ace5f87942e476f0554dcf02c03e"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ms_1_1_workspace.html#aa3e2ace5f87942e476f0554dcf02c03e">writeGlobalGUIState</a> ()</td></tr>
 <tr class="separator:aa3e2ace5f87942e476f0554dcf02c03e"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ac3d3d226c5084a8a744c74fd9a7c065c"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ms_1_1_workspace.html#ac3d3d226c5084a8a744c74fd9a7c065c">retranslate</a> (QList&lt; <a class="el" href="class_ms_1_1_workspace.html">Workspace</a> *&gt; *workspacesList=0)</td></tr>
-<tr class="separator:ac3d3d226c5084a8a744c74fd9a7c065c"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
-<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-static-attribs"></a>
-Static Public Attributes</h2></td></tr>
-<tr class="memitem:af51698404dc5563355632bc2dabdd192"><td class="memItemLeft" align="right" valign="top">static <a class="el" href="class_ms_1_1_workspace.html">Workspace</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ms_1_1_workspace.html#af51698404dc5563355632bc2dabdd192">currentWorkspace</a> = nullptr</td></tr>
-<tr class="separator:af51698404dc5563355632bc2dabdd192"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a291a93e6625c7cd95c0c8620e8f6e6f3"><td class="memItemLeft" align="right" valign="top">static bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ms_1_1_workspace.html#a291a93e6625c7cd95c0c8620e8f6e6f3">workspacesRead</a> = false</td></tr>
-<tr class="separator:a291a93e6625c7cd95c0c8620e8f6e6f3"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pri-slots"></a>
+Private Slots</h2></td></tr>
+<tr class="memitem:af9e58109026fef24156db2655d1bd287"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ms_1_1_workspace.html#af9e58109026fef24156db2655d1bd287">ensureWorkspaceSaved</a> ()</td></tr>
+<tr class="separator:af9e58109026fef24156db2655d1bd287"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pri-methods"></a>
 Private Member Functions</h2></td></tr>
@@ -203,8 +206,6 @@ Static Private Member Functions</h2></td></tr>
 <tr class="separator:a00daf858e3bbc2dba964719186e20bb1"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a5cc700402a57bbd53fc4955189f05168"><td class="memItemLeft" align="right" valign="top">static QAction *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ms_1_1_workspace.html#a5cc700402a57bbd53fc4955189f05168">findActionFromString</a> (QString string)</td></tr>
 <tr class="separator:a5cc700402a57bbd53fc4955189f05168"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a6ba1d0be885eb331331cc3e87d115d2a"><td class="memItemLeft" align="right" valign="top">static QMenu *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ms_1_1_workspace.html#a6ba1d0be885eb331331cc3e87d115d2a">findMenuFromString</a> (QString string)</td></tr>
-<tr class="separator:a6ba1d0be885eb331331cc3e87d115d2a"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a651cfab053f6083f7830d450f3f22a54"><td class="memItemLeft" align="right" valign="top">static QString&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ms_1_1_workspace.html#a651cfab053f6083f7830d450f3f22a54">findStringFromMenu</a> (QMenu *menu)</td></tr>
 <tr class="separator:a651cfab053f6083f7830d450f3f22a54"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
@@ -214,12 +215,16 @@ Private Attributes</h2></td></tr>
 <tr class="separator:a954fe209434bb433d3a38b67bdc3ea9c"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a5722607bb6cc64b1723670bb30d5d13d"><td class="memItemLeft" align="right" valign="top">QString&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ms_1_1_workspace.html#a5722607bb6cc64b1723670bb30d5d13d">_translatableName</a></td></tr>
 <tr class="separator:a5722607bb6cc64b1723670bb30d5d13d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aeeed5856f73544243ab22b1fcd3e22c2"><td class="memItemLeft" align="right" valign="top">QString&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ms_1_1_workspace.html#aeeed5856f73544243ab22b1fcd3e22c2">_sourceWorkspaceName</a></td></tr>
+<tr class="separator:aeeed5856f73544243ab22b1fcd3e22c2"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a2692049507290b5098034d81a044fbbe"><td class="memItemLeft" align="right" valign="top">QString&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ms_1_1_workspace.html#a2692049507290b5098034d81a044fbbe">_path</a></td></tr>
 <tr class="separator:a2692049507290b5098034d81a044fbbe"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:afc99c5268b495f8b2ad083dc1ee6bfa1"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ms_1_1_workspace.html#afc99c5268b495f8b2ad083dc1ee6bfa1">_dirty</a></td></tr>
 <tr class="separator:afc99c5268b495f8b2ad083dc1ee6bfa1"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a6e599a46766799d59ebe39646fc94dcf"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ms_1_1_workspace.html#a6e599a46766799d59ebe39646fc94dcf">_readOnly</a></td></tr>
 <tr class="separator:a6e599a46766799d59ebe39646fc94dcf"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a35b2bb36a0b8a0f1b386562d514232e6"><td class="memItemLeft" align="right" valign="top">QTimer&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ms_1_1_workspace.html#a35b2bb36a0b8a0f1b386562d514232e6">_saveTimer</a></td></tr>
+<tr class="separator:a35b2bb36a0b8a0f1b386562d514232e6"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a36ffaa31bdbb1ad7275a7a44e936ebaa"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ms_1_1_workspace.html#a36ffaa31bdbb1ad7275a7a44e936ebaa">saveComponents</a></td></tr>
 <tr class="separator:a36ffaa31bdbb1ad7275a7a44e936ebaa"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a85e7430a083fb4d2a7c86e8f5b7c8020"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ms_1_1_workspace.html#a85e7430a083fb4d2a7c86e8f5b7c8020">saveToolbars</a></td></tr>
@@ -229,12 +234,6 @@ Private Attributes</h2></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pri-static-attribs"></a>
 Static Private Attributes</h2></td></tr>
-<tr class="memitem:ae4067d916f7deda59c5713c981edbf8e"><td class="memItemLeft" align="right" valign="top">static const char *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ms_1_1_workspace.html#ae4067d916f7deda59c5713c981edbf8e">advancedWorkspaceTranslatableName</a> { QT_TRANSLATE_NOOP(&quot;Ms::Workspace&quot;, &quot;Advanced&quot;) }</td></tr>
-<tr class="separator:ae4067d916f7deda59c5713c981edbf8e"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a357800e2fd5ade614cd27f40484c6ebc"><td class="memItemLeft" align="right" valign="top">static const char *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ms_1_1_workspace.html#a357800e2fd5ade614cd27f40484c6ebc">basicWorkspaceTranslatableName</a> { QT_TRANSLATE_NOOP(&quot;Ms::Workspace&quot;, &quot;Basic&quot;) }</td></tr>
-<tr class="separator:a357800e2fd5ade614cd27f40484c6ebc"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ab3241091fdcfcb279f3057937e198e7b"><td class="memItemLeft" align="right" valign="top">static QList&lt; <a class="el" href="class_ms_1_1_workspace.html">Workspace</a> * &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ms_1_1_workspace.html#ab3241091fdcfcb279f3057937e198e7b">_workspaces</a> {}</td></tr>
-<tr class="separator:ab3241091fdcfcb279f3057937e198e7b"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:abf71c4c4ab81ec0dbb1415a43546a2f9"><td class="memItemLeft" align="right" valign="top">static QList&lt; QPair&lt; QAction *, QString &gt; &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ms_1_1_workspace.html#abf71c4c4ab81ec0dbb1415a43546a2f9">actionToStringList</a> {}</td></tr>
 <tr class="separator:abf71c4c4ab81ec0dbb1415a43546a2f9"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a91216a7236d3b26bb932d1ec1373e184"><td class="memItemLeft" align="right" valign="top">static QList&lt; QPair&lt; QMenu *, QString &gt; &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ms_1_1_workspace.html#a91216a7236d3b26bb932d1ec1373e184">menuToStringList</a> {}</td></tr>
@@ -431,32 +430,6 @@ Static Private Attributes</h2></td></tr>
 
 </div>
 </div>
-<a id="ac48bf23ee00075671dc6f31842c79668"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ac48bf23ee00075671dc6f31842c79668">&#9670;&nbsp;</a></span>createNewWorkspace()</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname"><a class="el" href="class_ms_1_1_workspace.html">Workspace</a> * Ms::Workspace::createNewWorkspace </td>
-          <td>(</td>
-          <td class="paramtype">const QString &amp;&#160;</td>
-          <td class="paramname"><em>name</em></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">static</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-</div>
-</div>
 <a id="a6a59e33780b639f61faf78ed410aa4bf"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a6a59e33780b639f61faf78ed410aa4bf">&#9670;&nbsp;</a></span>dirty()</h2>
 
@@ -476,6 +449,31 @@ Static Private Attributes</h2></td></tr>
   </td>
   <td class="mlabels-right">
 <span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="af9e58109026fef24156db2655d1bd287"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#af9e58109026fef24156db2655d1bd287">&#9670;&nbsp;</a></span>ensureWorkspaceSaved</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void Ms::Workspace::ensureWorkspaceSaved </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span><span class="mlabel">slot</span></span>  </td>
   </tr>
 </table>
 </div><div class="memdoc">
@@ -527,7 +525,7 @@ Static Private Attributes</h2></td></tr>
       </table>
   </td>
   <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">static</span><span class="mlabel">private</span></span>  </td>
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
   </tr>
 </table>
 </div><div class="memdoc">
@@ -582,6 +580,23 @@ Static Private Attributes</h2></td></tr>
 <span class="mlabels"><span class="mlabel">static</span><span class="mlabel">private</span></span>  </td>
   </tr>
 </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="ac9b44e3cb0457c016f086f9802aa21fa"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ac9b44e3cb0457c016f086f9802aa21fa">&#9670;&nbsp;</a></span>getPaletteTree()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">std::unique_ptr&lt; <a class="el" href="struct_ms_1_1_palette_tree.html">PaletteTree</a> &gt; Ms::Workspace::getPaletteTree </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
 </div><div class="memdoc">
 
 </div>
@@ -655,31 +670,6 @@ Static Private Attributes</h2></td></tr>
   </td>
   <td class="mlabels-right">
 <span class="mlabels"><span class="mlabel">inline</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="aba0b49e8c929c69dacf9c97f38a8f5a3"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#aba0b49e8c929c69dacf9c97f38a8f5a3">&#9670;&nbsp;</a></span>initWorkspace()</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">void Ms::Workspace::initWorkspace </td>
-          <td>(</td>
-          <td class="paramname"></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">static</span></span>  </td>
   </tr>
 </table>
 </div><div class="memdoc">
@@ -907,31 +897,6 @@ Static Private Attributes</h2></td></tr>
 
 </div>
 </div>
-<a id="a66f86625b1096d95ad5308b4434d2a42"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a66f86625b1096d95ad5308b4434d2a42">&#9670;&nbsp;</a></span>refreshWorkspaces()</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">QList&lt; <a class="el" href="class_ms_1_1_workspace.html">Workspace</a> * &gt; &amp; Ms::Workspace::refreshWorkspaces </td>
-          <td>(</td>
-          <td class="paramname"></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">static</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-</div>
-</div>
 <a id="a1da589417dc6fb538d6c95b845f636ef"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a1da589417dc6fb538d6c95b845f636ef">&#9670;&nbsp;</a></span>rename()</h2>
 
@@ -950,29 +915,23 @@ Static Private Attributes</h2></td></tr>
 
 </div>
 </div>
-<a id="ac3d3d226c5084a8a744c74fd9a7c065c"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ac3d3d226c5084a8a744c74fd9a7c065c">&#9670;&nbsp;</a></span>retranslate()</h2>
+<a id="aa5bc75b59fc5f42b084899024a4807ed"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aa5bc75b59fc5f42b084899024a4807ed">&#9670;&nbsp;</a></span>reset()</h2>
 
 <div class="memitem">
 <div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">void Ms::Workspace::retranslate </td>
+          <td class="memname">void Ms::Workspace::reset </td>
           <td>(</td>
-          <td class="paramtype">QList&lt; <a class="el" href="class_ms_1_1_workspace.html">Workspace</a> *&gt; *&#160;</td>
-          <td class="paramname"><em>workspacesList</em> = <code>0</code></td><td>)</td>
+          <td class="paramname"></td><td>)</td>
           <td></td>
         </tr>
       </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">static</span></span>  </td>
-  </tr>
-</table>
 </div><div class="memdoc">
+
+<p>Reset the workspace to the state of the source workspace. </p>
+<p>Works for Custom workspaces ONLY! </p>
 
 </div>
 </div>
@@ -993,8 +952,8 @@ Static Private Attributes</h2></td></tr>
 
 </div>
 </div>
-<a id="a68d1a1e913353b1103b8ba26685d9f7c"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a68d1a1e913353b1103b8ba26685d9f7c">&#9670;&nbsp;</a></span>setDirty</h2>
+<a id="a0faa4e20f7006372960d9511ecbf30c1"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a0faa4e20f7006372960d9511ecbf30c1">&#9670;&nbsp;</a></span>setDirty <span class="overload">[1/2]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -1006,7 +965,32 @@ Static Private Attributes</h2></td></tr>
           <td class="memname">void Ms::Workspace::setDirty </td>
           <td>(</td>
           <td class="paramtype">bool&#160;</td>
-          <td class="paramname"><em>val</em> = <code>true</code></td><td>)</td>
+          <td class="paramname"><em>val</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">slot</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="ae31a5dea5ba362bc678f1e526843bd8f"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ae31a5dea5ba362bc678f1e526843bd8f">&#9670;&nbsp;</a></span>setDirty <span class="overload">[2/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void Ms::Workspace::setDirty </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
           <td></td>
         </tr>
       </table>
@@ -1175,6 +1159,32 @@ Static Private Attributes</h2></td></tr>
 
 </div>
 </div>
+<a id="ac57839b54a8d6fadccbafe785d2498fd"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ac57839b54a8d6fadccbafe785d2498fd">&#9670;&nbsp;</a></span>setSourceWorkspaceName()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void Ms::Workspace::setSourceWorkspaceName </td>
+          <td>(</td>
+          <td class="paramtype">const QString &amp;&#160;</td>
+          <td class="paramname"><em>sourceWorkspaceName</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
 <a id="a02c49330ff5418c246fb7213b08a1c49"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a02c49330ff5418c246fb7213b08a1c49">&#9670;&nbsp;</a></span>setTranslatableName()</h2>
 
@@ -1189,6 +1199,48 @@ Static Private Attributes</h2></td></tr>
           <td>(</td>
           <td class="paramtype">QString&#160;</td>
           <td class="paramname"><em>trName</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="afb9f40bc430a85009a508c83459d184b"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#afb9f40bc430a85009a508c83459d184b">&#9670;&nbsp;</a></span>sourceWorkspace()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">const <a class="el" href="class_ms_1_1_workspace.html">Workspace</a> * Ms::Workspace::sourceWorkspace </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="af807b2a37a8e446a8ee274c242c10c9a"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#af807b2a37a8e446a8ee274c242c10c9a">&#9670;&nbsp;</a></span>sourceWorkspaceName()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">QString Ms::Workspace::sourceWorkspaceName </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
           <td></td>
         </tr>
       </table>
@@ -1220,31 +1272,6 @@ Static Private Attributes</h2></td></tr>
   </td>
   <td class="mlabels-right">
 <span class="mlabels"><span class="mlabel">inline</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="a367f2002749954916eaf692c60575a11"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a367f2002749954916eaf692c60575a11">&#9670;&nbsp;</a></span>workspaces()</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">QList&lt; <a class="el" href="class_ms_1_1_workspace.html">Workspace</a> * &gt; &amp; Ms::Workspace::workspaces </td>
-          <td>(</td>
-          <td class="paramname"></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">static</span></span>  </td>
   </tr>
 </table>
 </div><div class="memdoc">
@@ -1505,6 +1532,50 @@ Static Private Attributes</h2></td></tr>
 
 </div>
 </div>
+<a id="a35b2bb36a0b8a0f1b386562d514232e6"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a35b2bb36a0b8a0f1b386562d514232e6">&#9670;&nbsp;</a></span>_saveTimer</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">QTimer Ms::Workspace::_saveTimer</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="aeeed5856f73544243ab22b1fcd3e22c2"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aeeed5856f73544243ab22b1fcd3e22c2">&#9670;&nbsp;</a></span>_sourceWorkspaceName</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">QString Ms::Workspace::_sourceWorkspaceName</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
 <a id="a5722607bb6cc64b1723670bb30d5d13d"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a5722607bb6cc64b1723670bb30d5d13d">&#9670;&nbsp;</a></span>_translatableName</h2>
 
@@ -1527,28 +1598,6 @@ Static Private Attributes</h2></td></tr>
 
 </div>
 </div>
-<a id="ab3241091fdcfcb279f3057937e198e7b"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ab3241091fdcfcb279f3057937e198e7b">&#9670;&nbsp;</a></span>_workspaces</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">QList&lt; <a class="el" href="class_ms_1_1_workspace.html">Workspace</a> * &gt; Ms::Workspace::_workspaces {}</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">static</span><span class="mlabel">private</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-</div>
-</div>
 <a id="abf71c4c4ab81ec0dbb1415a43546a2f9"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#abf71c4c4ab81ec0dbb1415a43546a2f9">&#9670;&nbsp;</a></span>actionToStringList</h2>
 
@@ -1565,72 +1614,6 @@ Static Private Attributes</h2></td></tr>
   </td>
   <td class="mlabels-right">
 <span class="mlabels"><span class="mlabel">static</span><span class="mlabel">private</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="ae4067d916f7deda59c5713c981edbf8e"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ae4067d916f7deda59c5713c981edbf8e">&#9670;&nbsp;</a></span>advancedWorkspaceTranslatableName</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">const char * Ms::Workspace::advancedWorkspaceTranslatableName { QT_TRANSLATE_NOOP(&quot;Ms::Workspace&quot;, &quot;Advanced&quot;) }</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">static</span><span class="mlabel">private</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="a357800e2fd5ade614cd27f40484c6ebc"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a357800e2fd5ade614cd27f40484c6ebc">&#9670;&nbsp;</a></span>basicWorkspaceTranslatableName</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">const char * Ms::Workspace::basicWorkspaceTranslatableName { QT_TRANSLATE_NOOP(&quot;Ms::Workspace&quot;, &quot;Basic&quot;) }</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">static</span><span class="mlabel">private</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="af51698404dc5563355632bc2dabdd192"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#af51698404dc5563355632bc2dabdd192">&#9670;&nbsp;</a></span>currentWorkspace</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname"><a class="el" href="class_ms_1_1_workspace.html">Workspace</a> * Ms::Workspace::currentWorkspace = nullptr</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">static</span></span>  </td>
   </tr>
 </table>
 </div><div class="memdoc">
@@ -1719,28 +1702,6 @@ Static Private Attributes</h2></td></tr>
   </td>
   <td class="mlabels-right">
 <span class="mlabels"><span class="mlabel">private</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="a291a93e6625c7cd95c0c8620e8f6e6f3"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a291a93e6625c7cd95c0c8620e8f6e6f3">&#9670;&nbsp;</a></span>workspacesRead</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">bool Ms::Workspace::workspacesRead = false</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">static</span></span>  </td>
   </tr>
 </table>
 </div><div class="memdoc">

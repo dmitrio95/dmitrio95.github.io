@@ -51,6 +51,7 @@ var searchData=
   ['grid_5fheight',['grid_height',['../class_ms_1_1_timeline.html#aa0d2b436fbd84b63b46977b2ed4b6c30',1,'Ms::Timeline']]],
   ['grid_5fwidth',['grid_width',['../class_ms_1_1_timeline.html#ab6746db7d3519dd0b166078950c3fd7d',1,'Ms::Timeline']]],
   ['gridbeamwidth',['gridBeamWidth',['../struct_ms_1_1_tablature_duration_font.html#a8d7a3860b387ee137919165a7d6b9c14',1,'Ms::TablatureDurationFont']]],
+  ['gridcheckboxinitialstate',['gridCheckboxInitialState',['../class_ms_1_1_palette_properties_dialog.html#a5244e32dfbc3114aa79fb7d517e8b0e7',1,'Ms::PalettePropertiesDialog']]],
   ['gridstemheight',['gridStemHeight',['../struct_ms_1_1_tablature_duration_font.html#acfcb2ad0c714267baef53bac90cfb8b3',1,'Ms::TablatureDurationFont']]],
   ['gridstemwidth',['gridStemWidth',['../struct_ms_1_1_tablature_duration_font.html#aca3d6c807fd4500d1ea8e314ffe1df5e',1,'Ms::TablatureDurationFont']]],
   ['grip',['grip',['../class_ms_1_1_edit_data.html#a793a2a71c3585088dfefbbe911942b7a',1,'Ms::EditData']]],

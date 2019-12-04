@@ -23,7 +23,7 @@
   <td id="projectlogo"><img alt="Logo" src="musescore_logo_full.png"/></td>
   <td id="projectalign" style="padding-left: 0.5em;">
    <div id="projectname">MuseScore
-   &#160;<span id="projectnumber">3.2</span>
+   &#160;<span id="projectnumber">3.3.4</span>
    </div>
    <div id="projectbrief">Music composition and notation</div>
   </td>
@@ -106,6 +106,8 @@ Classes</h2></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ms_1_1_plugin_a_p_i_1_1_part.html">Part</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ms_1_1_plugin_a_p_i_1_1_play_event.html">PlayEvent</a></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ms_1_1_plugin_a_p_i_1_1_plugin_a_p_i.html">PluginAPI</a></td></tr>
 <tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">Main class of the plugins framework. Named as <code><a class="el" href="class_ms_1_1_muse_score.html">MuseScore</a></code> in QML.  <a href="class_ms_1_1_plugin_a_p_i_1_1_plugin_a_p_i.html#details">More...</a><br /></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -113,6 +115,8 @@ Classes</h2></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ms_1_1_plugin_a_p_i_1_1_qml_list_access.html">QmlListAccess</a></td></tr>
 <tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">QML access to containers.  <a href="class_ms_1_1_plugin_a_p_i_1_1_qml_list_access.html#details">More...</a><br /></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ms_1_1_plugin_a_p_i_1_1_qml_play_events_list_access.html">QmlPlayEventsListAccess</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ms_1_1_plugin_a_p_i_1_1_score.html">Score</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -123,6 +127,11 @@ Classes</h2></td></tr>
 <tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">This is an GUI element to show a score.  <a href="class_ms_1_1_plugin_a_p_i_1_1_score_view.html#details">More...</a><br /></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ms_1_1_plugin_a_p_i_1_1_segment.html">Segment</a></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ms_1_1_plugin_a_p_i_1_1_selection.html">Selection</a></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ms_1_1_plugin_a_p_i_1_1_tie.html">Tie</a></td></tr>
+<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">Provides access to internal <a class="el" href="class_ms_1_1_tie.html" title="a Tie has a Note as startElement/endElement ">Ms::Tie</a> objects.  <a href="class_ms_1_1_plugin_a_p_i_1_1_tie.html#details">More...</a><br /></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="enum-members"></a>
@@ -137,11 +146,17 @@ Functions</h2></td></tr>
 <tr class="memitem:adbaffa5a18f900100989438335cd8eac"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_ms_1_1_plugin_a_p_i_1_1_element.html">Element</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_ms_1_1_plugin_a_p_i.html#adbaffa5a18f900100989438335cd8eac">wrap</a> (<a class="el" href="class_ms_1_1_element.html">Ms::Element</a> *e, <a class="el" href="namespace_ms_1_1_plugin_a_p_i.html#a321a117b3f121a17c640bcbf34799ead">Ownership</a> own)</td></tr>
 <tr class="memdesc:adbaffa5a18f900100989438335cd8eac"><td class="mdescLeft">&#160;</td><td class="mdescRight">Wraps <a class="el" href="class_ms_1_1_element.html" title="Base class of score layout elements. ">Ms::Element</a> choosing the correct wrapper type at runtime based on the actual element type.  <a href="#adbaffa5a18f900100989438335cd8eac">More...</a><br /></td></tr>
 <tr class="separator:adbaffa5a18f900100989438335cd8eac"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa3b1596be7538d1f9b247291f2de9b11"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_ms_1_1_plugin_a_p_i_1_1_tie.html">Tie</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_ms_1_1_plugin_a_p_i.html#aa3b1596be7538d1f9b247291f2de9b11">tieWrap</a> (<a class="el" href="class_ms_1_1_tie.html">Ms::Tie</a> *tie)</td></tr>
+<tr class="separator:aa3b1596be7538d1f9b247291f2de9b11"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aacb7b4220daa37459143cddaffae8fd8"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_ms_1_1_plugin_a_p_i_1_1_excerpt.html">Excerpt</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_ms_1_1_plugin_a_p_i.html#aacb7b4220daa37459143cddaffae8fd8">excerptWrap</a> (<a class="el" href="class_ms_1_1_excerpt.html">Ms::Excerpt</a> *e)</td></tr>
 <tr class="separator:aacb7b4220daa37459143cddaffae8fd8"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a8409c02f8b7f5f3d621cd52039194f25"><td class="memTemplParams" colspan="2">template&lt;typename T , class Container &gt; </td></tr>
 <tr class="memitem:a8409c02f8b7f5f3d621cd52039194f25"><td class="memTemplItemLeft" align="right" valign="top"><a class="el" href="class_ms_1_1_plugin_a_p_i_1_1_qml_excerpts_list_access.html">QmlExcerptsListAccess</a>&lt; T, Container &gt;&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespace_ms_1_1_plugin_a_p_i.html#a8409c02f8b7f5f3d621cd52039194f25">wrapExcerptsContainerProperty</a> (QObject *obj, Container &amp;c)</td></tr>
 <tr class="separator:a8409c02f8b7f5f3d621cd52039194f25"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac42728040cfaa4fd0c14b06c5a38b715"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_ms_1_1_plugin_a_p_i_1_1_qml_play_events_list_access.html">QmlPlayEventsListAccess</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_ms_1_1_plugin_a_p_i.html#ac42728040cfaa4fd0c14b06c5a38b715">wrapPlayEventsContainerProperty</a> (QObject *obj, <a class="el" href="class_ms_1_1_note_event_list.html">NoteEventList</a> &amp;c)</td></tr>
+<tr class="separator:ac42728040cfaa4fd0c14b06c5a38b715"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae47da54a7dbedde54fe979e1e3cebac9"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_ms_1_1_plugin_a_p_i_1_1_selection.html">Selection</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_ms_1_1_plugin_a_p_i.html#ae47da54a7dbedde54fe979e1e3cebac9">selectionWrap</a> (<a class="el" href="class_ms_1_1_selection.html">Ms::Selection</a> *select)</td></tr>
+<tr class="separator:ae47da54a7dbedde54fe979e1e3cebac9"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ab81ec5314749cf117676256659d0a096"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_ms_1_1_plugin_a_p_i_1_1_score_element.html">ScoreElement</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_ms_1_1_plugin_a_p_i.html#ab81ec5314749cf117676256659d0a096">wrap</a> (<a class="el" href="class_ms_1_1_score_element.html">Ms::ScoreElement</a> *se, <a class="el" href="namespace_ms_1_1_plugin_a_p_i.html#a321a117b3f121a17c640bcbf34799ead">Ownership</a> own)</td></tr>
 <tr class="memdesc:ab81ec5314749cf117676256659d0a096"><td class="mdescLeft">&#160;</td><td class="mdescRight">Wraps <a class="el" href="class_ms_1_1_score_element.html">Ms::ScoreElement</a> choosing the correct wrapper type at runtime based on the actual element type.  <a href="#ab81ec5314749cf117676256659d0a096">More...</a><br /></td></tr>
 <tr class="separator:ab81ec5314749cf117676256659d0a096"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -198,38 +213,44 @@ Functions</h2></td></tr>
 
 </div>
 </div>
-<a id="adbaffa5a18f900100989438335cd8eac"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#adbaffa5a18f900100989438335cd8eac">&#9670;&nbsp;</a></span>wrap() <span class="overload">[1/2]</span></h2>
+<a id="ae47da54a7dbedde54fe979e1e3cebac9"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ae47da54a7dbedde54fe979e1e3cebac9">&#9670;&nbsp;</a></span>selectionWrap()</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="class_ms_1_1_plugin_a_p_i_1_1_element.html">Element</a> * Ms::PluginAPI::wrap </td>
+          <td class="memname"><a class="el" href="class_ms_1_1_plugin_a_p_i_1_1_selection.html">Selection</a> * Ms::PluginAPI::selectionWrap </td>
           <td>(</td>
-          <td class="paramtype"><a class="el" href="class_ms_1_1_element.html">Ms::Element</a> *&#160;</td>
-          <td class="paramname"><em>e</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
+          <td class="paramtype"><a class="el" href="class_ms_1_1_selection.html">Ms::Selection</a> *&#160;</td>
+          <td class="paramname"><em>select</em></td><td>)</td>
           <td></td>
-          <td class="paramtype"><a class="el" href="namespace_ms_1_1_plugin_a_p_i.html#a321a117b3f121a17c640bcbf34799ead">Ownership</a>&#160;</td>
-          <td class="paramname"><em>own</em>&#160;</td>
-        </tr>
-        <tr>
-          <td></td>
-          <td>)</td>
-          <td></td><td></td>
         </tr>
       </table>
 </div><div class="memdoc">
 
-<p>Wraps <a class="el" href="class_ms_1_1_element.html" title="Base class of score layout elements. ">Ms::Element</a> choosing the correct wrapper type at runtime based on the actual element type. </p>
+</div>
+</div>
+<a id="aa3b1596be7538d1f9b247291f2de9b11"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aa3b1596be7538d1f9b247291f2de9b11">&#9670;&nbsp;</a></span>tieWrap()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="class_ms_1_1_plugin_a_p_i_1_1_tie.html">Tie</a> * Ms::PluginAPI::tieWrap </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="class_ms_1_1_tie.html">Ms::Tie</a> *&#160;</td>
+          <td class="paramname"><em>tie</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
 
 </div>
 </div>
 <a id="ab81ec5314749cf117676256659d0a096"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ab81ec5314749cf117676256659d0a096">&#9670;&nbsp;</a></span>wrap() <span class="overload">[2/2]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#ab81ec5314749cf117676256659d0a096">&#9670;&nbsp;</a></span>wrap() <span class="overload">[1/2]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -255,6 +276,36 @@ Functions</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Wraps <a class="el" href="class_ms_1_1_score_element.html">Ms::ScoreElement</a> choosing the correct wrapper type at runtime based on the actual element type. </p>
+
+</div>
+</div>
+<a id="adbaffa5a18f900100989438335cd8eac"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#adbaffa5a18f900100989438335cd8eac">&#9670;&nbsp;</a></span>wrap() <span class="overload">[2/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="class_ms_1_1_plugin_a_p_i_1_1_element.html">Element</a> * Ms::PluginAPI::wrap </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="class_ms_1_1_element.html">Ms::Element</a> *&#160;</td>
+          <td class="paramname"><em>e</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="namespace_ms_1_1_plugin_a_p_i.html#a321a117b3f121a17c640bcbf34799ead">Ownership</a>&#160;</td>
+          <td class="paramname"><em>own</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Wraps <a class="el" href="class_ms_1_1_element.html" title="Base class of score layout elements. ">Ms::Element</a> choosing the correct wrapper type at runtime based on the actual element type. </p>
 
 </div>
 </div>
@@ -314,6 +365,42 @@ template&lt;typename T , class Container &gt; </div>
           <td></td><td></td>
         </tr>
       </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="ac42728040cfaa4fd0c14b06c5a38b715"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ac42728040cfaa4fd0c14b06c5a38b715">&#9670;&nbsp;</a></span>wrapPlayEventsContainerProperty()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="class_ms_1_1_plugin_a_p_i_1_1_qml_play_events_list_access.html">QmlPlayEventsListAccess</a> Ms::PluginAPI::wrapPlayEventsContainerProperty </td>
+          <td>(</td>
+          <td class="paramtype">QObject *&#160;</td>
+          <td class="paramname"><em>obj</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="class_ms_1_1_note_event_list.html">NoteEventList</a> &amp;&#160;</td>
+          <td class="paramname"><em>c</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
 </div><div class="memdoc">
 
 </div>

@@ -23,7 +23,7 @@
   <td id="projectlogo"><img alt="Logo" src="musescore_logo_full.png"/></td>
   <td id="projectalign" style="padding-left: 0.5em;">
    <div id="projectname">MuseScore
-   &#160;<span id="projectnumber">3.2</span>
+   &#160;<span id="projectnumber">3.3.4</span>
    </div>
    <div id="projectbrief">Music composition and notation</div>
   </td>
@@ -65,12 +65,14 @@ $(function() {
 
 <h3><a id="index_b"></a>- b -</h3><ul>
 <li>b
-: <a class="el" href="class_ms_1_1_inspector_bar_line.html#afdfc728b034097d12aea3f4ad66cbccb">Ms::InspectorBarLine</a>
+: <a class="el" href="class_ms_1_1_insert_staves.html#ae62c755732eb9a3e75176b926d29e5db">Ms::InsertStaves</a>
+, <a class="el" href="class_ms_1_1_inspector_bar_line.html#afdfc728b034097d12aea3f4ad66cbccb">Ms::InspectorBarLine</a>
 , <a class="el" href="class_ms_1_1_inspector_beam.html#a6e3a05e20a15afcd798bf7769766eff5">Ms::InspectorBeam</a>
 , <a class="el" href="class_ms_1_1_inspector_bracket.html#ae0828c209bb0acc73cb896785f3cfdad">Ms::InspectorBracket</a>
 , <a class="el" href="class_ms_1_1_inspector_break.html#ad52cf75fe8cfce48391c00267e80ec92">Ms::InspectorBreak</a>
 , <a class="el" href="class_ms_1_1_inspector_image.html#ac79a3f886fbeb2ba94622867e1548c0d">Ms::InspectorImage</a>
 , <a class="el" href="class_ms_1_1_inspector_lasso.html#aae7e95a3b05f4dee92e639178af668d9">Ms::InspectorLasso</a>
+, <a class="el" href="class_ms_1_1_remove_staves.html#aa2bf0c8bed2922dd23a5f222b74b9b84">Ms::RemoveStaves</a>
 , <a class="el" href="class_ms_1_1_transposable_obj.html#aab243e7920676545d220d98508686525">Ms::TransposableObj</a>
 </li>
 <li>b0
@@ -118,7 +120,7 @@ $(function() {
 : <a class="el" href="class_ms_1_1_s_line.html#acdd16001f411af3d7293d3c31cc7cbbb">Ms::SLine</a>
 , <a class="el" href="class_ms_1_1_slur.html#a91dfda36c3326fba994057fc99166dc6">Ms::Slur</a>
 , <a class="el" href="class_ms_1_1_spanner.html#a7751f647686618977738232332c25b7e">Ms::Spanner</a>
-, <a class="el" href="class_ms_1_1_tie.html#a9465681e6acc7ab9bfdda69c5e7bf18b">Ms::Tie</a>
+, <a class="el" href="class_ms_1_1_tie.html#af35cce0048373d69adcc20a17ea3311d">Ms::Tie</a>
 </li>
 <li>backStack
 : <a class="el" href="class_ms_1_1_debugger.html#ab302540ce4a655cd657e042fcd40e87b">Ms::Debugger</a>
@@ -191,7 +193,7 @@ $(function() {
 : <a class="el" href="struct_ms_1_1_gp_bar.html#a114b18ed53f0073bbf8cf1c94e3adc75">Ms::GpBar</a>
 </li>
 <li>barline()
-: <a class="el" href="class_ms_1_1_music_x_m_l_parser_pass2.html#a90c030127af7225c2e0f3b51166cc0b8">Ms::MusicXMLParserPass2</a>
+: <a class="el" href="class_ms_1_1_music_x_m_l_parser_pass2.html#ade1bbd2446ef11737975f9550995c6a5">Ms::MusicXMLParserPass2</a>
 </li>
 <li>barline_meta()
 : <a class="el" href="class_ms_1_1_timeline.html#a6a4c3a73b7342960b2d609b6b58a6fb7">Ms::Timeline</a>
@@ -204,6 +206,9 @@ $(function() {
 </li>
 <li>barlineLeft()
 : <a class="el" href="class_ms_1_1_export_music_xml.html#a1bf4dffae7a2bde231dd23c1f67025be">Ms::ExportMusicXml</a>
+</li>
+<li>barlineMiddle()
+: <a class="el" href="class_ms_1_1_export_music_xml.html#a080a3dc37b1778cad3bbd0b37e67f382">Ms::ExportMusicXml</a>
 </li>
 <li>barlineMode
 : <a class="el" href="struct_ms_1_1_cap_staff_layout.html#aa33cbe5bcd40aa75ed7ef138144ecab4">Ms::CapStaffLayout</a>
@@ -338,6 +343,7 @@ $(function() {
 </li>
 <li>baseTpc()
 : <a class="el" href="class_ms_1_1_harmony.html#a8bedb3ec7ec0852d1828807342411173">Ms::Harmony</a>
+, <a class="el" href="class_ms_1_1_transpose_harmony.html#a92317d24d31b22d73a91ae90f96852b3">Ms::TransposeHarmony</a>
 </li>
 <li>basic
 : <a class="el" href="struct_ms_1_1_tempo_pattern.html#af35ce6e4e972c09c2d94710287f7621a">Ms::TempoPattern</a>
@@ -359,9 +365,6 @@ $(function() {
 </li>
 <li>basicWidth()
 : <a class="el" href="class_ms_1_1_measure.html#adb1f30fc6074d80e6c323f9b9655124b">Ms::Measure</a>
-</li>
-<li>basicWorkspaceTranslatableName
-: <a class="el" href="class_ms_1_1_workspace.html#a357800e2fd5ade614cd27f40484c6ebc">Ms::Workspace</a>
 </li>
 <li>bass
 : <a class="el" href="struct_ms_1_1_b_b_chord.html#acdba98b6d558b7758791fcea41cd66ec">Ms::BBChord</a>
@@ -398,6 +401,7 @@ $(function() {
 <li>bbox
 : <a class="el" href="struct_glyph.html#aca71c35cfd3f0fd9c82e2ad2a6a9fc15">Glyph</a>
 , <a class="el" href="class_ms_1_1_element.html#adc4d7b66745fbb0335dc73f0c3996994">Ms::Element</a>
+, <a class="el" href="class_ms_1_1_plugin_a_p_i_1_1_element.html#aa5a74d830fe75aeccdb3428351845318">Ms::PluginAPI::Element</a>
 , <a class="el" href="class_ms_1_1_position_cursor.html#ae5ea6a716c2fcf20164ca146ce4150b9">Ms::PositionCursor</a>
 , <a class="el" href="class_ms_1_1_score_font.html#a5a260d507297a8c370ce87480e66d93b">Ms::ScoreFont</a>
 , <a class="el" href="class_ms_1_1_s_line.html#a305923ccdcc56aa1ece912877c8e8179">Ms::SLine</a>
@@ -635,6 +639,9 @@ $(function() {
 <li>beginBar_
 : <a class="el" href="class_o_v_e_1_1_line.html#a402653895c8098a46aa415587fcd1bbc">OVE::Line</a>
 </li>
+<li>beginEndCmd()
+: <a class="el" href="class_ms_1_1_qml_plugin_engine.html#af17c8a1aa1e613859c7e272325f5355b">Ms::QmlPluginEngine</a>
+</li>
 <li>beginFontFace
 : <a class="el" href="class_ms_1_1_plugin_a_p_i_1_1_element.html#ab56ed25fc0167d01063d5526b013fb9a">Ms::PluginAPI::Element</a>
 </li>
@@ -659,6 +666,9 @@ $(function() {
 </li>
 <li>beginLine_
 : <a class="el" href="class_o_v_e_1_1_page.html#a941025a7256c63906b9e8f22f1bb3251">OVE::Page</a>
+</li>
+<li>beginMacro()
+: <a class="el" href="class_ms_1_1_undo_stack.html#a02e41c1e3f47216f2f30abcacc48f434">Ms::UndoStack</a>
 </li>
 <li>beginMeasure()
 : <a class="el" href="class_bww_1_1_ms_sc_writer.html#a95b57a18e804232fd724ce054dfd9d9d">Bww::MsScWriter</a>
@@ -693,6 +703,8 @@ $(function() {
 </li>
 <li>bend
 : <a class="el" href="class_ms_1_1_bend_properties.html#ab4f8758cfa8d6078bccb0decedc09548">Ms::BendProperties</a>
+, <a class="el" href="class_ms_1_1_change_bend.html#aa7beaac2dfb5dcd4f5d710f3e59225f5">Ms::ChangeBend</a>
+, <a class="el" href="class_ms_1_1_change_tremolo_bar.html#a8080f126c50806d139210df375dba3a4">Ms::ChangeTremoloBar</a>
 , <a class="el" href="struct_ms_1_1_power_tab_1_1pt_note.html#a0fc7f4d4101547ed2a9da172f8d97c23">Ms::PowerTab::ptNote</a>
 , <a class="el" href="class_ms_1_1_tremolo_bar_properties.html#a865df72b0c4a957e96ea4b07bfdef5b9">Ms::TremoloBarProperties</a>
 </li>
@@ -771,6 +783,12 @@ $(function() {
 </li>
 <li>blockSpanDataSignals()
 : <a class="el" href="class_ms_1_1_inspector_bar_line.html#ab9557ccbf6b58cdeec218b11ece44b25">Ms::InspectorBarLine</a>
+</li>
+<li>blockTreeChanged()
+: <a class="el" href="class_ms_1_1_palette_tree_model.html#a3bf7dee0df38a990c024697be28024b9">Ms::PaletteTreeModel</a>
+</li>
+<li>blockUpdateWorkspaces
+: <a class="el" href="class_ms_1_1_workspace_combo_box.html#a621e484654dabe4d48091fd0a730f1b5">Ms::WorkspaceComboBox</a>
 </li>
 <li>Bm()
 : <a class="el" href="struct_ms_1_1_bm.html#aacc52dc5729a21f8a3b1da64a05d4e89">Ms::Bm</a>
@@ -898,7 +916,8 @@ $(function() {
 : <a class="el" href="class_ms_1_1_bracket.html#aef2e2d7dddb4e6a528853a1d536af6a5">Ms::Bracket</a>
 </li>
 <li>bracket
-: <a class="el" href="class_ms_1_1_instrument_template.html#a384eb2474d6f8ca51a06dbc081824eb9">Ms::InstrumentTemplate</a>
+: <a class="el" href="class_ms_1_1_change_bracket_type.html#ad87d5d090c9fb3495aac280203a5fca6">Ms::ChangeBracketType</a>
+, <a class="el" href="class_ms_1_1_instrument_template.html#a384eb2474d6f8ca51a06dbc081824eb9">Ms::InstrumentTemplate</a>
 , <a class="el" href="class_ms_1_1_music_x_m_l_parser_direction.html#a9506eee38ea6a9183f66811878d0b2fc">Ms::MusicXMLParserDirection</a>
 , <a class="el" href="struct_ms_1_1_music_xml_tuplet_desc.html#acf68b4653d089100b23d194906cdae05">Ms::MusicXmlTupletDesc</a>
 </li>
@@ -929,7 +948,7 @@ $(function() {
 <li>brackets
 : <a class="el" href="class_ms_1_1_capella.html#ae529678239670df041fac3d413cd474c">Ms::Capella</a>
 , <a class="el" href="class_ms_1_1_export_music_xml.html#a86a5923d1511e2c0186e83c8ee28e4f8">Ms::ExportMusicXml</a>
-, <a class="el" href="class_ms_1_1_staff.html#aca7f5c2bd140b459507b384a20fae28a">Ms::Staff</a>
+, <a class="el" href="class_ms_1_1_staff.html#a0ab58cc207efdeaedf1de006cd22d03d">Ms::Staff</a>
 , <a class="el" href="class_ms_1_1_system.html#a336fab19d60f80f80bfb305318445e23">Ms::System</a>
 </li>
 <li>bracketSpan()
@@ -1057,7 +1076,7 @@ $(function() {
 : <a class="el" href="class_allpass.html#ac4abbea4ddad371aec970a296b28829e">Allpass</a>
 , <a class="el" href="class_comb.html#a37bad57768718960cfac6d3aab40558b">Comb</a>
 , <a class="el" href="class_ms_1_1_image.html#a4238c2e8d0a09335fbb617e39bf37174">Ms::Image</a>
-, <a class="el" href="class_ms_1_1_image_store_item.html#a9ea1ffbe538372052ad8eb9355988bd2">Ms::ImageStoreItem</a>
+, <a class="el" href="class_ms_1_1_image_store_item.html#ab56d0861281ce41f0d48a97a768ff14c">Ms::ImageStoreItem</a>
 , <a class="el" href="class_ms_1_1_pulse_audio.html#a7ae7ca5ff4c24f6c4ca6885f25b5f1ad">Ms::PulseAudio</a>
 , <a class="el" href="class_ms_1_1_rms_env.html#a2e65f2ca3bf523cf18b73596f1485b1c">Ms::RmsEnv</a>
 , <a class="el" href="class_voice_fifo.html#a1f6de06c16112e622611cc7a14b33cbf">VoiceFifo</a>
@@ -1079,9 +1098,6 @@ $(function() {
 </li>
 <li>build()
 : <a class="el" href="class_measure_to_tick.html#a9a891a30319eabf0fb2f07f47308f732">MeasureToTick</a>
-</li>
-<li>buildCanonical()
-: <a class="el" href="class_ms_1_1_score.html#a0dda845ec7e2fbd60df17960cf8b9f15">Ms::Score</a>
 </li>
 <li>buildGlissandoList()
 : <a class="el" href="class_ms_1_1_export_ly.html#a7d3000f9bd23f15f04242a4ebd95fe02">Ms::ExportLy</a>

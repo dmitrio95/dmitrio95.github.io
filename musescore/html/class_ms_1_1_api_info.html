@@ -23,7 +23,7 @@
   <td id="projectlogo"><img alt="Logo" src="musescore_logo_full.png"/></td>
   <td id="projectalign" style="padding-left: 0.5em;">
    <div id="projectname">MuseScore
-   &#160;<span id="projectnumber">3.2</span>
+   &#160;<span id="projectnumber">3.3.4</span>
    </div>
    <div id="projectbrief">Music composition and notation</div>
   </td>
@@ -91,6 +91,8 @@ Collaboration diagram for Ms::ApiInfo:</div>
 Static Public Member Functions</h2></td></tr>
 <tr class="memitem:a7f6312c849ce7777ee4af89e2166742d"><td class="memItemLeft" align="right" valign="top">static const <a class="el" href="class_ms_1_1_api_info.html">ApiInfo</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ms_1_1_api_info.html#a7f6312c849ce7777ee4af89e2166742d">instance</a> ()</td></tr>
 <tr class="separator:a7f6312c849ce7777ee4af89e2166742d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a77cf35414152dafc9c2a0004970eed42"><td class="memItemLeft" align="right" valign="top">static QUrl&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ms_1_1_api_info.html#a77cf35414152dafc9c2a0004970eed42">getUpdateScoreInfoUrl</a> (const QString &amp;scoreId, const QString &amp;accessToken, bool newScore, const QString &amp;customPath)</td></tr>
+<tr class="separator:a77cf35414152dafc9c2a0004970eed42"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-attribs"></a>
 Public Attributes</h2></td></tr>
@@ -146,6 +148,10 @@ Static Private Member Functions</h2></td></tr>
 Static Private Attributes</h2></td></tr>
 <tr class="memitem:a89fa2e2dd31fe3d21dbd87683d8c4afb"><td class="memItemLeft" align="right" valign="top">static <a class="el" href="class_ms_1_1_api_info.html">ApiInfo</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ms_1_1_api_info.html#a89fa2e2dd31fe3d21dbd87683d8c4afb">_instance</a> = nullptr</td></tr>
 <tr class="separator:a89fa2e2dd31fe3d21dbd87683d8c4afb"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a68fd813dc3c3eac39d119cf1849011dc"><td class="memItemLeft" align="right" valign="top">static constexpr const char *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ms_1_1_api_info.html#a68fd813dc3c3eac39d119cf1849011dc">mscoreHost</a> = &quot;https://musescore.com&quot;</td></tr>
+<tr class="separator:a68fd813dc3c3eac39d119cf1849011dc"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a5ddeeba8c6d78eca777a971b8f942559"><td class="memItemLeft" align="right" valign="top">static constexpr const char *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ms_1_1_api_info.html#a5ddeeba8c6d78eca777a971b8f942559">defaultUpdateScoreInfoPath</a> = &quot;/score/manage/upload/update&quot;</td></tr>
+<tr class="separator:a5ddeeba8c6d78eca777a971b8f942559"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
 <a id="a8236e886255a98dad384123a7b2aa7ba"></a>
@@ -305,6 +311,54 @@ Static Private Attributes</h2></td></tr>
   </td>
   <td class="mlabels-right">
 <span class="mlabels"><span class="mlabel">static</span><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a77cf35414152dafc9c2a0004970eed42"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a77cf35414152dafc9c2a0004970eed42">&#9670;&nbsp;</a></span>getUpdateScoreInfoUrl()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">QUrl Ms::ApiInfo::getUpdateScoreInfoUrl </td>
+          <td>(</td>
+          <td class="paramtype">const QString &amp;&#160;</td>
+          <td class="paramname"><em>scoreId</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const QString &amp;&#160;</td>
+          <td class="paramname"><em>accessToken</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">bool&#160;</td>
+          <td class="paramname"><em>newScore</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const QString &amp;&#160;</td>
+          <td class="paramname"><em>customPath</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
   </tr>
 </table>
 </div><div class="memdoc">
@@ -501,6 +555,28 @@ Static Private Attributes</h2></td></tr>
 
 </div>
 </div>
+<a id="a5ddeeba8c6d78eca777a971b8f942559"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a5ddeeba8c6d78eca777a971b8f942559">&#9670;&nbsp;</a></span>defaultUpdateScoreInfoPath</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">constexpr const char* Ms::ApiInfo::defaultUpdateScoreInfoPath = &quot;/score/manage/upload/update&quot;</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
 <a id="a0192e7a41279af7d9ba923f776cb7093"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a0192e7a41279af7d9ba923f776cb7093">&#9670;&nbsp;</a></span>loginPage</h2>
 
@@ -583,6 +659,28 @@ Static Private Attributes</h2></td></tr>
   </td>
   <td class="mlabels-right">
 <span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a68fd813dc3c3eac39d119cf1849011dc"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a68fd813dc3c3eac39d119cf1849011dc">&#9670;&nbsp;</a></span>mscoreHost</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">constexpr const char* Ms::ApiInfo::mscoreHost = &quot;https://musescore.com&quot;</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span><span class="mlabel">private</span></span>  </td>
   </tr>
 </table>
 </div><div class="memdoc">

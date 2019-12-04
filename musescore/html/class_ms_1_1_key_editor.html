@@ -23,7 +23,7 @@
   <td id="projectlogo"><img alt="Logo" src="musescore_logo_full.png"/></td>
   <td id="projectalign" style="padding-left: 0.5em;">
    <div id="projectname">MuseScore
-   &#160;<span id="projectnumber">3.2</span>
+   &#160;<span id="projectnumber">3.3.4</span>
    </div>
    <div id="projectbrief">Music composition and notation</div>
   </td>
@@ -66,6 +66,7 @@ $(function() {
 </div><!-- top -->
 <div class="header">
   <div class="summary">
+<a href="#signals">Signals</a> &#124;
 <a href="#pub-methods">Public Member Functions</a> &#124;
 <a href="#pri-slots">Private Slots</a> &#124;
 <a href="#pri-attribs">Private Attributes</a> &#124;
@@ -93,12 +94,19 @@ Collaboration diagram for Ms::KeyEditor:</div>
 </map>
 <center><span class="legend">[<a href="graph_legend.html">legend</a>]</span></center></div>
 <table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="signals"></a>
+Signals</h2></td></tr>
+<tr class="memitem:a67727f347e0e248b7881b33b5633b09e"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ms_1_1_key_editor.html#a67727f347e0e248b7881b33b5633b09e">keySigAdded</a> (const <a class="el" href="class_ms_1_1_key_sig.html">KeySig</a> *)</td></tr>
+<tr class="separator:a67727f347e0e248b7881b33b5633b09e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
 <tr class="memitem:a6520a8c1ec8a884fec50d4e2419e731d"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ms_1_1_key_editor.html#a6520a8c1ec8a884fec50d4e2419e731d">KeyEditor</a> (QWidget *parent=0)</td></tr>
 <tr class="separator:a6520a8c1ec8a884fec50d4e2419e731d"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a7077450fb84108ce30c6f2679494427d"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ms_1_1_key_editor.html#a7077450fb84108ce30c6f2679494427d">dirty</a> () const</td></tr>
 <tr class="separator:a7077450fb84108ce30c6f2679494427d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a24b869f984564cf3a6b329399d339a60"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ms_1_1_key_editor.html#a24b869f984564cf3a6b329399d339a60">showKeyPalette</a> (bool val)</td></tr>
+<tr class="separator:a24b869f984564cf3a6b329399d339a60"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a426581e25cec980a06437c45213490f9"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ms_1_1_key_editor.html#a426581e25cec980a06437c45213490f9">save</a> ()</td></tr>
 <tr class="separator:a426581e25cec980a06437c45213490f9"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
@@ -217,6 +225,32 @@ Private Attributes</h2></td></tr>
 
 </div>
 </div>
+<a id="a67727f347e0e248b7881b33b5633b09e"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a67727f347e0e248b7881b33b5633b09e">&#9670;&nbsp;</a></span>keySigAdded</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void Ms::KeyEditor::keySigAdded </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="class_ms_1_1_key_sig.html">KeySig</a> *&#160;</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">signal</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
 <a id="a426581e25cec980a06437c45213490f9"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a426581e25cec980a06437c45213490f9">&#9670;&nbsp;</a></span>save()</h2>
 
@@ -255,6 +289,24 @@ Private Attributes</h2></td></tr>
 <span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">private</span><span class="mlabel">slot</span></span>  </td>
   </tr>
 </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a24b869f984564cf3a6b329399d339a60"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a24b869f984564cf3a6b329399d339a60">&#9670;&nbsp;</a></span>showKeyPalette()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void Ms::KeyEditor::showKeyPalette </td>
+          <td>(</td>
+          <td class="paramtype">bool&#160;</td>
+          <td class="paramname"><em>val</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
 </div><div class="memdoc">
 
 </div>

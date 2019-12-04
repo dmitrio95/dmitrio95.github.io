@@ -23,7 +23,7 @@
   <td id="projectlogo"><img alt="Logo" src="musescore_logo_full.png"/></td>
   <td id="projectalign" style="padding-left: 0.5em;">
    <div id="projectname">MuseScore
-   &#160;<span id="projectnumber">3.2</span>
+   &#160;<span id="projectnumber">3.3.4</span>
    </div>
    <div id="projectbrief">Music composition and notation</div>
   </td>
@@ -68,8 +68,7 @@ $(function() {
   <div class="summary">
 <a href="#nested-classes">Classes</a> &#124;
 <a href="#namespaces">Namespaces</a> &#124;
-<a href="#typedef-members">Typedefs</a> &#124;
-<a href="#enum-members">Enumerations</a>  </div>
+<a href="#typedef-members">Typedefs</a>  </div>
   <div class="headertitle">
 <div class="title">importmxmlpass2.h File Reference</div>  </div>
 </div><!--header-->
@@ -150,6 +149,8 @@ Classes</h2></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_ms_1_1_music_xml_spanner_desc.html">Ms::MusicXmlSpannerDesc</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_ms_1_1_music_xml_extended_spanner_desc.html">Ms::MusicXmlExtendedSpannerDesc</a></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ms_1_1_music_xml_lyrics_extend.html">Ms::MusicXmlLyricsExtend</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ms_1_1_music_x_m_l_parser_lyric.html">Ms::MusicXMLParserLyric</a></td></tr>
@@ -171,30 +172,26 @@ Namespaces</h2></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="typedef-members"></a>
 Typedefs</h2></td></tr>
-<tr class="memitem:a854edca937023049bd4111fad831aea0"><td class="memItemLeft" align="right" valign="top">typedef QList&lt; Chord * &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_ms.html#a854edca937023049bd4111fad831aea0">Ms::GraceChordList</a></td></tr>
-<tr class="separator:a854edca937023049bd4111fad831aea0"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:acbc536218112ecaa5b325137b0d7a150"><td class="memItemLeft" align="right" valign="top">typedef QVector&lt; FiguredBass * &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_ms.html#acbc536218112ecaa5b325137b0d7a150">Ms::FiguredBassList</a></td></tr>
-<tr class="separator:acbc536218112ecaa5b325137b0d7a150"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa9bb0bf1a7579d81db188f9ca50e513c"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_ms.html#aa9bb0bf1a7579d81db188f9ca50e513c">Ms::GraceChordList</a> = QList&lt; Chord * &gt;</td></tr>
+<tr class="separator:aa9bb0bf1a7579d81db188f9ca50e513c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:acd88cb1b8ff477f5c2d1952f68cc0466"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_ms.html#acd88cb1b8ff477f5c2d1952f68cc0466">Ms::FiguredBassList</a> = QVector&lt; FiguredBass * &gt;</td></tr>
+<tr class="separator:acd88cb1b8ff477f5c2d1952f68cc0466"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a5dab5ab70efc1c70789d475228ffc134"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_ms.html#a5dab5ab70efc1c70789d475228ffc134">Ms::Tuplets</a> = std::map&lt; QString, Tuplet * &gt;</td></tr>
+<tr class="separator:a5dab5ab70efc1c70789d475228ffc134"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a2b402137fb5af1aacb6410e9ed0cf908"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_ms.html#a2b402137fb5af1aacb6410e9ed0cf908">Ms::SlurStack</a> = std::array&lt; SlurDesc, MAX_NUMBER_LEVEL &gt;</td></tr>
 <tr class="separator:a2b402137fb5af1aacb6410e9ed0cf908"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a7e28e0532c0338acd7c204ef543d6302"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_ms.html#a7e28e0532c0338acd7c204ef543d6302">Ms::TrillStack</a> = std::array&lt; Trill *, MAX_NUMBER_LEVEL &gt;</td></tr>
 <tr class="separator:a7e28e0532c0338acd7c204ef543d6302"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a27f0860b579795c4ae0c2f3880dbe821"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_ms.html#a27f0860b579795c4ae0c2f3880dbe821">Ms::BracketsStack</a> = std::array&lt; SLine *, MAX_BRACKETS &gt;</td></tr>
-<tr class="separator:a27f0860b579795c4ae0c2f3880dbe821"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aabff04c4e07021d1af5ee4063968c45c"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_ms.html#aabff04c4e07021d1af5ee4063968c45c">Ms::DashesStack</a> = std::array&lt; SLine *, MAX_DASHES &gt;</td></tr>
-<tr class="separator:aabff04c4e07021d1af5ee4063968c45c"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a85835b6e35e29fce4b55f599a257219c"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_ms.html#a85835b6e35e29fce4b55f599a257219c">Ms::OttavasStack</a> = std::array&lt; SLine *, MAX_NUMBER_LEVEL &gt;</td></tr>
-<tr class="separator:a85835b6e35e29fce4b55f599a257219c"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aa1817b11cca534b1e7dc38bae9df8ac0"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_ms.html#aa1817b11cca534b1e7dc38bae9df8ac0">Ms::HairpinsStack</a> = std::array&lt; SLine *, MAX_NUMBER_LEVEL &gt;</td></tr>
-<tr class="separator:aa1817b11cca534b1e7dc38bae9df8ac0"><td class="memSeparator" colspan="2">&#160;</td></tr>
-</table><table class="memberdecls">
-<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="enum-members"></a>
-Enumerations</h2></td></tr>
-<tr class="memitem:a11797c297638aad676a2b18ad413cad9"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_ms.html#a11797c297638aad676a2b18ad413cad9">Ms::MxmlStartStop</a> : char { <a class="el" href="namespace_ms.html#a11797c297638aad676a2b18ad413cad9ab078ffd28db767c502ac367053f6e0ac">Ms::MxmlStartStop::START</a>, 
-<a class="el" href="namespace_ms.html#a11797c297638aad676a2b18ad413cad9a615a46af313786fc4e349f34118be111">Ms::MxmlStartStop::STOP</a>, 
-<a class="el" href="namespace_ms.html#a11797c297638aad676a2b18ad413cad9ab50339a10e1de285ac99d4c3990b8693">Ms::MxmlStartStop::NONE</a>
- }</td></tr>
-<tr class="separator:a11797c297638aad676a2b18ad413cad9"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af0c4e6b4851d358b4112c632370622a7"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_ms.html#af0c4e6b4851d358b4112c632370622a7">Ms::BracketsStack</a> = std::array&lt; MusicXmlExtendedSpannerDesc, MAX_NUMBER_LEVEL &gt;</td></tr>
+<tr class="separator:af0c4e6b4851d358b4112c632370622a7"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a0050977eeca384ba810984baaa8549ee"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_ms.html#a0050977eeca384ba810984baaa8549ee">Ms::OttavasStack</a> = std::array&lt; MusicXmlExtendedSpannerDesc, MAX_NUMBER_LEVEL &gt;</td></tr>
+<tr class="separator:a0050977eeca384ba810984baaa8549ee"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae95e1f99f9bcd62c9e80a8ba3d5ce972"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_ms.html#ae95e1f99f9bcd62c9e80a8ba3d5ce972">Ms::HairpinsStack</a> = std::array&lt; MusicXmlExtendedSpannerDesc, MAX_NUMBER_LEVEL &gt;</td></tr>
+<tr class="separator:ae95e1f99f9bcd62c9e80a8ba3d5ce972"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a24727e1794bfa09b08f62c482f5ce758"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_ms.html#a24727e1794bfa09b08f62c482f5ce758">Ms::SpannerStack</a> = std::array&lt; MusicXmlExtendedSpannerDesc, MAX_NUMBER_LEVEL &gt;</td></tr>
+<tr class="separator:a24727e1794bfa09b08f62c482f5ce758"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a713e98e64ad3b51b192a291d7b4796dc"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_ms.html#a713e98e64ad3b51b192a291d7b4796dc">Ms::SpannerSet</a> = std::set&lt; Spanner * &gt;</td></tr>
+<tr class="separator:a713e98e64ad3b51b192a291d7b4796dc"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 </div><!-- contents -->
 <!-- start footer part -->

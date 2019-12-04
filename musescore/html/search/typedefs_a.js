@@ -8,5 +8,7 @@ var searchData=
   ['musicxmlpartgroupmap',['MusicXmlPartGroupMap',['../namespace_ms.html#a3654dc5bacc755bafe0cb26d872e3ef0',1,'Ms']]],
   ['musicxmlspannermap',['MusicXmlSpannerMap',['../namespace_ms.html#a0c4f9f817f0112329f4f97d8c2f9d8e2',1,'Ms']]],
   ['mxmlinstrumentmap',['MxmlInstrumentMap',['../namespace_ms.html#ab20b0db1398ac7851f84cc5eba0672a2',1,'Ms']]],
-  ['mxmlreverseinstrumentmap',['MxmlReverseInstrumentMap',['../namespace_ms.html#a0e25fe21355f1f62948efcff732dba4d',1,'Ms']]]
+  ['mxmlreverseinstrumentmap',['MxmlReverseInstrumentMap',['../namespace_ms.html#a0e25fe21355f1f62948efcff732dba4d',1,'Ms']]],
+  ['mxmltupletflags',['MxmlTupletFlags',['../namespace_ms.html#a0db8722acc8069aa0625949c20ab4d89',1,'Ms']]],
+  ['mxmltupletstates',['MxmlTupletStates',['../namespace_ms.html#aa0fdf93d0295340a78645200c536fc3b',1,'Ms']]]
 ];

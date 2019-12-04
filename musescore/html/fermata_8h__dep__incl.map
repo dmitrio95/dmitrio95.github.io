@@ -10,5 +10,6 @@
 <area shape="rect" id="node10" href="$libmscore_2score_8cpp.html" title="Implementation of class Score (partial). " alt="" coords="1405,80,1543,107"/>
 <area shape="rect" id="node11" href="$exportxml_8cpp.html" title="mscore/exportxml.cpp" alt="" coords="1568,80,1719,107"/>
 <area shape="rect" id="node12" href="$importmxmlpass2_8cpp.html" title="mscore/importmxmlpass2.cpp" alt="" coords="1743,80,1941,107"/>
-<area shape="rect" id="node13" href="$menus_8cpp.html" title="mscore/menus.cpp" alt="" coords="1965,80,2098,107"/>
+<area shape="rect" id="node13" href="$inspector_8cpp.html" title="mscore/inspector/inspector.cpp" alt="" coords="1965,80,2169,107"/>
+<area shape="rect" id="node14" href="$menus_8cpp.html" title="mscore/menus.cpp" alt="" coords="2194,80,2327,107"/>
 </map>

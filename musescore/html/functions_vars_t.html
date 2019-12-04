@@ -23,7 +23,7 @@
   <td id="projectlogo"><img alt="Logo" src="musescore_logo_full.png"/></td>
   <td id="projectalign" style="padding-left: 0.5em;">
    <div id="projectname">MuseScore
-   &#160;<span id="projectnumber">3.2</span>
+   &#160;<span id="projectnumber">3.3.4</span>
    </div>
    <div id="projectbrief">Music composition and notation</div>
   </td>
@@ -182,7 +182,11 @@ $(function() {
 : <a class="el" href="class_ms_1_1_m_score.html#ad93fd73fac085b5e2bb5c582ba427e3a">Ms::MScore</a>
 </li>
 <li>text
-: <a class="el" href="struct_ms_1_1_dyn.html#aed6df5a6aad1b9dc4c3e51704fd88fb0">Ms::Dyn</a>
+: <a class="el" href="class_ms_1_1_change_instrument_long.html#a446337afc9fe5e59a4f3b0f6d61edece">Ms::ChangeInstrumentLong</a>
+, <a class="el" href="class_ms_1_1_change_instrument_short.html#a14cabf1c56d49edf4f6708d3fbbe4a25">Ms::ChangeInstrumentShort</a>
+, <a class="el" href="class_ms_1_1_change_meta_text.html#ad7a9f6451566d1d03149834f6d0fd854">Ms::ChangeMetaText</a>
+, <a class="el" href="struct_ms_1_1_dyn.html#aed6df5a6aad1b9dc4c3e51704fd88fb0">Ms::Dyn</a>
+, <a class="el" href="class_ms_1_1_edit_text.html#a1032995d99e3f414dfeee164f4c010d7">Ms::EditText</a>
 , <a class="el" href="struct_ms_1_1_jump_type_table.html#acbc9b98537e994f23cd8cbac9d23f5cb">Ms::JumpTypeTable</a>
 , <a class="el" href="struct_ms_1_1_menu_entry.html#a6322a252845fcdad2b9d9b09a0888dee">Ms::MenuEntry</a>
 , <a class="el" href="struct_ms_1_1_render_action.html#ab3b0b0c3383c83aebfc5ac2b9928d37d">Ms::RenderAction</a>
@@ -236,10 +240,14 @@ $(function() {
 <li>tick
 : <a class="el" href="class_bww_1_1_ms_sc_writer.html#ad5ee1d13c250a4fd5d8cc0b596288631">Bww::MsScWriter</a>
 , <a class="el" href="struct_ms_1_1_annotation.html#ab6e439412a89b888d8002db934ba6e0e">Ms::Annotation</a>
+, <a class="el" href="class_ms_1_1_change_instrument_long.html#a20cbf948f328e8b7d83127cb278eb805">Ms::ChangeInstrumentLong</a>
+, <a class="el" href="class_ms_1_1_change_instrument_short.html#a484795957cb40f6263ecb623c85df018">Ms::ChangeInstrumentShort</a>
 , <a class="el" href="class_ms_1_1_directions_anchor.html#a55c233f7bf8afbf6b4306bdba2ba4d5c">Ms::DirectionsAnchor</a>
 , <a class="el" href="struct_ms_1_1_export_ly_1_1glisstablelem.html#a2fe728b6974e4f10efdeda7df9134ebd">Ms::ExportLy::glisstablelem</a>
 , <a class="el" href="struct_ms_1_1_export_ly_1_1_instruction_anchor.html#af80cbdb41ce5c83edef5854cb43d60f7">Ms::ExportLy::InstructionAnchor</a>
 , <a class="el" href="struct_ms_1_1_export_ly_1_1lyrics_data.html#a7c1ed2e4f9cae7cc84ebb459537ffe1c">Ms::ExportLy::lyricsData</a>
+, <a class="el" href="class_ms_1_1_insert_time.html#a697a4087bac0145bf535ea0d20894a8d">Ms::InsertTime</a>
+, <a class="el" href="class_ms_1_1_insert_time_unmanaged_spanner.html#a6fa7bd61dc94b3f42a4e8b05fed9fe3d">Ms::InsertTimeUnmanagedSpanner</a>
 , <a class="el" href="struct_ms_1_1_layout_context.html#a49debb6c28108156c84c4615d9371180">Ms::LayoutContext</a>
 , <a class="el" href="class_ms_1_1_omr_state.html#ac3d6251f13cb62ebd6e4209b064626ec">Ms::OmrState</a>
 , <a class="el" href="class_ms_1_1_repeat_segment.html#abe0d339ede48c79c40418c6b6cc189a1">Ms::RepeatSegment</a>
@@ -250,6 +258,9 @@ $(function() {
 <li>tick_
 : <a class="el" href="struct_measure_to_tick_1_1_time_tick.html#a9840447a9ef82fd1a4df8ac879299c15">MeasureToTick::TimeTick</a>
 , <a class="el" href="class_o_v_e_1_1_tick_element.html#ad0013604b41c494ba1635c2a958517ed">OVE::TickElement</a>
+</li>
+<li>tickEnd
+: <a class="el" href="struct_ms_1_1_undo_macro_1_1_selection_info.html#a8b357e9ace20518e919d100f93cd4a2d">Ms::UndoMacro::SelectionInfo</a>
 </li>
 <li>ticklen
 : <a class="el" href="struct_ms_1_1_export_ly_1_1chord_data.html#ae8fd5fec9352caeb0c83c07aee298d02">Ms::ExportLy::chordData</a>
@@ -268,6 +279,9 @@ $(function() {
 , <a class="el" href="class_ms_1_1_chord_view.html#abbf9fa5494d9837430a98d5f0015c3ab">Ms::ChordView</a>
 , <a class="el" href="class_ms_1_1_drum_view.html#a6ebf92bc3f83c97e874dbf7ca5025f7b">Ms::DrumView</a>
 , <a class="el" href="class_ms_1_1_piano_view.html#a04345e1040745ef8b102b61bd3428115">Ms::PianoView</a>
+</li>
+<li>tickStart
+: <a class="el" href="struct_ms_1_1_undo_macro_1_1_selection_info.html#a34cd5687858c31d0c64be9de28e81bf4">Ms::UndoMacro::SelectionInfo</a>
 </li>
 <li>tickVolume
 : <a class="el" href="class_ms_1_1_seq.html#a92f8f32c8722eac57c847307535e6c16">Ms::Seq</a>
@@ -368,6 +382,7 @@ $(function() {
 </li>
 <li>title
 : <a class="el" href="class_bww_1_1_parser.html#a88a0827196b07302dcbaed0a38189506">Bww::Parser</a>
+, <a class="el" href="class_ms_1_1_change_excerpt_title.html#a5a63a9be3fd245ad3842ed7a7b0874f7">Ms::ChangeExcerptTitle</a>
 , <a class="el" href="class_ms_1_1_guitar_pro.html#a3b2c966c0e26802b6613b1d29d2b1419">Ms::GuitarPro</a>
 , <a class="el" href="struct_ms_1_1_inspector_panel.html#a5a5daee1c0c27cb93ad0b7dff7e24258">Ms::InspectorPanel</a>
 , <a class="el" href="struct_svg_paint_engine_private_1_1__attributes.html#a7fd8df3327a5eefaced9077403cba858">SvgPaintEnginePrivate::_attributes</a>
@@ -395,6 +410,9 @@ $(function() {
 <li>toolbar
 : <a class="el" href="class_ms_1_1_help_browser.html#acf14e6d602998406f2184b6561910dc0">Ms::HelpBrowser</a>
 </li>
+<li>tooltip
+: <a class="el" href="class_ms_1_1_palette_qml_interface.html#a94372fdb5fffc883912e4ed7388ec2b9">Ms::PaletteQmlInterface</a>
+</li>
 <li>top
 : <a class="el" href="struct_ms_1_1_ac_el.html#af7baa06eeece60df0ae776b5256b2a56">Ms::AcEl</a>
 </li>
@@ -418,18 +436,24 @@ $(function() {
 : <a class="el" href="class_ms_1_1_seq.html#a7fb554f72c5bb965d1c25c60a0670643">Ms::Seq</a>
 </li>
 <li>tp
-: <a class="el" href="struct_ms_1_1_music_xml_spanner_desc.html#a60a09b9bce2d5bafb713ccacb6c48e6f">Ms::MusicXmlSpannerDesc</a>
-, <a class="el" href="struct_ms_1_1_mxml_octave_shift_desc.html#a8248ab06b5ef6c3c6db69a950f8977df">Ms::MxmlOctaveShiftDesc</a>
+: <a class="el" href="struct_ms_1_1_mxml_octave_shift_desc.html#a8248ab06b5ef6c3c6db69a950f8977df">Ms::MxmlOctaveShiftDesc</a>
 </li>
 <li>tpc
 : <a class="el" href="struct_ms_1_1_note_pattern.html#abcbec91b0e366d3307129718a5d592f2">Ms::NotePattern</a>
 , <a class="el" href="struct_ms_1_1_s_note.html#a17662628129db7ddecc0dd918691e4d1">Ms::SNote</a>
 </li>
 <li>tpc1
-: <a class="el" href="struct_ms_1_1_note_val.html#a179950ddba0d1671b70f629f443c4439">Ms::NoteVal</a>
+: <a class="el" href="class_ms_1_1_change_fretting.html#a8864c1566e30dd88b0a5545e3a1fd696">Ms::ChangeFretting</a>
+, <a class="el" href="class_ms_1_1_change_pitch.html#a0b39fac8b1c8bcdb616f05dc4356bcb5">Ms::ChangePitch</a>
+, <a class="el" href="struct_ms_1_1_note_val.html#a179950ddba0d1671b70f629f443c4439">Ms::NoteVal</a>
 </li>
 <li>tpc2
-: <a class="el" href="struct_ms_1_1_note_val.html#a90b20d1d69361fb0b3faf6c075503f10">Ms::NoteVal</a>
+: <a class="el" href="class_ms_1_1_change_fretting.html#a800c303a61886b9025f81187a13630a7">Ms::ChangeFretting</a>
+, <a class="el" href="class_ms_1_1_change_pitch.html#ab0355be83388f72864155f633c6ba061">Ms::ChangePitch</a>
+, <a class="el" href="struct_ms_1_1_note_val.html#a90b20d1d69361fb0b3faf6c075503f10">Ms::NoteVal</a>
+</li>
+<li>track
+: <a class="el" href="class_ms_1_1_move_tremolo.html#af529be56d643515cbc7b95b82becdd81">Ms::MoveTremolo</a>
 </li>
 <li>track1
 : <a class="el" href="struct_ms_1_1_power_tab_1_1pt_song.html#ae2c1aa5e90d817ff0325b49e9eab460b">Ms::PowerTab::ptSong</a>
@@ -503,8 +527,14 @@ $(function() {
 <li>transposeClef_
 : <a class="el" href="class_o_v_e_1_1_track.html#a0e4a39c8b4db3c5c485ed9bcf49c40e2">OVE::Track</a>
 </li>
+<li>transposingClef
+: <a class="el" href="class_ms_1_1_change_clef_type.html#a5caa94899c080274a8f31efa6300df19">Ms::ChangeClefType</a>
+</li>
 <li>tree
 : <a class="el" href="class_ms_1_1_spanner_map.html#aed72fd75361d4b98406141ed5957b475">Ms::SpannerMap</a>
+</li>
+<li>trem
+: <a class="el" href="class_ms_1_1_move_tremolo.html#a69fce68accb5b603441c513c3a4117d1">Ms::MoveTremolo</a>
 </li>
 <li>tremolo
 : <a class="el" href="struct_ms_1_1_drum_instrument_variant.html#ab8aacc3ee1777bcfcb4715d5ace17a4a">Ms::DrumInstrumentVariant</a>
@@ -628,10 +658,12 @@ $(function() {
 , <a class="el" href="struct_bww_1_1_note_description.html#a3be5d55f6855a6dd4d19974060d04958">Bww::NoteDescription</a>
 , <a class="el" href="class_bww_1_1_parser.html#a71d8a32a2a29e3b69e61ebcf81274021">Bww::Parser</a>
 , <a class="el" href="struct_midi_instrument.html#ad07c2769190e3491d310cee3b82d3102">MidiInstrument</a>
+, <a class="el" href="class_ms_1_1_add_bracket.html#a2b8607740b2c4bb837dca05d3c64b6cf">Ms::AddBracket</a>
 , <a class="el" href="struct_ms_1_1_bar_line_table_item.html#a47f1f3d67814a7ed2f74a9efd2ee0a11">Ms::BarLineTableItem</a>
 , <a class="el" href="struct_ms_1_1_base_diff.html#a2ce24516de805c19edea076b9e188576">Ms::BaseDiff</a>
 , <a class="el" href="class_ms_1_1_basic_draw_obj.html#a3b6b7116016fee8b4df0dcd4383e682c">Ms::BasicDrawObj</a>
 , <a class="el" href="struct_ms_1_1_bsp_tree_1_1_node.html#a777959f12007b4c1e4f3eb366785912b">Ms::BspTree::Node</a>
+, <a class="el" href="class_ms_1_1_change_bracket_type.html#a61a51049f7d5470b6446934e1e86cff7">Ms::ChangeBracketType</a>
 , <a class="el" href="struct_ms_1_1_element_name.html#ac08dc14105b881350e858c54b7754c12">Ms::ElementName</a>
 , <a class="el" href="struct_ms_1_1_element_pattern.html#aee1e63f9ab01273577ae14fcc057e7e1">Ms::ElementPattern</a>
 , <a class="el" href="struct_ms_1_1_export_ly_1_1glisstablelem.html#ac147a95f19b3c86f7366f31e3722c2e6">Ms::ExportLy::glisstablelem</a>
@@ -649,6 +681,7 @@ $(function() {
 , <a class="el" href="class_ms_1_1_piano_key_item.html#ae67d485c002459040ac91829f35d6680">Ms::PianoKeyItem</a>
 , <a class="el" href="class_ms_1_1_port.html#aa15019e11c2a28c748791302a818c333">Ms::Port</a>
 , <a class="el" href="struct_ms_1_1_property_meta_data.html#adc6887e663e1ea3b8caee293fe9e7764">Ms::PropertyMetaData</a>
+, <a class="el" href="class_ms_1_1_remove_bracket.html#aa9bf3dc8a9a2fc011731f4be9b9afbf0">Ms::RemoveBracket</a>
 , <a class="el" href="struct_ms_1_1_render_action.html#a14d0af02494749a55388a78f4afffa75">Ms::RenderAction</a>
 , <a class="el" href="struct_ms_1_1_t_event.html#a4a7fb65fc9f18836390c6760d44ed342">Ms::TEvent</a>
 , <a class="el" href="struct_ms_1_1_text_diff.html#af476c1f7d491a1260af68ed7a8a1a7f6">Ms::TextDiff</a>

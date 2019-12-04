@@ -1,6 +1,6 @@
 <map id="libmscore/slurtie.h" name="libmscore/slurtie.h">
 <area shape="rect" id="node2" href="$slur_8h.html" title="libmscore/slur.h" alt="" coords="3657,80,3771,107"/>
-<area shape="rect" id="node49" href="$tie_8h.html" title="libmscore/tie.h" alt="" coords="5617,80,5723,107"/>
+<area shape="rect" id="node49" href="$libmscore_2tie_8h.html" title="libmscore/tie.h" alt="" coords="5617,80,5723,107"/>
 <area shape="rect" id="node50" href="$slurtie_8cpp.html" title="libmscore/slurtie.cpp" alt="" coords="7797,162,7940,189"/>
 <area shape="rect" id="node3" href="$check_8cpp.html" title="libmscore/check.cpp" alt="" coords="1332,162,1475,189"/>
 <area shape="rect" id="node4" href="$chord_8cpp.html" title="libmscore/chord.cpp" alt="" coords="3485,162,3623,189"/>

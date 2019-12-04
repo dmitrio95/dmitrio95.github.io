@@ -1,5 +1,6 @@
 var searchData=
 [
+  ['valid',['valid',['../class_ms_1_1_palette_element_editor.html#ab6ef4b039205c7496ad11cf827dc76ad',1,'Ms::PaletteElementEditor']]],
   ['value',['value',['../class_awl_1_1_abstract_slider.html#aea5fc1617482d7ccd4751ba3da035198',1,'Awl::AbstractSlider']]],
   ['velochange',['veloChange',['../class_ms_1_1_plugin_a_p_i_1_1_element.html#aa20e73026a4fc4461fcf3c6ed35d4d7a',1,'Ms::PluginAPI::Element']]],
   ['velochangemethod',['veloChangeMethod',['../class_ms_1_1_plugin_a_p_i_1_1_element.html#a284d097ae13af1551eb2aa630e65247e',1,'Ms::PluginAPI::Element']]],

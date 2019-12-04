@@ -1,0 +1,37 @@
+<map id="mscore/palette/palettewidget.cpp" name="mscore/palette/palettewidget.cpp">
+<area shape="rect" id="node2" href="$palettewidget_8h.html" title="palettewidget.h" alt="" coords="1259,80,1370,107"/>
+<area shape="rect" id="node7" href="$musescore_8h.html" title="musescore.h" alt="" coords="831,80,929,107"/>
+<area shape="rect" id="node44" href="$paletteworkspace_8h.html" title="palette/paletteworkspace.h" alt="" coords="1395,80,1573,107"/>
+<area shape="rect" id="node47" href="$qmliconview_8h.html" title="plugin/qmliconview.h" alt="" coords="1598,80,1741,107"/>
+<area shape="rect" id="node48" href="$preferences_8h.html" title="preferences.h" alt="" coords="381,80,483,107"/>
+<area shape="rect" id="node49" href="$nativetooltip_8h.html" title="qml/nativetooltip.h" alt="" coords="1765,80,1893,107"/>
+<area shape="rect" id="node3" href="$qmldockwidget_8h.html" title="qmldockwidget.h" alt="" coords="1812,311,1932,338"/>
+<area shape="rect" id="node4" href="$mscore_8h.html" title="libmscore/mscore.h" alt="" coords="1077,543,1213,569"/>
+<area shape="rect" id="node6" href="$style_8h.html" title="style.h" alt="" coords="1115,617,1176,644"/>
+<area shape="rect" id="node8" href="$globals_8h.html" title="globals.h" alt="" coords="5,155,80,181"/>
+<area shape="rect" id="node14" href="$updatechecker_8h.html" title="updatechecker.h" alt="" coords="579,155,698,181"/>
+<area shape="rect" id="node15" href="$musescore_core_8h.html" title="libmscore/musescoreCore.h" alt="" coords="722,155,907,181"/>
+<area shape="rect" id="node16" href="$libmscore_2score_8h.html" title="Definition of Score class. " alt="" coords="983,155,1108,181"/>
+<area shape="rect" id="node38" href="$newwizard_8h.html" title="newwizard.h" alt="" coords="643,393,738,420"/>
+<area shape="rect" id="node17" href="$input_8h.html" title="input.h" alt="" coords="947,229,1008,256"/>
+<area shape="rect" id="node21" href="$property_8h.html" title="property.h" alt="" coords="1000,393,1080,420"/>
+<area shape="rect" id="node22" href="$libmscore_2instrument_8h.html" title="instrument.h" alt="" coords="1486,393,1581,420"/>
+<area shape="rect" id="node30" href="$select_8h.html" title="select.h" alt="" coords="1083,311,1151,338"/>
+<area shape="rect" id="node32" href="$synthesizerstate_8h.html" title="synthesizerstate.h" alt="" coords="1205,229,1334,256"/>
+<area shape="rect" id="node34" href="$mscoreview_8h.html" title="mscoreview.h" alt="" coords="1358,229,1461,256"/>
+<area shape="rect" id="node35" href="$spannermap_8h.html" title="spannermap.h" alt="" coords="1485,229,1589,256"/>
+<area shape="rect" id="node37" href="$layoutbreak_8h.html" title="layoutbreak.h" alt="" coords="822,229,922,256"/>
+<area shape="rect" id="node18" href="$durationtype_8h.html" title="durationtype.h" alt="" coords="872,393,976,420"/>
+<area shape="rect" id="node20" href="$beam_8h.html" title="beam.h" alt="" coords="942,311,1007,338"/>
+<area shape="rect" id="node19" href="$libmscore_2fraction_8h.html" title="fraction.h" alt="" coords="822,468,898,495"/>
+<area shape="rect" id="node23" href="$stringdata_8h.html" title="stringdata.h" alt="" coords="1375,468,1465,495"/>
+<area shape="rect" id="node24" href="$notifier_8hpp.html" title="notifier.hpp" alt="" coords="1490,468,1577,495"/>
+<area shape="rect" id="node25" href="$event_8h.html" title="synthesizer/event.h" alt="" coords="1601,468,1737,495"/>
+<area shape="rect" id="node26" href="$interval_8h.html" title="interval.h" alt="" coords="1761,468,1836,495"/>
+<area shape="rect" id="node27" href="$clef_8h.html" title="Definition of classes Clef. " alt="" coords="1958,468,2013,495"/>
+<area shape="rect" id="node31" href="$pitchspelling_8h.html" title="pitchspelling.h" alt="" coords="1105,393,1210,420"/>
+<area shape="rect" id="node42" href="$timesig_8h.html" title="libmscore/timesig.h" alt="" coords="922,468,1057,495"/>
+<area shape="rect" id="node43" href="$key_8h.html" title="key.h" alt="" coords="401,468,455,495"/>
+<area shape="rect" id="node45" href="$palettemodel_8h.html" title="palettemodel.h" alt="" coords="1673,155,1780,181"/>
+<area shape="rect" id="node46" href="$palettetree_8h.html" title="palettetree.h" alt="" coords="1679,229,1774,256"/>
+</map>

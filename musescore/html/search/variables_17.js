@@ -1,7 +1,8 @@
 var searchData=
 [
-  ['w',['w',['../struct_ms_1_1_paper_size.html#ae335aeffea165fe318c719b20614ff77',1,'Ms::PaperSize::w()'],['../struct_ms_1_1_skyline_segment.html#a2a5e10cec9a83a5b65d0269a89e3c62e',1,'Ms::SkylineSegment::w()'],['../class_ms_1_1_help_query.html#a44ac669b2a844371d9b2f4fd5131ea93',1,'Ms::HelpQuery::w()'],['../struct_ms_1_1_inspector_item.html#a21c4d2f376d4f4d09c822b563b4abb82',1,'Ms::InspectorItem::w()'],['../class_ms_1_1_new_wizard_info_page.html#a4c7433144ba29a9c14f55577bf623021',1,'Ms::NewWizardInfoPage::w()'],['../class_ms_1_1_new_wizard_timesig_page.html#a20a880cf6917c197ebf6b44dc285da24',1,'Ms::NewWizardTimesigPage::w()']]],
+  ['w',['w',['../struct_ms_1_1_paper_size.html#ae335aeffea165fe318c719b20614ff77',1,'Ms::PaperSize::w()'],['../struct_ms_1_1_skyline_segment.html#a2a5e10cec9a83a5b65d0269a89e3c62e',1,'Ms::SkylineSegment::w()'],['../class_ms_1_1_help_query.html#a44ac669b2a844371d9b2f4fd5131ea93',1,'Ms::HelpQuery::w()'],['../struct_ms_1_1_inspector_item.html#a21c4d2f376d4f4d09c822b563b4abb82',1,'Ms::InspectorItem::w()'],['../class_ms_1_1_new_wizard_info_page.html#a4c7433144ba29a9c14f55577bf623021',1,'Ms::NewWizardInfoPage::w()'],['../class_ms_1_1_new_wizard_timesig_page.html#a20a880cf6917c197ebf6b44dc285da24',1,'Ms::NewWizardTimesigPage::w()'],['../class_ms_1_1_palette_qml_interface.html#a30cc016aed99b4c11a7dd35597f068fe',1,'Ms::PaletteQmlInterface::w()']]],
   ['warnpitchrange',['warnPitchRange',['../class_ms_1_1_m_score.html#a18bcfe839ebcfbf64075ee2c7cf19b07',1,'Ms::MScore']]],
+  ['wasshown',['wasShown',['../class_ms_1_1_palette_widget.html#a4be449feefa893b425616cc2063f36a6',1,'Ms::PaletteWidget']]],
   ['wavelen',['waveLen',['../class_ms_1_1_wavy_line_obj.html#ab542b55950d33b821760894f82a3b587',1,'Ms::WavyLineObj']]],
   ['waves',['waves',['../class_ms_1_1_wave_view.html#ac7301a072514a1e8982d5f44b3dcf743',1,'Ms::WaveView']]],
   ['waveview',['waveView',['../class_ms_1_1_pianoroll_editor.html#a73d2041fe68ce8433630cbd2edb1c6db',1,'Ms::PianorollEditor']]],
@@ -21,10 +22,9 @@ var searchData=
   ['widx',['widx',['../class_ms_1_1_fifo_base.html#a1cb2ec032f1779614da462a2f55f140d',1,'Ms::FifoBase']]],
   ['wordcount_5f',['wordCount_',['../struct_o_v_e_1_1_lyric_chunk_parse_1_1_lyric_info.html#a2502af3e80273946ee68b9a71d39b6e9',1,'OVE::LyricChunkParse::LyricInfo']]],
   ['words',['words',['../struct_ms_1_1_credit_words.html#af23966602a255bed1860afc4fa06ae0f',1,'Ms::CreditWords']]],
-  ['workspacelist',['workspaceList',['../class_ms_1_1_palette_box.html#a514df37b91e63ae3530bea68563432e9',1,'Ms::PaletteBox']]],
   ['workspaces',['workspaces',['../class_ms_1_1_muse_score.html#aff7fc7397b6b5dd7ebe8e9ca16183c18',1,'Ms::MuseScore']]],
   ['workspacesdir',['workspacesDir',['../class_ms_1_1_extension.html#a02361a072f75f59a0345b4d2128ee17b',1,'Ms::Extension']]],
-  ['workspacesread',['workspacesRead',['../class_ms_1_1_workspace.html#a291a93e6625c7cd95c0c8620e8f6e6f3',1,'Ms::Workspace']]],
+  ['workspacestools',['workspacesTools',['../class_ms_1_1_muse_score.html#ac14593a7f1a7de39c6bfdf0c20acde85',1,'Ms::MuseScore']]],
   ['worldscale',['worldScale',['../struct_ms_1_1_glyph_key.html#a8d4c4963abcd145ae7bffe6a6d1951d6',1,'Ms::GlyphKey']]],
   ['writers_5f',['writers_',['../class_o_v_e_1_1_ove_song.html#a697f5c13176b4469e5e82ef39d995c6e',1,'OVE::OveSong']]],
   ['writertype_5f',['writerType_',['../class_o_v_e_1_1_title_chunk_parse.html#a1f73e3347b4b623d66a4b4296e731e81',1,'OVE::TitleChunkParse']]],

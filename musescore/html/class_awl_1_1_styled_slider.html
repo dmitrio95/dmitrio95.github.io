@@ -23,7 +23,7 @@
   <td id="projectlogo"><img alt="Logo" src="musescore_logo_full.png"/></td>
   <td id="projectalign" style="padding-left: 0.5em;">
    <div id="projectname">MuseScore
-   &#160;<span id="projectnumber">3.2</span>
+   &#160;<span id="projectnumber">3.3.4</span>
    </div>
    <div id="projectbrief">Music composition and notation</div>
   </td>
@@ -178,6 +178,10 @@ Public Member Functions</h2></td></tr>
 <tr class="separator:a0e426fe7d77126ae7c9a9d18e5f74e4c"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a8779581d46426561ec77a84b4277c4af"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_awl_1_1_styled_slider.html#a8779581d46426561ec77a84b4277c4af">addMark</a> (double <a class="el" href="class_awl_1_1_styled_slider.html#ac5983ff8b0d3d3ac1e387b42168428e2">value</a>)</td></tr>
 <tr class="separator:a8779581d46426561ec77a84b4277c4af"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:abaa28c27896535337e301f7ee2ac71fc"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_awl_1_1_styled_slider.html#abaa28c27896535337e301f7ee2ac71fc">mouseDoubleClickEvent</a> (QMouseEvent *)</td></tr>
+<tr class="separator:abaa28c27896535337e301f7ee2ac71fc"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9c58dbd8d695d96ec19be6f3c3ac5c22"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_awl_1_1_styled_slider.html#a9c58dbd8d695d96ec19be6f3c3ac5c22">setDoubleClickValue</a> (double <a class="el" href="class_awl_1_1_styled_slider.html#ac5983ff8b0d3d3ac1e387b42168428e2">value</a>)</td></tr>
+<tr class="separator:a9c58dbd8d695d96ec19be6f3c3ac5c22"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pri-attribs"></a>
 Private Attributes</h2></td></tr>
@@ -201,6 +205,8 @@ Private Attributes</h2></td></tr>
 <tr class="separator:a60ddea7686b9de7dc81ed3fb59b2919f"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a81e00ba1f984c2b6388af14571ea7766"><td class="memItemLeft" align="right" valign="top">double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_awl_1_1_styled_slider.html#a81e00ba1f984c2b6388af14571ea7766">_minorTickWidth</a> = 10</td></tr>
 <tr class="separator:a81e00ba1f984c2b6388af14571ea7766"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac3b8b20c98938d34222dfc8edcbcae90"><td class="memItemLeft" align="right" valign="top">double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_awl_1_1_styled_slider.html#ac3b8b20c98938d34222dfc8edcbcae90">_doubleClickValue</a> = 63</td></tr>
+<tr class="separator:ac3b8b20c98938d34222dfc8edcbcae90"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aa7c284a61a0c111b6e0cd3d7cad2b52b"><td class="memItemLeft" align="right" valign="top">QColor&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_awl_1_1_styled_slider.html#aa7c284a61a0c111b6e0cd3d7cad2b52b">_backgroundColor</a> = QColor(10, 10, 10)</td></tr>
 <tr class="separator:aa7c284a61a0c111b6e0cd3d7cad2b52b"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a645521c0b4c38bf6323c85de462c3a08"><td class="memItemLeft" align="right" valign="top">QColor&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_awl_1_1_styled_slider.html#a645521c0b4c38bf6323c85de462c3a08">_hilightColor</a> = QColor(0, 255, 0)</td></tr>
@@ -548,6 +554,24 @@ Private Attributes</h2></td></tr>
 
 </div>
 </div>
+<a id="abaa28c27896535337e301f7ee2ac71fc"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#abaa28c27896535337e301f7ee2ac71fc">&#9670;&nbsp;</a></span>mouseDoubleClickEvent()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void Awl::StyledSlider::mouseDoubleClickEvent </td>
+          <td>(</td>
+          <td class="paramtype">QMouseEvent *&#160;</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
 <a id="a7f176a62475d02c9bdbcde9891431877"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a7f176a62475d02c9bdbcde9891431877">&#9670;&nbsp;</a></span>mouseMoveEvent()</h2>
 
@@ -748,6 +772,32 @@ Private Attributes</h2></td></tr>
   </td>
   <td class="mlabels-right">
 <span class="mlabels"><span class="mlabel">slot</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a9c58dbd8d695d96ec19be6f3c3ac5c22"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a9c58dbd8d695d96ec19be6f3c3ac5c22">&#9670;&nbsp;</a></span>setDoubleClickValue()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void Awl::StyledSlider::setDoubleClickValue </td>
+          <td>(</td>
+          <td class="paramtype">double&#160;</td>
+          <td class="paramname"><em>value</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
   </tr>
 </table>
 </div><div class="memdoc">
@@ -1251,6 +1301,28 @@ Private Attributes</h2></td></tr>
       <table class="memname">
         <tr>
           <td class="memname">double Awl::StyledSlider::_barThickness = 4</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="ac3b8b20c98938d34222dfc8edcbcae90"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ac3b8b20c98938d34222dfc8edcbcae90">&#9670;&nbsp;</a></span>_doubleClickValue</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">double Awl::StyledSlider::_doubleClickValue = 63</td>
         </tr>
       </table>
   </td>

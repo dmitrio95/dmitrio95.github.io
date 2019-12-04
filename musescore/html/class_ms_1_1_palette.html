@@ -23,7 +23,7 @@
   <td id="projectlogo"><img alt="Logo" src="musescore_logo_full.png"/></td>
   <td id="projectalign" style="padding-left: 0.5em;">
    <div id="projectname">MuseScore
-   &#160;<span id="projectnumber">3.2</span>
+   &#160;<span id="projectnumber">3.3.4</span>
    </div>
    <div id="projectbrief">Music composition and notation</div>
   </td>
@@ -68,6 +68,7 @@ $(function() {
   <div class="summary">
 <a href="#signals">Signals</a> &#124;
 <a href="#pub-methods">Public Member Functions</a> &#124;
+<a href="#pub-static-methods">Static Public Member Functions</a> &#124;
 <a href="#pri-slots">Private Slots</a> &#124;
 <a href="#pri-methods">Private Member Functions</a> &#124;
 <a href="#pri-attribs">Private Attributes</a> &#124;
@@ -106,6 +107,8 @@ Signals</h2></td></tr>
 Public Member Functions</h2></td></tr>
 <tr class="memitem:affe8f33976d4c66877fc8d7eb2121e7d"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ms_1_1_palette.html#affe8f33976d4c66877fc8d7eb2121e7d">Palette</a> (QWidget *parent=0)</td></tr>
 <tr class="separator:affe8f33976d4c66877fc8d7eb2121e7d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a6c885e2c5346ae1164cdfe68e9d85e69"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ms_1_1_palette.html#a6c885e2c5346ae1164cdfe68e9d85e69">Palette</a> (std::unique_ptr&lt; <a class="el" href="class_ms_1_1_palette_panel.html">PalettePanel</a> &gt;, QWidget *parent=nullptr)</td></tr>
+<tr class="separator:a6c885e2c5346ae1164cdfe68e9d85e69"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a638108b5a5ce074764be8d4a0ab018cb"><td class="memItemLeft" align="right" valign="top">virtual&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ms_1_1_palette.html#a638108b5a5ce074764be8d4a0ab018cb">~Palette</a> ()</td></tr>
 <tr class="separator:a638108b5a5ce074764be8d4a0ab018cb"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a405cb7e9950cd5b4f6b3149f8d13cd4d"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ms_1_1_palette.html#a405cb7e9950cd5b4f6b3149f8d13cd4d">nextPaletteElement</a> ()</td></tr>
@@ -136,8 +139,6 @@ Public Member Functions</h2></td></tr>
 <tr class="separator:a8b9bf9572900bbdb7984925218b702c0"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a37b39685ccaf5fe20ccc25e62d6d01c6"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ms_1_1_palette.html#a37b39685ccaf5fe20ccc25e62d6d01c6">write</a> (<a class="el" href="class_ms_1_1_xml_writer.html">XmlWriter</a> &amp;) const</td></tr>
 <tr class="separator:a37b39685ccaf5fe20ccc25e62d6d01c6"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a8d64490e370cb12086767bc77d0618ed"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ms_1_1_palette.html#a8d64490e370cb12086767bc77d0618ed">read</a> (QFile *)</td></tr>
-<tr class="separator:a8d64490e370cb12086767bc77d0618ed"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a451f6049398778447f21eb4913f3d65a"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ms_1_1_palette.html#a451f6049398778447f21eb4913f3d65a">clear</a> ()</td></tr>
 <tr class="separator:a451f6049398778447f21eb4913f3d65a"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a021b94da6fe4b5631846f78b0c9c3893"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ms_1_1_palette.html#a021b94da6fe4b5631846f78b0c9c3893">setSelectable</a> (bool val)</td></tr>
@@ -193,6 +194,10 @@ Public Member Functions</h2></td></tr>
 <tr class="separator:a872cd0c97ee3ab82838b4d6b1699c762"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ae165d142702407c319a9aee2ede93899"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ms_1_1_palette.html#ae165d142702407c319a9aee2ede93899">setShowContextMenu</a> (bool val)</td></tr>
 <tr class="separator:ae165d142702407c319a9aee2ede93899"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9ec09edfd21278fa294d880b6ef6c9ef"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ms_1_1_palette.html#a9ec09edfd21278fa294d880b6ef6c9ef">gridWidthM</a> () const</td></tr>
+<tr class="separator:a9ec09edfd21278fa294d880b6ef6c9ef"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a0acdb4ccc4f5883ac86f6efc2e4c6222"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ms_1_1_palette.html#a0acdb4ccc4f5883ac86f6efc2e4c6222">gridHeightM</a> () const</td></tr>
+<tr class="separator:a0acdb4ccc4f5883ac86f6efc2e4c6222"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ad463d915977ed1c1aa54c5f172895b53"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ms_1_1_palette.html#ad463d915977ed1c1aa54c5f172895b53">getCurrentIdx</a> ()</td></tr>
 <tr class="separator:ad463d915977ed1c1aa54c5f172895b53"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a5d3d40127ef950c0e370a66e1be579b5"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ms_1_1_palette.html#a5d3d40127ef950c0e370a66e1be579b5">setCurrentIdx</a> (int i)</td></tr>
@@ -207,6 +212,13 @@ Public Member Functions</h2></td></tr>
 <tr class="separator:aa8bcb840a2603da120d05f879316591f"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a233110fa057ffbbcef707d5fa8058c79"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ms_1_1_palette.html#a233110fa057ffbbcef707d5fa8058c79">idx</a> (const QPoint &amp;) const</td></tr>
 <tr class="separator:a233110fa057ffbbcef707d5fa8058c79"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-static-methods"></a>
+Static Public Member Functions</h2></td></tr>
+<tr class="memitem:aaba9082b5200429b38d1ebd8b1ed4b95"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ms_1_1_palette.html#aaba9082b5200429b38d1ebd8b1ed4b95">applyPaletteElement</a> (<a class="el" href="class_ms_1_1_element.html">Element</a> *<a class="el" href="class_ms_1_1_palette.html#aafe19b70f71e3944f40b7e927ea3c53e">element</a>, Qt::KeyboardModifiers modifiers=0)</td></tr>
+<tr class="separator:aaba9082b5200429b38d1ebd8b1ed4b95"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a5b41c1f2a8593d8e55e347c559e1e8ee"><td class="memItemLeft" align="right" valign="top">static qreal&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ms_1_1_palette.html#a5b41c1f2a8593d8e55e347c559e1e8ee">guiMag</a> ()</td></tr>
+<tr class="separator:a5b41c1f2a8593d8e55e347c559e1e8ee"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pri-slots"></a>
 Private Slots</h2></td></tr>
@@ -229,8 +241,6 @@ Private Member Functions</h2></td></tr>
 <tr class="separator:a2b3c4f77ea5ec96d5e33dcc279556786"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ad5f19923c83ec31d2f6c97388b57456f"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ms_1_1_palette.html#ad5f19923c83ec31d2f6c97388b57456f">resizeEvent</a> (QResizeEvent *) override</td></tr>
 <tr class="separator:ad5f19923c83ec31d2f6c97388b57456f"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:afe0766316cd446ca10fd7f33353d5f07"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ms_1_1_palette.html#afe0766316cd446ca10fd7f33353d5f07">applyPaletteElement</a> (<a class="el" href="struct_ms_1_1_palette_cell.html">PaletteCell</a> *cell, Qt::KeyboardModifiers modifiers=0)</td></tr>
-<tr class="separator:afe0766316cd446ca10fd7f33353d5f07"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a0b1e4d56a2b55bc18248eff35f1cd669"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ms_1_1_palette.html#a0b1e4d56a2b55bc18248eff35f1cd669">dragEnterEvent</a> (QDragEnterEvent *) override</td></tr>
 <tr class="separator:a0b1e4d56a2b55bc18248eff35f1cd669"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a9db063bab87b54c5d6a56e97f6b92f7f"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ms_1_1_palette.html#a9db063bab87b54c5d6a56e97f6b92f7f">dragMoveEvent</a> (QDragMoveEvent *) override</td></tr>
@@ -291,7 +301,7 @@ Private Attributes</h2></td></tr>
 </table>
 <h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
 <a id="affe8f33976d4c66877fc8d7eb2121e7d"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#affe8f33976d4c66877fc8d7eb2121e7d">&#9670;&nbsp;</a></span>Palette()</h2>
+<h2 class="memtitle"><span class="permalink"><a href="#affe8f33976d4c66877fc8d7eb2121e7d">&#9670;&nbsp;</a></span>Palette() <span class="overload">[1/2]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -302,6 +312,34 @@ Private Attributes</h2></td></tr>
           <td class="paramtype">QWidget *&#160;</td>
           <td class="paramname"><em>parent</em> = <code>0</code></td><td>)</td>
           <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a6c885e2c5346ae1164cdfe68e9d85e69"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a6c885e2c5346ae1164cdfe68e9d85e69">&#9670;&nbsp;</a></span>Palette() <span class="overload">[2/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">Ms::Palette::Palette </td>
+          <td>(</td>
+          <td class="paramtype">std::unique_ptr&lt; <a class="el" href="class_ms_1_1_palette_panel.html">PalettePanel</a> &gt;&#160;</td>
+          <td class="paramname"><em>pp</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">QWidget *&#160;</td>
+          <td class="paramname"><em>parent</em> = <code>nullptr</code>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -446,8 +484,25 @@ Private Attributes</h2></td></tr>
 
 </div>
 </div>
-<a id="afe0766316cd446ca10fd7f33353d5f07"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#afe0766316cd446ca10fd7f33353d5f07">&#9670;&nbsp;</a></span>applyPaletteElement() <span class="overload">[1/2]</span></h2>
+<a id="ad544721259503180301a49eb0c1f1e22"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ad544721259503180301a49eb0c1f1e22">&#9670;&nbsp;</a></span>applyPaletteElement() <span class="overload">[1/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void Ms::Palette::applyPaletteElement </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="aaba9082b5200429b38d1ebd8b1ed4b95"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aaba9082b5200429b38d1ebd8b1ed4b95">&#9670;&nbsp;</a></span>applyPaletteElement() <span class="overload">[2/2]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -458,8 +513,8 @@ Private Attributes</h2></td></tr>
         <tr>
           <td class="memname">void Ms::Palette::applyPaletteElement </td>
           <td>(</td>
-          <td class="paramtype"><a class="el" href="struct_ms_1_1_palette_cell.html">PaletteCell</a> *&#160;</td>
-          <td class="paramname"><em>cell</em>, </td>
+          <td class="paramtype"><a class="el" href="class_ms_1_1_element.html">Element</a> *&#160;</td>
+          <td class="paramname"><em>element</em>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
@@ -475,26 +530,9 @@ Private Attributes</h2></td></tr>
       </table>
   </td>
   <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
   </tr>
 </table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="ad544721259503180301a49eb0c1f1e22"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ad544721259503180301a49eb0c1f1e22">&#9670;&nbsp;</a></span>applyPaletteElement() <span class="overload">[2/2]</span></h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">void Ms::Palette::applyPaletteElement </td>
-          <td>(</td>
-          <td class="paramname"></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
 </div><div class="memdoc">
 
 </div>
@@ -624,9 +662,6 @@ Private Attributes</h2></td></tr>
 
 <div class="memitem">
 <div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
       <table class="memname">
         <tr>
           <td class="memname">int Ms::Palette::columns </td>
@@ -635,11 +670,6 @@ Private Attributes</h2></td></tr>
           <td> const</td>
         </tr>
       </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
-  </tr>
-</table>
 </div><div class="memdoc">
 
 </div>
@@ -988,6 +1018,31 @@ Private Attributes</h2></td></tr>
 
 </div>
 </div>
+<a id="a0acdb4ccc4f5883ac86f6efc2e4c6222"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a0acdb4ccc4f5883ac86f6efc2e4c6222">&#9670;&nbsp;</a></span>gridHeightM()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">int Ms::Palette::gridHeightM </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
 <a id="a431b410c5b8141fd7059f5fa7160eec0"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a431b410c5b8141fd7059f5fa7160eec0">&#9670;&nbsp;</a></span>gridWidth()</h2>
 
@@ -1007,6 +1062,56 @@ Private Attributes</h2></td></tr>
   </td>
   <td class="mlabels-right">
 <span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a9ec09edfd21278fa294d880b6ef6c9ef"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a9ec09edfd21278fa294d880b6ef6c9ef">&#9670;&nbsp;</a></span>gridWidthM()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">int Ms::Palette::gridWidthM </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a5b41c1f2a8593d8e55e347c559e1e8ee"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a5b41c1f2a8593d8e55e347c559e1e8ee">&#9670;&nbsp;</a></span>guiMag()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">qreal Ms::Palette::guiMag </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
   </tr>
 </table>
 </div><div class="memdoc">
@@ -1400,7 +1505,7 @@ Private Attributes</h2></td></tr>
 </div>
 </div>
 <a id="a970d1797de313ccf3e7f01ab5917649b"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a970d1797de313ccf3e7f01ab5917649b">&#9670;&nbsp;</a></span>read() <span class="overload">[1/3]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#a970d1797de313ccf3e7f01ab5917649b">&#9670;&nbsp;</a></span>read() <span class="overload">[1/2]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -1418,7 +1523,7 @@ Private Attributes</h2></td></tr>
 </div>
 </div>
 <a id="a8b9bf9572900bbdb7984925218b702c0"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a8b9bf9572900bbdb7984925218b702c0">&#9670;&nbsp;</a></span>read() <span class="overload">[2/3]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#a8b9bf9572900bbdb7984925218b702c0">&#9670;&nbsp;</a></span>read() <span class="overload">[2/2]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -1428,24 +1533,6 @@ Private Attributes</h2></td></tr>
           <td>(</td>
           <td class="paramtype"><a class="el" href="class_ms_1_1_xml_reader.html">XmlReader</a> &amp;&#160;</td>
           <td class="paramname"><em>e</em></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="a8d64490e370cb12086767bc77d0618ed"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a8d64490e370cb12086767bc77d0618ed">&#9670;&nbsp;</a></span>read() <span class="overload">[3/3]</span></h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">bool Ms::Palette::read </td>
-          <td>(</td>
-          <td class="paramtype">QFile *&#160;</td>
-          <td class="paramname"><em>qf</em></td><td>)</td>
           <td></td>
         </tr>
       </table>

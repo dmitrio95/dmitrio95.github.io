@@ -23,7 +23,7 @@
   <td id="projectlogo"><img alt="Logo" src="musescore_logo_full.png"/></td>
   <td id="projectalign" style="padding-left: 0.5em;">
    <div id="projectname">MuseScore
-   &#160;<span id="projectnumber">3.2</span>
+   &#160;<span id="projectnumber">3.3.4</span>
    </div>
    <div id="projectbrief">Music composition and notation</div>
   </td>
@@ -74,9 +74,16 @@ $(function() {
 , <a class="el" href="struct_ms_1_1_hv.html#ad239ee313c81ef91c1ab075c04009148">Ms::Hv</a>
 , <a class="el" href="struct_ms_1_1_lv.html#a45e84c6f651fe4c31e980977f6aa31cb">Ms::Lv</a>
 , <a class="el" href="struct_ms_1_1_peak.html#a0f6923aa4c62a17716464c3f388837ee">Ms::Peak</a>
+, <a class="el" href="class_ms_1_1_set_user_bank_controller.html#ac7418937261052722fdf85ff31e8e91e">Ms::SetUserBankController</a>
 , <a class="el" href="struct_ms_1_1_style_val2.html#adbcfd061f685a080eccaebc051337b3f">Ms::StyleVal2</a>
 , <a class="el" href="struct_ms_1_1_velo_event.html#a4c542046d2146aef4b8ec1ee00fd2d08">Ms::VeloEvent</a>
 , <a class="el" href="struct_s_parm_id.html#acfc66dbba23306369761fc9a6665d922">SParmId</a>
+</li>
+<li>val1
+: <a class="el" href="class_ms_1_1_exchange_voice.html#a8cce5fe09b48d47a4f31ccc9860a9383">Ms::ExchangeVoice</a>
+</li>
+<li>val2
+: <a class="el" href="class_ms_1_1_exchange_voice.html#a76b97f62f0bc87b00b55f5774325e7d9">Ms::ExchangeVoice</a>
 </li>
 <li>validScores
 : <a class="el" href="class_ms_1_1_score.html#a275ecccc289d58bd7a73233e43a1e5cb">Ms::Score</a>
@@ -86,6 +93,7 @@ $(function() {
 </li>
 <li>value
 : <a class="el" href="class_bww_1_1_lexer.html#a5833a69128fae5579432e84912c4db97">Bww::Lexer</a>
+, <a class="el" href="class_ms_1_1_change_style_val.html#abb215e7a52a91c976aa337841559dd90">Ms::ChangeStyleVal</a>
 , <a class="el" href="struct_ms_1_1_chord_symbol.html#a502afbc153780db70673de103f06e99a">Ms::ChordSymbol</a>
 , <a class="el" href="struct_ms_1_1_power_tab_1_1pt_note.html#a8fd3820e881cc4cf87105997f0f2c944">Ms::PowerTab::ptNote</a>
 , <a class="el" href="struct_ms_1_1_power_tab_1_1pt_symbol.html#a2a7331e789214c92763f3ca6baa94cde">Ms::PowerTab::ptSymbol</a>
@@ -105,9 +113,6 @@ $(function() {
 <li>vb
 : <a class="el" href="class_ms_1_1_inspector_v_box.html#afde9e18c9f58c12808ccc76a49552d76">Ms::InspectorVBox</a>
 , <a class="el" href="class_ms_1_1_staff_text_properties.html#a3203e1382bb4091819ab1ff24962cad6">Ms::StaffTextProperties</a>
-</li>
-<li>vbox
-: <a class="el" href="class_ms_1_1_palette_box.html#a683690e9b48fe7846f468341303a5c09">Ms::PaletteBox</a>
 </li>
 <li>vel
 : <a class="el" href="class_fluid_s_1_1_voice.html#af25fef1fb635df56b3d2521918a3dceb">FluidS::Voice</a>
@@ -146,8 +151,12 @@ $(function() {
 <li>veloLo
 : <a class="el" href="struct_zone.html#a889e6b474ba2268deb8a73ff64ddb673">Zone</a>
 </li>
+<li>veloOffset
+: <a class="el" href="class_ms_1_1_change_velocity.html#a9d2d560043ac3b23f95f0c010c83f0a4">Ms::ChangeVelocity</a>
+</li>
 <li>veloType
-: <a class="el" href="class_ms_1_1_drumroll_editor.html#abcfbd59b422db6a3d3608a15d0666eaf">Ms::DrumrollEditor</a>
+: <a class="el" href="class_ms_1_1_change_velocity.html#a1802930f33645c26c96f1ba0234fa637">Ms::ChangeVelocity</a>
+, <a class="el" href="class_ms_1_1_drumroll_editor.html#abcfbd59b422db6a3d3608a15d0666eaf">Ms::DrumrollEditor</a>
 , <a class="el" href="class_ms_1_1_pianoroll_editor.html#a4d0da46f7f6dc9e4be7c73070f5cc74a">Ms::PianorollEditor</a>
 </li>
 <li>verse
@@ -231,7 +240,9 @@ $(function() {
 : <a class="el" href="struct_ms_1_1_music_x_m_l_drum_instrument.html#afbf9b891c6b39a8d909405b28e4e81f3">Ms::MusicXMLDrumInstrument</a>
 </li>
 <li>visible
-: <a class="el" href="struct_ms_1_1_ledger_line_data.html#ad9515c025dc446064adecd7056116d07">Ms::LedgerLineData</a>
+: <a class="el" href="class_ms_1_1_change_m_staff_properties.html#aa4155c4790edfb3fb2a35b9cb8798ba4">Ms::ChangeMStaffProperties</a>
+, <a class="el" href="struct_ms_1_1_ledger_line_data.html#ad9515c025dc446064adecd7056116d07">Ms::LedgerLineData</a>
+, <a class="el" href="struct_ms_1_1_palette_cell.html#aca7c912552f65c30632d39bb62467a00">Ms::PaletteCell</a>
 </li>
 <li>visible_
 : <a class="el" href="class_o_v_e_1_1_staff.html#aea93b31ac52ceb43691a3628502bdaa0">OVE::Staff</a>
@@ -291,9 +302,6 @@ $(function() {
 </li>
 <li>voiceTools
 : <a class="el" href="class_ms_1_1_muse_score.html#a2977e2f593c6f6aaaec66ebe2d356456">Ms::MuseScore</a>
-</li>
-<li>vol
-: <a class="el" href="class_ms_1_1_play_panel.html#affaea3d30e4c08def0b36d758834f1ce">Ms::PlayPanel</a>
 </li>
 <li>volenv_count
 : <a class="el" href="class_fluid_s_1_1_voice.html#a36966404dcefaf9c517986c46276233c">FluidS::Voice</a>

@@ -11,6 +11,7 @@ var searchData=
   ['noteheadgroup',['NoteHeadGroup',['../class_ms_1_1_plugin_a_p_i_1_1_plugin_a_p_i.html#af3c3d0a2608e648a01cd72532175b331',1,'Ms::PluginAPI::PluginAPI']]],
   ['noteheadtype',['NoteHeadType',['../class_ms_1_1_plugin_a_p_i_1_1_plugin_a_p_i.html#a5b5ede0ee58e07c99855b7d49a841e3b',1,'Ms::PluginAPI::PluginAPI']]],
   ['notes',['notes',['../class_ms_1_1_plugin_a_p_i_1_1_chord.html#a3d0b35c3dd859746ec590074eb28f92e',1,'Ms::PluginAPI::Chord']]],
+  ['notetype',['noteType',['../class_ms_1_1_plugin_a_p_i_1_1_note.html#ad61ec4b597c4e550b40fb91f6c7c8ce1',1,'Ms::PluginAPI::Note::noteType()'],['../class_ms_1_1_plugin_a_p_i_1_1_chord.html#a3dbed0ff865b24eb009c1fa54096b908',1,'Ms::PluginAPI::Chord::noteType()'],['../class_ms_1_1_plugin_a_p_i_1_1_plugin_a_p_i.html#a1ad76d896494cb374eebfc6473473e49',1,'Ms::PluginAPI::PluginAPI::NoteType()']]],
   ['notevaluetype',['NoteValueType',['../class_ms_1_1_plugin_a_p_i_1_1_plugin_a_p_i.html#a524aaee918011418f0f3bec33f6f6c91',1,'Ms::PluginAPI::PluginAPI']]],
   ['npages',['npages',['../class_ms_1_1_plugin_a_p_i_1_1_score.html#ad3c02ee59eb0f91d7330464f40dd0185',1,'Ms::PluginAPI::Score']]],
   ['nstaves',['nstaves',['../class_ms_1_1_plugin_a_p_i_1_1_score.html#ad4cc643f4098f7ea070f1ada0b0c853d',1,'Ms::PluginAPI::Score']]],

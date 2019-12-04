@@ -1,6 +1,6 @@
 var searchData=
 [
-  ['z',['Z',['../class_ms_1_1_dynamic.html#a6c02472e11041debb32b75084b10bd27a21c2e59531c8710156d34a3c30ac81d5',1,'Ms::Dynamic::Z()'],['../class_ms_1_1_plugin_a_p_i_1_1_element.html#a2b290b784be70f8c00366d610d237aab',1,'Ms::PluginAPI::Element::z()'],['../class_voice.html#a18704adfc81d992944f133708261c785',1,'Voice::z()'],['../class_ms_1_1_element.html#a0e947d90ca39376fd98b995d34811126',1,'Ms::Element::z()'],['../namespace_ms.html#aa0f871cf8181cec31d68d20a39010655a21c2e59531c8710156d34a3c30ac81d5',1,'Ms::Z()']]],
+  ['z',['z',['../class_ms_1_1_plugin_a_p_i_1_1_element.html#a2b290b784be70f8c00366d610d237aab',1,'Ms::PluginAPI::Element::z()'],['../class_voice.html#a18704adfc81d992944f133708261c785',1,'Voice::z()'],['../class_ms_1_1_element.html#a0e947d90ca39376fd98b995d34811126',1,'Ms::Element::z()'],['../class_ms_1_1_dynamic.html#a6c02472e11041debb32b75084b10bd27a21c2e59531c8710156d34a3c30ac81d5',1,'Ms::Dynamic::Z()'],['../namespace_ms.html#aa0f871cf8181cec31d68d20a39010655a21c2e59531c8710156d34a3c30ac81d5',1,'Ms::Z()']]],
   ['z1',['z1',['../class_ms_1_1_export_ly.html#a9c90cd4ef24d0af24211fde10d5147e8',1,'Ms::ExportLy']]],
   ['z2',['z2',['../class_ms_1_1_export_ly.html#a45be878092fae59edf5456811f5e3271',1,'Ms::ExportLy']]],
   ['z3',['z3',['../class_ms_1_1_export_ly.html#a1dbff9aede5dcc58ba5eabcf0bdef164',1,'Ms::ExportLy']]],
@@ -23,7 +23,7 @@ var searchData=
   ['zitagui_2ecpp',['zitagui.cpp',['../zitagui_8cpp.html',1,'']]],
   ['zitagui_2eh',['zitagui.h',['../zitagui_8h.html',1,'']]],
   ['zitareverb',['ZitaReverb',['../class_ms_1_1_zita_reverb.html',1,'Ms::ZitaReverb'],['../class_ms_1_1_diff1.html#a174ebfd5ad2853d19b5ec49485b195f0',1,'Ms::Diff1::ZitaReverb()'],['../class_ms_1_1_filt1.html#a174ebfd5ad2853d19b5ec49485b195f0',1,'Ms::Filt1::ZitaReverb()'],['../class_ms_1_1_delay.html#a174ebfd5ad2853d19b5ec49485b195f0',1,'Ms::Delay::ZitaReverb()'],['../class_ms_1_1_vdelay.html#a174ebfd5ad2853d19b5ec49485b195f0',1,'Ms::Vdelay::ZitaReverb()'],['../class_ms_1_1_zita_reverb.html#a4d7c4c74240159be4600a12c5b36baec',1,'Ms::ZitaReverb::ZitaReverb()']]],
-  ['zone',['Zone',['../class_fluid_s_1_1_zone.html',1,'FluidS::Zone'],['../struct_zone.html',1,'Zone'],['../class_fluid_s_1_1_zone.html#a37c9721c0d592a7a231f4e6dbae93277',1,'FluidS::Zone::Zone()'],['../struct_zone.html#a37c9721c0d592a7a231f4e6dbae93277',1,'Zone::Zone()']]],
+  ['zone',['Zone',['../struct_zone.html',1,'Zone'],['../class_fluid_s_1_1_zone.html',1,'FluidS::Zone'],['../class_fluid_s_1_1_zone.html#a37c9721c0d592a7a231f4e6dbae93277',1,'FluidS::Zone::Zone()'],['../struct_zone.html#a37c9721c0d592a7a231f4e6dbae93277',1,'Zone::Zone()']]],
   ['zone_2ecpp',['zone.cpp',['../zone_8cpp.html',1,'']]],
   ['zone_2eh',['zone.h',['../zone_8h.html',1,'']]],
   ['zones',['zones',['../class_fluid_s_1_1_instrument.html#af7b4a064d7b9e1081aedbab186bca007',1,'FluidS::Instrument::zones()'],['../class_fluid_s_1_1_preset.html#afc10ab657b7960d60350681551f739b3',1,'FluidS::Preset::zones()'],['../class_z_instrument.html#a26ebdbb7146d29f9ef071da7a8c2ae67',1,'ZInstrument::zones() const'],['../class_z_instrument.html#af4f833c4486f597e4d38abf8e1465dc9',1,'ZInstrument::zones()']]],

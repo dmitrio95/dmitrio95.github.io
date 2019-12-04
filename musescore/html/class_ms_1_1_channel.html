@@ -23,7 +23,7 @@
   <td id="projectlogo"><img alt="Logo" src="musescore_logo_full.png"/></td>
   <td id="projectalign" style="padding-left: 0.5em;">
    <div id="projectname">MuseScore
-   &#160;<span id="projectnumber">3.2</span>
+   &#160;<span id="projectnumber">3.3.4</span>
    </div>
    <div id="projectbrief">Music composition and notation</div>
   </td>
@@ -219,6 +219,8 @@ Public Attributes</h2></td></tr>
 Static Public Attributes</h2></td></tr>
 <tr class="memitem:a4611a4365a104375ca0606d376c6d0d0"><td class="memItemLeft" align="right" valign="top">static const char *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ms_1_1_channel.html#a4611a4365a104375ca0606d376c6d0d0">DEFAULT_NAME</a> = &quot;normal&quot;</td></tr>
 <tr class="separator:a4611a4365a104375ca0606d376c6d0d0"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a330b565c5604ad2f7991d6864dbe3a42"><td class="memItemLeft" align="right" valign="top">static constexpr char&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ms_1_1_channel.html#a330b565c5604ad2f7991d6864dbe3a42">defaultVolume</a> = 100</td></tr>
+<tr class="separator:a330b565c5604ad2f7991d6864dbe3a42"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pri-methods"></a>
 Private Member Functions</h2></td></tr>
@@ -257,6 +259,8 @@ Private Attributes</h2></td></tr>
 <tr class="separator:ae6881b1a719a0c77d8763d4a17ddf97d"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aab7d9f91ea83e84dc43a576657d8146b"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ms_1_1_channel.html#aab7d9f91ea83e84dc43a576657d8146b">_userBankController</a> = false</td></tr>
 <tr class="separator:aab7d9f91ea83e84dc43a576657d8146b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a608bd15657169f7a0ad116f55fa4c400"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ms_1_1_channel.html#a608bd15657169f7a0ad116f55fa4c400">_switchedToExpressive</a> = false</td></tr>
+<tr class="separator:a608bd15657169f7a0ad116f55fa4c400"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aa19a00bd4aa7549c58cea67cca98370c"><td class="memItemLeft" align="right" valign="top">std::vector&lt; <a class="el" href="class_ms_1_1_midi_core_event.html">MidiCoreEvent</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ms_1_1_channel.html#aa19a00bd4aa7549c58cea67cca98370c">_init</a></td></tr>
 <tr class="separator:aa19a00bd4aa7549c58cea67cca98370c"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a8a764e6e24ffca99aad467b1eab9286f"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ms_1_1_channel.html#a8a764e6e24ffca99aad467b1eab9286f">_mustUpdateInit</a> = true</td></tr>
@@ -1548,6 +1552,28 @@ Static Private Attributes</h2></td></tr>
 
 </div>
 </div>
+<a id="a608bd15657169f7a0ad116f55fa4c400"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a608bd15657169f7a0ad116f55fa4c400">&#9670;&nbsp;</a></span>_switchedToExpressive</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool Ms::Channel::_switchedToExpressive = false</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
 <a id="af5b0250508aa1416e6157ce3e164340e"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#af5b0250508aa1416e6157ce3e164340e">&#9670;&nbsp;</a></span>_synti</h2>
 
@@ -1661,6 +1687,28 @@ Static Private Attributes</h2></td></tr>
       <table class="memname">
         <tr>
           <td class="memname">const char * Channel::DEFAULT_NAME = &quot;normal&quot;</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a330b565c5604ad2f7991d6864dbe3a42"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a330b565c5604ad2f7991d6864dbe3a42">&#9670;&nbsp;</a></span>defaultVolume</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">constexpr char Ms::Channel::defaultVolume = 100</td>
         </tr>
       </table>
   </td>

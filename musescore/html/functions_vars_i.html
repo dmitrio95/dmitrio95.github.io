@@ -23,7 +23,7 @@
   <td id="projectlogo"><img alt="Logo" src="musescore_logo_full.png"/></td>
   <td id="projectalign" style="padding-left: 0.5em;">
    <div id="projectname">MuseScore
-   &#160;<span id="projectnumber">3.2</span>
+   &#160;<span id="projectnumber">3.3.4</span>
    </div>
    <div id="projectbrief">Music composition and notation</div>
   </td>
@@ -81,6 +81,8 @@ $(function() {
 , <a class="el" href="struct_fluid_s_1_1_s_f_gen.html#ae1f1aef503fbf935205484966ba877ee">FluidS::SFGen</a>
 , <a class="el" href="class_fluid_s_1_1_voice.html#abafc5faf1306969bb3f34cfc3eed4e98">FluidS::Voice</a>
 , <a class="el" href="struct_ms_1_1_breath_type.html#af1bc2740be9c073797c36fc1137a4e87">Ms::BreathType</a>
+, <a class="el" href="class_ms_1_1_change_meta_text.html#a40d5311477216350d8b7f0455cf525b9">Ms::ChangeMetaText</a>
+, <a class="el" href="class_ms_1_1_change_property.html#a4c77863d77bccbbb00dc798c54b4d15c">Ms::ChangeProperty</a>
 , <a class="el" href="struct_ms_1_1_chord_description.html#a1889242b5f216728995070c5fe1b9300">Ms::ChordDescription</a>
 , <a class="el" href="struct_ms_1_1_glyph_key.html#ada3e2eef1995f195e2ae443e89cd2768">Ms::GlyphKey</a>
 , <a class="el" href="struct_ms_1_1_id_value.html#a1f11c17b168f506f44b040ec7981af8d">Ms::IdValue</a>
@@ -89,7 +91,6 @@ $(function() {
 , <a class="el" href="class_ms_1_1_instrument_template.html#a48313ce39fb5f6880f2220f863512df6">Ms::InstrumentTemplate</a>
 , <a class="el" href="struct_ms_1_1_midi_tuplet_1_1_tuplet_info.html#aea503a2100603d09173e390fb331b92f">Ms::MidiTuplet::TupletInfo</a>
 , <a class="el" href="class_ms_1_1_music_xml_part.html#a9cad4d465d17e536c5bf7056e926f8d8">Ms::MusicXmlPart</a>
-, <a class="el" href="class_ms_1_1_palette_box_button.html#aceea8fb055b909410341bf59c183a172">Ms::PaletteBoxButton</a>
 , <a class="el" href="struct_ms_1_1_par_descr.html#a8579e0ae2f09539a60e8434fb5e66743">Ms::ParDescr</a>
 , <a class="el" href="struct_ms_1_1_property_data.html#a72a52bf0dd6a482c4054f706dbf71b01">Ms::PropertyData</a>
 , <a class="el" href="struct_ms_1_1_property_meta_data.html#aecb1b54e7f2da618713d2700fee89a17">Ms::PropertyMetaData</a>
@@ -99,8 +100,12 @@ $(function() {
 </li>
 <li>idx
 : <a class="el" href="class_audio_file.html#aa6a834364cf7411a10a59a1da47f184c">AudioFile</a>
+, <a class="el" href="class_ms_1_1_change_style_val.html#abf7a28227b264dba15810bfa341af27f">Ms::ChangeStyleVal</a>
+, <a class="el" href="class_ms_1_1_insert_m_staff.html#a58b3a8e0d910a78bd0fccfb9dfefaa79">Ms::InsertMStaff</a>
+, <a class="el" href="class_ms_1_1_insert_part.html#af9828ffe2d4ce645997f0a76a2065b11">Ms::InsertPart</a>
 , <a class="el" href="struct_ms_1_1_mag_entry.html#a55c4d8b72feb78f20b3d7699d47878ba">Ms::MagEntry</a>
-, <a class="el" href="struct_ms_1_1_palette_cell_info.html#ad9bb7999ad88bb8a9dc99ca0e54214b4">Ms::PaletteCellInfo</a>
+, <a class="el" href="class_ms_1_1_remove_m_staff.html#ade23e0d1e0540d2beb5598687204c770">Ms::RemoveMStaff</a>
+, <a class="el" href="class_ms_1_1_remove_part.html#a6dc2ae4620a38af53056fbc859a1022e">Ms::RemovePart</a>
 , <a class="el" href="struct_ms_1_1_style_val2.html#a8c968824cb6da6de1632ad0e004996aa">Ms::StyleVal2</a>
 , <a class="el" href="struct_ms_1_1_style_widget.html#aad9594de1cc52aa5b17d2311213fd260">Ms::StyleWidget</a>
 , <a class="el" href="class_ms_1_1_sys_staff.html#a3d89b75494765c309099e0c49ea4683d">Ms::SysStaff</a>
@@ -210,6 +215,12 @@ $(function() {
 : <a class="el" href="class_fluid_s_1_1_gen_info.html#a88f7eef9d70168d4cf43c2c3ee8dc11b">FluidS::GenInfo</a>
 , <a class="el" href="struct_ms_1_1_par_descr.html#a27497651448617d5581fe7aa0608b70b">Ms::ParDescr</a>
 </li>
+<li>initialCustomState
+: <a class="el" href="class_ms_1_1_palette_cell_properties_dialog.html#a07aeffd47518d374caf371d33905f9b4">Ms::PaletteCellPropertiesDialog</a>
+</li>
+<li>initialHeight
+: <a class="el" href="class_ms_1_1_palette_properties_dialog.html#a4fade32c32449d546188996c38e76f25">Ms::PalettePropertiesDialog</a>
+</li>
 <li>initialized
 : <a class="el" href="class_awl_1_1_pos_edit.html#a33e708000a7fd2d32f25461ff874b378">Awl::PosEdit</a>
 , <a class="el" href="class_fluid_s_1_1_fluid.html#a3594ddd627a37241db42799b4252442b">FluidS::Fluid</a>
@@ -218,6 +229,30 @@ $(function() {
 </li>
 <li>initialMillisecondTimestampWithLatency
 : <a class="el" href="class_ms_1_1_seq.html#a297d4688dc609d49b379feadde96c68a">Ms::Seq</a>
+</li>
+<li>initialName
+: <a class="el" href="class_ms_1_1_palette_cell_properties_dialog.html#af83adc3227d5de9a5bbb71aeb94b88f3">Ms::PaletteCellPropertiesDialog</a>
+, <a class="el" href="class_ms_1_1_palette_properties_dialog.html#a904a05aced3388ff617bd87cf72f6e32">Ms::PalettePropertiesDialog</a>
+</li>
+<li>initialOffset
+: <a class="el" href="class_ms_1_1_palette_properties_dialog.html#ad39f6e957059092646c8cced7e4e95b8">Ms::PalettePropertiesDialog</a>
+</li>
+<li>initialScale
+: <a class="el" href="class_ms_1_1_palette_cell_properties_dialog.html#acf087cccb2adc92d53008dabdec96b8b">Ms::PaletteCellPropertiesDialog</a>
+, <a class="el" href="class_ms_1_1_palette_properties_dialog.html#a72f8891ebf5864daf942fbd641086638">Ms::PalettePropertiesDialog</a>
+</li>
+<li>initialTranslatedName
+: <a class="el" href="class_ms_1_1_palette_cell_properties_dialog.html#ad3505b185e96c827946a2c8f5284ac41">Ms::PaletteCellPropertiesDialog</a>
+, <a class="el" href="class_ms_1_1_palette_properties_dialog.html#a6211c59885d3dd8ce7161cdcd4b0dec1">Ms::PalettePropertiesDialog</a>
+</li>
+<li>initialWidth
+: <a class="el" href="class_ms_1_1_palette_properties_dialog.html#ac7aa5f4f391a1bab8ba1fd6eaa4dd719">Ms::PalettePropertiesDialog</a>
+</li>
+<li>initialXOffset
+: <a class="el" href="class_ms_1_1_palette_cell_properties_dialog.html#a9a0eb488dbf3a8d27a8a9c2a6dffb6dc">Ms::PaletteCellPropertiesDialog</a>
+</li>
+<li>initialYOffset
+: <a class="el" href="class_ms_1_1_palette_cell_properties_dialog.html#ac9fc10c91ea4b5adc8baa094f6c19f9e">Ms::PaletteCellPropertiesDialog</a>
 </li>
 <li>inProgressUndoEvent
 : <a class="el" href="class_ms_1_1_piano_view.html#ad2da32cb22ab4673d1b38e75d03865d6">Ms::PianoView</a>
@@ -262,6 +297,9 @@ $(function() {
 </li>
 <li>instrument
 : <a class="el" href="class_fluid_s_1_1_zone.html#a8d34b352211f714afaf2ca44204fd429">FluidS::Zone</a>
+, <a class="el" href="class_ms_1_1_change_drumset.html#ad1d410713e07c689fbd73cb2462cd860">Ms::ChangeDrumset</a>
+, <a class="el" href="class_ms_1_1_change_instrument.html#aa6ceaf59d4be93881eeea57775ae3cb6">Ms::ChangeInstrument</a>
+, <a class="el" href="class_ms_1_1_change_part.html#a335f1543dacec4fd1d4d90a5d928c66b">Ms::ChangePart</a>
 , <a class="el" href="class_ms_1_1_edit_staff.html#aab3421d8b4c573c112169e0d6716e16e">Ms::EditStaff</a>
 , <a class="el" href="struct_ms_1_1_power_tab_1_1_track_info.html#a24d0408b17d1765be0435a9d5edf0a9d">Ms::PowerTab::TrackInfo</a>
 </li>
@@ -323,6 +361,7 @@ $(function() {
 </li>
 <li>invisible
 : <a class="el" href="class_ms_1_1_basic_durational_obj.html#a84ea3c879987dc058280d9574c2e8669">Ms::BasicDurationalObj</a>
+, <a class="el" href="class_ms_1_1_change_staff.html#ac272bc2ab616714ae87c30eb15de2897">Ms::ChangeStaff</a>
 </li>
 <li>iOtherScore
 : <a class="el" href="class_ms_1_1_text_diff_parser.html#aa63dec9790c523649435acdf867b88c0">Ms::TextDiffParser</a>
@@ -332,6 +371,9 @@ $(function() {
 </li>
 <li>irregularMeasureNumber
 : <a class="el" href="class_bww_1_1_mxml_writer.html#a58794c28cabacd977b279a9a10686c8a">Bww::MxmlWriter</a>
+</li>
+<li>is
+: <a class="el" href="class_ms_1_1_change_instrument.html#ad0b4cb1bbb739620bdd8ee609f4c1c23">Ms::ChangeInstrument</a>
 </li>
 <li>is_barline
 : <a class="el" href="class_ms_1_1_timeline.html#a06b21bf0635119054a4638a389a5980c">Ms::Timeline</a>
@@ -352,8 +394,17 @@ $(function() {
 <li>isDivisionInTps
 : <a class="el" href="class_ms_1_1_m_track.html#a9b4fd2b00c2ef5034b9637e0dc43e2e6">Ms::MTrack</a>
 </li>
+<li>isDrawStaffCheckBoxChanged
+: <a class="el" href="class_ms_1_1_palette_cell_properties_dialog.html#a3a214cfbf8bcd2c724111529718c640b">Ms::PaletteCellPropertiesDialog</a>
+</li>
 <li>isDrumTrack
 : <a class="el" href="struct_ms_1_1_midi_operations_1_1_opers.html#ae16812499f42cc07f786dbf341e3e94a">Ms::MidiOperations::Opers</a>
+</li>
+<li>isGridCheckBoxChanged
+: <a class="el" href="class_ms_1_1_palette_properties_dialog.html#aa86afdd8b5216d69ffd2d7785504d452">Ms::PalettePropertiesDialog</a>
+</li>
+<li>isHeightChanged
+: <a class="el" href="class_ms_1_1_palette_properties_dialog.html#a3871b61db16c87d4c8b76af777234b4b">Ms::PalettePropertiesDialog</a>
 </li>
 <li>isHumanPerformance
 : <a class="el" href="struct_ms_1_1_midi_operations_1_1_opers.html#affe6edaa401b1ff68ae6764f9c6097d2">Ms::MidiOperations::Opers</a>
@@ -362,11 +413,22 @@ $(function() {
 : <a class="el" href="class_ms_1_1_midi_chord.html#a89fd518f511c14501a9338629155483f">Ms::MidiChord</a>
 , <a class="el" href="class_ms_1_1_midi_note.html#a136a08656af810fa40248f2002f17a69">Ms::MidiNote</a>
 </li>
+<li>isNameChanged
+: <a class="el" href="class_ms_1_1_palette_cell_properties_dialog.html#aa13eeef8302dad83a8b4ac30b5c93684">Ms::PaletteCellPropertiesDialog</a>
+, <a class="el" href="class_ms_1_1_palette_properties_dialog.html#a2f24d697ec2e3add9120231809674ae3">Ms::PalettePropertiesDialog</a>
+</li>
+<li>isOffsetChanged
+: <a class="el" href="class_ms_1_1_palette_properties_dialog.html#add4f022c283d956cb386f15f09a80577">Ms::PalettePropertiesDialog</a>
+</li>
 <li>isProlonging
 : <a class="el" href="class_ms_1_1_basic_durational_obj.html#a75ccbe1bfa59cf97da70165cc38c809f">Ms::BasicDurationalObj</a>
 </li>
 <li>isRest
 : <a class="el" href="struct_ms_1_1_power_tab_1_1pt_beat.html#a97a9a7eeb6729df652cedd8a68bb988f">Ms::PowerTab::ptBeat</a>
+</li>
+<li>isScaleChanged
+: <a class="el" href="class_ms_1_1_palette_cell_properties_dialog.html#aa979346792889fec0c7ef40af0164b06">Ms::PaletteCellPropertiesDialog</a>
+, <a class="el" href="class_ms_1_1_palette_properties_dialog.html#a9b496904760ed8a1f61f01f1c498f1dd">Ms::PalettePropertiesDialog</a>
 </li>
 <li>isSimpleMidiMaping
 : <a class="el" href="class_ms_1_1_master_score.html#aabcebea0e4ab147c7e461a1911a83991">Ms::MasterScore</a>
@@ -383,6 +445,18 @@ $(function() {
 </li>
 <li>isWhiteKey
 : <a class="el" href="struct_ms_1_1_bar_pattern.html#ac582df8a6ac962c15bd7e8d0d6ff5dd6">Ms::BarPattern</a>
+</li>
+<li>isWidthChanged
+: <a class="el" href="class_ms_1_1_palette_properties_dialog.html#a3e862e7fb5404a6ab8f20a0a468a31cb">Ms::PalettePropertiesDialog</a>
+</li>
+<li>isWorkspacesListDirty
+: <a class="el" href="class_ms_1_1_workspaces_manager.html#a6ca431b91480877fa8157c4bc2fadb3a">Ms::WorkspacesManager</a>
+</li>
+<li>isXOffsetChanged
+: <a class="el" href="class_ms_1_1_palette_cell_properties_dialog.html#af6c0005d1f5afb84a7c7aada39ae41e6">Ms::PaletteCellPropertiesDialog</a>
+</li>
+<li>isYOffsetChanged
+: <a class="el" href="class_ms_1_1_palette_cell_properties_dialog.html#aa3684dea082cf5fd001bfe070222a059">Ms::PaletteCellPropertiesDialog</a>
 </li>
 <li>it
 : <a class="el" href="class_ms_1_1_part_list_item.html#a7a98e636dd090eb2e4cd4e41d65a8e98">Ms::PartListItem</a>

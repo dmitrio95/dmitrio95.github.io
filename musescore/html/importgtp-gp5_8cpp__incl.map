@@ -23,7 +23,7 @@
 <area shape="rect" id="node30" href="$lyrics_8h.html" title="libmscore/lyrics.h" alt="" coords="2279,229,2403,256"/>
 <area shape="rect" id="node31" href="$tempotext_8h.html" title="libmscore/tempotext.h" alt="" coords="2427,229,2577,256"/>
 <area shape="rect" id="node32" href="$glissando_8h.html" title="libmscore/glissando.h" alt="" coords="3141,80,3289,107"/>
-<area shape="rect" id="node33" href="$tie_8h.html" title="libmscore/tie.h" alt="" coords="3314,80,3421,107"/>
+<area shape="rect" id="node33" href="$libmscore_2tie_8h.html" title="libmscore/tie.h" alt="" coords="3314,80,3421,107"/>
 <area shape="rect" id="node34" href="$tuplet_8h.html" title="libmscore/tuplet.h" alt="" coords="3445,80,3570,107"/>
 <area shape="rect" id="node35" href="$barline_8h.html" title="libmscore/barline.h" alt="" coords="573,229,703,256"/>
 <area shape="rect" id="node36" href="$libmscore_2excerpt_8h.html" title="libmscore/excerpt.h" alt="" coords="974,80,1110,107"/>

@@ -23,7 +23,7 @@
   <td id="projectlogo"><img alt="Logo" src="musescore_logo_full.png"/></td>
   <td id="projectalign" style="padding-left: 0.5em;">
    <div id="projectname">MuseScore
-   &#160;<span id="projectnumber">3.2</span>
+   &#160;<span id="projectnumber">3.3.4</span>
    </div>
    <div id="projectbrief">Music composition and notation</div>
   </td>
@@ -94,6 +94,16 @@ Collaboration diagram for Ms::ChordList:</div>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
+<tr class="memitem:a4b36fa8f52c71712a6d0ae2b8e892aa3"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ms_1_1_chord_list.html#a4b36fa8f52c71712a6d0ae2b8e892aa3">autoAdjust</a> () const</td></tr>
+<tr class="separator:a4b36fa8f52c71712a6d0ae2b8e892aa3"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a74fdded2af370f9ce7c564a73845c342"><td class="memItemLeft" align="right" valign="top">qreal&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ms_1_1_chord_list.html#a74fdded2af370f9ce7c564a73845c342">nominalMag</a> () const</td></tr>
+<tr class="separator:a74fdded2af370f9ce7c564a73845c342"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a616986beba0c889488ab9f860fce0806"><td class="memItemLeft" align="right" valign="top">qreal&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ms_1_1_chord_list.html#a616986beba0c889488ab9f860fce0806">nominalAdjust</a> () const</td></tr>
+<tr class="separator:a616986beba0c889488ab9f860fce0806"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a7d6a4577a394cf152af70da6ee53e053"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ms_1_1_chord_list.html#a7d6a4577a394cf152af70da6ee53e053">configureAutoAdjust</a> (qreal emag=1.0, qreal eadjust=0.0, qreal mmag=1.0, qreal madjust=0.0)</td></tr>
+<tr class="separator:a7d6a4577a394cf152af70da6ee53e053"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:afcaa1d7997c06465eec3df3c818cde8a"><td class="memItemLeft" align="right" valign="top">qreal&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ms_1_1_chord_list.html#afcaa1d7997c06465eec3df3c818cde8a">position</a> (const QStringList &amp;names, <a class="el" href="namespace_ms.html#a161dff7089bf7aa507d8e02de7c64570">ChordTokenClass</a> ctc) const</td></tr>
+<tr class="separator:afcaa1d7997c06465eec3df3c818cde8a"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aa560d8927689be2f58ad549266118b76"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ms_1_1_chord_list.html#aa560d8927689be2f58ad549266118b76">write</a> (<a class="el" href="class_ms_1_1_xml_writer.html">XmlWriter</a> &amp;xml) const</td></tr>
 <tr class="separator:aa560d8927689be2f58ad549266118b76"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a694a93f0c0acba0290a1bb9a8a28d580"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ms_1_1_chord_list.html#a694a93f0c0acba0290a1bb9a8a28d580">read</a> (<a class="el" href="class_ms_1_1_xml_reader.html">XmlReader</a> &amp;)</td></tr>
@@ -115,6 +125,8 @@ Public Attributes</h2></td></tr>
 <tr class="separator:a4b9a1163f99f31a7b1b8137fd83bbe2d"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ae2587931a4beac56ffdd175382f6dd72"><td class="memItemLeft" align="right" valign="top">QList&lt; <a class="el" href="struct_ms_1_1_render_action.html">RenderAction</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ms_1_1_chord_list.html#ae2587931a4beac56ffdd175382f6dd72">renderListRoot</a></td></tr>
 <tr class="separator:ae2587931a4beac56ffdd175382f6dd72"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a0cacfb55f167c64751b78655cc7e0bd0"><td class="memItemLeft" align="right" valign="top">QList&lt; <a class="el" href="struct_ms_1_1_render_action.html">RenderAction</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ms_1_1_chord_list.html#a0cacfb55f167c64751b78655cc7e0bd0">renderListFunction</a></td></tr>
+<tr class="separator:a0cacfb55f167c64751b78655cc7e0bd0"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:afa63dc61c1f29b5844addf815ec73867"><td class="memItemLeft" align="right" valign="top">QList&lt; <a class="el" href="struct_ms_1_1_render_action.html">RenderAction</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ms_1_1_chord_list.html#afa63dc61c1f29b5844addf815ec73867">renderListBase</a></td></tr>
 <tr class="separator:afa63dc61c1f29b5844addf815ec73867"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ac4e402d4d569f47b3b7597f08fb0353e"><td class="memItemLeft" align="right" valign="top">QList&lt; <a class="el" href="class_ms_1_1_chord_token.html">ChordToken</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ms_1_1_chord_list.html#ac4e402d4d569f47b3b7597f08fb0353e">chordTokenList</a></td></tr>
@@ -129,8 +141,87 @@ Static Public Attributes</h2></td></tr>
 Private Attributes</h2></td></tr>
 <tr class="memitem:a1664b5e3a1d11d4c4fd1a9f84ceaa9f1"><td class="memItemLeft" align="right" valign="top">QMap&lt; QString, <a class="el" href="struct_ms_1_1_chord_symbol.html">ChordSymbol</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ms_1_1_chord_list.html#a1664b5e3a1d11d4c4fd1a9f84ceaa9f1">symbols</a></td></tr>
 <tr class="separator:a1664b5e3a1d11d4c4fd1a9f84ceaa9f1"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a58d59027f32e5d9e89b1ad3f05cd6f25"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ms_1_1_chord_list.html#a58d59027f32e5d9e89b1ad3f05cd6f25">_autoAdjust</a> = false</td></tr>
+<tr class="separator:a58d59027f32e5d9e89b1ad3f05cd6f25"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a8243cf99c03545cc08a0b0b4367685f9"><td class="memItemLeft" align="right" valign="top">qreal&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ms_1_1_chord_list.html#a8243cf99c03545cc08a0b0b4367685f9">_nmag</a> = 1.0</td></tr>
+<tr class="separator:a8243cf99c03545cc08a0b0b4367685f9"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a1dfd2ea951588ea20a3cd09a2380f6e4"><td class="memItemLeft" align="right" valign="top">qreal&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ms_1_1_chord_list.html#a1dfd2ea951588ea20a3cd09a2380f6e4">_nadjust</a> = 0.0</td></tr>
+<tr class="separator:a1dfd2ea951588ea20a3cd09a2380f6e4"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a1d7bd01c8658c9fc091fbc93e9e2d0dd"><td class="memItemLeft" align="right" valign="top">qreal&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ms_1_1_chord_list.html#a1d7bd01c8658c9fc091fbc93e9e2d0dd">_emag</a> = 1.0</td></tr>
+<tr class="separator:a1d7bd01c8658c9fc091fbc93e9e2d0dd"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a77d0bbedbff149ce773a24af2c86a661"><td class="memItemLeft" align="right" valign="top">qreal&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ms_1_1_chord_list.html#a77d0bbedbff149ce773a24af2c86a661">_eadjust</a> = 0.0</td></tr>
+<tr class="separator:a77d0bbedbff149ce773a24af2c86a661"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a89d5b00f9b8edede859ddbcee9c899ec"><td class="memItemLeft" align="right" valign="top">qreal&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ms_1_1_chord_list.html#a89d5b00f9b8edede859ddbcee9c899ec">_mmag</a> = 1.0</td></tr>
+<tr class="separator:a89d5b00f9b8edede859ddbcee9c899ec"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a5b0cbc824ebac1164d83e6e2e75477b5"><td class="memItemLeft" align="right" valign="top">qreal&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ms_1_1_chord_list.html#a5b0cbc824ebac1164d83e6e2e75477b5">_madjust</a> = 0.0</td></tr>
+<tr class="separator:a5b0cbc824ebac1164d83e6e2e75477b5"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <h2 class="groupheader">Member Function Documentation</h2>
+<a id="a4b36fa8f52c71712a6d0ae2b8e892aa3"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a4b36fa8f52c71712a6d0ae2b8e892aa3">&#9670;&nbsp;</a></span>autoAdjust()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool Ms::ChordList::autoAdjust </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a7d6a4577a394cf152af70da6ee53e053"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a7d6a4577a394cf152af70da6ee53e053">&#9670;&nbsp;</a></span>configureAutoAdjust()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void Ms::ChordList::configureAutoAdjust </td>
+          <td>(</td>
+          <td class="paramtype">qreal&#160;</td>
+          <td class="paramname"><em>emag</em> = <code>1.0</code>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">qreal&#160;</td>
+          <td class="paramname"><em>eadjust</em> = <code>0.0</code>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">qreal&#160;</td>
+          <td class="paramname"><em>mmag</em> = <code>1.0</code>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">qreal&#160;</td>
+          <td class="paramname"><em>madjust</em> = <code>0.0</code>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
 <a id="a68c1ddd64fcb28a3c2ed8cb7d5256491"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a68c1ddd64fcb28a3c2ed8cb7d5256491">&#9670;&nbsp;</a></span>loaded()</h2>
 
@@ -142,6 +233,84 @@ Private Attributes</h2></td></tr>
           <td>(</td>
           <td class="paramname"></td><td>)</td>
           <td> const</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a616986beba0c889488ab9f860fce0806"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a616986beba0c889488ab9f860fce0806">&#9670;&nbsp;</a></span>nominalAdjust()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">qreal Ms::ChordList::nominalAdjust </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a74fdded2af370f9ce7c564a73845c342"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a74fdded2af370f9ce7c564a73845c342">&#9670;&nbsp;</a></span>nominalMag()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">qreal Ms::ChordList::nominalMag </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="afcaa1d7997c06465eec3df3c818cde8a"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#afcaa1d7997c06465eec3df3c818cde8a">&#9670;&nbsp;</a></span>position()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">qreal Ms::ChordList::position </td>
+          <td>(</td>
+          <td class="paramtype">const QStringList &amp;&#160;</td>
+          <td class="paramname"><em>names</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="namespace_ms.html#a161dff7089bf7aa507d8e02de7c64570">ChordTokenClass</a>&#160;</td>
+          <td class="paramname"><em>ctc</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td> const</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -264,6 +433,160 @@ Private Attributes</h2></td></tr>
 </div>
 </div>
 <h2 class="groupheader">Member Data Documentation</h2>
+<a id="a58d59027f32e5d9e89b1ad3f05cd6f25"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a58d59027f32e5d9e89b1ad3f05cd6f25">&#9670;&nbsp;</a></span>_autoAdjust</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool Ms::ChordList::_autoAdjust = false</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a77d0bbedbff149ce773a24af2c86a661"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a77d0bbedbff149ce773a24af2c86a661">&#9670;&nbsp;</a></span>_eadjust</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">qreal Ms::ChordList::_eadjust = 0.0</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a1d7bd01c8658c9fc091fbc93e9e2d0dd"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a1d7bd01c8658c9fc091fbc93e9e2d0dd">&#9670;&nbsp;</a></span>_emag</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">qreal Ms::ChordList::_emag = 1.0</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a5b0cbc824ebac1164d83e6e2e75477b5"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a5b0cbc824ebac1164d83e6e2e75477b5">&#9670;&nbsp;</a></span>_madjust</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">qreal Ms::ChordList::_madjust = 0.0</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a89d5b00f9b8edede859ddbcee9c899ec"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a89d5b00f9b8edede859ddbcee9c899ec">&#9670;&nbsp;</a></span>_mmag</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">qreal Ms::ChordList::_mmag = 1.0</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a1dfd2ea951588ea20a3cd09a2380f6e4"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a1dfd2ea951588ea20a3cd09a2380f6e4">&#9670;&nbsp;</a></span>_nadjust</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">qreal Ms::ChordList::_nadjust = 0.0</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a8243cf99c03545cc08a0b0b4367685f9"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a8243cf99c03545cc08a0b0b4367685f9">&#9670;&nbsp;</a></span>_nmag</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">qreal Ms::ChordList::_nmag = 1.0</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
 <a id="ac4e402d4d569f47b3b7597f08fb0353e"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#ac4e402d4d569f47b3b7597f08fb0353e">&#9670;&nbsp;</a></span>chordTokenList</h2>
 
@@ -322,6 +645,20 @@ Private Attributes</h2></td></tr>
       <table class="memname">
         <tr>
           <td class="memname">QList&lt;<a class="el" href="struct_ms_1_1_render_action.html">RenderAction</a>&gt; Ms::ChordList::renderListBase</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a0cacfb55f167c64751b78655cc7e0bd0"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a0cacfb55f167c64751b78655cc7e0bd0">&#9670;&nbsp;</a></span>renderListFunction</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">QList&lt;<a class="el" href="struct_ms_1_1_render_action.html">RenderAction</a>&gt; Ms::ChordList::renderListFunction</td>
         </tr>
       </table>
 </div><div class="memdoc">

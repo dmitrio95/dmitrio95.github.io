@@ -23,7 +23,7 @@
   <td id="projectlogo"><img alt="Logo" src="musescore_logo_full.png"/></td>
   <td id="projectalign" style="padding-left: 0.5em;">
    <div id="projectname">MuseScore
-   &#160;<span id="projectnumber">3.2</span>
+   &#160;<span id="projectnumber">3.3.4</span>
    </div>
    <div id="projectbrief">Music composition and notation</div>
   </td>
@@ -66,6 +66,7 @@ $(function() {
 </div><!-- top -->
 <div class="header">
   <div class="summary">
+<a href="#pub-slots">Public Slots</a> &#124;
 <a href="#signals">Signals</a> &#124;
 <a href="#pub-methods">Public Member Functions</a> &#124;
 <a href="#properties">Properties</a> &#124;
@@ -93,6 +94,11 @@ Collaboration diagram for Awl::ColorLabel:</div>
 </map>
 <center><span class="legend">[<a href="graph_legend.html">legend</a>]</span></center></div>
 <table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-slots"></a>
+Public Slots</h2></td></tr>
+<tr class="memitem:ad3f885a67e11ba0747f9419844acfbbd"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_awl_1_1_color_label.html#ad3f885a67e11ba0747f9419844acfbbd">colorButtonClicked</a> (bool)</td></tr>
+<tr class="separator:ad3f885a67e11ba0747f9419844acfbbd"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="signals"></a>
 Signals</h2></td></tr>
 <tr class="memitem:a0e42a3f8a8ada3ff9c71a9e7f5d063d1"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_awl_1_1_color_label.html#a0e42a3f8a8ada3ff9c71a9e7f5d063d1">colorChanged</a> (QColor)</td></tr>
@@ -124,14 +130,12 @@ Properties</h2></td></tr>
 Private Member Functions</h2></td></tr>
 <tr class="memitem:ac4740300ca19f07d3913b82dd4bf6ce7"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_awl_1_1_color_label.html#ac4740300ca19f07d3913b82dd4bf6ce7">paintEvent</a> (QPaintEvent *)</td></tr>
 <tr class="separator:ac4740300ca19f07d3913b82dd4bf6ce7"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a90d63f81518f9128963251acc41cde9e"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_awl_1_1_color_label.html#a90d63f81518f9128963251acc41cde9e">mousePressEvent</a> (QMouseEvent *)</td></tr>
-<tr class="separator:a90d63f81518f9128963251acc41cde9e"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pri-attribs"></a>
 Private Attributes</h2></td></tr>
-<tr class="memitem:a96f677ee0b2b8b31221d231573b60b2c"><td class="memItemLeft" align="right" valign="top">QColor&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_awl_1_1_color_label.html#a96f677ee0b2b8b31221d231573b60b2c">_color</a></td></tr>
+<tr class="memitem:a96f677ee0b2b8b31221d231573b60b2c"><td class="memItemLeft" align="right" valign="top">QColor&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_awl_1_1_color_label.html#a96f677ee0b2b8b31221d231573b60b2c">_color</a> = Qt::blue</td></tr>
 <tr class="separator:a96f677ee0b2b8b31221d231573b60b2c"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a360a935ac3fa541d7b7ff7bf0557fb1b"><td class="memItemLeft" align="right" valign="top">QPixmap *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_awl_1_1_color_label.html#a360a935ac3fa541d7b7ff7bf0557fb1b">_pixmap</a></td></tr>
+<tr class="memitem:a360a935ac3fa541d7b7ff7bf0557fb1b"><td class="memItemLeft" align="right" valign="top">QPixmap *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_awl_1_1_color_label.html#a360a935ac3fa541d7b7ff7bf0557fb1b">_pixmap</a> = nullptr</td></tr>
 <tr class="separator:a360a935ac3fa541d7b7ff7bf0557fb1b"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
@@ -196,6 +200,32 @@ Private Attributes</h2></td></tr>
 
 </div>
 </div>
+<a id="ad3f885a67e11ba0747f9419844acfbbd"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ad3f885a67e11ba0747f9419844acfbbd">&#9670;&nbsp;</a></span>colorButtonClicked</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void Awl::ColorLabel::colorButtonClicked </td>
+          <td>(</td>
+          <td class="paramtype">bool&#160;</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">slot</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
 <a id="a0e42a3f8a8ada3ff9c71a9e7f5d063d1"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a0e42a3f8a8ada3ff9c71a9e7f5d063d1">&#9670;&nbsp;</a></span>colorChanged</h2>
 
@@ -216,32 +246,6 @@ Private Attributes</h2></td></tr>
   </td>
   <td class="mlabels-right">
 <span class="mlabels"><span class="mlabel">signal</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="a90d63f81518f9128963251acc41cde9e"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a90d63f81518f9128963251acc41cde9e">&#9670;&nbsp;</a></span>mousePressEvent()</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">void Awl::ColorLabel::mousePressEvent </td>
-          <td>(</td>
-          <td class="paramtype">QMouseEvent *&#160;</td>
-          <td class="paramname"></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">private</span><span class="mlabel">virtual</span></span>  </td>
   </tr>
 </table>
 </div><div class="memdoc">
@@ -371,7 +375,7 @@ Private Attributes</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">QColor Awl::ColorLabel::_color</td>
+          <td class="memname">QColor Awl::ColorLabel::_color = Qt::blue</td>
         </tr>
       </table>
   </td>
@@ -393,7 +397,7 @@ Private Attributes</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">QPixmap* Awl::ColorLabel::_pixmap</td>
+          <td class="memname">QPixmap* Awl::ColorLabel::_pixmap = nullptr</td>
         </tr>
       </table>
   </td>

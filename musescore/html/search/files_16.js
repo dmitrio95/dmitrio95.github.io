@@ -7,6 +7,8 @@ var searchData=
   ['winsparkleautoupdater_2eh',['winSparkleAutoUpdater.h',['../win_sparkle_auto_updater_8h.html',1,'']]],
   ['workspace_2ecpp',['workspace.cpp',['../workspace_8cpp.html',1,'']]],
   ['workspace_2eh',['workspace.h',['../workspace_8h.html',1,'']]],
+  ['workspacecombobox_2ecpp',['workspacecombobox.cpp',['../workspacecombobox_8cpp.html',1,'']]],
+  ['workspacecombobox_2eh',['workspacecombobox.h',['../workspacecombobox_8h.html',1,'']]],
   ['workspacedialog_2ecpp',['workspacedialog.cpp',['../workspacedialog_8cpp.html',1,'']]],
   ['workspacedialog_2eh',['workspacedialog.h',['../workspacedialog_8h.html',1,'']]],
   ['writer_2ecpp',['writer.cpp',['../writer_8cpp.html',1,'']]],

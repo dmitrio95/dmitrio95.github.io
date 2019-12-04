@@ -23,7 +23,7 @@
   <td id="projectlogo"><img alt="Logo" src="musescore_logo_full.png"/></td>
   <td id="projectalign" style="padding-left: 0.5em;">
    <div id="projectname">MuseScore
-   &#160;<span id="projectnumber">3.2</span>
+   &#160;<span id="projectnumber">3.3.4</span>
    </div>
    <div id="projectbrief">Music composition and notation</div>
   </td>
@@ -122,8 +122,8 @@ Signals</h2></td></tr>
 <tr class="separator:a354c60f59cde1dbd6b48f509dcf6162b"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a9d2b89a9ea79571b8a201095e1fc0da5"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ms_1_1_login_manager.html#a9d2b89a9ea79571b8a201095e1fc0da5">tryLoginSuccess</a> ()</td></tr>
 <tr class="separator:a9d2b89a9ea79571b8a201095e1fc0da5"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aa1ae5618d6a52977e8827e26a0cb8a14"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ms_1_1_login_manager.html#aa1ae5618d6a52977e8827e26a0cb8a14">displaySuccess</a> ()</td></tr>
-<tr class="separator:aa1ae5618d6a52977e8827e26a0cb8a14"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a847374bc71788aa456b56fd6b03dffd9"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ms_1_1_login_manager.html#a847374bc71788aa456b56fd6b03dffd9">mediaUploadSuccess</a> ()</td></tr>
+<tr class="separator:a847374bc71788aa456b56fd6b03dffd9"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
@@ -131,8 +131,10 @@ Public Member Functions</h2></td></tr>
 <tr class="separator:ab8b8d26330971b0955ef54cfec955d03"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a5c733ab290a57ab6cbd5001a61b2923e"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ms_1_1_login_manager.html#a5c733ab290a57ab6cbd5001a61b2923e">login</a> (QString login, QString password)</td></tr>
 <tr class="separator:a5c733ab290a57ab6cbd5001a61b2923e"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a71f3dd037b991a93162dd3bad10d9606"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ms_1_1_login_manager.html#a71f3dd037b991a93162dd3bad10d9606">upload</a> (const QString &amp;path, int nid, const QString &amp;title, const QString &amp;description, const QString &amp;priv, const QString &amp;license, const QString &amp;tags, const QString &amp;changes)</td></tr>
-<tr class="separator:a71f3dd037b991a93162dd3bad10d9606"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af24ee92c57825de46bc87d6cb9acca7c"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ms_1_1_login_manager.html#af24ee92c57825de46bc87d6cb9acca7c">upload</a> (const QString &amp;path, int nid, const QString &amp;title)</td></tr>
+<tr class="separator:af24ee92c57825de46bc87d6cb9acca7c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af85dd0ad0b9b8371dbc02bc73fa3fadc"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ms_1_1_login_manager.html#af85dd0ad0b9b8371dbc02bc73fa3fadc">updateScoreData</a> (const QString &amp;nid, bool newScore)</td></tr>
+<tr class="separator:af85dd0ad0b9b8371dbc02bc73fa3fadc"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a8498c88ecc8e30ed3f5ecbb3790707ad"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ms_1_1_login_manager.html#a8498c88ecc8e30ed3f5ecbb3790707ad">hasAccessToken</a> ()</td></tr>
 <tr class="separator:a8498c88ecc8e30ed3f5ecbb3790707ad"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ad9e8c59737947a92970bd351a26ba5b9"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ms_1_1_login_manager.html#ad9e8c59737947a92970bd351a26ba5b9">getUser</a> ()</td></tr>
@@ -147,10 +149,12 @@ Public Member Functions</h2></td></tr>
 <tr class="separator:ad5b2b822345d371f2eaf56b9e255b6d7"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a40b0c80d46d67932df12ce1b2b44ee9b"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ms_1_1_login_manager.html#a40b0c80d46d67932df12ce1b2b44ee9b">logout</a> ()</td></tr>
 <tr class="separator:a40b0c80d46d67932df12ce1b2b44ee9b"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a9ae142bf61677f8105f95e88ab76b4ff"><td class="memItemLeft" align="right" valign="top">QString&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ms_1_1_login_manager.html#a9ae142bf61677f8105f95e88ab76b4ff">userName</a> ()</td></tr>
-<tr class="separator:a9ae142bf61677f8105f95e88ab76b4ff"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a0a65864590c95ea50cd49d49cedaa56c"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ms_1_1_login_manager.html#a0a65864590c95ea50cd49d49cedaa56c">uid</a> ()</td></tr>
-<tr class="separator:a0a65864590c95ea50cd49d49cedaa56c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a846b0a074229feaddde97fa28c532442"><td class="memItemLeft" align="right" valign="top">const QString &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ms_1_1_login_manager.html#a846b0a074229feaddde97fa28c532442">userName</a> () const</td></tr>
+<tr class="separator:a846b0a074229feaddde97fa28c532442"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a0bfedce3bca3d3d8827c52431e0cbf16"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ms_1_1_login_manager.html#a0bfedce3bca3d3d8827c52431e0cbf16">uid</a> () const</td></tr>
+<tr class="separator:a0bfedce3bca3d3d8827c52431e0cbf16"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a4f48b7cb25267e10769bc82af4e975ff"><td class="memItemLeft" align="right" valign="top">const QUrl &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ms_1_1_login_manager.html#a4f48b7cb25267e10769bc82af4e975ff">avatar</a> () const</td></tr>
+<tr class="separator:a4f48b7cb25267e10769bc82af4e975ff"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pri-types"></a>
 Private Types</h2></td></tr>
@@ -217,8 +221,12 @@ Private Attributes</h2></td></tr>
 <tr class="separator:a33ceab1870f8528534e77a0e4693670f"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a02178b6466bddf6f33798ea44704911a"><td class="memItemLeft" align="right" valign="top">QString&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ms_1_1_login_manager.html#a02178b6466bddf6f33798ea44704911a">_userName</a></td></tr>
 <tr class="separator:a02178b6466bddf6f33798ea44704911a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aab58d0ac5847187fd3c8db3de636b727"><td class="memItemLeft" align="right" valign="top">QUrl&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ms_1_1_login_manager.html#aab58d0ac5847187fd3c8db3de636b727">_avatar</a></td></tr>
+<tr class="separator:aab58d0ac5847187fd3c8db3de636b727"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a2d0f4a282872f72ab8855fff587eba83"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ms_1_1_login_manager.html#a2d0f4a282872f72ab8855fff587eba83">_uid</a> = -1</td></tr>
 <tr class="separator:a2d0f4a282872f72ab8855fff587eba83"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a52149946f0ad3cf7b9d85d899a63b6a9"><td class="memItemLeft" align="right" valign="top">QString&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ms_1_1_login_manager.html#a52149946f0ad3cf7b9d85d899a63b6a9">_updateScoreDataPath</a></td></tr>
+<tr class="separator:a52149946f0ad3cf7b9d85d899a63b6a9"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:acf59f1a98de834a7b5cc947a2600e77a"><td class="memItemLeft" align="right" valign="top">QString&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ms_1_1_login_manager.html#acf59f1a98de834a7b5cc947a2600e77a">_mediaUrl</a></td></tr>
 <tr class="separator:acf59f1a98de834a7b5cc947a2600e77a"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a003c3d70cdbe75ed93e5e8081854475b"><td class="memItemLeft" align="right" valign="top">QFile *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ms_1_1_login_manager.html#a003c3d70cdbe75ed93e5e8081854475b">_mp3File</a></td></tr>
@@ -296,6 +304,31 @@ Static Private Attributes</h2></td></tr>
 </div>
 </div>
 <h2 class="groupheader">Member Function Documentation</h2>
+<a id="a4f48b7cb25267e10769bc82af4e975ff"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a4f48b7cb25267e10769bc82af4e975ff">&#9670;&nbsp;</a></span>avatar()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">const QUrl&amp; Ms::LoginManager::avatar </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
 <a id="a6b32a703361f6c22973298674b7012f0"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a6b32a703361f6c22973298674b7012f0">&#9670;&nbsp;</a></span>buildLoginRefreshRequest()</h2>
 
@@ -315,31 +348,6 @@ Static Private Attributes</h2></td></tr>
   </td>
   <td class="mlabels-right">
 <span class="mlabels"><span class="mlabel">private</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="aa1ae5618d6a52977e8827e26a0cb8a14"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#aa1ae5618d6a52977e8827e26a0cb8a14">&#9670;&nbsp;</a></span>displaySuccess</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">void Ms::LoginManager::displaySuccess </td>
-          <td>(</td>
-          <td class="paramname"></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">signal</span></span>  </td>
   </tr>
 </table>
 </div><div class="memdoc">
@@ -815,6 +823,31 @@ Static Private Attributes</h2></td></tr>
 
 </div>
 </div>
+<a id="a847374bc71788aa456b56fd6b03dffd9"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a847374bc71788aa456b56fd6b03dffd9">&#9670;&nbsp;</a></span>mediaUploadSuccess</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void Ms::LoginManager::mediaUploadSuccess </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">signal</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
 <a id="a7e7aecb2d35fc46561dd39f1b855fdde"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a7e7aecb2d35fc46561dd39f1b855fdde">&#9670;&nbsp;</a></span>onGetMediaUrlReply()</h2>
 
@@ -1221,8 +1254,8 @@ Static Private Attributes</h2></td></tr>
 
 </div>
 </div>
-<a id="a0a65864590c95ea50cd49d49cedaa56c"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a0a65864590c95ea50cd49d49cedaa56c">&#9670;&nbsp;</a></span>uid()</h2>
+<a id="a0bfedce3bca3d3d8827c52431e0cbf16"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a0bfedce3bca3d3d8827c52431e0cbf16">&#9670;&nbsp;</a></span>uid()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -1234,7 +1267,7 @@ Static Private Attributes</h2></td></tr>
           <td class="memname">int Ms::LoginManager::uid </td>
           <td>(</td>
           <td class="paramname"></td><td>)</td>
-          <td></td>
+          <td> const</td>
         </tr>
       </table>
   </td>
@@ -1246,8 +1279,36 @@ Static Private Attributes</h2></td></tr>
 
 </div>
 </div>
-<a id="a71f3dd037b991a93162dd3bad10d9606"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a71f3dd037b991a93162dd3bad10d9606">&#9670;&nbsp;</a></span>upload()</h2>
+<a id="af85dd0ad0b9b8371dbc02bc73fa3fadc"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#af85dd0ad0b9b8371dbc02bc73fa3fadc">&#9670;&nbsp;</a></span>updateScoreData()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void Ms::LoginManager::updateScoreData </td>
+          <td>(</td>
+          <td class="paramtype">const QString &amp;&#160;</td>
+          <td class="paramname"><em>nid</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">bool&#160;</td>
+          <td class="paramname"><em>newScore</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="af24ee92c57825de46bc87d6cb9acca7c"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#af24ee92c57825de46bc87d6cb9acca7c">&#9670;&nbsp;</a></span>upload()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -1268,37 +1329,7 @@ Static Private Attributes</h2></td></tr>
           <td class="paramkey"></td>
           <td></td>
           <td class="paramtype">const QString &amp;&#160;</td>
-          <td class="paramname"><em>title</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">const QString &amp;&#160;</td>
-          <td class="paramname"><em>description</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">const QString &amp;&#160;</td>
-          <td class="paramname"><em>priv</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">const QString &amp;&#160;</td>
-          <td class="paramname"><em>license</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">const QString &amp;&#160;</td>
-          <td class="paramname"><em>tags</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">const QString &amp;&#160;</td>
-          <td class="paramname"><em>changes</em>&#160;</td>
+          <td class="paramname"><em>title</em>&#160;</td>
         </tr>
         <tr>
           <td></td>
@@ -1403,8 +1434,8 @@ Static Private Attributes</h2></td></tr>
 
 </div>
 </div>
-<a id="a9ae142bf61677f8105f95e88ab76b4ff"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a9ae142bf61677f8105f95e88ab76b4ff">&#9670;&nbsp;</a></span>userName()</h2>
+<a id="a846b0a074229feaddde97fa28c532442"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a846b0a074229feaddde97fa28c532442">&#9670;&nbsp;</a></span>userName()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -1413,10 +1444,10 @@ Static Private Attributes</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">QString Ms::LoginManager::userName </td>
+          <td class="memname">const QString&amp; Ms::LoginManager::userName </td>
           <td>(</td>
           <td class="paramname"></td><td>)</td>
-          <td></td>
+          <td> const</td>
         </tr>
       </table>
   </td>
@@ -1440,6 +1471,28 @@ Static Private Attributes</h2></td></tr>
       <table class="memname">
         <tr>
           <td class="memname">QString Ms::LoginManager::_accessToken</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="aab58d0ac5847187fd3c8db3de636b727"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aab58d0ac5847187fd3c8db3de636b727">&#9670;&nbsp;</a></span>_avatar</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">QUrl Ms::LoginManager::_avatar</td>
         </tr>
       </table>
   </td>
@@ -1572,6 +1625,28 @@ Static Private Attributes</h2></td></tr>
       <table class="memname">
         <tr>
           <td class="memname">int Ms::LoginManager::_uid = -1</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a52149946f0ad3cf7b9d85d899a63b6a9"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a52149946f0ad3cf7b9d85d899a63b6a9">&#9670;&nbsp;</a></span>_updateScoreDataPath</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">QString Ms::LoginManager::_updateScoreDataPath</td>
         </tr>
       </table>
   </td>

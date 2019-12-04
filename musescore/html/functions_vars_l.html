@@ -23,7 +23,7 @@
   <td id="projectlogo"><img alt="Logo" src="musescore_logo_full.png"/></td>
   <td id="projectalign" style="padding-left: 0.5em;">
    <div id="projectname">MuseScore
-   &#160;<span id="projectnumber">3.2</span>
+   &#160;<span id="projectnumber">3.3.4</span>
    </div>
    <div id="projectbrief">Music composition and notation</div>
   </td>
@@ -265,6 +265,9 @@ $(function() {
 <li>lbank
 : <a class="el" href="struct_midi_instrument.html#a97ea0e2bd7bd47380e48927a62bb8ec2">MidiInstrument</a>
 </li>
+<li>le
+: <a class="el" href="class_ms_1_1_link_unlink.html#a1b5796c4c81451ee50ed37df56603609">Ms::LinkUnlink</a>
+</li>
 <li>leafCnt
 : <a class="el" href="class_ms_1_1_bsp_tree.html#ac8251ed0d807efabd6e99f5d9102fe0f">Ms::BspTree</a>
 </li>
@@ -320,7 +323,10 @@ $(function() {
 : <a class="el" href="class_ms_1_1_guitar_pro6.html#a271fde2dc9cafe788adead7e5a41b13b">Ms::GuitarPro6</a>
 </li>
 <li>len
-: <a class="el" href="struct_ms_1_1_meter_1_1_division_info.html#aa32ca9e25554bbf8f0afa2701500989f">Ms::Meter::DivisionInfo</a>
+: <a class="el" href="class_ms_1_1_change_measure_len.html#a414a887667303326af7eb3b7d277d32d">Ms::ChangeMeasureLen</a>
+, <a class="el" href="class_ms_1_1_insert_time.html#a4381dbd87d176f08fdb1707200bec8b2">Ms::InsertTime</a>
+, <a class="el" href="class_ms_1_1_insert_time_unmanaged_spanner.html#a7c71af59e47f46f3c179bf558c6bf0c3">Ms::InsertTimeUnmanagedSpanner</a>
+, <a class="el" href="struct_ms_1_1_meter_1_1_division_info.html#aa32ca9e25554bbf8f0afa2701500989f">Ms::Meter::DivisionInfo</a>
 , <a class="el" href="struct_ms_1_1_meter_1_1_div_length_info.html#af9d998d828b14bcc246f8f645cff5ace">Ms::Meter::DivLengthInfo</a>
 , <a class="el" href="struct_ms_1_1_midi_tuplet_1_1_tuplet_data.html#a52f41fbb60cae36dc5f9af859fa0274d">Ms::MidiTuplet::TupletData</a>
 , <a class="el" href="struct_ms_1_1_midi_tuplet_1_1_tuplet_info.html#a23ae8c0769b8334859e35bb5edccc5a4">Ms::MidiTuplet::TupletInfo</a>
@@ -335,10 +341,13 @@ $(function() {
 : <a class="el" href="struct_o_v_e_1_1_time_signature_1_1_beat_node.html#aabb42d6c7db4c104dc9b54acd412e744">OVE::TimeSignature::BeatNode</a>
 </li>
 <li>level
-: <a class="el" href="class_ms_1_1_export_ly.html#ad4456d815948044ac0d08c72536e7068">Ms::ExportLy</a>
+: <a class="el" href="class_ms_1_1_add_bracket.html#aaca3b5447fc06648f420423144d75189">Ms::AddBracket</a>
+, <a class="el" href="class_ms_1_1_change_bracket_property.html#aede8db4daa70ab62ba6714b2293506e2">Ms::ChangeBracketProperty</a>
+, <a class="el" href="class_ms_1_1_export_ly.html#ad4456d815948044ac0d08c72536e7068">Ms::ExportLy</a>
 , <a class="el" href="struct_ms_1_1_meter_1_1_div_length_info.html#a1673c49b0a4a094b6cc0757140048b60">Ms::Meter::DivLengthInfo</a>
 , <a class="el" href="struct_ms_1_1_meter_1_1_max_level.html#a56fe1b39635f4486e19ee35848f23a6d">Ms::Meter::MaxLevel</a>
 , <a class="el" href="struct_ms_1_1_power_tab_1_1pt_song_info.html#afcf95c735689a9368c80b8aae36b61d9">Ms::PowerTab::ptSongInfo</a>
+, <a class="el" href="class_ms_1_1_remove_bracket.html#adb7b8ed23d77d3303c8c3f1c43e5b604">Ms::RemoveBracket</a>
 </li>
 <li>levelCount
 : <a class="el" href="struct_ms_1_1_meter_1_1_max_level.html#a4a2d9bbedbddbb01d08885fc27d21827">Ms::Meter::MaxLevel</a>
@@ -385,14 +394,14 @@ $(function() {
 <li>lineChunks_
 : <a class="el" href="class_o_v_e_1_1_line_group_parse.html#abd59ebc089c8d7f1d9fadfb851b74963">OVE::LineGroupParse</a>
 </li>
-<li>lineColorStyle
-: <a class="el" href="class_ms_1_1_s_line.html#a7b47208bdc71ad23e752f64488a10114">Ms::SLine</a>
-</li>
 <li>lineCount_
 : <a class="el" href="class_o_v_e_1_1_page.html#ad147d08f571081bf744b3438b331e90c">OVE::Page</a>
 </li>
 <li>lineInterval_
 : <a class="el" href="class_o_v_e_1_1_page.html#a7a1632d2ff59f4d3d09ed7e9111f0fcc">OVE::Page</a>
+</li>
+<li>lineLength
+: <a class="el" href="class_ms_1_1_text_line_base_segment.html#a8d0f65d7e530b067a7d60c3c7ded7bf8">Ms::TextLineBaseSegment</a>
 </li>
 <li>LineName
 : <a class="el" href="class_o_v_e_1_1_chunk.html#a07619eab3505da7256f89b54c0b5fc31">OVE::Chunk</a>
@@ -411,9 +420,6 @@ $(function() {
 : <a class="el" href="class_o_v_e_1_1_beam.html#a3f1346a5034c08a5f359d4634278e6cd">OVE::Beam</a>
 , <a class="el" href="class_o_v_e_1_1_ove_song.html#a99d3a4abcb35f6cad79964ee52417091">OVE::OveSong</a>
 </li>
-<li>lineStyleStyle
-: <a class="el" href="class_ms_1_1_s_line.html#af4abe92f9dd77663a03fbe3866b1705d">Ms::SLine</a>
-</li>
 <li>lineThick_
 : <a class="el" href="class_o_v_e_1_1_glissando.html#a5287aa9ba18e30d724e6067fb0d39f9c">OVE::Glissando</a>
 , <a class="el" href="class_o_v_e_1_1_text.html#afd5300e048ee684752a6b2cb955296b7">OVE::Text</a>
@@ -422,20 +428,25 @@ $(function() {
 : <a class="el" href="class_ms_1_1_line_obj.html#af0eec7584a1ef6396a42e04a0410483f">Ms::LineObj</a>
 , <a class="el" href="class_ms_1_1_polygon_obj.html#a9ba58db55794acfdff757ba6bb0b51a4">Ms::PolygonObj</a>
 </li>
-<li>lineWidthStyle
-: <a class="el" href="class_ms_1_1_s_line.html#acebaddab562dffe37aba22da1580706d">Ms::SLine</a>
-</li>
 <li>link
 : <a class="el" href="class_ms_1_1_midi_mapping.html#a8e124c5792fe4bf45ef805c00c3c2774">Ms::MidiMapping</a>
 , <a class="el" href="struct_ms_1_1_property_meta_data.html#aa43a5b7d079e3aee87d1f814a7be4ee0">Ms::PropertyMetaData</a>
 </li>
+<li>linked
+: <a class="el" href="class_ms_1_1_clone_voice.html#a950c5fbf8a42f716fcf5fbd395072cbc">Ms::CloneVoice</a>
+</li>
 <li>list
 : <a class="el" href="class_bww_1_1_lexer.html#ac967accab88a15c7f5c839b5e641f821">Bww::Lexer</a>
+, <a class="el" href="class_ms_1_1_sort_staves.html#a9f844e35b1bf9fe7fcfd16b6b0879921">Ms::SortStaves</a>
+, <a class="el" href="class_ms_1_1_undo_stack.html#ae12a3417ca938c40b5f383b6575f9294">Ms::UndoStack</a>
 , <a class="el" href="class_sf_list_dialog.html#add383d05661fde898077b670ae28e9a1">SfListDialog</a>
 , <a class="el" href="class_sfz_list_dialog.html#a46f6df127e73edb4c9e290fd1e82533d">SfzListDialog</a>
 </li>
 <li>liverecording
 : <a class="el" href="struct_ms_1_1_power_tab_1_1pt_song_info.html#a4314a2ffbb85ad417867b4b3b6345421">Ms::PowerTab::ptSongInfo</a>
+</li>
+<li>lm
+: <a class="el" href="class_ms_1_1_insert_remove_measures.html#a9d2517371b308adaf8e9ebce3403a738">Ms::InsertRemoveMeasures</a>
 </li>
 <li>lnhash
 : <a class="el" href="class_ms_1_1_sym.html#ae87b805a215e50af234a33a5ec6e02d6">Ms::Sym</a>
@@ -595,6 +606,9 @@ $(function() {
 </li>
 <li>lt
 : <a class="el" href="class_ms_1_1_edit_instrument.html#a58b4bfc7016f049f91e86939c4dcd8f8">Ms::EditInstrument</a>
+</li>
+<li>lTick
+: <a class="el" href="class_ms_1_1_clone_voice.html#a53983960451d03e973c99e0c55d76709">Ms::CloneVoice</a>
 </li>
 <li>lVol
 : <a class="el" href="struct_zone.html#a1d4cb0bc87c96fe0d7100d08a12bbdd5">Zone</a>

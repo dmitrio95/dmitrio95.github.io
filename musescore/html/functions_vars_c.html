@@ -23,7 +23,7 @@
   <td id="projectlogo"><img alt="Logo" src="musescore_logo_full.png"/></td>
   <td id="projectalign" style="padding-left: 0.5em;">
    <div id="projectname">MuseScore
-   &#160;<span id="projectnumber">3.2</span>
+   &#160;<span id="projectnumber">3.3.4</span>
    </div>
    <div id="projectbrief">Music composition and notation</div>
   </td>
@@ -109,13 +109,18 @@ $(function() {
 : <a class="el" href="struct_ms_1_1_export_ly_1_1chord_post.html#a6e40e6838bec45a165cc3a7cfbe3f3c9">Ms::ExportLy::chordPost</a>
 </li>
 <li>cell
-: <a class="el" href="class_ms_1_1_palette_cell_properties.html#a0f3bf065ec908d073bc4648e5f456edb">Ms::PaletteCellProperties</a>
+: <a class="el" href="class_ms_1_1_palette_cell_properties_dialog.html#a8fcde969bfe57f656572f3e9df68828a">Ms::PaletteCellPropertiesDialog</a>
+</li>
+<li>cellFilter
+: <a class="el" href="class_ms_1_1_filter_palette_tree_model.html#a161e229714e3c20f8768b475386c7a8f">Ms::FilterPaletteTreeModel</a>
 </li>
 <li>CELLH
 : <a class="el" href="class_ms_1_1_score_list_widget.html#ab1c0cf45b6d53d7ac3c19df66b16dc86">Ms::ScoreListWidget</a>
 </li>
 <li>cells
 : <a class="el" href="class_ms_1_1_palette.html#a6bac5be13fcd34f020d0241634fd1cb7">Ms::Palette</a>
+, <a class="el" href="class_ms_1_1_palette_model.html#a02bc9b6206973812b9ae1a1e0f426153">Ms::PaletteModel</a>
+, <a class="el" href="class_ms_1_1_palette_panel.html#a41691d5afd6a9cdce1cb4b9c0e5798c5">Ms::PalettePanel</a>
 , <a class="el" href="class_ms_1_1_radon_info.html#a40f8664fa619eb78f1914bbc86ddb612">Ms::RadonInfo</a>
 </li>
 <li>CELLW
@@ -129,6 +134,9 @@ $(function() {
 </li>
 <li>cg
 : <a class="el" href="class_ms_1_1_compressor_gui.html#ab07de0f148daba4fd0c5d0f5208907e5">Ms::CompressorGui</a>
+</li>
+<li>chainedFilter
+: <a class="el" href="class_ms_1_1_palette_cell_filter.html#a5bd8607ce5c6cd072c0bb5c9b887abce">Ms::PaletteCellFilter</a>
 </li>
 <li>chan
 : <a class="el" href="class_fluid_s_1_1_voice.html#a38f867999b786be906ede962aec3befc">FluidS::Voice</a>
@@ -157,11 +165,13 @@ $(function() {
 <li>channel
 : <a class="el" href="class_fluid_s_1_1_fluid.html#af6ac15dd00684c6aa134fac65abd0b46">FluidS::Fluid</a>
 , <a class="el" href="class_fluid_s_1_1_voice.html#abebe9528618ac5965fdba011bd4df0a3">FluidS::Voice</a>
+, <a class="el" href="class_ms_1_1_change_patch.html#a753f63dd5ec83bf6e9d4ed8a5a661e1f">Ms::ChangePatch</a>
 , <a class="el" href="struct_ms_1_1_channel_actions.html#a7a453d89c5e10c0285fc8712a4989d04">Ms::ChannelActions</a>
 , <a class="el" href="class_ms_1_1_instrument_template.html#a22957e331fb4e1124e2bf6b960e5cf51">Ms::InstrumentTemplate</a>
 , <a class="el" href="struct_ms_1_1_midi_operations_1_1_opers.html#aa32731977a9ba352ac0aa6f0901fa180">Ms::MidiOperations::Opers</a>
 , <a class="el" href="struct_ms_1_1_midi_remote.html#a7ad617fec775a408d5d1522e3cd7e66e">Ms::MidiRemote</a>
 , <a class="el" href="class_ms_1_1_part_edit.html#a4d4350186a52cefe4ebf279720fc5fa5">Ms::PartEdit</a>
+, <a class="el" href="class_ms_1_1_set_user_bank_controller.html#a344c84e13f17445c44f0a4e97690c8f3">Ms::SetUserBankController</a>
 </li>
 <li>channel_
 : <a class="el" href="class_o_v_e_1_1_track.html#adc3d246528b1e226c399241988a0c24b">OVE::Track</a>
@@ -191,8 +201,12 @@ $(function() {
 <li>childCount_
 : <a class="el" href="class_o_v_e_1_1_group_chunk.html#a40005018689dc166cb1fe9d7cfc4c92b">OVE::GroupChunk</a>
 </li>
+<li>childList
+: <a class="el" href="class_ms_1_1_undo_command.html#aa5e896fda797bdf0d691d5cbd40513b2">Ms::UndoCommand</a>
+</li>
 <li>chord
-: <a class="el" href="struct_ms_1_1_chord_description.html#a32f53c1171ae3e6cf758b323cc184252">Ms::ChordDescription</a>
+: <a class="el" href="class_ms_1_1_change_chord_play_event_type.html#acbd94967217d8ac5b242159e758efe50">Ms::ChangeChordPlayEventType</a>
+, <a class="el" href="struct_ms_1_1_chord_description.html#a32f53c1171ae3e6cf758b323cc184252">Ms::ChordDescription</a>
 , <a class="el" href="class_ms_1_1_chord_view.html#a4ecb3a7f0f3471d7e99725dde8b3ba76">Ms::ChordView</a>
 , <a class="el" href="struct_ms_1_1_export_ly_1_1glisstablelem.html#a4a0458a7902dc62d32d30aaddf5e3024">Ms::ExportLy::glisstablelem</a>
 , <a class="el" href="struct_ms_1_1_l_r_hand_1_1_chord_split_data.html#abec8e35c1c368eb63ad0f15727690747">Ms::LRHand::ChordSplitData</a>
@@ -202,6 +216,12 @@ $(function() {
 , <a class="el" href="class_ms_1_1_piano_view.html#a03ecc18e80b465680fb4e8bbfc365504">Ms::PianoView</a>
 , <a class="el" href="struct_ms_1_1_quantize_1_1_quant_data.html#ad722eca5c411a9dbf06dadd550d5d7a9">Ms::Quantize::QuantData</a>
 , <a class="el" href="struct_ms_1_1_quantize_1_1_quant_info.html#ae18090a160036489e68e0ccaa210cb0c">Ms::Quantize::QuantInfo</a>
+</li>
+<li>chord1Tick
+: <a class="el" href="class_ms_1_1_move_tremolo.html#a313df1e70e1fe5323539bbf189db2092">Ms::MoveTremolo</a>
+</li>
+<li>chord2Tick
+: <a class="el" href="class_ms_1_1_move_tremolo.html#a39efdf9333aaeb762c7ec41fc3dfafa7">Ms::MoveTremolo</a>
 </li>
 <li>chordcount
 : <a class="el" href="class_ms_1_1_export_ly.html#ad555efd49394f3c7b93ef540e76abb33">Ms::ExportLy</a>
@@ -229,7 +249,8 @@ $(function() {
 : <a class="el" href="struct_ms_1_1_quantize_1_1_quant_data.html#afc1ec341002afdcec0afa97b5a14970e">Ms::Quantize::QuantData</a>
 </li>
 <li>chordRest
-: <a class="el" href="class_ms_1_1_muse_data.html#a8f2a06af009a3589f1a2559c8f81a5b1">Ms::MuseData</a>
+: <a class="el" href="class_ms_1_1_change_chord_staff_move.html#a7e76174aa22efdafa651f95b92bd2b65">Ms::ChangeChordStaffMove</a>
+, <a class="el" href="class_ms_1_1_muse_data.html#a8f2a06af009a3589f1a2559c8f81a5b1">Ms::MuseData</a>
 </li>
 <li>chords
 : <a class="el" href="struct_ms_1_1_midi_tuplet_1_1_tuplet_info.html#ad94c5dda7946e683ed1295216e6d00a7">Ms::MidiTuplet::TupletInfo</a>
@@ -291,8 +312,12 @@ $(function() {
 <li>cleannote
 : <a class="el" href="class_ms_1_1_export_ly.html#a93c74e5243a8bc5a6b1a8d2856154031">Ms::ExportLy</a>
 </li>
+<li>cleanState
+: <a class="el" href="class_ms_1_1_undo_stack.html#aed6a2fd2c79aa9db1cc1c771269e63cb">Ms::UndoStack</a>
+</li>
 <li>clef
-: <a class="el" href="class_ms_1_1_clef_view.html#aa96f3a85ed927447b2fdbd6a6d703c3e">Ms::ClefView</a>
+: <a class="el" href="class_ms_1_1_change_clef_type.html#a55fff4c0c12386ee76d565adb59e4e84">Ms::ChangeClefType</a>
+, <a class="el" href="class_ms_1_1_clef_view.html#aa96f3a85ed927447b2fdbd6a6d703c3e">Ms::ClefView</a>
 , <a class="el" href="class_ms_1_1_key_canvas.html#a5a71bd51b8bdc00f9ab03435b966341b">Ms::KeyCanvas</a>
 </li>
 <li>clef_
@@ -307,6 +332,9 @@ $(function() {
 </li>
 <li>clefTable
 : <a class="el" href="class_ms_1_1_clef_info.html#a83e8454ac587696bdb7d53fc97f1ca6a">Ms::ClefInfo</a>
+</li>
+<li>clefType
+: <a class="el" href="class_ms_1_1_change_staff.html#a985accbed187fec618a5856befd989e9">Ms::ChangeStaff</a>
 </li>
 <li>clefType_
 : <a class="el" href="class_o_v_e_1_1_clef.html#a8dc3102f35d6fedee320eef7999a57e5">OVE::Clef</a>
@@ -342,6 +370,9 @@ $(function() {
 </li>
 <li>clrLine
 : <a class="el" href="class_ms_1_1_polygon_obj.html#a7389cdc525d4ff71df3a2c0298657694">Ms::PolygonObj</a>
+</li>
+<li>cmdCount
+: <a class="el" href="class_ms_1_1_qml_plugin_engine.html#a6a4f69dad3ea3953bda23bed7d56e99a">Ms::QmlPluginEngine</a>
 </li>
 <li>code
 : <a class="el" href="struct_glyph.html#af103b2d8c5683652a577bd612131d7dc">Glyph</a>
@@ -389,6 +420,9 @@ $(function() {
 <li>commonIndexes
 : <a class="el" href="struct_ms_1_1_midi_tuplet_1_1_tuplet_common.html#af3ece2eba4e988fb59032d6346b40d5d">Ms::MidiTuplet::TupletCommon</a>
 </li>
+<li>commonScoreSymbols
+: <a class="el" href="class_ms_1_1_sym.html#aada0cbcf0653ede7885e286b4785fe3b">Ms::Sym</a>
+</li>
 <li>complete
 : <a class="el" href="class_ms_1_1_new_wizard_instruments_page.html#adab9b184c20498c07f887bedb593f335">Ms::NewWizardInstrumentsPage</a>
 </li>
@@ -398,6 +432,9 @@ $(function() {
 <li>composer
 : <a class="el" href="class_bww_1_1_parser.html#a719f2757883ba9ebf8ab0da09495172d">Bww::Parser</a>
 , <a class="el" href="class_ms_1_1_guitar_pro.html#a202b77bc3e541b286f1e21223890d0a3">Ms::GuitarPro</a>
+</li>
+<li>concertClef
+: <a class="el" href="class_ms_1_1_change_clef_type.html#a08efa6ee3d8e4a0d889defcef23858ea">Ms::ChangeClefType</a>
 </li>
 <li>conductChunks_
 : <a class="el" href="class_o_v_e_1_1_bars_parse.html#a5ed2218d9230acfde97d72be4581efd2">OVE::BarsParse</a>
@@ -463,6 +500,12 @@ $(function() {
 <li>cpitchTools
 : <a class="el" href="class_ms_1_1_muse_score.html#a44fd928c174b98a42aecd049193dbd1f">Ms::MuseScore</a>
 </li>
+<li>cr1
+: <a class="el" href="class_ms_1_1_swap_c_r.html#a985a1d395c867fa3bd4420c9f52e57aa">Ms::SwapCR</a>
+</li>
+<li>cr2
+: <a class="el" href="class_ms_1_1_swap_c_r.html#a37222f4fcad2f04f183405f4430113cd">Ms::SwapCR</a>
+</li>
 <li>crb
 : <a class="el" href="class_ms_1_1_chord_debug.html#afa5029d35ee52ad6fbff08d8600dbbad">Ms::ChordDebug</a>
 , <a class="el" href="class_ms_1_1_rest_view.html#a721c646babd80601e36853173b1c8148">Ms::RestView</a>
@@ -512,6 +555,9 @@ $(function() {
 <li>cur_section
 : <a class="el" href="class_ms_1_1_power_tab.html#a2e99240241dfa0fa5a4f092dd3025a2a">Ms::PowerTab</a>
 </li>
+<li>curCmd
+: <a class="el" href="class_ms_1_1_undo_stack.html#ac6c5a12e337fbb05365747f928e20be4">Ms::UndoStack</a>
+</li>
 <li>curDynam
 : <a class="el" href="class_ms_1_1_guitar_pro4.html#af9d6c03f6fb1999ff163f21abed9d8b5">Ms::GuitarPro4</a>
 </li>
@@ -523,6 +569,9 @@ $(function() {
 </li>
 <li>curGrip
 : <a class="el" href="class_ms_1_1_edit_data.html#a6ce98c3ae46aad30f5329d75dc94aa38">Ms::EditData</a>
+</li>
+<li>curIdx
+: <a class="el" href="class_ms_1_1_undo_stack.html#a1fa0cac278fe70ba563eac39bb9891ce">Ms::UndoStack</a>
 </li>
 <li>curKeyPressed
 : <a class="el" href="class_ms_1_1_piano.html#acdfd593bde775be105d84f00e54f5b4f">Ms::Piano</a>
@@ -565,9 +614,6 @@ $(function() {
 <li>currentMeasure
 : <a class="el" href="class_bww_1_1_ms_sc_writer.html#a02d10eb9c0b7c152b5928052cd229a8d">Bww::MsScWriter</a>
 </li>
-<li>currentWorkspace
-: <a class="el" href="class_ms_1_1_workspace.html#af51698404dc5563355632bc2dabdd192">Ms::Workspace</a>
-</li>
 <li>cursor
 : <a class="el" href="struct_ms_1_1_text_edit_data.html#a7853923f137aa35942c1d7b46bf7d40b">Ms::TextEditData</a>
 , <a class="el" href="class_ms_1_1_text_tools.html#a528bbdd65e189c9547b70e829ef3c68f">Ms::TextTools</a>
@@ -587,17 +633,29 @@ $(function() {
 <li>curTrack
 : <a class="el" href="class_ms_1_1_power_tab.html#ad42b02c6f7c33535a9b6cba9a0c6fa69">Ms::PowerTab</a>
 </li>
+<li>custom
+: <a class="el" href="struct_ms_1_1_palette_cell.html#a05bf9ef5bddb5503d1974a01a64dde68">Ms::PaletteCell</a>
+</li>
 <li>CUSTOM_STAFF_TYPE_IDX
 : <a class="el" href="class_ms_1_1_staff_list_item.html#a5c15f235ff7e4717c67c38be59d98d56">Ms::StaffListItem</a>
 </li>
+<li>customElementsPaletteController
+: <a class="el" href="class_ms_1_1_palette_workspace.html#a345ac454f46f0107c1ba632cbec5be9e">Ms::PaletteWorkspace</a>
+</li>
 <li>customPercussionIdx
 : <a class="el" href="class_ms_1_1_staff_list_item.html#a5230f9b0728692caea789102c2052cc8">Ms::StaffListItem</a>
+</li>
+<li>customPoolPalette
+: <a class="el" href="class_ms_1_1_palette_workspace.html#ade6c44dfb23bfa699176631c35060e77">Ms::PaletteWorkspace</a>
 </li>
 <li>customStandardIdx
 : <a class="el" href="class_ms_1_1_staff_list_item.html#a8549461d221d306a2ecc8485be31ed3d">Ms::StaffListItem</a>
 </li>
 <li>customTablatureIdx
 : <a class="el" href="class_ms_1_1_staff_list_item.html#a230a154970d6f33847c4ac5e80f5d333">Ms::StaffListItem</a>
+</li>
+<li>cutaway
+: <a class="el" href="class_ms_1_1_change_staff.html#a4e5c00c43496defbb07c9099d38680ec">Ms::ChangeStaff</a>
 </li>
 <li>cutoff
 : <a class="el" href="struct_sfz_region.html#a13f1c396cedd3772f4fa1be8abbcf85e">SfzRegion</a>

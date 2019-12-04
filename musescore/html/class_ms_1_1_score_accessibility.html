@@ -23,7 +23,7 @@
   <td id="projectlogo"><img alt="Logo" src="musescore_logo_full.png"/></td>
   <td id="projectalign" style="padding-left: 0.5em;">
    <div id="projectname">MuseScore
-   &#160;<span id="projectnumber">3.2</span>
+   &#160;<span id="projectnumber">3.3.4</span>
    </div>
    <div id="projectbrief">Music composition and notation</div>
   </td>
@@ -110,6 +110,8 @@ Static Public Member Functions</h2></td></tr>
 <tr class="separator:abe74fcebd5540f597e037a4cd5a01069"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ae738485b5f6979cd0f41ca231a6bea12"><td class="memItemLeft" align="right" valign="top">static <a class="el" href="class_ms_1_1_score_accessibility.html">ScoreAccessibility</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ms_1_1_score_accessibility.html#ae738485b5f6979cd0f41ca231a6bea12">instance</a> ()</td></tr>
 <tr class="separator:ae738485b5f6979cd0f41ca231a6bea12"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9f13c9f89703d54ac683866b01fcaae1"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ms_1_1_score_accessibility.html#a9f13c9f89703d54ac683866b01fcaae1">makeReadable</a> (QString &amp;)</td></tr>
+<tr class="separator:a9f13c9f89703d54ac683866b01fcaae1"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pri-methods"></a>
 Private Member Functions</h2></td></tr>
@@ -124,6 +126,10 @@ Private Attributes</h2></td></tr>
 <tr class="separator:ab1078f7fe45e1f27a22cdd30b6d52bdf"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aadf7a95f0d976ce5dbc455657967c98a"><td class="memItemLeft" align="right" valign="top">QLabel *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ms_1_1_score_accessibility.html#aadf7a95f0d976ce5dbc455657967c98a">statusBarLabel</a></td></tr>
 <tr class="separator:aadf7a95f0d976ce5dbc455657967c98a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a3481a056ba137dd7a9050fdf60a2187d"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ms_1_1_score_accessibility.html#a3481a056ba137dd7a9050fdf60a2187d">_oldStaff</a> = -1</td></tr>
+<tr class="separator:a3481a056ba137dd7a9050fdf60a2187d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a31c2327680fbfd410f99877b937d501e"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ms_1_1_score_accessibility.html#a31c2327680fbfd410f99877b937d501e">_oldBar</a> = -1</td></tr>
+<tr class="separator:a31c2327680fbfd410f99877b937d501e"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pri-static-attribs"></a>
 Static Private Attributes</h2></td></tr>
@@ -286,6 +292,32 @@ Static Private Attributes</h2></td></tr>
 
 </div>
 </div>
+<a id="a9f13c9f89703d54ac683866b01fcaae1"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a9f13c9f89703d54ac683866b01fcaae1">&#9670;&nbsp;</a></span>makeReadable()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void Ms::ScoreAccessibility::makeReadable </td>
+          <td>(</td>
+          <td class="paramtype">QString &amp;&#160;</td>
+          <td class="paramname"><em>s</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
 <a id="a80943f6273785944f6162e65c69aef4c"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a80943f6273785944f6162e65c69aef4c">&#9670;&nbsp;</a></span>updateAccessibilityInfo()</h2>
 
@@ -304,6 +336,50 @@ Static Private Attributes</h2></td></tr>
 </div>
 </div>
 <h2 class="groupheader">Member Data Documentation</h2>
+<a id="a31c2327680fbfd410f99877b937d501e"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a31c2327680fbfd410f99877b937d501e">&#9670;&nbsp;</a></span>_oldBar</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">int Ms::ScoreAccessibility::_oldBar = -1</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a3481a056ba137dd7a9050fdf60a2187d"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a3481a056ba137dd7a9050fdf60a2187d">&#9670;&nbsp;</a></span>_oldStaff</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">int Ms::ScoreAccessibility::_oldStaff = -1</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
 <a id="a192ed1954a4f71ee44d3da53b2cf0016"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a192ed1954a4f71ee44d3da53b2cf0016">&#9670;&nbsp;</a></span>inst</h2>
 

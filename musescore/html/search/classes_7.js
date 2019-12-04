@@ -3,7 +3,7 @@ var searchData=
   ['generalautoupdater',['GeneralAutoUpdater',['../class_ms_1_1_general_auto_updater.html',1,'Ms']]],
   ['generator',['Generator',['../class_fluid_s_1_1_generator.html',1,'FluidS']]],
   ['geninfo',['GenInfo',['../class_fluid_s_1_1_gen_info.html',1,'FluidS']]],
-  ['glissando',['Glissando',['../class_o_v_e_1_1_glissando.html',1,'OVE::Glissando'],['../class_ms_1_1_glissando.html',1,'Ms::Glissando']]],
+  ['glissando',['Glissando',['../class_ms_1_1_glissando.html',1,'Ms::Glissando'],['../class_o_v_e_1_1_glissando.html',1,'OVE::Glissando']]],
   ['glissandohandler',['GlissandoHandler',['../class_ms_1_1_glissando_handler.html',1,'Ms']]],
   ['glissandosegment',['GlissandoSegment',['../class_ms_1_1_glissando_segment.html',1,'Ms']]],
   ['glisstablelem',['glisstablelem',['../struct_ms_1_1_export_ly_1_1glisstablelem.html',1,'Ms::ExportLy']]],

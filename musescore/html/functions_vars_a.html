@@ -23,7 +23,7 @@
   <td id="projectlogo"><img alt="Logo" src="musescore_logo_full.png"/></td>
   <td id="projectalign" style="padding-left: 0.5em;">
    <div id="projectname">MuseScore
-   &#160;<span id="projectnumber">3.2</span>
+   &#160;<span id="projectnumber">3.3.4</span>
    </div>
    <div id="projectbrief">Music composition and notation</div>
   </td>
@@ -68,8 +68,10 @@ $(function() {
 : <a class="el" href="struct_bww_1_1_ms_sc_writer_1_1_step_alter_oct.html#a52633453d32078a654f7739668d281eb">Bww::MsScWriter::StepAlterOct</a>
 , <a class="el" href="struct_bww_1_1_mxml_writer_1_1_step_alter_oct.html#ac49be68b79d8c3a8c8692a979b5bb3ad">Bww::MxmlWriter::StepAlterOct</a>
 , <a class="el" href="class_ms_1_1_b_b_file.html#ab3348f4054e14ae5be61181b3d15ecab">Ms::BBFile</a>
+, <a class="el" href="class_ms_1_1_insert_staves.html#aa6ee0ec1bc64821cba5b9847c3b8ac04">Ms::InsertStaves</a>
 , <a class="el" href="class_ms_1_1_inspector_accidental.html#a04ce2c089573d4cf3e31a8c5c4393f6f">Ms::InspectorAccidental</a>
 , <a class="el" href="struct_ms_1_1_power_tab_1_1chord_data.html#afb04e4b0c3876e881ec3b73c04871b9a">Ms::PowerTab::chordData</a>
+, <a class="el" href="class_ms_1_1_remove_staves.html#aac09bbef2c668340775299027fce6bff">Ms::RemoveStaves</a>
 </li>
 <li>a0
 : <a class="el" href="struct_fluid_s_1_1fluid__interp__coeff__t.html#a1d285a9bb111c846bd5283ca50d6d384">FluidS::fluid_interp_coeff_t</a>
@@ -123,6 +125,10 @@ $(function() {
 : <a class="el" href="struct_ms_1_1_dyn.html#a82b250cd0ce86b792fd750f5c3fa42ec">Ms::Dyn</a>
 , <a class="el" href="struct_ms_1_1_power_tab_1_1pt_beat.html#a4383a2e0c0437e71f5460e95f6bab355">Ms::PowerTab::ptBeat</a>
 </li>
+<li>acceptedValue
+: <a class="el" href="class_ms_1_1_customized_cell_filter.html#a40afc85b118adcbf46e8d2412f0a202e">Ms::CustomizedCellFilter</a>
+, <a class="el" href="class_ms_1_1_visibility_cell_filter.html#ac305284be0071bce258c37210982c16b">Ms::VisibilityCellFilter</a>
+</li>
 <li>accidental
 : <a class="el" href="struct_ms_1_1_ledger_line_data.html#a7f8a27bbe81d4c6e934754e049a438af">Ms::LedgerLineData</a>
 </li>
@@ -149,6 +155,9 @@ $(function() {
 <li>actionToStringList
 : <a class="el" href="class_ms_1_1_workspace.html#abf71c4c4ab81ec0dbb1415a43546a2f9">Ms::Workspace</a>
 </li>
+<li>active
+: <a class="el" href="struct_ms_1_1_palette_cell.html#acd3fc968d8a13f9cdfdd1ea4a0199ea3">Ms::PaletteCell</a>
+</li>
 <li>activeSymbol
 : <a class="el" href="struct_ms_1_1_power_tab_1_1pt_direction.html#a638b97b0ef3102d9ccd35390c7287636">Ms::PowerTab::ptDirection</a>
 </li>
@@ -159,6 +168,10 @@ $(function() {
 <li>adapt
 : <a class="el" href="class_ms_1_1_wavy_line_obj.html#ad9fd2786613fffa5d5fa320244ae49de">Ms::WavyLineObj</a>
 </li>
+<li>add
+: <a class="el" href="class_ms_1_1_fret_barre.html#a9e4814f0c7f87f9cb8d1ffea4eaa565c">Ms::FretBarre</a>
+, <a class="el" href="class_ms_1_1_fret_dot.html#a64eae75993db70122b038cfbd4ba5d63">Ms::FretDot</a>
+</li>
 <li>addedFirstBeats
 : <a class="el" href="struct_ms_1_1_midi_operations_1_1_human_beat_data.html#aa660b4c08c4e9acc51b5c7ccc7140c24">Ms::MidiOperations::HumanBeatData</a>
 </li>
@@ -168,17 +181,11 @@ $(function() {
 <li>addedPixmaps
 : <a class="el" href="class_m_icon_engine_private.html#a44ebea37b942b7e173e10822934b35dd">MIconEnginePrivate</a>
 </li>
-<li>addWorkspaceButton
-: <a class="el" href="class_ms_1_1_palette_box.html#add4ad4a32323b1e8cddd5cc277cfbeb8">Ms::PaletteBox</a>
-</li>
 <li>adjustVert
 : <a class="el" href="class_ms_1_1_capella.html#a797c09635442cff23c933bdf1bad35e7">Ms::Capella</a>
 </li>
 <li>advancedWidget
 : <a class="el" href="class_ms_1_1_preference_dialog.html#aaf32338b4c5f00e4e731d0f9114a021e">Ms::PreferenceDialog</a>
-</li>
-<li>advancedWorkspaceTranslatableName
-: <a class="el" href="class_ms_1_1_workspace.html#ae4067d916f7deda59c5713c981edbf8e">Ms::Workspace</a>
 </li>
 <li>aeolusStops
 : <a class="el" href="class_ms_1_1_staff_text_base.html#a342dc6489ed2f8fd4ac1a4f1d10d93bd">Ms::StaffTextBase</a>
@@ -199,6 +206,9 @@ $(function() {
 </li>
 <li>align_
 : <a class="el" href="class_o_v_e_1_1_bar_number.html#a6b52864986b285add87b81f59a7c830a">OVE::BarNumber</a>
+</li>
+<li>alignEnum
+: <a class="el" href="class_ms_1_1_plugin_a_p_i_1_1_plugin_a_p_i.html#a86868139a413cfdd5f8b48df2ab5c8b0">Ms::PluginAPI::PluginAPI</a>
 </li>
 <li>allaBreve
 : <a class="el" href="class_ms_1_1_cap_meter.html#a8d6f15629e6822fab4f664964c672e9b">Ms::CapMeter</a>

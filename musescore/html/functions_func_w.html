@@ -23,7 +23,7 @@
   <td id="projectlogo"><img alt="Logo" src="musescore_logo_full.png"/></td>
   <td id="projectalign" style="padding-left: 0.5em;">
    <div id="projectname">MuseScore
-   &#160;<span id="projectnumber">3.2</span>
+   &#160;<span id="projectnumber">3.3.4</span>
    </div>
    <div id="projectbrief">Music composition and notation</div>
   </td>
@@ -128,6 +128,9 @@ $(function() {
 , <a class="el" href="struct_ms_1_1_text_segment.html#ae1978327f224c7efaf9afea46b4824e7">Ms::TextSegment</a>
 , <a class="el" href="class_ms_1_1_tracks_model_1_1_column.html#a5d2ed884c8468abebe9cec5f8989ddac">Ms::TracksModel::Column</a>
 </li>
+<li>widthChanged()
+: <a class="el" href="class_ms_1_1_palette_properties_dialog.html#af255f140e136b0b19e671ff6030b3bd6">Ms::PalettePropertiesDialog</a>
+</li>
 <li>willAffectNotes()
 : <a class="el" href="class_o_v_e_1_1_articulation.html#a96d0addad7746eb0468d2883a3eda615">OVE::Articulation</a>
 </li>
@@ -147,12 +150,11 @@ $(function() {
 <li>work()
 : <a class="el" href="class_ms_1_1_export_music_xml.html#a211a3eb5d02de4b1e62f9f8d0592d843">Ms::ExportMusicXml</a>
 </li>
-<li>workspace()
-: <a class="el" href="class_ms_1_1_startup_wizard.html#ac58dd7eb9650e2d966279ca607d7041f">Ms::StartupWizard</a>
-, <a class="el" href="class_ms_1_1_startup_wizard_page3.html#adb5bc4b6210d84e451fb31d0d2021e25">Ms::StartupWizardPage3</a>
-</li>
 <li>Workspace()
 : <a class="el" href="class_ms_1_1_workspace.html#a4dc3e7faeac7c328dd8dec9582bff46c">Ms::Workspace</a>
+</li>
+<li>WorkspaceComboBox()
+: <a class="el" href="class_ms_1_1_workspace_combo_box.html#ab7b55ffa7c8ca88f8286ee6dc93a7d2e">Ms::WorkspaceComboBox</a>
 </li>
 <li>workspaceDialog()
 : <a class="el" href="class_ms_1_1_muse_score.html#ab3d96cf09d17758eb5ea2ec5a95346b5">Ms::MuseScore</a>
@@ -161,10 +163,13 @@ $(function() {
 : <a class="el" href="class_ms_1_1_workspace_dialog.html#a080328b5b6363ec6d89a45ad0ad014ed">Ms::WorkspaceDialog</a>
 </li>
 <li>workspaces()
-: <a class="el" href="class_ms_1_1_workspace.html#a367f2002749954916eaf692c60575a11">Ms::Workspace</a>
+: <a class="el" href="class_ms_1_1_workspaces_manager.html#aa1697cc2d6b5e4350ca673b8c4763734">Ms::WorkspacesManager</a>
+</li>
+<li>workspacesChanged()
+: <a class="el" href="class_ms_1_1_muse_score.html#aa3940d7a7f61d5b15473caa0d6987765">Ms::MuseScore</a>
 </li>
 <li>workspaceSelected()
-: <a class="el" href="class_ms_1_1_palette_box.html#acdb9a83851ac55930c4e3fc67b5d08bd">Ms::PaletteBox</a>
+: <a class="el" href="class_ms_1_1_workspace_combo_box.html#a6bc3e94a3704628c5cba8af7e5d4b123">Ms::WorkspaceComboBox</a>
 </li>
 <li>wrap()
 : <a class="el" href="class_ms_1_1_plugin_a_p_i_1_1_fraction_wrapper.html#a681e657af85bc9a94912101a15a36e4d">Ms::PluginAPI::FractionWrapper</a>
@@ -244,7 +249,10 @@ $(function() {
 , <a class="el" href="class_ms_1_1_ottava.html#a977e44915c716bb5e7f77090271eaa92">Ms::Ottava</a>
 , <a class="el" href="class_ms_1_1_page.html#a91296d47ccec2bc662e6d054d759835c">Ms::Page</a>
 , <a class="el" href="class_ms_1_1_palette.html#a01244b072e0adf88b01a9bd5c7768f35">Ms::Palette</a>
-, <a class="el" href="class_ms_1_1_palette_box.html#a3bc852c5a5d5c767f27c2526b9d6a442">Ms::PaletteBox</a>
+, <a class="el" href="struct_ms_1_1_palette_cell.html#a1f1acd8670883970fe87678f8c6f67f1">Ms::PaletteCell</a>
+, <a class="el" href="class_ms_1_1_palette_panel.html#a3dc35f234c1fe88e3652ef5ef721d890">Ms::PalettePanel</a>
+, <a class="el" href="struct_ms_1_1_palette_tree.html#a88ecf8b3730e26546d9f7f7d7d5a6adb">Ms::PaletteTree</a>
+, <a class="el" href="class_ms_1_1_palette_workspace.html#a005873cd8736530cfcd9a36cca93e16a">Ms::PaletteWorkspace</a>
 , <a class="el" href="class_ms_1_1_part.html#a0bc2986f52d436bb4fa4d26604d1921b">Ms::Part</a>
 , <a class="el" href="class_ms_1_1_pedal.html#a611500dacbe70524c1acc5908290da61">Ms::Pedal</a>
 , <a class="el" href="class_ms_1_1_plugin_a_p_i_1_1_file_i_o.html#af89979d4d58126011eef4e9d9173d4b7">Ms::PluginAPI::FileIO</a>
@@ -426,7 +434,7 @@ $(function() {
 , <a class="el" href="class_ms_1_1_s_line.html#ac4112921ebd4e1e95b0dfa8a709cda62">Ms::SLine</a>
 , <a class="el" href="class_ms_1_1_slur_tie.html#a9a6fc41a968a3352d12ca389cf07b9cc">Ms::SlurTie</a>
 , <a class="el" href="class_ms_1_1_spanner.html#ad7efe660b1defa1e6f19a9c8b0772723">Ms::Spanner</a>
-, <a class="el" href="class_ms_1_1_text_base.html#aadd6eb32a1b333105661c04ddc86dd3a">Ms::TextBase</a>
+, <a class="el" href="class_ms_1_1_text_base.html#ad5e849aedc19f7c611e84e231aeb6921">Ms::TextBase</a>
 , <a class="el" href="class_ms_1_1_text_line_base.html#a00ac1fbbce4525ae95c195a5710ccae5">Ms::TextLineBase</a>
 </li>
 <li>writeProperty()
@@ -446,7 +454,7 @@ $(function() {
 : <a class="el" href="class_ms_1_1_export_ly.html#a2e37b89095a2cdfb8e784efe3a1d29d7">Ms::ExportLy</a>
 </li>
 <li>writeSegments()
-: <a class="el" href="class_ms_1_1_score.html#a112e4f9b0953173b65c8a877749b7c47">Ms::Score</a>
+: <a class="el" href="class_ms_1_1_score.html#a995c7fa4798f238a65dae888f44c67f0">Ms::Score</a>
 </li>
 <li>writeSessionFile()
 : <a class="el" href="class_ms_1_1_muse_score.html#a015d167de683d18cfbbd0ab15c7913fe">Ms::MuseScore</a>
@@ -495,7 +503,8 @@ $(function() {
 : <a class="el" href="class_ms_1_1_export_ly.html#a088eedfad3119ff6f10d403338a78517">Ms::ExportLy</a>
 </li>
 <li>writeToFile()
-: <a class="el" href="class_ms_1_1_script.html#a9f4c832804daa41a6c9dd41196c6092f">Ms::Script</a>
+: <a class="el" href="class_ms_1_1_palette_panel.html#a332928159d70e446dd4d0baf3c2fe980">Ms::PalettePanel</a>
+, <a class="el" href="class_ms_1_1_script.html#a9f4c832804daa41a6c9dd41196c6092f">Ms::Script</a>
 </li>
 <li>writeTrack()
 : <a class="el" href="class_midi_file.html#aaed701c6575337afd00d2acc01dcdba1">MidiFile</a>

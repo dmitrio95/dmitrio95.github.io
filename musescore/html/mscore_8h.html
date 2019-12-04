@@ -23,7 +23,7 @@
   <td id="projectlogo"><img alt="Logo" src="musescore_logo_full.png"/></td>
   <td id="projectalign" style="padding-left: 0.5em;">
    <div id="projectname">MuseScore
-   &#160;<span id="projectnumber">3.2</span>
+   &#160;<span id="projectnumber">3.3.4</span>
    </div>
    <div id="projectbrief">Music composition and notation</div>
   </td>
@@ -146,22 +146,6 @@ Enumerations</h2></td></tr>
 <a class="el" href="namespace_ms.html#a1066451ad9dc9959bedb76978f4f30c8a9eeb52badb613229884838847294b90d">Ms::SelectType::ADD</a>
  }</td></tr>
 <tr class="separator:a1066451ad9dc9959bedb76978f4f30c8"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a3cbef2aae56ebc254401dff31a0680a2"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_ms.html#a3cbef2aae56ebc254401dff31a0680a2">Ms::NoteType</a> : unsigned char { <br />
-&#160;&#160;<a class="el" href="namespace_ms.html#a3cbef2aae56ebc254401dff31a0680a2a1e23852820b9154316c7c06e2b7ba051">Ms::NoteType::NORMAL</a> = 0, 
-<a class="el" href="namespace_ms.html#a3cbef2aae56ebc254401dff31a0680a2ae039fd845669d8f1ba177be951be17c8">Ms::NoteType::ACCIACCATURA</a> = 0x1, 
-<a class="el" href="namespace_ms.html#a3cbef2aae56ebc254401dff31a0680a2a2a1dc26af8b64e2f3f230090d918837c">Ms::NoteType::APPOGGIATURA</a> = 0x2, 
-<a class="el" href="namespace_ms.html#a3cbef2aae56ebc254401dff31a0680a2ae80cb44d4b8a0b53e5156a914e54f062">Ms::NoteType::GRACE4</a> = 0x4, 
-<br />
-&#160;&#160;<a class="el" href="namespace_ms.html#a3cbef2aae56ebc254401dff31a0680a2a0753b2cda2bb413db134fa6acc0b60c2">Ms::NoteType::GRACE16</a> = 0x8, 
-<a class="el" href="namespace_ms.html#a3cbef2aae56ebc254401dff31a0680a2a041a6576108c698d49d54b7603d34271">Ms::NoteType::GRACE32</a> = 0x10, 
-<a class="el" href="namespace_ms.html#a3cbef2aae56ebc254401dff31a0680a2a19a7279a0e29931de860939b2edf8845">Ms::NoteType::GRACE8_AFTER</a> = 0x20, 
-<a class="el" href="namespace_ms.html#a3cbef2aae56ebc254401dff31a0680a2a4f51b3dfd7d5aa76dcac592ed95e3370">Ms::NoteType::GRACE16_AFTER</a> = 0x40, 
-<br />
-&#160;&#160;<a class="el" href="namespace_ms.html#a3cbef2aae56ebc254401dff31a0680a2af58b08678e3a4828ca3fdae016ff814b">Ms::NoteType::GRACE32_AFTER</a> = 0x80, 
-<a class="el" href="namespace_ms.html#a3cbef2aae56ebc254401dff31a0680a2accc0377a8afbf50e7094f5c23a8af223">Ms::NoteType::INVALID</a> = 0xFF
-<br />
- }</td></tr>
-<tr class="separator:a3cbef2aae56ebc254401dff31a0680a2"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ade023edbd34050dedfd725b484991e89"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_ms.html#ade023edbd34050dedfd725b484991e89">Ms::AccidentalVal</a> : signed char { <br />
 &#160;&#160;<a class="el" href="namespace_ms.html#ade023edbd34050dedfd725b484991e89a8210d54777168b69aff7631ea6e4d9d6">Ms::AccidentalVal::SHARP2</a> = 2, 
 <a class="el" href="namespace_ms.html#ade023edbd34050dedfd725b484991e89a880065c5d3f742979771c76a1d09e614">Ms::AccidentalVal::SHARP</a> = 1, 
@@ -288,10 +272,6 @@ Functions</h2></td></tr>
 <tr class="separator:a6d8f7f5dbb7c772d54ef4d15a61bb668"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a469dd00a292aca0acb3e57ad0222715f"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_ms.html#a469dd00a292aca0acb3e57ad0222715f">Ms::trackZeroVoice</a> (int track)</td></tr>
 <tr class="separator:a469dd00a292aca0acb3e57ad0222715f"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a7d18d6b9ea51bf024b0a66e28ae79901"><td class="memItemLeft" align="right" valign="top">constexpr NoteType&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_ms.html#a7d18d6b9ea51bf024b0a66e28ae79901">Ms::operator|</a> (NoteType t1, NoteType t2)</td></tr>
-<tr class="separator:a7d18d6b9ea51bf024b0a66e28ae79901"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a62f564c18dd516263a4d6a0f195153ac"><td class="memItemLeft" align="right" valign="top">constexpr bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_ms.html#a62f564c18dd516263a4d6a0f195153ac">Ms::operator &amp;</a> (NoteType t1, NoteType t2)</td></tr>
-<tr class="separator:a62f564c18dd516263a4d6a0f195153ac"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aa00bfb1a87fc49003be0466630041823"><td class="memItemLeft" align="right" valign="top">constexpr BarLineType&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_ms.html#aa00bfb1a87fc49003be0466630041823">Ms::operator|</a> (BarLineType t1, BarLineType t2)</td></tr>
 <tr class="separator:aa00bfb1a87fc49003be0466630041823"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ab1c0748e59061d5eae07b6f98bba2a03"><td class="memItemLeft" align="right" valign="top">constexpr bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_ms.html#ab1c0748e59061d5eae07b6f98bba2a03">Ms::operator &amp;</a> (BarLineType t1, BarLineType t2)</td></tr>

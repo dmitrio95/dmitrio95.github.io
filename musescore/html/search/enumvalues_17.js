@@ -2,7 +2,7 @@ var searchData=
 [
   ['wavy',['WAVY',['../namespace_ms.html#a0c25fd2ec9f6144e15d888c1c94b9439ae6212babd08728ecd04037e59dc74a3c',1,'Ms']]],
   ['wavy_5fline',['WAVY_LINE',['../namespace_ms.html#a6b5aa179fb8d7a11ec316c01a2fdf6e1aade3ce73464fac0e6e13454cc60d7b1c',1,'Ms']]],
-  ['wedge',['Wedge',['../namespace_o_v_e.html#af450a9ba57c6ed04e6b30dc226f80145a0e9bb3a0eff96690b1e9badd73b99219',1,'OVE::Wedge()'],['../namespace_o_v_e.html#a9a8ab7516c8888d011d85712083f2a37a0e9bb3a0eff96690b1e9badd73b99219',1,'OVE::Wedge()'],['../namespace_ms.html#a6b5aa179fb8d7a11ec316c01a2fdf6e1a42bd365c1ecdb0302894b3ff434de056',1,'Ms::WEDGE()']]],
+  ['wedge',['WEDGE',['../namespace_ms.html#a6b5aa179fb8d7a11ec316c01a2fdf6e1a42bd365c1ecdb0302894b3ff434de056',1,'Ms::WEDGE()'],['../namespace_o_v_e.html#af450a9ba57c6ed04e6b30dc226f80145a0e9bb3a0eff96690b1e9badd73b99219',1,'OVE::Wedge()'],['../namespace_o_v_e.html#a9a8ab7516c8888d011d85712083f2a37a0e9bb3a0eff96690b1e9badd73b99219',1,'OVE::Wedge()']]],
   ['wedge_5fendpoint',['Wedge_EndPoint',['../namespace_o_v_e.html#a9a8ab7516c8888d011d85712083f2a37a1fe68c9e26c09082e671784eb1e8bbb8',1,'OVE']]],
   ['wet',['WET',['../freeverb_8cpp.html#a7ff5f2dff38e7639981794c43dc9167ba9aa5c6157ab19463e09d1db5039cc082',1,'freeverb.cpp']]],
   ['white_5fkeys',['WHITE_KEYS',['../namespace_ms.html#a735719736398000828a4138ca8b31c90a382b34fcd85458c84c406cedf030f23c',1,'Ms']]],

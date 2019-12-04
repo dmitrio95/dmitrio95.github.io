@@ -23,7 +23,7 @@
   <td id="projectlogo"><img alt="Logo" src="musescore_logo_full.png"/></td>
   <td id="projectalign" style="padding-left: 0.5em;">
    <div id="projectname">MuseScore
-   &#160;<span id="projectnumber">3.2</span>
+   &#160;<span id="projectnumber">3.3.4</span>
    </div>
    <div id="projectbrief">Music composition and notation</div>
   </td>
@@ -68,7 +68,9 @@ $(function() {
   <div class="summary">
 <a href="#nested-classes">Classes</a> &#124;
 <a href="#namespaces">Namespaces</a> &#124;
-<a href="#typedef-members">Typedefs</a>  </div>
+<a href="#typedef-members">Typedefs</a> &#124;
+<a href="#enum-members">Enumerations</a> &#124;
+<a href="#func-members">Functions</a>  </div>
   <div class="headertitle">
 <div class="title">importmxmlpass1.h File Reference</div>  </div>
 </div><!--header-->
@@ -144,6 +146,8 @@ Classes</h2></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_ms_1_1_mxml_octave_shift_desc.html">Ms::MxmlOctaveShiftDesc</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_ms_1_1_mxml_tuplet_state.html">Ms::MxmlTupletState</a></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ms_1_1_music_x_m_l_parser_pass1.html">Ms::MusicXMLParserPass1</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
@@ -157,6 +161,36 @@ Namespaces</h2></td></tr>
 Typedefs</h2></td></tr>
 <tr class="memitem:a4cbd5ed5c2686caeabaf14374b7ea9a7"><td class="memItemLeft" align="right" valign="top">typedef QMap&lt; QString, Part * &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_ms.html#a4cbd5ed5c2686caeabaf14374b7ea9a7">Ms::PartMap</a></td></tr>
 <tr class="separator:a4cbd5ed5c2686caeabaf14374b7ea9a7"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a0db8722acc8069aa0625949c20ab4d89"><td class="memItemLeft" align="right" valign="top">typedef QFlags&lt; MxmlTupletFlag &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_ms.html#a0db8722acc8069aa0625949c20ab4d89">Ms::MxmlTupletFlags</a></td></tr>
+<tr class="separator:a0db8722acc8069aa0625949c20ab4d89"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa0fdf93d0295340a78645200c536fc3b"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_ms.html#aa0fdf93d0295340a78645200c536fc3b">Ms::MxmlTupletStates</a> = std::map&lt; QString, MxmlTupletState &gt;</td></tr>
+<tr class="separator:aa0fdf93d0295340a78645200c536fc3b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="enum-members"></a>
+Enumerations</h2></td></tr>
+<tr class="memitem:a11797c297638aad676a2b18ad413cad9"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_ms.html#a11797c297638aad676a2b18ad413cad9">Ms::MxmlStartStop</a> : char { <a class="el" href="namespace_ms.html#a11797c297638aad676a2b18ad413cad9ab50339a10e1de285ac99d4c3990b8693">Ms::MxmlStartStop::NONE</a>, 
+<a class="el" href="namespace_ms.html#a11797c297638aad676a2b18ad413cad9ab078ffd28db767c502ac367053f6e0ac">Ms::MxmlStartStop::START</a>, 
+<a class="el" href="namespace_ms.html#a11797c297638aad676a2b18ad413cad9a615a46af313786fc4e349f34118be111">Ms::MxmlStartStop::STOP</a>
+ }</td></tr>
+<tr class="separator:a11797c297638aad676a2b18ad413cad9"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a56948ed7259853decaeb4bb65485bbc8"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_ms.html#a56948ed7259853decaeb4bb65485bbc8">Ms::MxmlTupletFlag</a> : char { <br />
+&#160;&#160;<a class="el" href="namespace_ms.html#a56948ed7259853decaeb4bb65485bbc8ab50339a10e1de285ac99d4c3990b8693">Ms::MxmlTupletFlag::NONE</a> = 0, 
+<a class="el" href="namespace_ms.html#a56948ed7259853decaeb4bb65485bbc8a0dee5ba21103c0eaf682dc6f70d6db48">Ms::MxmlTupletFlag::STOP_PREVIOUS</a> = 1, 
+<a class="el" href="namespace_ms.html#a56948ed7259853decaeb4bb65485bbc8a3573c92074cffccab208b4f90ad10b91">Ms::MxmlTupletFlag::START_NEW</a> = 2, 
+<a class="el" href="namespace_ms.html#a56948ed7259853decaeb4bb65485bbc8a0bcb2d7494b15a1a00ff6d475b943984">Ms::MxmlTupletFlag::ADD_CHORD</a> = 4, 
+<br />
+&#160;&#160;<a class="el" href="namespace_ms.html#a56948ed7259853decaeb4bb65485bbc8a3115329d761cd92d717fbd5427ab5dc9">Ms::MxmlTupletFlag::STOP_CURRENT</a> = 8
+<br />
+ }</td></tr>
+<tr class="separator:a56948ed7259853decaeb4bb65485bbc8"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="func-members"></a>
+Functions</h2></td></tr>
+<tr class="memitem:a104c82cc551a90f910896780721559eb"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_ms.html#a104c82cc551a90f910896780721559eb">Ms::determineTupletFractionAndFullDuration</a> (const Fraction duration, Fraction &amp;fraction, Fraction &amp;fullDuration)</td></tr>
+<tr class="memdesc:a104c82cc551a90f910896780721559eb"><td class="mdescLeft">&#160;</td><td class="mdescRight">Split duration into two factors where fullDuration is note sized (i.e.  <a href="namespace_ms.html#a104c82cc551a90f910896780721559eb">More...</a><br /></td></tr>
+<tr class="separator:a104c82cc551a90f910896780721559eb"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a0eeee4933295e541471b9277d817c4d8"><td class="memItemLeft" align="right" valign="top">Fraction&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_ms.html#a0eeee4933295e541471b9277d817c4d8">Ms::missingTupletDuration</a> (const Fraction duration)</td></tr>
+<tr class="separator:a0eeee4933295e541471b9277d817c4d8"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 </div><!-- contents -->
 <!-- start footer part -->

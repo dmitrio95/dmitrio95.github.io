@@ -62,6 +62,7 @@ var searchData=
   ['vibratoposbelow',['vibratoPosBelow',['../namespace_ms.html#a2bac757437d1a9e364db27de8f9c9e2ea5a4508ac6fe504abe9f579034266b802',1,'Ms']]],
   ['viewrefresh_5ficon',['viewRefresh_ICON',['../namespace_ms.html#ad8a05c457f7be5498653632d7b7f625ea843fd8306191b3299163791a521c1e00',1,'Ms']]],
   ['visible',['VISIBLE',['../namespace_ms.html#a00e5c648c84154926f4a68381ac9b401adc55b7d8d01602c06924ca667f4d423a',1,'Ms::VISIBLE()'],['../namespace_ms.html#a00e5c648c84154926f4a68381ac9b401a510222cdd4bc0b765486ba35b2775e54',1,'Ms::VISIBLE()'],['../namespace_ms.html#a00e5c648c84154926f4a68381ac9b401a510222cdd4bc0b765486ba35b2775e54',1,'Ms::VISIBLE()']]],
+  ['visiblerole',['VisibleRole',['../class_ms_1_1_palette_tree_model.html#ac99ec375ccc80d2142f80e55ef7ce2e6a9be21cf054108fd2f28488ab74d6db63',1,'Ms::PaletteTreeModel']]],
   ['vmask',['VMASK',['../namespace_ms.html#a94b50213647d6de824820f47673bd500a31c15214685ba8b27ad582f887365b16',1,'Ms']]],
   ['vocalfingerclickstockhausen',['vocalFingerClickStockhausen',['../namespace_ms.html#a602ef082ffbbe2c4b11e2375cc4aa794abc49756938d77ad1ffc332bf9947d62f',1,'Ms']]],
   ['vocalmouthclosed',['vocalMouthClosed',['../namespace_ms.html#a602ef082ffbbe2c4b11e2375cc4aa794a5acdf9099b73cea5479e392c1c5066c7',1,'Ms']]],

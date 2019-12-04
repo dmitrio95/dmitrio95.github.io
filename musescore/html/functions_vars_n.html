@@ -23,7 +23,7 @@
   <td id="projectlogo"><img alt="Logo" src="musescore_logo_full.png"/></td>
   <td id="projectalign" style="padding-left: 0.5em;">
    <div id="projectname">MuseScore
-   &#160;<span id="projectnumber">3.2</span>
+   &#160;<span id="projectnumber">3.3.4</span>
    </div>
    <div id="projectbrief">Music composition and notation</div>
   </td>
@@ -68,7 +68,7 @@ $(function() {
 : <a class="el" href="class_ms_1_1_inspector_note.html#a498a446d5cc1bdb035fbdf85b94a1125">Ms::InspectorNote</a>
 </li>
 <li>N
-: <a class="el" href="class_ms_1_1_play_panel.html#ab0843da65dfafd3b78363afa3120050d">Ms::PlayPanel</a>
+: <a class="el" href="class_ms_1_1_master_synthesizer.html#ae5387c942956e061414ebe087b076a28">Ms::MasterSynthesizer</a>
 </li>
 <li>n
 : <a class="el" href="class_ms_1_1_select_note_dialog.html#affdcb5da4e6badde6fb04dba14cda4d3">Ms::SelectNoteDialog</a>
@@ -169,6 +169,9 @@ $(function() {
 <li>nDrumset
 : <a class="el" href="class_ms_1_1_edit_drumset.html#ad50f55bed753f23028c073da2772b063">Ms::EditDrumset</a>
 </li>
+<li>ne
+: <a class="el" href="class_ms_1_1_plugin_a_p_i_1_1_play_event.html#a3cddbc2493ba888703df8bdb6b36bd17">Ms::PluginAPI::PlayEvent</a>
+</li>
 <li>needCommit
 : <a class="el" href="class_ms_1_1_editor.html#a5ed01bd72ab0a6bece50f90280370e21">Ms::Editor</a>
 </li>
@@ -187,8 +190,21 @@ $(function() {
 <li>newDamp
 : <a class="el" href="class_freeverb.html#a350847f231662bd4c01960fe14b445fe">Freeverb</a>
 </li>
+<li>newElement
+: <a class="el" href="class_ms_1_1_change_element.html#a747f4173bd120ed92596f4b1142c35d0">Ms::ChangeElement</a>
+</li>
+<li>newEvent
+: <a class="el" href="class_ms_1_1_change_note_event.html#a9a357bf7a24273ceb7b9d94797311287">Ms::ChangeNoteEvent</a>
+</li>
+<li>newEvents
+: <a class="el" href="class_ms_1_1_change_note_event_list.html#a9fe2cb16e00108774d0e44cdb65b0fc4">Ms::ChangeNoteEventList</a>
+</li>
 <li>newFormat
 : <a class="el" href="class_ms_1_1_m_score_text_to_m_x_m_l.html#a826b2a2383672bac1b6f3f96d40eae26">Ms::MScoreTextToMXML</a>
+</li>
+<li>newPetype
+: <a class="el" href="class_ms_1_1_change_note_event.html#a98d086fd101947c1e10a30ee5a775db8">Ms::ChangeNoteEvent</a>
+, <a class="el" href="class_ms_1_1_change_note_event_list.html#a3a1817669abdce88ec3be0ef4739bfe2">Ms::ChangeNoteEventList</a>
 </li>
 <li>newRoomsize
 : <a class="el" href="class_freeverb.html#a18a160e597f1a2e23896909adb06472a">Freeverb</a>
@@ -215,6 +231,9 @@ $(function() {
 </li>
 <li>nextMeasure
 : <a class="el" href="struct_ms_1_1_layout_context.html#a028a9cb06e39b4da8ac2171855033f61">Ms::LayoutContext</a>
+</li>
+<li>nextState
+: <a class="el" href="class_ms_1_1_undo_stack.html#a7ecf3566ef661b07b1bb7a0885eaa883">Ms::UndoStack</a>
 </li>
 <li>nFirstPage
 : <a class="el" href="class_ms_1_1_capella.html#a7384042272c2c3ae494271bdc3762da0">Ms::Capella</a>
@@ -273,6 +292,11 @@ $(function() {
 </li>
 <li>note
 : <a class="el" href="struct_ms_1_1_ac_el.html#af0d82c4a09a3e996e4c753bc573c203b">Ms::AcEl</a>
+, <a class="el" href="class_ms_1_1_change_fretting.html#afb74e96e137ad22e9aa7b40600079590">Ms::ChangeFretting</a>
+, <a class="el" href="class_ms_1_1_change_note_event.html#ac36a1264c50df43d239055f8c084a746">Ms::ChangeNoteEvent</a>
+, <a class="el" href="class_ms_1_1_change_note_event_list.html#a5f439dbbca07cbf377935ae5ab4ab891">Ms::ChangeNoteEventList</a>
+, <a class="el" href="class_ms_1_1_change_pitch.html#a519c0cd2ae4571237e36f2c45828af91">Ms::ChangePitch</a>
+, <a class="el" href="class_ms_1_1_change_velocity.html#a382ae0e7c893fdc6b6a0657dee48a163">Ms::ChangeVelocity</a>
 </li>
 <li>note_
 : <a class="el" href="class_o_v_e_1_1_note.html#a7472cc0c4f89890f198441bb212639e7">OVE::Note</a>
@@ -375,6 +399,9 @@ $(function() {
 : <a class="el" href="class_o_v_e_1_1_note_container.html#aa849d3bca4ab90b2717e0dd048b842c6">OVE::NoteContainer</a>
 , <a class="el" href="class_o_v_e_1_1_tuplet.html#a74eb9a78c0b27d22dc3afb0391eb5af9">OVE::Tuplet</a>
 </li>
+<li>noteTypeEnum
+: <a class="el" href="class_ms_1_1_plugin_a_p_i_1_1_plugin_a_p_i.html#a30007e3bf358744087d0c6f647b6cafd">Ms::PluginAPI::PluginAPI</a>
+</li>
 <li>noteValueTypeEnum
 : <a class="el" href="class_ms_1_1_plugin_a_p_i_1_1_plugin_a_p_i.html#a16b3d3302b419b81095973ce2f90e613">Ms::PluginAPI::PluginAPI</a>
 </li>
@@ -393,9 +420,6 @@ $(function() {
 </li>
 <li>npoints
 : <a class="el" href="class_ms_1_1_text_line_base_segment.html#a8cd1940b1b350b2a67b9702a1b492d87">Ms::TextLineBaseSegment</a>
-</li>
-<li>nr
-: <a class="el" href="struct_ms_1_1_music_xml_spanner_desc.html#a0cfaf4172eaf1f0dda3d548d0a6025c2">Ms::MusicXmlSpannerDesc</a>
 </li>
 <li>nRefNote
 : <a class="el" href="class_ms_1_1_basic_draw_obj.html#a107c16564101ab1ad6bccaefca1b29c2">Ms::BasicDrawObj</a>

@@ -4,6 +4,7 @@ var searchData=
   ['barlinespanfrom',['barlineSpanFrom',['../class_ms_1_1_plugin_a_p_i_1_1_element.html#aeca277366ba3582e12b014755df15b6b',1,'Ms::PluginAPI::Element']]],
   ['barlinespanto',['barlineSpanTo',['../class_ms_1_1_plugin_a_p_i_1_1_element.html#a4b901d03852c3bc5e8d8cd325c974584',1,'Ms::PluginAPI::Element']]],
   ['barlinetype',['barlineType',['../class_ms_1_1_plugin_a_p_i_1_1_element.html#ae97238e8cf0a59f89b158ef4d1515b41',1,'Ms::PluginAPI::Element']]],
+  ['bbox',['bbox',['../class_ms_1_1_plugin_a_p_i_1_1_element.html#aa5a74d830fe75aeccdb3428351845318',1,'Ms::PluginAPI::Element']]],
   ['beam',['Beam',['../class_ms_1_1_plugin_a_p_i_1_1_plugin_a_p_i.html#afd849885fa5202347dda7365a1f6e341',1,'Ms::PluginAPI::PluginAPI']]],
   ['beammode',['beamMode',['../class_ms_1_1_plugin_a_p_i_1_1_element.html#a0c6a9622dc0985841071cfef326f5734',1,'Ms::PluginAPI::Element']]],
   ['beamnoslope',['beamNoSlope',['../class_ms_1_1_plugin_a_p_i_1_1_element.html#a0327dbf76fd9705b00b7d770a9b03c93',1,'Ms::PluginAPI::Element']]],
