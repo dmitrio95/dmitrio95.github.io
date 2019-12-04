@@ -6,6 +6,7 @@ var searchData=
   ['barlinetype',['BarLineType',['../namespace_ms.html#a45f8c604b4008a278fe9bde5156489eea2a4586824d9b773f76cf660677045a02',1,'Ms']]],
   ['baroque',['BAROQUE',['../class_ms_1_1_m_score.html#a75ce800262bbec6597c8af6908c624aca2e354f8148d0388201b1af2dee9507e2',1,'Ms::MScore']]],
   ['baseline',['BASELINE',['../namespace_ms.html#a7389e8334b14f39b20860d98e7ccb82ea385881ed58577143e69edf478122d179',1,'Ms']]],
+  ['bbox',['bbox',['../class_ms_1_1_plugin_a_p_i_1_1_element.html#a6894cfa4459d8d71cbda09997dd6ddf8',1,'Ms::PluginAPI::Element']]],
   ['beam',['Beam',['../class_ms_1_1_beam.html',1,'Beam'],['../class_ms_1_1_plugin_a_p_i_1_1_plugin_a_p_i.html#a389bb154d1212a570482d3bd23b05988',1,'Ms::PluginAPI::PluginAPI::Beam()'],['../namespace_ms.html#a16b11be27a8e9362dd122c4d879e01aea59de9e0e05e51c206484b2350c3fa77a',1,'Ms::BEAM()']]],
   ['begin',['BEGIN',['../class_ms_1_1_lyrics.html#abde22ff6047b7fa33e45f16c37217154a19aad9f2fe3ce0023298ab83f7e75775',1,'Ms::Lyrics::BEGIN()'],['../class_ms_1_1_beam.html#a0ccea95d282337f770c60f9cac1193b4a19aad9f2fe3ce0023298ab83f7e75775',1,'Ms::Beam::BEGIN()']]],
   ['begin32',['BEGIN32',['../class_ms_1_1_beam.html#a0ccea95d282337f770c60f9cac1193b4ac8677a00e54a353e2d48900dc352ce5f',1,'Ms::Beam']]],

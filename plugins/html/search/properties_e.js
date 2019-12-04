@@ -7,7 +7,7 @@ var searchData=
   ['pitch',['pitch',['../class_ms_1_1_plugin_a_p_i_1_1_note.html#a05c8b22d2905f7a52fa31b13f85c70f3',1,'Ms::PluginAPI::Note::pitch()'],['../class_ms_1_1_plugin_a_p_i_1_1_play_event.html#a05c8b22d2905f7a52fa31b13f85c70f3',1,'Ms::PluginAPI::PlayEvent::pitch()']]],
   ['placement',['Placement',['../class_ms_1_1_plugin_a_p_i_1_1_plugin_a_p_i.html#aa1b11fe3ca98acfc9ceb86bcf0de3f1c',1,'Ms::PluginAPI::PluginAPI']]],
   ['playevents',['playEvents',['../class_ms_1_1_plugin_a_p_i_1_1_note.html#a92f8b5e37b6a64985424d9e388d5b07c',1,'Ms::PluginAPI::Note']]],
-  ['playeventtype',['PlayEventType',['../class_ms_1_1_plugin_a_p_i_1_1_plugin_a_p_i.html#a036fc62dbe597b14fd9f2ac6c5812744',1,'Ms::PluginAPI::PluginAPI::PlayEventType()'],['../class_ms_1_1_plugin_a_p_i_1_1_chord.html#a06498ea3766f7af2e86cb65548153509',1,'Ms::PluginAPI::Chord::playEventType()']]],
+  ['playeventtype',['playEventType',['../class_ms_1_1_plugin_a_p_i_1_1_chord.html#a06498ea3766f7af2e86cb65548153509',1,'Ms::PluginAPI::Chord::playEventType()'],['../class_ms_1_1_plugin_a_p_i_1_1_plugin_a_p_i.html#a036fc62dbe597b14fd9f2ac6c5812744',1,'Ms::PluginAPI::PluginAPI::PlayEventType()']]],
   ['plugintype',['pluginType',['../class_ms_1_1_plugin_a_p_i_1_1_plugin_a_p_i.html#a5fac96ae051a9f09f99b423019783fdc',1,'Ms::PluginAPI::PluginAPI']]],
   ['posx',['posX',['../class_ms_1_1_plugin_a_p_i_1_1_element.html#ae3d717cd280914de7e52ecfd7fad241b',1,'Ms::PluginAPI::Element']]],
   ['posy',['posY',['../class_ms_1_1_plugin_a_p_i_1_1_element.html#aee30677d84b882b999c1fd5c86a46954',1,'Ms::PluginAPI::Element']]],

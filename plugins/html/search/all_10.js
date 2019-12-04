@@ -15,7 +15,7 @@ var searchData=
   ['placement',['Placement',['../class_ms_1_1_plugin_a_p_i_1_1_plugin_a_p_i.html#aa1b11fe3ca98acfc9ceb86bcf0de3f1c',1,'Ms::PluginAPI::PluginAPI::Placement()'],['../namespace_ms.html#a78ae2875d3a179065c4033152d3eeb53',1,'Ms::Placement()']]],
   ['playevent',['PlayEvent',['../class_ms_1_1_plugin_a_p_i_1_1_play_event.html',1,'Ms::PluginAPI']]],
   ['playevents',['playEvents',['../class_ms_1_1_plugin_a_p_i_1_1_note.html#a92f8b5e37b6a64985424d9e388d5b07c',1,'Ms::PluginAPI::Note']]],
-  ['playeventtype',['PlayEventType',['../class_ms_1_1_plugin_a_p_i_1_1_plugin_a_p_i.html#a036fc62dbe597b14fd9f2ac6c5812744',1,'Ms::PluginAPI::PluginAPI::PlayEventType()'],['../class_ms_1_1_plugin_a_p_i_1_1_chord.html#a06498ea3766f7af2e86cb65548153509',1,'Ms::PluginAPI::Chord::playEventType()'],['../namespace_ms.html#a63be7958ccbae662af2c77fc134178cd',1,'Ms::PlayEventType()']]],
+  ['playeventtype',['playEventType',['../class_ms_1_1_plugin_a_p_i_1_1_chord.html#a06498ea3766f7af2e86cb65548153509',1,'Ms::PluginAPI::Chord::playEventType()'],['../class_ms_1_1_plugin_a_p_i_1_1_plugin_a_p_i.html#a036fc62dbe597b14fd9f2ac6c5812744',1,'Ms::PluginAPI::PluginAPI::PlayEventType()'],['../namespace_ms.html#a63be7958ccbae662af2c77fc134178cd',1,'Ms::PlayEventType()']]],
   ['porting_20musescore_202_20plugins',['Porting MuseScore 2 plugins',['../plugin2to3.html',1,'']]],
   ['pluginapi',['PluginAPI',['../class_ms_1_1_plugin_a_p_i_1_1_plugin_a_p_i.html',1,'Ms::PluginAPI']]],
   ['plugintype',['pluginType',['../class_ms_1_1_plugin_a_p_i_1_1_plugin_a_p_i.html#a5fac96ae051a9f09f99b423019783fdc',1,'Ms::PluginAPI::PluginAPI']]],
@@ -23,6 +23,6 @@ var searchData=
   ['posx',['posX',['../class_ms_1_1_plugin_a_p_i_1_1_element.html#ae3d717cd280914de7e52ecfd7fad241b',1,'Ms::PluginAPI::Element']]],
   ['posy',['posY',['../class_ms_1_1_plugin_a_p_i_1_1_element.html#aee30677d84b882b999c1fd5c86a46954',1,'Ms::PluginAPI::Element']]],
   ['ppitch',['ppitch',['../class_ms_1_1_note.html#ab14e40eef799a875fb65faf5ff6b28db',1,'Ms::Note']]],
-  ['prev',['prev',['../class_ms_1_1_plugin_a_p_i_1_1_segment.html#a39426da9d0c8896c0ef886c3967d90f1',1,'Ms::PluginAPI::Segment']]],
+  ['prev',['prev',['../class_ms_1_1_plugin_a_p_i_1_1_segment.html#a39426da9d0c8896c0ef886c3967d90f1',1,'Ms::PluginAPI::Segment::prev()'],['../class_ms_1_1_plugin_a_p_i_1_1_cursor.html#a2012144a43e3e14dd495ba82b2663dfd',1,'Ms::PluginAPI::Cursor::prev()']]],
   ['previnmeasure',['prevInMeasure',['../class_ms_1_1_plugin_a_p_i_1_1_segment.html#a4ae4709a10c0aee2f21843652faedcb0',1,'Ms::PluginAPI::Segment']]]
 ];

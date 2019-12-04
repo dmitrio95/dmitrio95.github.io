@@ -23,7 +23,7 @@
   <td id="projectlogo"><img alt="Logo" src="musescore_logo_full.png"/></td>
   <td id="projectalign" style="padding-left: 0.5em;">
    <div id="projectname">MuseScore Plugins
-   &#160;<span id="projectnumber">3.3</span>
+   &#160;<span id="projectnumber">3.3.4</span>
    </div>
    <div id="projectbrief">Plugins API for MuseScore</div>
   </td>
@@ -111,12 +111,15 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:a81ff8e4b8086a49a05008e2a3ebfbe07"><td class="memItemLeft" align="right" valign="top">Q_INVOKABLE bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ms_1_1_plugin_a_p_i_1_1_cursor.html#a81ff8e4b8086a49a05008e2a3ebfbe07">nextMeasure</a> ()</td></tr>
 <tr class="memdesc:a81ff8e4b8086a49a05008e2a3ebfbe07"><td class="mdescLeft">&#160;</td><td class="mdescRight">Move the cursor to the first segment of the next measure.  <a href="#a81ff8e4b8086a49a05008e2a3ebfbe07">More...</a><br /></td></tr>
 <tr class="separator:a81ff8e4b8086a49a05008e2a3ebfbe07"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a2012144a43e3e14dd495ba82b2663dfd"><td class="memItemLeft" align="right" valign="top">Q_INVOKABLE bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ms_1_1_plugin_a_p_i_1_1_cursor.html#a2012144a43e3e14dd495ba82b2663dfd">prev</a> ()</td></tr>
+<tr class="memdesc:a2012144a43e3e14dd495ba82b2663dfd"><td class="mdescLeft">&#160;</td><td class="mdescRight">Move the cursor to the previous segment.  <a href="#a2012144a43e3e14dd495ba82b2663dfd">More...</a><br /></td></tr>
+<tr class="separator:a2012144a43e3e14dd495ba82b2663dfd"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ad648841187c29afcf273a4037d2cb4ba"><td class="memItemLeft" align="right" valign="top">Q_INVOKABLE void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ms_1_1_plugin_a_p_i_1_1_cursor.html#ad648841187c29afcf273a4037d2cb4ba">add</a> (<a class="el" href="class_ms_1_1_plugin_a_p_i_1_1_element.html">Ms::PluginAPI::Element</a> *)</td></tr>
 <tr class="memdesc:ad648841187c29afcf273a4037d2cb4ba"><td class="mdescLeft">&#160;</td><td class="mdescRight">Adds the given element to a score at this cursor's position.  <a href="#ad648841187c29afcf273a4037d2cb4ba">More...</a><br /></td></tr>
 <tr class="separator:ad648841187c29afcf273a4037d2cb4ba"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a4231eff7a9a006b0cd5d96e2f43df9f9"><td class="memItemLeft" align="right" valign="top">Q_INVOKABLE void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ms_1_1_plugin_a_p_i_1_1_cursor.html#a4231eff7a9a006b0cd5d96e2f43df9f9">addNote</a> (int pitch)</td></tr>
-<tr class="memdesc:a4231eff7a9a006b0cd5d96e2f43df9f9"><td class="mdescLeft">&#160;</td><td class="mdescRight">Adds a note to the current cursor position.  <a href="#a4231eff7a9a006b0cd5d96e2f43df9f9">More...</a><br /></td></tr>
-<tr class="separator:a4231eff7a9a006b0cd5d96e2f43df9f9"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a4a001c450801c17d0cebc2b4a40fca67"><td class="memItemLeft" align="right" valign="top">Q_INVOKABLE void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ms_1_1_plugin_a_p_i_1_1_cursor.html#a4a001c450801c17d0cebc2b4a40fca67">addNote</a> (int pitch, bool addToChord=false)</td></tr>
+<tr class="memdesc:a4a001c450801c17d0cebc2b4a40fca67"><td class="mdescLeft">&#160;</td><td class="mdescRight">Adds a note to the current cursor position.  <a href="#a4a001c450801c17d0cebc2b4a40fca67">More...</a><br /></td></tr>
+<tr class="separator:a4a001c450801c17d0cebc2b4a40fca67"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ac5a4dacc608176cab4ccf63ecbc08c82"><td class="memItemLeft" align="right" valign="top">Q_INVOKABLE void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ms_1_1_plugin_a_p_i_1_1_cursor.html#ac5a4dacc608176cab4ccf63ecbc08c82">setDuration</a> (int z, int n)</td></tr>
 <tr class="memdesc:ac5a4dacc608176cab4ccf63ecbc08c82"><td class="mdescLeft">&#160;</td><td class="mdescRight">Set duration of the notes added by the cursor.  <a href="#ac5a4dacc608176cab4ccf63ecbc08c82">More...</a><br /></td></tr>
 <tr class="separator:ac5a4dacc608176cab4ccf63ecbc08c82"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -216,8 +219,8 @@ qreal&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="cla
 
 </div>
 </div>
-<a id="a4231eff7a9a006b0cd5d96e2f43df9f9"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a4231eff7a9a006b0cd5d96e2f43df9f9">&#9670;&nbsp;</a></span>addNote()</h2>
+<a id="a4a001c450801c17d0cebc2b4a40fca67"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a4a001c450801c17d0cebc2b4a40fca67">&#9670;&nbsp;</a></span>addNote()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -226,8 +229,18 @@ qreal&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="cla
           <td class="memname">void addNote </td>
           <td>(</td>
           <td class="paramtype">int&#160;</td>
-          <td class="paramname"><em>pitch</em></td><td>)</td>
+          <td class="paramname"><em>pitch</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
           <td></td>
+          <td class="paramtype">bool&#160;</td>
+          <td class="paramname"><em>addToChord</em> = <code>false</code>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -236,6 +249,7 @@ qreal&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="cla
 <p>The duration of the added note equals to what has been set by the previous <a class="el" href="class_ms_1_1_plugin_a_p_i_1_1_cursor.html#ac5a4dacc608176cab4ccf63ecbc08c82" title="Set duration of the notes added by the cursor. ">setDuration()</a> call. </p><dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
     <tr><td class="paramname">pitch</td><td>MIDI pitch of the added note. </td></tr>
+    <tr><td class="paramname">addToChord</td><td>add note to the current chord instead of replacing it. This parameter is available since MuseScore 3.3.4. </td></tr>
   </table>
   </dd>
 </dl>
@@ -279,6 +293,27 @@ qreal&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="cla
 
 <p>Move the cursor to the first segment of the next measure. </p>
 <dl class="section return"><dt>Returns</dt><dd><code>false</code> if the end of the score is reached, <code>true</code> otherwise. </dd></dl>
+
+</div>
+</div>
+<a id="a2012144a43e3e14dd495ba82b2663dfd"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a2012144a43e3e14dd495ba82b2663dfd">&#9670;&nbsp;</a></span>prev()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool prev </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Move the cursor to the previous segment. </p>
+<dl class="section return"><dt>Returns</dt><dd><code>false</code> if the beginning of the score is reached, <code>true</code> otherwise. </dd></dl>
+<dl class="section since"><dt>Since</dt><dd>MuseScore 3.3.4 </dd></dl>
 
 </div>
 </div>
@@ -343,7 +378,7 @@ qreal&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="cla
   </table>
   </dd>
 </dl>
-<dl class="section see"><dt>See also</dt><dd><a class="el" href="class_ms_1_1_plugin_a_p_i_1_1_cursor.html#a4231eff7a9a006b0cd5d96e2f43df9f9" title="Adds a note to the current cursor position. ">addNote()</a> </dd></dl>
+<dl class="section see"><dt>See also</dt><dd><a class="el" href="class_ms_1_1_plugin_a_p_i_1_1_cursor.html#a4a001c450801c17d0cebc2b4a40fca67" title="Adds a note to the current cursor position. ">addNote()</a> </dd></dl>
 
 </div>
 </div>

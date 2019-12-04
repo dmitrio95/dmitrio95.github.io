@@ -23,7 +23,7 @@
   <td id="projectlogo"><img alt="Logo" src="musescore_logo_full.png"/></td>
   <td id="projectalign" style="padding-left: 0.5em;">
    <div id="projectname">MuseScore Plugins
-   &#160;<span id="projectnumber">3.3</span>
+   &#160;<span id="projectnumber">3.3.4</span>
    </div>
    <div id="projectbrief">Plugins API for MuseScore</div>
   </td>
@@ -133,6 +133,9 @@ Properties</h2></td></tr>
 <tr class="memitem:aee30677d84b882b999c1fd5c86a46954"><td class="memItemLeft" align="right" valign="top">qreal&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ms_1_1_plugin_a_p_i_1_1_element.html#aee30677d84b882b999c1fd5c86a46954">posY</a></td></tr>
 <tr class="memdesc:aee30677d84b882b999c1fd5c86a46954"><td class="mdescLeft">&#160;</td><td class="mdescRight">Reference position of this element relative to its parent element.  <a href="#aee30677d84b882b999c1fd5c86a46954">More...</a><br /></td></tr>
 <tr class="separator:aee30677d84b882b999c1fd5c86a46954"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a6894cfa4459d8d71cbda09997dd6ddf8"><td class="memItemLeft" align="right" valign="top">QRectF&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ms_1_1_plugin_a_p_i_1_1_element.html#a6894cfa4459d8d71cbda09997dd6ddf8">bbox</a></td></tr>
+<tr class="memdesc:a6894cfa4459d8d71cbda09997dd6ddf8"><td class="mdescLeft">&#160;</td><td class="mdescRight">Bounding box of this element.  <a href="#a6894cfa4459d8d71cbda09997dd6ddf8">More...</a><br /></td></tr>
+<tr class="separator:a6894cfa4459d8d71cbda09997dd6ddf8"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ac0d01ffe5f921e0d5ad8c7355a070473"><td class="memItemLeft" align="right" valign="top"><a id="ac0d01ffe5f921e0d5ad8c7355a070473"></a>
 QVariant&#160;</td><td class="memItemRight" valign="bottom"><b>subtype</b></td></tr>
 <tr class="separator:ac0d01ffe5f921e0d5ad8c7355a070473"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -788,6 +791,31 @@ QVariant&#160;</td><td class="memItemRight" valign="bottom"><b>position</b></td>
 <tr class="separator:abc29e461e01cc0c712944f8f47f91331 inherit properties_class_ms_1_1_plugin_a_p_i_1_1_score_element"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <h2 class="groupheader">Property Documentation</h2>
+<a id="a6894cfa4459d8d71cbda09997dd6ddf8"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a6894cfa4459d8d71cbda09997dd6ddf8">&#9670;&nbsp;</a></span>bbox</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">QRectF bbox</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">read</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Bounding box of this element. </p>
+<p>This value is in spatium units for compatibility with other <a class="el" href="class_ms_1_1_plugin_a_p_i_1_1_element.html">Element</a> positioning properties. </p><dl class="section since"><dt>Since</dt><dd>MuseScore 3.3.1 </dd></dl>
+
+</div>
+</div>
 <a id="a824cb7f78107b86b9ddc2dcbd285f66b"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a824cb7f78107b86b9ddc2dcbd285f66b">&#9670;&nbsp;</a></span>color</h2>
 
@@ -937,7 +965,7 @@ QVariant&#160;</td><td class="memItemRight" valign="bottom"><b>position</b></td>
 
 <p>Reference position of this element relative to its parent element. </p>
 <p>This is an offset from the parent object that is determined by the autoplace feature. It includes any other offsets applied to the element. You can use this value to accurately position other elements related to the same parent.</p>
-<p>This value is in spatium units for compatiblity with <a class="el" href="class_ms_1_1_plugin_a_p_i_1_1_element.html#a0fbd693bb872fd51eda5e1969a65cb2e" title="X-axis offset from a reference position in spatium units. ">Element.offsetX</a>. </p><dl class="section since"><dt>Since</dt><dd>MuseScore 3.3 </dd></dl>
+<p>This value is in spatium units for compatibility with <a class="el" href="class_ms_1_1_plugin_a_p_i_1_1_element.html#a0fbd693bb872fd51eda5e1969a65cb2e" title="X-axis offset from a reference position in spatium units. ">Element.offsetX</a>. </p><dl class="section since"><dt>Since</dt><dd>MuseScore 3.3 </dd></dl>
 
 </div>
 </div>
@@ -963,7 +991,7 @@ QVariant&#160;</td><td class="memItemRight" valign="bottom"><b>position</b></td>
 
 <p>Reference position of this element relative to its parent element. </p>
 <p>This is an offset from the parent object that is determined by the autoplace feature. It includes any other offsets applied to the element. You can use this value to accurately position other elements related to the same parent.</p>
-<p>This value is in spatium units for compatiblity with <a class="el" href="class_ms_1_1_plugin_a_p_i_1_1_element.html#aa3a3428649a29793651843147a216e7e" title="Y-axis offset from a reference position in spatium units. ">Element.offsetY</a>. </p><dl class="section since"><dt>Since</dt><dd>MuseScore 3.3 </dd></dl>
+<p>This value is in spatium units for compatibility with <a class="el" href="class_ms_1_1_plugin_a_p_i_1_1_element.html#aa3a3428649a29793651843147a216e7e" title="Y-axis offset from a reference position in spatium units. ">Element.offsetY</a>. </p><dl class="section since"><dt>Since</dt><dd>MuseScore 3.3 </dd></dl>
 
 </div>
 </div>
