@@ -23,7 +23,7 @@
   <td id="projectlogo"><img alt="Logo" src="musescore_logo_full.png"/></td>
   <td id="projectalign" style="padding-left: 0.5em;">
    <div id="projectname">MuseScore
-   &#160;<span id="projectnumber">3.3.4</span>
+   &#160;<span id="projectnumber">3.4</span>
    </div>
    <div id="projectbrief">Music composition and notation</div>
   </td>
@@ -137,7 +137,7 @@ $(function() {
 : <a class="el" href="class_ms_1_1_notations.html#a0b7e5dfe559118c2b0ba69b82b363b58">Ms::Notations</a>
 , <a class="el" href="class_ms_1_1_ornaments.html#a65e4213af550a832176a334163ae1361">Ms::Ornaments</a>
 , <a class="el" href="class_ms_1_1_technical.html#a762ffddd21bf3e5dfbd83a87b972183b">Ms::Technical</a>
-, <a class="el" href="class_ms_1_1_xml_writer.html#a554858cc813cf53774fd4b482dffb4bc">Ms::XmlWriter</a>
+, <a class="el" href="class_ms_1_1_xml_writer.html#a26f93b1b2ef2da30015917767f716a09">Ms::XmlWriter</a>
 , <a class="el" href="class_xml_writer.html#a554858cc813cf53774fd4b482dffb4bc">XmlWriter</a>
 </li>
 <li>tag2type()
@@ -326,6 +326,9 @@ $(function() {
 <li>TextEditData()
 : <a class="el" href="struct_ms_1_1_text_edit_data.html#aab947456e8a41b23e88ec6272b501075">Ms::TextEditData</a>
 </li>
+<li>textEditMode()
+: <a class="el" href="class_ms_1_1_score_view.html#a09333f7e71432193613eef2257a7cf98">Ms::ScoreView</a>
+</li>
 <li>textElement()
 : <a class="el" href="class_ms_1_1_text_tools.html#a5df07cf224731120db5eb52b32ef54d3">Ms::TextTools</a>
 </li>
@@ -400,6 +403,7 @@ $(function() {
 <li>tick()
 : <a class="el" href="class_ms_1_1_beam.html#a4a195ae79fa1d4c486b55b4c69bae760">Ms::Beam</a>
 , <a class="el" href="class_ms_1_1_element.html#a4cc362a42bad65483b59d3a8e0df374f">Ms::Element</a>
+, <a class="el" href="class_ms_1_1_export_music_xml.html#acef924433063dcf10432de71332d2834">Ms::ExportMusicXml</a>
 , <a class="el" href="class_ms_1_1_input_state.html#a79d562ec34847c3154ec4c6c5073d464">Ms::InputState</a>
 , <a class="el" href="class_ms_1_1_measure_base.html#aa5fa2830a6264cda65a4fab178b669fe">Ms::MeasureBase</a>
 , <a class="el" href="class_ms_1_1_plugin_a_p_i_1_1_cursor.html#af592903d10dd9c784a653518af1c6096">Ms::PluginAPI::Cursor</a>
@@ -773,7 +777,7 @@ $(function() {
 : <a class="el" href="class_o_v_e_1_1_block.html#a1c191fdbe0145cb09ec706bf0fff1cf2">OVE::Block</a>
 </li>
 <li>toLogical()
-: <a class="el" href="class_ms_1_1_score_view.html#a4c6f77da0fa4d340eeb104920e61f6f0">Ms::ScoreView</a>
+: <a class="el" href="class_ms_1_1_score_view.html#a38945486de97065abe7ae459f7a07f4f">Ms::ScoreView</a>
 </li>
 <li>toolbarChanged()
 : <a class="el" href="class_ms_1_1_toolbar_editor.html#a318c503be603d2ea5056102f1ba53092">Ms::ToolbarEditor</a>
@@ -844,7 +848,7 @@ $(function() {
 , <a class="el" href="class_ms_1_1_plugin_a_p_i_1_1_fraction_wrapper.html#a3ec13ba88626223d335af1aa40d892bd">Ms::PluginAPI::FractionWrapper</a>
 , <a class="el" href="struct_ms_1_1_property_diff.html#a42b067c8189b3d9f9855f84c60ae573f">Ms::PropertyDiff</a>
 , <a class="el" href="class_ms_1_1_score_font.html#a6116f9e06f30a9872b7badc3b2e1f7a8">Ms::ScoreFont</a>
-, <a class="el" href="struct_ms_1_1_text_diff.html#a60b6e92d90f46e30da97c5f1bba41be0">Ms::TextDiff</a>
+, <a class="el" href="struct_ms_1_1_text_diff.html#acb89b86a21027879394f16291dfbc46a">Ms::TextDiff</a>
 , <a class="el" href="class_ms_1_1_voice_desc.html#aba50123d72d471d6af74d36a1eecb107">Ms::VoiceDesc</a>
 </li>
 <li>toUnsignedInt()
@@ -1060,7 +1064,7 @@ $(function() {
 : <a class="el" href="class_ms_1_1_chord.html#a04a1b9c2e9db98787c7d81aff906b336">Ms::Chord</a>
 </li>
 <li>Tremolo()
-: <a class="el" href="class_ms_1_1_tremolo.html#a281bd1f12f6c28a7ea7ed57743faa8bb">Ms::Tremolo</a>
+: <a class="el" href="class_ms_1_1_tremolo.html#abe6a983162d5320f9ca45d7590704a85">Ms::Tremolo</a>
 </li>
 <li>TremoloBar()
 : <a class="el" href="class_ms_1_1_tremolo_bar.html#a72f9736f765ba6d85d2949c7b2ec5d67">Ms::TremoloBar</a>
@@ -1068,8 +1072,11 @@ $(function() {
 <li>TremoloBarCanvas()
 : <a class="el" href="class_ms_1_1_tremolo_bar_canvas.html#ad83aac25042eab310349de0e7ace9a6e">Ms::TremoloBarCanvas</a>
 </li>
-<li>TremoloBarProperties()
-: <a class="el" href="class_ms_1_1_tremolo_bar_properties.html#aca8c5c36f59b8d449611c0b199fa86ae">Ms::TremoloBarProperties</a>
+<li>tremoloBarCanvasChanged()
+: <a class="el" href="class_ms_1_1_tremolo_bar_canvas.html#a354af6762264e7cbb2928f5fee417c55">Ms::TremoloBarCanvas</a>
+</li>
+<li>tremoloBarTypeChanged()
+: <a class="el" href="class_ms_1_1_inspector_tremolo_bar.html#a37b701f66bc36202b599bd78b47ff215">Ms::InspectorTremoloBar</a>
 </li>
 <li>tremoloChordType()
 : <a class="el" href="class_ms_1_1_chord.html#ab6d9f107efd82271221360d272035288">Ms::Chord</a>
@@ -1128,7 +1135,7 @@ $(function() {
 : <a class="el" href="class_ms_1_1_trill_obj.html#ab840e0715a308b1edfe36675d5e6c3e8">Ms::TrillObj</a>
 </li>
 <li>TrillSegment()
-: <a class="el" href="class_ms_1_1_trill_segment.html#a5156545c8980bfd80721fe14231383c5">Ms::TrillSegment</a>
+: <a class="el" href="class_ms_1_1_trill_segment.html#a1ffb23631b493fabf15bb8b4f1025175">Ms::TrillSegment</a>
 </li>
 <li>trillType()
 : <a class="el" href="class_ms_1_1_trill.html#a7a3744b3771ce91da17ae84f13da8a06">Ms::Trill</a>
@@ -1272,7 +1279,7 @@ $(function() {
 , <a class="el" href="class_ms_1_1_instrument_name.html#a55d528ec324059162e7f6a7f74bfc8ce">Ms::InstrumentName</a>
 , <a class="el" href="class_ms_1_1_jump.html#a731b1a130904ce1d7301c98d2c441b63">Ms::Jump</a>
 , <a class="el" href="class_ms_1_1_key_sig.html#a02d48cece9b23346b905f9b535be18e7">Ms::KeySig</a>
-, <a class="el" href="class_ms_1_1_lasso.html#a954b5da3d7455b74fe4d549923bf703a">Ms::Lasso</a>
+, <a class="el" href="class_ms_1_1_lasso.html#aeadb1d98c3f59a5c691faf435a3d210f">Ms::Lasso</a>
 , <a class="el" href="class_ms_1_1_layout_break.html#a3d3e590e7b8af938e8d173cfe038637d">Ms::LayoutBreak</a>
 , <a class="el" href="class_ms_1_1_ledger_line.html#a292e61b9037da0494220907f26bd0f61">Ms::LedgerLine</a>
 , <a class="el" href="class_ms_1_1_let_ring.html#a10f13a73d7e9c70321c0cb191caccb34">Ms::LetRing</a>

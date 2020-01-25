@@ -68,6 +68,8 @@ var searchData=
   ['musescore_2ecpp',['musescore.cpp',['../musescore_8cpp.html',1,'']]],
   ['musescore_2eh',['musescore.h',['../musescore_8h.html',1,'']]],
   ['musescorecore_2eh',['musescoreCore.h',['../musescore_core_8h.html',1,'']]],
+  ['musescoredialogs_2ecpp',['musescoredialogs.cpp',['../musescoredialogs_8cpp.html',1,'']]],
+  ['musescoredialogs_2eh',['musescoredialogs.h',['../musescoredialogs_8h.html',1,'']]],
   ['musicxml_2eh',['musicxml.h',['../musicxml_8h.html',1,'']]],
   ['musicxmlfonthandler_2ecpp',['musicxmlfonthandler.cpp',['../musicxmlfonthandler_8cpp.html',1,'']]],
   ['musicxmlfonthandler_2eh',['musicxmlfonthandler.h',['../musicxmlfonthandler_8h.html',1,'']]],

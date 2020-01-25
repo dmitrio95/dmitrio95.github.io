@@ -23,7 +23,7 @@
   <td id="projectlogo"><img alt="Logo" src="musescore_logo_full.png"/></td>
   <td id="projectalign" style="padding-left: 0.5em;">
    <div id="projectname">MuseScore
-   &#160;<span id="projectnumber">3.3.4</span>
+   &#160;<span id="projectnumber">3.4</span>
    </div>
    <div id="projectbrief">Music composition and notation</div>
   </td>
@@ -66,6 +66,7 @@ $(function() {
 <h3><a id="index_f"></a>- f -</h3><ul>
 <li>f
 : <a class="el" href="class_fluid_s_1_1_s_font.html#aca8d8e0df7c9cff13bf95ba7e2c36c8b">FluidS::SFont</a>
+, <a class="el" href="class_ms_1_1_call_on_return.html#a84a01bc1f3500a324ce07ea93d2ec83e">Ms::CallOnReturn</a>
 , <a class="el" href="class_ms_1_1_capella.html#a2909b47273f2adba7dd17cd83bedda39">Ms::Capella</a>
 , <a class="el" href="class_ms_1_1_export_ly.html#a84ae252b55ce5e964869bb97daec0963">Ms::ExportLy</a>
 , <a class="el" href="class_ms_1_1_export_midi.html#a680920a6e6d8b0f0c8c79073df5ce79f">Ms::ExportMidi</a>
@@ -74,7 +75,8 @@ $(function() {
 , <a class="el" href="class_ms_1_1_inspector_fret_diagram.html#a8f0469b1e5851a42a4de520774324342">Ms::InspectorFretDiagram</a>
 , <a class="el" href="class_ms_1_1_inspector_text.html#a4c8de586895c2bebef941e1d7de4c726">Ms::InspectorText</a>
 , <a class="el" href="class_ms_1_1_plugin_a_p_i_1_1_fraction_wrapper.html#ae57e17a6119d34cf195287ec84fa6d2b">Ms::PluginAPI::FractionWrapper</a>
-, <a class="el" href="struct_ms_1_1_tempo_pattern.html#ac1e34328f61887fb4282473853072134">Ms::TempoPattern</a>
+, <a class="el" href="struct_ms_1_1_property_data.html#aadd1dd36bb7207ae63f625e88e87e5e7">Ms::PropertyData</a>
+, <a class="el" href="struct_ms_1_1_tempo_pattern.html#ae6153fa0e90758f6dae203c129159344">Ms::TempoPattern</a>
 </li>
 <li>face
 : <a class="el" href="struct_ms_1_1_cap_font.html#a750729eaa0c8ab0324ee2874cf3b047b">Ms::CapFont</a>
@@ -112,9 +114,6 @@ $(function() {
 </li>
 <li>fbsuffix
 : <a class="el" href="class_ms_1_1_plugin_a_p_i_1_1_element.html#ae3583c01d57719b27753b1ceeef9605e">Ms::PluginAPI::Element</a>
-</li>
-<li>fd
-: <a class="el" href="class_ms_1_1_fret_diagram_properties.html#a4e2b86101b6ee861229ee491ced9a227">Ms::FretDiagramProperties</a>
 </li>
 <li>fdamp()
 : <a class="el" href="class_ms_1_1_zita_reverb.html#a805d463e5046c1825ba090f27cda75d5">Ms::ZitaReverb</a>
@@ -192,7 +191,7 @@ $(function() {
 : <a class="el" href="class_ms_1_1_import_midi_panel.html#a3cb8f4feea3120daf02ae225fb4a6e3a">Ms::ImportMidiPanel</a>
 </li>
 <li>fileDivision()
-: <a class="el" href="class_ms_1_1_score.html#a5985c2f6efa3511417b23cd1e26f317e">Ms::Score</a>
+: <a class="el" href="class_ms_1_1_score.html#a940af93575995e7f4879631ef7eb18f0">Ms::Score</a>
 </li>
 <li>FileError
 : <a class="el" href="class_ms_1_1_score.html#a8d59eafa85868a96e516b4f3acc03b4d">Ms::Score</a>
@@ -301,8 +300,8 @@ $(function() {
 : <a class="el" href="class_ms_1_1_filter_palette_tree_model.html#a200f622126c47abb09967f6b0336d4ed">Ms::FilterPaletteTreeModel</a>
 </li>
 <li>filterAcceptsRow()
-: <a class="el" href="class_ms_1_1_child_filter_proxy_model.html#a721a1710bbc071785ff008f09282590b">Ms::ChildFilterProxyModel</a>
-, <a class="el" href="class_ms_1_1_filter_palette_tree_model.html#a28848436aaf78e3d9615503eb666fe70">Ms::FilterPaletteTreeModel</a>
+: <a class="el" href="class_ms_1_1_filter_palette_tree_model.html#a28848436aaf78e3d9615503eb666fe70">Ms::FilterPaletteTreeModel</a>
+, <a class="el" href="class_ms_1_1_palette_cell_filter_proxy_model.html#ac75b99fb6b2931231771a47c8ab17739">Ms::PaletteCellFilterProxyModel</a>
 </li>
 <li>filterActive
 : <a class="el" href="class_ms_1_1_palette.html#a33258f800625ee8c4ea1c7d00a22d365">Ms::Palette</a>
@@ -339,7 +338,7 @@ $(function() {
 : <a class="el" href="class_model.html#ab567afa3f0ee33e6eb758df5f1fac1ac">Model</a>
 </li>
 <li>findAccidental()
-: <a class="el" href="class_ms_1_1_measure.html#a4f56e739033bcbc53b8a20f03ad03938">Ms::Measure</a>
+: <a class="el" href="class_ms_1_1_measure.html#a15f7fbbb7f21f0c936bb2e55c502c499">Ms::Measure</a>
 </li>
 <li>findActionFromString()
 : <a class="el" href="class_ms_1_1_workspace.html#a5cc700402a57bbd53fc4955189f05168">Ms::Workspace</a>
@@ -652,7 +651,7 @@ $(function() {
 : <a class="el" href="class_ms_1_1_system.html#a7d2a3a40bb9f87be831540f0258e95df">Ms::System</a>
 </li>
 <li>firstVisibleSysStaff()
-: <a class="el" href="class_ms_1_1_system.html#a14ef80f4ad72c0efd50238ba2e8b2932">Ms::System</a>
+: <a class="el" href="class_ms_1_1_system.html#a16444d8068cb8bcf5ba32a83c4c9eb8a">Ms::System</a>
 </li>
 <li>fix
 : <a class="el" href="struct_ms_1_1_spring.html#a1cbc2c5ab8e76451bbcc84b0cdc94bd6">Ms::Spring</a>
@@ -1060,7 +1059,7 @@ $(function() {
 </li>
 <li>fragments
 : <a class="el" href="class_ms_1_1_beam.html#ae32865acef5ae5766e52e6b4285a4159">Ms::Beam</a>
-, <a class="el" href="class_ms_1_1_text_block.html#a03229502f08e8d7a8258c72ab1c290f3">Ms::TextBlock</a>
+, <a class="el" href="class_ms_1_1_text_block.html#a7b8b3c20e5cb7a4f96177b92be9fa6b2">Ms::TextBlock</a>
 </li>
 <li>frame()
 : <a class="el" href="class_ms_1_1_music_x_m_l_parser_pass2.html#aad404cfd8fe13a81544bd1e8da795468">Ms::MusicXMLParserPass2</a>
@@ -1175,9 +1174,6 @@ $(function() {
 <li>FretDiagram()
 : <a class="el" href="class_ms_1_1_fret_diagram.html#a4d4ce180c8aafdb1f7a7c9d7dc477c7c">Ms::FretDiagram</a>
 </li>
-<li>FretDiagramProperties()
-: <a class="el" href="class_ms_1_1_fret_diagram_properties.html#ae046974b41f14bba1e3af1c05dfc085e">Ms::FretDiagramProperties</a>
-</li>
 <li>fretDiagrams
 : <a class="el" href="class_ms_1_1_guitar_pro6.html#a35c27952013db1af1099815828de0c47">Ms::GuitarPro6</a>
 </li>
@@ -1227,16 +1223,10 @@ $(function() {
 : <a class="el" href="class_ms_1_1_fret_diagram.html#a6dcd218d8830781007d6386448e34282">Ms::FretDiagram</a>
 , <a class="el" href="class_ms_1_1_plugin_a_p_i_1_1_element.html#afefa2343c32e2ef0657d159f17d02214">Ms::PluginAPI::Element</a>
 </li>
-<li>fretOffsetChanged()
-: <a class="el" href="class_ms_1_1_fret_diagram_properties.html#a96176036587df4f39f56df6cdfa87e4f">Ms::FretDiagramProperties</a>
-</li>
 <li>frets()
 : <a class="el" href="class_ms_1_1_fret_diagram.html#a0eb5f22c3ca5c3dcf5b094d8d9b73606">Ms::FretDiagram</a>
 , <a class="el" href="struct_ms_1_1_power_tab_1_1pt_chord.html#ab1db55411c5661389d3d215b3af85ceb">Ms::PowerTab::ptChord</a>
 , <a class="el" href="class_ms_1_1_string_data.html#a715431405d3e920edb95f1a595e61dea">Ms::StringData</a>
-</li>
-<li>fretsChanged()
-: <a class="el" href="class_ms_1_1_fret_diagram_properties.html#a76bd51347dfcc782e745b3c6ab6568f4">Ms::FretDiagramProperties</a>
 </li>
 <li>fretString()
 : <a class="el" href="class_ms_1_1_staff_type.html#a7e44b77a245a1acdd78e3c7c096da4bd">Ms::StaffType</a>
@@ -1289,10 +1279,10 @@ $(function() {
 , <a class="el" href="class_ms_1_1_parsed_chord.html#ab3a78176f1568fc9ae039896542506d5">Ms::ParsedChord</a>
 </li>
 <li>frontSegment()
-: <a class="el" href="class_ms_1_1_s_line.html#a68340da18f7a8d8d157c53edbf3e06c9">Ms::SLine</a>
-, <a class="el" href="class_ms_1_1_slur.html#ae1f480bf090e34ba894d5ec14dee897e">Ms::Slur</a>
-, <a class="el" href="class_ms_1_1_spanner.html#a3b05604f27ca56b7b1ba4bffed503f50">Ms::Spanner</a>
-, <a class="el" href="class_ms_1_1_tie.html#a122f20426fe30b4305f94c212a652dfa">Ms::Tie</a>
+: <a class="el" href="class_ms_1_1_s_line.html#a844d4d764312f0095e411000598bdafe">Ms::SLine</a>
+, <a class="el" href="class_ms_1_1_slur.html#aa9ed9b565775261a351a55d6d9837c4c">Ms::Slur</a>
+, <a class="el" href="class_ms_1_1_spanner.html#a757d68de4c1432da12b5ed970de1fade">Ms::Spanner</a>
+, <a class="el" href="class_ms_1_1_tie.html#aa97820b8ccc4fb7ed0048c00568bd40b">Ms::Tie</a>
 </li>
 <li>frozenColCount()
 : <a class="el" href="class_ms_1_1_tracks_model.html#ac63a4392273cbfb59fd277e79a03d493">Ms::TracksModel</a>
@@ -1330,6 +1320,9 @@ $(function() {
 </li>
 <li>fullMeasures
 : <a class="el" href="class_ms_1_1_rest_obj.html#ab24a5a2567781bcdc3f6acdc2b53d5ba">Ms::RestObj</a>
+</li>
+<li>fullVersion()
+: <a class="el" href="class_ms_1_1_muse_score.html#a2463bdeeebc90c5cf5d1aafebff2f1ba">Ms::MuseScore</a>
 </li>
 <li>fval()
 : <a class="el" href="class_synti_parameter.html#a7b8d7a591fc57b2c37f77e9886e0b408">SyntiParameter</a>

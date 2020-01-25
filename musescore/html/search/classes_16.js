@@ -13,7 +13,7 @@ var searchData=
   ['vibratotableitem',['VibratoTableItem',['../struct_ms_1_1_vibrato_table_item.html',1,'Ms']]],
   ['viewrect',['ViewRect',['../class_ms_1_1_view_rect.html',1,'Ms']]],
   ['visibilitycellfilter',['VisibilityCellFilter',['../class_ms_1_1_visibility_cell_filter.html',1,'Ms']]],
-  ['voice',['Voice',['../class_o_v_e_1_1_voice.html',1,'OVE::Voice'],['../class_voice.html',1,'Voice'],['../class_fluid_s_1_1_voice.html',1,'FluidS::Voice']]],
+  ['voice',['Voice',['../class_o_v_e_1_1_voice.html',1,'OVE::Voice'],['../class_fluid_s_1_1_voice.html',1,'FluidS::Voice'],['../class_voice.html',1,'Voice']]],
   ['voicedesc',['VoiceDesc',['../class_ms_1_1_voice_desc.html',1,'Ms']]],
   ['voicefifo',['VoiceFifo',['../class_voice_fifo.html',1,'']]],
   ['voiceoverlapdetector',['VoiceOverlapDetector',['../class_ms_1_1_voice_overlap_detector.html',1,'Ms']]],

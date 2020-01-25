@@ -111,6 +111,7 @@ var searchData=
   ['apiroot',['apiRoot',['../class_ms_1_1_api_info.html#a952d800b9e750d65a2c55cb597be629c',1,'Ms::ApiInfo']]],
   ['appwindow',['appWindow',['../class_ms_1_1_operations_delegate.html#aa4eea9cf440866efc16314ed7df67b34',1,'Ms::OperationsDelegate']]],
   ['ar',['ar',['../class_ms_1_1_inspector_articulation.html#a7eb0d9a69a1eb68eb29487be23dc802e',1,'Ms::InspectorArticulation']]],
+  ['argv',['argv',['../struct_ms_1_1_muse_score_application_1_1_command_line_parse_result.html#a70c3fe72b0fec55e4a5ff48c030a5bc7',1,'Ms::MuseScoreApplication::CommandLineParseResult']]],
   ['arpeggio_5fdown',['ARPEGGIO_DOWN',['../class_ms_1_1_guitar_pro.html#a9b5daae1c60770c8ecfc9e8aa12ab816',1,'Ms::GuitarPro']]],
   ['arpeggio_5fup',['ARPEGGIO_UP',['../class_ms_1_1_guitar_pro.html#a32c66becd5b4e1372937b6ab36a8312c',1,'Ms::GuitarPro']]],
   ['arpegiodown',['arpegioDown',['../struct_ms_1_1_power_tab_1_1pt_beat.html#af06977a593f9a280f91083870f45e7b2',1,'Ms::PowerTab::ptBeat']]],

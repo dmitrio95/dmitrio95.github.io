@@ -18,7 +18,7 @@ var searchData=
   ['transport',['Transport',['../namespace_ms.html#abfeea37b11249d5df8436adae0dbfcb3',1,'Ms']]],
   ['transposedirection',['TransposeDirection',['../namespace_ms.html#a369b0f81ac06af55925432f09ee33e57',1,'Ms']]],
   ['transposemode',['TransposeMode',['../namespace_ms.html#a438ed2617c5504f4a052bbf59656dbc5',1,'Ms']]],
-  ['tremolobartype',['TremoloBarType',['../namespace_ms.html#a7162b7b8e710ab8198a52f1cf131b8d4',1,'Ms']]],
+  ['tremolobartype',['TremoloBarType',['../namespace_ms.html#a7a1dd4a3417306033517e3894f691209',1,'Ms']]],
   ['tremolochordtype',['TremoloChordType',['../namespace_ms.html#a166cb7869869e9a2da70f6e7807b3f36',1,'Ms']]],
   ['tremoloplacement',['TremoloPlacement',['../namespace_ms.html#a7c46c7accebd6ed6c6e259bc6e679ca0',1,'Ms']]],
   ['tremolotype',['TremoloType',['../namespace_ms.html#abdaced34e0681e12f5f9b0694da35dc6',1,'Ms']]],

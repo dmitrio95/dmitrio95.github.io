@@ -32,7 +32,6 @@ var searchData=
   ['benchmark',['Benchmark',['../class_ms_1_1_benchmark.html',1,'Ms']]],
   ['bend',['Bend',['../class_ms_1_1_bend.html',1,'Ms']]],
   ['bendcanvas',['BendCanvas',['../class_ms_1_1_bend_canvas.html',1,'Ms']]],
-  ['bendproperties',['BendProperties',['../class_ms_1_1_bend_properties.html',1,'Ms']]],
   ['besttrack',['BestTrack',['../struct_ms_1_1_midi_lyrics_1_1_best_track.html',1,'Ms::MidiLyrics']]],
   ['binding',['Binding',['../struct_ms_1_1_binding.html',1,'Ms']]],
   ['block',['Block',['../class_o_v_e_1_1_block.html',1,'OVE']]],

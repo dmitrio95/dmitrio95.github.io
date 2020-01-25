@@ -23,7 +23,7 @@
   <td id="projectlogo"><img alt="Logo" src="musescore_logo_full.png"/></td>
   <td id="projectalign" style="padding-left: 0.5em;">
    <div id="projectname">MuseScore
-   &#160;<span id="projectnumber">3.3.4</span>
+   &#160;<span id="projectnumber">3.4</span>
    </div>
    <div id="projectbrief">Music composition and notation</div>
   </td>
@@ -97,6 +97,8 @@ Public Member Functions</h2></td></tr>
 <tr class="separator:ac0c61a55d63d4387fcad2c9fefb4f341"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:acaaa1b84323299e13177c89084e10007"><td class="memItemLeft" align="right" valign="top">const QByteArray &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ms_1_1_shortcut.html#acaaa1b84323299e13177c89084e10007">key</a> () const</td></tr>
 <tr class="separator:acaaa1b84323299e13177c89084e10007"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae62d74e2e5d97059fe1b1ce49f35de77"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ms_1_1_shortcut.html#ae62d74e2e5d97059fe1b1ce49f35de77">setKey</a> (const QByteArray &amp;<a class="el" href="class_ms_1_1_shortcut.html#acaaa1b84323299e13177c89084e10007">key</a>)</td></tr>
+<tr class="separator:ae62d74e2e5d97059fe1b1ce49f35de77"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a37acff48b914714c274bc76dae6e564d"><td class="memItemLeft" align="right" valign="top">QString&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ms_1_1_shortcut.html#a37acff48b914714c274bc76dae6e564d">descr</a> () const</td></tr>
 <tr class="separator:a37acff48b914714c274bc76dae6e564d"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ac5039d07d10706e4a95f4f5a46174a0e"><td class="memItemLeft" align="right" valign="top">QString&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ms_1_1_shortcut.html#ac5039d07d10706e4a95f4f5a46174a0e">text</a> () const</td></tr>
@@ -168,6 +170,8 @@ Static Public Member Functions</h2></td></tr>
 <tr class="separator:ac572e0eca87a5e530f247acd52e2deee"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a2b6dab938a0f9fa5744655d15850078f"><td class="memItemLeft" align="right" valign="top">static bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ms_1_1_shortcut.html#a2b6dab938a0f9fa5744655d15850078f">customSource</a> ()</td></tr>
 <tr class="separator:a2b6dab938a0f9fa5744655d15850078f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae0d23c61e356aae037412ecf9949d9b0"><td class="memItemLeft" align="right" valign="top">static <a class="el" href="class_ms_1_1_shortcut.html">Shortcut</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ms_1_1_shortcut.html#ae0d23c61e356aae037412ecf9949d9b0">getShortcutByKeySequence</a> (const QKeySequence &amp;keySequence, const <a class="el" href="namespace_ms.html#aba304e35acf732434f3c3d8b72562885">ScoreState</a> <a class="el" href="class_ms_1_1_shortcut.html#a05a2308f980f27bee250c7dd8535c67b">state</a>)</td></tr>
+<tr class="separator:ae0d23c61e356aae037412ecf9949d9b0"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a71a60c66d20469b53d7038e67eff2522"><td class="memItemLeft" align="right" valign="top">static <a class="el" href="class_ms_1_1_shortcut.html">Shortcut</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ms_1_1_shortcut.html#a71a60c66d20469b53d7038e67eff2522">getShortcut</a> (const char *<a class="el" href="class_ms_1_1_shortcut.html#acaaa1b84323299e13177c89084e10007">key</a>)</td></tr>
 <tr class="separator:a71a60c66d20469b53d7038e67eff2522"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a6b59cffd6e6792323f17314e4c017296"><td class="memItemLeft" align="right" valign="top">static const QHash&lt; QByteArray, <a class="el" href="class_ms_1_1_shortcut.html">Shortcut</a> * &gt; &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ms_1_1_shortcut.html#a6b59cffd6e6792323f17314e4c017296">shortcuts</a> ()</td></tr>
@@ -577,6 +581,42 @@ Static Private Attributes</h2></td></tr>
           <td class="paramtype">const char *&#160;</td>
           <td class="paramname"><em>key</em></td><td>)</td>
           <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="ae0d23c61e356aae037412ecf9949d9b0"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ae0d23c61e356aae037412ecf9949d9b0">&#9670;&nbsp;</a></span>getShortcutByKeySequence()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="class_ms_1_1_shortcut.html">Shortcut</a> * Ms::Shortcut::getShortcutByKeySequence </td>
+          <td>(</td>
+          <td class="paramtype">const QKeySequence &amp;&#160;</td>
+          <td class="paramname"><em>keySequence</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="namespace_ms.html#aba304e35acf732434f3c3d8b72562885">ScoreState</a>&#160;</td>
+          <td class="paramname"><em>state</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
         </tr>
       </table>
   </td>
@@ -1109,6 +1149,32 @@ Static Private Attributes</h2></td></tr>
   </td>
   <td class="mlabels-right">
 <span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="ae62d74e2e5d97059fe1b1ce49f35de77"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ae62d74e2e5d97059fe1b1ce49f35de77">&#9670;&nbsp;</a></span>setKey()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void Ms::Shortcut::setKey </td>
+          <td>(</td>
+          <td class="paramtype">const QByteArray &amp;&#160;</td>
+          <td class="paramname"><em>key</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
   </tr>
 </table>
 </div><div class="memdoc">

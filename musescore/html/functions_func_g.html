@@ -23,7 +23,7 @@
   <td id="projectlogo"><img alt="Logo" src="musescore_logo_full.png"/></td>
   <td id="projectalign" style="padding-left: 0.5em;">
    <div id="projectname">MuseScore
-   &#160;<span id="projectnumber">3.3.4</span>
+   &#160;<span id="projectnumber">3.4</span>
    </div>
    <div id="projectbrief">Music composition and notation</div>
   </td>
@@ -1578,7 +1578,7 @@ $(function() {
 , <a class="el" href="class_o_v_e_1_1_ove_song.html#a1f73fc11852caf7876c52e8fd6112803">OVE::OveSong</a>
 </li>
 <li>getMeasureData()
-: <a class="el" href="class_o_v_e_1_1_ove_song.html#a8d33221fccfb19699082b706d479abe2">OVE::OveSong</a>
+: <a class="el" href="class_o_v_e_1_1_ove_song.html#a30d5b543e59a640997de210c2843cfdd">OVE::OveSong</a>
 </li>
 <li>getMeasureDataCount()
 : <a class="el" href="class_o_v_e_1_1_ove_song.html#a839fb8271f9e62d5e893f2adceaf33b3">OVE::OveSong</a>
@@ -1981,7 +1981,7 @@ $(function() {
 , <a class="el" href="class_ms_1_1_vibrato_segment.html#a15f8a05eca7b1b4047e057b3d6024fed">Ms::VibratoSegment</a>
 </li>
 <li>getQmlUiEngine()
-: <a class="el" href="class_ms_1_1_muse_score.html#a10a13e0c52c286b1b0ff9ec0117a32c9">Ms::MuseScore</a>
+: <a class="el" href="class_ms_1_1_muse_score.html#a8d556e9f2f4047533981a2cbf04640a6">Ms::MuseScore</a>
 </li>
 <li>getQuarter()
 : <a class="el" href="class_o_v_e_1_1_ove_song.html#aede99856a357128f9856910e926f19c6">OVE::OveSong</a>
@@ -2122,6 +2122,9 @@ $(function() {
 <li>getShortcut()
 : <a class="el" href="class_ms_1_1_shortcut.html#a71a60c66d20469b53d7038e67eff2522">Ms::Shortcut</a>
 </li>
+<li>getShortcutByKeySequence()
+: <a class="el" href="class_ms_1_1_shortcut.html#ae0d23c61e356aae037412ecf9949d9b0">Ms::Shortcut</a>
+</li>
 <li>getShow()
 : <a class="el" href="class_o_v_e_1_1_music_data.html#ab9da87334787eb524c4b33c6d9f68436">OVE::MusicData</a>
 , <a class="el" href="class_o_v_e_1_1_note.html#a5826f799ad16c09583bb09a45b9fe76e">OVE::Note</a>
@@ -2213,6 +2216,10 @@ $(function() {
 </li>
 <li>getSingleRepeat()
 : <a class="el" href="class_o_v_e_1_1_measure_repeat.html#a07bfef57dfcb37fcc1babfa0cbd10d9c">OVE::MeasureRepeat</a>
+</li>
+<li>getSize()
+: <a class="el" href="class_ms_1_1_extension_file_size.html#a0b306de5c6244b4be088e6e39702ea0f">Ms::ExtensionFileSize</a>
+, <a class="el" href="class_ms_1_1_language_file_size.html#aec9f6c9301f623311715ac6b0d5bdb74">Ms::LanguageFileSize</a>
 </li>
 <li>getSizeBlock()
 : <a class="el" href="class_o_v_e_1_1_size_chunk.html#a5a3a6b613ee2d76584455b74294ceeab">OVE::SizeChunk</a>
@@ -2618,7 +2625,7 @@ $(function() {
 , <a class="el" href="class_ms_1_1_location.html#acae5fc28269cb63a830573b98af14898">Ms::Location</a>
 </li>
 <li>graceNotes()
-: <a class="el" href="class_ms_1_1_chord.html#a4325ce88dbfc556e818a75ec9389b887">Ms::Chord</a>
+: <a class="el" href="class_ms_1_1_chord.html#a60dda023bb2ac14cc6625ab7b5d711b7">Ms::Chord</a>
 , <a class="el" href="class_ms_1_1_plugin_a_p_i_1_1_chord.html#a00d60d8fcd36e2b8851cfee861b2cb9d">Ms::PluginAPI::Chord</a>
 </li>
 <li>graceNotesAfter()
@@ -2631,7 +2638,7 @@ $(function() {
 : <a class="el" href="class_ms_1_1_inspector_group_element.html#a5bf16fd1c0842034a792efb9c5faefb2">Ms::InspectorGroupElement</a>
 </li>
 <li>grand()
-: <a class="el" href="class_rngen.html#aa70cf068622011a501553dc3d137d9eb">Rngen</a>
+: <a class="el" href="class_rngen.html#ac9e0aa2c1c1b77f4d5ac7f2c594688b9">Rngen</a>
 </li>
 <li>grandf()
 : <a class="el" href="class_rngen.html#a89bfd5c20091ba5417dc87fef837791d">Rngen</a>
@@ -2667,13 +2674,44 @@ $(function() {
 , <a class="el" href="class_ms_1_1_line_segment.html#a4e08a6225945c4c1d10423adf327f141">Ms::LineSegment</a>
 , <a class="el" href="class_ms_1_1_slur_tie_segment.html#aed78e725b75b609de622fb4d39c853e9">Ms::SlurTieSegment</a>
 </li>
-<li>gripCount()
-: <a class="el" href="class_ms_1_1_example_view.html#ab37065ea7018cb04610ff55e95d078b4">Ms::ExampleView</a>
-, <a class="el" href="class_ms_1_1_muse_score_view.html#a98304109ba420cf175219a6434249b73">Ms::MuseScoreView</a>
-, <a class="el" href="class_ms_1_1_pianoroll_editor.html#ad4cb76d1a6e051179618508c362177d3">Ms::PianorollEditor</a>
-</li>
 <li>GripItem()
 : <a class="el" href="class_ms_1_1_grip_item.html#ac7e2f2f59649e3093e3500a20c5cf291">Ms::GripItem</a>
+</li>
+<li>gripsCount()
+: <a class="el" href="class_ms_1_1_arpeggio.html#ac1941521c986d5da53e5a94c3462d379">Ms::Arpeggio</a>
+, <a class="el" href="class_ms_1_1_bar_line.html#ae990f327ad54fcf36e76b8b790304d9d">Ms::BarLine</a>
+, <a class="el" href="class_ms_1_1_beam.html#abca173cc08d4f39f0800b3ab3e6db0de">Ms::Beam</a>
+, <a class="el" href="class_ms_1_1_box.html#a710e988610dd40bc925d95bb254169b1">Ms::Box</a>
+, <a class="el" href="class_ms_1_1_bracket.html#aa9ef6508a802c78696975ae0f3a63ecc">Ms::Bracket</a>
+, <a class="el" href="class_ms_1_1_chord_line.html#a195362634a2853fd2beabea9de010510">Ms::ChordLine</a>
+, <a class="el" href="class_ms_1_1_element.html#ae6ac97922eb884d9f3af307ada91f74a">Ms::Element</a>
+, <a class="el" href="class_ms_1_1_hairpin_segment.html#a83906fdee82f97809eef09f39d7c5396">Ms::HairpinSegment</a>
+, <a class="el" href="class_ms_1_1_image.html#aea2f66ce21dabc6fd0fb8520a9df2542">Ms::Image</a>
+, <a class="el" href="class_ms_1_1_lasso.html#af736aeaa90ffe96ab28b94c80256efa9">Ms::Lasso</a>
+, <a class="el" href="class_ms_1_1_line_segment.html#a44210b7fdb72cbc8d686cb36c4006ca8">Ms::LineSegment</a>
+, <a class="el" href="class_ms_1_1_slur_tie_segment.html#ae44aafa08244b0d447a8fe95cf8d12f3">Ms::SlurTieSegment</a>
+, <a class="el" href="class_ms_1_1_spacer.html#a70f83e06e4c8a6e6932e0704689385f5">Ms::Spacer</a>
+, <a class="el" href="class_ms_1_1_stem.html#a92eef316d00649159b5ae73978d9ba1d">Ms::Stem</a>
+, <a class="el" href="class_ms_1_1_tuplet.html#ab55338d9d78fba9706739facb73f4a98">Ms::Tuplet</a>
+</li>
+<li>gripsPositions()
+: <a class="el" href="class_ms_1_1_arpeggio.html#aaa1eca92bd64c4b5ff3ac4f2a4ac194f">Ms::Arpeggio</a>
+, <a class="el" href="class_ms_1_1_bar_line.html#a8b01d2303163a623a8a6fc95f39b135f">Ms::BarLine</a>
+, <a class="el" href="class_ms_1_1_beam.html#a5ab59b2ec923712a18acd3764769a324">Ms::Beam</a>
+, <a class="el" href="class_ms_1_1_box.html#abe0e054f00e856b9020366cdc461d4d7">Ms::Box</a>
+, <a class="el" href="class_ms_1_1_bracket.html#a940a1d1c3c838987dbc1ba5ee6b20d93">Ms::Bracket</a>
+, <a class="el" href="class_ms_1_1_chord_line.html#a7f3b6785f43c9150bbd618f68866769a">Ms::ChordLine</a>
+, <a class="el" href="class_ms_1_1_element.html#ac4ac75b1d930639f3ed85d618ab38bdf">Ms::Element</a>
+, <a class="el" href="class_ms_1_1_hairpin_segment.html#ade5509cfacd8ebedab4f89b4149fe07e">Ms::HairpinSegment</a>
+, <a class="el" href="class_ms_1_1_h_box.html#aa993ee660df8a17eafaaa698c38c1e3d">Ms::HBox</a>
+, <a class="el" href="class_ms_1_1_image.html#a4b211a3431a7043300e32e0295207ece">Ms::Image</a>
+, <a class="el" href="class_ms_1_1_lasso.html#a552a6e2d57ed44453c8bb2a7c41aded1">Ms::Lasso</a>
+, <a class="el" href="class_ms_1_1_line_segment.html#a6dc38aee699747594b9acc210dafac0c">Ms::LineSegment</a>
+, <a class="el" href="class_ms_1_1_slur_tie_segment.html#a8c38e352b624b13fd56810718fef8a3c">Ms::SlurTieSegment</a>
+, <a class="el" href="class_ms_1_1_spacer.html#abfcf28a9f400ccb418f8cb2f0c2b4744">Ms::Spacer</a>
+, <a class="el" href="class_ms_1_1_stem.html#a78a982461482180db71d51a526f25dfd">Ms::Stem</a>
+, <a class="el" href="class_ms_1_1_tuplet.html#ad526ddbeecf2da17f34312e30a564b41">Ms::Tuplet</a>
+, <a class="el" href="class_ms_1_1_v_box.html#acd975d5b1127b18976123cfdf3a98a33">Ms::VBox</a>
 </li>
 <li>group()
 : <a class="el" href="class_awl_plugin.html#a8b65811522296b994ef470fb8526c768">AwlPlugin</a>

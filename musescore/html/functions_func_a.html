@@ -23,7 +23,7 @@
   <td id="projectlogo"><img alt="Logo" src="musescore_logo_full.png"/></td>
   <td id="projectalign" style="padding-left: 0.5em;">
    <div id="projectname">MuseScore
-   &#160;<span id="projectnumber">3.3.4</span>
+   &#160;<span id="projectnumber">3.4</span>
    </div>
    <div id="projectbrief">Music composition and notation</div>
   </td>
@@ -124,11 +124,11 @@ $(function() {
 , <a class="el" href="class_ms_1_1_edit_string_data.html#a48f02370fa833a48737d4774a269e955">Ms::EditStringData</a>
 , <a class="el" href="class_ms_1_1_enum_preference.html#afcee35921f5c82916bd068afa7cfbdff">Ms::EnumPreference</a>
 , <a class="el" href="class_ms_1_1_excerpts_dialog.html#a2fd3aeecf54517c0fdda7dd788016829">Ms::ExcerptsDialog</a>
-, <a class="el" href="class_ms_1_1_insert_measures_dialog.html#a50e1ed85bd630686260025b149f4b4cc">Ms::InsertMeasuresDialog</a>
+, <a class="el" href="class_ms_1_1_insert_measures_dialog.html#a94373750164bbe4141c674f620ee930b">Ms::InsertMeasuresDialog</a>
 , <a class="el" href="class_ms_1_1_instruments_dialog.html#ab0dc1bd59bff5b2a5f9af4ff69648a9e">Ms::InstrumentsDialog</a>
 , <a class="el" href="class_ms_1_1_int_preference.html#ae0103bb2ab6ea61d739a20a93593cd1b">Ms::IntPreference</a>
 , <a class="el" href="class_ms_1_1_layer_manager.html#a63b5911dbcbcd8037ebdeabbe4e59c76">Ms::LayerManager</a>
-, <a class="el" href="class_ms_1_1_measures_dialog.html#a742d63141063620e18abae1995337318">Ms::MeasuresDialog</a>
+, <a class="el" href="class_ms_1_1_measures_dialog.html#aef03cae4af91523b9a85ad51d946c48e">Ms::MeasuresDialog</a>
 , <a class="el" href="class_ms_1_1_meta_edit_dialog.html#ab56f513445da9a61f89ae9c47a91adcf">Ms::MetaEditDialog</a>
 , <a class="el" href="class_ms_1_1_palette_cell_filter.html#a94b29801dcdb75198e116e3c12962c2a">Ms::PaletteCellFilter</a>
 , <a class="el" href="class_ms_1_1_palette_properties.html#a80029718a0beec20c6dcb18bc12a771c">Ms::PaletteProperties</a>
@@ -956,6 +956,9 @@ $(function() {
 <li>allowShowMidiPanel()
 : <a class="el" href="class_ms_1_1_muse_score.html#aabae5f5b26005d26bf91706efa461586">Ms::MuseScore</a>
 </li>
+<li>allPartsClicked()
+: <a class="el" href="class_ms_1_1_excerpts_dialog.html#aba4587e8a038a1de0c427a6ee1370eb1">Ms::ExcerptsDialog</a>
+</li>
 <li>allPlaybackControlEntries()
 : <a class="el" href="class_ms_1_1_muse_score.html#a095baa8b9b8cd226b5d3370cfdeea035">Ms::MuseScore</a>
 </li>
@@ -1106,9 +1109,9 @@ $(function() {
 : <a class="el" href="class_ms_1_1_import_midi_panel.html#a8427c5a90cd61317d10c452de872ef24">Ms::ImportMidiPanel</a>
 </li>
 <li>applyPaletteElement()
-: <a class="el" href="class_ms_1_1_abstract_palette_controller.html#aee627fb5a324a2b102355a00066c7a89">Ms::AbstractPaletteController</a>
-, <a class="el" href="class_ms_1_1_palette.html#ad544721259503180301a49eb0c1f1e22">Ms::Palette</a>
-, <a class="el" href="class_ms_1_1_user_palette_controller.html#aaecd8e71fcbdf9e4c73a246e15f1279e">Ms::UserPaletteController</a>
+: <a class="el" href="class_ms_1_1_abstract_palette_controller.html#a61dbcd02d1be99bc02fe017353fc8607">Ms::AbstractPaletteController</a>
+, <a class="el" href="class_ms_1_1_palette.html#a67ce43a6d7c924d59e559da9b3f1fa46">Ms::Palette</a>
+, <a class="el" href="class_ms_1_1_user_palette_controller.html#a14f24a517d00ee8c9c320007b86cf3c4">Ms::UserPaletteController</a>
 </li>
 <li>applyProperty()
 : <a class="el" href="class_ms_1_1_part_channel_settings_link.html#a1ae1cc615908bb8585f666db4c32d398">Ms::PartChannelSettingsLink</a>
@@ -1160,7 +1163,7 @@ $(function() {
 </li>
 <li>articulation()
 : <a class="el" href="class_ms_1_1_instrument.html#a370e641cf45c27a5b61c941ff710eed1">Ms::Instrument</a>
-, <a class="el" href="class_ms_1_1_midi_mapping.html#a642a1975d5d032c28bed6f7e906099fb">Ms::MidiMapping</a>
+, <a class="el" href="class_ms_1_1_midi_mapping.html#a437dc8b1eded4fe52bb90b7e35dc1114">Ms::MidiMapping</a>
 </li>
 <li>Articulation()
 : <a class="el" href="class_o_v_e_1_1_articulation.html#afd8311b2c3ef75e2e98d2d9bbc172605">OVE::Articulation</a>
@@ -1266,7 +1269,7 @@ $(function() {
 : <a class="el" href="class_ms_1_1_element.html#a59de63838f71ae75bfbbcfd7960b29b5">Ms::Element</a>
 </li>
 <li>autoplaceSegmentElement()
-: <a class="el" href="class_ms_1_1_element.html#a9446e28a4daa9ab0f785ce06ad0a14ab">Ms::Element</a>
+: <a class="el" href="class_ms_1_1_element.html#ab5518cc652f95d5d64ddd2bd7bfc6f6b">Ms::Element</a>
 </li>
 <li>autoplaceSpannerSegment()
 : <a class="el" href="class_ms_1_1_spanner_segment.html#a41b514ef9ce1fa91c753c1c9021a62d1">Ms::SpannerSegment</a>

@@ -88,7 +88,6 @@ var searchData=
   ['tremolo',['Tremolo',['../class_ms_1_1_tremolo.html',1,'Ms']]],
   ['tremolobar',['TremoloBar',['../class_ms_1_1_tremolo_bar.html',1,'Ms']]],
   ['tremolobarcanvas',['TremoloBarCanvas',['../class_ms_1_1_tremolo_bar_canvas.html',1,'Ms']]],
-  ['tremolobarproperties',['TremoloBarProperties',['../class_ms_1_1_tremolo_bar_properties.html',1,'Ms']]],
   ['tremoloview',['TremoloView',['../class_ms_1_1_tremolo_view.html',1,'Ms']]],
   ['trill',['Trill',['../class_ms_1_1_trill.html',1,'Ms']]],
   ['trillobj',['TrillObj',['../class_ms_1_1_trill_obj.html',1,'Ms']]],

@@ -46,6 +46,7 @@ var searchData=
   ['qmlstyle',['QmlStyle',['../class_ms_1_1_qml_style.html',1,'Ms::QmlStyle'],['../class_ms_1_1_qml_dock_widget.html#a624c415b2cc69567806eba413ba097bd',1,'Ms::QmlDockWidget::qmlStyle()'],['../class_ms_1_1_qml_style.html#a3b7e95c6a66a1b812ca46690618ff079',1,'Ms::QmlStyle::QmlStyle()']]],
   ['qmlwarnings',['qmlWarnings',['../class_ms_1_1_plugin_creator.html#ae261489ff6158a3929e586778abd5816',1,'Ms::PluginCreator']]],
   ['qpentosvg',['qpenToSvg',['../class_svg_paint_engine.html#a58e96f7fb6e336f9c7de8463409421f3',1,'SvgPaintEngine']]],
+  ['qt_5fntfs_5fpermission_5flookup',['qt_ntfs_permission_lookup',['../workspace_8cpp.html#afeb86fc87af7051b8140f2e40977e352',1,'workspace.cpp']]],
   ['quality',['quality',['../class_ms_1_1_parsed_chord.html#a1796fec8f0dd2b32cec79473e85331ba',1,'Ms::ParsedChord::quality()'],['../struct_ms_1_1_chord_description.html#aa5c917c41f124d3946a55af365a33dab',1,'Ms::ChordDescription::quality()'],['../namespace_ms.html#a161dff7089bf7aa507d8e02de7c64570aac7ac10cbeba800c78f4de2922bd1e1b',1,'Ms::QUALITY()']]],
   ['quality_5f0',['QUALITY_0',['../exportmp3_8h.html#aaa6e335424434c46569cda97c878450c',1,'exportmp3.h']]],
   ['quality_5f1',['QUALITY_1',['../exportmp3_8h.html#a651f3b47a4bc5b58dc13c5ebaf09e063',1,'exportmp3.h']]],

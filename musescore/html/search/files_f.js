@@ -28,7 +28,7 @@ var searchData=
   ['panknob_2eh',['panknob.h',['../panknob_8h.html',1,'']]],
   ['parser_2ecpp',['parser.cpp',['../parser_8cpp.html',1,'']]],
   ['parser_2eh',['parser.h',['../parser_8h.html',1,'']]],
-  ['part_2ecpp',['part.cpp',['../part_8cpp.html',1,'']]],
+  ['part_2ecpp',['part.cpp',['../libmscore_2part_8cpp.html',1,'(Global Namespace)'],['../mscore_2plugin_2api_2part_8cpp.html',1,'(Global Namespace)']]],
   ['part_2eh',['part.h',['../libmscore_2part_8h.html',1,'(Global Namespace)'],['../mscore_2plugin_2api_2part_8h.html',1,'(Global Namespace)']]],
   ['partedit_2eh',['partedit.h',['../partedit_8h.html',1,'']]],
   ['parteditbase_2ecpp',['parteditbase.cpp',['../parteditbase_8cpp.html',1,'']]],

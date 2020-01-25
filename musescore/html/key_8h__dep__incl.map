@@ -24,10 +24,10 @@
 <area shape="rect" id="node43" href="$key_8cpp.html" title="libmscore/key.cpp" alt="" coords="4553,155,4681,181"/>
 <area shape="rect" id="node44" href="$importmidi__key_8cpp.html" title="mscore/importmidi/importmidi\l_key.cpp" alt="" coords="4622,304,4815,345"/>
 <area shape="rect" id="node45" href="$keysig_8h.html" title="libmscore/keysig.h" alt="" coords="3297,229,3428,256"/>
-<area shape="rect" id="node46" href="$timeline_8cpp.html" title="mscore/timeline.cpp" alt="" coords="4885,311,5024,338"/>
+<area shape="rect" id="node46" href="$timeline_8cpp.html" title="mscore/timeline.cpp" alt="" coords="4975,311,5113,338"/>
 <area shape="rect" id="node47" href="$system_8cpp.html" title="Implementation of classes SysStaff and System. " alt="" coords="4810,80,4961,107"/>
-<area shape="rect" id="node48" href="$newwizard_8h.html" title="mscore/newwizard.h" alt="" coords="4335,80,4478,107"/>
-<area shape="rect" id="node49" href="$exportmidi_8cpp.html" title="mscore/exportmidi.cpp" alt="" coords="5036,80,5191,107"/>
+<area shape="rect" id="node48" href="$exportmidi_8cpp.html" title="mscore/exportmidi.cpp" alt="" coords="4985,80,5140,107"/>
+<area shape="rect" id="node49" href="$newwizard_8h.html" title="mscore/newwizard.h" alt="" coords="4335,80,4478,107"/>
 <area shape="rect" id="node50" href="$note_groups_8cpp.html" title="mscore/noteGroups.cpp" alt="" coords="5215,80,5377,107"/>
 <area shape="rect" id="node3" href="$durationtype_8h.html" title="libmscore/durationtype.h" alt="" coords="163,155,327,181"/>
 <area shape="rect" id="node4" href="$durationtype_8cpp.html" title="libmscore/durationtype.cpp" alt="" coords="213,229,392,256"/>

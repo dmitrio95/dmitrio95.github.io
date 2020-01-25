@@ -23,7 +23,7 @@
   <td id="projectlogo"><img alt="Logo" src="musescore_logo_full.png"/></td>
   <td id="projectalign" style="padding-left: 0.5em;">
    <div id="projectname">MuseScore
-   &#160;<span id="projectnumber">3.3.4</span>
+   &#160;<span id="projectnumber">3.4</span>
    </div>
    <div id="projectbrief">Music composition and notation</div>
   </td>
@@ -70,7 +70,6 @@ $(function() {
 , <a class="el" href="class_ms_1_1_accessible_score_view.html#a6fb0044c50ae350c2c2b9b4a6f0f13ab">Ms::AccessibleScoreView</a>
 , <a class="el" href="struct_ms_1_1_bm.html#aa6a6ebe1992db9c1d22651e401301952">Ms::Bm</a>
 , <a class="el" href="class_ms_1_1_change_text.html#afc766de1ff5f3981fbcd1ee5a2cb6e15">Ms::ChangeText</a>
-, <a class="el" href="struct_ms_1_1_cmd_context.html#a0be6587e208f53ed0c5f95ac25f0f25a">Ms::CmdContext</a>
 , <a class="el" href="class_ms_1_1_edit_data.html#a4241dfcce43bf72302d363591cc1ceeb">Ms::EditData</a>
 , <a class="el" href="class_ms_1_1_inspector_ambitus.html#acdb157f0841e6a6053b611fdf24998ac">Ms::InspectorAmbitus</a>
 , <a class="el" href="class_ms_1_1_inspector_bar_line.html#a20e04d3b049fee73e30abdfd341cbb91">Ms::InspectorBarLine</a>
@@ -82,6 +81,7 @@ $(function() {
 , <a class="el" href="class_ms_1_1_inspector_staff_text.html#acc0f1e24913a05d4ef046427833a499e">Ms::InspectorStaffText</a>
 , <a class="el" href="class_ms_1_1_inspector_stem.html#afc54b580ca1a94d106d1ad1fedd4f1c3">Ms::InspectorStem</a>
 , <a class="el" href="class_ms_1_1_inspector_time_sig.html#a26dafd237a4088d96f2f5391fc851916">Ms::InspectorTimeSig</a>
+, <a class="el" href="class_ms_1_1_score_view_cmd_context.html#af6c74a35799e3481c138d18880d55614">Ms::ScoreViewCmdContext</a>
 , <a class="el" href="class_ms_1_1_shortcut_capture_dialog.html#a57b5821c1e6f17314e8e27562a273460">Ms::ShortcutCaptureDialog</a>
 </li>
 <li>sa
@@ -161,6 +161,9 @@ $(function() {
 <li>scaleVal
 : <a class="el" href="class_ms_1_1_h_piano.html#acd0a46863045a0660795f28a1bee198c">Ms::HPiano</a>
 </li>
+<li>scb
+: <a class="el" href="class_ms_1_1_inspector_section_break.html#a15555fbf47715375975c492c32fc01ca">Ms::InspectorSectionBreak</a>
+</li>
 <li>score
 : <a class="el" href="class_bww_1_1_ms_sc_writer.html#ac5c0359f4ebe867a2d755762cab912c1">Bww::MsScWriter</a>
 , <a class="el" href="class_ms_1_1_change_meta_tags.html#a2546b8260e12533a4b41ea8c903c7b46">Ms::ChangeMetaTags</a>
@@ -188,6 +191,7 @@ $(function() {
 , <a class="el" href="class_ms_1_1_omr_state.html#a53ac6a9b161b5bee33cba48269180f6e">Ms::OmrState</a>
 , <a class="el" href="class_ms_1_1_plugin_a_p_i_1_1_score_view.html#a905bdba571b4dc71ea5c8d7017726590">Ms::PluginAPI::ScoreView</a>
 , <a class="el" href="class_ms_1_1_power_tab.html#af44c0788b6b9d204916062682b021b7e">Ms::PowerTab</a>
+, <a class="el" href="class_ms_1_1_score_content_state.html#af96b98fdbffd8576eeb88eb09f513a62">Ms::ScoreContentState</a>
 , <a class="el" href="struct_ms_1_1_score_version.html#ae6eafe2d22ff9c3aab4bb932c1ba98a1">Ms::ScoreVersion</a>
 , <a class="el" href="class_ms_1_1_sort_staves.html#ad1a276769535970ed80f999379e31005">Ms::SortStaves</a>
 , <a class="el" href="class_ms_1_1_swap_excerpt.html#af869ee2a49ab67203d272483d2d2a99a">Ms::SwapExcerpt</a>
@@ -340,7 +344,7 @@ $(function() {
 : <a class="el" href="struct_ms_1_1_text_segment.html#aa34700c3e2e42f34e4076d861d4de77c">Ms::TextSegment</a>
 </li>
 <li>selectColor
-: <a class="el" href="class_ms_1_1_m_score.html#a72f2b85b9a5b879c3f366cd1cad75a4d">Ms::MScore</a>
+: <a class="el" href="class_ms_1_1_m_score.html#aa0db4fc96c165225d1a05d87f9ac90cd">Ms::MScore</a>
 </li>
 <li>selectedIdx
 : <a class="el" href="class_ms_1_1_palette.html#ae4ade6146b831cbde33faec7dbb5ce62">Ms::Palette</a>
@@ -385,6 +389,9 @@ $(function() {
 </li>
 <li>serialNum
 : <a class="el" href="class_m_icon_engine_private.html#a0f024412839d87411ef3e4fdde97fa26">MIconEnginePrivate</a>
+</li>
+<li>sessionStatusObserver
+: <a class="el" href="class_ms_1_1_muse_score.html#a82a4dce954bbea14f260704afa12ae8b">Ms::MuseScore</a>
 </li>
 <li>set_
 : <a class="el" href="class_o_v_e_1_1_key.html#ae9276e133f53378a7bbce39c8a4d4fa9">OVE::Key</a>
@@ -628,7 +635,6 @@ $(function() {
 <li>size
 : <a class="el" href="struct_fluid_s_1_1_s_f_chunk.html#a66f8a57659e29acc7c85bb20aa99624e">FluidS::SFChunk</a>
 , <a class="el" href="class_ms_1_1_b_b_file.html#af84181125fb77d7d82e6789c94fa6275">Ms::BBFile</a>
-, <a class="el" href="class_ms_1_1_image_edit_data.html#a3f4af23c64813a1b3d828e162059ea7d">Ms::ImageEditData</a>
 , <a class="el" href="struct_ms_1_1_mxml_octave_shift_desc.html#a6ecbc69df73042370934a5102ee31cde">Ms::MxmlOctaveShiftDesc</a>
 , <a class="el" href="class_ms_1_1_page_format.html#ac4313cfebfb2a131f8b9cc490d14b588">Ms::PageFormat</a>
 , <a class="el" href="class_ms_1_1_radon_info.html#a0d46e2179ae17c18aed84e1ac7c0aa40">Ms::RadonInfo</a>

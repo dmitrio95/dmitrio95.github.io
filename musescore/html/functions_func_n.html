@@ -23,7 +23,7 @@
   <td id="projectlogo"><img alt="Logo" src="musescore_logo_full.png"/></td>
   <td id="projectalign" style="padding-left: 0.5em;">
    <div id="projectname">MuseScore
-   &#160;<span id="projectnumber">3.3.4</span>
+   &#160;<span id="projectnumber">3.4</span>
    </div>
    <div id="projectbrief">Music composition and notation</div>
   </td>
@@ -223,9 +223,6 @@ $(function() {
 <li>newAccordionPalettePanel()
 : <a class="el" href="class_ms_1_1_muse_score.html#a8170b0cc0da93644385b21cebe2803bd">Ms::MuseScore</a>
 </li>
-<li>newAllClicked()
-: <a class="el" href="class_ms_1_1_excerpts_dialog.html#ade382c20bc50b55ac23ea92bd86b20b0">Ms::ExcerptsDialog</a>
-</li>
 <li>newArpeggioPalette()
 : <a class="el" href="class_ms_1_1_muse_score.html#a1c63c1a71fad10a098bf6739a7f87607">Ms::MuseScore</a>
 </li>
@@ -281,8 +278,7 @@ $(function() {
 : <a class="el" href="class_ms_1_1_muse_score.html#a989f1f65fa1d64ef6ea083fbabfeaeee">Ms::MuseScore</a>
 </li>
 <li>newClicked()
-: <a class="el" href="class_ms_1_1_excerpts_dialog.html#a1f2a2d7cb290f98fe2835bb3a072ed9f">Ms::ExcerptsDialog</a>
-, <a class="el" href="class_ms_1_1_meta_edit_dialog.html#ac6d864fba887d22d90b7062af664c894">Ms::MetaEditDialog</a>
+: <a class="el" href="class_ms_1_1_meta_edit_dialog.html#ac6d864fba887d22d90b7062af664c894">Ms::MetaEditDialog</a>
 </li>
 <li>newCursor()
 : <a class="el" href="class_ms_1_1_plugin_a_p_i_1_1_score.html#ae1143a087e52ed8866847fab1a615e64">Ms::PluginAPI::Score</a>
@@ -662,6 +658,24 @@ $(function() {
 <li>normalizedText()
 : <a class="el" href="class_ms_1_1_figured_bass_item.html#abd84114fd59eee992f2f17de3bf7ef8d">Ms::FiguredBassItem</a>
 </li>
+<li>normalizeLeftDragDelta()
+: <a class="el" href="class_ms_1_1_note.html#ad773e3ee2589d5e8742f431ded6ed4fb">Ms::Note</a>
+</li>
+<li>normalModeEditBehavior()
+: <a class="el" href="class_ms_1_1_arpeggio.html#aaf559c461f7b91aaba12a684b3d41a63">Ms::Arpeggio</a>
+, <a class="el" href="class_ms_1_1_bar_line.html#a47e6e48e965cab32d8d3d4b1e970dc4b">Ms::BarLine</a>
+, <a class="el" href="class_ms_1_1_beam.html#ab175abf793c4d587067c85a11a986f2d">Ms::Beam</a>
+, <a class="el" href="class_ms_1_1_box.html#a30e090de267323720e420f74418fd2c3">Ms::Box</a>
+, <a class="el" href="class_ms_1_1_chord_line.html#aa75df878eeb9cfd3d62ce19be40add12">Ms::ChordLine</a>
+, <a class="el" href="class_ms_1_1_element.html#a8da4cf37b6c3f27351f096ec5847d1b6">Ms::Element</a>
+, <a class="el" href="class_ms_1_1_image.html#a67c762299c517e41c65c2d5c50078c8a">Ms::Image</a>
+, <a class="el" href="class_ms_1_1_line_segment.html#aeadf31e5ad40e950cf4357c53a48aa95">Ms::LineSegment</a>
+, <a class="el" href="class_ms_1_1_slur_tie_segment.html#a8091984b4614a48e3aac9e27b7e23d0c">Ms::SlurTieSegment</a>
+, <a class="el" href="class_ms_1_1_spacer.html#a328572d9cb821360011325ef2a76adfa">Ms::Spacer</a>
+, <a class="el" href="class_ms_1_1_stem.html#ae08f8f18e1046cfe49be948de25b7911">Ms::Stem</a>
+, <a class="el" href="class_ms_1_1_t_box.html#a4b53a482a617a3b02997e5d6687d7dcd">Ms::TBox</a>
+, <a class="el" href="class_ms_1_1_tuplet.html#a3c24cc846e4fec24bf671616bc77bb1c">Ms::Tuplet</a>
+</li>
 <li>normalPaste()
 : <a class="el" href="class_ms_1_1_score_view.html#acf601afde4a34bd505007046e0b0d776">Ms::ScoreView</a>
 </li>
@@ -712,7 +726,7 @@ $(function() {
 , <a class="el" href="class_ms_1_1_music_x_m_l_parser_pass2.html#a468ae4b013749cc85f4a381671b87c0c">Ms::MusicXMLParserPass2</a>
 </li>
 <li>Note()
-: <a class="el" href="class_ms_1_1_note.html#ae5a10dad9d3449ec193563d6d407113b">Ms::Note</a>
+: <a class="el" href="class_ms_1_1_note.html#acacaa498757f9823da9fe48345270314">Ms::Note</a>
 </li>
 <li>note()
 : <a class="el" href="class_ms_1_1_note_dot.html#a0ba418fdb5d637f3aa147be87e90de94">Ms::NoteDot</a>
@@ -773,7 +787,7 @@ $(function() {
 <li>noteHead()
 : <a class="el" href="class_ms_1_1_ambitus.html#a87bd1033d756393e9c6f245bd41511ea">Ms::Ambitus</a>
 , <a class="el" href="class_ms_1_1_drumset.html#a57e943db32934a5f5b85f56d6cc5dc47">Ms::Drumset</a>
-, <a class="el" href="class_ms_1_1_note.html#ac618e1fc375ebd6c5abcb15d4d97468a">Ms::Note</a>
+, <a class="el" href="class_ms_1_1_note.html#a2d5aa211d9b5f1c88c782c19f47eb2d9">Ms::Note</a>
 </li>
 <li>NoteHead()
 : <a class="el" href="class_ms_1_1_note_head.html#abbc62265b4b61df86888e4632b37c8da">Ms::NoteHead</a>
@@ -840,7 +854,7 @@ $(function() {
 <li>notes()
 : <a class="el" href="class_ms_1_1_chord.html#a77eab400665dc934f24de11fc7ac1c4e">Ms::Chord</a>
 , <a class="el" href="class_ms_1_1_event.html#ae8cb1b2e18a000e982a697d9507c0901">Ms::Event</a>
-, <a class="el" href="class_ms_1_1_omr_staff.html#a73e151af52dea6d13d1ee35b70940f2e">Ms::OmrStaff</a>
+, <a class="el" href="class_ms_1_1_omr_staff.html#a4015665c1388734595ac40c77d45e5c9">Ms::OmrStaff</a>
 , <a class="el" href="class_ms_1_1_plugin_a_p_i_1_1_chord.html#a329619e42ebbc654611f1514da14af67">Ms::PluginAPI::Chord</a>
 </li>
 <li>notesClicked()
@@ -869,7 +883,7 @@ $(function() {
 : <a class="el" href="class_ms_1_1_note.html#ac79b136dce8b0d5507183a5b1e4ab24a">Ms::Note</a>
 </li>
 <li>NoteVal()
-: <a class="el" href="struct_ms_1_1_note_val.html#a26b90f1c70b0cf49d27a63fbfb11dd67">Ms::NoteVal</a>
+: <a class="el" href="struct_ms_1_1_note_val.html#ace84d82b4d870df423ba388ee99b698a">Ms::NoteVal</a>
 </li>
 <li>noteValForPosition()
 : <a class="el" href="class_ms_1_1_score.html#aedc0a91bb1412e5e8199e0f68a5a6205">Ms::Score</a>
@@ -879,10 +893,10 @@ $(function() {
 , <a class="el" href="class_ms_1_1_m_staff.html#aed0dc4e98c1d5e82e6730882c25c5e75">Ms::MStaff</a>
 </li>
 <li>notifier()
-: <a class="el" href="class_ms_1_1_listener.html#a3093e9163e24a8945ced1a00e3195ac9">Ms::Listener&lt; Data &gt;</a>
+: <a class="el" href="class_ms_1_1_listener.html#a324335090b5c131f947b3216c7be8815">Ms::Listener&lt; Data &gt;</a>
 </li>
 <li>Notifier()
-: <a class="el" href="class_ms_1_1_notifier.html#a5a01f3f64968157b575ff3b41d106c2e">Ms::Notifier&lt; Data &gt;</a>
+: <a class="el" href="class_ms_1_1_notifier.html#a05344fc8edec0afd9f015df3d5bd5271">Ms::Notifier&lt; Data &gt;</a>
 </li>
 <li>notify()
 : <a class="el" href="class_ms_1_1_notifier.html#a1d8f42cc091fb0b38c6a4bc69deaf3f0">Ms::Notifier&lt; Data &gt;</a>
@@ -906,7 +920,7 @@ $(function() {
 , <a class="el" href="class_ms_1_1_score.html#a291718ca12053bd8e663a8fcd756bd6b">Ms::Score</a>
 </li>
 <li>NPlayEvent()
-: <a class="el" href="class_ms_1_1_n_play_event.html#a35c5bca6872f5f40dab64dde29569939">Ms::NPlayEvent</a>
+: <a class="el" href="class_ms_1_1_n_play_event.html#accf7c49d8b3d8445c1b3fe2e2790e66f">Ms::NPlayEvent</a>
 </li>
 <li>NScrollArea()
 : <a class="el" href="class_ms_1_1_n_scroll_area.html#a5694a1388866fc9754d9427371be4033">Ms::NScrollArea</a>
@@ -933,7 +947,7 @@ $(function() {
 : <a class="el" href="class_ms_1_1_tuplet.html#a6a54d737a316219ca42306e6c319a43a">Ms::Tuplet</a>
 </li>
 <li>numberChordRests()
-: <a class="el" href="class_ms_1_1_voice_desc.html#a84a6b5804cb3c4efe4f12a54894e7e3e">Ms::VoiceDesc</a>
+: <a class="el" href="class_ms_1_1_voice_desc.html#ae21139d8e8e852e82e800b88eefeacad">Ms::VoiceDesc</a>
 </li>
 <li>numberClicked()
 : <a class="el" href="class_ms_1_1_tuplet_view.html#aeafd4c63c57fa3c2b7f9b76039a15d08">Ms::TupletView</a>

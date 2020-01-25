@@ -38,6 +38,8 @@ var searchData=
   ['conv_2eh',['conv.h',['../conv_8h.html',1,'']]],
   ['crashreporter_2ecpp',['crashreporter.cpp',['../crashreporter_8cpp.html',1,'']]],
   ['crashreporter_2eh',['crashreporter.h',['../crashreporter_8h.html',1,'']]],
+  ['createpalettedialog_2ecpp',['createpalettedialog.cpp',['../createpalettedialog_8cpp.html',1,'']]],
+  ['createpalettedialog_2eh',['createpalettedialog.h',['../createpalettedialog_8h.html',1,'']]],
   ['cs_5fchorus_2ecc',['cs_chorus.cc',['../cs__chorus_8cc.html',1,'']]],
   ['cs_5fchorus_2eh',['cs_chorus.h',['../cs__chorus_8h.html',1,'']]],
   ['cs_5fchorus_5fif_2ecc',['cs_chorus_if.cc',['../cs__chorus__if_8cc.html',1,'']]],

@@ -3,6 +3,7 @@ var searchData=
   ['ladspa_5fcs_5fchorus1',['Ladspa_CS_chorus1',['../class_ladspa___c_s__chorus1.html',1,'']]],
   ['ladspa_5fcs_5fchorus2',['Ladspa_CS_chorus2',['../class_ladspa___c_s__chorus2.html',1,'']]],
   ['ladspa_5fcs_5fchorus3',['Ladspa_CS_chorus3',['../class_ladspa___c_s__chorus3.html',1,'']]],
+  ['languagefilesize',['LanguageFileSize',['../class_ms_1_1_language_file_size.html',1,'Ms']]],
   ['languageitem',['LanguageItem',['../struct_ms_1_1_language_item.html',1,'Ms']]],
   ['lasso',['Lasso',['../class_ms_1_1_lasso.html',1,'Ms']]],
   ['layer',['Layer',['../struct_ms_1_1_layer.html',1,'Ms']]],

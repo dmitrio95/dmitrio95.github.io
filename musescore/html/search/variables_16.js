@@ -43,7 +43,7 @@ var searchData=
   ['viblfo_5fval',['viblfo_val',['../class_fluid_s_1_1_voice.html#a80a3d6bde051cbaa81d3787e3068e6a0',1,'FluidS::Voice']]],
   ['vibrato',['vibrato',['../struct_ms_1_1_pitch_value.html#a7fd7bbfbf5c8145f75b2ccc6f34b14f5',1,'Ms::PitchValue::vibrato()'],['../struct_ms_1_1_power_tab_1_1pt_beat.html#a7771849980909d3188fb2b077b867502',1,'Ms::PowerTab::ptBeat::vibrato()']]],
   ['vibratotable',['vibratoTable',['../namespace_ms.html#a72bac5ca462bf3e015428cbd0255cc9f',1,'Ms']]],
-  ['view',['view',['../class_ms_1_1_edit_data.html#a70c7ff8a4a32846c4260db13ca80fe08',1,'Ms::EditData::view()'],['../class_ms_1_1_help_browser.html#aeffffc696ada2726a5aff62268782142',1,'Ms::HelpBrowser::view()'],['../class_ms_1_1_plugin_creator.html#a34fb740ca6be6019961d3f612cf33f84',1,'Ms::PluginCreator::view()']]],
+  ['view',['view',['../class_ms_1_1_edit_data.html#a70c7ff8a4a32846c4260db13ca80fe08',1,'Ms::EditData::view()'],['../class_ms_1_1_score_view_cmd_context.html#a9136bf3c39f9e07aac46993114cd62eb',1,'Ms::ScoreViewCmdContext::view()'],['../class_ms_1_1_help_browser.html#aeffffc696ada2726a5aff62268782142',1,'Ms::HelpBrowser::view()'],['../class_ms_1_1_plugin_creator.html#a34fb740ca6be6019961d3f612cf33f84',1,'Ms::PluginCreator::view()']]],
   ['viewbox',['viewBox',['../class_svg_paint_engine_private.html#aeeea5567e98ef63195f57c82edbc8593',1,'SvgPaintEnginePrivate']]],
   ['viewer',['viewer',['../class_ms_1_1_score.html#a130b4e0c4ebf8e21b59f98da1a92f7bd',1,'Ms::Score']]],
   ['viewmodecombo',['viewModeCombo',['../class_ms_1_1_muse_score.html#a078fda031ebc0f355de24f1e9928ed8b',1,'Ms::MuseScore']]],

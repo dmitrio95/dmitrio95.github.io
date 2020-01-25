@@ -32,7 +32,6 @@ var searchData=
   ['freeverbgui_2ecpp',['freeverbgui.cpp',['../freeverbgui_8cpp.html',1,'']]],
   ['fret_2ecpp',['fret.cpp',['../fret_8cpp.html',1,'']]],
   ['fret_2eh',['fret.h',['../fret_8h.html',1,'']]],
-  ['fretcanvas_2eh',['fretcanvas.h',['../fretcanvas_8h.html',1,'']]],
-  ['fretproperties_2ecpp',['fretproperties.cpp',['../fretproperties_8cpp.html',1,'']]],
-  ['fretproperties_2eh',['fretproperties.h',['../fretproperties_8h.html',1,'']]]
+  ['fretcanvas_2ecpp',['fretcanvas.cpp',['../fretcanvas_8cpp.html',1,'']]],
+  ['fretcanvas_2eh',['fretcanvas.h',['../fretcanvas_8h.html',1,'']]]
 ];

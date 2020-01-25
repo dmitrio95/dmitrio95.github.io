@@ -23,7 +23,7 @@
   <td id="projectlogo"><img alt="Logo" src="musescore_logo_full.png"/></td>
   <td id="projectalign" style="padding-left: 0.5em;">
    <div id="projectname">MuseScore
-   &#160;<span id="projectnumber">3.3.4</span>
+   &#160;<span id="projectnumber">3.4</span>
    </div>
    <div id="projectbrief">Music composition and notation</div>
   </td>
@@ -68,7 +68,8 @@ $(function() {
 : <a class="el" href="class_ms_1_1_muse_score.html#a96c9d26a11293b7e819d384171750bda">Ms::MuseScore</a>
 </li>
 <li>ui
-: <a class="el" href="class_ms_1_1_palette_cell_properties_dialog.html#afa290c8da9f5f6824b26e9d29c1cf322">Ms::PaletteCellPropertiesDialog</a>
+: <a class="el" href="class_ms_1_1_create_palette_dialog.html#a65d15b61592ec9ccacd706a5c83ca16d">Ms::CreatePaletteDialog</a>
+, <a class="el" href="class_ms_1_1_palette_cell_properties_dialog.html#afa290c8da9f5f6824b26e9d29c1cf322">Ms::PaletteCellPropertiesDialog</a>
 , <a class="el" href="class_ms_1_1_palette_properties_dialog.html#a3f37be667e3f24d11479b5a379af33a1">Ms::PalettePropertiesDialog</a>
 </li>
 <li>uid()
@@ -244,6 +245,7 @@ $(function() {
 <li>undoRedo()
 : <a class="el" href="class_ms_1_1_edit_text.html#a181a1cb4f01973d752e09c52b2a2ede9">Ms::EditText</a>
 , <a class="el" href="class_ms_1_1_muse_score.html#ad2e7d928f4d6ac71fcac3b4990647d53">Ms::MuseScore</a>
+, <a class="el" href="class_ms_1_1_qml_plugin_engine.html#a102c0e27b3c84b5d69865b4b20346271">Ms::QmlPluginEngine</a>
 , <a class="el" href="class_ms_1_1_score.html#a14036a8de2dbe5adb1a9d4d6b4693229">Ms::Score</a>
 </li>
 <li>undoRemoveBracket()
@@ -560,6 +562,9 @@ $(function() {
 <li>updateBeginHookType()
 : <a class="el" href="class_ms_1_1_inspector_text_line_base.html#ab48137be0d841bf008aaea8862e73b2f">Ms::InspectorTextLineBase</a>
 </li>
+<li>updateBend()
+: <a class="el" href="class_ms_1_1_inspector_bend.html#a4b2054dc48d9c403c38ef873773a094a">Ms::InspectorBend</a>
+</li>
 <li>updateBgView()
 : <a class="el" href="class_ms_1_1_preference_dialog.html#a1e1f7ae61477b02d8bc0f08ab3914cf3">Ms::PreferenceDialog</a>
 </li>
@@ -576,8 +581,8 @@ $(function() {
 : <a class="el" href="struct_zone.html#aa04bc9fc96b8543143a02acac1fec4ed">Zone</a>
 </li>
 <li>updateCellsState()
-: <a class="el" href="class_ms_1_1_palette_tree_model.html#a96fdc93a44ae2e87b1e7f60df6b439b2">Ms::PaletteTreeModel</a>
-, <a class="el" href="class_ms_1_1_palette_workspace.html#a0643a9fcce2d0804d8b6a3b603db44f1">Ms::PaletteWorkspace</a>
+: <a class="el" href="class_ms_1_1_palette_tree_model.html#a187439d0bfb2d66d3ba8a0e23f962464">Ms::PaletteTreeModel</a>
+, <a class="el" href="class_ms_1_1_palette_workspace.html#a96cd1e249415bf650f6dcd1a6c7414e0">Ms::PaletteWorkspace</a>
 </li>
 <li>updateChannel()
 : <a class="el" href="class_ms_1_1_score.html#a1eb5e14f097bff839fd1a80e1d3ba411">Ms::Score</a>
@@ -632,6 +637,9 @@ $(function() {
 </li>
 <li>updateDrumTools()
 : <a class="el" href="class_ms_1_1_muse_score.html#a6df8a161cc2b69fbd77b5cdc9da09ab5">Ms::MuseScore</a>
+</li>
+<li>updateEditElement()
+: <a class="el" href="class_ms_1_1_score_view.html#a9cdbe49057c1b8ed34b6adb3a824f256">Ms::ScoreView</a>
 </li>
 <li>updateElement()
 : <a class="el" href="class_ms_1_1_debugger.html#a658dbdec58dbed7ad6c90c36e4bb985c">Ms::Debugger</a>
@@ -697,24 +705,8 @@ $(function() {
 : <a class="el" href="class_ms_1_1_timeline.html#acd931cd0940f95afde1eefb3184eaf1a">Ms::Timeline</a>
 </li>
 <li>updateGrips()
-: <a class="el" href="class_ms_1_1_arpeggio.html#a89b29f89d578e8679f139fc54bce92f1">Ms::Arpeggio</a>
-, <a class="el" href="class_ms_1_1_bar_line.html#a09be85c01740702066d17ddbe0a3726b">Ms::BarLine</a>
-, <a class="el" href="class_ms_1_1_beam.html#a903a8acfed3c22e3768f8ad853c41e02">Ms::Beam</a>
-, <a class="el" href="class_ms_1_1_box.html#aa74e715291fac350787a9e5a9b1e8c5f">Ms::Box</a>
-, <a class="el" href="class_ms_1_1_bracket.html#a299289b8c7e53bdb9f3e3ab1717b06af">Ms::Bracket</a>
-, <a class="el" href="class_ms_1_1_chord_line.html#a9fe164c9212cea5bdd8dc549e8d0faf0">Ms::ChordLine</a>
-, <a class="el" href="class_ms_1_1_element.html#a8f923fd9314b5af1d41899be45aca411">Ms::Element</a>
-, <a class="el" href="class_ms_1_1_foto_lasso.html#a1cd1d078c1ee659ee0a40f89bfe75d2a">Ms::FotoLasso</a>
-, <a class="el" href="class_ms_1_1_hairpin_segment.html#a0acd369b8fb97e0b9455859074c414ef">Ms::HairpinSegment</a>
-, <a class="el" href="class_ms_1_1_image.html#ab238bb36a54bc67ce32680db15435dcd">Ms::Image</a>
-, <a class="el" href="class_ms_1_1_lasso.html#a7431a1ccaa72e295d22fe92b13b61f60">Ms::Lasso</a>
-, <a class="el" href="class_ms_1_1_line_segment.html#a2f82ae71fc34d562625a7fa1101f8869">Ms::LineSegment</a>
+: <a class="el" href="class_ms_1_1_element.html#a2cbf6c48adfc2d3856a7670ce1a199da">Ms::Element</a>
 , <a class="el" href="class_ms_1_1_score_view.html#a6f8765f4d1cc3b25d4f9f84fc0cf98a3">Ms::ScoreView</a>
-, <a class="el" href="class_ms_1_1_slur_segment.html#a917fe5f35e36bdb20b45e83acd3f7631">Ms::SlurSegment</a>
-, <a class="el" href="class_ms_1_1_spacer.html#a9d6770f1803c28806a3749977c6f241c">Ms::Spacer</a>
-, <a class="el" href="class_ms_1_1_stem.html#aeeabe1391ee04fe4b1896f0337ea137b">Ms::Stem</a>
-, <a class="el" href="class_ms_1_1_tie_segment.html#a9fa016e27f9074d663bedaaf66d23a82">Ms::TieSegment</a>
-, <a class="el" href="class_ms_1_1_tuplet.html#aca86d1b117c148fb0ab452aedc13e4eb">Ms::Tuplet</a>
 </li>
 <li>updateGui()
 : <a class="el" href="class_ms_1_1_synth_control.html#a11e74203e9a3b8b08e37bb906e2987f8">Ms::SynthControl</a>
@@ -832,7 +824,7 @@ $(function() {
 , <a class="el" href="class_ms_1_1_jack_audio.html#adb5b662e1c01562c9766ee0d2744116c">Ms::JackAudio</a>
 </li>
 <li>updatePaletteBeamMode()
-: <a class="el" href="class_ms_1_1_muse_score.html#af4dc471fd30bd18516d02b443ab56fda">Ms::MuseScore</a>
+: <a class="el" href="class_ms_1_1_muse_score.html#aa74a556b28b0d97509666618d815ec38">Ms::MuseScore</a>
 </li>
 <li>updatePatchList()
 : <a class="el" href="class_fluid_s_1_1_fluid.html#a7fe2163aa48b5ed06ab0b6affaac9152">FluidS::Fluid</a>
@@ -892,7 +884,7 @@ $(function() {
 </li>
 <li>updateScoreData()
 : <a class="el" href="class_ms_1_1_login_manager.html#af85dd0ad0b9b8371dbc02bc73fa3fadc">Ms::LoginManager</a>
-, <a class="el" href="class_ms_1_1_upload_score_dialog.html#ad81fa8ae6a273d8055924316be3228f5">Ms::UploadScoreDialog</a>
+, <a class="el" href="class_ms_1_1_upload_score_dialog.html#a72a8223905f8ec3278aff343bbbb6941">Ms::UploadScoreDialog</a>
 </li>
 <li>updateScoreVersions()
 : <a class="el" href="class_ms_1_1_score_comparison_tool.html#a79fa4a6cdff74ec13eb6df1c7d953a81">Ms::ScoreComparisonTool</a>
@@ -956,6 +948,9 @@ $(function() {
 </li>
 <li>updateTranslationClicked()
 : <a class="el" href="class_ms_1_1_preference_dialog.html#a61f827fb99e4e0faea20a1d1d17e2ae3">Ms::PreferenceDialog</a>
+</li>
+<li>updateTremoloBar()
+: <a class="el" href="class_ms_1_1_inspector_tremolo_bar.html#aafc2f30f02360122a67e86edf1d0cfeb">Ms::InspectorTremoloBar</a>
 </li>
 <li>updateTuplet()
 : <a class="el" href="class_ms_1_1_m_track.html#ac03afa43f1e415863a8c065bc8999541">Ms::MTrack</a>
@@ -1056,7 +1051,7 @@ $(function() {
 , <a class="el" href="class_ms_1_1_rest.html#a424936b509f3cffee4e4c7be079a36a6">Ms::Rest</a>
 </li>
 <li>ups()
-: <a class="el" href="class_ms_1_1_slur_tie_segment.html#a39cfeabe9663114fdbd2c3a37b88c62e">Ms::SlurTieSegment</a>
+: <a class="el" href="class_ms_1_1_slur_tie_segment.html#aca97082c86718bf65b5fc362e10122b2">Ms::SlurTieSegment</a>
 </li>
 <li>upsideDown()
 : <a class="el" href="class_ms_1_1_staff_type.html#ae8af065df32cc1cdd015953f081ae2f9">Ms::StaffType</a>
@@ -1064,8 +1059,8 @@ $(function() {
 <li>upSnap()
 : <a class="el" href="class_ms_1_1_pos.html#adea2c8f61df5da09d534ca61dc8c3bf7">Ms::Pos</a>
 </li>
-<li>upSnaped()
-: <a class="el" href="class_ms_1_1_pos.html#a3947ce589d96236f127d374a382ee861">Ms::Pos</a>
+<li>upSnapped()
+: <a class="el" href="class_ms_1_1_pos.html#ac3f7ab7fdeb1a2d16c0ba76eb9c055b6">Ms::Pos</a>
 </li>
 <li>upStaff()
 : <a class="el" href="class_ms_1_1_score.html#aa1c3af2506288fcd42268594bde1497a">Ms::Score</a>

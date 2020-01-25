@@ -44,5 +44,6 @@ var searchData=
   ['exportmusicxml',['ExportMusicXml',['../class_ms_1_1_export_music_xml.html',1,'Ms']]],
   ['expressions',['Expressions',['../class_o_v_e_1_1_expressions.html',1,'OVE']]],
   ['extension',['Extension',['../class_ms_1_1_extension.html',1,'Ms']]],
+  ['extensionfilesize',['ExtensionFileSize',['../class_ms_1_1_extension_file_size.html',1,'Ms']]],
   ['extensionsupdatechecker',['ExtensionsUpdateChecker',['../class_ms_1_1_extensions_update_checker.html',1,'Ms']]]
 ];

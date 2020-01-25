@@ -1,5 +1,6 @@
 var searchData=
 [
+  ['telemetrymanager_2eh',['telemetrymanager.h',['../telemetrymanager_8h.html',1,'']]],
   ['templatebrowser_2ecpp',['templateBrowser.cpp',['../template_browser_8cpp.html',1,'']]],
   ['templatebrowser_2eh',['templateBrowser.h',['../template_browser_8h.html',1,'']]],
   ['tempo_2ecpp',['tempo.cpp',['../tempo_8cpp.html',1,'']]],
@@ -52,9 +53,8 @@ var searchData=
   ['tremolo_2eh',['tremolo.h',['../tremolo_8h.html',1,'']]],
   ['tremolobar_2ecpp',['tremolobar.cpp',['../tremolobar_8cpp.html',1,'']]],
   ['tremolobar_2eh',['tremolobar.h',['../tremolobar_8h.html',1,'']]],
+  ['tremolobarcanvas_2ecpp',['tremolobarcanvas.cpp',['../tremolobarcanvas_8cpp.html',1,'']]],
   ['tremolobarcanvas_2eh',['tremolobarcanvas.h',['../tremolobarcanvas_8h.html',1,'']]],
-  ['tremolobarprop_2ecpp',['tremolobarprop.cpp',['../tremolobarprop_8cpp.html',1,'']]],
-  ['tremolobarprop_2eh',['tremolobarprop.h',['../tremolobarprop_8h.html',1,'']]],
   ['trill_2ecpp',['trill.cpp',['../trill_8cpp.html',1,'']]],
   ['trill_2eh',['trill.h',['../trill_8h.html',1,'']]],
   ['tuplet_2ecpp',['tuplet.cpp',['../tuplet_8cpp.html',1,'']]],

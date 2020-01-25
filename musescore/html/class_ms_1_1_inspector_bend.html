@@ -23,7 +23,7 @@
   <td id="projectlogo"><img alt="Logo" src="musescore_logo_full.png"/></td>
   <td id="projectalign" style="padding-left: 0.5em;">
    <div id="projectname">MuseScore
-   &#160;<span id="projectnumber">3.3.4</span>
+   &#160;<span id="projectnumber">3.4</span>
    </div>
    <div id="projectbrief">Music composition and notation</div>
   </td>
@@ -75,7 +75,7 @@ $(function() {
 </div><!--header-->
 <div class="contents">
 
-<p><code>#include &lt;<a class="el" href="inspector_8h_source.html">inspector.h</a>&gt;</code></p>
+<p><code>#include &lt;<a class="el" href="inspector_bend_8h_source.html">inspectorBend.h</a>&gt;</code></p>
 <div class="dynheader">
 Inheritance diagram for Ms::InspectorBend:</div>
 <div class="dyncontent">
@@ -136,11 +136,11 @@ Collaboration diagram for Ms::InspectorBend:</div>
 Public Member Functions</h2></td></tr>
 <tr class="memitem:a047ff881ad8bdc38317778bc065af1df"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ms_1_1_inspector_bend.html#a047ff881ad8bdc38317778bc065af1df">InspectorBend</a> (QWidget *parent)</td></tr>
 <tr class="separator:a047ff881ad8bdc38317778bc065af1df"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a2f4de069ce25cb1e3a5f16b8b33ee9d8"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ms_1_1_inspector_bend.html#a2f4de069ce25cb1e3a5f16b8b33ee9d8">setElement</a> () override</td></tr>
+<tr class="separator:a2f4de069ce25cb1e3a5f16b8b33ee9d8"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="inherit_header pub_methods_class_ms_1_1_inspector_element_base"><td colspan="2" onclick="javascript:toggleInherit('pub_methods_class_ms_1_1_inspector_element_base')"><img src="closed.png" alt="-"/>&#160;Public Member Functions inherited from <a class="el" href="class_ms_1_1_inspector_element_base.html">Ms::InspectorElementBase</a></td></tr>
 <tr class="memitem:a85e04a1dbe7d5f806aab54168e4c3845 inherit pub_methods_class_ms_1_1_inspector_element_base"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ms_1_1_inspector_element_base.html#a85e04a1dbe7d5f806aab54168e4c3845">InspectorElementBase</a> (QWidget *parent)</td></tr>
 <tr class="separator:a85e04a1dbe7d5f806aab54168e4c3845 inherit pub_methods_class_ms_1_1_inspector_element_base"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:af3a1245fa8eb1aaf0db98478712d6bf9 inherit pub_methods_class_ms_1_1_inspector_element_base"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ms_1_1_inspector_element_base.html#af3a1245fa8eb1aaf0db98478712d6bf9">setElement</a> () override</td></tr>
-<tr class="separator:af3a1245fa8eb1aaf0db98478712d6bf9 inherit pub_methods_class_ms_1_1_inspector_element_base"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="inherit_header pub_methods_class_ms_1_1_inspector_base"><td colspan="2" onclick="javascript:toggleInherit('pub_methods_class_ms_1_1_inspector_base')"><img src="closed.png" alt="-"/>&#160;Public Member Functions inherited from <a class="el" href="class_ms_1_1_inspector_base.html">Ms::InspectorBase</a></td></tr>
 <tr class="memitem:a3d8e18644892eb5804d51ea112bd84f1 inherit pub_methods_class_ms_1_1_inspector_base"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ms_1_1_inspector_base.html#a3d8e18644892eb5804d51ea112bd84f1">InspectorBase</a> (QWidget *parent)</td></tr>
 <tr class="separator:a3d8e18644892eb5804d51ea112bd84f1 inherit pub_methods_class_ms_1_1_inspector_base"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -151,8 +151,10 @@ Public Member Functions</h2></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pri-slots"></a>
 Private Slots</h2></td></tr>
-<tr class="memitem:a66520919c2652aee74ffc3805109459d"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ms_1_1_inspector_bend.html#a66520919c2652aee74ffc3805109459d">propertiesClicked</a> ()</td></tr>
-<tr class="separator:a66520919c2652aee74ffc3805109459d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a883589f264a9837220fee309ce3607bf"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ms_1_1_inspector_bend.html#a883589f264a9837220fee309ce3607bf">bendTypeChanged</a> (int)</td></tr>
+<tr class="separator:a883589f264a9837220fee309ce3607bf"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a4b2054dc48d9c403c38ef873773a094a"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ms_1_1_inspector_bend.html#a4b2054dc48d9c403c38ef873773a094a">updateBend</a> ()</td></tr>
+<tr class="separator:a4b2054dc48d9c403c38ef873773a094a"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pri-attribs"></a>
 Private Attributes</h2></td></tr>
@@ -217,8 +219,8 @@ Additional Inherited Members</h2></td></tr>
 </div>
 </div>
 <h2 class="groupheader">Member Function Documentation</h2>
-<a id="a66520919c2652aee74ffc3805109459d"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a66520919c2652aee74ffc3805109459d">&#9670;&nbsp;</a></span>propertiesClicked</h2>
+<a id="a883589f264a9837220fee309ce3607bf"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a883589f264a9837220fee309ce3607bf">&#9670;&nbsp;</a></span>bendTypeChanged</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -227,7 +229,60 @@ Additional Inherited Members</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">void Ms::InspectorBend::propertiesClicked </td>
+          <td class="memname">void Ms::InspectorBend::bendTypeChanged </td>
+          <td>(</td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>n</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span><span class="mlabel">slot</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a2f4de069ce25cb1e3a5f16b8b33ee9d8"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a2f4de069ce25cb1e3a5f16b8b33ee9d8">&#9670;&nbsp;</a></span>setElement()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void Ms::InspectorBend::setElement </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">override</span><span class="mlabel">virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Reimplemented from <a class="el" href="class_ms_1_1_inspector_element_base.html#af3a1245fa8eb1aaf0db98478712d6bf9">Ms::InspectorElementBase</a>.</p>
+
+</div>
+</div>
+<a id="a4b2054dc48d9c403c38ef873773a094a"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a4b2054dc48d9c403c38ef873773a094a">&#9670;&nbsp;</a></span>updateBend</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void Ms::InspectorBend::updateBend </td>
           <td>(</td>
           <td class="paramname"></td><td>)</td>
           <td></td>
@@ -266,8 +321,8 @@ Additional Inherited Members</h2></td></tr>
 </div>
 </div>
 <hr/>The documentation for this class was generated from the following files:<ul>
-<li>mscore/inspector/<a class="el" href="inspector_8h_source.html">inspector.h</a></li>
-<li>mscore/inspector/<a class="el" href="inspector_8cpp.html">inspector.cpp</a></li>
+<li>mscore/inspector/<a class="el" href="inspector_bend_8h_source.html">inspectorBend.h</a></li>
+<li>mscore/inspector/<a class="el" href="inspector_bend_8cpp.html">inspectorBend.cpp</a></li>
 </ul>
 </div><!-- contents -->
 <!-- start footer part -->

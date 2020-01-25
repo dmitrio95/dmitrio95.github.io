@@ -23,7 +23,7 @@
   <td id="projectlogo"><img alt="Logo" src="musescore_logo_full.png"/></td>
   <td id="projectalign" style="padding-left: 0.5em;">
    <div id="projectname">MuseScore
-   &#160;<span id="projectnumber">3.3.4</span>
+   &#160;<span id="projectnumber">3.4</span>
    </div>
    <div id="projectbrief">Music composition and notation</div>
   </td>
@@ -153,8 +153,10 @@ Public Member Functions</h2></td></tr>
 <tr class="separator:ab65c9185dab52ba92ca1081b5ca8ff0b"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aff06808875d5eada9636c15f84e1030d"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ms_1_1_palette.html#aff06808875d5eada9636c15f84e1030d">setReadOnly</a> (bool val)</td></tr>
 <tr class="separator:aff06808875d5eada9636c15f84e1030d"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a49a635ca56d2e607e8e8b716564f6c89"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ms_1_1_palette.html#a49a635ca56d2e607e8e8b716564f6c89">setDisableDoubleClick</a> (bool val)</td></tr>
-<tr class="separator:a49a635ca56d2e607e8e8b716564f6c89"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a6a27db99388650383aa4baeb79831624"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ms_1_1_palette.html#a6a27db99388650383aa4baeb79831624">disableElementsApply</a> () const</td></tr>
+<tr class="separator:a6a27db99388650383aa4baeb79831624"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a913c41198ca86a06d3b82144f97e8c4c"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ms_1_1_palette.html#a913c41198ca86a06d3b82144f97e8c4c">setDisableElementsApply</a> (bool val)</td></tr>
+<tr class="separator:a913c41198ca86a06d3b82144f97e8c4c"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aa09458d7fec404d5e1c45215bd9f80b1"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ms_1_1_palette.html#aa09458d7fec404d5e1c45215bd9f80b1">systemPalette</a> () const</td></tr>
 <tr class="separator:aa09458d7fec404d5e1c45215bd9f80b1"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:adc6bdec17f1f3ed1c1309b251c2b50d3"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ms_1_1_palette.html#adc6bdec17f1f3ed1c1309b251c2b50d3">setSystemPalette</a> (bool val)</td></tr>
@@ -215,8 +217,8 @@ Public Member Functions</h2></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-static-methods"></a>
 Static Public Member Functions</h2></td></tr>
-<tr class="memitem:aaba9082b5200429b38d1ebd8b1ed4b95"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ms_1_1_palette.html#aaba9082b5200429b38d1ebd8b1ed4b95">applyPaletteElement</a> (<a class="el" href="class_ms_1_1_element.html">Element</a> *<a class="el" href="class_ms_1_1_palette.html#aafe19b70f71e3944f40b7e927ea3c53e">element</a>, Qt::KeyboardModifiers modifiers=0)</td></tr>
-<tr class="separator:aaba9082b5200429b38d1ebd8b1ed4b95"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a67ce43a6d7c924d59e559da9b3f1fa46"><td class="memItemLeft" align="right" valign="top">static bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ms_1_1_palette.html#a67ce43a6d7c924d59e559da9b3f1fa46">applyPaletteElement</a> (<a class="el" href="class_ms_1_1_element.html">Element</a> *<a class="el" href="class_ms_1_1_palette.html#aafe19b70f71e3944f40b7e927ea3c53e">element</a>, Qt::KeyboardModifiers modifiers=0)</td></tr>
+<tr class="separator:a67ce43a6d7c924d59e559da9b3f1fa46"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a5b41c1f2a8593d8e55e347c559e1e8ee"><td class="memItemLeft" align="right" valign="top">static qreal&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ms_1_1_palette.html#a5b41c1f2a8593d8e55e347c559e1e8ee">guiMag</a> ()</td></tr>
 <tr class="separator:a5b41c1f2a8593d8e55e347c559e1e8ee"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
@@ -231,8 +233,8 @@ Private Member Functions</h2></td></tr>
 <tr class="separator:aaa212755adcd67ebdad972978f009a9f"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ab8fcebd07e8ae2dc6341e31de683ee9a"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ms_1_1_palette.html#ab8fcebd07e8ae2dc6341e31de683ee9a">mousePressEvent</a> (QMouseEvent *) override</td></tr>
 <tr class="separator:ab8fcebd07e8ae2dc6341e31de683ee9a"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a77cdfd49d37b801cc022b478a50ea38c"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ms_1_1_palette.html#a77cdfd49d37b801cc022b478a50ea38c">mouseDoubleClickEvent</a> (QMouseEvent *) override</td></tr>
-<tr class="separator:a77cdfd49d37b801cc022b478a50ea38c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:acb89ba3525325b6f37541eba0604145d"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ms_1_1_palette.html#acb89ba3525325b6f37541eba0604145d">mouseReleaseEvent</a> (QMouseEvent *<a class="el" href="class_ms_1_1_palette.html#a2b3c4f77ea5ec96d5e33dcc279556786">event</a>) override</td></tr>
+<tr class="separator:acb89ba3525325b6f37541eba0604145d"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ac898f8237a45595a4d4cd9df16726014"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ms_1_1_palette.html#ac898f8237a45595a4d4cd9df16726014">mouseMoveEvent</a> (QMouseEvent *) override</td></tr>
 <tr class="separator:ac898f8237a45595a4d4cd9df16726014"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a2649ccadd9fb265ae87ce4bc31386334"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ms_1_1_palette.html#a2649ccadd9fb265ae87ce4bc31386334">leaveEvent</a> (QEvent *) override</td></tr>
@@ -272,6 +274,8 @@ Private Attributes</h2></td></tr>
 <tr class="separator:a12cd6fc0e714aa15ed8683b5ae6b96a3"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a1a061371be4ad5c97959d26c30d21c9b"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ms_1_1_palette.html#a1a061371be4ad5c97959d26c30d21c9b">currentIdx</a></td></tr>
 <tr class="separator:a1a061371be4ad5c97959d26c30d21c9b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab4065c6268712243a277f63a4295f50b"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ms_1_1_palette.html#ab4065c6268712243a277f63a4295f50b">pressedIndex</a> = -1</td></tr>
+<tr class="separator:ab4065c6268712243a277f63a4295f50b"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a23d238e20df603074fe74bc71305d628"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ms_1_1_palette.html#a23d238e20df603074fe74bc71305d628">dragIdx</a></td></tr>
 <tr class="separator:a23d238e20df603074fe74bc71305d628"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ae4ade6146b831cbde33faec7dbb5ce62"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ms_1_1_palette.html#ae4ade6146b831cbde33faec7dbb5ce62">selectedIdx</a></td></tr>
@@ -284,8 +288,8 @@ Private Attributes</h2></td></tr>
 <tr class="separator:ab927c8cd0fd0291930ba9ab1a3158838"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a9eb463ea55f3a8d37d941af7d1ee624b"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ms_1_1_palette.html#a9eb463ea55f3a8d37d941af7d1ee624b">_selectable</a></td></tr>
 <tr class="separator:a9eb463ea55f3a8d37d941af7d1ee624b"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a22935e19f7f77600c8df08db50e45d5a"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ms_1_1_palette.html#a22935e19f7f77600c8df08db50e45d5a">_disableDoubleClick</a> { false }</td></tr>
-<tr class="separator:a22935e19f7f77600c8df08db50e45d5a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af8e088bb52f196bb6a5fd4f8382bf9cc"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ms_1_1_palette.html#af8e088bb52f196bb6a5fd4f8382bf9cc">_disableElementsApply</a> { false }</td></tr>
+<tr class="separator:af8e088bb52f196bb6a5fd4f8382bf9cc"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aa294aaafc6dbc01dffcb18af88f45bee"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ms_1_1_palette.html#aa294aaafc6dbc01dffcb18af88f45bee">_readOnly</a></td></tr>
 <tr class="separator:aa294aaafc6dbc01dffcb18af88f45bee"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ac77814070d1657e63876cef6acd2f300"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ms_1_1_palette.html#ac77814070d1657e63876cef6acd2f300">_systemPalette</a></td></tr>
@@ -501,8 +505,8 @@ Private Attributes</h2></td></tr>
 
 </div>
 </div>
-<a id="aaba9082b5200429b38d1ebd8b1ed4b95"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#aaba9082b5200429b38d1ebd8b1ed4b95">&#9670;&nbsp;</a></span>applyPaletteElement() <span class="overload">[2/2]</span></h2>
+<a id="a67ce43a6d7c924d59e559da9b3f1fa46"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a67ce43a6d7c924d59e559da9b3f1fa46">&#9670;&nbsp;</a></span>applyPaletteElement() <span class="overload">[2/2]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -511,7 +515,7 @@ Private Attributes</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">void Ms::Palette::applyPaletteElement </td>
+          <td class="memname">bool Ms::Palette::applyPaletteElement </td>
           <td>(</td>
           <td class="paramtype"><a class="el" href="class_ms_1_1_element.html">Element</a> *&#160;</td>
           <td class="paramname"><em>element</em>, </td>
@@ -694,6 +698,31 @@ Private Attributes</h2></td></tr>
   </td>
   <td class="mlabels-right">
 <span class="mlabels"><span class="mlabel">override</span><span class="mlabel">private</span><span class="mlabel">virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a6a27db99388650383aa4baeb79831624"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a6a27db99388650383aa4baeb79831624">&#9670;&nbsp;</a></span>disableElementsApply()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool Ms::Palette::disableElementsApply </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
   </tr>
 </table>
 </div><div class="memdoc">
@@ -1315,32 +1344,6 @@ Private Attributes</h2></td></tr>
 
 </div>
 </div>
-<a id="a77cdfd49d37b801cc022b478a50ea38c"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a77cdfd49d37b801cc022b478a50ea38c">&#9670;&nbsp;</a></span>mouseDoubleClickEvent()</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">void Ms::Palette::mouseDoubleClickEvent </td>
-          <td>(</td>
-          <td class="paramtype">QMouseEvent *&#160;</td>
-          <td class="paramname"><em>ev</em></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">override</span><span class="mlabel">private</span><span class="mlabel">virtual</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-</div>
-</div>
 <a id="ac898f8237a45595a4d4cd9df16726014"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#ac898f8237a45595a4d4cd9df16726014">&#9670;&nbsp;</a></span>mouseMoveEvent()</h2>
 
@@ -1387,6 +1390,32 @@ Private Attributes</h2></td></tr>
   </td>
   <td class="mlabels-right">
 <span class="mlabels"><span class="mlabel">override</span><span class="mlabel">private</span><span class="mlabel">virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="acb89ba3525325b6f37541eba0604145d"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#acb89ba3525325b6f37541eba0604145d">&#9670;&nbsp;</a></span>mouseReleaseEvent()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void Ms::Palette::mouseReleaseEvent </td>
+          <td>(</td>
+          <td class="paramtype">QMouseEvent *&#160;</td>
+          <td class="paramname"><em>event</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">override</span><span class="mlabel">private</span></span>  </td>
   </tr>
 </table>
 </div><div class="memdoc">
@@ -1695,8 +1724,8 @@ Private Attributes</h2></td></tr>
 
 </div>
 </div>
-<a id="a49a635ca56d2e607e8e8b716564f6c89"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a49a635ca56d2e607e8e8b716564f6c89">&#9670;&nbsp;</a></span>setDisableDoubleClick()</h2>
+<a id="a913c41198ca86a06d3b82144f97e8c4c"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a913c41198ca86a06d3b82144f97e8c4c">&#9670;&nbsp;</a></span>setDisableElementsApply()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -1705,7 +1734,7 @@ Private Attributes</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">void Ms::Palette::setDisableDoubleClick </td>
+          <td class="memname">void Ms::Palette::setDisableElementsApply </td>
           <td>(</td>
           <td class="paramtype">bool&#160;</td>
           <td class="paramname"><em>val</em></td><td>)</td>
@@ -2114,8 +2143,8 @@ Private Attributes</h2></td></tr>
 </div>
 </div>
 <h2 class="groupheader">Member Data Documentation</h2>
-<a id="a22935e19f7f77600c8df08db50e45d5a"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a22935e19f7f77600c8df08db50e45d5a">&#9670;&nbsp;</a></span>_disableDoubleClick</h2>
+<a id="af8e088bb52f196bb6a5fd4f8382bf9cc"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#af8e088bb52f196bb6a5fd4f8382bf9cc">&#9670;&nbsp;</a></span>_disableElementsApply</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -2124,7 +2153,7 @@ Private Attributes</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">bool Ms::Palette::_disableDoubleClick { false }</td>
+          <td class="memname">bool Ms::Palette::_disableElementsApply { false }</td>
         </tr>
       </table>
   </td>
@@ -2477,6 +2506,28 @@ Private Attributes</h2></td></tr>
       <table class="memname">
         <tr>
           <td class="memname">int Ms::Palette::hgrid</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="ab4065c6268712243a277f63a4295f50b"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ab4065c6268712243a277f63a4295f50b">&#9670;&nbsp;</a></span>pressedIndex</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">int Ms::Palette::pressedIndex = -1</td>
         </tr>
       </table>
   </td>

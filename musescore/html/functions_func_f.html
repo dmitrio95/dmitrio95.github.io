@@ -23,7 +23,7 @@
   <td id="projectlogo"><img alt="Logo" src="musescore_logo_full.png"/></td>
   <td id="projectalign" style="padding-left: 0.5em;">
    <div id="projectname">MuseScore
-   &#160;<span id="projectnumber">3.3.4</span>
+   &#160;<span id="projectnumber">3.4</span>
    </div>
    <div id="projectbrief">Music composition and notation</div>
   </td>
@@ -206,8 +206,8 @@ $(function() {
 : <a class="el" href="class_ms_1_1_filter_palette_tree_model.html#a200f622126c47abb09967f6b0336d4ed">Ms::FilterPaletteTreeModel</a>
 </li>
 <li>filterAcceptsRow()
-: <a class="el" href="class_ms_1_1_child_filter_proxy_model.html#a721a1710bbc071785ff008f09282590b">Ms::ChildFilterProxyModel</a>
-, <a class="el" href="class_ms_1_1_filter_palette_tree_model.html#a28848436aaf78e3d9615503eb666fe70">Ms::FilterPaletteTreeModel</a>
+: <a class="el" href="class_ms_1_1_filter_palette_tree_model.html#a28848436aaf78e3d9615503eb666fe70">Ms::FilterPaletteTreeModel</a>
+, <a class="el" href="class_ms_1_1_palette_cell_filter_proxy_model.html#ac75b99fb6b2931231771a47c8ab17739">Ms::PaletteCellFilterProxyModel</a>
 </li>
 <li>filterAdvancedPreferences()
 : <a class="el" href="class_ms_1_1_preference_dialog.html#ab4e2f50362399ece5fe90d6d0f51ac17">Ms::PreferenceDialog</a>
@@ -525,7 +525,7 @@ $(function() {
 : <a class="el" href="class_ms_1_1_system.html#a7d2a3a40bb9f87be831540f0258e95df">Ms::System</a>
 </li>
 <li>firstVisibleSysStaff()
-: <a class="el" href="class_ms_1_1_system.html#a14ef80f4ad72c0efd50238ba2e8b2932">Ms::System</a>
+: <a class="el" href="class_ms_1_1_system.html#a16444d8068cb8bcf5ba32a83c4c9eb8a">Ms::System</a>
 </li>
 <li>fixed()
 : <a class="el" href="class_ms_1_1_note.html#a4f70ed1ad94787f19a5b90c38df3564e">Ms::Note</a>
@@ -751,7 +751,7 @@ $(function() {
 <li>format()
 : <a class="el" href="class_midi_file.html#a4259956087abc82f9b1f3a668874664c">MidiFile</a>
 , <a class="el" href="class_ms_1_1_midi_file.html#a4c63895c1dca70765690569705d6f2bf">Ms::MidiFile</a>
-, <a class="el" href="class_ms_1_1_text_cursor.html#a4457e59ff1af87233fdd37aa845b58e9">Ms::TextCursor</a>
+, <a class="el" href="class_ms_1_1_text_cursor.html#aa49f92ccc5aa500d3f06045051d98134">Ms::TextCursor</a>
 </li>
 <li>formatAt()
 : <a class="el" href="class_ms_1_1_text_block.html#a483b5158eff002b84b955255a05c7820">Ms::TextBlock</a>
@@ -808,7 +808,7 @@ $(function() {
 , <a class="el" href="struct_phase.html#a2fd3fa2b4ac20ead08c810d1c590c8b8">Phase</a>
 </li>
 <li>Fraction()
-: <a class="el" href="class_ms_1_1_fraction.html#a60f8d77cf56e1a39991443ab04188c2e">Ms::Fraction</a>
+: <a class="el" href="class_ms_1_1_fraction.html#ab5e17f0cad51963a1267b04029789ea8">Ms::Fraction</a>
 </li>
 <li>fraction()
 : <a class="el" href="class_ms_1_1_plugin_a_p_i_1_1_fraction_wrapper.html#a7c2a6df38e136c397b4beed23c2b248f">Ms::PluginAPI::FractionWrapper</a>
@@ -893,10 +893,7 @@ $(function() {
 : <a class="el" href="class_ms_1_1_note.html#a22a34a31db73a7057530e42cfe9da0d6">Ms::Note</a>
 </li>
 <li>FretDiagram()
-: <a class="el" href="class_ms_1_1_fret_diagram.html#a7d309f03c525c438076bd435f57e20c8">Ms::FretDiagram</a>
-</li>
-<li>FretDiagramProperties()
-: <a class="el" href="class_ms_1_1_fret_diagram_properties.html#ae046974b41f14bba1e3af1c05dfc085e">Ms::FretDiagramProperties</a>
+: <a class="el" href="class_ms_1_1_fret_diagram.html#a4d4ce180c8aafdb1f7a7c9d7dc477c7c">Ms::FretDiagram</a>
 </li>
 <li>FretDot()
 : <a class="el" href="class_ms_1_1_fret_dot.html#aa25abf27c40bd0d43d2914808ce0685e">Ms::FretDot</a>
@@ -934,15 +931,9 @@ $(function() {
 <li>fretOffset()
 : <a class="el" href="class_ms_1_1_fret_diagram.html#a6dcd218d8830781007d6386448e34282">Ms::FretDiagram</a>
 </li>
-<li>fretOffsetChanged()
-: <a class="el" href="class_ms_1_1_fret_diagram_properties.html#a96176036587df4f39f56df6cdfa87e4f">Ms::FretDiagramProperties</a>
-</li>
 <li>frets()
 : <a class="el" href="class_ms_1_1_fret_diagram.html#a0eb5f22c3ca5c3dcf5b094d8d9b73606">Ms::FretDiagram</a>
 , <a class="el" href="class_ms_1_1_string_data.html#a715431405d3e920edb95f1a595e61dea">Ms::StringData</a>
-</li>
-<li>fretsChanged()
-: <a class="el" href="class_ms_1_1_fret_diagram_properties.html#a76bd51347dfcc782e745b3c6ab6568f4">Ms::FretDiagramProperties</a>
 </li>
 <li>fretString()
 : <a class="el" href="class_ms_1_1_staff_type.html#a7e44b77a245a1acdd78e3c7c096da4bd">Ms::StaffType</a>
@@ -951,7 +942,7 @@ $(function() {
 : <a class="el" href="class_ms_1_1_string_data.html#af92528da6ea15301451a666c0624c140">Ms::StringData</a>
 </li>
 <li>FretUndoData()
-: <a class="el" href="class_ms_1_1_fret_undo_data.html#ad5e633cdb1229a1fc6f91ab272272215">Ms::FretUndoData</a>
+: <a class="el" href="class_ms_1_1_fret_undo_data.html#ac68c7db7c111dcc774b7e34d30aeaea6">Ms::FretUndoData</a>
 </li>
 <li>fromContext()
 : <a class="el" href="class_ms_1_1_excerpt_change_script_entry.html#a9a1f70790396a5f204410c38cfb78c01">Ms::ExcerptChangeScriptEntry</a>
@@ -977,13 +968,13 @@ $(function() {
 , <a class="el" href="class_ms_1_1_reduced_fraction.html#ad41ece8c81419c6fe9808d9f2d6fee93">Ms::ReducedFraction</a>
 </li>
 <li>fromXml()
-: <a class="el" href="class_ms_1_1_harmony.html#ab6eed1493b91da8b0907abab85671106">Ms::Harmony</a>
+: <a class="el" href="class_ms_1_1_harmony.html#a34fe9faefb327a8067e3bde11cbca890">Ms::Harmony</a>
 , <a class="el" href="class_ms_1_1_parsed_chord.html#ab3a78176f1568fc9ae039896542506d5">Ms::ParsedChord</a>
 </li>
 <li>frontSegment()
-: <a class="el" href="class_ms_1_1_s_line.html#a68340da18f7a8d8d157c53edbf3e06c9">Ms::SLine</a>
-, <a class="el" href="class_ms_1_1_slur.html#ae1f480bf090e34ba894d5ec14dee897e">Ms::Slur</a>
-, <a class="el" href="class_ms_1_1_spanner.html#a3b05604f27ca56b7b1ba4bffed503f50">Ms::Spanner</a>
+: <a class="el" href="class_ms_1_1_s_line.html#a844d4d764312f0095e411000598bdafe">Ms::SLine</a>
+, <a class="el" href="class_ms_1_1_slur.html#aa9ed9b565775261a351a55d6d9837c4c">Ms::Slur</a>
+, <a class="el" href="class_ms_1_1_spanner.html#a757d68de4c1432da12b5ed970de1fade">Ms::Spanner</a>
 , <a class="el" href="class_ms_1_1_tie.html#aa97820b8ccc4fb7ed0048c00568bd40b">Ms::Tie</a>
 </li>
 <li>frozenColCount()
@@ -1015,7 +1006,10 @@ $(function() {
 : <a class="el" href="class_fluid_s_1_1_s_font.html#a5a0bab5804a0c5772dc0387822851ce2">FluidS::SFont</a>
 </li>
 <li>FSymbol()
-: <a class="el" href="class_ms_1_1_f_symbol.html#a74362dff04196c024d21af8672b11b52">Ms::FSymbol</a>
+: <a class="el" href="class_ms_1_1_f_symbol.html#a5feac8b09f4aa66e16727bcba6c38577">Ms::FSymbol</a>
+</li>
+<li>fullVersion()
+: <a class="el" href="class_ms_1_1_muse_score.html#a2463bdeeebc90c5cf5d1aafebff2f1ba">Ms::MuseScore</a>
 </li>
 <li>fval()
 : <a class="el" href="class_synti_parameter.html#a7b8d7a591fc57b2c37f77e9886e0b408">SyntiParameter</a>

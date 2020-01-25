@@ -70,7 +70,7 @@ var searchData=
   ['midiprogramchange',['MidiProgramChange',['../class_o_v_e_1_1_midi_program_change.html',1,'OVE']]],
   ['midiremote',['MidiRemote',['../struct_ms_1_1_midi_remote.html',1,'Ms']]],
   ['midirenderer',['MidiRenderer',['../class_ms_1_1_midi_renderer.html',1,'Ms']]],
-  ['miditrack',['MidiTrack',['../class_ms_1_1_midi_track.html',1,'Ms::MidiTrack'],['../class_midi_track.html',1,'MidiTrack']]],
+  ['miditrack',['MidiTrack',['../class_midi_track.html',1,'MidiTrack'],['../class_ms_1_1_midi_track.html',1,'Ms::MidiTrack']]],
   ['minmaxpitch',['MinMaxPitch',['../class_ms_1_1_midi_clef_1_1_min_max_pitch.html',1,'Ms::MidiClef']]],
   ['mixer',['Mixer',['../class_ms_1_1_mixer.html',1,'Ms']]],
   ['mixerdetails',['MixerDetails',['../class_ms_1_1_mixer_details.html',1,'Ms']]],

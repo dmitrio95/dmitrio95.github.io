@@ -23,7 +23,7 @@
   <td id="projectlogo"><img alt="Logo" src="musescore_logo_full.png"/></td>
   <td id="projectalign" style="padding-left: 0.5em;">
    <div id="projectname">MuseScore
-   &#160;<span id="projectnumber">3.3.4</span>
+   &#160;<span id="projectnumber">3.4</span>
    </div>
    <div id="projectbrief">Music composition and notation</div>
   </td>
@@ -189,11 +189,11 @@ $(function() {
 , <a class="el" href="class_ms_1_1_edit_string_data.html#a48f02370fa833a48737d4774a269e955">Ms::EditStringData</a>
 , <a class="el" href="class_ms_1_1_enum_preference.html#afcee35921f5c82916bd068afa7cfbdff">Ms::EnumPreference</a>
 , <a class="el" href="class_ms_1_1_excerpts_dialog.html#a2fd3aeecf54517c0fdda7dd788016829">Ms::ExcerptsDialog</a>
-, <a class="el" href="class_ms_1_1_insert_measures_dialog.html#a50e1ed85bd630686260025b149f4b4cc">Ms::InsertMeasuresDialog</a>
+, <a class="el" href="class_ms_1_1_insert_measures_dialog.html#a94373750164bbe4141c674f620ee930b">Ms::InsertMeasuresDialog</a>
 , <a class="el" href="class_ms_1_1_instruments_dialog.html#ab0dc1bd59bff5b2a5f9af4ff69648a9e">Ms::InstrumentsDialog</a>
 , <a class="el" href="class_ms_1_1_int_preference.html#ae0103bb2ab6ea61d739a20a93593cd1b">Ms::IntPreference</a>
 , <a class="el" href="class_ms_1_1_layer_manager.html#a63b5911dbcbcd8037ebdeabbe4e59c76">Ms::LayerManager</a>
-, <a class="el" href="class_ms_1_1_measures_dialog.html#a742d63141063620e18abae1995337318">Ms::MeasuresDialog</a>
+, <a class="el" href="class_ms_1_1_measures_dialog.html#aef03cae4af91523b9a85ad51d946c48e">Ms::MeasuresDialog</a>
 , <a class="el" href="class_ms_1_1_meta_edit_dialog.html#ab56f513445da9a61f89ae9c47a91adcf">Ms::MetaEditDialog</a>
 , <a class="el" href="class_ms_1_1_palette_cell_filter.html#a94b29801dcdb75198e116e3c12962c2a">Ms::PaletteCellFilter</a>
 , <a class="el" href="class_ms_1_1_palette_properties.html#a80029718a0beec20c6dcb18bc12a771c">Ms::PaletteProperties</a>
@@ -1144,6 +1144,9 @@ $(function() {
 <li>allowShowMidiPanel()
 : <a class="el" href="class_ms_1_1_muse_score.html#aabae5f5b26005d26bf91706efa461586">Ms::MuseScore</a>
 </li>
+<li>allPartsClicked()
+: <a class="el" href="class_ms_1_1_excerpts_dialog.html#aba4587e8a038a1de0c427a6ee1370eb1">Ms::ExcerptsDialog</a>
+</li>
 <li>allpassL
 : <a class="el" href="class_freeverb.html#aee5bdceba27da3dd4be4d5924d0dcb2e">Freeverb</a>
 </li>
@@ -1344,18 +1347,16 @@ $(function() {
 , <a class="el" href="class_ms_1_1_directions_anchor.html#add9dc45c66581f30b82c9a02459dcc1c">Ms::DirectionsAnchor</a>
 , <a class="el" href="struct_ms_1_1_export_ly_1_1_instruction_anchor.html#ae98ccaa0a06778d22f69093d74f17315">Ms::ExportLy::InstructionAnchor</a>
 , <a class="el" href="class_ms_1_1_plugin_a_p_i_1_1_element.html#a36cc4b99c86526855ca934ac0965da32">Ms::PluginAPI::Element</a>
+, <a class="el" href="class_ms_1_1_spanner.html#a646ff7786639fcd95dcefe5b206754d7">Ms::Spanner</a>
 </li>
 <li>Anchor
 : <a class="el" href="class_ms_1_1_spanner.html#a4dc69fc35fde4cd35118dde886f292ae">Ms::Spanner</a>
 </li>
-<li>anchor()
-: <a class="el" href="class_ms_1_1_spanner.html#a646ff7786639fcd95dcefe5b206754d7">Ms::Spanner</a>
+<li>AnchorGroup
+: <a class="el" href="class_ms_1_1_articulation.html#a06d3b11ae72306662f5dc1b885063fff">Ms::Articulation</a>
 </li>
 <li>anchorGroup()
 : <a class="el" href="class_ms_1_1_articulation.html#aa34d1351ddaf411d4ea676d13707930d">Ms::Articulation</a>
-</li>
-<li>AnchorGroup
-: <a class="el" href="class_ms_1_1_articulation.html#a06d3b11ae72306662f5dc1b885063fff">Ms::Articulation</a>
 </li>
 <li>anchors
 : <a class="el" href="class_ms_1_1_export_ly.html#a71759557c475406e86059a3fa37f5d8e">Ms::ExportLy</a>
@@ -1387,7 +1388,7 @@ $(function() {
 : <a class="el" href="class_ms_1_1_api_info.html#a4b14135d45cd3344b55899eb9f3c4bbb">Ms::ApiInfo</a>
 </li>
 <li>ApiInfo()
-: <a class="el" href="class_ms_1_1_api_info.html#a8236e886255a98dad384123a7b2aa7ba">Ms::ApiInfo</a>
+: <a class="el" href="class_ms_1_1_api_info.html#a0188f96813ce17240b00d77b5b653fc7">Ms::ApiInfo</a>
 </li>
 <li>apiInfoLocation()
 : <a class="el" href="class_ms_1_1_api_info.html#afc952ac14d63ab70ba978efc7a70149f">Ms::ApiInfo</a>
@@ -1449,7 +1450,7 @@ $(function() {
 : <a class="el" href="class_ms_1_1_score.html#ace36c8f205e8efc7a1d7cd6965c3f212">Ms::Score</a>
 </li>
 <li>appendPart()
-: <a class="el" href="class_ms_1_1_score.html#a11e640e35e56a7a987c78282779dc841">Ms::Score</a>
+: <a class="el" href="class_ms_1_1_score.html#a46d20f7ea12cfb3b443497f14b6f1803">Ms::Score</a>
 </li>
 <li>appendScore()
 : <a class="el" href="class_ms_1_1_muse_score.html#afb97d9725e0df1b3e1e23528f2745daa">Ms::MuseScore</a>
@@ -1487,9 +1488,9 @@ $(function() {
 : <a class="el" href="class_ms_1_1_import_midi_panel.html#a8427c5a90cd61317d10c452de872ef24">Ms::ImportMidiPanel</a>
 </li>
 <li>applyPaletteElement()
-: <a class="el" href="class_ms_1_1_abstract_palette_controller.html#aee627fb5a324a2b102355a00066c7a89">Ms::AbstractPaletteController</a>
+: <a class="el" href="class_ms_1_1_abstract_palette_controller.html#a61dbcd02d1be99bc02fe017353fc8607">Ms::AbstractPaletteController</a>
 , <a class="el" href="class_ms_1_1_palette.html#ad544721259503180301a49eb0c1f1e22">Ms::Palette</a>
-, <a class="el" href="class_ms_1_1_user_palette_controller.html#aaecd8e71fcbdf9e4c73a246e15f1279e">Ms::UserPaletteController</a>
+, <a class="el" href="class_ms_1_1_user_palette_controller.html#a14f24a517d00ee8c9c320007b86cf3c4">Ms::UserPaletteController</a>
 </li>
 <li>applyProperty()
 : <a class="el" href="class_ms_1_1_part_channel_settings_link.html#a1ae1cc615908bb8585f666db4c32d398">Ms::PartChannelSettingsLink</a>
@@ -1526,6 +1527,9 @@ $(function() {
 <li>areInitialPropertiesChanged()
 : <a class="el" href="class_ms_1_1_palette_cell_properties_dialog.html#a1c4b808c6133976911d8a1bca7b78c63">Ms::PaletteCellPropertiesDialog</a>
 , <a class="el" href="class_ms_1_1_palette_properties_dialog.html#afcfef1e9fc8a492ba79e1fea3fce05c4">Ms::PalettePropertiesDialog</a>
+</li>
+<li>argv
+: <a class="el" href="struct_ms_1_1_muse_score_application_1_1_command_line_parse_result.html#a70c3fe72b0fec55e4a5ff48c030a5bc7">Ms::MuseScoreApplication::CommandLineParseResult</a>
 </li>
 <li>Arpeggio()
 : <a class="el" href="class_ms_1_1_arpeggio.html#af2ee52123d2c0edf807d2b9e00638d5e">Ms::Arpeggio</a>
@@ -1592,7 +1596,7 @@ $(function() {
 : <a class="el" href="class_ms_1_1_articulations.html#acb89e0d1dd05f40ad7030214ac0a56ff">Ms::Articulations</a>
 </li>
 <li>articulations()
-: <a class="el" href="class_ms_1_1_chord.html#a6d834df9b01e2fb3f0546e455ee2c472">Ms::Chord</a>
+: <a class="el" href="class_ms_1_1_chord.html#a9ba14767335dea9274a6e42b4bca2452">Ms::Chord</a>
 , <a class="el" href="class_ms_1_1_music_x_m_l_parser_notations.html#acc4d0ef471a58724a60fda2057ce75a2">Ms::MusicXMLParserNotations</a>
 </li>
 <li>articulations_
@@ -1770,7 +1774,7 @@ $(function() {
 : <a class="el" href="class_ms_1_1_login_manager.html#a4f48b7cb25267e10769bc82af4e975ff">Ms::LoginManager</a>
 </li>
 <li>AveragePitch()
-: <a class="el" href="class_ms_1_1_midi_clef_1_1_average_pitch.html#a4a48321e47241df673c19a2e4aa1a86c">Ms::MidiClef::AveragePitch</a>
+: <a class="el" href="class_ms_1_1_midi_clef_1_1_average_pitch.html#a97f5f0d510f776198856529dcefbdf45">Ms::MidiClef::AveragePitch</a>
 </li>
 <li>AwlPlugin()
 : <a class="el" href="class_awl_plugin.html#a7b56f6e007f42be1de805bba88894637">AwlPlugin</a>

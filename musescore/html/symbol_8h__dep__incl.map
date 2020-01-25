@@ -35,7 +35,7 @@
 <area shape="rect" id="node20" href="$measure_8cpp.html" title="Implementation of most part of class Measure. " alt="" coords="1319,453,1477,480"/>
 <area shape="rect" id="node21" href="$note_8cpp.html" title="Implementation of classes Note and ShadowNote. " alt="" coords="529,453,661,480"/>
 <area shape="rect" id="node22" href="$drumset_8cpp.html" title="libmscore/drumset.cpp" alt="" coords="1238,379,1393,405"/>
-<area shape="rect" id="node23" href="$part_8cpp.html" title="libmscore/part.cpp" alt="" coords="1716,379,1845,405"/>
+<area shape="rect" id="node23" href="$libmscore_2part_8cpp.html" title="libmscore/part.cpp" alt="" coords="1716,379,1845,405"/>
 <area shape="rect" id="node24" href="$durationtype_8cpp.html" title="libmscore/durationtype.cpp" alt="" coords="331,229,510,256"/>
 <area shape="rect" id="node25" href="$mcursor_8cpp.html" title="libmscore/mcursor.cpp" alt="" coords="534,229,689,256"/>
 <area shape="rect" id="node26" href="$ambitus_8h.html" title="libmscore/ambitus.h" alt="" coords="2171,379,2310,405"/>

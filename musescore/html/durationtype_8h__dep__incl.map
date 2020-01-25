@@ -36,7 +36,7 @@
 <area shape="rect" id="node16" href="$instrtemplate_8cpp.html" title="libmscore/instrtemplate.cpp" alt="" coords="3729,319,3911,345"/>
 <area shape="rect" id="node17" href="$measure_8cpp.html" title="Implementation of most part of class Measure. " alt="" coords="132,319,289,345"/>
 <area shape="rect" id="node18" href="$note_8cpp.html" title="Implementation of classes Note and ShadowNote. " alt="" coords="1529,319,1661,345"/>
-<area shape="rect" id="node19" href="$part_8cpp.html" title="libmscore/part.cpp" alt="" coords="3935,319,4065,345"/>
+<area shape="rect" id="node19" href="$libmscore_2part_8cpp.html" title="libmscore/part.cpp" alt="" coords="3935,319,4065,345"/>
 <area shape="rect" id="node20" href="$read114_8cpp.html" title="libmscore/read114.cpp" alt="" coords="1010,319,1163,345"/>
 <area shape="rect" id="node21" href="$rest_8cpp.html" title="libmscore/rest.cpp" alt="" coords="2554,319,2683,345"/>
 <area shape="rect" id="node22" href="$libmscore_2score_8cpp.html" title="Implementation of class Score (partial). " alt="" coords="505,319,644,345"/>

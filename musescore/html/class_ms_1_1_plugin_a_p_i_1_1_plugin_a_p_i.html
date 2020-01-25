@@ -23,7 +23,7 @@
   <td id="projectlogo"><img alt="Logo" src="musescore_logo_full.png"/></td>
   <td id="projectalign" style="padding-left: 0.5em;">
    <div id="projectname">MuseScore
-   &#160;<span id="projectnumber">3.3.4</span>
+   &#160;<span id="projectnumber">3.4</span>
    </div>
    <div id="projectbrief">Music composition and notation</div>
   </td>
@@ -1451,7 +1451,7 @@ changes" dialog on closing a score that is either imported or was created with a
 <li><code>endLayoutTick</code> </li>
 </ul>
 <p>If a plugin modifies score in this handler, then it should:</p><ol type="1">
-<li>enclose all modifications within <a class="el" href="class_ms_1_1_plugin_a_p_i_1_1_score.html#aef152da236f9f66810fc5346db15a443" title="For &quot;dock&quot; type plugins: to be used before score modifications to make them undoable. ">Score::startCmd()</a> / <a class="el" href="class_ms_1_1_plugin_a_p_i_1_1_score.html#a5363477277a5380950750d80935d5e5b" title="For &quot;dock&quot; type plugins: to be used after score modifications to make them undoable. ">Score::endCmd()</a></li>
+<li>enclose all modifications within <a class="el" href="class_ms_1_1_plugin_a_p_i_1_1_score.html#af62e98c89ac6088d73a5889a5080cdca" title="For &quot;dock&quot; type plugins: to be used before score modifications to make them undoable. ">Score::startCmd()</a> / <a class="el" href="class_ms_1_1_plugin_a_p_i_1_1_score.html#a5363477277a5380950750d80935d5e5b" title="For &quot;dock&quot; type plugins: to be used after score modifications to make them undoable. ">Score::endCmd()</a></li>
 <li>take care of preventing an infinite recursion, as plugin-originated changes will trigger this signal again after calling <a class="el" href="class_ms_1_1_plugin_a_p_i_1_1_score.html#a5363477277a5380950750d80935d5e5b" title="For &quot;dock&quot; type plugins: to be used after score modifications to make them undoable. ">Score::endCmd()</a></li>
 </ol>
 <p>Example: </p><div class="fragment"><div class="line"><span class="keyword">import</span> QtQuick 2.0</div><div class="line">import MuseScore 3.0</div><div class="line"></div><div class="line">MuseScore {</div><div class="line">    <a class="code" href="class_ms_1_1_qml_plugin.html#aba600bb513b042b3a2b71ff3f86ec868">menuPath</a>: <span class="stringliteral">&quot;Plugins.selectionChangeExample&quot;</span></div><div class="line">    <a class="code" href="class_ms_1_1_qml_plugin.html#a00c9b7b2e7f3ed9d2eabede736cc4bb1">pluginType</a>: <span class="stringliteral">&quot;dock&quot;</span></div><div class="line">    <a class="code" href="class_ms_1_1_qml_plugin.html#a87ece538c56e41e023021db19106daa0">dockArea</a>:   <span class="stringliteral">&quot;left&quot;</span></div><div class="line">    implicitHeight: 75 <span class="comment">// necessary for dock widget to appear with nonzero height</span></div><div class="line">    implicitWidth: 150</div><div class="line"></div><div class="line">    <a class="code" href="namespace_o_v_e.html#abf1c8a6d685ec4cc52a50c9f490de139a9dffbf69ffba8bc38bc4e01abf4b1675">Text</a> {</div><div class="line">       <span class="comment">// A label which will display pitch of the currently selected note</span></div><div class="line">       id: pitchLabel</div><div class="line">       anchors.fill: parent</div><div class="line">    }</div><div class="line"></div><div class="line">    onScoreStateChanged: {</div><div class="line">        <span class="keywordflow">if</span> (state.selectionChanged) {</div><div class="line">            var el = <a class="code" href="class_ms_1_1_plugin_a_p_i_1_1_plugin_a_p_i.html#a2b4ec2ba6343f696ebcf74772c3ecf57">curScore</a> ? <a class="code" href="class_ms_1_1_plugin_a_p_i_1_1_plugin_a_p_i.html#a2b4ec2ba6343f696ebcf74772c3ecf57">curScore</a>.<a class="code" href="class_ms_1_1_plugin_a_p_i_1_1_score.html#a009a3294c5deb38e5274f91959213624">selection</a>.<a class="code" href="class_ms_1_1_plugin_a_p_i_1_1_selection.html#a583e24ccda917da911072aae42c62365">elements</a>[0] : null;</div><div class="line">            <span class="keywordflow">if</span> (el &amp;&amp; el.type == <a class="code" href="class_ms_1_1_plugin_a_p_i_1_1_plugin_a_p_i.html#a6bc5d7409e3b9ff1219f602801d9b576">Element</a>.NOTE)</div><div class="line">                pitchLabel.text = el.pitch;</div><div class="line">            <span class="keywordflow">else</span></div><div class="line">                pitchLabel.text = <span class="stringliteral">&quot;no note selected&quot;</span>;</div><div class="line">        }</div><div class="line">    }</div><div class="line">}</div></div><!-- fragment --> <dl class="section warning"><dt>Warning</dt><dd>This functionality is considered experimental. This API may change in future versions of <a class="el" href="class_ms_1_1_muse_score.html">MuseScore</a>. </dd></dl>
@@ -2159,6 +2159,7 @@ changes" dialog on closing a score that is either imported or was created with a
 </div><div class="memdoc">
 
 <p>Number of MIDI ticks for 1/4 note (read only) </p>
+<dl class="section see"><dt>See also</dt><dd>ticklength </dd></dl>
 
 </div>
 </div>

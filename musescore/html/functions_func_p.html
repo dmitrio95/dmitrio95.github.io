@@ -23,7 +23,7 @@
   <td id="projectlogo"><img alt="Logo" src="musescore_logo_full.png"/></td>
   <td id="projectalign" style="padding-left: 0.5em;">
    <div id="projectname">MuseScore
-   &#160;<span id="projectnumber">3.3.4</span>
+   &#160;<span id="projectnumber">3.4</span>
    </div>
    <div id="projectbrief">Music composition and notation</div>
   </td>
@@ -268,6 +268,9 @@ $(function() {
 <li>PaletteCellFilter()
 : <a class="el" href="class_ms_1_1_palette_cell_filter.html#abea37cd874586229f4a6de2f05f42e9c">Ms::PaletteCellFilter</a>
 </li>
+<li>PaletteCellFilterProxyModel()
+: <a class="el" href="class_ms_1_1_palette_cell_filter_proxy_model.html#aafb79f5b449839813532e89c8d2c345b">Ms::PaletteCellFilterProxyModel</a>
+</li>
 <li>PaletteCellIconEngine()
 : <a class="el" href="class_ms_1_1_palette_cell_icon_engine.html#aaab41d5b349d6df609e4057c9c1260bf">Ms::PaletteCellIconEngine</a>
 </li>
@@ -285,7 +288,10 @@ $(function() {
 : <a class="el" href="class_ms_1_1_palette_element_script_entry.html#a06c48726e7b99ee9b8aeddfab14662b5">Ms::PaletteElementScriptEntry</a>
 </li>
 <li>PaletteModel()
-: <a class="el" href="class_ms_1_1_palette_model.html#a8f0ad7b26c7259d64eb5a7c615d4b068">Ms::PaletteModel</a>
+: <a class="el" href="class_ms_1_1_palette_model.html#aeadbcb62002cc91053e0e0c77681112b">Ms::PaletteModel</a>
+</li>
+<li>paletteName()
+: <a class="el" href="class_ms_1_1_create_palette_dialog.html#ae5cf1b0b7d2ac96cba08aad235b6ca6c">Ms::CreatePaletteDialog</a>
 </li>
 <li>PalettePanel()
 : <a class="el" href="class_ms_1_1_palette_panel.html#a7ac08c62b2dbfd92ccb1a2a7aa44f899">Ms::PalettePanel</a>
@@ -454,6 +460,9 @@ $(function() {
 </li>
 <li>parseClef()
 : <a class="el" href="class_o_v_e_1_1_bars_parse.html#a359b7f987c1aa3d75bb3dd64f5be63f7">OVE::BarsParse</a>
+</li>
+<li>parseCommandLineArguments()
+: <a class="el" href="class_ms_1_1_muse_score_application.html#aa09a9168093eba08280f5bec28b7b95f">Ms::MuseScoreApplication</a>
 </li>
 <li>parseCommonBlock()
 : <a class="el" href="class_o_v_e_1_1_bars_parse.html#ab613db1a464e9c22378664b75477f00d">OVE::BarsParse</a>
@@ -733,7 +742,6 @@ $(function() {
 : <a class="el" href="class_ms_1_1_breath.html#a0203c97956c06f932abb6bfec6766ffa">Ms::Breath</a>
 , <a class="el" href="class_ms_1_1_layout_break.html#a13e9b9719e59dfe6d1e8acda1231f2b1">Ms::LayoutBreak</a>
 , <a class="el" href="class_ms_1_1_measure_base.html#ad0194f300147b15b038039e21ffb75b2">Ms::MeasureBase</a>
-, <a class="el" href="class_ms_1_1_section_break_properties.html#a95f1c34fbb75c51a629d995d01e899ca">Ms::SectionBreakProperties</a>
 </li>
 <li>pcmStart()
 : <a class="el" href="class_ms_1_1_alsa_driver.html#a3b1e612781e213018b68ea9b6baa44e3">Ms::AlsaDriver</a>
@@ -1134,12 +1142,10 @@ $(function() {
 : <a class="el" href="class_ms_1_1_cubic_bezier.html#aad04f64962d7b210ade632d7e99998d4">Ms::CubicBezier</a>
 </li>
 <li>points()
-: <a class="el" href="class_ms_1_1_bend.html#a3c2486c1bb206cbda8daa4d2c97d8ccb">Ms::Bend</a>
+: <a class="el" href="class_ms_1_1_bend.html#a52243c3256d1f94341f579a7bf400152">Ms::Bend</a>
 , <a class="el" href="class_ms_1_1_bend_canvas.html#a0027f4ee32c781e69755a7599f4f4a54">Ms::BendCanvas</a>
-, <a class="el" href="class_ms_1_1_bend_properties.html#a41c105d77f5241c44e02247116864ecd">Ms::BendProperties</a>
-, <a class="el" href="class_ms_1_1_tremolo_bar.html#a08754fb974a0f29296874b18d14f0f14">Ms::TremoloBar</a>
+, <a class="el" href="class_ms_1_1_tremolo_bar.html#a1257fde04910e34591f34660ffc69a76">Ms::TremoloBar</a>
 , <a class="el" href="class_ms_1_1_tremolo_bar_canvas.html#afaf13a0828f40b982f74dbfc8bedceb6">Ms::TremoloBarCanvas</a>
-, <a class="el" href="class_ms_1_1_tremolo_bar_properties.html#a8649a26c16e65fd2c57cd37e1cf07198">Ms::TremoloBarProperties</a>
 </li>
 <li>poly()
 : <a class="el" href="class_prbsgen.html#a89ee42650f39926a43a786ba0aa010f5">Prbsgen</a>
@@ -1210,7 +1216,7 @@ $(function() {
 : <a class="el" href="class_ms_1_1_midi_mapping.html#a816aa10ec356de8f5147b359d0067d38">Ms::MidiMapping</a>
 </li>
 <li>Port()
-: <a class="el" href="class_ms_1_1_port.html#ac09da8f19b2fdc3487aac34b21f05f69">Ms::Port</a>
+: <a class="el" href="class_ms_1_1_port.html#a7e4f9c1bea7157651bdfd9c921f8b9ee">Ms::Port</a>
 </li>
 <li>Portaudio()
 : <a class="el" href="class_ms_1_1_portaudio.html#a5483b2c92f22c295eeab9ee438b655d4">Ms::Portaudio</a>
@@ -1311,7 +1317,7 @@ $(function() {
 : <a class="el" href="class_ms_1_1_char_format.html#a13ef2d95d624fd807739b4b67b913274">Ms::CharFormat</a>
 </li>
 <li>Preference()
-: <a class="el" href="class_ms_1_1_preference.html#a8da66dd472ff496fd887bfc62b6aeee7">Ms::Preference</a>
+: <a class="el" href="class_ms_1_1_preference.html#a3b0393e2c82573deb2816a1f70f0edbb">Ms::Preference</a>
 </li>
 <li>preference()
 : <a class="el" href="struct_ms_1_1_preferences.html#a8bf9c79a0505f4a5f9882bd46a13eca6">Ms::Preferences</a>
@@ -1496,6 +1502,9 @@ $(function() {
 , <a class="el" href="class_ms_1_1_system.html#a8cddb8d558d8c8add2ed4c25d4f7c5d6">Ms::System</a>
 , <a class="el" href="class_ms_1_1_time_sig.html#ae0a22872eb49fecb039d799903b1a1c8">Ms::TimeSig</a>
 </li>
+<li>prevSessionStatus()
+: <a class="el" href="class_ms_1_1_session_status_observer.html#aed271fce7818d1a7421ca3b3d011a0c0">Ms::SessionStatusObserver</a>
+</li>
 <li>prevSpanner()
 : <a class="el" href="class_ms_1_1_spanner.html#a48e7fd654c2117c4a2494218c5ebcfcf">Ms::Spanner</a>
 </li>
@@ -1645,8 +1654,9 @@ $(function() {
 : <a class="el" href="class_zerberus.html#a568ce2899f74403f6906f72ecf9a5aa7">Zerberus</a>
 </li>
 <li>propertiesClicked()
-: <a class="el" href="class_ms_1_1_inspector_bend.html#a66520919c2652aee74ffc3805109459d">Ms::InspectorBend</a>
-, <a class="el" href="class_ms_1_1_inspector_tremolo_bar.html#a0843cccfb2145ac193ce930d90a708bf">Ms::InspectorTremoloBar</a>
+: <a class="el" href="class_ms_1_1_inspector_articulation.html#a81850117acbbebeb5c7ae079e1c408be">Ms::InspectorArticulation</a>
+, <a class="el" href="class_ms_1_1_inspector_staff_text.html#ac41c832014e790bab05aeb3748ea91a2">Ms::InspectorStaffText</a>
+, <a class="el" href="class_ms_1_1_inspector_time_sig.html#a9c05f54a894436bfcd699d70457c1fd4">Ms::InspectorTimeSig</a>
 </li>
 <li>propertyChanged()
 : <a class="el" href="class_ms_1_1_channel_listener.html#a22d3ab365af7d6b38404c0aa3619b620">Ms::ChannelListener</a>
@@ -1701,7 +1711,7 @@ $(function() {
 , <a class="el" href="class_ms_1_1_rehearsal_mark.html#a8a89e25f863449972c6f25f5d332acc3">Ms::RehearsalMark</a>
 , <a class="el" href="class_ms_1_1_rest.html#ac43a747b1da8ddae47e00a85b1530fb5">Ms::Rest</a>
 , <a class="el" href="class_ms_1_1_score.html#a645bb433cd12ba11682d3f4e3cfbe21f">Ms::Score</a>
-, <a class="el" href="class_ms_1_1_score_element.html#aaae0b7999568ce64245a5cf995af62b5">Ms::ScoreElement</a>
+, <a class="el" href="class_ms_1_1_score_element.html#ab3fcbdb9cd19d04933bd15434138c230">Ms::ScoreElement</a>
 , <a class="el" href="class_ms_1_1_segment.html#ae4725db3349395b60083528fa2f09635">Ms::Segment</a>
 , <a class="el" href="class_ms_1_1_s_line.html#a1264cd38eec445c77e790cda228df366">Ms::SLine</a>
 , <a class="el" href="class_ms_1_1_slur_tie.html#a65ecbb178c6faa7e6626ae2aebcb243b">Ms::SlurTie</a>
@@ -1844,7 +1854,7 @@ $(function() {
 , <a class="el" href="class_xml_writer.html#a0c8eeaa178e47f84f80d37df790cb1e0">XmlWriter</a>
 </li>
 <li>putNote()
-: <a class="el" href="class_ms_1_1_score.html#a4adfa682f7d0f6b8968ba83d8b5b4861">Ms::Score</a>
+: <a class="el" href="class_ms_1_1_score.html#afd4ddbc60bc7516a6f72c7df3d44aa33">Ms::Score</a>
 </li>
 <li>putvl()
 : <a class="el" href="class_midi_file.html#a74a8d5c857a669a8fa7334bbf30c40e5">MidiFile</a>

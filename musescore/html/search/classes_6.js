@@ -31,7 +31,6 @@ var searchData=
   ['fretcanvas',['FretCanvas',['../class_ms_1_1_fret_canvas.html',1,'Ms']]],
   ['fretclear',['FretClear',['../class_ms_1_1_fret_clear.html',1,'Ms']]],
   ['fretdiagram',['FretDiagram',['../class_ms_1_1_fret_diagram.html',1,'Ms']]],
-  ['fretdiagramproperties',['FretDiagramProperties',['../class_ms_1_1_fret_diagram_properties.html',1,'Ms']]],
   ['fretdot',['FretDot',['../class_ms_1_1_fret_dot.html',1,'Ms']]],
   ['fretitem',['FretItem',['../class_ms_1_1_fret_item.html',1,'Ms']]],
   ['fretmarker',['FretMarker',['../class_ms_1_1_fret_marker.html',1,'Ms']]],
