@@ -34,5 +34,6 @@ var searchData=
   ['npages',['npages',['../class_ms_1_1_plugin_a_p_i_1_1_score.html#a3327ddfaad600eca652cb54a5f23fea4',1,'Ms::PluginAPI::Score']]],
   ['nstaves',['nstaves',['../class_ms_1_1_plugin_a_p_i_1_1_score.html#ac2b4c6d71d393428a57cde2fd562aa7b',1,'Ms::PluginAPI::Score']]],
   ['ntracks',['ntracks',['../class_ms_1_1_plugin_a_p_i_1_1_score.html#a69ecc84bd4257af0981fbfb3d6e425dd',1,'Ms::PluginAPI::Score']]],
-  ['numerator',['numerator',['../class_ms_1_1_plugin_a_p_i_1_1_fraction_wrapper.html#afda10a8365f279d4d95a406787507bde',1,'Ms::PluginAPI::FractionWrapper']]]
+  ['numerator',['numerator',['../class_ms_1_1_plugin_a_p_i_1_1_fraction_wrapper.html#afda10a8365f279d4d95a406787507bde',1,'Ms::PluginAPI::FractionWrapper']]],
+  ['note_20pitch_20values',['Note Pitch values',['../pitch.html',1,'']]]
 ];

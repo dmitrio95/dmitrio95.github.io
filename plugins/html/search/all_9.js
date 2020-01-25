@@ -1,5 +1,6 @@
 var searchData=
 [
+  ['internationalization',['Internationalization',['../i18n.html',1,'']]],
   ['icon',['ICON',['../namespace_ms.html#a16b11be27a8e9362dd122c4d879e01aeadd912956b69fb3e570820021206968a3',1,'Ms']]],
   ['ignored_5fstyles',['IGNORED_STYLES',['../namespace_ms.html#aa46ffb71b1b0cd634b2054fa59ec5f90a8d325b34d34452a632675149c3f7d509',1,'Ms']]],
   ['image',['IMAGE',['../namespace_ms.html#a16b11be27a8e9362dd122c4d879e01aea23a12f67f614b5518c7f1c2465bf95e3',1,'Ms']]],

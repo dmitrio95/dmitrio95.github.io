@@ -23,7 +23,7 @@
   <td id="projectlogo"><img alt="Logo" src="musescore_logo_full.png"/></td>
   <td id="projectalign" style="padding-left: 0.5em;">
    <div id="projectname">MuseScore Plugins
-   &#160;<span id="projectnumber">3.3.4</span>
+   &#160;<span id="projectnumber">3.4</span>
    </div>
    <div id="projectbrief">Plugins API for MuseScore</div>
   </td>
@@ -139,9 +139,6 @@ virtual void&#160;</td><td class="memItemRight" valign="bottom"><b>endEdit</b> (
 <tr class="memitem:acd6216041ce5a78890806902bdd86f01"><td class="memItemLeft" align="right" valign="top"><a id="acd6216041ce5a78890806902bdd86f01"></a>
 virtual void&#160;</td><td class="memItemRight" valign="bottom"><b>editDrag</b> (EditData &amp;) override</td></tr>
 <tr class="separator:acd6216041ce5a78890806902bdd86f01"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a63e18da001fb0d9944d492c7da35928f"><td class="memItemLeft" align="right" valign="top"><a id="a63e18da001fb0d9944d492c7da35928f"></a>
-virtual void&#160;</td><td class="memItemRight" valign="bottom"><b>updateGrips</b> (EditData &amp;) const override</td></tr>
-<tr class="separator:a63e18da001fb0d9944d492c7da35928f"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a4285251b423523fbea3be46e407aae64"><td class="memItemLeft" align="right" valign="top"><a id="a4285251b423523fbea3be46e407aae64"></a>
 virtual Fraction&#160;</td><td class="memItemRight" valign="bottom"><b>tick</b> () const override</td></tr>
 <tr class="separator:a4285251b423523fbea3be46e407aae64"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -280,6 +277,30 @@ void&#160;</td><td class="memItemRight" valign="bottom"><b>addSkyline</b> (Skyli
 <tr class="memitem:ad1b6ece49526078db4e8471f4123c9ee"><td class="memItemLeft" align="right" valign="top"><a id="ad1b6ece49526078db4e8471f4123c9ee"></a>
 virtual void&#160;</td><td class="memItemRight" valign="bottom"><b>triggerLayout</b> () const override</td></tr>
 <tr class="separator:ad1b6ece49526078db4e8471f4123c9ee"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa2929e02259d3a5d44bde0c5e1f59952"><td class="memItemLeft" align="right" valign="top"><a id="aa2929e02259d3a5d44bde0c5e1f59952"></a>
+EditBehavior&#160;</td><td class="memItemRight" valign="bottom"><b>normalModeEditBehavior</b> () const override</td></tr>
+<tr class="separator:aa2929e02259d3a5d44bde0c5e1f59952"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af6352fc9d8d5998850035d5b944409ad"><td class="memItemLeft" align="right" valign="top"><a id="af6352fc9d8d5998850035d5b944409ad"></a>
+int&#160;</td><td class="memItemRight" valign="bottom"><b>gripsCount</b> () const override</td></tr>
+<tr class="separator:af6352fc9d8d5998850035d5b944409ad"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a7828f6bc4cab35cc00910c55c308ec89"><td class="memItemLeft" align="right" valign="top"><a id="a7828f6bc4cab35cc00910c55c308ec89"></a>
+Grip&#160;</td><td class="memItemRight" valign="bottom"><b>initialEditModeGrip</b> () const override</td></tr>
+<tr class="separator:a7828f6bc4cab35cc00910c55c308ec89"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a1839efc65bd8fa3003553c3ad6c7ca8f"><td class="memItemLeft" align="right" valign="top"><a id="a1839efc65bd8fa3003553c3ad6c7ca8f"></a>
+Grip&#160;</td><td class="memItemRight" valign="bottom"><b>defaultGrip</b> () const override</td></tr>
+<tr class="separator:a1839efc65bd8fa3003553c3ad6c7ca8f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af7109125f4cbc4c2933980107fb23e88"><td class="memItemLeft" align="right" valign="top"><a id="af7109125f4cbc4c2933980107fb23e88"></a>
+std::vector&lt; QPointF &gt;&#160;</td><td class="memItemRight" valign="bottom"><b>gripsPositions</b> (const EditData &amp;) const override</td></tr>
+<tr class="separator:af7109125f4cbc4c2933980107fb23e88"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aff4900e6fe22787a66b94f05eaad603f"><td class="memItemLeft" align="right" valign="top"><a id="aff4900e6fe22787a66b94f05eaad603f"></a>
+QRectF&#160;</td><td class="memItemRight" valign="bottom"><b>drag</b> (EditData &amp;) override</td></tr>
+<tr class="separator:aff4900e6fe22787a66b94f05eaad603f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a6e5e87d290865ae71d8fc4ffcc61405a"><td class="memItemLeft" align="right" valign="top"><a id="a6e5e87d290865ae71d8fc4ffcc61405a"></a>
+bool&#160;</td><td class="memItemRight" valign="bottom"><b>isMovable</b> () const override</td></tr>
+<tr class="separator:a6e5e87d290865ae71d8fc4ffcc61405a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a4acf88e1e70d0b0107775ce365324b62"><td class="memItemLeft" align="right" valign="top"><a id="a4acf88e1e70d0b0107775ce365324b62"></a>
+void&#160;</td><td class="memItemRight" valign="bottom"><b>startDrag</b> (EditData &amp;) override</td></tr>
+<tr class="separator:a4acf88e1e70d0b0107775ce365324b62"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-static-methods"></a>
 Static Public Member Functions</h2></td></tr>

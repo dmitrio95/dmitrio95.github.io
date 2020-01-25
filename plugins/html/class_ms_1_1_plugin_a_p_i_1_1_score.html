@@ -23,7 +23,7 @@
   <td id="projectlogo"><img alt="Logo" src="musescore_logo_full.png"/></td>
   <td id="projectalign" style="padding-left: 0.5em;">
    <div id="projectname">MuseScore Plugins
-   &#160;<span id="projectnumber">3.3.4</span>
+   &#160;<span id="projectnumber">3.4</span>
    </div>
    <div id="projectbrief">Plugins API for MuseScore</div>
   </td>
@@ -117,9 +117,9 @@ Q_INVOKABLE <a class="el" href="class_ms_1_1_plugin_a_p_i_1_1_segment.html">Ms::
 <tr class="memitem:abd4bfe44177660a92f3366b71b494c2a"><td class="memItemLeft" align="right" valign="top"><a id="abd4bfe44177660a92f3366b71b494c2a"></a>
 Q_INVOKABLE QString&#160;</td><td class="memItemRight" valign="bottom"><b>extractLyrics</b> ()</td></tr>
 <tr class="separator:abd4bfe44177660a92f3366b71b494c2a"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:abf31b1d2e931e0fabffa12b13de8d40e"><td class="memItemLeft" align="right" valign="top">Q_INVOKABLE void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ms_1_1_plugin_a_p_i_1_1_score.html#abf31b1d2e931e0fabffa12b13de8d40e">startCmd</a> ()</td></tr>
-<tr class="memdesc:abf31b1d2e931e0fabffa12b13de8d40e"><td class="mdescLeft">&#160;</td><td class="mdescRight">For "dock" type plugins: to be used before score modifications to make them undoable.  <a href="#abf31b1d2e931e0fabffa12b13de8d40e">More...</a><br /></td></tr>
-<tr class="separator:abf31b1d2e931e0fabffa12b13de8d40e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9962f2753eaaee2356cdcf8b786316bd"><td class="memItemLeft" align="right" valign="top">Q_INVOKABLE void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ms_1_1_plugin_a_p_i_1_1_score.html#a9962f2753eaaee2356cdcf8b786316bd">startCmd</a> ()</td></tr>
+<tr class="memdesc:a9962f2753eaaee2356cdcf8b786316bd"><td class="mdescLeft">&#160;</td><td class="mdescRight">For "dock" type plugins: to be used before score modifications to make them undoable.  <a href="#a9962f2753eaaee2356cdcf8b786316bd">More...</a><br /></td></tr>
+<tr class="separator:a9962f2753eaaee2356cdcf8b786316bd"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a9970862e902ca3c0747c5aedf95b8407"><td class="memItemLeft" align="right" valign="top">Q_INVOKABLE void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ms_1_1_plugin_a_p_i_1_1_score.html#a9970862e902ca3c0747c5aedf95b8407">endCmd</a> (bool rollback=false)</td></tr>
 <tr class="memdesc:a9970862e902ca3c0747c5aedf95b8407"><td class="mdescLeft">&#160;</td><td class="mdescRight">For "dock" type plugins: to be used after score modifications to make them undoable.  <a href="#a9970862e902ca3c0747c5aedf95b8407">More...</a><br /></td></tr>
 <tr class="separator:a9970862e902ca3c0747c5aedf95b8407"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -327,34 +327,26 @@ QString&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="c
 <p>For "dock" type plugins: to be used after score modifications to make them undoable. </p>
 <p>Ends an undoable command. Should be used at least once by "dock" type plugins in case they modify the score. </p><dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
-    <tr><td class="paramname">rollback</td><td>If true, reverts all the changes made since the last <a class="el" href="class_ms_1_1_plugin_a_p_i_1_1_score.html#abf31b1d2e931e0fabffa12b13de8d40e" title="For &quot;dock&quot; type plugins: to be used before score modifications to make them undoable. ">startCmd()</a> invocation. </td></tr>
+    <tr><td class="paramname">rollback</td><td>If true, reverts all the changes made since the last <a class="el" href="class_ms_1_1_plugin_a_p_i_1_1_score.html#a9962f2753eaaee2356cdcf8b786316bd" title="For &quot;dock&quot; type plugins: to be used before score modifications to make them undoable. ">startCmd()</a> invocation. </td></tr>
   </table>
   </dd>
 </dl>
 
 </div>
 </div>
-<a id="abf31b1d2e931e0fabffa12b13de8d40e"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#abf31b1d2e931e0fabffa12b13de8d40e">&#9670;&nbsp;</a></span>startCmd()</h2>
+<a id="a9962f2753eaaee2356cdcf8b786316bd"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a9962f2753eaaee2356cdcf8b786316bd">&#9670;&nbsp;</a></span>startCmd()</h2>
 
 <div class="memitem">
 <div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">Q_INVOKABLE void startCmd </td>
+          <td class="memname">void startCmd </td>
           <td>(</td>
           <td class="paramname"></td><td>)</td>
           <td></td>
         </tr>
       </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
-  </tr>
-</table>
 </div><div class="memdoc">
 
 <p>For "dock" type plugins: to be used before score modifications to make them undoable. </p>

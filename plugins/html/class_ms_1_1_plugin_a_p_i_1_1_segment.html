@@ -23,7 +23,7 @@
   <td id="projectlogo"><img alt="Logo" src="musescore_logo_full.png"/></td>
   <td id="projectalign" style="padding-left: 0.5em;">
    <div id="projectname">MuseScore Plugins
-   &#160;<span id="projectnumber">3.3.4</span>
+   &#160;<span id="projectnumber">3.4</span>
    </div>
    <div id="projectbrief">Plugins API for MuseScore</div>
   </td>
@@ -137,8 +137,8 @@ Properties</h2></td></tr>
 <a class="el" href="namespace_ms.html#a45f8c604b4008a278fe9bde5156489ee">Ms::SegmentType</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ms_1_1_plugin_a_p_i_1_1_segment.html#a337e196a5cd5639413c13f33f3b55c65">segmentType</a></td></tr>
 <tr class="memdesc:a337e196a5cd5639413c13f33f3b55c65"><td class="mdescLeft">&#160;</td><td class="mdescRight">Type of this segment, one of <a class="el" href="class_ms_1_1_plugin_a_p_i_1_1_plugin_a_p_i.html#ae811f56cc22bf5a200ebfae828050c58" title="Contains Ms::SegmentType enumeration values. ">PluginAPI::PluginAPI::Segment</a> values. <br /></td></tr>
 <tr class="separator:a337e196a5cd5639413c13f33f3b55c65"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ad4e0bbc0cc0ffb91120206fb4de60261"><td class="memItemLeft" align="right" valign="top"><a id="ad4e0bbc0cc0ffb91120206fb4de60261"></a>
-int&#160;</td><td class="memItemRight" valign="bottom"><b>tick</b></td></tr>
+<tr class="memitem:ad4e0bbc0cc0ffb91120206fb4de60261"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ms_1_1_plugin_a_p_i_1_1_segment.html#ad4e0bbc0cc0ffb91120206fb4de60261">tick</a></td></tr>
+<tr class="memdesc:ad4e0bbc0cc0ffb91120206fb4de60261"><td class="mdescLeft">&#160;</td><td class="mdescRight">Current tick for this segment.  <a href="#ad4e0bbc0cc0ffb91120206fb4de60261">More...</a><br /></td></tr>
 <tr class="separator:ad4e0bbc0cc0ffb91120206fb4de60261"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="inherit_header properties_class_ms_1_1_plugin_a_p_i_1_1_element"><td colspan="2" onclick="javascript:toggleInherit('properties_class_ms_1_1_plugin_a_p_i_1_1_element')"><img src="closed.png" alt="-"/>&#160;Properties inherited from <a class="el" href="class_ms_1_1_plugin_a_p_i_1_1_element.html">Element</a></td></tr>
 <tr class="memitem:a8c11810ecd428c581ea05d5bec3563de inherit properties_class_ms_1_1_plugin_a_p_i_1_1_element"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_ms_1_1_plugin_a_p_i_1_1_element.html">Ms::PluginAPI::Element</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ms_1_1_plugin_a_p_i_1_1_element.html#a8c11810ecd428c581ea05d5bec3563de">parent</a></td></tr>
@@ -962,6 +962,32 @@ QVariant&#160;</td><td class="memItemRight" valign="bottom"><b>position</b></td>
 
 <p>Previous segment in this measure. </p>
 <dl class="section return"><dt>Returns</dt><dd>The previous segment in this segment's measure. Null if there is no such segment. </dd></dl>
+
+</div>
+</div>
+<a id="ad4e0bbc0cc0ffb91120206fb4de60261"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ad4e0bbc0cc0ffb91120206fb4de60261">&#9670;&nbsp;</a></span>tick</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">int tick</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">read</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Current tick for this segment. </p>
+<dl class="section return"><dt>Returns</dt><dd>Tick of this segment, i.e. number of ticks from the beginning of the score to this segment. </dd></dl>
+<dl class="section see"><dt>See also</dt><dd><a class="el" href="ticklength.html">Tick Length values</a> </dd></dl>
 
 </div>
 </div>

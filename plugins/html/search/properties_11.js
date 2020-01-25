@@ -1,7 +1,7 @@
 var searchData=
 [
   ['tempo',['tempo',['../class_ms_1_1_plugin_a_p_i_1_1_cursor.html#a1f76939ad14e456ef73266a4c65dd693',1,'Ms::PluginAPI::Cursor']]],
-  ['tick',['tick',['../class_ms_1_1_plugin_a_p_i_1_1_cursor.html#ad4e0bbc0cc0ffb91120206fb4de60261',1,'Ms::PluginAPI::Cursor']]],
+  ['tick',['tick',['../class_ms_1_1_plugin_a_p_i_1_1_cursor.html#ad4e0bbc0cc0ffb91120206fb4de60261',1,'Ms::PluginAPI::Cursor::tick()'],['../class_ms_1_1_plugin_a_p_i_1_1_segment.html#ad4e0bbc0cc0ffb91120206fb4de60261',1,'Ms::PluginAPI::Segment::tick()']]],
   ['ticks',['ticks',['../class_ms_1_1_plugin_a_p_i_1_1_fraction_wrapper.html#a8d0065299615176169ceac2c65f38365',1,'Ms::PluginAPI::FractionWrapper']]],
   ['tid',['Tid',['../class_ms_1_1_plugin_a_p_i_1_1_plugin_a_p_i.html#a08c40a3baac4c548cfc0e7e21d2c5a65',1,'Ms::PluginAPI::PluginAPI']]],
   ['tieback',['tieBack',['../class_ms_1_1_plugin_a_p_i_1_1_note.html#ac639c672fd70c51a056330ebdc95ffa4',1,'Ms::PluginAPI::Note']]],

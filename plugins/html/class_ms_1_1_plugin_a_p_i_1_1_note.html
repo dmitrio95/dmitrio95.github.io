@@ -23,7 +23,7 @@
   <td id="projectlogo"><img alt="Logo" src="musescore_logo_full.png"/></td>
   <td id="projectalign" style="padding-left: 0.5em;">
    <div id="projectname">MuseScore Plugins
-   &#160;<span id="projectnumber">3.3.4</span>
+   &#160;<span id="projectnumber">3.4</span>
    </div>
    <div id="projectbrief">Plugins API for MuseScore</div>
   </td>
@@ -155,9 +155,8 @@ QQmlListProperty&lt; <a class="el" href="class_ms_1_1_plugin_a_p_i_1_1_element.h
 <tr class="memitem:aa7bbaa20492af8cb403f6a59b36666e7"><td class="memItemLeft" align="right" valign="top"><a class="el" href="namespace_ms.html#a0e0de7dc7864c9c2e738e017dce974be">Ms::NoteType</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ms_1_1_plugin_a_p_i_1_1_note.html#aa7bbaa20492af8cb403f6a59b36666e7">noteType</a></td></tr>
 <tr class="memdesc:aa7bbaa20492af8cb403f6a59b36666e7"><td class="mdescLeft">&#160;</td><td class="mdescRight">The NoteType of the note.  <a href="#aa7bbaa20492af8cb403f6a59b36666e7">More...</a><br /></td></tr>
 <tr class="separator:aa7bbaa20492af8cb403f6a59b36666e7"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a05c8b22d2905f7a52fa31b13f85c70f3"><td class="memItemLeft" align="right" valign="top"><a id="a05c8b22d2905f7a52fa31b13f85c70f3"></a>
-int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ms_1_1_plugin_a_p_i_1_1_note.html#a05c8b22d2905f7a52fa31b13f85c70f3">pitch</a></td></tr>
-<tr class="memdesc:a05c8b22d2905f7a52fa31b13f85c70f3"><td class="mdescLeft">&#160;</td><td class="mdescRight">MIDI pitch of this note. <br /></td></tr>
+<tr class="memitem:a05c8b22d2905f7a52fa31b13f85c70f3"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ms_1_1_plugin_a_p_i_1_1_note.html#a05c8b22d2905f7a52fa31b13f85c70f3">pitch</a></td></tr>
+<tr class="memdesc:a05c8b22d2905f7a52fa31b13f85c70f3"><td class="mdescLeft">&#160;</td><td class="mdescRight">MIDI pitch of this note.  <a href="#a05c8b22d2905f7a52fa31b13f85c70f3">More...</a><br /></td></tr>
 <tr class="separator:a05c8b22d2905f7a52fa31b13f85c70f3"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:acb96e4cc7e05870cb410355770206ebd"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ms_1_1_plugin_a_p_i_1_1_note.html#acb96e4cc7e05870cb410355770206ebd">tpc1</a></td></tr>
 <tr class="memdesc:acb96e4cc7e05870cb410355770206ebd"><td class="mdescLeft">&#160;</td><td class="mdescRight">Concert pitch of the note.  <a href="#acb96e4cc7e05870cb410355770206ebd">More...</a><br /></td></tr>
@@ -995,6 +994,31 @@ QVariant&#160;</td><td class="memItemRight" valign="bottom"><b>position</b></td>
 
 </div>
 </div>
+<a id="a05c8b22d2905f7a52fa31b13f85c70f3"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a05c8b22d2905f7a52fa31b13f85c70f3">&#9670;&nbsp;</a></span>pitch</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">int pitch</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">read</span><span class="mlabel">write</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>MIDI pitch of this note. </p>
+<dl class="section see"><dt>See also</dt><dd><a class="el" href="pitch.html">Note Pitch values</a> </dd></dl>
+
+</div>
+</div>
 <a id="a92f8b5e37b6a64985424d9e388d5b07c"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a92f8b5e37b6a64985424d9e388d5b07c">&#9670;&nbsp;</a></span>playEvents</h2>
 
@@ -1091,7 +1115,7 @@ QVariant&#160;</td><td class="memItemRight" valign="bottom"><b>position</b></td>
 </div><div class="memdoc">
 
 <p>Concert or transposing pitch of this note, as per current "Concert Pitch" setting value. </p>
-<dl class="section see"><dt>See also</dt><dd><a href="https://musescore.org/plugin-development/tonal-pitch-class-enum">https://musescore.org/plugin-development/tonal-pitch-class-enum</a> </dd></dl>
+<dl class="section see"><dt>See also</dt><dd><a class="el" href="tpc.html">Tonal Pitch Class</a> </dd></dl>
 
 </div>
 </div>
@@ -1116,7 +1140,7 @@ QVariant&#160;</td><td class="memItemRight" valign="bottom"><b>position</b></td>
 </div><div class="memdoc">
 
 <p>Concert pitch of the note. </p>
-<dl class="section see"><dt>See also</dt><dd><a href="https://musescore.org/plugin-development/tonal-pitch-class-enum">https://musescore.org/plugin-development/tonal-pitch-class-enum</a> </dd></dl>
+<dl class="section see"><dt>See also</dt><dd><a class="el" href="tpc.html">Tonal Pitch Class</a> </dd></dl>
 
 </div>
 </div>
@@ -1141,7 +1165,7 @@ QVariant&#160;</td><td class="memItemRight" valign="bottom"><b>position</b></td>
 </div><div class="memdoc">
 
 <p>Transposing pitch of the note. </p>
-<dl class="section see"><dt>See also</dt><dd><a href="https://musescore.org/plugin-development/tonal-pitch-class-enum">https://musescore.org/plugin-development/tonal-pitch-class-enum</a> </dd></dl>
+<dl class="section see"><dt>See also</dt><dd><a class="el" href="tpc.html">Tonal Pitch Class</a> </dd></dl>
 
 </div>
 </div>

@@ -23,7 +23,7 @@
   <td id="projectlogo"><img alt="Logo" src="musescore_logo_full.png"/></td>
   <td id="projectalign" style="padding-left: 0.5em;">
    <div id="projectname">MuseScore Plugins
-   &#160;<span id="projectnumber">3.3.4</span>
+   &#160;<span id="projectnumber">3.4</span>
    </div>
    <div id="projectbrief">Plugins API for MuseScore</div>
   </td>
@@ -173,9 +173,8 @@ QString&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="c
 bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ms_1_1_plugin_a_p_i_1_1_plugin_a_p_i.html#a1e7fbe5c604cc0e143f744e0b0988222">requiresScore</a></td></tr>
 <tr class="memdesc:a1e7fbe5c604cc0e143f744e0b0988222"><td class="mdescLeft">&#160;</td><td class="mdescRight">Whether the plugin requires an existing score to run, default is <code>true</code> <br /></td></tr>
 <tr class="separator:a1e7fbe5c604cc0e143f744e0b0988222"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a27647bf7f2735c5b9e749a3a97700453"><td class="memItemLeft" align="right" valign="top"><a id="a27647bf7f2735c5b9e749a3a97700453"></a>
-int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ms_1_1_plugin_a_p_i_1_1_plugin_a_p_i.html#a27647bf7f2735c5b9e749a3a97700453">division</a></td></tr>
-<tr class="memdesc:a27647bf7f2735c5b9e749a3a97700453"><td class="mdescLeft">&#160;</td><td class="mdescRight">Number of MIDI ticks for 1/4 note (read only) <br /></td></tr>
+<tr class="memitem:a27647bf7f2735c5b9e749a3a97700453"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ms_1_1_plugin_a_p_i_1_1_plugin_a_p_i.html#a27647bf7f2735c5b9e749a3a97700453">division</a></td></tr>
+<tr class="memdesc:a27647bf7f2735c5b9e749a3a97700453"><td class="mdescLeft">&#160;</td><td class="mdescRight">Number of MIDI ticks for 1/4 note (read only)  <a href="#a27647bf7f2735c5b9e749a3a97700453">More...</a><br /></td></tr>
 <tr class="separator:a27647bf7f2735c5b9e749a3a97700453"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aa864ecc3f37e9c9524372f5f28dec7f4"><td class="memItemLeft" align="right" valign="top"><a id="aa864ecc3f37e9c9524372f5f28dec7f4"></a>
 int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ms_1_1_plugin_a_p_i_1_1_plugin_a_p_i.html#aa864ecc3f37e9c9524372f5f28dec7f4">mscoreVersion</a></td></tr>
@@ -430,7 +429,7 @@ changes" dialog on closing a score that is either imported or was created with a
 <li><code>endLayoutTick</code> </li>
 </ul>
 <p>If a plugin modifies score in this handler, then it should:</p><ol type="1">
-<li>enclose all modifications within <a class="el" href="class_ms_1_1_plugin_a_p_i_1_1_score.html#abf31b1d2e931e0fabffa12b13de8d40e" title="For &quot;dock&quot; type plugins: to be used before score modifications to make them undoable. ">Score::startCmd()</a> / <a class="el" href="class_ms_1_1_plugin_a_p_i_1_1_score.html#a9970862e902ca3c0747c5aedf95b8407" title="For &quot;dock&quot; type plugins: to be used after score modifications to make them undoable. ">Score::endCmd()</a></li>
+<li>enclose all modifications within <a class="el" href="class_ms_1_1_plugin_a_p_i_1_1_score.html#a9962f2753eaaee2356cdcf8b786316bd" title="For &quot;dock&quot; type plugins: to be used before score modifications to make them undoable. ">Score::startCmd()</a> / <a class="el" href="class_ms_1_1_plugin_a_p_i_1_1_score.html#a9970862e902ca3c0747c5aedf95b8407" title="For &quot;dock&quot; type plugins: to be used after score modifications to make them undoable. ">Score::endCmd()</a></li>
 <li>take care of preventing an infinite recursion, as plugin-originated changes will trigger this signal again after calling <a class="el" href="class_ms_1_1_plugin_a_p_i_1_1_score.html#a9970862e902ca3c0747c5aedf95b8407" title="For &quot;dock&quot; type plugins: to be used after score modifications to make them undoable. ">Score::endCmd()</a></li>
 </ol>
 <p>Example: </p><div class="fragment"><div class="line"><span class="keyword">import</span> QtQuick 2.0</div><div class="line">import MuseScore 3.0</div><div class="line"></div><div class="line">MuseScore {</div><div class="line">    <a class="code" href="class_ms_1_1_plugin_a_p_i_1_1_plugin_a_p_i.html#afb6a06fc30328be2f07f33be372b3319">menuPath</a>: <span class="stringliteral">&quot;Plugins.selectionChangeExample&quot;</span></div><div class="line">    <a class="code" href="class_ms_1_1_plugin_a_p_i_1_1_plugin_a_p_i.html#a5fac96ae051a9f09f99b423019783fdc">pluginType</a>: <span class="stringliteral">&quot;dock&quot;</span></div><div class="line">    <a class="code" href="class_ms_1_1_plugin_a_p_i_1_1_plugin_a_p_i.html#a8b8992cd6edd00adf65252b962db3156">dockArea</a>:   <span class="stringliteral">&quot;left&quot;</span></div><div class="line">    implicitHeight: 75 <span class="comment">// necessary for dock widget to appear with nonzero height</span></div><div class="line">    implicitWidth: 150</div><div class="line"></div><div class="line">    Text {</div><div class="line">       <span class="comment">// A label which will display pitch of the currently selected note</span></div><div class="line">       id: pitchLabel</div><div class="line">       anchors.fill: parent</div><div class="line">    }</div><div class="line"></div><div class="line">    onScoreStateChanged: {</div><div class="line">        <span class="keywordflow">if</span> (state.selectionChanged) {</div><div class="line">            var el = <a class="code" href="class_ms_1_1_plugin_a_p_i_1_1_plugin_a_p_i.html#ad2e45485dcc2ae3a54703c7b5e35aa63">curScore</a> ? <a class="code" href="class_ms_1_1_plugin_a_p_i_1_1_plugin_a_p_i.html#ad2e45485dcc2ae3a54703c7b5e35aa63">curScore</a>.<a class="code" href="class_ms_1_1_plugin_a_p_i_1_1_score.html#a03c42d849f61a07a11f4db791917442e">selection</a>.<a class="code" href="class_ms_1_1_plugin_a_p_i_1_1_selection.html#a57b9543b1da324db238953503fa4d32a">elements</a>[0] : null;</div><div class="line">            <span class="keywordflow">if</span> (el &amp;&amp; el.type == <a class="code" href="class_ms_1_1_plugin_a_p_i_1_1_plugin_a_p_i.html#a5fcfe46c56901e9f3998a72a458e66dc">Element</a>.NOTE)</div><div class="line">                pitchLabel.text = el.pitch;</div><div class="line">            <span class="keywordflow">else</span></div><div class="line">                pitchLabel.text = <span class="stringliteral">&quot;no note selected&quot;</span>;</div><div class="line">        }</div><div class="line">    }</div><div class="line">}</div></div><!-- fragment --> <dl class="section warning"><dt>Warning</dt><dd>This functionality is considered experimental. This API may change in future versions of MuseScore. </dd></dl>
@@ -555,6 +554,31 @@ changes" dialog on closing a score that is either imported or was created with a
 
 <p>Contains <a class="el" href="class_ms_1_1_m_score.html#a2f50471e3aa54ba4c0603b20d5423ade">Ms::MScore::DirectionH</a> enumeration values. </p>
 <dl class="section note"><dt>Note</dt><dd>In MuseScore 2.X this enumeration was available as <a class="el" href="namespace_ms.html#a7389e8334b14f39b20860d98e7ccb82ea684d325a7303f52e64011467ff5c5758">MScore.LEFT</a>, <a class="el" href="namespace_ms.html#a7389e8334b14f39b20860d98e7ccb82ea21507b40c80068eda19865706fdc2403">MScore.RIGHT</a>, <a class="el" href="namespace_ms.html#a224b9163917ac32fc95a60d8c1eec3aaae1f2d5134ed2543d38a0de9751cf75d9">MScore.AUTO</a>. </dd></dl>
+
+</div>
+</div>
+<a id="a27647bf7f2735c5b9e749a3a97700453"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a27647bf7f2735c5b9e749a3a97700453">&#9670;&nbsp;</a></span>division</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">int division</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">read</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Number of MIDI ticks for 1/4 note (read only) </p>
+<dl class="section see"><dt>See also</dt><dd><a class="el" href="ticklength.html">Tick Length values</a> </dd></dl>
 
 </div>
 </div>
